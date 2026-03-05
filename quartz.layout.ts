@@ -15,12 +15,10 @@ export const sharedPageComponents: SharedLayout = {
 }
 
 // components for pages that display a single page (e.g. a single note)
+// quartz.layout.ts
+
 export const defaultContentPageLayout: PageLayout = {
   beforeBody: [
-    Component.ConditionalRender({
-      component: Component.Breadcrumbs(),
-      condition: (page) => page.fileData.slug !== "index",
-    }),
     Component.ArticleTitle(),
     Component.ContentMeta(),
     Component.TagList(),
@@ -28,17 +26,13 @@ export const defaultContentPageLayout: PageLayout = {
   left: [
     Component.PageTitle(),
     Component.MobileOnly(Component.Spacer()),
-    Component.Flex({
-      components: [
-        {
-          Component: Component.Search(),
-          grow: true,
-        },
-        { Component: Component.Darkmode() },
-        { Component: Component.ReaderMode() },
-      ],
-    }),
-    Component.Explorer(),
+    Component.Search(),
+    Component.Darkmode(),
+    // Replace Component.Explorer() with this:
+    Component.DesktopOnly(Component.RecentNotes({ 
+      title: "Latest Posts",
+      limit: 5,
+    })),
   ],
   right: [
     Component.Graph(),
