@@ -17,7 +17,6 @@ const config: QuartzConfig = {
     },
     locale: "en-US",
     baseUrl: "https://krypto.superclark.net",
-    contentDir: "nodedata",
     ignorePatterns: ["private", "Templates", ".obsidian", "Daily Notes", "Notes",],
     defaultDateType: "modified",
     theme: {
