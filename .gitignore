@@ -1,5 +1,7 @@
 .obsidian/
 content/.obsidian/
-.DS_Store
+content/Notes/
+content/Daily Notes/
+content/zion/
 node_modules/
 .quartz-cache/
