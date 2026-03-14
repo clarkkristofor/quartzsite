@@ -1,4 +1,4 @@
 ---
 publish: true
-title: Urban Shadows QC
+title: QC Shadows
 ---

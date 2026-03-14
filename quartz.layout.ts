@@ -44,7 +44,7 @@ export const defaultContentPageLayout: PageLayout = {
                 className: "garden-col-left",
                 children: [
                   Component.GardenSection({ 
-                    title: "Urban Shadows QC", folder: "rpgs/UrbanShadowsQC", link: "/rpgs/UrbanShadowsQC/", limit: 5 
+                    title: "QC Shadows", folder: "rpgs/UrbanShadowsQC", link: "/rpgs/UrbanShadowsQC/", limit: 5 
                   })
                 ]
               }),
