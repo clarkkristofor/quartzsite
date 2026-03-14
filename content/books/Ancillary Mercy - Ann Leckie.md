@@ -17,4 +17,5 @@ isbn13: 9780316246675
 isbn10: 316246670
 localCoverImage: Files/BookCovers/Ancillary Mercy - Ann Leckie.jpg
 date_finished: 01/28/2016
+publish: true
 ---

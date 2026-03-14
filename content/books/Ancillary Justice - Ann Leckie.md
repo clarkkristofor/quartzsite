@@ -17,4 +17,5 @@ isbn13: 9780316246637
 isbn10: 316246638
 localCoverImage: Files/BookCovers/Ancillary Justice - Ann Leckie.jpg
 date_finished: 10/20/2014
+publish: true
 ---

@@ -16,4 +16,5 @@ previewLink: http://books.google.com/books?id=66QOAQAAMAAJ&q=killer+angels&dq=ki
 isbn13: UOM:49015002781723
 localCoverImage: Files/BookCovers/The Killer Angels - Michael Shaara.jpg
 date_finished: 12/13/1990
+publish: true
 ---

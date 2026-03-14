@@ -17,4 +17,5 @@ isbn13: 9781250621184
 isbn10: 1250621186
 localCoverImage: Files/BookCovers/The Blacktongue Thief - Christopher Buehlman.jpg
 date_finished: 5/20/2022
+publish: true
 ---

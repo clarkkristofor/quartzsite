@@ -17,4 +17,5 @@ isbn13: 9780316290241
 isbn10: 316290246
 localCoverImage: Files/BookCovers/Translation State - Ann Leckie.jpg
 date_finished: 7/31/2023
+publish: true
 ---

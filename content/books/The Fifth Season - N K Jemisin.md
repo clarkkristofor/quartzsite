@@ -17,4 +17,5 @@ isbn13: 9780316229302
 isbn10: 031622930X
 localCoverImage: Files/BookCovers/The Fifth Season - N K Jemisin.jpg
 date_finished: 1/7/2016
+publish: true
 ---

@@ -17,4 +17,5 @@ isbn13: 9780547952048
 isbn10: 054795204X
 localCoverImage: Files/BookCovers/The Return Of The King - JRR Tolkien.jpg
 date_finished: 2022-08-16
+publish: true
 ---

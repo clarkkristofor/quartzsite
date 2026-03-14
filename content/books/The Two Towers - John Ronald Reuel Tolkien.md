@@ -17,4 +17,5 @@ isbn10: 026110358X
 isbn13: 9780261103580
 localCoverImage: Files/BookCovers/The Two Towers - John Ronald Reuel Tolkien.jpg
 date_finished: 2022-02-25
+publish: true
 ---

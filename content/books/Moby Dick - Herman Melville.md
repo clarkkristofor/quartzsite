@@ -16,4 +16,5 @@ previewLink: http://books.google.com/books?id=XV8XAAAAYAAJ&printsec=frontcover&d
 isbn13: HARVARD:HN1E4C
 localCoverImage: Files/BookCovers/Moby Dick - Herman Melville.jpg
 date_finished: 7/11/2015
+publish: true
 ---

@@ -17,4 +17,5 @@ isbn13: 9780261103344
 isbn10: 261103342
 localCoverImage: Files/BookCovers/The Hobbit Or There and Back Again - John Ronald Reuel Tolkien.jpg
 date_finished: 2021-01-03
+publish: true
 ---

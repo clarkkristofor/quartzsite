@@ -17,4 +17,5 @@ isbn13: 9780007322497
 isbn10: 7322496
 localCoverImage: Files/BookCovers/The Fellowship of the Ring (The Lord of the Rings Book 1) - J R R Tolkien.jpg
 date_finished: 2021-06-01
+publish: true
 ---

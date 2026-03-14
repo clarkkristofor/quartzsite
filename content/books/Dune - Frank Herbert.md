@@ -17,4 +17,5 @@ isbn10: 441013597
 isbn13: 9780441013593
 localCoverImage: Files/BookCovers/Dune - Frank Herbert.jpg
 date_finished: 2020-03-14
+publish: true
 ---

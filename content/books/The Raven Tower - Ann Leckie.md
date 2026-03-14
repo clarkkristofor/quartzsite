@@ -17,4 +17,5 @@ isbn13: 9780316388719
 isbn10: 316388718
 localCoverImage: Files/BookCovers/The Raven Tower - Ann Leckie.jpg
 date_finished: 6/15/2019
+publish: true
 ---
