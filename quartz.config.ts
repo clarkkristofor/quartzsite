@@ -16,7 +16,7 @@ const config: QuartzConfig = {
       provider: "plausible",
     },
     locale: "en-US",
-    baseUrl: "krypto.superclark.net",
+    baseUrl: "superclark.net",
     ignorePatterns: ["private", "Templates", ".obsidian", "Daily Notes", "Notes",],
     defaultDateType: "modified",
     theme: {
