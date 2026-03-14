@@ -6,7 +6,6 @@ import ArticleTitle from "./ArticleTitle"
 import Darkmode from "./Darkmode"
 import ReaderMode from "./ReaderMode"
 import Head from "./Head"
-import PageTitle from "./PageTitle"
 import ContentMeta from "./ContentMeta"
 import Spacer from "./Spacer"
 import TableOfContents from "./TableOfContents"
@@ -32,7 +31,6 @@ export {
   Darkmode,
   ReaderMode,
   Head,
-  PageTitle,
   ContentMeta,
   Spacer,
   TableOfContents,
@@ -51,3 +49,14 @@ export {
   Flex,
   ConditionalRender,
 }
+
+export { default as FolderGrid } from "./FolderGrid"
+export { default as Section } from "./Section"
+export { default as SimpleList } from "./SimpleList"
+export { default as GardenSection } from "./GardenSection"
+export { default as PageTitle } from "./PageTitle"
+export { default as PageLogo } from "./PageLogo"
+export { default as PageMenu } from "./PageMenu"
+export { default as BookGrid } from "./BookGrid"
+export { default as RPGgrid } from "./RPGgrid" // Note the lowercase 'g' to match your filename
+export { default as GenericGrid } from "./GenericGrid" 

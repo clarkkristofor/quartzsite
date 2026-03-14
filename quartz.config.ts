@@ -9,35 +9,35 @@ import * as Plugin from "./quartz/plugins"
 const config: QuartzConfig = {
   configuration: {
     pageTitle: "super clark",
-    pageTitleSuffix: "the real punk rock",
+    pageTitleSuffix: ": the real punk rock",
     enableSPA: false,
     enablePopovers: true,
     analytics: {
       provider: "plausible",
     },
     locale: "en-US",
-    baseUrl: "https://krypto.superclark.net",
+    baseUrl: "krypto.superclark.net",
     ignorePatterns: ["private", "Templates", ".obsidian", "Daily Notes", "Notes",],
     defaultDateType: "modified",
     theme: {
       fontOrigin: "googleFonts",
       cdnCaching: true,
       typography: {
-        header: "Schibsted Grotesk",
-        body: "Source Sans Pro",
+        header: "Josefin Sans",    // --font-serif
+        body: "Lora",    // --font-sans 
         code: "IBM Plex Mono",
       },
       colors: {
         lightMode: {
-          light: "#faf8f8",
-          lightgray: "#e5e5e5",
-          gray: "#b8b8b8",
-          darkgray: "#4e4e4e",
-          dark: "#2b2b2b",
-          secondary: "#284b63",
-          tertiary: "#84a59d",
-          highlight: "rgba(143, 159, 169, 0.15)",
-          textHighlight: "#fff23688",
+          light: "#fffdf9",         // --color-light-cream (Background)
+          lightgray: "#f2ede4",     // --color-tinted-cream (Borders/UI)
+          gray: "#b8b8b8",          // --color-gray-500 (Subtitles)
+          darkgray: "#4e4e4e",      // --color-gray-800 (Body text)
+          dark: "#2b2b2b",          // (Headers)
+          secondary: "#a52a2a",     // --color-crimson (Links/Accents)
+          tertiary: "#1e3a8a",      // --color-sea-blue (Hover states)
+          highlight: "rgba(165, 42, 42, 0.1)", // Crimson tint for background highlights
+          textHighlight: "#fff2aa", // Standard yellow highlight for searched text
         },
         darkMode: {
           light: "#161618",
@@ -45,10 +45,10 @@ const config: QuartzConfig = {
           gray: "#646464",
           darkgray: "#d4d4d4",
           dark: "#ebebec",
-          secondary: "#7b97aa",
-          tertiary: "#84a59d",
+          secondary: "#ec4899",     // You can adjust these to a "Dark Crimson"
+          tertiary: "#84e1bc",
           highlight: "rgba(143, 159, 169, 0.15)",
-          textHighlight: "#b3aa0288",
+          textHighlight: "#b3aa02",
         },
       },
     },
