@@ -31,7 +31,7 @@ on [Spotify](https://open.spotify.com/playlist/0eRnQyyXznzy7GpQ0wULMf?si=87fc627
 17. **Moves in the Field** by Kelly Moran
 18. **Colores Del Mar** by Helado Negro
 19. **Good Luck, Babe!** by Chappell Roan
-20. **The L** by illuminati hotties
+20. **The L** by illuminati hotties 
 
 ### [2023: let the other fools pass](https://open.spotify.com/playlist/3bexVmmNGu8t2HwSyYVOi0?si=d3e0dbb75a4b4301)
 '<iframe style="border-radius:12px" src="https://open.spotify.com/embed/playlist/3bexVmmNGu8t2HwSyYVOi0?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>'

@@ -9,7 +9,7 @@ tags:
   - one-shot
   - Gamicon
 ---
-![image](https://cdn.shopify.com/s/files/1/0388/3902/5709/files/MythicCover.png?v=1746521859)
+![image](https://cdn.shopify.com/s/files/1/0388/3902/5709/files/MythicCover.png?v=1746521859) 
 
 I played [Mythic Bastionland](https://chrismcdee.itch.io/mythic-bastionland) at Gamicon Bromine.
 

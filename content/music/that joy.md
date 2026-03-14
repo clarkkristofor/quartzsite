@@ -9,7 +9,7 @@ description: Advent 2025 playlist
 link: https://open.qobuz.com/playlist/45725394
 image:
 ---
-## "that joy"
+## "that joy" 
 *on [qobuz]()*
 
 1. **Joy, Joy**
