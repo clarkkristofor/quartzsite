@@ -1,3 +1,6 @@
+/** @jsxImportSource preact */
+/** @jsx preact.h */
+/** @jsxFrag preact.Fragment */
 import { PageLayout, SharedLayout } from "./quartz/cfg"
 import * as Component from "./quartz/components"
 import { QuartzComponent, QuartzComponentProps } from "./quartz/components/types"
@@ -17,20 +20,20 @@ export const sharedPageComponents: SharedLayout = {
 }
 
 // 2. STANDARD NOTE & HOMEPAGE LAYOUT
+// 2. STANDARD NOTE & HOMEPAGE LAYOUT
 export const defaultContentPageLayout: PageLayout = {
   beforeBody: [
-    // Logic for Homepage Grid
+    // Homepage Logic - Explicitly typed to stop Error 7006
     ((props: QuartzComponentProps) => {
       const slug = props.fileData.slug ?? ""
       const isHome = slug === "index" || slug === "" || slug === "/"
-      
       if (!isHome) return null
 
       return Component.Section({ 
         className: "home-only-grid",
         children: [
           Component.Section({ className: "home-hero", title: "" }),
-          
+          // UPPER GARDEN
           Component.Section({ 
             className: "garden-section upper",
             children: [
@@ -57,7 +60,7 @@ export const defaultContentPageLayout: PageLayout = {
               }),
             ]
           }),
-
+          // LOWER GARDEN
           Component.Section({ 
             className: "garden-section lower",
             children: [
@@ -86,9 +89,9 @@ export const defaultContentPageLayout: PageLayout = {
           }),
         ]
       })(props)
-    }),
+    }), // <-- CHECK: This must have a comma and the closing bracket
   
-    // Logic for Standard Note Headers (Article Title, etc)
+    // Standard Note Headers
     ((props: QuartzComponentProps) => {
       const slug = props.fileData.slug ?? ""
       const isHome = slug === "index" || slug === "" || slug === "/"
@@ -120,10 +123,4 @@ export const defaultListPageLayout: PageLayout = {
   ],
   left: [],
   right: [],
-}
-
-export default {
-  sharedPageComponents,
-  defaultContentPageLayout,
-  defaultListPageLayout,
 }

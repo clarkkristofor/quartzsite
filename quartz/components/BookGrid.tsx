@@ -8,19 +8,17 @@ interface Options {
   title?: string
 }
 
-const BookGrid: QuartzComponent = (props: QuartzComponentProps & { options?: Options }) => {
-  // Pull values from options, with hard-coded defaults if they are missing
-  const folder = props.options?.folder ?? "books"
-  const title = props.options?.title ?? "Books"
-  const limit = props.options?.limit ?? 6
-  const link = `/${folder}/` // Dynamic link based on the folder
+// We change the signature to accept 'options' as a top-level prop alongside Quartz props
+const BookGrid: QuartzComponent = ({ options, ...props }: QuartzComponentProps & { options?: Options }) => {
+  // We pull from 'options' (which the factory below will provide)
+  const folder = options?.folder ?? "books"
+  const title = options?.title ?? "Books"
+  const limit = options?.limit ?? 6
+  const link = `/${folder}/`
   
   const pages = props.allFiles.filter(page => {
     const slug = page.slug ?? ""
-    // Ensure we only look at direct children of the target folder
     const isDirectChild = slug.split("/").length === (folder.split("/").length + 1)
-    
-    // Logic Gate: Only include pages with a date_finished value in frontmatter
     const isFinished = !!page.frontmatter?.date_finished 
     
     return slug.startsWith(folder + "/") && !slug.endsWith("index") && isDirectChild && isFinished
@@ -29,18 +27,14 @@ const BookGrid: QuartzComponent = (props: QuartzComponentProps & { options?: Opt
     ...page,
     frontmatter: {
       ...page.frontmatter,
-      // Fallback Logic: use 'coverUrl' if 'image' is missing
       image: page.frontmatter?.image || page.frontmatter?.coverUrl
     }
   }))
   .sort((a, b) => {
     const fmA = a.frontmatter as any
     const fmB = b.frontmatter as any
-    
     const dateA = fmA?.date_finished as string | undefined
     const dateB = fmB?.date_finished as string | undefined
-    
-    // Sort by most recently finished
     return (dateB ? new Date(dateB).getTime() : 0) - (dateA ? new Date(dateA).getTime() : 0)
   })
   .slice(0, limit)
@@ -50,18 +44,16 @@ const BookGrid: QuartzComponent = (props: QuartzComponentProps & { options?: Opt
       pages={pages} 
       title={title} 
       link={link} 
-      customClass={props.options?.displayClass} 
+      customClass={options?.displayClass} 
       {...props} 
     />
   )
 }
 
-/**
- * The Constructor Factory
- * This captures the options passed from layout.ts (like title: "Read") 
- * and injects them into the component's props.
- */
-export default ((opts?: Options) => {
-  const Component = (props: QuartzComponentProps) => <BookGrid options={opts} {...props} />
+// The Constructor Factory: This is the critical change
+export default ((userOptions?: Options): QuartzComponentConstructor => {
+  const Component = (externalProps: QuartzComponentProps) => (
+    <BookGrid options={userOptions} {...externalProps} />
+  )
   return Component
 }) satisfies QuartzComponentConstructor
