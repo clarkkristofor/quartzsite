@@ -6,3 +6,7 @@ src/site/_includes/components/user/common/footer/superfooter.njk
   Part of the <a href="https://superclark.net/" target="_blank" class="external-link">superclark.net</a> family.
   Yo, its <a href="/feed.xml" class="internal-link">RSS</a>!
 </div>
+
+Powered by the yellow sun of Quartz v4.5.2.
+CC BY 4.0 protection, 2020-2026 super clark.
+
