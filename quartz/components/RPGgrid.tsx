@@ -5,13 +5,15 @@ interface Options {
   folder: string
   displayClass?: string 
   limit?: number
+  title?: string // Added title to options to make it flexible
 }
 
 const RPGgrid: QuartzComponent = (props: QuartzComponentProps & { options?: Options }) => {
+  // Pull values from options with fallbacks
   const folder = props.options?.folder ?? "rpgs"
-  const title = "RPGs"
-  const link = "/rpgs/"
+  const title = props.options?.title ?? "RPGs" // Now supports custom titles like "Current Games"
   const limit = props.options?.limit ?? 4
+  const link = `/${folder}/` // Dynamic link based on the folder
   
   const pages = props.allFiles.filter(page => {
     const slug = page.slug ?? ""
@@ -26,10 +28,22 @@ const RPGgrid: QuartzComponent = (props: QuartzComponentProps & { options?: Opti
   .sort((a, b) => (b.dates?.modified?.getTime() ?? 0) - (a.dates?.modified?.getTime() ?? 0))
   .slice(0, limit)
 
-  return <BaseGrid pages={pages} title={title} link={link} customClass={props.options?.displayClass} {...props} />
+  return (
+    <BaseGrid 
+      pages={pages} 
+      title={title} 
+      link={link} 
+      customClass={props.options?.displayClass} 
+      {...props} 
+    />
+  )
 }
 
-
+/**
+ * Corrected Constructor Factory
+ * Ensures options passed from layout.ts are correctly injected into props.
+ */
 export default ((opts?: Options) => {
-  return (props: QuartzComponentProps) => RPGgrid({ ...props, options: opts })
+  const Component = (props: QuartzComponentProps) => <RPGgrid options={opts} {...props} />
+  return Component
 }) satisfies QuartzComponentConstructor
