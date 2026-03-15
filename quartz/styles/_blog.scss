@@ -60,24 +60,18 @@ body[data-slug="books/index"] .header-link {
    display:none !important;
 }
 
-
 body[data-slug="books/index"] {
-  // 1. Target the main container
-  .popover-hint {
-    display: flex;
-    flex-direction: column;
-  }
-
-  // 2. Hide the original "Books" h2 entirely
+  // 1. Hide the default page title ("Books")
   h2.article-title {
     display: none !important;
   }
 
-  // 3. Target the first grid title ("Read") 
-  // and style it to look like a main Page Title
+  // 2. Target the "Read" header (the first garden-title)
+  // We remove the margin-top on the container and style the h2 inside it
   .garden-section-container:nth-of-type(1) .garden-title {
-    margin-top: 1rem !important;
+    margin-top: 0 !important;
     margin-bottom: 2rem !important;
+    display: block !important; // Ensure it is visible
 
     .header-link {
        color: var(--dark) !important;
@@ -85,20 +79,23 @@ body[data-slug="books/index"] {
        font-size: 1.8rem !important;
        font-weight: 700 !important;
        text-decoration: none !important;
-       pointer-events: none; // Makes it look like a title, not a link
+       pointer-events: none; 
+       display: inline-block !important;
     }
     
     .header-arrow {
-       display: none !important; // Hides the link arrow
+       display: none !important; 
     }
   }
 
-  // 4. Fix the "Reading List" spacing
+  // 3. Spacing for "Reading List & Recommendations" (the second garden-title)
+  // We use margin-top on the container to force a gap
   .garden-section-container:nth-of-type(2) {
-    margin-top: 5rem !important; // Heavy margin to force the gap
+    margin-top: 5rem !important; 
     padding-top: 2rem;
     border-top: 1px solid var(--lightgray);
-    
+    display: block !important;
+
     .garden-title {
       margin-top: 0 !important;
     }
