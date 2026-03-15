@@ -1,6 +1,3 @@
-/** @jsxImportSource preact */
-/** @jsx preact.h */
-/** @jsxFrag preact.Fragment */
 import { PageLayout, SharedLayout } from "./quartz/cfg"
 import * as Component from "./quartz/components"
 import { QuartzComponent, QuartzComponentProps } from "./quartz/components/types"
