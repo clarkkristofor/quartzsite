@@ -14,8 +14,10 @@ export default ((opts?: Options) => {
     return (
       <footer class={`${displayClass ?? ""}`}>
         <p>
+           <a href="https://creativecommons.org/licenses/by/4.0/" target="_blank" class="external-link">CC BY 4.0</a>
+           Powered by
           {i18n(cfg.locale).components.footer.createdWith}{" "}
-          <a href="https://quartz.jzhao.xyz/">Quartz v{version}</a> © {year}
+          <a href="https://quartz.jzhao.xyz/">Quartz v{version}</a> © 2020-{year} super clark.
         </p>
         <ul>
           {Object.entries(links).map(([text, link]) => (

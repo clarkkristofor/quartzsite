@@ -74,7 +74,7 @@
 
     p { 
         -webkit-line-clamp: 2; 
-        font-size: 0.6rem !important; 
+        font-size: 0.85rem !important; 
     }
   }
 }
@@ -118,7 +118,7 @@
 
 .card-metadata, .card-author p,
 .book-grid .grid-card .card-content p, 
-.library-list .grid-card .card-content p  {
+.library-list .grid-card .card-content p {
   font-family: var(--bodyFont);
   font-style: italic; font-size: 0.8rem;
   color: var(--secondary); opacity: 0.8;
