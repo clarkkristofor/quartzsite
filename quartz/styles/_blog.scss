@@ -60,3 +60,33 @@ body[data-slug="books/index"] .header-link {
    display:none !important;
 }
   
+body[data-slug="books/index"] {
+  // 1. Hide the actual h1 text
+  .article-title {
+    visibility: hidden;
+    position: relative;
+    margin-bottom: 2rem; // Keep space for the new title
+  }
+
+  // 2. Inject the "Read" title
+  .article-title:before {
+    content: "Books Read";
+    visibility: visible;
+    position: absolute;
+    left: 0;
+    top: 0;
+    
+    // Your requested styles
+    color: var(--dark) !important;
+    font-family: var(--headerFont) !important;
+    font-size: 1.8rem !important;
+    font-weight: 700 !important;
+    line-height: 1.2 !important;
+    display: flex !important;
+    align-items: center !important;
+  }
+}
+
+body[data-slug="books/index"] .garden-title h2 {
+    margin-top: 2rem !important;
+}

@@ -51,9 +51,11 @@ const BookGrid: QuartzComponent = ({ options, ...props }: QuartzComponentProps &
 }
 
 // The Constructor Factory: This is the critical change
-export default ((userOptions?: Options): QuartzComponentConstructor => {
-  const Component = (externalProps: QuartzComponentProps) => (
-    <BookGrid options={userOptions} {...externalProps} />
+const BookGridConstructor = (userOptions?: Options): QuartzComponent => {
+  const Component: QuartzComponent = (props: QuartzComponentProps) => (
+    <BookGrid options={userOptions} {...props} />
   )
   return Component
-}) satisfies QuartzComponentConstructor
+}
+
+export default BookGridConstructor
