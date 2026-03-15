@@ -1,5 +1,5 @@
 ---
-title: Play
+title: "Reading now: Play"
 subtitle: How it Shapes the Brain, Opens the Imagination, and Invigorates the Soul
 author: Stuart L. Brown, Christopher C. Vaughan
 authors: Stuart L. Brown, Christopher C. Vaughan

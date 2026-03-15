@@ -1,10 +1,10 @@
 ---
-title: Slow Gods
+title: "Reading now: Slow Gods"
 author: Claire North
 authors: Claire North
-date_finished:
+date_finished: 5/20/2030
 isbn: "0316586307"
-image: http://books.google.com/books/content?id=_wEP0QEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api
+image: https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1740714031i/223296158.jpg
 link: http://books.google.com/books?id=_wEP0QEACAAJ&dq=intitle:Slow+Gods&hl=&cd=1&source=gbs_api
 publish: "true"
 ---
