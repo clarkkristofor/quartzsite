@@ -1,12 +1,14 @@
 @use "customVariables" as v;
 
 /* ==========================================================================
-   1. FULL-WIDTH LAYOUT RESET (Homepage & Folder Indexes)
+   FULL-WIDTH LAYOUT RESET (Homepage & Folder Indexes)
    ========================================================================== */
 
-/* This handles the sidebar removal and container breakout for grid-based pages */
+/* Add [data-slug$="index"] to the list of triggers */
 .page:has(.home-only-grid),
-.page:has(.folder-index-layout) {
+.page:has(.folder-index-layout),
+body[data-slug$="index"] { // This targets /books/index, /rpgs/index, etc.
+  
   #quartz-body {
     display: flex !important;
     flex-direction: column !important;
@@ -14,33 +16,18 @@
     width: 100% !important;
   }
 
-  /* Removes sidebars to reclaim horizontal space */
+  /* Reclaims the space from sidebars */
   .sidebar.left, 
   .sidebar.right {
     display: none !important;
   }
 
-  /* Removes the constrained width of the center content area */
+  /* Breaks the center content out of its 1200px cage */
   .center {
     width: 100% !important;
     max-width: none !important; 
     display: contents !important; 
   }
-}
-
-/* Fix HR and Footer alignment on Full-Width Pages */
-.page:has(.home-only-grid) hr,
-.page:has(.folder-index-layout) hr,
-.page:has(.home-only-grid) footer,
-.page:has(.folder-index-layout) footer {
-  grid-column: 1 / -1; 
-  width: 100% !important;
-  max-width: v.$page-max-width; 
-  margin-left: auto !important;
-  margin-right: auto !important;
-  border: none;
-  border-top: 1px solid var(--lightgray); 
-  clear: both;
 }
 
 /* ==========================================================================
