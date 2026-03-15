@@ -58,4 +58,18 @@
 
 body[data-slug="books/index"] .header-link {
    display:none !important;
+
+   &::before {
+    content: "Books Read";
+    color: var(--dark) !important;
+    font-family: var(--headerFont) !important;
+    align-items: center !important;
+    margin: 0 0 .5rem !important;
+    font-size: 1.8rem !important;
+    font-weight: 700 !important;
+    line-height: 1.2 !important;
+    display: flex !important;
+  }
+
 }
+  
