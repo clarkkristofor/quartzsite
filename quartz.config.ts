@@ -34,9 +34,9 @@ const config: QuartzConfig = {
           gray: "#b8b8b8",          // --color-gray-500 (Subtitles)
           darkgray: "#4e4e4e",      // --color-gray-800 (Body text)
           dark: "#2b2b2b",          // (Headers)
-          secondary: "#a52a2a",     // --color-crimson (Links/Accents)
-          tertiary: "#1e3a8a",      // --color-sea-blue (Hover states)
-          highlight: "rgba(165, 42, 42, 0.1)", // Crimson tint for background highlights
+          secondary: "#8b0000", // Superman Red
+          tertiary: "#0d47a1",  // Superman Blue
+          highlight: "rgba(255, 204, 51, 0.2)", // Yellow tintlights
           textHighlight: "#fff2aa", // Standard yellow highlight for searched text
         },
         darkMode: {

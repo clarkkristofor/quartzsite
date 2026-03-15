@@ -14,7 +14,6 @@ const BookGrid: QuartzComponent = (props: QuartzComponentProps & { options?: Opt
   const link = "/books/"
   const limit = props.options?.limit ?? 6
   
-  // Inside BookGrid.tsx
   const pages = props.allFiles.filter(page => {
     const slug = page.slug ?? ""
     const isDirectChild = slug.split("/").length === (folder.split("/").length + 1)
@@ -24,9 +23,22 @@ const BookGrid: QuartzComponent = (props: QuartzComponentProps & { options?: Opt
     
     return slug.startsWith(folder + "/") && !slug.endsWith("index") && isDirectChild && isFinished
   })
+  .map(page => ({
+    ...page,
+    frontmatter: {
+      ...page.frontmatter,
+      // Fallback Logic: if 'image' is missing, use 'coverUrl'
+      image: page.frontmatter?.image || page.frontmatter?.coverUrl
+    }
+  }))
   .sort((a, b) => {
-    const dateA = a.frontmatter?.date_finished as string | undefined
-    const dateB = b.frontmatter?.date_finished as string | undefined
+    // We cast frontmatter to 'any' to bypass the property existence check
+    const fmA = a.frontmatter as any
+    const fmB = b.frontmatter as any
+    
+    const dateA = fmA?.date_finished as string | undefined
+    const dateB = fmB?.date_finished as string | undefined
+    
     return (dateB ? new Date(dateB).getTime() : 0) - (dateA ? new Date(dateA).getTime() : 0)
   })
   .slice(0, limit)

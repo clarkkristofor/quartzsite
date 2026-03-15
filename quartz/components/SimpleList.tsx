@@ -29,14 +29,24 @@ const SimpleList = ({ pages, title, link, isMusic, customClass }: SimpleListProp
       </h2>
 
       <div className="simple-list">
-        {pages.map((page) => (
-          <a key={page.slug} href={`/${page.slug}`} className="grid-card list-item-card">
-            <div className="card-icon-wrapper">{icon}</div>
-            <div className="card-content">
-              <h3>{(page.frontmatter?.title as string) ?? page.name}</h3>
-            </div>
-          </a>
-        ))}
+        {pages.map((page) => {
+          const description = page.frontmatter?.description as string | undefined
+          const rawDate = page.frontmatter?.date
+          
+          return (
+            <a key={page.slug} href={`/${page.slug}`} className="grid-card list-item-card">
+              <div className="card-icon-wrapper">{icon}</div>
+              <div className="card-content">
+                <h3>{(page.frontmatter?.title as string) ?? page.name}</h3>
+                <div className="card-metadata">
+                  {description && <span className="card-desc">{description}</span>}
+                  {description && rawDate && <span className="meta-separator"> • </span>}
+                  {rawDate && <span className="card-date">{new Date(rawDate).toLocaleDateString()}</span>}
+                </div>
+              </div>
+            </a>
+          )
+        })}
       </div>
     </div>
   )

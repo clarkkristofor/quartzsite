@@ -1,0 +1,36 @@
+/* ==========================================================================
+   DESIGN TOKENS (Variables) _variables.scss
+   ========================================================================== */
+
+// 1. COLORS
+// Branding (The "Superman" Palette)
+$brand-red:    #e53935;
+$brand-red-dark: #8b0000;
+$brand-yellow: #ffcc33;
+$brand-blue:   #0d47a1;
+
+// Gradients
+$flame-gradient: linear-gradient(62deg, #8b0000 0%, #e53935 45%, #ffcc33 100%);
+$hover-overlay:  linear-gradient(0deg, #0d47a1, #0d47a1);
+
+// UI Status Colors
+$search-bg: #B8FFD0; // Light mint green from your search-wrapper
+
+// 2. TYPOGRAPHY
+$font-main: 'Josefin Sans', sans-serif;
+$font-size-base: 0.875rem;
+$font-weight-bold: 700;
+$font-weight-reg: 400;
+
+// 3. SPACING & BREAKPOINTS
+$page-max-width: 1400px;
+$mobile-breakpoint: 768px;
+$tablet-breakpoint: 900px;
+
+// Mobile Saftey Gaps (To fix your disappearing right margin)
+$container-padding-desktop: 1rem;
+$container-padding-mobile: 15px;
+
+// 4. TRANSITIONS
+$transition-smooth: 0.3s ease;
+$transition-bounce: 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);

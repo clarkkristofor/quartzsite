@@ -1,0 +1,29 @@
+// _customVariables.scss
+
+// 1. TYPOGRAPHY (Mapped to Quartz Config)
+$font-header: var(--headerFont);
+$font-body:   var(--bodyFont);
+$font-main:   var(--headerFont);
+$font-size-base: 0.875rem;     // This was missing!
+$font-weight-bold: 700;
+$font-weight-reg: 400;
+
+// 2. BRANDING (Mapped to Quartz Config)
+$brand-red:    var(--secondary);
+$brand-blue:   var(--tertiary);
+$brand-yellow: #ffcc33; 
+
+// 3. SPECIAL STYLES
+$flame-gradient: linear-gradient(62deg, $brand-red 0%, #e53935 45%, $brand-yellow 100%);
+$hover-overlay:  linear-gradient(0deg, $brand-blue, $brand-blue);
+$search-bg: #B8FFD0; 
+
+// 4. BREAKPOINTS & SPACING
+$page-max-width: 1400px;
+$mobile-breakpoint: 768px;
+$tablet-breakpoint: 900px;
+$container-padding-desktop: 1rem;
+$container-padding-mobile: 15px;
+
+// 5. ANIMATIONS
+$transition-smooth: 0.3s ease;

@@ -15,7 +15,7 @@ link: https://books.google.com/books/about/The_Obelisk_Gate.html?hl=&id=vNBfCgAA
 previewLink: http://books.google.com/books?id=vNBfCgAAQBAJ&dq=obelisk+gate&hl=&as_pt=BOOKS&cd=1&source=gbs_api
 isbn13: 9780356504896
 isbn10: 356504891
-image: Files/BookCovers/The Obelisk Gate - N K Jemisin.jpg
+localCoverImage: Files/BookCovers/The Obelisk Gate - N K Jemisin.jpg
 date_finished: 9/23/2016
 publish: true
 ---

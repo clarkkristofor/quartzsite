@@ -1,0 +1,70 @@
+@use "customVariables" as v;
+
+/* ==========================================================================
+   SEARCH INTERFACE _search.scss
+   ========================================================================== */
+
+/* 1. The Search Wrapper (The Mint Green Bar) */
+.search-wrapper {
+  background-color: v.$search-bg !important;
+  border: 1px solid #000 !important;
+  border-radius: 4px !important;
+  padding: 8px 12px !important;
+  display: flex !important;
+  align-items: center !important;
+  width: 250px !important; // Fixed width for consistency
+  position: relative;
+  
+  @media (max-width: v.$mobile-breakpoint) {
+    width: 100% !important;
+    max-width: 300px;
+  }
+}
+
+/* 2. Input and Icons */
+#search-bar {
+  background: transparent !important;
+  border: none !important;
+  font-family: v.$font-main;
+  font-size: 0.9rem;
+  width: 100%;
+  padding-left: 30px !important; // Space for the magnifying glass
+
+  &:focus { outline: none; }
+}
+
+.search-icon {
+  position: absolute;
+  left: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 18px;
+  height: 18px;
+  pointer-events: none;
+}
+
+/* 3. Search Results Overlay */
+#search-container {
+  .search-results {
+    background: var(--light);
+    border: 1px solid var(--lightgray);
+    border-radius: 8px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+    
+    // Ensure it doesn't bleed off screen on mobile
+    @media (max-width: v.$mobile-breakpoint) {
+      width: 95vw;
+      left: 2.5vw;
+    }
+  }
+
+  // The "Preview" pane on the right of search
+  .search-preview {
+    border-left: 1px solid var(--lightgray);
+    padding: 1.5rem;
+    
+    @media (max-width: v.$tablet-breakpoint) {
+      display: none; // Hide preview on smaller tablets/phones
+    }
+  }
+}

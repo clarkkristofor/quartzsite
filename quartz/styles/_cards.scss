@@ -1,0 +1,125 @@
+@use "customVariables" as v;
+
+/* ==========================================================================
+   1. BASE CARD STYLE (The Container)
+   ========================================================================== */
+.grid-card {
+  display: flex;
+  flex-direction: column;
+  background-color: var(--light);
+  border-radius: 4px;
+  overflow: hidden;
+  height: 100%;
+  transition: transform v.$transition-smooth, box-shadow v.$transition-smooth;
+
+  &:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+  }
+
+  .card-image {
+    width: 100%;
+    aspect-ratio: 2 / 3;
+    overflow: hidden;
+
+    img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      display: block;
+      margin: 0 !important;
+    }
+  }
+
+  .card-content {
+    padding: 1rem !important;
+    display: flex;
+    flex-direction: column;
+    gap: 0.25rem;
+
+    h3 {
+      margin: 0 !important;
+      font-size: 1rem;
+      color: v.$brand-blue;
+      font-family: v.$font-main;
+    }
+
+    p {
+      margin: 0;
+      font-style: italic;
+      font-size: 0.85rem !important;
+      color: var(--secondary) !important;
+      font-family: v.$font-body;
+      
+      // Line clamping to keep cards uniform
+      display: -webkit-box;
+      -webkit-line-clamp: 3;
+      -webkit-box-orient: vertical;
+      overflow: hidden;
+    }
+  }
+}
+
+/* ==========================================================================
+   2. BOOK & LIBRARY SPECIFIC
+   ========================================================================== */
+.book-grid .grid-card, 
+.library-list .grid-card {
+  .card-content {
+    padding: 0.8rem !important;
+
+    h3 { 
+        font-size: 1rem; 
+    }
+
+    p { 
+        -webkit-line-clamp: 2; 
+        font-size: 0.6rem !important; 
+    }
+  }
+}
+
+/* ==========================================================================
+   3. LIST ITEMS (Music / Dense Lists)
+   ========================================================================== */
+.grid-card.list-item-card {
+  flex-direction: row !important;
+  align-items: center !important;
+  padding: 0.5rem 0 !important;
+  height: auto !important;
+  background: transparent;
+  border: none;
+
+  &:hover {
+    box-shadow: none;
+    transform: translateX(5px);
+  }
+
+  .card-icon-wrapper {
+    margin-right: 1rem;
+    color: var(--secondary);
+    
+    svg {
+      width: 18px;
+      height: 18px;
+      display: block;
+    }
+  }
+
+  .card-content {
+    padding: 0 !important;
+    
+    h3 {
+      font-size: 0.9rem;
+      color: var(--dark);
+    }
+  }
+}
+
+.card-metadata, .card-author p,
+.book-grid .grid-card .card-content p, 
+.library-list .grid-card .card-content p  {
+  font-family: var(--bodyFont);
+  font-style: italic; font-size: 0.8rem;
+  color: var(--secondary); opacity: 0.8;
+}

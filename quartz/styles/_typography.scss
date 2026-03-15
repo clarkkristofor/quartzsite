@@ -1,0 +1,148 @@
+@use "customVariables" as v;
+
+/* ==========================================================================
+   1. MIXINS (Reusable Styles)
+   ========================================================================== */
+@mixin flame-text {
+    color: transparent;
+    display: inline; 
+    -webkit-box-decoration-break: clone;
+    box-decoration-break: clone;
+    background-image: v.$flame-gradient;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100% 100%;
+    -webkit-background-clip: text; 
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+/* ==========================================================================
+   2. GLOBAL TYPOGRAPHY
+   ========================================================================== */
+
+body {
+    font-family: v.$font-body; // Changed from v.$font-main
+    font-size: v.$font-size-base;
+    -webkit-font-smoothing: antialiased;
+}
+
+// Keep headings as Josefin Sans
+h1, h2, h3, h4, .article-title, .garden-title {
+    font-family: v.$font-main;
+    font-weight: v.$font-weight-bold;
+    color: var(--dark) !important;
+}
+
+.blog-content-area {
+    font-family: v.$font-body; // Changed from v.$font-main
+    p, li {
+        font-size: v.$font-size-base;
+        line-height: 1.25;
+    }
+}
+
+/* ==========================================================================
+   3. LINK LOGIC & GRADIENTS
+   ========================================================================== */
+/* ==========================================================================
+   TITLES & INTERACTIVE HEADERS
+   ========================================================================== */
+.article-title, 
+.garden-title, 
+.garden-title .header-link {
+  display: flex !important;
+  align-items: center !important;
+  gap: 12px;
+  margin: 0 0 0.5rem !important;
+  
+  color: var(--dark) !important;
+  font-family: v.$font-header !important;
+  font-size: 1.8rem !important;
+  font-weight: v.$font-weight-bold !important;
+  line-height: 1.2 !important;
+}
+
+/* The Animated Arrow in Garden Titles */
+.header-arrow {
+  display: inline-flex;
+  color: var(--secondary);
+  // Using a variable for the bounce transition if you added it, 
+  // or the standard cubic-bezier logic
+  transition: transform 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+.header-link:hover .header-arrow {
+  transform: translateX(8px);
+}
+
+.grid-card .card-content h3 {
+    color: var(--dark) !important;
+}
+
+// Standard Garden Links
+.garden-link, 
+.blog-content-area a, 
+.search-result-item a {
+    text-decoration: none !important;
+    border-bottom: none !important;
+    box-shadow: none !important;
+    font-weight: v.$font-weight-bold; 
+    color: inherit;
+    transition: opacity v.$transition-smooth;
+}
+
+// Signature Flame Gradient Application
+.blog-content-area a, 
+.search-result-item a, 
+.blog-header h3 a:hover {
+    @include flame-text;
+    
+    &:hover {
+        opacity: 0.6;
+    }
+}
+
+// External Link Icon
+.blog-content-area a::after, 
+.search-result-item a::after {
+    content: "";
+    display: inline-block;
+    width: 14px;
+    height: 14px;
+    margin-left: 6px;
+    vertical-align: middle;
+    background-image: url("https://zod.superclark.net/img/outgoing.svg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    // Resetting clips so icon actually shows up
+    -webkit-background-clip: initial;
+    background-clip: initial;
+    -webkit-text-fill-color: initial;
+}
+
+// Universal Link Hovers
+.garden-link:hover {
+    background-image: v.$hover-overlay;
+    opacity: 0.8;
+}
+
+/* ==========================================================================
+   4. LIST STYLING
+   ========================================================================== */
+.blog-content-area {
+    ul, ol {
+        list-style-position: outside !important;
+        padding-left: 1.5rem !important;
+        margin-bottom: 0.75rem !important;
+    }
+    
+    ul { list-style-type: disc !important; }
+    ol { list-style-type: decimal !important; }
+    
+    li {
+        display: list-item !important;
+        margin-bottom: 0em;
+    }
+}
+

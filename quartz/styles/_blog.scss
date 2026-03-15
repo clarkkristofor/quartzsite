@@ -1,0 +1,57 @@
+@use "customVariables" as v;
+
+/* Article Structure */
+.blog-article {
+    margin-bottom: 4rem;
+    clear: both;
+    display: flow-root; 
+}
+
+/* Metadata (Dates & Tags) */
+.blog-meta-wrapper {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    margin-bottom: 1rem;
+    padding-left: 0 !important;
+}
+
+.blog-date {
+    font-size: 0.6rem !important;
+    color: #888 !important;
+    font-style: italic;
+}
+
+.blog-category-tag { 
+    background: #000; 
+    color: #fff; 
+    padding: 4px 10px; 
+    font-size: 0.6rem; 
+    font-weight: 700; 
+    text-transform: uppercase; 
+}
+
+/* Filter Bar & Buttons */
+.blog-filter-bar {
+    margin-bottom: 2rem;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+}
+
+.blog-cat-btn, .blog-load-btn {
+    background: transparent;
+    border: 1px solid #000;
+    padding: 4px 12px;
+    font-family: v.$font-main;
+    font-size: 0.6rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: v.$transition-smooth;
+
+    &:hover, &.active {
+        background: #000 !important;
+        color: #fff !important;
+    }
+}
