@@ -62,35 +62,45 @@ body[data-slug="books/index"] .header-link {
 
 
 body[data-slug="books/index"] {
-  // Hide the original "Books" text
-  .article-title {
-    color: transparent;
-    line-height: 0;
-    margin-bottom: 2.5rem; // Adjust this to control space below the new title
+  // 1. Target the main container
+  .popover-hint {
+    display: flex;
+    flex-direction: column;
+  }
+
+  // 2. Hide the original "Books" h2 entirely
+  h2.article-title {
+    display: none !important;
+  }
+
+  // 3. Target the first grid title ("Read") 
+  // and style it to look like a main Page Title
+  .garden-section-container:nth-of-type(1) .garden-title {
+    margin-top: 1rem !important;
+    margin-bottom: 2rem !important;
+
+    .header-link {
+       color: var(--dark) !important;
+       font-family: var(--headerFont) !important;
+       font-size: 1.8rem !important;
+       font-weight: 700 !important;
+       text-decoration: none !important;
+       pointer-events: none; // Makes it look like a title, not a link
+    }
     
-    &:before {
-      content: "Read";
-      visibility: visible;
-      display: block;
-      color: var(--dark) !important;
-      font-family: var(--headerFont) !important;
-      font-size: 1.8rem !important;
-      font-weight: 700 !important;
-      line-height: 1.2 !important;
+    .header-arrow {
+       display: none !important; // Hides the link arrow
     }
   }
-}
 
-body[data-slug="books/index"] {
-  // Target the container of the second grid section
+  // 4. Fix the "Reading List" spacing
   .garden-section-container:nth-of-type(2) {
-    margin-top: 4rem !important;
-    border-top: 1px solid var(--lightgray); // Optional: adds a visual separator
+    margin-top: 5rem !important; // Heavy margin to force the gap
     padding-top: 2rem;
-  }
-
-  // Ensure the internal h2 doesn't fight the container margin
-  .garden-section-container:nth-of-type(2) .garden-title {
-    margin-top: 0 !important;
+    border-top: 1px solid var(--lightgray);
+    
+    .garden-title {
+      margin-top: 0 !important;
+    }
   }
 }
