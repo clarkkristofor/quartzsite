@@ -84,6 +84,17 @@ export const defaultContentPageLayout: PageLayout = {
               }),
             ]
           }),
+          Component.Section({
+            className: "blog-section",
+            children: [
+                  Component.GardenSection({ 
+                    title: "Notes", 
+                    folder: "blog", 
+                    link: "/blog/", 
+                    limit: 4
+                  }) as any
+                ]
+          }),
         ]
       })(props)
     }), // <-- CHECK: This must have a comma and the closing bracket

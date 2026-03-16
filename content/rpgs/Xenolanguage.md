@@ -13,7 +13,7 @@ I played [Xenolanguage](https://thornygames.com/pages/xenolanguage-a-game-about-
 
 You're a member of a team, translating an alien language. The core question is, "How will we and our relationships change?" - not, "Will we succeed?" The game is quite emotionally evocative.
 
-An ordered "story deck" of cards paces the plot. A Ouija board with alien symbols is the centerpiece. There are many character archetypes, relationships, and alien symbols to choose from. It's essentially GMless. 
+An ordered "story deck" of cards paces the plot. A Ouija board with alien symbols is the centerpiece. There are many character archetypes, relationships, and alien symbols to choose from. It's essentially GMless.
 
 I don't think I'll add it to my collection, but I'm really glad I played. I wonder how the character archetypes and relationships (both on cards) could be integrated into other genres, like fantasy.
 
