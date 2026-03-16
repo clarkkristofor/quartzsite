@@ -61,32 +61,7 @@ body[data-slug="books/index"] .header-link {
 }
 
 body[data-slug="books/index"] {
-  // 1. Hide the default page title ("Books")
-  h2.article-title {
-    display: none !important;
-  }
 
-  // 2. Target the "Read" header (the first garden-title)
-  // We remove the margin-top on the container and style the h2 inside it
-  .garden-section-container:nth-of-type(1) .garden-title {
-    margin-top: 0 !important;
-    margin-bottom: 2rem !important;
-    display: block !important; // Ensure it is visible
-
-    .header-link {
-       color: var(--dark) !important;
-       font-family: var(--headerFont) !important;
-       font-size: 1.8rem !important;
-       font-weight: 700 !important;
-       text-decoration: none !important;
-       pointer-events: none; 
-       display: inline-block !important;
-    }
-    
-    .header-arrow {
-       display: none !important; 
-    }
-  }
 
   // 3. Spacing for "Reading List & Recommendations" (the second garden-title)
   // We use margin-top on the container to force a gap
