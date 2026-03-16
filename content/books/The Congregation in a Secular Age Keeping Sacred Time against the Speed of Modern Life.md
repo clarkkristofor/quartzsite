@@ -1,5 +1,5 @@
 ---
-title: "The Congregation in a Secular Age: Keeping Sacred Time against the Speed of Modern Life"
+title: The Congregation in a Secular Age
 author: Andrew Root
 authors: Andrew Root
 date_finished: 4/14/2025
