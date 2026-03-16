@@ -26,20 +26,17 @@ const RPGgrid: QuartzComponent = (props: QuartzComponentProps & { options?: Opti
     return slug.startsWith(folder + "/") && slugParts.length === targetParts.length + 1
   })
   .sort((a, b) => {
-    // 1. Get timestamps (fallback to 0)
-    const dateA = a.dates?.modified?.getTime() ?? 0
-    const dateB = b.dates?.modified?.getTime() ?? 0
-    
-    // 2. If dates are different, sort by date (Newest first)
-    if (dateA !== dateB) {
-      return dateB - dateA
+    // Force a valid timestamp or a very old date (0)
+    const timeA = a.dates?.modified?.getTime() ?? 0
+    const timeB = b.dates?.modified?.getTime() ?? 0
+
+    // If times are actually different, sort newest first
+    if (timeA !== timeB) {
+      return timeB - timeA
     }
-    
-    // 3. TIE-BREAKER: If dates are the same (like on GitHub), 
-    // sort by Title so it's at least predictable
-    const titleA = a.frontmatter?.title ?? a.slug ?? ""
-    const titleB = b.frontmatter?.title ?? b.slug ?? ""
-    return titleA.localeCompare(titleB)
+
+    // Only if times are identical, use title as a stable tie-breaker
+    return (a.frontmatter?.title ?? "").localeCompare(b.frontmatter?.title ?? "")
   })
   .slice(0, limit)
 
