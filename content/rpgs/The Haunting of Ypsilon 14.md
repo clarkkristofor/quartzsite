@@ -13,8 +13,6 @@ tags:
   - one-shot
   - Gamicon
 ---
-![image](https://www.tuesdayknightgames.com/cdn/shop/files/CoreBoxTD.jpg?v=1714488100&width=1800)
-
 # The Haunting of Ypsilon 14
 *[Mothership](https://www.tuesdayknightgames.com/pages/mothership-rpg)* at Gamicon, 2025-03-01
 GM: Branden
@@ -26,3 +24,6 @@ I played a marine. Others played a teamster, scientist, and android. So we cover
 Good GM. Good group. Great closing scene: yellow goo dripping from my character's nose in a corporate photo.
 
 I already ordered a copy of the 60-page GM's guide called the [*Warden's Operation Manual*](https://www.tuesdayknightgames.com/collections/mothership-core-rules/products/mothership-wardens-operations-manual). The 44-page *Players' Survival Guide* is free to download and has a great free character app.
+
+![image](https://www.tuesdayknightgames.com/cdn/shop/files/CoreBoxTD.jpg?v=1714488100&width=1800)
+

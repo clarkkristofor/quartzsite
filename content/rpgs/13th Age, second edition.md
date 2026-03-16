@@ -8,6 +8,6 @@ tags:
   - rpg
   - campaign
 ---
-![image](https://pelgranepress.com/wp-content/uploads/2024/04/13thage-phb1.png)
-
 Campaign incoming.
+
+![image](https://pelgranepress.com/wp-content/uploads/2024/04/13thage-phb1.png)

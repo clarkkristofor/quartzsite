@@ -8,4 +8,7 @@ tags:
   - rpg
   - campaign
 ---
-![image](https://magpiegames.com/cdn/shop/files/Urban-Shadows-Core_1.jpg?v=1734451236&width=1800) 
+### Campaign
+[[rpgs/UrbanShadowsQC/index|QC Shadows]]
+
+![image](https://magpiegames.com/cdn/shop/files/Urban-Shadows-Core_1.jpg?v=1734451236&width=1800)
