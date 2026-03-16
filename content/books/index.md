@@ -1,4 +1,4 @@
 ---
 publish: true
-title: Books
+title: Books Read
 ---
