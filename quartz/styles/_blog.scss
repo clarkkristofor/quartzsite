@@ -129,7 +129,8 @@ body[data-slug="books/index"] {
       font-family: var(--bodyFont); // Uses Lora from your config
       font-size: 0.85rem;
       line-height: 1.5;
-      color: var(--darkgray); // Matches your body text color
+      color: var(--darkgray) !important; // Matches your body text color
+      opacity: 0.6 !important; // Makes it slightly faded to differentiate from titles
       margin: 0;
       
       // The "Line Clamp" trick to prevent cards from becoming too tall
@@ -142,21 +143,24 @@ body[data-slug="books/index"] {
   }
 
   .list-item-card {
+    /*
     background-color: var(--light);
     border: 1px solid var(--lightgray);
-    transition: all 0.2s ease;
+    transition: all 0.2s ease;  */
 
-    &:hover {
+    &:hover {     
+      .card-snippet p {
+        color: var(--dark); // Darkens text slightly on hover for readability
+        opacity: 1 !important; // Makes snippet fully visible on hover
+      }
+    }
+  }
+}
+
       /*
       border-color: var(--secondary); // Highlights with Superman Red on hover
       transform: translateY(-2px);
       box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05); */
-      
-      .card-snippet p {
-        color: var(--dark); // Darkens text slightly on hover for readability
-      }
-    }
-  }
   /*
   // Ensures metadata (date/desc) stays at the very bottom of the card
   .card-content {
@@ -171,4 +175,3 @@ body[data-slug="books/index"] {
       border-top: 1px solid var(--lightgray); // Subtle separator
     }
   }*/
-}
