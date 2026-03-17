@@ -7,11 +7,11 @@ tags:
   - design
   - Swords_Beyond
 ---
-Since [[Gamicon Bromine 2026]] and the new-to-me RPGs I played, I've been thinking about [Swords Beyond]([Swords Beyond](https://docs.google.com/document/d/1FiAnhtnQSA-RDvV6rTmSERamipQNpVTWUzAr3hyKfd0/edit?tab=t.mnnppiy4c84i#heading=h.v7ztrz64au89) and what I'm trying achieve.
+Since [[Gamicon Bromine 2026]] and the new-to-me RPGs I played, I've been thinking about [Swords Beyond](https://docs.google.com/document/d/1FiAnhtnQSA-RDvV6rTmSERamipQNpVTWUzAr3hyKfd0/edit?tab=t.mnnppiy4c84i#heading=h.v7ztrz64au89) and what I'm trying achieve.
 
 I want fantasy but...
 1. ...with lighter rules and faster more cinematic fights
-2. ...with more character drama
+2. ...with character drama
 3. ...every character is magical
 4. ...spells are more flexible and improvisational without burdening/paralyzing players
 
