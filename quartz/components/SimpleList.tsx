@@ -49,12 +49,20 @@ const SimpleList = ({ pages, title, link, isMusic, customClass }: SimpleListProp
           const description = page.frontmatter?.description as string | undefined
           const rawDate = page.frontmatter?.date
           
+          // debug out of order listing: <span style={{fontSize: '10px', color: 'gray'}}> ({page.dates?.modified?.getTime()})</span>
           return (
             <a key={page.slug} href={`/${page.slug}`} className="grid-card list-item-card">
               <div className="card-icon-wrapper">{icon}</div>
               <div className="card-content">
                 <h3>{(page.frontmatter?.title as string) ?? page.name}</h3>
-                <span style={{fontSize: '10px', color: 'gray'}}> ({page.dates?.modified?.getTime()})</span>
+                
+                {/* Snippet displays ONLY if it's NOT music */}
+                {!isMusic && page.text && (
+                  <div className="card-snippet">
+                    <p>{page.text.length > 100 ? page.text.substring(0, 100) + "..." : page.text}</p>
+                  </div>
+                )}
+
                 <div className="card-metadata">
                   {description && <span className="card-desc">{description}</span>}
                   {description && rawDate && <span className="meta-separator"> • </span>}

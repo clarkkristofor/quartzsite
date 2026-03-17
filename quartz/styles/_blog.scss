@@ -119,3 +119,55 @@ body[data-slug="books/index"] {
     }
   }
 }
+
+// new
+.blog-section, .home-only-grid {
+  .card-snippet {
+    margin: 0.6rem 0;
+    
+    p {
+      font-family: var(--bodyFont); // Uses Lora from your config
+      font-size: 0.85rem;
+      line-height: 1.5;
+      color: var(--darkgray); // Matches your body text color
+      margin: 0;
+      
+      // The "Line Clamp" trick to prevent cards from becoming too tall
+      display: -webkit-box;
+      -webkit-line-clamp: 3; // Limits snippet to exactly 3 lines
+      -webkit-box-orient: vertical;
+      overflow: hidden;
+      text-overflow: ellipsis;
+    }
+  }
+
+  .list-item-card {
+    background-color: var(--light);
+    border: 1px solid var(--lightgray);
+    transition: all 0.2s ease;
+
+    &:hover {
+      border-color: var(--secondary); // Highlights with Superman Red on hover
+      transform: translateY(-2px);
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+      
+      .card-snippet p {
+        color: var(--dark); // Darkens text slightly on hover for readability
+      }
+    }
+  }
+
+  // Ensures metadata (date/desc) stays at the very bottom of the card
+  .card-content {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+
+    .card-metadata {
+      margin-top: auto; 
+      padding-top: 0.5rem;
+      font-size: 0.75rem;
+      border-top: 1px solid var(--lightgray); // Subtle separator
+    }
+  }
+}
