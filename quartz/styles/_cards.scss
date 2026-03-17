@@ -82,28 +82,30 @@
 /* ==========================================================================
    3. LIST ITEMS (Music / Dense Lists)
    ========================================================================== */
-/* 1. Target the cards in Blog and Home only */
 .blog-section, .home-only-grid {
+  /* 1. Structure: Force Icon to the left of all text */
   .grid-card.list-item-card {
-    /* Preserve your preferred row layout */
     display: flex !important;
     flex-direction: row !important;
-    align-items: center !important;
-    padding: 0.5rem 0 !important;
+    align-items: flex-start !important; // Align icon to the top of the title
+    padding: 1rem 0 !important; // Vertical padding only to prevent side cut-offs
     height: auto !important;
     background: transparent !important;
     border: none !important;
+    text-decoration: none !important;
 
+    /* Remove the unwanted shadow and translate */
     &:hover {
       box-shadow: none !important;
-      transform: translateX(5px) !important;
+      transform: translateX(5px) !important; 
     }
 
-    /* Icon styling */
+    /* 2. The Icon (Now pinned to the left) */
     .card-icon-wrapper {
-      margin-right: 1rem;
-      color: var(--secondary);
+      margin-right: 1.2rem; // Space between icon and text
+      margin-top: 0.2rem; // Micro-adjustment to align with title text
       flex-shrink: 0;
+      color: var(--secondary); // Superman Red
       
       svg {
         width: 18px;
@@ -112,38 +114,49 @@
       }
     }
 
-    /* Content styling (Title + Snippet) */
+    /* 3. The Text Container (Stacks Title, Meta, and Snippet vertically) */
     .card-content {
       padding: 0 !important;
       display: flex;
-      flex-direction: column; // Keeps Title on top of Snippet
-      
+      flex-direction: column;
+      flex-grow: 1;
+      min-width: 0; // Fixes text overflow/cut-off issues in flexbox
+
       h3 {
-        font-size: 0.9rem;
+        font-size: 1rem;
         color: var(--dark);
-        margin: 0;
+        margin: 0 0 0.2rem 0;
       }
 
-      /* THE SNIPPET FIX: Force non-red, non-italic */
+      /* Metadata styling (Red/Italic as per your brand) */
+      .card-metadata {
+        font-family: var(--bodyFont); // Lora
+        font-style: italic;
+        font-size: 0.8rem;
+        color: var(--secondary);
+        opacity: 0.8;
+        margin-bottom: 0.5rem;
+      }
+
+      /* 4. The Snippet (The specific look you liked) */
       .card-snippet p {
         font-family: var(--bodyFont);
         font-style: normal !important;      
-        font-size: 0.75rem;
+        font-size: 0.85rem;
         line-height: 1.4;
         color: var(--darkgray) !important;  
         opacity: 0.7 !important;            
-        margin: 0.2rem 0 0 0;
-        text-decoration: none !important;
+        margin: 0;
         
         display: -webkit-box;
-        -webkit-line-clamp: 2; // Reduced to 2 lines for row-layout harmony
+        -webkit-line-clamp: 2; // Keeps it clean next to the icon
         -webkit-box-orient: vertical;
         overflow: hidden;
       }
     }
   }
 
-  /* Hover effect for text clarity */
+  /* Interaction: Snippet becomes clear on hover */
   .list-item-card:hover .card-snippet p {
     color: var(--dark) !important;      
     opacity: 1 !important;              
