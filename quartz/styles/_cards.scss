@@ -83,28 +83,32 @@
    3. LIST ITEMS (Music / Blog / Shadows)
    ========================================================================== */
 
-/* A. THE CONTAINER: Forces cards to sit side-by-side horizontally */
+/* A. THE CONTAINER */
 .blog-section .simple-list, 
 .home-only-grid .simple-list {
   display: flex !important;
   flex-direction: row !important;
   flex-wrap: wrap !important; 
-  gap: 1.5rem; 
+  gap: 1rem; /* Slightly reduced gap to help 4 fit comfortably */
   padding: 0;
   margin: 0;
 }
 
-/* B. THE CARDS: Internal Layout */
+/* B. THE CARDS */
 .blog-section, .home-only-grid {
   .grid-card.list-item-card {
-    /* Side-by-side sizing */
-    flex: 1 1 calc(45% - 1rem); 
-    min-width: 300px;
+    /* To get 4 per row: 100% / 4 = 25%. 
+       We use 23% to leave room for the gaps.
+    */
+    flex: 1 1 calc(23% - 0.5rem) !important; 
     
-    /* Layout Reset */
+    /* Reduced min-width so they don't force a wrap too early on smaller screens.
+    */
+    min-width: 200px !important; 
+    
     display: flex !important;
     flex-direction: row !important;      
-    align-items: flex-start !important;  /* "Pulled up" icon */
+    align-items: flex-start !important;
     padding: 1rem 0 !important;
     background: transparent !important;
     border: none !important;
@@ -116,10 +120,9 @@
     }
 
     .card-icon-wrapper {
-      margin-right: 1.2rem;
-      margin-top: 0.5rem; /* Micro-adjustment to pull up the icon */
+      margin-right: 0.8rem; /* Tighter margin for 4-column layout */
+      margin-top: 0.5rem; 
       flex-shrink: 0;
-      color: var(--secondary);
       
       svg {
         width: 18px;
@@ -133,37 +136,20 @@
       display: flex;
       flex-direction: column; 
       min-width: 0;
-      gap: 0; /* Ensures Title, Meta, and Snippet stay tight */
 
       h3 {
-        font-size: 0.95rem;
+        font-size: 0.9rem !important; /* Slightly smaller to prevent text overlap */
         margin: 0 !important;
       }
 
-      /* Metadata (Red/Italic) */
       .card-metadata {
-        font-family: var(--bodyFont);
-        font-style: italic; 
-        font-size: 0.8rem;
-        color: var(--secondary); 
-        opacity: 0.8;
+        font-size: 0.75rem !important;
         margin-bottom: 0.2rem;
       }
 
-      /* The Snippet (Gray/Normal) */
       .card-snippet p {
-        font-family: var(--bodyFont);
-        font-style: normal !important;
-        color: var(--darkgray) !important;
-        opacity: 0.7 !important;
-        font-size: 0.85rem;
-        line-height: 1.4;
-        margin: 0 !important;
-        display: -webkit-box;
-        -webkit-line-clamp: 2;
-        -webkit-box-orient: vertical;
-        overflow: hidden;
-        text-decoration: none !important;
+        font-size: 0.8rem !important;
+        -webkit-line-clamp: 2; /* Keeps the cards from getting too tall in a tight grid */
       }
     }
   }
