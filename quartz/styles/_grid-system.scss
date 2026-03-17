@@ -1,14 +1,30 @@
 @use "customVariables" as v;
 
 /* ==========================================================================
-   FULL-WIDTH LAYOUT RESET (Homepage & Folder Indexes)
+   1. GLOBAL LAYOUT GATEKEEPER (#quartz-root)
    ========================================================================== */
 
-/* Add [data-slug$="index"] to the list of triggers */
+/* This handles the primary site width and centering for ALL index pages */
 .page:has(.home-only-grid),
 .page:has(.folder-index-layout),
-body[data-slug$="index"] { // This targets /books/index, /rpgs/index, etc.
+body[data-slug$="index"] {
   
+  #quartz-root {
+    margin: 0 auto !important;
+    max-width: v.$page-max-width !important; 
+    /* Desktop width */
+    width: 95% !important; 
+    display: block;
+
+    /* Mobile Protection: Ensures gutters and prevents right-edge touching */
+    @media (max-width: v.$tablet-breakpoint) {
+      /* This creates the safe gap on both left AND right sides */
+      width: calc(100% - (v.$container-padding-mobile * 2)) !important;
+      margin: 0 auto !important; 
+      padding: 0 !important;
+    }
+  }
+
   #quartz-body {
     display: flex !important;
     flex-direction: column !important;
@@ -16,13 +32,10 @@ body[data-slug$="index"] { // This targets /books/index, /rpgs/index, etc.
     width: 100% !important;
   }
 
-  /* Reclaims the space from sidebars */
-  .sidebar.left, 
-  .sidebar.right {
+  .sidebar.left, .sidebar.right {
     display: none !important;
   }
 
-  /* Breaks the center content out of its 1200px cage */
   .center {
     width: 100% !important;
     max-width: none !important; 
@@ -31,32 +44,53 @@ body[data-slug$="index"] { // This targets /books/index, /rpgs/index, etc.
 }
 
 /* ==========================================================================
-   2. MOBILE MARGIN & OVERFLOW PROTECTION
+   2. SECTION OVERLAP REMOVAL (Cleanup)
    ========================================================================== */
-@media (max-width: v.$tablet-breakpoint) {
-  .home-only-grid, 
-  .folder-index-layout,
-  .garden-section-container,
-  .garden-section {
-    /* Merged Reset logic: forces the container to fill the space minus consistent gutters */
-    width: calc(100% - (v.$container-padding-mobile * 2)) !important; 
-    margin-left: v.$container-padding-mobile !important;
-    margin-right: v.$container-padding-mobile !important;
-    padding: 0 !important;
-    box-sizing: border-box !important;
-  }
 
-  /* Prevent horizontal "wiggle" on mobile devices */
-  #quartz-body, body, html {
-    overflow-x: hidden !important;
+/* Remove ALL internal margins from these sections so they don't fight the root */
+.home-only-grid, 
+.folder-index-layout,
+.garden-section-container,
+.garden-section {
+  display: block !important;
+  visibility: visible !important;
+  width: 100% !important; 
+  margin: 0 !important; /* Forces them to stay inside the root's centered space */
+  padding: 0 !important;
+}
+
+/* Individual Notes protection */
+@media (max-width: v.$tablet-breakpoint) {
+  .center article {
     width: 100% !important;
-    position: relative;
+    /* Added padding-right to ensure images/text don't hit the screen edge */
+    padding: 0 v.$container-padding-mobile !important; 
+    box-sizing: border-box !important;
+    overflow-wrap: break-word;
+    
+    img, pre, blockquote {
+      max-width: 100% !important;
+      height: auto !important;
+    }
   }
 }
 
 /* ==========================================================================
    3. MACRO GRID STRUCTURE (The Garden Sections)
    ========================================================================== */
+
+/* A. THE CONTAINER: 4-Column Layout */
+.blog-section .simple-list, 
+.home-only-grid .simple-list {
+  display: flex !important;
+  flex-direction: row !important;
+  flex-wrap: wrap !important; 
+  gap: 1rem !important; 
+  padding: 0;
+  margin: 0;
+  width: 100% !important; // Ensure it fills the centered root
+}
+
 .garden-section {
   display: grid;
   gap: 2rem;
@@ -72,19 +106,6 @@ body[data-slug$="index"] { // This targets /books/index, /rpgs/index, etc.
     gap: 1.5rem;
     // Padding and margin handled by the Mobile Protection block above
   }
-}
-
-/* Consolidates the Homepage/Folder grid centering */
-.home-only-grid, 
-.folder-index-layout {
-  display: block !important;
-  visibility: visible !important;
-  width: 100%; 
-  max-width: v.$page-max-width;
-  margin: 0 auto !important;
-  padding: 0 v.$container-padding-desktop;
-
-  // On tablet/mobile, the "Mobile Protection" block takes over width/margin
 }
 
 /* ==========================================================================
@@ -180,10 +201,6 @@ body[data-slug^="books"] .folder-grid,
 
 /* ==========================================================================
    FOLDER PAGE LIST FILTERING
-   ========================================================================== */
-
-/* ==========================================================================
-   FOLDER PAGE LIST FILTERING (REVISED)
    ========================================================================== */
 
 /* 1. Targeting the container specifically */
