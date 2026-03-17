@@ -82,30 +82,28 @@
 /* ==========================================================================
    3. LIST ITEMS (Music / Dense Lists)
    ========================================================================== */
+/* 1. THE FOUNDATION: Combined Layout & SVG Alignment */
 .blog-section, .home-only-grid {
-  /* 1. Structure: Force Icon to the left of all text */
   .grid-card.list-item-card {
     display: flex !important;
-    flex-direction: row !important;
-    align-items: flex-start !important; // Align icon to the top of the title
-    padding: 1rem 0 !important; // Vertical padding only to prevent side cut-offs
+    flex-direction: row !important;      /* Side-by-side layout */
+    align-items: flex-start !important;  /* Pins icon to the top area */
+    padding: 1rem 0 !important;
     height: auto !important;
     background: transparent !important;
     border: none !important;
-    text-decoration: none !important;
+    box-shadow: none !important;         /* Explicitly removes shadow */
 
-    /* Remove the unwanted shadow and translate */
     &:hover {
-      box-shadow: none !important;
-      transform: translateX(5px) !important; 
+      transform: translateX(5px) !important; /* Your preferred hover slide */
     }
 
-    /* 2. The Icon (Now pinned to the left) */
     .card-icon-wrapper {
-      margin-right: 1.2rem; // Space between icon and text
-      margin-top: 0.2rem; // Micro-adjustment to align with title text
+      margin-right: 1.2rem;
+      /* This pulls the icon up to sit between the Title and Meta */
+      margin-top: 0.5rem; 
       flex-shrink: 0;
-      color: var(--secondary); // Superman Red
+      color: var(--secondary);
       
       svg {
         width: 18px;
@@ -114,52 +112,33 @@
       }
     }
 
-    /* 3. The Text Container (Stacks Title, Meta, and Snippet vertically) */
     .card-content {
       padding: 0 !important;
       display: flex;
       flex-direction: column;
-      flex-grow: 1;
-      min-width: 0; // Fixes text overflow/cut-off issues in flexbox
-
-      h3 {
-        font-size: 1rem;
-        color: var(--dark);
-        margin: 0 0 0.2rem 0;
-      }
-
-      /* Metadata styling (Red/Italic as per your brand) */
-      .card-metadata {
-        font-family: var(--bodyFont); // Lora
-        font-style: italic;
-        font-size: 0.8rem;
-        color: var(--secondary);
-        opacity: 0.8;
-        margin-bottom: 0.5rem;
-      }
-
-      /* 4. The Snippet (The specific look you liked) */
-      .card-snippet p {
-        font-family: var(--bodyFont);
-        font-style: normal !important;      
-        font-size: 0.85rem;
-        line-height: 1.4;
-        color: var(--darkgray) !important;  
-        opacity: 0.7 !important;            
-        margin: 0;
-        
-        display: -webkit-box;
-        -webkit-line-clamp: 2; // Keeps it clean next to the icon
-        -webkit-box-orient: vertical;
-        overflow: hidden;
-      }
+      min-width: 0; 
     }
   }
 
-  /* Interaction: Snippet becomes clear on hover */
+  /* 2. THE TEXT: Non-italic, non-red snippet styling */
+  .card-snippet p {
+    font-family: var(--bodyFont);
+    font-style: normal !important;      /* Kills the italic bug */
+    color: var(--darkgray) !important;  /* Kills the red bug */
+    opacity: 0.7 !important;
+    font-size: 0.85rem;
+    line-height: 1.4;
+    margin: 0.2rem 0 0 0;
+    
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+  }
+
   .list-item-card:hover .card-snippet p {
-    color: var(--dark) !important;      
-    opacity: 1 !important;              
+    color: var(--dark) !important;
+    opacity: 1 !important;
   }
 }
 
