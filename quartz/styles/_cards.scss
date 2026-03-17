@@ -83,24 +83,24 @@
    3. LIST ITEMS (Music / Dense Lists)
    ========================================================================== */
 /* 1. THE FOUNDATION: Combined Layout & SVG Alignment */
+/* Target specifically the Notes and Home Grid sections */
 .blog-section, .home-only-grid {
   .grid-card.list-item-card {
     display: flex !important;
-    flex-direction: row !important;      /* Side-by-side layout */
-    align-items: flex-start !important;  /* Pins icon to the top area */
+    flex-direction: row !important;      /* Side-by-side */
+    align-items: flex-start !important;  /* Anchor icon to the top */
     padding: 1rem 0 !important;
-    height: auto !important;
     background: transparent !important;
     border: none !important;
-    box-shadow: none !important;         /* Explicitly removes shadow */
+    box-shadow: none !important;
 
     &:hover {
-      transform: translateX(5px) !important; /* Your preferred hover slide */
+      transform: translateX(5px) !important;
     }
 
     .card-icon-wrapper {
       margin-right: 1.2rem;
-      /* This pulls the icon up to sit between the Title and Meta */
+      /* Micro-adjustment: this pulls the icon to sit next to the Title/Meta line */
       margin-top: 0.5rem; 
       flex-shrink: 0;
       color: var(--secondary);
@@ -117,28 +117,30 @@
       display: flex;
       flex-direction: column;
       min-width: 0; 
+      
+      /* Snippet styling fix */
+      .card-snippet p {
+        font-family: var(--bodyFont);
+        font-style: normal !important;
+        color: var(--darkgray) !important;
+        opacity: 0.7 !important;
+        font-size: 0.85rem;
+        line-height: 1.4;
+        margin: 0.2rem 0 0 0;
+        display: -webkit-box;
+        -webkit-line-clamp: 2;
+        -webkit-box-orient: vertical;
+        overflow: hidden;
+      }
     }
   }
+}
 
-  /* 2. THE TEXT: Non-italic, non-red snippet styling */
-  .card-snippet p {
-    font-family: var(--bodyFont);
-    font-style: normal !important;      /* Kills the italic bug */
-    color: var(--darkgray) !important;  /* Kills the red bug */
-    opacity: 0.7 !important;
-    font-size: 0.85rem;
-    line-height: 1.4;
-    margin: 0.2rem 0 0 0;
-    
-    display: -webkit-box;
-    -webkit-line-clamp: 2;
-    -webkit-box-orient: vertical;
-    overflow: hidden;
-  }
-
-  .list-item-card:hover .card-snippet p {
-    color: var(--dark) !important;
-    opacity: 1 !important;
+/* Specific override for Music to keep it centered as you liked */
+.music-section .grid-card.list-item-card {
+  align-items: center !important;
+  .card-icon-wrapper {
+    margin-top: 0 !important; /* No pull-up for music */
   }
 }
 
