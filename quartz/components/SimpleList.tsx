@@ -55,19 +55,19 @@ const SimpleList = ({ pages, title, link, isMusic, customClass }: SimpleListProp
               <div className="card-icon-wrapper">{icon}</div>
               <div className="card-content">
                 <h3>{(page.frontmatter?.title as string) ?? page.name}</h3>
-                
-                {/* Snippet displays ONLY if it's NOT music */}
-                {!isMusic && page.text && (
-                  <div className="card-snippet">
-                    <p>{page.text.length > 100 ? page.text.substring(0, 100) + "..." : page.text}</p>
-                  </div>
-                )}
 
                 <div className="card-metadata">
                   {description && <span className="card-desc">{description}</span>}
                   {description && rawDate && <span className="meta-separator"> • </span>}
                   {rawDate && <span className="card-date">{new Date(rawDate).toLocaleDateString()}</span>}
                 </div>
+
+                {/* Snippet displays ONLY if it's NOT music */}
+                {!isMusic && page.text && (
+                  <div className="card-snippet">
+                    <p>{page.text.length > 100 ? page.text.substring(0, 100) + "..." : page.text}</p>
+                  </div>
+                )}
               </div>
             </a>
           )

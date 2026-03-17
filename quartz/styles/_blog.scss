@@ -147,16 +147,17 @@ body[data-slug="books/index"] {
     transition: all 0.2s ease;
 
     &:hover {
+      /*
       border-color: var(--secondary); // Highlights with Superman Red on hover
       transform: translateY(-2px);
-      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05); */
       
       .card-snippet p {
         color: var(--dark); // Darkens text slightly on hover for readability
       }
     }
   }
-
+  /*
   // Ensures metadata (date/desc) stays at the very bottom of the card
   .card-content {
     display: flex;
@@ -169,5 +170,5 @@ body[data-slug="books/index"] {
       font-size: 0.75rem;
       border-top: 1px solid var(--lightgray); // Subtle separator
     }
-  }
+  }*/
 }
