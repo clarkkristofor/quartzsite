@@ -94,13 +94,11 @@
   margin: 0;
 }
 
-/* B. THE CARDS: Internal Layout & Red/Italic Reset */
+/* B. THE CARDS: Layout, Color, and Hover Resets */
 .blog-section, .home-only-grid {
   .grid-card.list-item-card {
-    /* Sizing for 4 per row */
     flex: 1 1 calc(23% - 0.5rem) !important; 
     min-width: 200px !important; 
-    
     display: flex !important;
     flex-direction: row !important;      
     align-items: flex-start !important;
@@ -109,9 +107,12 @@
     border: none !important;
     box-shadow: none !important;
     height: auto !important;
+    text-decoration: none !important; /* Prevents global link underlining */
 
     &:hover {
       transform: translateX(5px) !important;
+      background: transparent !important;
+      box-shadow: none !important;
     }
 
     .card-icon-wrapper {
@@ -136,52 +137,53 @@
       h3 {
         font-size: 0.9rem !important;
         margin: 0 !important;
-        font-style: normal !important; /* Ensure title isn't italic */
+        font-style: normal !important;
+        color: var(--dark) !important; /* Force Title color */
+        text-decoration: none !important;
       }
 
-      /* Metadata (Keeps your Red/Italic brand) */
+      /* Metadata: Stays Red/Italic by default */
       .card-metadata {
         font-family: var(--bodyFont);
-        font-style: italic; 
+        font-style: italic !important; 
         font-size: 0.75rem !important;
-        color: var(--secondary); 
+        color: var(--secondary) !important; /* Force Metadata color */
         opacity: 0.8;
         margin-bottom: 0.2rem;
+        text-decoration: none !important;
       }
 
-      /* THE SNIPPET FIX: Force Gray and Normal */
+      /* THE SNIPPET: Forced Gray and Normal (No Red, No Blue on hover) */
       .card-snippet p {
         font-family: var(--bodyFont) !important;
-        font-style: normal !important;      /* Kills the red/italic bug */
-        color: var(--darkgray) !important;  /* Kills the red/italic bug */
+        font-style: normal !important;      
+        color: var(--darkgray) !important;  
         opacity: 0.7 !important;
         font-size: 0.8rem !important;
         line-height: 1.4;
         margin: 0 !important;
         text-decoration: none !important;
-        
         display: -webkit-box;
         -webkit-line-clamp: 2;
         -webkit-box-orient: vertical;
         overflow: hidden;
       }
     }
-  }
 
-  /* Interaction: Text clarifies on hover */
-  .list-item-card:hover .card-snippet p {
-    color: var(--dark) !important;
-    opacity: 1 !important;
+    /* PREVENT BLUE HOVER: Forces all text to keep its original colors on hover */
+    &:hover {
+      h3 { color: var(--dark) !important; }
+      .card-metadata { color: var(--secondary) !important; }
+      .card-snippet p { color: var(--dark) !important; opacity: 1 !important; }
+    }
   }
 }
 
-/* C. MUSIC OVERRIDE: Re-centers the icon vertically specifically for Music */
-.music-section {
-  .grid-card.list-item-card {
-    align-items: center !important;
-    .card-icon-wrapper {
-      margin-top: 0 !important; 
-    }
+/* C. MUSIC OVERRIDE */
+.music-section .grid-card.list-item-card {
+  align-items: center !important;
+  .card-icon-wrapper {
+    margin-top: 0 !important; 
   }
 }
 
