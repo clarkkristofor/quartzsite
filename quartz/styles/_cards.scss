@@ -82,52 +82,51 @@
 /* ==========================================================================
    3. LIST ITEMS (Music / Dense Lists)
    ========================================================================== */
-.music-section, .shadows-section { 
-  .grid-card.list-item-card {
-    flex-direction: row !important;
-    align-items: center !important;
-    padding: 0.5rem 0 !important;
-    height: auto !important;
-    background: transparent;
-    border: none;
-
-    &:hover {
-      box-shadow: none;
-      transform: translateX(5px);
-    }
-
-    .card-icon-wrapper {
-      margin-right: 1rem;
-      color: var(--secondary);
-      
-      svg {
-        width: 18px;
-        height: 18px;
-        display: block;
-      }
-    }
-
-    .card-content {
-      padding: 0 !important;
-      
-      h3 {
-        font-size: 0.9rem;
-        color: var(--dark);
-      }
-    }
-  }
+/* 1. KEEP: Standard styling for Books/Library (Italics & Red) */
+.card-metadata, .card-author p,
+.book-grid .grid-card .card-content p, 
+.library-list .grid-card .card-content p {
+  font-family: var(--bodyFont);
+  font-style: italic; 
+  font-size: 0.8rem;
+  color: var(--secondary); 
+  opacity: 0.8;
 }
 
+/* 2. RESTORE & FIX: Blog and Home sections */
 .blog-section, .home-only-grid {
-  .list-item-card {
-    flex-direction: column !important; // Forces Title -> Snippet -> Meta stack
-    align-items: flex-start !important;
-    height: 100%; // Makes cards even heights in the row
-    padding: 1rem !important; 
-    border: 1px solid var(--lightgray);
-    
-    .card-content {
-       width: 100%; // Ensures snippet takes up full card width
+  // Allow the card to be a column so the snippet sits UNDER the title
+    .list-item-card {
+      flex-direction: column !important;
+      align-items: flex-start !important;
+      height: 100%;
+      padding: 1rem !important;
+
+      // RESTORE ICON VISIBILITY
+      .card-icon-wrapper {
+        margin-bottom: 0.5rem;
+        display: block !important; // Ensures SVG isn't hidden by layout shifts
+        
+        svg {
+          width: 20px;
+          height: 20px;
+          color: var(--secondary);
+        }
+      }
+      
+      .card-content {
+        width: 100%;
+      }
+    }
+
+  .blog-section, .home-only-grid {
+    .list-item-card {
+      flex-direction: column !important; // Forces Title -> Snippet -> Meta stack
+      align-items: flex-start !important;
+      
+      .card-content {
+        width: 100%; // Ensures snippet takes up full card width
+      }
     }
   }
 }
