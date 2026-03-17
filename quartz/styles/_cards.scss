@@ -123,3 +123,36 @@
   font-style: italic; font-size: 0.8rem;
   color: var(--secondary); opacity: 0.8;
 }
+
+// new
+.blog-section, .home-only-grid {
+  .card-snippet {
+    margin: 0.3rem 0;
+    
+    p {
+      font-family: var(--bodyFont); // Uses Lora from your config
+      font-size: 0.75rem;
+      line-height: 1.5;
+      text-decoration: none !important;
+      color: var(--darkgray) !important; // Matches your body text color
+      opacity: 0.6 !important; // Makes it slightly faded to differentiate from titles
+      margin: 0;
+      
+      // The "Line Clamp" trick to prevent cards from becoming too tall
+      display: -webkit-box;
+      -webkit-line-clamp: 3; // Limits snippet to exactly 3 lines
+      -webkit-box-orient: vertical;
+      overflow: hidden;
+      text-overflow: ellipsis;
+    }
+  }
+
+  .list-item-card {
+    &:hover {     
+      .card-snippet p {
+        color: var(--dark); // Darkens text slightly on hover for readability
+        opacity: 1 !important; // Makes snippet fully visible on hover
+      }
+    }
+  }
+}
