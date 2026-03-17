@@ -21,7 +21,6 @@
     width: 100%;
     aspect-ratio: 2 / 3;
     overflow: hidden;
-
     img {
       width: 100%;
       height: 100%;
@@ -44,14 +43,13 @@
       font-family: v.$font-main;
     }
 
+    // REMOVED !important FROM HERE so it can be overridden below
     p {
       margin: 0;
       font-style: italic;
-      font-size: 0.85rem !important;
-      color: var(--secondary) !important;
+      font-size: 0.85rem;
+      color: var(--secondary);
       font-family: v.$font-body;
-      
-      // Line clamping to keep cards uniform
       display: -webkit-box;
       -webkit-line-clamp: 3;
       -webkit-box-orient: vertical;
@@ -67,14 +65,12 @@
 .library-list .grid-card {
   .card-content {
     padding: 0.8rem !important;
-
-    h3 { 
-        font-size: 1rem; 
-    }
-
+    h3 { font-size: 1rem; }
     p { 
-        -webkit-line-clamp: 2; 
-        font-size: 0.85rem !important; 
+      -webkit-line-clamp: 2; 
+      font-size: 0.85rem !important; 
+      color: var(--secondary) !important;
+      font-style: italic !important;
     }
   }
 }
@@ -83,7 +79,7 @@
    3. LIST ITEMS (Music / Blog / Shadows)
    ========================================================================== */
 
-/* A. THE CONTAINER: 4-Column Layout */
+/* A. THE CONTAINER */
 .blog-section .simple-list, 
 .home-only-grid .simple-list {
   display: flex !important;
@@ -94,7 +90,7 @@
   margin: 0;
 }
 
-/* B. THE CARDS: Layout, Color, and Hover Resets */
+/* B. THE CARDS */
 .blog-section, .home-only-grid {
   .grid-card.list-item-card {
     flex: 1 1 calc(23% - 0.5rem) !important; 
@@ -102,17 +98,20 @@
     display: flex !important;
     flex-direction: row !important;      
     align-items: flex-start !important;
-    padding: 1rem 0 !important;
+    padding: 0.5rem 0 !important;
     background: transparent !important;
     border: none !important;
     box-shadow: none !important;
     height: auto !important;
-    text-decoration: none !important; /* Prevents global link underlining */
+    text-decoration: none !important;
 
     &:hover {
       transform: translateX(5px) !important;
       background: transparent !important;
-      box-shadow: none !important;
+      // KILL THE BLUE HOVER
+      h3 { color: var(--dark) !important; }
+      .card-metadata { color: var(--secondary) !important; }
+      .card-snippet p { color: var(--dark) !important; opacity: 1 !important; }
     }
 
     .card-icon-wrapper {
@@ -120,12 +119,7 @@
       margin-top: 0.5rem; 
       flex-shrink: 0;
       color: var(--secondary);
-      
-      svg {
-        width: 18px;
-        height: 18px;
-        display: block;
-      }
+      svg { width: 18px; height: 18px; display: block; }
     }
 
     .card-content {
@@ -138,22 +132,21 @@
         font-size: 0.9rem !important;
         margin: 0 !important;
         font-style: normal !important;
-        color: var(--dark) !important; /* Force Title color */
+        color: var(--dark) !important; 
         text-decoration: none !important;
       }
 
-      /* Metadata: Stays Red/Italic by default */
       .card-metadata {
         font-family: var(--bodyFont);
         font-style: italic !important; 
         font-size: 0.75rem !important;
-        color: var(--secondary) !important; /* Force Metadata color */
+        color: var(--secondary) !important;
         opacity: 0.8;
         margin-bottom: 0.2rem;
         text-decoration: none !important;
       }
 
-      /* THE SNIPPET: Forced Gray and Normal (No Red, No Blue on hover) */
+      /* SNIPPET RESET */
       .card-snippet p {
         font-family: var(--bodyFont) !important;
         font-style: normal !important;      
@@ -169,13 +162,6 @@
         overflow: hidden;
       }
     }
-
-    /* PREVENT BLUE HOVER: Forces all text to keep its original colors on hover */
-    &:hover {
-      h3 { color: var(--dark) !important; }
-      .card-metadata { color: var(--secondary) !important; }
-      .card-snippet p { color: var(--dark) !important; opacity: 1 !important; }
-    }
   }
 }
 
@@ -190,22 +176,13 @@
 /* ==========================================================================
    4. RANDOM FIXES & OVERRIDES
    ========================================================================== */
-
-body[data-slug="books/index"] .header-link {
-   display:none !important;
-}
-
+body[data-slug="books/index"] .header-link { display:none !important; }
 body[data-slug="books/index"] {
-  // 3. Spacing for "Reading List & Recommendations" (the second garden-title)
-  // We use margin-top on the container to force a gap
   .garden-section-container:nth-of-type(2) {
     margin-top: 5rem !important; 
     padding-top: 2rem;
     border-top: 1px solid var(--lightgray);
     display: block !important;
-
-    .garden-title {
-      margin-top: 0 !important;
-    }
+    .garden-title { margin-top: 0 !important; }
   }
 }
