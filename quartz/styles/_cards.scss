@@ -82,60 +82,72 @@
 /* ==========================================================================
    3. LIST ITEMS (Music / Dense Lists)
    ========================================================================== */
-/* 1. KEEP: Standard styling for Books/Library (Italics & Red) */
-.card-metadata, .card-author p,
-.book-grid .grid-card .card-content p, 
-.library-list .grid-card .card-content p {
-  font-family: var(--bodyFont);
-  font-style: italic; 
-  font-size: 0.8rem;
-  color: var(--secondary); 
-  opacity: 0.8;
-}
-
-/* 2. RESTORE & FIX: Blog and Home sections */
+/* 1. Target the cards in Blog and Home only */
 .blog-section, .home-only-grid {
-  // Allow the card to be a column so the snippet sits UNDER the title
-    .list-item-card {
-      flex-direction: column !important;
-      align-items: flex-start !important;
-      height: 100%;
+  .grid-card.list-item-card {
+    /* Preserve your preferred row layout */
+    display: flex !important;
+    flex-direction: row !important;
+    align-items: center !important;
+    padding: 0.5rem 0 !important;
+    height: auto !important;
+    background: transparent !important;
+    border: none !important;
 
-      // RESTORE ICON VISIBILITY
-      .card-icon-wrapper {
-        margin-bottom: 0.5rem;
-        display: block !important; // Ensures SVG isn't hidden by layout shifts
-        
-        svg {
-          width: 20px;
-          height: 20px;
-          color: var(--secondary);
-        }
-      }
+    &:hover {
+      box-shadow: none !important;
+      transform: translateX(5px) !important;
+    }
+
+    /* Icon styling */
+    .card-icon-wrapper {
+      margin-right: 1rem;
+      color: var(--secondary);
+      flex-shrink: 0;
       
-      .card-content {
-        width: 100%;
+      svg {
+        width: 18px;
+        height: 18px;
+        display: block;
       }
     }
 
-  .blog-section, .home-only-grid {
-    .list-item-card {
-      flex-direction: column !important; // Forces Title -> Snippet -> Meta stack
-      align-items: flex-start !important;
+    /* Content styling (Title + Snippet) */
+    .card-content {
+      padding: 0 !important;
+      display: flex;
+      flex-direction: column; // Keeps Title on top of Snippet
       
-      .card-content {
-        width: 100%; // Ensures snippet takes up full card width
+      h3 {
+        font-size: 0.9rem;
+        color: var(--dark);
+        margin: 0;
+      }
+
+      /* THE SNIPPET FIX: Force non-red, non-italic */
+      .card-snippet p {
+        font-family: var(--bodyFont);
+        font-style: normal !important;      
+        font-size: 0.75rem;
+        line-height: 1.4;
+        color: var(--darkgray) !important;  
+        opacity: 0.7 !important;            
+        margin: 0.2rem 0 0 0;
+        text-decoration: none !important;
+        
+        display: -webkit-box;
+        -webkit-line-clamp: 2; // Reduced to 2 lines for row-layout harmony
+        -webkit-box-orient: vertical;
+        overflow: hidden;
       }
     }
   }
-}
 
-.card-metadata, .card-author p,
-.book-grid .grid-card .card-content p, 
-.library-list .grid-card .card-content p {
-  font-family: var(--bodyFont);
-  font-style: italic; font-size: 0.8rem;
-  color: var(--secondary); opacity: 0.8;
+  /* Hover effect for text clarity */
+  .list-item-card:hover .card-snippet p {
+    color: var(--dark) !important;      
+    opacity: 1 !important;              
+  }
 }
 
 /* Keep this for your Books and Library lists */
@@ -147,38 +159,4 @@
   font-size: 0.8rem;
   color: var(--secondary); 
   opacity: 0.8;
-}
-
-/* This block is the "Worker" — it handles layout AND fixes the Red/Italic bug */
-.blog-section, .home-only-grid {
-  .card-snippet {
-    margin: 0.4rem 0; // Standardized margin
-
-    p {
-      /* THE FIXES */
-      font-style: normal !important;      
-      color: var(--darkgray) !important;  
-      text-decoration: none !important;   
-      opacity: 0.7 !important;            
-
-      /* THE STYLE */
-      font-family: var(--bodyFont);
-      font-size: 0.75rem;
-      line-height: 1.4;
-      margin: 0;
-      
-      /* THE LAYOUT */
-      display: -webkit-box;
-      -webkit-line-clamp: 3;
-      -webkit-box-orient: vertical;
-      overflow: hidden;
-      text-overflow: ellipsis;
-    }
-  }
-
-  /* Hover state logic */
-  .list-item-card:hover .card-snippet p {
-    color: var(--dark) !important;      
-    opacity: 1 !important;              
-  }
 }
