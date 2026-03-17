@@ -47,23 +47,33 @@ body[data-slug$="index"] {
    2. SECTION OVERLAP REMOVAL (Cleanup)
    ========================================================================== */
 
-/* Remove ALL internal margins from these sections so they don't fight the root */
+/* ==========================================================================
+   2. SECTION OVERLAP REMOVAL & MOBILE PROTECTION
+   ========================================================================== */
+
+/* A. INDEX PAGES: Homepage, Folders, and Blog Lists */
 .home-only-grid, 
 .folder-index-layout,
-.garden-section-container,
-.garden-section {
+.garden-section-container, // EXPLICITLY INCLUDE
+.garden-section,           // EXPLICITLY INCLUDE
+.blog-section {
   display: block !important;
   visibility: visible !important;
   width: 100% !important; 
-  margin: 0 !important; /* Forces them to stay inside the root's centered space */
-  padding: 0 !important;
+  margin: 0 !important; 
+  
+  /* Restore the 15px safe zone on mobile for ALL these sections */
+  @media (max-width: v.$tablet-breakpoint) {
+    padding-left: v.$container-padding-mobile !important;
+    padding-right: v.$container-padding-mobile !important;
+    box-sizing: border-box !important;
+  }
 }
 
-/* Individual Notes protection */
+/* B. INDIVIDUAL PAGES: Protection for Note content */
 @media (max-width: v.$tablet-breakpoint) {
   .center article {
     width: 100% !important;
-    /* Added padding-right to ensure images/text don't hit the screen edge */
     padding: 0 v.$container-padding-mobile !important; 
     box-sizing: border-box !important;
     overflow-wrap: break-word;
