@@ -44,29 +44,41 @@ body[data-slug$="index"] {
 }
 
 /* ==========================================================================
-   2. SECTION OVERLAP REMOVAL (Cleanup)
-   ========================================================================== */
-
-/* ==========================================================================
    2. SECTION OVERLAP REMOVAL & MOBILE PROTECTION
    ========================================================================== */
 
 /* A. INDEX PAGES: Homepage, Folders, and Blog Lists */
 .home-only-grid, 
 .folder-index-layout,
-.garden-section-container, // EXPLICITLY INCLUDE
-.garden-section,           // EXPLICITLY INCLUDE
+.garden-section-container,
+.garden-section,
 .blog-section {
   display: block !important;
   visibility: visible !important;
   width: 100% !important; 
   margin: 0 !important; 
-  
-  /* Restore the 15px safe zone on mobile for ALL these sections */
-  @media (max-width: v.$tablet-breakpoint) {
+  /* Critical: Forces padding to stay inside the 100% width */
+  box-sizing: border-box !important; 
+
+  /* This covers the "glued to edge" range (Mobile up to small Desktop) */
+  @media (max-width: 1200px) {
     padding-left: v.$container-padding-mobile !important;
     padding-right: v.$container-padding-mobile !important;
+  }
+}
+
+/* B. INDIVIDUAL PAGES: Protection for Note content */
+@media (max-width: v.$tablet-breakpoint) {
+  .center article {
+    width: 100% !important;
+    padding: 0 v.$container-padding-mobile !important; 
     box-sizing: border-box !important;
+    overflow-wrap: break-word;
+    
+    img, pre, blockquote {
+      max-width: 100% !important;
+      height: auto !important;
+    }
   }
 }
 
