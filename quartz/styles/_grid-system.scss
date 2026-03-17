@@ -62,7 +62,7 @@ body[data-slug$="index"] { // This targets /books/index, /rpgs/index, etc.
   gap: 2rem;
   margin: 3rem 0;
   width: 100%;
-  padding: 0 v.$container-padding-desktop; 
+  // padding: 0 v.$container-padding-desktop; // this is causing a right shift on the homepage
 
   &.upper { grid-template-columns: 1fr 3fr; }
   &.lower { grid-template-columns: 3fr 1fr; }
