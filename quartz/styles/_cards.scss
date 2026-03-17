@@ -83,27 +83,22 @@
    3. LIST ITEMS (Music / Blog / Shadows)
    ========================================================================== */
 
-/* A. THE CONTAINER */
+/* A. THE CONTAINER: 4-Column Layout */
 .blog-section .simple-list, 
 .home-only-grid .simple-list {
   display: flex !important;
   flex-direction: row !important;
   flex-wrap: wrap !important; 
-  gap: 1rem; /* Slightly reduced gap to help 4 fit comfortably */
+  gap: 1rem !important; 
   padding: 0;
   margin: 0;
 }
 
-/* B. THE CARDS */
+/* B. THE CARDS: Internal Layout & Red/Italic Reset */
 .blog-section, .home-only-grid {
   .grid-card.list-item-card {
-    /* To get 4 per row: 100% / 4 = 25%. 
-       We use 23% to leave room for the gaps.
-    */
+    /* Sizing for 4 per row */
     flex: 1 1 calc(23% - 0.5rem) !important; 
-    
-    /* Reduced min-width so they don't force a wrap too early on smaller screens.
-    */
     min-width: 200px !important; 
     
     display: flex !important;
@@ -120,9 +115,10 @@
     }
 
     .card-icon-wrapper {
-      margin-right: 0.8rem; /* Tighter margin for 4-column layout */
+      margin-right: 0.8rem;
       margin-top: 0.5rem; 
       flex-shrink: 0;
+      color: var(--secondary);
       
       svg {
         width: 18px;
@@ -138,20 +134,44 @@
       min-width: 0;
 
       h3 {
-        font-size: 0.9rem !important; /* Slightly smaller to prevent text overlap */
+        font-size: 0.9rem !important;
         margin: 0 !important;
+        font-style: normal !important; /* Ensure title isn't italic */
       }
 
+      /* Metadata (Keeps your Red/Italic brand) */
       .card-metadata {
+        font-family: var(--bodyFont);
+        font-style: italic; 
         font-size: 0.75rem !important;
+        color: var(--secondary); 
+        opacity: 0.8;
         margin-bottom: 0.2rem;
       }
 
+      /* THE SNIPPET FIX: Force Gray and Normal */
       .card-snippet p {
+        font-family: var(--bodyFont) !important;
+        font-style: normal !important;      /* Kills the red/italic bug */
+        color: var(--darkgray) !important;  /* Kills the red/italic bug */
+        opacity: 0.7 !important;
         font-size: 0.8rem !important;
-        -webkit-line-clamp: 2; /* Keeps the cards from getting too tall in a tight grid */
+        line-height: 1.4;
+        margin: 0 !important;
+        text-decoration: none !important;
+        
+        display: -webkit-box;
+        -webkit-line-clamp: 2;
+        -webkit-box-orient: vertical;
+        overflow: hidden;
       }
     }
+  }
+
+  /* Interaction: Text clarifies on hover */
+  .list-item-card:hover .card-snippet p {
+    color: var(--dark) !important;
+    opacity: 1 !important;
   }
 }
 
@@ -168,14 +188,6 @@
 /* ==========================================================================
    4. RANDOM FIXES & OVERRIDES
    ========================================================================== */
-
-/* Article Structure 
-.blog-article {
-    margin-bottom: 4rem;
-    clear: both;
-    display: flow-root; 
-}
-*/
 
 body[data-slug="books/index"] .header-link {
    display:none !important;
