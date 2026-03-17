@@ -62,7 +62,7 @@ body[data-slug$="index"] {
 
   /* This covers the "glued to edge" range (Mobile up to small Desktop) */
   @media (max-width: 1200px) {
-    padding-left: v.$container-padding-mobile !important;
+    //padding-left: v.$container-padding-mobile !important;
     padding-right: v.$container-padding-mobile !important;
   }
 }
