@@ -78,20 +78,44 @@ body[data-slug="books/index"] {
 }
 
 .blog-section {
-  grid-column: 1 / -1; // Forces the section to span the full width of the layout grid
+  grid-column: 1 / -1;
   width: 100%;
 
-  .folder-grid {
+  .simple-list {
     display: flex !important;
     flex-direction: row !important;
-    flex-wrap: wrap; // Allows cards to wrap to a new line if the screen is too narrow
-    gap: 1.5rem;
-    justify-content: flex-start;
+    flex-wrap: wrap; 
+    gap: 1rem;
+    justify-content: space-between;
+    margin-top: 1rem;
 
-    .grid-card {
-      flex: 1 1 calc(25% - 1.5rem); // Adjusts basis to fit 4 items horizontally
-      min-width: 200px; // Prevents cards from getting too squished on mobile
-      margin: 0 !important;
+    .list-item-card {
+      // This forces 4 items per row (25% minus gap)
+      flex: 1 1 calc(25% - 1rem); 
+      min-width: 200px;
+      display: flex;
+      flex-direction: column; // Keeps icon above text inside the card
+      align-items: flex-start;
+      padding: 1rem;
+      background: var(--light);
+      transition: transform 0.2s ease;
+
+      &:hover {
+        transform: translateY(-3px);
+      }
+
+      // Hide the arrow or icon wrapper if it looks too cluttered horizontally
+      .card-icon-wrapper {
+        margin-bottom: 0.5rem;
+        flex-shrink: 0;
+        margin-right: 12px;
+        color: var(--secondary); // Uses your Superman Red
+
+        svg {
+          width: 20px;
+          height: 20px;
+        }
+      }
     }
   }
 }

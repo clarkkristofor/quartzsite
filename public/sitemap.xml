@@ -1,6 +1,18 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml"><url>
-    <loc>https://superclark.net/Hello,-world</loc>
-    <lastmod>2026-03-14T10:54:57.000Z</lastmod>
+    <loc>https://superclark.net/</loc>
+    <lastmod>2026-03-05T06:00:00.000Z</lastmod>
+  </url><url>
+    <loc>https://superclark.net/blog/Ahoy!</loc>
+    <lastmod>2026-03-16T12:34:26.000Z</lastmod>
+  </url><url>
+    <loc>https://superclark.net/blog/Gamicon-Bromine-2026</loc>
+    <lastmod>2026-03-16T12:34:26.000Z</lastmod>
+  </url><url>
+    <loc>https://superclark.net/blog/Hello,-world</loc>
+    <lastmod>2026-03-16T12:34:26.000Z</lastmod>
+  </url><url>
+    <loc>https://superclark.net/blog/Silos</loc>
+    <lastmod>2026-03-16T12:34:26.000Z</lastmod>
   </url><url>
     <loc>https://superclark.net/books/1-Thessalonians</loc>
     <lastmod>2026-03-14T10:54:57.000Z</lastmod>
@@ -30,7 +42,7 @@
     <lastmod>2026-03-14T11:10:07.000Z</lastmod>
   </url><url>
     <loc>https://superclark.net/books/Ancillary-Mercy---Ann-Leckie</loc>
-    <lastmod>2026-03-14T11:10:07.000Z</lastmod>
+    <lastmod>2026-03-15T02:00:39.000Z</lastmod>
   </url><url>
     <loc>https://superclark.net/books/Ancillary-Sword---Ann-Leckie</loc>
     <lastmod>2026-03-14T11:10:07.000Z</lastmod>
@@ -125,6 +137,9 @@
     <loc>https://superclark.net/books/In-Ascension</loc>
     <lastmod>2026-03-14T10:54:57.000Z</lastmod>
   </url><url>
+    <loc>https://superclark.net/books/</loc>
+    <lastmod>2026-03-16T13:59:14.000Z</lastmod>
+  </url><url>
     <loc>https://superclark.net/books/Introduction-to-Internal-Family-Systems</loc>
     <lastmod>2026-03-14T10:54:57.000Z</lastmod>
   </url><url>
@@ -168,7 +183,7 @@
     <lastmod>2026-03-14T10:54:57.000Z</lastmod>
   </url><url>
     <loc>https://superclark.net/books/Play---Stuart-L-Brown-Christopher-C-Vaughan</loc>
-    <lastmod>2026-03-14T10:54:57.000Z</lastmod>
+    <lastmod>2026-03-15T21:23:02.000Z</lastmod>
   </url><url>
     <loc>https://superclark.net/books/Private-Rites</loc>
     <lastmod>2026-03-14T10:54:57.000Z</lastmod>
@@ -198,7 +213,7 @@
     <lastmod>2026-03-14T10:54:57.000Z</lastmod>
   </url><url>
     <loc>https://superclark.net/books/Slow-Gods</loc>
-    <lastmod>2026-03-14T10:54:57.000Z</lastmod>
+    <lastmod>2026-03-15T21:23:02.000Z</lastmod>
   </url><url>
     <loc>https://superclark.net/books/Some-Desperate-Glory</loc>
     <lastmod>2026-03-14T10:54:57.000Z</lastmod>
@@ -228,7 +243,7 @@
     <lastmod>2026-03-14T10:54:57.000Z</lastmod>
   </url><url>
     <loc>https://superclark.net/books/The-Congregation-in-a-Secular-Age-Keeping-Sacred-Time-against-the-Speed-of-Modern-Life</loc>
-    <lastmod>2026-03-14T10:54:57.000Z</lastmod>
+    <lastmod>2026-03-16T13:46:39.000Z</lastmod>
   </url><url>
     <loc>https://superclark.net/books/The-Empress-of-Salt-and-Fortune</loc>
     <lastmod>2026-03-14T10:54:57.000Z</lastmod>
@@ -279,7 +294,7 @@
     <lastmod>2026-03-14T10:54:57.000Z</lastmod>
   </url><url>
     <loc>https://superclark.net/books/The-Obelisk-Gate---N-K-Jemisin</loc>
-    <lastmod>2026-03-14T11:10:07.000Z</lastmod>
+    <lastmod>2026-03-15T02:00:39.000Z</lastmod>
   </url><url>
     <loc>https://superclark.net/books/The-Raven-Tower---Ann-Leckie</loc>
     <lastmod>2026-03-14T11:10:07.000Z</lastmod>
@@ -303,7 +318,7 @@
     <lastmod>2026-03-14T10:54:57.000Z</lastmod>
   </url><url>
     <loc>https://superclark.net/books/The-Stone-Sky---N-K-Jemisin</loc>
-    <lastmod>2026-03-14T11:10:07.000Z</lastmod>
+    <lastmod>2026-03-15T02:00:39.000Z</lastmod>
   </url><url>
     <loc>https://superclark.net/books/The-Striker-and-the-Clock</loc>
     <lastmod>2026-03-14T10:54:57.000Z</lastmod>
@@ -312,7 +327,7 @@
     <lastmod>2026-03-14T10:54:57.000Z</lastmod>
   </url><url>
     <loc>https://superclark.net/books/The-Two-Towers---John-Ronald-Reuel-Tolkien</loc>
-    <lastmod>2026-03-14T11:10:07.000Z</lastmod>
+    <lastmod>2026-03-15T02:00:39.000Z</lastmod>
   </url><url>
     <loc>https://superclark.net/books/The-Uncontrollability-of-the-World</loc>
     <lastmod>2026-03-14T10:54:57.000Z</lastmod>
@@ -371,52 +386,64 @@
     <loc>https://superclark.net/books/Witch-King</loc>
     <lastmod>2026-03-14T10:54:57.000Z</lastmod>
   </url><url>
-    <loc>https://superclark.net/books/</loc>
+    <loc>https://superclark.net/music/Advent-archive</loc>
+    <lastmod>2026-03-14T12:42:07.000Z</lastmod>
+  </url><url>
+    <loc>https://superclark.net/music/</loc>
     <lastmod>2026-03-14T10:54:57.000Z</lastmod>
   </url><url>
-    <loc>https://superclark.net/games/Ahoy!</loc>
+    <loc>https://superclark.net/music/Merry-Christmas-playlist</loc>
+    <lastmod>2026-03-14T12:42:07.000Z</lastmod>
+  </url><url>
+    <loc>https://superclark.net/music/that-joy</loc>
+    <lastmod>2026-03-14T12:42:07.000Z</lastmod>
+  </url><url>
+    <loc>https://superclark.net/rpgs/13th-Age,-first-edition</loc>
+    <lastmod>2026-03-16T12:34:26.000Z</lastmod>
+  </url><url>
+    <loc>https://superclark.net/rpgs/13th-Age,-second-edition</loc>
+    <lastmod>2026-03-16T12:34:26.000Z</lastmod>
+  </url><url>
+    <loc>https://superclark.net/rpgs/A-Land-Once-Magic</loc>
+    <lastmod>2026-03-16T12:34:26.000Z</lastmod>
+  </url><url>
+    <loc>https://superclark.net/rpgs/Daggerheart</loc>
+    <lastmod>2026-03-16T15:54:06.000Z</lastmod>
+  </url><url>
+    <loc>https://superclark.net/rpgs/For-the-Tower</loc>
+    <lastmod>2026-03-16T15:54:06.000Z</lastmod>
+  </url><url>
+    <loc>https://superclark.net/rpgs/Going-Rogue</loc>
+    <lastmod>2026-03-16T12:34:26.000Z</lastmod>
+  </url><url>
+    <loc>https://superclark.net/rpgs/</loc>
+    <lastmod>2026-03-14T10:54:57.000Z</lastmod>
+  </url><url>
+    <loc>https://superclark.net/rpgs/Masks</loc>
+    <lastmod>2026-03-14T10:54:57.000Z</lastmod>
+  </url><url>
+    <loc>https://superclark.net/rpgs/Mythic-Bastionland</loc>
+    <lastmod>2026-03-16T15:54:06.000Z</lastmod>
+  </url><url>
+    <loc>https://superclark.net/rpgs/The-Haunting-of-Ypsilon-14</loc>
+    <lastmod>2026-03-16T12:34:26.000Z</lastmod>
+  </url><url>
+    <loc>https://superclark.net/rpgs/Urban-Shadows</loc>
+    <lastmod>2026-03-16T12:34:26.000Z</lastmod>
+  </url><url>
+    <loc>https://superclark.net/rpgs/Xenolanguage</loc>
+    <lastmod>2026-03-16T15:54:06.000Z</lastmod>
+  </url><url>
+    <loc>https://superclark.net/games/an-unpublished-game</loc>
+    <lastmod>2026-03-14T10:54:57.000Z</lastmod>
+  </url><url>
+    <loc>https://superclark.net/games/before-mom-gets-home</loc>
     <lastmod>2026-03-14T10:54:57.000Z</lastmod>
   </url><url>
     <loc>https://superclark.net/games/Bobbie</loc>
     <lastmod>2026-03-14T10:54:57.000Z</lastmod>
   </url><url>
     <loc>https://superclark.net/games/Bonus-cards-for-the-win</loc>
-    <lastmod>2026-03-14T10:54:57.000Z</lastmod>
-  </url><url>
-    <loc>https://superclark.net/games/Christmas-Betrayal</loc>
-    <lastmod>2026-03-14T10:54:57.000Z</lastmod>
-  </url><url>
-    <loc>https://superclark.net/games/EICC-game-con-Dune-Imperium</loc>
-    <lastmod>2026-03-14T10:54:57.000Z</lastmod>
-  </url><url>
-    <loc>https://superclark.net/games/EICC-game-con-Masks</loc>
-    <lastmod>2026-03-14T10:54:57.000Z</lastmod>
-  </url><url>
-    <loc>https://superclark.net/games/Family-Azul</loc>
-    <lastmod>2026-03-14T10:54:57.000Z</lastmod>
-  </url><url>
-    <loc>https://superclark.net/games/First-3e-Betrayal</loc>
-    <lastmod>2026-03-14T10:54:57.000Z</lastmod>
-  </url><url>
-    <loc>https://superclark.net/games/JC-beat-AE</loc>
-    <lastmod>2026-03-14T10:54:57.000Z</lastmod>
-  </url><url>
-    <loc>https://superclark.net/games/MASK-GAME-PLAN</loc>
-    <lastmod>2026-03-14T10:54:57.000Z</lastmod>
-  </url><url>
-    <loc>https://superclark.net/games/MORTA!</loc>
-    <lastmod>2026-03-14T10:54:57.000Z</lastmod>
-  </url><url>
-    <loc>https://superclark.net/games/Masks-prep</loc>
-    <lastmod>2026-03-14T10:54:57.000Z</lastmod>
-  </url><url>
-    <loc>https://superclark.net/games/PS-I-love-you</loc>
-    <lastmod>2026-03-14T10:54:57.000Z</lastmod>
-  </url><url>
-    <loc>https://superclark.net/games/an-unpublished-game</loc>
-    <lastmod>2026-03-14T10:54:57.000Z</lastmod>
-  </url><url>
-    <loc>https://superclark.net/games/before-mom-gets-home</loc>
     <lastmod>2026-03-14T10:54:57.000Z</lastmod>
   </url><url>
     <loc>https://superclark.net/games/car-boop.</loc>
@@ -428,13 +455,28 @@
     <loc>https://superclark.net/games/cheater-cheater-pumpkin-eater</loc>
     <lastmod>2026-03-14T10:54:57.000Z</lastmod>
   </url><url>
+    <loc>https://superclark.net/games/Christmas-Betrayal</loc>
+    <lastmod>2026-03-14T10:54:57.000Z</lastmod>
+  </url><url>
     <loc>https://superclark.net/games/dad-wins-again</loc>
     <lastmod>2026-03-14T10:54:57.000Z</lastmod>
   </url><url>
     <loc>https://superclark.net/games/double-tap</loc>
     <lastmod>2026-03-14T10:54:57.000Z</lastmod>
   </url><url>
+    <loc>https://superclark.net/games/EICC-game-con-Dune-Imperium</loc>
+    <lastmod>2026-03-14T10:54:57.000Z</lastmod>
+  </url><url>
+    <loc>https://superclark.net/games/EICC-game-con-Masks</loc>
+    <lastmod>2026-03-14T10:54:57.000Z</lastmod>
+  </url><url>
     <loc>https://superclark.net/games/extra-head,-poison-spit,-alien-origin</loc>
+    <lastmod>2026-03-14T10:54:57.000Z</lastmod>
+  </url><url>
+    <loc>https://superclark.net/games/Family-Azul</loc>
+    <lastmod>2026-03-14T10:54:57.000Z</lastmod>
+  </url><url>
+    <loc>https://superclark.net/games/First-3e-Betrayal</loc>
     <lastmod>2026-03-14T10:54:57.000Z</lastmod>
   </url><url>
     <loc>https://superclark.net/games/fix</loc>
@@ -473,6 +515,9 @@
     <loc>https://superclark.net/games/inaugural-Wingspan</loc>
     <lastmod>2026-03-14T10:54:57.000Z</lastmod>
   </url><url>
+    <loc>https://superclark.net/games/JC-beat-AE</loc>
+    <lastmod>2026-03-14T10:54:57.000Z</lastmod>
+  </url><url>
     <loc>https://superclark.net/games/jet-pack</loc>
     <lastmod>2026-03-14T10:54:57.000Z</lastmod>
   </url><url>
@@ -491,10 +536,19 @@
     <loc>https://superclark.net/games/letter-D</loc>
     <lastmod>2026-03-14T10:54:57.000Z</lastmod>
   </url><url>
+    <loc>https://superclark.net/games/MASK-GAME-PLAN</loc>
+    <lastmod>2026-03-14T10:54:57.000Z</lastmod>
+  </url><url>
+    <loc>https://superclark.net/games/Masks-prep</loc>
+    <lastmod>2026-03-14T10:54:57.000Z</lastmod>
+  </url><url>
     <loc>https://superclark.net/games/meh</loc>
     <lastmod>2026-03-14T10:54:57.000Z</lastmod>
   </url><url>
     <loc>https://superclark.net/games/more-car-cards</loc>
+    <lastmod>2026-03-14T10:54:57.000Z</lastmod>
+  </url><url>
+    <loc>https://superclark.net/games/MORTA!</loc>
     <lastmod>2026-03-14T10:54:57.000Z</lastmod>
   </url><url>
     <loc>https://superclark.net/games/new-copy</loc>
@@ -516,6 +570,9 @@
     <lastmod>2026-03-14T10:54:57.000Z</lastmod>
   </url><url>
     <loc>https://superclark.net/games/playtest-first-play</loc>
+    <lastmod>2026-03-14T10:54:57.000Z</lastmod>
+  </url><url>
+    <loc>https://superclark.net/games/PS-I-love-you</loc>
     <lastmod>2026-03-14T10:54:57.000Z</lastmod>
   </url><url>
     <loc>https://superclark.net/games/sevens-and-eights</loc>
@@ -554,52 +611,7 @@
     <loc>https://superclark.net/games/with-the-designer</loc>
     <lastmod>2026-03-14T10:54:57.000Z</lastmod>
   </url><url>
-    <loc>https://superclark.net/</loc>
-    <lastmod>2026-03-05T06:00:00.000Z</lastmod>
-  </url><url>
-    <loc>https://superclark.net/music/Advent-archive</loc>
-    <lastmod>2026-03-14T12:42:07.000Z</lastmod>
-  </url><url>
-    <loc>https://superclark.net/music/Merry-Christmas-playlist</loc>
-    <lastmod>2026-03-14T12:42:07.000Z</lastmod>
-  </url><url>
-    <loc>https://superclark.net/music/</loc>
-    <lastmod>2026-03-14T10:54:57.000Z</lastmod>
-  </url><url>
-    <loc>https://superclark.net/music/that-joy</loc>
-    <lastmod>2026-03-14T12:42:07.000Z</lastmod>
-  </url><url>
-    <loc>https://superclark.net/rpgs/13th-Age,-first-edition</loc>
-    <lastmod>2026-03-14T10:54:57.000Z</lastmod>
-  </url><url>
-    <loc>https://superclark.net/rpgs/13th-Age,-second-edition</loc>
-    <lastmod>2026-03-14T10:54:57.000Z</lastmod>
-  </url><url>
-    <loc>https://superclark.net/rpgs/A-Land-Once-Magic</loc>
-    <lastmod>2026-03-14T10:54:57.000Z</lastmod>
-  </url><url>
-    <loc>https://superclark.net/rpgs/Daggerheart</loc>
-    <lastmod>2026-03-14T10:54:57.000Z</lastmod>
-  </url><url>
-    <loc>https://superclark.net/rpgs/Dune-Sunday/Ardent-of-Zilharr-the-Radiant,-Sunday-13a</loc>
-    <lastmod>2026-03-14T10:54:57.000Z</lastmod>
-  </url><url>
-    <loc>https://superclark.net/rpgs/Dune-Sunday/Dune-inspired-Campaign-Player-Handout</loc>
-    <lastmod>2026-03-14T10:54:57.000Z</lastmod>
-  </url><url>
-    <loc>https://superclark.net/rpgs/Dune-Sunday/Zilharr-Heroes</loc>
-    <lastmod>2026-03-14T10:54:57.000Z</lastmod>
-  </url><url>
-    <loc>https://superclark.net/rpgs/Dune-Sunday/Zilharr-People</loc>
-    <lastmod>2026-03-14T10:54:57.000Z</lastmod>
-  </url><url>
-    <loc>https://superclark.net/rpgs/Dune-Sunday/Zilharr-Places</loc>
-    <lastmod>2026-03-14T10:54:57.000Z</lastmod>
-  </url><url>
-    <loc>https://superclark.net/rpgs/For-the-Tower</loc>
-    <lastmod>2026-03-14T12:42:07.000Z</lastmod>
-  </url><url>
-    <loc>https://superclark.net/rpgs/Going-Rogue</loc>
+    <loc>https://superclark.net/rpgs/Heartland-Justice/angel-of-death</loc>
     <lastmod>2026-03-14T10:54:57.000Z</lastmod>
   </url><url>
     <loc>https://superclark.net/rpgs/Heartland-Justice/Blink-Lightning</loc>
@@ -614,7 +626,16 @@
     <loc>https://superclark.net/rpgs/Heartland-Justice/CogX</loc>
     <lastmod>2026-03-14T10:54:57.000Z</lastmod>
   </url><url>
+    <loc>https://superclark.net/rpgs/Heartland-Justice/cops-and-thugs</loc>
+    <lastmod>2026-03-14T10:54:57.000Z</lastmod>
+  </url><url>
+    <loc>https://superclark.net/rpgs/Heartland-Justice/crowd-control</loc>
+    <lastmod>2026-03-14T10:54:57.000Z</lastmod>
+  </url><url>
     <loc>https://superclark.net/rpgs/Heartland-Justice/Eagle-Eye</loc>
+    <lastmod>2026-03-14T10:54:57.000Z</lastmod>
+  </url><url>
+    <loc>https://superclark.net/rpgs/Heartland-Justice/el-Luchador</loc>
     <lastmod>2026-03-14T10:54:57.000Z</lastmod>
   </url><url>
     <loc>https://superclark.net/rpgs/Heartland-Justice/Exemplars</loc>
@@ -626,16 +647,25 @@
     <loc>https://superclark.net/rpgs/Heartland-Justice/Heartland-Justice-Factions-and-NPCs</loc>
     <lastmod>2026-03-14T10:54:57.000Z</lastmod>
   </url><url>
-    <loc>https://superclark.net/rpgs/Heartland-Justice/Heartland-Justice-Session-Notes</loc>
+    <loc>https://superclark.net/rpgs/Heartland-Justice/Heartland-Justice-forms</loc>
     <lastmod>2026-03-14T10:54:57.000Z</lastmod>
   </url><url>
-    <loc>https://superclark.net/rpgs/Heartland-Justice/Heartland-Justice-forms</loc>
+    <loc>https://superclark.net/rpgs/Heartland-Justice/Heartland-Justice-Session-Notes</loc>
     <lastmod>2026-03-14T10:54:57.000Z</lastmod>
   </url><url>
     <loc>https://superclark.net/rpgs/Heartland-Justice/Heartland-Justice</loc>
     <lastmod>2026-03-14T10:54:57.000Z</lastmod>
   </url><url>
     <loc>https://superclark.net/rpgs/Heartland-Justice/Heartwarming-Disaster</loc>
+    <lastmod>2026-03-14T10:54:57.000Z</lastmod>
+  </url><url>
+    <loc>https://superclark.net/rpgs/Heartland-Justice/kissing</loc>
+    <lastmod>2026-03-14T10:54:57.000Z</lastmod>
+  </url><url>
+    <loc>https://superclark.net/rpgs/Heartland-Justice/meet-the-parents-and-the-murderbot</loc>
+    <lastmod>2026-03-14T10:54:57.000Z</lastmod>
+  </url><url>
+    <loc>https://superclark.net/rpgs/Heartland-Justice/parents-and-children</loc>
     <lastmod>2026-03-14T10:54:57.000Z</lastmod>
   </url><url>
     <loc>https://superclark.net/rpgs/Heartland-Justice/Playing-Politics-and-also-maybe-God</loc>
@@ -653,6 +683,12 @@
     <loc>https://superclark.net/rpgs/Heartland-Justice/Storm-Lightning</loc>
     <lastmod>2026-03-14T10:54:57.000Z</lastmod>
   </url><url>
+    <loc>https://superclark.net/rpgs/Heartland-Justice/the-Glint</loc>
+    <lastmod>2026-03-14T10:54:57.000Z</lastmod>
+  </url><url>
+    <loc>https://superclark.net/rpgs/Heartland-Justice/timeblink</loc>
+    <lastmod>2026-03-14T10:54:57.000Z</lastmod>
+  </url><url>
     <loc>https://superclark.net/rpgs/Heartland-Justice/Tyson</loc>
     <lastmod>2026-03-14T10:54:57.000Z</lastmod>
   </url><url>
@@ -662,35 +698,53 @@
     <loc>https://superclark.net/rpgs/Heartland-Justice/X</loc>
     <lastmod>2026-03-14T10:54:57.000Z</lastmod>
   </url><url>
-    <loc>https://superclark.net/rpgs/Heartland-Justice/angel-of-death</loc>
+    <loc>https://superclark.net/rpgs/wishlist/ASTROPRISMA</loc>
+    <lastmod>2026-03-16T13:59:14.000Z</lastmod>
+  </url><url>
+    <loc>https://superclark.net/rpgs/wishlist/Cosmic-Dark</loc>
+    <lastmod>2026-03-16T12:34:26.000Z</lastmod>
+  </url><url>
+    <loc>https://superclark.net/rpgs/wishlist/Draw-Steel</loc>
+    <lastmod>2026-03-16T12:34:26.000Z</lastmod>
+  </url><url>
+    <loc>https://superclark.net/rpgs/wishlist/Dungeon-World-2</loc>
+    <lastmod>2026-03-16T12:34:26.000Z</lastmod>
+  </url><url>
+    <loc>https://superclark.net/rpgs/wishlist/</loc>
+    <lastmod>2026-03-16T13:59:14.000Z</lastmod>
+  </url><url>
+    <loc>https://superclark.net/rpgs/wishlist/Out-of-Orbit</loc>
+    <lastmod>2026-03-16T12:34:26.000Z</lastmod>
+  </url><url>
+    <loc>https://superclark.net/rpgs/wishlist/The-Quiet-Year</loc>
+    <lastmod>2026-03-16T12:34:26.000Z</lastmod>
+  </url><url>
+    <loc>https://superclark.net/rpgs/wishlist/The-Silt-Verses</loc>
+    <lastmod>2026-03-16T12:34:26.000Z</lastmod>
+  </url><url>
+    <loc>https://superclark.net/rpgs/Dune-Sunday/Ardent-of-Zilharr-the-Radiant,-Sunday-13a</loc>
     <lastmod>2026-03-14T10:54:57.000Z</lastmod>
   </url><url>
-    <loc>https://superclark.net/rpgs/Heartland-Justice/cops-and-thugs</loc>
+    <loc>https://superclark.net/rpgs/Dune-Sunday/Dune-inspired-Campaign-Player-Handout</loc>
     <lastmod>2026-03-14T10:54:57.000Z</lastmod>
   </url><url>
-    <loc>https://superclark.net/rpgs/Heartland-Justice/crowd-control</loc>
+    <loc>https://superclark.net/rpgs/Dune-Sunday/Zilharr-Heroes</loc>
     <lastmod>2026-03-14T10:54:57.000Z</lastmod>
   </url><url>
-    <loc>https://superclark.net/rpgs/Heartland-Justice/el-Luchador</loc>
+    <loc>https://superclark.net/rpgs/Dune-Sunday/Zilharr-People</loc>
     <lastmod>2026-03-14T10:54:57.000Z</lastmod>
   </url><url>
-    <loc>https://superclark.net/rpgs/Heartland-Justice/kissing</loc>
+    <loc>https://superclark.net/rpgs/Dune-Sunday/Zilharr-Places</loc>
     <lastmod>2026-03-14T10:54:57.000Z</lastmod>
   </url><url>
-    <loc>https://superclark.net/rpgs/Heartland-Justice/meet-the-parents-and-the-murderbot</loc>
-    <lastmod>2026-03-14T10:54:57.000Z</lastmod>
+    <loc>https://superclark.net/rpgs/UrbanShadowsQC/</loc>
+    <lastmod>2026-03-14T12:50:39.000Z</lastmod>
   </url><url>
-    <loc>https://superclark.net/rpgs/Heartland-Justice/parents-and-children</loc>
-    <lastmod>2026-03-14T10:54:57.000Z</lastmod>
+    <loc>https://superclark.net/rpgs/UrbanShadowsQC/session-0</loc>
+    <lastmod>2025-06-05T05:00:00.000Z</lastmod>
   </url><url>
-    <loc>https://superclark.net/rpgs/Heartland-Justice/the-Glint</loc>
-    <lastmod>2026-03-14T10:54:57.000Z</lastmod>
-  </url><url>
-    <loc>https://superclark.net/rpgs/Heartland-Justice/timeblink</loc>
-    <lastmod>2026-03-14T10:54:57.000Z</lastmod>
-  </url><url>
-    <loc>https://superclark.net/rpgs/Masks</loc>
-    <lastmod>2026-03-14T10:54:57.000Z</lastmod>
+    <loc>https://superclark.net/rpgs/UrbanShadowsQC/session-13</loc>
+    <lastmod>2026-03-05T06:00:00.000Z</lastmod>
   </url><url>
     <loc>https://superclark.net/rpgs/Matt's-campaign/A-Dead-Douche,-but-Raxus's-Dead-Douche</loc>
     <lastmod>2026-03-14T10:54:57.000Z</lastmod>
@@ -702,6 +756,12 @@
     <lastmod>2026-03-14T10:54:57.000Z</lastmod>
   </url><url>
     <loc>https://superclark.net/rpgs/Matt's-campaign/Bizness-Time</loc>
+    <lastmod>2026-03-14T10:54:57.000Z</lastmod>
+  </url><url>
+    <loc>https://superclark.net/rpgs/Matt's-campaign/black-dragon-debts--and--Halvar's-fish</loc>
+    <lastmod>2026-03-14T10:54:57.000Z</lastmod>
+  </url><url>
+    <loc>https://superclark.net/rpgs/Matt's-campaign/brain-jacked-on-the-map</loc>
     <lastmod>2026-03-14T10:54:57.000Z</lastmod>
   </url><url>
     <loc>https://superclark.net/rpgs/Matt's-campaign/Dapper-Dan-is-dead</loc>
@@ -768,38 +828,5 @@
     <lastmod>2026-03-14T10:54:57.000Z</lastmod>
   </url><url>
     <loc>https://superclark.net/rpgs/Matt's-campaign/Urza</loc>
-    <lastmod>2026-03-14T10:54:57.000Z</lastmod>
-  </url><url>
-    <loc>https://superclark.net/rpgs/Matt's-campaign/black-dragon-debts--and--Halvar's-fish</loc>
-    <lastmod>2026-03-14T10:54:57.000Z</lastmod>
-  </url><url>
-    <loc>https://superclark.net/rpgs/Matt's-campaign/brain-jacked-on-the-map</loc>
-    <lastmod>2026-03-14T10:54:57.000Z</lastmod>
-  </url><url>
-    <loc>https://superclark.net/rpgs/Mythic-Bastionland</loc>
-    <lastmod>2026-03-14T12:42:07.000Z</lastmod>
-  </url><url>
-    <loc>https://superclark.net/rpgs/The-Haunting-of-Ypsilon-14</loc>
-    <lastmod>2026-03-14T10:54:57.000Z</lastmod>
-  </url><url>
-    <loc>https://superclark.net/rpgs/Urban-Shadows</loc>
-    <lastmod>2026-03-14T12:42:07.000Z</lastmod>
-  </url><url>
-    <loc>https://superclark.net/rpgs/UrbanShadowsQC/</loc>
-    <lastmod>2026-03-14T12:50:39.000Z</lastmod>
-  </url><url>
-    <loc>https://superclark.net/rpgs/UrbanShadowsQC/session-0</loc>
-    <lastmod>2025-06-05T05:00:00.000Z</lastmod>
-  </url><url>
-    <loc>https://superclark.net/rpgs/UrbanShadowsQC/session-13</loc>
-    <lastmod>2026-03-05T06:00:00.000Z</lastmod>
-  </url><url>
-    <loc>https://superclark.net/rpgs/Xenolanguage</loc>
-    <lastmod>2026-03-14T12:42:07.000Z</lastmod>
-  </url><url>
-    <loc>https://superclark.net/rpgs/</loc>
-    <lastmod>2026-03-14T10:54:57.000Z</lastmod>
-  </url><url>
-    <loc>https://superclark.net/rpgs/wishlist/RPG-wishlist</loc>
     <lastmod>2026-03-14T10:54:57.000Z</lastmod>
   </url></urlset>

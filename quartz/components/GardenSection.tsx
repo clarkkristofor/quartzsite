@@ -32,7 +32,18 @@ export default ((userOpts?: Partial<Options>) => {
     })
 
     const displayedPages = pages
-      .sort((a, b) => (b.dates?.modified?.getTime() ?? 0) - (a.dates?.modified?.getTime() ?? 0))
+      .sort((a, b) => {
+        // Check multiple date sources to find any unique timestamp
+        const dateA = a.dates?.modified?.getTime() ?? a.dates?.created?.getTime() ?? a.dates?.published?.getTime() ?? 0
+        const dateB = b.dates?.modified?.getTime() ?? b.dates?.created?.getTime() ?? b.dates?.published?.getTime() ?? 0
+
+        if (dateA !== dateB) {
+          return dateB - dateA
+        }
+
+        // Tie-breaker
+        return (a.frontmatter?.title ?? "").localeCompare(b.frontmatter?.title ?? "")
+      })
       .slice(0, limit)
 
     const isMusic = title.toLowerCase().includes("music")
