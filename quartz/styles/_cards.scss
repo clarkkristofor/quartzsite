@@ -82,13 +82,25 @@
 /* ==========================================================================
    3. LIST ITEMS (Music / Dense Lists)
    ========================================================================== */
-/* 1. THE FOUNDATION: Combined Layout & SVG Alignment */
-/* Target specifically the Notes and Home Grid sections */
+/* 1. Target the CONTAINER to keep cards side-by-side */
+.blog-section .simple-list, 
+.home-only-grid .simple-list {
+  display: flex !important;
+  flex-direction: row !important;
+  flex-wrap: wrap !important; /* Allows them to wrap to a new line if they run out of space */
+  gap: 1.5rem; /* Space between the cards */
+}
+
+/* 2. Target the CARDS within those sections */
 .blog-section, .home-only-grid {
   .grid-card.list-item-card {
+    /* Each card takes up roughly 45% width to sit side-by-side */
+    flex: 1 1 calc(45% - 1rem); 
+    min-width: 300px; /* Prevents them from getting too skinny */
+    
     display: flex !important;
-    flex-direction: row !important;      /* Side-by-side */
-    align-items: flex-start !important;  /* Anchor icon to the top */
+    flex-direction: row !important;      /* Icon next to Text */
+    align-items: flex-start !important;  /* Your preferred "pulled up" icon */
     padding: 1rem 0 !important;
     background: transparent !important;
     border: none !important;
@@ -100,25 +112,21 @@
 
     .card-icon-wrapper {
       margin-right: 1.2rem;
-      /* Micro-adjustment: this pulls the icon to sit next to the Title/Meta line */
-      margin-top: 0.5rem; 
+      margin-top: 0.5rem; /* The "pull up" adjustment */
       flex-shrink: 0;
       color: var(--secondary);
       
       svg {
         width: 18px;
         height: 18px;
-        display: block;
       }
     }
 
     .card-content {
-      padding: 0 !important;
       display: flex;
-      flex-direction: column;
-      min-width: 0; 
-      
-      /* Snippet styling fix */
+      flex-direction: column; /* Title, Meta, and Snippet stack vertically */
+      min-width: 0;
+
       .card-snippet p {
         font-family: var(--bodyFont);
         font-style: normal !important;

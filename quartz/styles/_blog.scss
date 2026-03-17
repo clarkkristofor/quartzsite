@@ -7,7 +7,7 @@
     display: flow-root; 
 }
 
-/* Metadata (Dates & Tags) */
+/* Metadata (Dates & Tags)
 .blog-meta-wrapper {
     display: flex;
     gap: 10px;
@@ -29,9 +29,9 @@
     font-size: 0.6rem; 
     font-weight: 700; 
     text-transform: uppercase; 
-}
+}  */
 
-/* Filter Bar & Buttons */
+/* Filter Bar & Buttons 
 .blog-filter-bar {
     margin-bottom: 2rem;
     display: flex;
@@ -54,15 +54,13 @@
         background: #000 !important;
         color: #fff !important;
     }
-}
+} */
 
 body[data-slug="books/index"] .header-link {
    display:none !important;
 }
 
 body[data-slug="books/index"] {
-
-
   // 3. Spacing for "Reading List & Recommendations" (the second garden-title)
   // We use margin-top on the container to force a gap
   .garden-section-container:nth-of-type(2) {
