@@ -1,7 +1,7 @@
 ---
 publish: true
 title:
-description: Swords Beyond design thoughts
+description: design thoughts
 image:
 tags:
   - design
@@ -16,4 +16,4 @@ I want fantasy but...
 
 OSR I've seen is too survival and dungeon-crawl and tracking torches for me. Too old-school?
 
-But
+At the con, while playing [[Xenolanguage]], I remembered [[A Land Once Magic]] and wondered if I should make system-neutral character archetype and relationship cards. We could used them for [[13th Age, second edition|13th Age]] character creation and session zero. This would get at #2 at least. 
