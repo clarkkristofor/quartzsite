@@ -11,7 +11,7 @@ body[data-slug$="index"] {
     margin: 0 auto !important;
     max-width: v.$page-max-width !important; 
     width: 95% !important; 
-    display: block !important; /* Required for the homepage grid rows */
+    display: block !important;
   }
 
   #quartz-body {
@@ -29,6 +29,7 @@ body[data-slug$="index"] {
     max-width: none !important;
   }
 
+  /* FORCING HORIZONTAL ROWS */
   .garden-section {
     display: grid !important;
     width: 100% !important;
@@ -46,26 +47,26 @@ body[data-slug$="index"] {
 /* ==========================================================================
    2. INDIVIDUAL NOTES (The Centering Reset)
    ========================================================================== */
-/* Specifically targets pages that ARE NOT the homepage or folder indexes */
 body:not([data-slug$="index"]):not(:has(.home-only-grid)) {
   #quartz-root {
     margin: 0 auto !important;
     display: flex !important;
-    flex-direction: column !important; /* Keeps header/body stacked vertically */
-    align-items: center !important;    /* Centers the stack */
+    flex-direction: column !important; /* CRITICAL: Keeps header/body stacked */
+    align-items: center !important;    /* CRITICAL: Centers the entire stack */
     max-width: v.$page-max-width !important;
     width: 100% !important;
   }
 
   #quartz-body {
     display: flex !important;
+    flex-direction: row !important;
     justify-content: center !important;
     width: 100% !important;
   }
 
   .center {
     width: 90% !important; 
-    max-width: 800px !important; /* Limits line length for readability */
+    max-width: 800px !important; /* Limits text width for readability */
     margin: 0 auto !important;
     display: block !important;
   }
