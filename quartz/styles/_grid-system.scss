@@ -17,7 +17,7 @@ body[data-slug$="index"] {
   }
 
   #quartz-body {
-    /* Use display: block to stop the 'flex-column' from squishing children */
+    /* Changing this to 'block' is the only way to let internal grids float */
     display: block !important; 
     width: 100% !important;
     padding: 0 !important;
@@ -28,11 +28,42 @@ body[data-slug$="index"] {
   .center {
     width: 100% !important;
     max-width: none !important; 
-    /* The 'Grid-Pass-Through': Forces the container to full width 
-       so internal .garden-section rules can finally activate. */
-    display: grid !important;
-    grid-template-columns: 1fr !important; 
+    display: block !important;
     margin: 0 !important;
+  }
+
+  /* FORCING THE HORIZONTAL ROWS: This overrides any lingering stack logic */
+  .garden-section {
+    display: grid !important;
+    width: 100% !important;
+    
+    &.upper { 
+      grid-template-columns: 1fr 3fr !important; 
+    }
+    &.lower { 
+      grid-template-columns: 3fr 1fr !important; 
+    }
+    
+    /* Ensure they only stack on mobile */
+    @media (max-width: v.$tablet-breakpoint) {
+      grid-template-columns: 1fr !important;
+    }
+  }
+}
+
+/* ==========================================================================
+   2. INDIVIDUAL NOTE PAGES (Centering Preservation)
+   ========================================================================== */
+body:not([data-slug$="index"]):not(:has(.home-only-grid)) {
+  #quartz-root {
+    margin: 0 auto !important;
+    display: flex !important;
+    justify-content: center !important;
+  }
+  
+  .center {
+    margin: 0 auto !important;
+    max-width: v.$page-max-width; 
   }
 }
 
