@@ -40,7 +40,7 @@ body[data-slug$="index"] {
   .center {
     width: 100% !important;
     max-width: none !important; 
-    display: contents !important; 
+    display: block !important; /* Changed from contents to block */
   }
 }
 
