@@ -4,7 +4,7 @@ tags:
 publish: true
 title: Gamicon Bromine
 description: the Iowa City games convention, 2026
-link:
+link: https://s3.amazonaws.com/conventionimages.tabletop.events/D3B23864-CED6-11EF-AAEB-427F056C9BA1/56ABE844-CEDE-11EF-B72B-DE5E00B4F492/GamiconBromineSocial.jpg
 image:
 ---
 Here's what I played.
