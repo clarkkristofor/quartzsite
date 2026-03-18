@@ -144,8 +144,11 @@ body:not([data-slug$="index"]):not(:has(.home-only-grid)) {
 @media (max-width: v.$tablet-breakpoint) {
   /* This creates the 15px side margins for the whole page */
   #quartz-root {
-    width: calc(100% - 30px) !important; 
+    width: calc(100vw - 30px) !important; 
     margin: 0 auto !important;
+
+    /* Prevents horizontal overflow if the calculation is tight */
+    overflow-x: hidden;
   }
 
   /* This protects content from overflowing the new margins */
@@ -156,8 +159,15 @@ body:not([data-slug$="index"]):not(:has(.home-only-grid)) {
 
     /* Keep these! They prevent images/code from breaking the layout */
     img, pre, blockquote {
-      max-width: calc(100% - 30px) !important; 
+      max-width: calc(100vw - 30px) !important; 
       height: auto !important;
+    }
+  }
+
+  @media (pointer: fine) {
+    #quartz-root {
+      /* Adds a tiny bit of extra breathing room only when a mouse is used */
+      width: calc(100vw - 40px) !important; 
     }
   }
 }
