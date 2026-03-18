@@ -46,23 +46,25 @@ body[data-slug$="index"] {
 /* ==========================================================================
    2. INDIVIDUAL NOTES (The Centering Reset)
    ========================================================================== */
-/* ==========================================================================
-   2. INDIVIDUAL NOTES (The Centering Reset)
-   ========================================================================== */
 body:not([data-slug$="index"]):not(:has(.home-only-grid)) {
   
-  /* 1. Kill the invisible sidebars that are shoving content left */
-  .page > #quartz-body .sidebar.left,
+  /* 1. Kill the specific Quartz sidebar selectors you identified */
   .page > #quartz-body .sidebar.right,
+  .page > #quartz-body .sidebar.left,
+  .page > #quartz-body .sidebar,
   .sidebar {
     display: none !important;
+    visibility: hidden !important;
     width: 0 !important;
-    flex: 0 0 0 !important;
+    height: 0 !important;
     margin: 0 !important;
     padding: 0 !important;
+    flex: 0 0 0 !important;
+    grid-area: none !important; /* Forces the grid-area to release its hold */
+    position: absolute !important; /* Removes it from the flex/grid flow */
   }
 
-  /* 2. Force the Body to center its only remaining child (.center) */
+  /* 2. Force the Body to occupy the full width without sidebar gaps */
   #quartz-body {
     display: flex !important;
     flex-direction: row !important;
@@ -70,15 +72,17 @@ body:not([data-slug$="index"]):not(:has(.home-only-grid)) {
     align-items: flex-start !important;
     width: 100% !important;
     max-width: none !important;
+    margin: 0 !important;
+    gap: 0 !important;
   }
 
-  /* 3. The Note Content itself */
+  /* 3. Center the content column */
   .center {
     width: 95% !important; 
-    max-width: 800px !important; /* Readable line length */
-    margin: 0 auto !important;   /* Mathematical centering */
+    max-width: 800px !important; 
+    margin: 0 auto !important;
     display: block !important;
-    flex: none !important;       /* Prevents flexbox from stretching it */
+    flex: none !important;
   }
 }
 
