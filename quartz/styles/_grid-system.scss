@@ -4,7 +4,7 @@
    1. GLOBAL LAYOUT GATEKEEPER (#quartz-root)
    ========================================================================== */
 
-/* This handles the primary site width for ALL index pages */
+/* Triggers ONLY for Homepage and Index/Folder pages */
 .page:has(.home-only-grid),
 .page:has(.folder-index-layout),
 body[data-slug$="index"] {
@@ -12,33 +12,39 @@ body[data-slug$="index"] {
   #quartz-root {
     margin: 0 auto !important;
     max-width: v.$page-max-width !important; 
-    width: 95% !important; 
-    /* Removed 'display: block' to let Quartz handle internal positioning */
+    width: 95% !important;
+    display: block !important;
   }
 
   #quartz-body {
-    /* Removed flex overrides to prevent breaking the horizontal grid */
+    /* Critical: Set to block to allow internal Garden Sections to align horizontally */
+    display: block !important; 
     width: 100% !important;
     padding: 0 !important;
   }
 
-  /* Reclaims space from sidebars ONLY on index pages */
-  .sidebar.left, .sidebar.right {
-    display: none !important;
-  }
+  .sidebar { display: none !important; }
 
-  /* Standardizes the content area to fill the root without breaking internal grids */
   .center {
     width: 100% !important;
     max-width: none !important; 
-    /* 'display: unset' allows the homepage .garden-section to use its own grid rules */
+    /* This was your breakthrough: it stops the 'center' div from 
+       squashing the garden grids into a single column. */
     display: unset !important; 
   }
 }
 
 /* ==========================================================================
-   2. SECTION OVERLAP REMOVAL & MOBILE PROTECTION
+   2. INDIVIDUAL NOTE PAGES (Centering Gatekeeper)
    ========================================================================== */
+/* If NOT an index page, ensure standard Quartz centering is preserved */
+body:not([data-slug$="index"]):not(:has(.home-only-grid)) {
+  #quartz-root {
+    margin: 0 auto !important;
+    display: flex !important;
+    justify-content: center !important;
+  }
+}
 
 /* A. INDEX PAGES: Homepage, Folders, and Blog Lists */
 .home-only-grid, 
