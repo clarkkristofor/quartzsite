@@ -2,7 +2,7 @@
 publish: true
 title:
 description: design thoughts
-image: File/Pasted image 20260318055910.png
+image: File/Pasted%20image%2020260318055910.png
 tags:
   - design
   - Swords_Beyond
