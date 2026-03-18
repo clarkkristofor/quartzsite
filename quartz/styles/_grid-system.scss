@@ -112,7 +112,7 @@ body:not([data-slug$="index"]):not(:has(.home-only-grid)) {
     grid-template-columns: 100% !important;
     gap: 2rem !important;
   }
-  
+
   /* 3. The Note Content */
   .center {
     width: 100% !important;
@@ -156,7 +156,7 @@ body:not([data-slug$="index"]):not(:has(.home-only-grid)) {
 
     /* Keep these! They prevent images/code from breaking the layout */
     img, pre, blockquote {
-      max-width: 100% !important;
+      max-width: calc(100% - 30px) !important; 
       height: auto !important;
     }
   }
