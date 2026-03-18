@@ -159,8 +159,13 @@ body:not([data-slug$="index"]):not(:has(.home-only-grid)) {
 
     /* Keep these! They prevent images/code from breaking the layout */
     img, pre, blockquote {
-      max-width: calc(100vw - 30px) !important; 
+      max-width: calc(100vw - 15px) !important; 
       height: auto !important;
+
+      @media (pointer: fine) {
+      /* Adds a tiny bit of extra breathing room only when a mouse is used */
+      width: calc(100vw - 30px) !important; 
+      }
     }
   }
 
