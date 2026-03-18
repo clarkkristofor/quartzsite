@@ -48,42 +48,47 @@ body[data-slug$="index"] {
    ========================================================================== */
 body:not([data-slug$="index"]):not(:has(.home-only-grid)) {
   
-  /* 1. Kill the sidebars completely */
+  /* 1. Kill the Sidebars and release their Grid slots */
   .page > #quartz-body .sidebar.right,
   .page > #quartz-body .sidebar.left,
   .sidebar {
     display: none !important;
+    grid-area: none !important; 
     width: 0 !important;
     height: 0 !important;
-    grid-area: none !important;
     position: absolute !important;
   }
 
-  /* 2. CHANGE: flex-direction to column to stack Content and Footer */
+  /* 2. Stack everything vertically */
   #quartz-body {
     display: flex !important;
-    flex-direction: column !important; /* Changed from row to column */
-    align-items: center !important;    /* Centers the stack horizontally */
+    flex-direction: column !important; 
+    align-items: center !important;    
     width: 100% !important;
     max-width: none !important;
-    margin: 0 !important;
-    gap: 2rem !important;              /* Adds breathing room between content and footer */
+    grid-template-areas: none !important; /* Forces the grid to stop using "slots" */
+    grid-template-columns: 100% !important;
   }
 
-  /* 3. The Note Content column */
+  /* 3. The Note Content */
   .center {
     width: 95% !important; 
     max-width: 800px !important; 
     margin: 0 auto !important;
     display: block !important;
+    min-width: unset !important; /* Overrides the 'min-width: 100%' you found */
   }
 
-  /* 4. Ensure Footer spans the full width or centers under content */
+  /* 4. The Footer Fix: Breaking out of the Grid slot */
+  .page > #quartz-body footer, 
   footer {
-    width: 100% !important;
+    display: block !important;
+    grid-area: unset !important;   /* CRITICAL: Stops it from jumping to the side */
+    width: 95% !important;
     max-width: 800px !important;
-    margin: 0 auto !important;
-    text-align: center;
+    margin: 2rem auto 4rem auto !important;
+    min-width: unset !important;   /* Overrides the 'min-width: 100%' you found */
+    text-align: center !important; /* Optional: centers the footer text */
   }
 }
 
