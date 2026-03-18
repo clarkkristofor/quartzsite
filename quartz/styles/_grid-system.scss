@@ -4,7 +4,7 @@
    1. GLOBAL LAYOUT GATEKEEPER (#quartz-root)
    ========================================================================== */
 
-/* This handles the primary site width and centering for ALL index pages */
+/* TARGET ONLY INDEX/GRID PAGES */
 .page:has(.home-only-grid),
 .page:has(.folder-index-layout),
 body[data-slug$="index"] {
@@ -12,27 +12,19 @@ body[data-slug$="index"] {
   #quartz-root {
     margin: 0 auto !important;
     max-width: v.$page-max-width !important; 
-    /* Desktop width */
     width: 95% !important; 
-    display: block;
-
-    /* Mobile Protection: Ensures gutters and prevents right-edge touching */
-    @media (max-width: v.$tablet-breakpoint) {
-      /* This creates the safe gap on both left AND right sides */
-      width: calc(100% - (v.$container-padding-mobile * 2)) !important;
-      margin: 0 auto !important; 
-      padding: 0 !important;
-    }
+    display: block !important; 
   }
 
   #quartz-body {
+    /* Changed to 'flex' with 'row' to allow internal grids to function */
     display: flex !important;
-    display: block !important;
-    align-items: stretch !important; 
+    flex-direction: row !important; 
     width: 100% !important;
     padding: 0 !important;
   }
 
+  /* Sidebars must stay hidden for the grid to have room */
   .sidebar.left, .sidebar.right {
     display: none !important;
   }
@@ -40,8 +32,9 @@ body[data-slug$="index"] {
   .center {
     width: 100% !important;
     max-width: none !important; 
-    display: block !important; 
-    margin: 0 !important;
+    /* 'flex' ensures children like .garden-section can use their grid properties */
+    display: flex !important; 
+    flex-direction: column !important;
   }
 }
 
@@ -71,8 +64,8 @@ body[data-slug$="index"] {
 
 /* B. INDIVIDUAL PAGES: Protection for Note content */
 @media (max-width: v.$tablet-breakpoint) {
+  /* Remove the 'width: 100% !important' that was pushing notes off-center */
   .center article {
-    width: 100% !important;
     padding: 0 v.$container-padding-mobile !important; 
     box-sizing: border-box !important;
     overflow-wrap: break-word;
