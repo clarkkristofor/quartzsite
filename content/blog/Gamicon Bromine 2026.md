@@ -1,6 +1,7 @@
 ---
 dg-publish: "true"
 tags:
+  - Gamicon
 publish: true
 title: Gamicon Bromine
 description: the Iowa City games convention, 2026
