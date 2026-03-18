@@ -4,7 +4,7 @@
    1. GLOBAL LAYOUT GATEKEEPER (#quartz-root)
    ========================================================================== */
 
-/* Target ONLY index/grid pages */
+/* This handles the primary site width for ALL index pages */
 .page:has(.home-only-grid),
 .page:has(.folder-index-layout),
 body[data-slug$="index"] {
@@ -13,27 +13,26 @@ body[data-slug$="index"] {
     margin: 0 auto !important;
     max-width: v.$page-max-width !important; 
     width: 95% !important; 
-    display: block !important; 
+    /* Removed 'display: block' to let Quartz handle internal positioning */
   }
 
   #quartz-body {
-    display: flex !important;
-    flex-direction: column !important;
+    /* Removed flex overrides to prevent breaking the horizontal grid */
     width: 100% !important;
     padding: 0 !important;
   }
 
+  /* Reclaims space from sidebars ONLY on index pages */
   .sidebar.left, .sidebar.right {
     display: none !important;
   }
 
-  /* This is the critical change for the homepage grid */
+  /* Standardizes the content area to fill the root without breaking internal grids */
   .center {
     width: 100% !important;
     max-width: none !important; 
-    display: grid !important; /* Changed to grid */
-    grid-template-columns: 100%;
-    margin: 0 !important;
+    /* 'display: unset' allows the homepage .garden-section to use its own grid rules */
+    display: unset !important; 
   }
 }
 
