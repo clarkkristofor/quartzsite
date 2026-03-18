@@ -103,10 +103,16 @@ body:not([data-slug$="index"]):not(:has(.home-only-grid)) {
     align-items: center !important;    
     width: 100% !important;
     max-width: none !important;
-    grid-template-areas: none !important; /* Forces the grid to stop using "slots" */
+    
+    /* KILL THE SCROLL: This overrides the 1200px media query padding */
+    padding: 0 !important; 
+    margin: 0 !important;
+    
+    grid-template-areas: none !important;
     grid-template-columns: 100% !important;
+    gap: 2rem !important;
   }
-
+  
   /* 3. The Note Content */
   .center {
     width: 100% !important;
