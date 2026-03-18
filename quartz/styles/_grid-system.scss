@@ -1,6 +1,24 @@
 @use "customVariables" as v;
 
 /* ==========================================================================
+   0. GLOBAL RESPONSIVENESS FIXES (The Mobile Margins)
+   ========================================================================== */
+
+@media (max-width: v.$tablet-breakpoint) {
+  #quartz-root {
+    width: calc(100% - 30px) !important; 
+    margin: 0 auto !important;
+  }
+  .center article {
+    padding: 0 !important; 
+    img, pre, blockquote {
+      max-width: 100% !important;
+      height: auto !important;
+    }
+  }
+}
+
+/* ==========================================================================
    1. HOMEPAGE & FOLDERS (The Grid Gatekeeper)
    ========================================================================== */
 .page:has(.home-only-grid),
@@ -29,6 +47,7 @@ body[data-slug$="index"] {
     max-width: none !important;
   }
 
+  /* Inside Section 1 (The Homepage Gatekeeper) */
   .garden-section {
     display: grid !important;
     width: 100% !important;
@@ -37,8 +56,21 @@ body[data-slug$="index"] {
     &.upper { grid-template-columns: 1fr 3fr !important; }
     &.lower { grid-template-columns: 3fr 1fr !important; }
 
-    @media (max-width: 600px) {
-      grid-template-columns: 1fr !important;
+    /* MOVE THE STACKING LOGIC HERE */
+    @media (max-width: v.$tablet-breakpoint) {
+      display: flex !important;
+      flex-direction: column !important;
+      gap: 2rem !important;
+      
+      .garden-col-left, 
+      .garden-col-right {
+        width: 100% !important;
+      }
+      
+      .folder-grid {
+        grid-template-columns: repeat(2, 1fr) !important;
+        gap: 12px !important;
+      }
     }
   }
 }
@@ -72,11 +104,15 @@ body:not([data-slug$="index"]):not(:has(.home-only-grid)) {
 
   /* 3. The Note Content */
   .center {
-    width: 95% !important; 
-    max-width: 800px !important; 
+    width: 100% !important;
+    max-width: 800px !important; /* Keeps desktop text readable */
     margin: 0 auto !important;
     display: block !important;
-    min-width: unset !important; /* Overrides the 'min-width: 100%' you found */
+    min-width: unset !important;
+    
+    @media (max-width: v.$tablet-breakpoint) {
+      max-width: none !important; /* Allows mobile to use the calc margin */
+    }
   }
 
   /* 4. The Footer Fix: Breaking out of the Grid slot */
@@ -84,7 +120,8 @@ body:not([data-slug$="index"]):not(:has(.home-only-grid)) {
   footer {
     display: block !important;
     grid-area: unset !important;   /* CRITICAL: Stops it from jumping to the side */
-    width: 95% !important;
+    width: 100% !important;
+    padding: 0 15px !important;
     max-width: 800px !important;
     margin: 2rem auto 4rem auto !important;
     min-width: unset !important;   /* Overrides the 'min-width: 100%' you found */
@@ -93,11 +130,19 @@ body:not([data-slug$="index"]):not(:has(.home-only-grid)) {
 }
 
 @media (max-width: v.$tablet-breakpoint) {
+  /* This creates the 15px side margins for the whole page */
+  #quartz-root {
+    width: calc(100% - 30px) !important; 
+    margin: 0 auto !important;
+  }
+
+  /* This protects content from overflowing the new margins */
   .center article {
-    padding: 0 v.$container-padding-mobile !important; 
+    padding: 0 !important; 
     box-sizing: border-box !important;
     overflow-wrap: break-word;
 
+    /* Keep these! They prevent images/code from breaking the layout */
     img, pre, blockquote {
       max-width: 100% !important;
       height: auto !important;
