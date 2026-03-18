@@ -4,7 +4,7 @@
    1. GLOBAL LAYOUT GATEKEEPER (#quartz-root)
    ========================================================================== */
 
-/* TARGET ONLY INDEX/GRID PAGES */
+/* Target ONLY index/grid pages to prevent affecting individual notes */
 .page:has(.home-only-grid),
 .page:has(.folder-index-layout),
 body[data-slug$="index"] {
@@ -17,14 +17,14 @@ body[data-slug$="index"] {
   }
 
   #quartz-body {
-    /* Changed to 'flex' with 'row' to allow internal grids to function */
+    /* Use flex-row to act as a bridge for the internal garden grids */
     display: flex !important;
     flex-direction: row !important; 
     width: 100% !important;
     padding: 0 !important;
+    align-items: flex-start !important;
   }
 
-  /* Sidebars must stay hidden for the grid to have room */
   .sidebar.left, .sidebar.right {
     display: none !important;
   }
@@ -32,7 +32,8 @@ body[data-slug$="index"] {
   .center {
     width: 100% !important;
     max-width: none !important; 
-    /* 'flex' ensures children like .garden-section can use their grid properties */
+    /* Flex-column here allows the garden-sections to stack, 
+       but lets the internal grid rules handle the horizontal columns */
     display: flex !important; 
     flex-direction: column !important;
   }
