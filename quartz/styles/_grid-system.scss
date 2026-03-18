@@ -48,41 +48,42 @@ body[data-slug$="index"] {
    ========================================================================== */
 body:not([data-slug$="index"]):not(:has(.home-only-grid)) {
   
-  /* 1. Kill the specific Quartz sidebar selectors you identified */
+  /* 1. Kill the sidebars completely */
   .page > #quartz-body .sidebar.right,
   .page > #quartz-body .sidebar.left,
-  .page > #quartz-body .sidebar,
   .sidebar {
     display: none !important;
-    visibility: hidden !important;
     width: 0 !important;
     height: 0 !important;
-    margin: 0 !important;
-    padding: 0 !important;
-    flex: 0 0 0 !important;
-    grid-area: none !important; /* Forces the grid-area to release its hold */
-    position: absolute !important; /* Removes it from the flex/grid flow */
+    grid-area: none !important;
+    position: absolute !important;
   }
 
-  /* 2. Force the Body to occupy the full width without sidebar gaps */
+  /* 2. CHANGE: flex-direction to column to stack Content and Footer */
   #quartz-body {
     display: flex !important;
-    flex-direction: row !important;
-    justify-content: center !important; 
-    align-items: flex-start !important;
+    flex-direction: column !important; /* Changed from row to column */
+    align-items: center !important;    /* Centers the stack horizontally */
     width: 100% !important;
     max-width: none !important;
     margin: 0 !important;
-    gap: 0 !important;
+    gap: 2rem !important;              /* Adds breathing room between content and footer */
   }
 
-  /* 3. Center the content column */
+  /* 3. The Note Content column */
   .center {
     width: 95% !important; 
     max-width: 800px !important; 
     margin: 0 auto !important;
     display: block !important;
-    flex: none !important;
+  }
+
+  /* 4. Ensure Footer spans the full width or centers under content */
+  footer {
+    width: 100% !important;
+    max-width: 800px !important;
+    margin: 0 auto !important;
+    text-align: center;
   }
 }
 
