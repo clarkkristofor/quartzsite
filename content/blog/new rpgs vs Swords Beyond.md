@@ -2,7 +2,7 @@
 publish: true
 title:
 description: design thoughts
-image: File/Pasted%20image%2020260318055910.png
+image: File/chrome_rMu2tYRy8k.png
 tags:
   - design
   - Swords_Beyond
@@ -26,4 +26,4 @@ In Xenolanguage, for example, the characters are absolutely working as a team an
 
 Archetype and relationship cards would not be enough. What would stir it up in, for example, 13th Age? story deck? But what would trigger a draw? Would characters and GM lean into it at the right times without a story deck? What would support this apart from a deck?
 
-![[Pasted image 20260318055910.png]]
+![[chrome_rMu2tYRy8k.png]]
