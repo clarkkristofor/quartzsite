@@ -2,7 +2,7 @@
 publish: true
 title:
 description: design thoughts
-image: File/chrome_rMu2tYRy8k.png
+image: Files/chrome_rMu2tYRy8k.png
 tags:
   - design
   - Swords_Beyond
