@@ -15,7 +15,6 @@ body[data-slug$="index"] {
   }
 
   #quartz-body {
-    /* Set to block so internal .garden-section grids can flow horizontally */
     display: block !important; 
     width: 100% !important;
     padding: 0 !important;
@@ -39,7 +38,6 @@ body[data-slug$="index"] {
     &.upper { grid-template-columns: 1fr 3fr !important; }
     &.lower { grid-template-columns: 3fr 1fr !important; }
 
-    /* Stacks only on small mobile */
     @media (max-width: 600px) {
       grid-template-columns: 1fr !important;
     }
@@ -47,7 +45,7 @@ body[data-slug$="index"] {
 }
 
 /* ==========================================================================
-   2. INDIVIDUAL NOTES (The Centering Gatekeeper)
+   2. INDIVIDUAL NOTES (Centering & Readable Width)
    ========================================================================== */
 body:not([data-slug$="index"]):not(:has(.home-only-grid)) {
   #quartz-root {
@@ -55,7 +53,7 @@ body:not([data-slug$="index"]):not(:has(.home-only-grid)) {
     display: flex !important;
     justify-content: center !important;
     max-width: v.$page-max-width !important;
-    width: 95% !important;
+    width: 100% !important; /* Forces it to occupy the center */
   }
 
   #quartz-body {
@@ -65,55 +63,18 @@ body:not([data-slug$="index"]):not(:has(.home-only-grid)) {
   }
 
   .center {
-    width: 100% !important;
-    max-width: 800px !important; /* Standard readable width for notes */
+    width: 90% !important; /* Provides a small safety gutter */
+    max-width: 800px !important; /* Standard readable width for note text */
     margin: 0 auto !important;
   }
 }
 
-/* A. INDEX PAGES: Homepage, Folders, and Blog Lists */
-.home-only-grid, 
-.folder-index-layout,
-.garden-section-container,
-.garden-section,
-.blog-section {
-  display: block !important;
-  visibility: visible !important;
-  width: 100% !important; 
-  margin: 0 !important; 
-  /* Critical: Forces padding to stay inside the 100% width */
-  box-sizing: border-box !important; 
-
-  /* This covers the "glued to edge" range (Mobile up to small Desktop) */
-  @media (max-width: 1200px) {
-    padding-left: v.$container-padding-mobile !important;
-    padding-right: v.$container-padding-mobile !important;
-  }
-}
-
-/* B. INDIVIDUAL PAGES: Protection for Note content */
 @media (max-width: v.$tablet-breakpoint) {
-  /* Remove the 'width: 100% !important' that was pushing notes off-center */
   .center article {
     padding: 0 v.$container-padding-mobile !important; 
     box-sizing: border-box !important;
     overflow-wrap: break-word;
-    
-    img, pre, blockquote {
-      max-width: 100% !important;
-      height: auto !important;
-    }
-  }
-}
 
-/* B. INDIVIDUAL PAGES: Protection for Note content */
-@media (max-width: v.$tablet-breakpoint) {
-  .center article {
-    width: 100% !important;
-    padding: 0 v.$container-padding-mobile !important; 
-    box-sizing: border-box !important;
-    overflow-wrap: break-word;
-    
     img, pre, blockquote {
       max-width: 100% !important;
       height: auto !important;
