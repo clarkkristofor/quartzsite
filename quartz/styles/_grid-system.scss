@@ -17,8 +17,8 @@ body[data-slug$="index"] {
   }
 
   #quartz-body {
-    display: flex !important;
-    flex-direction: column !important;
+    /* Use display: block to stop the 'flex-column' from squishing children */
+    display: block !important; 
     width: 100% !important;
     padding: 0 !important;
   }
@@ -28,21 +28,29 @@ body[data-slug$="index"] {
   .center {
     width: 100% !important;
     max-width: none !important; 
-    /* 'display: block' here acts as a neutral container so that 
-       the .garden-section children can use their own grid rules. */
-    display: block !important; 
+    /* The 'Grid-Pass-Through': Forces the container to full width 
+       so internal .garden-section rules can finally activate. */
+    display: grid !important;
+    grid-template-columns: 1fr !important; 
+    margin: 0 !important;
   }
 }
 
 /* ==========================================================================
    2. INDIVIDUAL NOTE PAGES (Centering Preservation)
    ========================================================================== */
-/* Ensures that standard notes do not inherit the index-specific layout */
+/* Ensures standard notes stay centered and ignore the homepage grid rules */
 body:not([data-slug$="index"]):not(:has(.home-only-grid)) {
   #quartz-root {
     margin: 0 auto !important;
     display: flex !important;
     justify-content: center !important;
+  }
+  
+  .center {
+    margin: 0 auto !important;
+    /* Keeps notes at a readable width rather than 100% screen width */
+    max-width: v.$page-max-width; 
   }
 }
 
