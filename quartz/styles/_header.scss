@@ -137,16 +137,23 @@ header {
 .dropdown-content {
   position: absolute;
   top: 100%;
-  right: 0px !important;
+  right: 0px !important; /* Desktop default */
   min-width: 185px;
   background: var(--light);
-  border: 1px solid var(--lightgray);
   z-index: 9999;
   display: none;
   flex-direction: column;
   padding: 0.8rem 0 !important;
   
   [saved-theme="dark"] & { background: var(--darkgray); }
+
+  @media (max-width: v.$tablet-breakpoint) {
+    right: auto !important;   /* Kill the right-side anchor */
+    left: -10px !important;    /* Anchor to the left of the button instead */
+    width: calc(100vw - 40px); /* Ensures it can't be wider than the mobile screen */
+    max-width: 250px;          /* Prevents it from getting absurdly wide on tablets */
+    box-shadow: 0 8px 16px rgba(0,0,0,0.2); /* Adds depth so it's readable over content */
+  }
 }
 
 .lucide-chevron-down {

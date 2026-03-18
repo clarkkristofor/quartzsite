@@ -73,6 +73,11 @@ body[data-slug$="index"] {
       }
     }
   }
+
+  .page > #quartz-body footer, 
+  footer {
+    margin: 4rem auto 4rem auto !important;
+  }
 }
 
 /* ==========================================================================
@@ -121,11 +126,12 @@ body:not([data-slug$="index"]):not(:has(.home-only-grid)) {
     display: block !important;
     grid-area: unset !important;   /* CRITICAL: Stops it from jumping to the side */
     width: 100% !important;
-    padding: 0 15px !important;
+    padding: 0 !important;
     max-width: 800px !important;
-    margin: 2rem auto 4rem auto !important;
+    margin: 4rem auto 4rem auto !important;
     min-width: unset !important;   /* Overrides the 'min-width: 100%' you found */
-    text-align: center !important; /* Optional: centers the footer text */
+    // text-align: center !important; /* Optional: centers the footer text */
+    box-sizing: border-box !important; /* Safety net for layout math */
   }
 }
 
