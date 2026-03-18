@@ -1,10 +1,8 @@
 @use "customVariables" as v;
 
 /* ==========================================================================
-   1. GLOBAL LAYOUT GATEKEEPER (#quartz-root)
+   1. HOMEPAGE & FOLDERS (The Grid Gatekeeper)
    ========================================================================== */
-
-/* Triggers ONLY for Homepage and Index/Folder pages */
 .page:has(.home-only-grid),
 .page:has(.folder-index-layout),
 body[data-slug$="index"] {
@@ -12,12 +10,12 @@ body[data-slug$="index"] {
   #quartz-root {
     margin: 0 auto !important;
     max-width: v.$page-max-width !important; 
-    width: 95% !important;
+    width: 95% !important; 
     display: block !important;
   }
 
   #quartz-body {
-    /* Changing this to 'block' is the only way to let internal grids float */
+    /* Set to block so internal .garden-section grids can flow horizontally */
     display: block !important; 
     width: 100% !important;
     padding: 0 !important;
@@ -26,44 +24,50 @@ body[data-slug$="index"] {
   .sidebar { display: none !important; }
 
   .center {
-    width: 100% !important;
-    max-width: none !important; 
     display: block !important;
+    width: 100% !important;
     margin: 0 !important;
+    max-width: none !important;
   }
 
-  /* FORCING THE HORIZONTAL ROWS: This overrides any lingering stack logic */
+  /* FORCING HORIZONTAL ROWS */
   .garden-section {
     display: grid !important;
     width: 100% !important;
-    
-    &.upper { 
-      grid-template-columns: 1fr 3fr !important; 
-    }
-    &.lower { 
-      grid-template-columns: 3fr 1fr !important; 
-    }
-    
-    /* Ensure they only stack on mobile */
-    @media (max-width: v.$tablet-breakpoint) {
+    gap: 2rem !important;
+
+    &.upper { grid-template-columns: 1fr 3fr !important; }
+    &.lower { grid-template-columns: 3fr 1fr !important; }
+
+    /* Stacks only on small mobile */
+    @media (max-width: 600px) {
       grid-template-columns: 1fr !important;
     }
   }
 }
 
 /* ==========================================================================
-   2. INDIVIDUAL NOTE PAGES (Centering Preservation)
+   2. INDIVIDUAL NOTES (The Centering Gatekeeper)
    ========================================================================== */
 body:not([data-slug$="index"]):not(:has(.home-only-grid)) {
   #quartz-root {
     margin: 0 auto !important;
     display: flex !important;
     justify-content: center !important;
+    max-width: v.$page-max-width !important;
+    width: 95% !important;
   }
-  
+
+  #quartz-body {
+    display: flex !important;
+    justify-content: center !important;
+    width: 100% !important;
+  }
+
   .center {
+    width: 100% !important;
+    max-width: 800px !important; /* Standard readable width for notes */
     margin: 0 auto !important;
-    max-width: v.$page-max-width; 
   }
 }
 
