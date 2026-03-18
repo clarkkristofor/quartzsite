@@ -29,7 +29,6 @@ body[data-slug$="index"] {
     max-width: none !important;
   }
 
-  /* FORCING HORIZONTAL ROWS */
   .garden-section {
     display: grid !important;
     width: 100% !important;
@@ -51,8 +50,8 @@ body:not([data-slug$="index"]):not(:has(.home-only-grid)) {
   #quartz-root {
     margin: 0 auto !important;
     display: flex !important;
-    flex-direction: column !important; /* CRITICAL: Keeps header/body stacked */
-    align-items: center !important;    /* CRITICAL: Centers the entire stack */
+    flex-direction: column !important; 
+    align-items: center !important;    
     max-width: v.$page-max-width !important;
     width: 100% !important;
   }
@@ -66,7 +65,7 @@ body:not([data-slug$="index"]):not(:has(.home-only-grid)) {
 
   .center {
     width: 90% !important; 
-    max-width: 800px !important; /* Limits text width for readability */
+    max-width: 800px !important; 
     margin: 0 auto !important;
     display: block !important;
   }
@@ -89,7 +88,6 @@ body:not([data-slug$="index"]):not(:has(.home-only-grid)) {
    3. MACRO GRID STRUCTURE (The Garden Sections)
    ========================================================================== */
 
-/* A. THE CONTAINER: 4-Column Layout */
 .blog-section .simple-list, 
 .home-only-grid .simple-list {
   display: flex !important;
@@ -98,7 +96,7 @@ body:not([data-slug$="index"]):not(:has(.home-only-grid)) {
   gap: 1rem !important; 
   padding: 0;
   margin: 0;
-  width: 100% !important; // Ensure it fills the centered root
+  width: 100% !important;
 }
 
 .garden-section {
@@ -106,7 +104,6 @@ body:not([data-slug$="index"]):not(:has(.home-only-grid)) {
   gap: 2rem;
   margin: 3rem 0;
   width: 100%;
-  // padding: 0 v.$container-padding-desktop; // this is causing a right shift on the homepage
 
   &.upper { grid-template-columns: 1fr 3fr; }
   &.lower { grid-template-columns: 3fr 1fr; }
@@ -114,7 +111,6 @@ body:not([data-slug$="index"]):not(:has(.home-only-grid)) {
   @media (max-width: v.$tablet-breakpoint) {
     grid-template-columns: 1fr !important;
     gap: 1.5rem;
-    // Padding and margin handled by the Mobile Protection block above
   }
 }
 
@@ -122,10 +118,9 @@ body:not([data-slug$="index"]):not(:has(.home-only-grid)) {
    4. MICRO GRID STRUCTURE (The Cards)
    ========================================================================== */
 
-/* 1. Base Grid (Default for most folders: RPGs, Notes, etc.) */
 .folder-grid {
   display: grid;
-  grid-template-columns: repeat(4, 1fr); // 4 columns on desktop
+  grid-template-columns: repeat(4, 1fr);
   gap: 1.5rem;
   width: 100%;
 
@@ -139,12 +134,11 @@ body:not([data-slug$="index"]):not(:has(.home-only-grid)) {
   }
 }
 
-/* 2. Specialized High-Density Grid (Books / Library) */
 body .book-grid.folder-grid,
 body .book-grid .folder-grid,
 body[data-slug^="books"] .folder-grid,
 .lower .garden-col-left .folder-grid {
-  grid-template-columns: repeat(6, 1fr) !important; // 6 columns on desktop
+  grid-template-columns: repeat(6, 1fr) !important;
   gap: 1rem !important;
 
   @media (max-width: 1200px) { 
@@ -156,13 +150,11 @@ body[data-slug^="books"] .folder-grid,
   }
   
   @media (max-width: 600px) { 
-    grid-template-columns: repeat(3, 1fr) !important; // Keeps books denser on mobile
+    grid-template-columns: repeat(3, 1fr) !important;
     gap: 8px !important; 
   }
 }
 
-/* 3. Contextual Overrides (Garden Layouts) */
-// Keep the Music column (1/3 space) to a single column list
 .lower .garden-col-right .folder-grid {
   grid-template-columns: 1fr !important;
 }
@@ -171,7 +163,6 @@ body[data-slug^="books"] .folder-grid,
    5. CARD STYLING & TYPOGRAPHY OVERRIDES
    ========================================================================== */
 
-/* Individual Card Styling */
 .grid-card {
   display: flex;
   flex-direction: column;
@@ -210,17 +201,14 @@ body[data-slug^="books"] .folder-grid,
 }
 
 /* ==========================================================================
-   FOLDER PAGE LIST FILTERING
+   6. FOLDER PAGE LIST FILTERING
    ========================================================================== */
 
-/* 1. Targeting the container specifically */
 .page-listing {
-  /* Hide the original "X items..." paragraph */
   & > p {
     display: none !important;
   }
 
-  /* Inject the new heading */
   &::before {
     content: "Subfolders in this folder";
     display: block;
@@ -233,19 +221,14 @@ body[data-slug^="books"] .folder-grid,
     text-transform: capitalize;
   }
 
-  /* 2. Filter the List Items */
   .section-ul {
     .section-li {
-      /* Hide EVERY item in the list initially */
       display: none !important;
 
-      /* ONLY show it if it contains an anchor tag with a trailing slash */
-      // We use the attribute selector [href$="/"] for "ends with slash"
       &:has(a[href$="/"]) {
         display: list-item !important;
       }
       
-      // Secondary check: if the link ends with "index/", show it
       &:has(a[href*="/index/"]) {
         display: list-item !important;
       }
