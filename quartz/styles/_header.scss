@@ -80,11 +80,15 @@ header {
         opacity: 1 !important;
         
         svg { 
-            stroke: url(#flame-gradient) !important; 
-            /* Forces the browser to calculate the gradient across the 
-               entire SVG group rather than per-individual-line */
-            vector-effect: non-scaling-stroke; 
+          stroke: url(#flame-gradient) !important; 
+            /* Forces the gradient to calculate based on the SVG viewport, not individual paths */
+          paint-order: stroke fill;
+            /* Ensures the colors don't bleed out on thin lines */
+          color-interpolation: sRGB;
+            /* Slightly thicken the stroke on hover to give the gradient more "surface area" */
+          stroke-width: 2.2; 
         }
+
 
         /* Ensure path/circle elements inside the SVG inherit the gradient correctly */
         svg path, 
