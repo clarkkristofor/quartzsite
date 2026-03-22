@@ -4,6 +4,14 @@ const PageMenu: QuartzComponent = () => {
   
   return (
         <div className="custom-dropdown">
+          <svg width="0" height="0" style="display: block;">
+            <defs>
+              <linearGradient id="flame-gradient" x1="0%" y1="0%" x2="100%" y2="100%" gradientUnits="userSpaceOnUse">
+                <stop offset="0%" stop-color="#cc0000" /> <stop offset="45%" stop-color="#e53935" />
+                <stop offset="100%" stop-color="#ffcc00" /> </linearGradient>
+            </defs>
+          </svg>
+
           <button className="dropdown-button" aria-label="Menu">
             <span className="menu-label">Menu</span>
             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="lucide-chevron-down"><path d="m6 9 6 6 6-6"/></svg>
