@@ -38,9 +38,9 @@ export const defaultContentPageLayout: PageLayout = {
                 className: "garden-col-left",
                 children: [
                   Component.GardenSection({ 
-                    title: "QC Shadows", 
-                    folder: "rpgs/UrbanShadowsQC", 
-                    link: "/rpgs/UrbanShadowsQC/", 
+                    title: "Session notes", 
+                    folder: "rpgs/session_notes", 
+                    link: "/rpgs/session_notes/", 
                     limit: 5 
                   }) as any
                 ]

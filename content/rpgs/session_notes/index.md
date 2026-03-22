@@ -1,4 +1,4 @@
 ---
 publish: true
-title: QC Shadows
+title: Session notes
 ---
