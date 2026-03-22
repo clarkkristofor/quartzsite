@@ -79,8 +79,21 @@ header {
         background-color: var(--highlight);
         opacity: 1 !important;
         
-        // Flame gradient applied to the SVG icon on hover
-        svg { stroke: url(#flame-gradient) !important; }
+        svg { 
+            stroke: url(#flame-gradient) !important; 
+            /* Forces the browser to calculate the gradient across the 
+               entire SVG group rather than per-individual-line */
+            vector-effect: non-scaling-stroke; 
+        }
+
+        /* Ensure path/circle elements inside the SVG inherit the gradient correctly */
+        svg path, 
+        svg circle, 
+        svg line {
+            stroke: inherit !important;
+            fill: none !important;
+        }
+
         .nav-label { color: v.$brand-blue !important; }
     }
 }
