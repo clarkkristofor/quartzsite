@@ -3,6 +3,7 @@ import SimpleList from "./SimpleList"
 
 interface Options {
   title: string
+  description: string
   folder: string
   link: string
   limit?: number
@@ -11,6 +12,7 @@ interface Options {
 
 const defaultOptions: Options = {
   title: "Section",
+  description: "",
   folder: "",
   link: "/",
   limit: 5,
@@ -21,7 +23,7 @@ export default ((userOpts?: Partial<Options>) => {
 
   const GardenSection: QuartzComponent = (props: QuartzComponentProps) => {
     const { allFiles } = props
-    const { title, folder, link, limit, displayClass } = opts
+    const { title, description, folder, link, limit, displayClass } = opts
 
     const pages = allFiles.filter((page) => {
       const slug = page.slug ?? ""
@@ -53,6 +55,7 @@ export default ((userOpts?: Partial<Options>) => {
       <SimpleList 
         pages={displayedPages} 
         title={title} 
+        description={description}
         link={link} 
         isMusic={isMusic} 
         customClass={displayClass} 

@@ -3,12 +3,13 @@ import { QuartzComponentProps } from "./types"
 interface SimpleListProps extends Partial<QuartzComponentProps> {
   pages: any[]
   title: string
+  description: string
   link: string
   isMusic: boolean
   customClass?: string
 }
 
-const SimpleList = ({ pages, title, link, isMusic, customClass }: SimpleListProps) => {
+const SimpleList = ({ pages, title, description, link, isMusic, customClass }: SimpleListProps) => {
   if (pages.length === 0) return null
 
   // Determine the correct icon based on the section title or music flag
