@@ -74,6 +74,13 @@ body[data-slug$="index"] {
     }
   }
 
+  @media (pointer: fine) {
+    #quartz-root {
+      /* Adds a tiny bit of extra breathing room only when a mouse is used */
+      width: calc(100vw - 40px) !important; 
+    }
+  }
+
   .page > #quartz-body footer, 
   footer {
     margin: 4rem auto 4rem auto !important;
