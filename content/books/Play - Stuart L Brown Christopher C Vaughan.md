@@ -1,5 +1,5 @@
 ---
-title: "Reading now: Play"
+title: Play
 subtitle: How it Shapes the Brain, Opens the Imagination, and Invigorates the Soul
 author: Stuart L. Brown, Christopher C. Vaughan
 authors: Stuart L. Brown, Christopher C. Vaughan
@@ -17,5 +17,5 @@ isbn13: 9781921640537
 isbn10: 1921640537
 localCoverImage: Files/BookCovers/Play - Stuart L Brown Christopher C Vaughan.jpg
 publish: true
-date_finished: 2030-05-05
+date_finished: 2026-03-26
 ---
