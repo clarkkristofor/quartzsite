@@ -186,3 +186,13 @@ body[data-slug="books/index"] {
     .garden-title { margin-top: 0 !important; }
   }
 }
+
+/* Force collapsed callouts to hide content */
+.callout.is-collapsed > .callout-content {
+  display: none !important;
+}
+
+/* Ensure they show when toggled open */
+.callout:not(.is-collapsed) > .callout-content {
+  display: block !important;
+}
