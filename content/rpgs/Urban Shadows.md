@@ -9,6 +9,8 @@ tags:
   - campaign
 ---
 ### Campaign
-[[rpgs/session_notes/index|QC Shadows]]
+**QC Shadows**
+- [[session 13]]
+- [[session zero]]
 
 ![image](https://magpiegames.com/cdn/shop/files/Urban-Shadows-Core_1.jpg?v=1734451236&width=1800)

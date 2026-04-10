@@ -8,6 +8,8 @@ tags:
   - rpg
   - campaign
 ---
-Campaign incoming.
+### Campaign
+**Camp Redstone**
+- [[Redstone start|Ghouls in Holes]]
 
 ![image](https://pelgranepress.com/wp-content/uploads/2024/04/13thage-phb1.png)
