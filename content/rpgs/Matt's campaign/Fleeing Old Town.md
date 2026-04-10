@@ -24,5 +24,5 @@ With a powerful blast, Urza emerged from Mishra's house, bearing the [[Lightning
 We spent icon benefits to:
 - Endra / [[High Druid]] - bring [[Mishra]] back from the dead
 - Bobby / [[Priestess]] - heal Fluffer Nutter
-- Raxus / double [[Prince of Shadows]] - know someone in the Queen's Wood, on the way to Bizzy, who could tell us how to remove Endra's shillelagh's curse
+- Raxus / double [[Prince of Shadows MC]] - know someone in the Queen's Wood, on the way to Bizzy, who could tell us how to remove Endra's shillelagh's curse
 - Artemis / [[Lich King]] - aid Mishra, Urza, and [[Keef the innkeep|Glunch]]

@@ -1,0 +1,3 @@
+- St Paul's contributions do not show in my Health Equity account, just monthly $1,000 / 24
+- FSA - Health = $166.66 total $83.33 x 2 in January
+- we are on track to be $2,250 short of $8,750 family maximum in 2026 HSA contributions

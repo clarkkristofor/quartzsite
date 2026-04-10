@@ -1,0 +1,2 @@
+Sample actions: Guard, recover, save, destroy, help, foil, plunder, find, hide, kill, heal, journey to, escape from, summon, banish, exorcise, overthrow, restore, explore, identify, smuggle, 
+protect, kidnap, defend, solve, claim.

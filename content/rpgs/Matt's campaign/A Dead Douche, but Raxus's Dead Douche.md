@@ -25,6 +25,6 @@ Then Raxus fished Arvax's body from the river, defiled it by scalping Arvax's dr
 
 Also, Endra planted Dragonsbane in Arvax's wounds before burial. #druidhumor
 
-Finally, Raxus sent a message via shadows to [[Doku Death Shadow]], using his old rank marker. "Arvax attacked me twice. He's dead. Much love, Raxus." Doku's answer to his unspoken question - "WTF?" - will come in time, thanks to a [[Prince of Shadows]] benefit.
+Finally, Raxus sent a message via shadows to [[Doku Death Shadow]], using his old rank marker. "Arvax attacked me twice. He's dead. Much love, Raxus." Doku's answer to his unspoken question - "WTF?" - will come in time, thanks to a [[Prince of Shadows MC]] benefit.
 
 Arvax also carried a Brambles heirloom, their signet ring, with deeply sentimental value. How did he come to possess it? We don't know. Who did it belong to? *Bizzy Brambles.* Boy is Bobby gonna be mad!

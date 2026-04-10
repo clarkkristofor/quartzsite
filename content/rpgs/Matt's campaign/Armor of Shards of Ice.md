@@ -2,7 +2,7 @@
 publish: true
 dg-publish: "true"
 ---
-the [[Elf Queen]]'s iconic magic item, see [[Matt's Campaign Notes]]
+the [[Elf Queen MC]]'s iconic magic item, see [[Matt's Campaign Notes]]
 
 **Incoming Links**
 ```dataview

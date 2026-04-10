@@ -27,7 +27,7 @@ At the hostel, we shared stories around the hearth. First among them, Raxus told
 
 **We also learned:**
 - **the [[Lightning Greaves]] were named for the great speed they bestow upon their wearer, but they give delusions to weak wearers**
-- **the [[Prince of Shadows]] helped someone (who?) create them**
+- **the [[Prince of Shadows MC]] helped someone (who?) create them**
 - **Ersa might know where the Greaves are and only [[Mishra]] in Old Town knows where Ersa is**
 - **Mishra was a travelling apothecary serving the [[Priestess]] who, when the camp was disbanded, sent the sorcerers each to their own hiding spots, protected their secrets, and visited on occasion**
 

@@ -7,7 +7,7 @@ tags:
 # *Raxus Blackheart*
 ## I'm sworn by the [[Gods of Light]] to protect the [[Planesweaver]].
 *copper-black [[dragonborn]] [[paladin]], level 4*
-### [[Prince of Shadows]] ~ / ~ 
+### [[Prince of Shadows MC]] ~ / ~ 
 +4 bodyguard of [[Doku Death Shadow]], black dragon underworld boss of the [[Doku Death Shadow|Shadow Syndicate]] in [[Drakkenhall]], *former* bearer of the [[Archmage]]'s [[Dream Cleaver]]
 ### [[Priestess]] +
 +4 acolyte-repentant under [[Sister Calcetta]], keeper of [[Hopewell shrine]] outside the port town of [[Queensgate]] where the elf wood meets the [[Midland Sea]], during the years of chaotic and destructive [[Planestides]]
@@ -103,7 +103,7 @@ tags:
 > #### Bobby Brambles & Fluffer Nutter
 > *gnome ranger and his animal companion*
 >   My former boss is a great rival of his mom, Bizzy.
->   +1 [[High Druid]], +1 [[Dwarf King]], ~1 [[Prince of Shadows]]
+>   +1 [[High Druid]], +1 [[Dwarf King]], ~1 [[Prince of Shadows MC]]
 >   
 > #### Endra
 > *gnome druid*

@@ -15,11 +15,11 @@ next: "[[black dragon debts & Halvar's fish|next]]"
 # Matt's "Fallen Magic" campaign
 *2024-10-02 (level 3)*
 ## Hold the Gate
-We warned Rando, the [[Elf Queen]]'s herald, about a pending zombie attack. Then we defended a gate. [[Mou5e]] danced a ritual to ward two sewer exits. We dispatched three waves: skeletons, giant zombies, and killer zombies with skeleton minions. 
+We warned Rando, the [[Elf Queen MC]]'s herald, about a pending zombie attack. Then we defended a gate. [[Mou5e]] danced a ritual to ward two sewer exits. We dispatched three waves: skeletons, giant zombies, and killer zombies with skeleton minions. 
 
 With her new cursed magic ring, [[Endra]] warded the gate during the skeleton wave, and Artemis blasted them with lighting. Endra's curse spawned a tiny bone servant bitch.
 
-The giant zombies broke through Endra's ward. Artemis warded the gate again, but they broke through again. Then [[Raxus Blackheart]] charged through the twisted wreckage and smote their ruin beyond the wall. Filled with bloodlust, he used old [[Prince of Shadows]] magics (icon benefit) to call the rest of the undead horde unto himself.
+The giant zombies broke through Endra's ward. Artemis warded the gate again, but they broke through again. Then [[Raxus Blackheart]] charged through the twisted wreckage and smote their ruin beyond the wall. Filled with bloodlust, he used old [[Prince of Shadows MC]] magics (icon benefit) to call the rest of the undead horde unto himself.
 
 Zombies and skeletons mobbed an exultant Raxus. [[Artemis]] raised a giant zombie to fight for him ([[Lich King]] benefit). Zombies took down Fluffy but [[Bobbie]] steadied him (icon benefit). Endra and Mou5e bickered about who was clericking better. Allies from other gates, hearing our fight and without enemies, came to behold the third wave broken by our strength.
 

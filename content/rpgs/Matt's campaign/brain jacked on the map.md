@@ -17,7 +17,7 @@ Level: 4
 # Matt's "Fallen Magic" campaign
 *2024-11-21 (level 4)*
 ## brain jacked on the map
-At the Holey of Holeys tavern, [[Urza]] said the First Disciple of [[Halvar the grumpy god of vengeance]] is now the [[Priestess]]'s most trusted advisor, edging Urza themself out. Having staked much on the Priestess and her life-ethic and mercy, [[Mou5e]] and [[Raxus Blackheart|Raxus]] took this to mean Halvar's cult have manipulated the Priestess. They see Halvar's cult as a primary villain and perhaps in league with (or directing or directed by) the [[Prince of Shadows]].
+At the Holey of Holeys tavern, [[Urza]] said the First Disciple of [[Halvar the grumpy god of vengeance]] is now the [[Priestess]]'s most trusted advisor, edging Urza themself out. Having staked much on the Priestess and her life-ethic and mercy, [[Mou5e]] and [[Raxus Blackheart|Raxus]] took this to mean Halvar's cult have manipulated the Priestess. They see Halvar's cult as a primary villain and perhaps in league with (or directing or directed by) the [[Prince of Shadows MC]].
 
 Halvar's cult is using the map to find items. One week ago, they sent two ships from [[Santa Cora]]--one to retrieve an item in [[Drakkenhall]], the other to the [[Intrepid Hills]]. [[Endra]] went to the rent-a-cleric district to send a message of warning to Bizzy and to rent-a-cleric to overworld travel us to the Intrepid Hills when we finish in [[Santa Cora]]
 
@@ -27,7 +27,7 @@ Back at the Holey of Holeys, [[Artemis]] obeyed his wand and looked at the map w
 
 ![arty sees the map](https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fmedia3.giphy.com%2Fmedia%2FIMALi1H2Po3Hq%2Fgiphy.gif&f=1&nofb=1&ipt=e62c4fb6af3f551f93f498a96ee1c67bfc1eea074160da0f7c0d1c1b258b1cc9&ipo=images)
 
-We all could see dots on the map representing magic items and a special dot representing the only magic item possessed by its icon ([[High Druid]]). Arty could "zoom in" on one dot to see its surroundings. He chose the one in [[Drakkenhall]]. It's the [[Elf Queen]]'s [[Armor of Shards of Ice]]. Doku has it.
+We all could see dots on the map representing magic items and a special dot representing the only magic item possessed by its icon ([[High Druid]]). Arty could "zoom in" on one dot to see its surroundings. He chose the one in [[Drakkenhall]]. It's the [[Elf Queen MC]]'s [[Armor of Shards of Ice]]. Doku has it.
 
 Here is a summary of all we know now.
 

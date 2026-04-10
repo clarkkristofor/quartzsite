@@ -35,6 +35,6 @@ We debated the wisdom of leaving all the iconic items in one place. Mou5e feared
 
 There was an impromptu feast of wild boar and root vegetables. We stayed for two days. When we left, Bizzy rejected Endra's apothecary pack but let Mou5e heal her. Bizzy gave Bobby a sending stone.
 
-We left for the coast, to travel by sea to the Wake Islands. Raxus knew an enemy of Doku who would happily arrange discreet passage for us ([[Prince of Shadows]] benefit). But on the outskirts of the village, we found orcs harassing Hoggle. They wanted food. Also, they were Doku thugs. We murdered most of them and captured two, leaving them for Bizzy to imprison. The captured orcs said, "Doku is scouring the land for his former apprentice."
+We left for the coast, to travel by sea to the Wake Islands. Raxus knew an enemy of Doku who would happily arrange discreet passage for us ([[Prince of Shadows MC]] benefit). But on the outskirts of the village, we found orcs harassing Hoggle. They wanted food. Also, they were Doku thugs. We murdered most of them and captured two, leaving them for Bizzy to imprison. The captured orcs said, "Doku is scouring the land for his former apprentice."
 
 **Full heal up, plus incremental advance** (the third at 2nd level).

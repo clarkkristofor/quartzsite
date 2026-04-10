@@ -15,4 +15,4 @@ GM: Matt
 # Matt's "Fallen Magic" campaign
 *2024-09-20 (level 3)*
 ## Session 11
-The [[Elf Queen]] defeated the [[Lich King]] in [[Queensgate]] with the heroes' help.
+The [[Elf Queen MC]] defeated the [[Lich King]] in [[Queensgate]] with the heroes' help.

@@ -17,7 +17,7 @@ GM: Matt
 ## Lies, Neal's Lies, and Scrotes
 [[Doku Death Shadow]] returned Raxus's call: "Bring me the [[Lightning Greaves]], and we'll rule Drakkenhall together." We (Raxus, Artemis, and Bobby) thought ruling Drakkenhall sounded like too much work. 
 
-Evasively, Raxus responded: "Greaves in possession of a companion. Will return to Drakkenhall. Much love, Raxus." (We plan to return to Drakkenhall after safely storing the Greaves in the [[Intrepid Hills]]. Would Doku keep Greaves for self or return to [[Prince of Shadows]]?) Doku replied that he'd send an escort to protect us. 
+Evasively, Raxus responded: "Greaves in possession of a companion. Will return to Drakkenhall. Much love, Raxus." (We plan to return to Drakkenhall after safely storing the Greaves in the [[Intrepid Hills]]. Would Doku keep Greaves for self or return to [[Prince of Shadows MC]]?) Doku replied that he'd send an escort to protect us. 
 
 Raxus answered: "Copy. Will remain in Bitches Bend. Much love, Raxus." This was a lie; we plan to continue to the Brambles's compound. But fearing that Arvax's and Raxus's old [[Shadow Syndicate]] rank markers (which allowed communication with Doku) would allow Doku to track him, Raxus buried them in Arvax's grave.
 
