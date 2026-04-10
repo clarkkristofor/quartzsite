@@ -4,9 +4,6 @@ publish: true
 description: new classic
 link:
 image: https://pelgranepress.com/wp-content/uploads/2025/07/PEL13A202-scaled.jpg
-tags:
-  - rpg
-  - campaign
 ---
 ### Campaign
 **Camp Redstone**

@@ -1,8 +1,4 @@
 ---
-dg-publish: "true"
-tags:
-  - rpg
-  - one-shot
 publish: true
 title: Going Rogue
 description: a GM-less game inspired by Star Wars Rogue One and Andor

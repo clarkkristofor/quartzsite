@@ -1,6 +1,5 @@
 ---
 publish: true
-dg-publish: "true"
 Date: 2025-03-01
 Game: Mothership
 GM: Branden
@@ -8,12 +7,8 @@ title: Mothership
 description: scifi horror, but capitalism is the scariest part
 link:
 image: https://www.tuesdayknightgames.com/cdn/shop/files/CoreBoxTD.jpg?v=1714488100&width=1800
-tags:
-  - rpg
-  - one-shot
-  - Gamicon
 ---
-# The Haunting of Ypsilon 14
+# One-Shot: The Haunting of Ypsilon 14
 *[Mothership](https://www.tuesdayknightgames.com/pages/mothership-rpg)* at Gamicon, 2025-03-01
 GM: Branden
 
