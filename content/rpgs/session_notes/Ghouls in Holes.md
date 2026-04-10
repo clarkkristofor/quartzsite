@@ -11,5 +11,6 @@ When a barfight destroyed the holy ward above the front door of [[Holes]], ghoul
 > ![[Redstone characters]]
 
 > [!danger]- Worldbuilding
+> ![[Camp Redstone genesis]]
 
 a [[13th Age, second edition]] campaign
