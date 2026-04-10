@@ -5,10 +5,10 @@ description: Redstone, session zero
 image:
 date: 2026-04-09
 ---
-## Contents
-Part 0.1 [#Character Creation]
-Part 0.2 [#Camp Building]
-Part 0.3 [#Ghoul Fight]
+## Ghoul Fight
+When a barfight destroyed the holy ward above the front door of [[Holes]], ghouls burst in and started murdering patrons. We slew all but one which escaped into the night. [[Boof]] the doof hid under a warded trapdoor the whole time.
+
+Also [[#Character Creation]] and [[#Camp Building]].
 
 ## Character Creation
 ![[Redstone characters]]
@@ -16,5 +16,3 @@ Part 0.3 [#Ghoul Fight]
 ## Camp Building
 ![[Camp Redstone origin]]
 
-## Ghoul Fight
-When a barfight destroyed the holy ward above the front door of [[Holes]], ghouls burst in and started murdering patrons. We slew all but one which escaped into the night. [[Boof]] the doof hid under a warded trapdoor the whole time.
