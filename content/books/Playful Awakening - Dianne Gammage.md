@@ -17,4 +17,5 @@ isbn13: 9780857003508
 isbn10: 085700350X
 localCoverImage: Files/BookCovers/Playful Awakening - Dianne Gammage.jpg
 date_finished: 2027-01-30
+publish: true
 ---

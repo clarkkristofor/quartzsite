@@ -3,8 +3,6 @@ publish: true
 title:
 description: gnome barbarian
 image:
-tags:
-  - rpg
 ---
 *gnome barbarian*
 

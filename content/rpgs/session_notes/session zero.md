@@ -12,3 +12,5 @@ date: 2025-06-05
 - [Nathaniel the Sworn](https://superclark.notion.site/Nathaniel-the-Sworn-20a7a686186680d3bf5ac251c4f9eb2f?pvs=25)
 - [Skarn the Imp](https://superclark.notion.site/Skarn-the-Imp-20a7a686186680ea9e16d2bd3564129f?pvs=25)
 - [Viktor the Wolf](https://superclark.notion.site/Viktor-the-Wolf-20a7a686186680f9bcc9df797114a388?pvs=25)
+
+an [[Urban Shadows]] campaign

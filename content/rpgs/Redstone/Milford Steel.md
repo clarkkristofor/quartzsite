@@ -3,8 +3,6 @@ publish: true
 title:
 description: dwarf rogue
 image:
-tags:
-  - rpg
 ---
 *dwarf rogue*
 

@@ -3,8 +3,6 @@ publish: true
 title:
 description: dwarf bard
 image:
-tags:
-  - rpg
 ---
 *dwarf bard*
 ## I am the Voice of [[Brawn Ironsong]] in [[Camp Redstone origin]].

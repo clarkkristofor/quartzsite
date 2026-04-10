@@ -3,8 +3,6 @@ publish: true
 title:
 description: forgeborn fighter
 image:
-tags:
-  - rpg
 ---
 *forgeborn fighter*
 

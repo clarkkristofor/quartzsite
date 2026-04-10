@@ -3,8 +3,6 @@ publish: true
 title:
 description: gnomes displaced and assimilated by the Dwarf King
 image:
-tags:
-  - rpg
 ---
 Gnomes who held this land around [[Camp Redstone origin]] in ancient times. The ruins here are theirs.
 

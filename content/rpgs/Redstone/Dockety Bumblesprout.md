@@ -3,8 +3,6 @@ publish: true
 title:
 description: halfling cleric
 image:
-tags:
-  - rpg
 ---
 *halfling cleric*
 

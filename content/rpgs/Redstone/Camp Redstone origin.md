@@ -3,8 +3,6 @@ publish: true
 title:
 description: north of High Dock
 image:
-tags:
-  - rpg
 ---
 Camp Redstone is a dangerous but lucrative mining camp north of High Dock, on the windward western slope a mountain in the Giantwalk.
 ### 6 Mines

@@ -11,3 +11,5 @@ Handwritten notes by C.
 ![[qc shadows 13-1.png]]
 ![[qc shadows 13-2.png]]
 ![[qc shadows 13-3.png]]
+
+an [[Urban Shadows]] campaign
