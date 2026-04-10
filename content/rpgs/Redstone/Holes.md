@@ -5,4 +5,4 @@ description:
 image:
 date:
 ---
-a dive owned by a pretentious goblin named [[Boof]]
+a dive in [[Camp Redstone]] owned by a pretentious goblin named [[Boof]]
