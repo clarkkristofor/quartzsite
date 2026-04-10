@@ -35,6 +35,6 @@ Camp Redstone is a dangerous, lawless, and lucrative mining camp north of High D
 - the Hammer of the Orc Lord?
 - everyone has their pet theories
 ### 3 Taverns
-- **[[Fox & Hound]]**, a high class establishment owned by Glitterhaegen personality, [[Wolfgang Puck]]
-- **[[Owls Head]]**, a mediocrity owned by [[Burtlebee Stump]], human self-mutilator
+- **[[Fox & Hound]]**, a high class establishment owned by Glitterhaegen personality, Wolfgang Puck
+- **[[Owls Head]]**, a mediocrity owned by Burtlebee Stump, human self-mutilator
 - **[[Holes]]**, a dive owned by a pretentious goblin named [[Boof]]

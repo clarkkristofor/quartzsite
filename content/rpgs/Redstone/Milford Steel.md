@@ -4,7 +4,7 @@ title:
 description: dwarf rogue
 image:
 ---
-*dwarf rogue, goes by MILF*
+*dwarf rogue
 
 I don't have to eat.
 
