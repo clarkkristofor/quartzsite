@@ -13,6 +13,14 @@ Recover d6 + 2
 d8 longsword
 d6 shortbow
 
+All the Best Stories: when icon connection has twist, heighten effects of both advantage & twist (HH87)
+Voice of Thunder: r, +5 v PD - 7 thunder dmg | Miss esc 0–1: 0 / 2+: level dmg / 3+ Nat even hit: If staggered after dmg, target is shocked until end of next turn (HH86)
+Ascending Encouragement: r/q, nearby ally / esc 0–1: gains +1 to all attacks until end battle / 2–3: heals w recovery / 4–5: heals w free recovery / 6+: gains all 3 (HH87)
+Cutting Words: cc, +5 v MD nearby staggered creature - 18 (5d6) psychic dmg / miss 2x lvl dmg (HH88)
+That’s Your Best Shot? after hit that doesn't drop me, heal w recovery (must roll). If esc <2, only get half. (HH31)
+Avenge Me: when I drop, nearby ally can heal using recovery + my Cha mod & gains +2 to attack & dmg w next attack (HH83)
+Power Word: cc/free, daze target that now has fewer HP than me until the end of its next turn (HH83)
+Take Heart: random nearby ally gains level x 1d4 temp HP (HH83)
 
 Voice
 Combat Riff: Voice: Power Word (Daze low hit point or damaged enemy.)
@@ -24,16 +32,18 @@ Power Word (Voice Combat Riff)
 Close-quarters spell  Once per battle  Free action after hitting with a bardic melee attack
 Target: The creature you hit with the melee attack.
 Effect: Daze target that now has fewer hit points than you until the end of the target’s next turn.
-Adventurer Feat: The spell can now daze a target that has hit points no greater than your hit points +10
+
+
 
 Avenge Me (Voice Healing)
 Close-quarters spell  Once per battle  Free action as you drop to 0 hp or below
 Effect: A nearby ally can heal using a recovery and add your Cha mod and gains a +2 bonus to attack and damage with next attack.
-Adventurer Feat: The bonus to attack and damage increases to +4.
 
 Take Heart (Voice Miss-Effect)
 Close-quarters spell  Once per battle  Interrupt action when a nearby enemy misses with an attack
-Effect: A random nearby ally gains 1d4 temporary hit points per level you possess.
+Effect: A  per level you possess.
+
+
 
 Overture: Voice of Thunder
 Ranged, At-will
@@ -42,7 +52,7 @@ Target: One nearby or far-away enemy.
 Attack: Charisma + Level vs. PD
 
 Hit: 7 (2d6) thunder damage
-ranged +5 v PD - 7 thunder dmg + Esc 0–1 Miss: — / 2+ Miss: level dmg / Esc 3+ Nat even hit: If staggered after dmg, target is shocked until end of its next turn
+r, +5 v PD - 7 thunder dmg | Miss Esc 0–1: — / 2+: level dmg / 3+ Nat even hit: If staggered after dmg, target is shocked until end of its next turn
 
 Spells
 Ascending Encouragement
@@ -59,7 +69,5 @@ Hit: 18 (5d6) psychic dmg
 Miss: Damage equal to double your level.
 2nd 22 (4d10) damage
 
-+5 v MD nearby staggered creature - 18 (5d6) psychic dmg. miss 2x lvl dmg
+Cutting Words: cc, +5 v MD nearby staggered creature - 18 (5d6) psychic dmg / miss 2x lvl dmg (HH88)
 
-All the Best Stories
-When icon conn has twist, heighten  effects of both advantage and twist
