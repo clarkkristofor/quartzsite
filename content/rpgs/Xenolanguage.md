@@ -7,7 +7,7 @@ image: https://thornygames.com/cdn/shop/files/xenolanguage_cover_1_e5c36610-64cc
 ---
 I played [Xenolanguage](https://thornygames.com/pages/xenolanguage-a-game-about-alien-language-and-human-memory) at [[Gamicon Bromine 2026]]. It's *[Arrival](https://en.wikipedia.org/wiki/Arrival_(film)) the RPG*. 
 
-You're a member of a team, translating an alien language. The core question is, "How will we and our relationships change?" - not, "Will we succeed?" The game is quite emotionally evocative.
+You're a member of a team, translating an alien language. The core question is, "How will we and our relationships change?" - not, "Will we succeed?" The game is quite emotionally evocative. 
 
 An ordered "story deck" of cards paces the plot. A Ouija board with alien symbols is the centerpiece. There are many character archetypes, relationships, and alien symbols to choose from. It's essentially GMless.
 
