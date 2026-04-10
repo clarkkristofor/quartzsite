@@ -4,7 +4,7 @@ title:
 description: north of High Dock
 image:
 ---
-Camp Redstone is a dangerous but lucrative mining camp north of High Dock, on the windward western slope a mountain in the Giantwalk.
+Camp Redstone is a dangerous, lawless, and lucrative mining camp north of High Dock, on the windward western slope a mountain in the Giantwalk.
 ### 6 Mines
 1. **Big Gold**
 2. **Ghost Mine**
