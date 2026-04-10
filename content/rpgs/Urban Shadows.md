@@ -9,7 +9,7 @@ image: https://magpiegames.com/cdn/shop/files/Urban-Shadows-Core_1.jpg?v=1734451
 **QC Shadows**
 - [[session 13]]
 - [[session zero]]
-### One-Shots
+### One-Shots 
 GenCon 2024
 GenCon 2023
 
