@@ -10,7 +10,7 @@ Camp Redstone is a dangerous, lawless, and lucrative mining camp north of High D
 2. **Ghost Mine**
 3. **Underfunk**: fungus that opens portals (in your mind?)
 4. **Fire Ruby**: something to do with dragons
-5. **Soulstone**: an ever-burning coal necessary for forging [[Wild-Built]]
+5. **Soulstone**: ever-burning coal necessary for forging [[Wild-Built]]
 6. **[[Shit Hole]]**, a [[Dwarf King]] mine: guano used for dwarf agriculture
 ### 3 Dangers
 - demonic fissures
@@ -20,7 +20,7 @@ Camp Redstone is a dangerous, lawless, and lucrative mining camp north of High D
 ### 3 Factions
 - dragon-worshippers
 - self-mutilating halfling-worshipers
-- ???
+- Axis Miners' Union
 ### 3 Things the Camp Lacks
 - a coroner
 - a post office
