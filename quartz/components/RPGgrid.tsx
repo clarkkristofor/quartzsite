@@ -15,6 +15,21 @@ const RPGgrid: QuartzComponent = (props: QuartzComponentProps & { options?: Opti
   const limit = props.options?.limit ?? 4
   const link = `/${folder}/` // Dynamic link based on the folder
   
+  const getDateTimestamp = (page: typeof props.allFiles[0]): number => {
+    const rawDate = page.frontmatter?.date
+    
+    // Handle undefined/null
+    if (!rawDate) return 0
+    
+    // Handle string or Date object
+    if (typeof rawDate === 'string' || rawDate instanceof Date) {
+      return new Date(rawDate).getTime()
+    }
+    
+    // Fallback for unexpected types
+    return 0
+  }
+  
   const pages = props.allFiles.filter(page => {
     const slug = page.slug ?? ""
     if (slug.endsWith("index")) return false
@@ -26,15 +41,8 @@ const RPGgrid: QuartzComponent = (props: QuartzComponentProps & { options?: Opti
     return slug.startsWith(folder + "/") && slugParts.length === targetParts.length + 1
   })
   .sort((a, b) => {
-    // 1. Extract the custom 'date' from frontmatter
-    // We assume the frontmatter 'date' is a string (ISO format) or a Date object
-    const dateA = a.frontmatter?.date
-    const dateB = b.frontmatter?.date
-
-    // 2. Convert to timestamps, falling back to 0 (very old) if missing
-    // If it's already a Date object, getTime() works. If it's a string, new Date() parses it.
-    const timeA = dateA ? new Date(dateA).getTime() : 0
-    const timeB = dateB ? new Date(dateB).getTime() : 0
+    const timeA = getDateTimestamp(a)
+    const timeB = getDateTimestamp(b)
 
     // If times are actually different, sort newest first
     if (timeA !== timeB) {

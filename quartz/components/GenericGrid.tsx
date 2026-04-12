@@ -35,7 +35,29 @@ const GenericGrid: QuartzComponent = ({ allFiles, fileData, options }: QuartzCom
 
     return slug.startsWith(targetFolder + "/") && isDirectChild && shouldShow
   })
-  .sort((a, b) => (b.dates?.modified?.getTime() ?? 0) - (a.dates?.modified?.getTime() ?? 0))
+  .sort((a, b) => {
+    // Helper to safely convert frontmatter date to timestamp
+    const getDateTimestamp = (page: typeof a): number => {
+      const rawDate = page.frontmatter?.date
+      
+      // Handle undefined/null
+      if (!rawDate) return 0
+      
+      // Handle string or Date object
+      if (typeof rawDate === 'string' || rawDate instanceof Date) {
+        return new Date(rawDate).getTime()
+      }
+      
+      // Fallback for unexpected types
+      return 0
+    }
+
+    const timeA = getDateTimestamp(a)
+    const timeB = getDateTimestamp(b)
+
+    // Sort by custom date (newest first)
+    return timeB - timeA
+  })
 
   const displayedPages = options?.limit ? pages.slice(0, options.limit) : pages
 
