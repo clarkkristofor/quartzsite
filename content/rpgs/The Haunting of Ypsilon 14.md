@@ -9,7 +9,7 @@ link:
 image: https://www.tuesdayknightgames.com/cdn/shop/files/CoreBoxTD.jpg?v=1714488100&width=1800
 ---
 ### One-Shot: The Haunting of Ypsilon 14
-*[Mothership](https://www.tuesdayknightgames.com/pages/mothership-rpg)* at Gamicon, 2025-03-01
+*[Mothership](https://www.tuesdayknightgames.com/pages/mothership-rpg)* at Gamicon, 2025-03-01 
 GM: Branden
 
 OSR sci-fi horror in the vein of *Alien* and *The Expanse*. A d100 system with stress and panic mechanics.
