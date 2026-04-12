@@ -1,14 +1,12 @@
 ---
 dg-publish: "true"
 dg-permalink: advent
-tags:
-  - music
-  - advent
 publish: true
 title: Advent archive
 description: all Advent playlists, 2024 and earlier
 link:
 image:
+date: 2024-11-25
 ---
 ## 2024: wait for it
 on [Spotify](https://open.spotify.com/playlist/0eRnQyyXznzy7GpQ0wULMf?si=87fc627c27ea423c) and [YouTube](https://www.youtube.com/watch?v=g63Vuqjditk&list=PL66Y_LFBHGX3pdrfh2mBqzoh7I5U09KPl)

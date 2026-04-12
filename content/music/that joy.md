@@ -1,13 +1,11 @@
 ---
 dg-publish: "true"
-tags:
-  - advent
-  - music
 publish: true
 title: that joy
 description: Advent 2025 playlist
 link: https://open.qobuz.com/playlist/45725394
 image:
+date: 2025-11-27
 ---
 ## "that joy" 
 *on [qobuz]()*

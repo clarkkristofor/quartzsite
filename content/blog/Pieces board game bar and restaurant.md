@@ -3,8 +3,7 @@ publish: true
 title: Pieces
 description: a board games bar & restaurant in the shadow of Budweiser
 image: Files/PXL_20260320_235344968.jpg
-tags:
-  - board_games
+date: 2026-03-21
 ---
 We played *Root* over appetizers, and *Kids against Maturity* after dinner. Fun times! My poke bowl was great, and the [4 Hands](https://www.4handsbrewery.com/) Incarnation was too. And all in a art deco former police station!
 
