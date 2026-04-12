@@ -26,9 +26,15 @@ const RPGgrid: QuartzComponent = (props: QuartzComponentProps & { options?: Opti
     return slug.startsWith(folder + "/") && slugParts.length === targetParts.length + 1
   })
   .sort((a, b) => {
-    // Force a valid timestamp or a very old date (0)
-    const timeA = a.dates?.modified?.getTime() ?? 0
-    const timeB = b.dates?.modified?.getTime() ?? 0
+    // 1. Extract the custom 'date' from frontmatter
+    // We assume the frontmatter 'date' is a string (ISO format) or a Date object
+    const dateA = a.frontmatter?.date
+    const dateB = b.frontmatter?.date
+
+    // 2. Convert to timestamps, falling back to 0 (very old) if missing
+    // If it's already a Date object, getTime() works. If it's a string, new Date() parses it.
+    const timeA = dateA ? new Date(dateA).getTime() : 0
+    const timeB = dateB ? new Date(dateB).getTime() : 0
 
     // If times are actually different, sort newest first
     if (timeA !== timeB) {
