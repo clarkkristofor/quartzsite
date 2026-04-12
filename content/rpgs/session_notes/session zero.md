@@ -5,6 +5,7 @@ description: QC Shadows, session zero
 link:
 image:
 date: 2025-06-05
+Game: Urban Shadows
 ---
 ## Characters
 - [Jack the Spectre](https://superclark.notion.site/Jack-the-Spectre-20a7a6861866801e92ddc2e1853fcdb4?pvs=25)

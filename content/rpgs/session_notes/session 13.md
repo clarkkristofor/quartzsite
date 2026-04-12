@@ -5,6 +5,7 @@ description: QC Shadows, session 13
 link:
 image:
 date: 2026-03-05
+Game: Urban Shadows
 ---
 Handwritten notes by C.
 
