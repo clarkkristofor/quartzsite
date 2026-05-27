@@ -21,3 +21,8 @@
 - [Philips Norelco Multigroom 7000 MG7750](https://www.amazon.com/dp/B07145GM4B/?tag=thewire06-20&linkCode=xm2&ascsubtag=F0401J8J7YAH3H51PYWFDD0FZ1Z26&th=1 "Philips Norelco Multigroom 7000 MG7750")
 - Arsenal [hat](https://arsenaldirect.arsenal.com/Clothing/Accessories/Hats-%26-Caps/Arsenal-47-Black-Tonal-Cannon-Cap/p/U06626 "hat") and/or [jersey](https://arsenaldirect.arsenal.com/Clothing/Accessories/Hats-%26-Caps/Arsenal-47-Black-Tonal-Cannon-Cap/p/U06626 "jersey") (size Large, with player personalization "Kelly 18")
 - [ebooks gift certificate](https://www.ebooks.com/en-us/gift-certificates/)
+
+
+
+NExt year?
+https://www.belkin.com/p/wireless-hdmi-display-adapter/AVC024dqBK.html

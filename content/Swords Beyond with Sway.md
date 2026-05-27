@@ -1,3 +1,5 @@
+Magic, roll unmarked. The better you are at it without magic, the worse your capacity to take that action with magic. Mark 3 actions to be for magic actions. Mark push for each 1-3.
+
 Another name for Sway, Pals
 Rational
 Logic

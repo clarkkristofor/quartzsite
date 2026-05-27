@@ -4,6 +4,7 @@
 - bookshelf
 - Arsenal jersey
 - Dino roller skating socks, rawr-ler rink
+- earbuds (my old ones)
 # Amos
 - [cross body bag](https://www.thenorthface.com/en-us/p/bags-and-gear/bags/mini-backpacks-and-slings-829875/berkeley-field-bag-NF0A52WA?color=ASX&size=OS)
 - ~~Duolingo Super family~~
@@ -15,6 +16,6 @@
 - camping pass
 - ice cream maker attachment for KitchenAid
 # Me
-- [Mythic Bastionland](https://plusoneexp.com/products/mythic-bastionland-1)
+- ~~[Mythic Bastionland](https://plusoneexp.com/products/mythic-bastionland-1)~~ (bought for self with $ from Mom)
 - [Stonetop](https://plusoneexp.com/collections/stonetop)
-- Forbidden Lands Core Boxed Set
+- ~~Forbidden Lands Core Boxed Set~~ (already have pdfs)
