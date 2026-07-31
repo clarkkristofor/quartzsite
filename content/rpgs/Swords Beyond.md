@@ -6,8 +6,10 @@ image: https://superclark.net/Files/swords-beyond---cover.png
 date: 2026-07-31
 title:
 ---
+[[#This Game]] | [[#Contents]]
 ![[swords beyond - cover.png]]
 
+# This Game
 a fast & loose, highly improvisational fantasy hack of _Bump in the Dark, revised edition,_ by Jex Thomas
 
 with additional inspiration from
@@ -38,7 +40,7 @@ with additional inspiration from
 [[The World & Its Peoples#Culture & the Beyond|Culture & the Beyond]]
 [[The World & Its Peoples#Power Realm & Link|Power Realm & Link]]
 ## [[Hunter Roles]]
-**1** [[Hunter Roles#the Shield]|the Shield]]
+**1** [[Hunter Roles#the Shield|the Shield]]
 **2** [[Hunter Roles#the Law|the Law]]
 **3** [[Hunter Roles#the Scourge|the Scourge]]
 **4** [[Hunter Roles#the Loreseeker|the Loreseeker]]
