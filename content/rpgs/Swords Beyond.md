@@ -2,20 +2,20 @@
 publish: true
 description: my fantasy hack of Bump in the Dark
 link:
-image: https://superclark.net/Files/swords-beyond---cover.png
+image: https://superclark.net/Files/swords-beyond---cover---hydra.png
 date: 2026-07-31
 title:
 ---
- **[[#Credit]] | [[#Contents|All Contents]]:** [[Introduction]], [[Playing Hunters]], [[Getting Started]], [[The World & Its Peoples]], [[Hunter Roles]], [[Downtime]]
-![[swords beyond - cover.png]]
+an RPG: **[[#Credit]] | [[#Contents|Rules]]**... [[Introduction]], [[Playing Hunters]], [[Getting Started]], [[The World & Its Peoples]], [[Hunter Roles]], [[Downtime]]
+![[swords beyond - cover - hydra.png]]
 
 # Credits
-a fast & loose, highly improvisational fantasy hack of [_Bump in the Dark, revised edition](https://jexjthomas.itch.io/bump-in-the-dark),_ by Jex Thomas
+a fast & loose, highly improvisational fantasy hack of *[Bump in the Dark, revised edition](https://jexjthomas.itch.io/bump-in-the-dark),* by Jex Thomas
 
 with additional inspiration from
-- [_13th Age_](https://pelgranepress.com/13th-age/) by Rob Heinsoo & Jonathan Tweet  
-- _[Maze Rats](https://questingbeast.itch.io/maze-rats)_ by Ben Milton  
-- _[50/50](https://docs.google.com/document/d/1NLD_KhZwrKRz3sIquZDSW_Wx__7My6Kdg1Jbk6hF7Mw/edit?pli=1&tab=t.0)_ by John Harper
+- *[13th Age](https://pelgranepress.com/13th-age/)* by Rob Heinsoo & Jonathan Tweet  
+- *[Maze Rats](https://questingbeast.itch.io/maze-rats)* by Ben Milton  
+- *[50/50](https://docs.google.com/document/d/1NLD_KhZwrKRz3sIquZDSW_Wx__7My6Kdg1Jbk6hF7Mw/edit?pli=1&tab=t.0)* by John Harper
 
 # Contents
 ## [[Introduction]]
