@@ -1,5 +1,5 @@
 ---
-title: "Reading Now: Transcription"
+title: Transcription
 subtitle: A Novel
 author: Ben Lerner
 authors: Ben Lerner
@@ -17,6 +17,6 @@ isbn13: 9780374618605
 isbn10: 374618607
 localCoverImage: Files/BookCovers/Transcription - Ben Lerner.jpg
 publish: true
-date_finished: 1/7/2033
+date_finished: 6/4/2026
 ---
 https://mpd-biblio-covers.imgix.net/9780374618599.jpg

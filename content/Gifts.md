@@ -4,16 +4,16 @@
 ### clothes
 - Shoes: [Captain | Arizona Adobe ](https://thursdayboots.com/products/mens-captain-boot-arizona-adobe) $200
 - [bike pants](https://www.ornotbike.com/products/mission-pants-mesa?variant=44378883424548) $165
+- USA men's away soccer jersey
+- [Arcade belt](https://arcadebelts.com/products/aero-mag-stretch-belt?variant=53102799683948) $50
 ### tools ([TOH](https://www.thisoldhouse.com/tools/21018652/best-tools-for-your-home-tool-kit))
-[drill/driver + circular saw](https://www.amazon.com/dp/B01IR1SXNE?th=1&linkCode=sl1&tag=3smtoolsforyourhometoolkit-20&linkId=ea70d1d1b638804ee1f863b4e1b8874b&language=en_US&ref_=as_li_ss_tl) 20v $170 ([new battery](https://www.amazon.com/dp/B004LY59V6?ref=ive_vftp_hero_cx_pfo_vse-cards-ingress0&th=1) $30)
-	[12v drill/driver](https://www.amazon.com/dp/B0111N8L7I/ref=sspa_dk_detail_2?psc=1&pd_rd_i=B0111N8L7I&pd_rd_w=6TP2S&content-id=amzn1.sym.8c2f9165-8e93-42a1-8313-73d3809141a2&pf_rd_p=8c2f9165-8e93-42a1-8313-73d3809141a2&pf_rd_r=RZAPCW2VF3KSHG0YY3CQ&pd_rd_wg=Pius5&pd_rd_r=00d8233d-1a7d-4346-9356-35f45c2ea160&sp_csd=d2lkZ2V0TmFtZT1zcF9kZXRhaWw) $55
-	[dewalt circular saw](https://www.amazon.com/DEWALT-DCS391B-20-Volt-Li-Ion-Circular/dp/B007NVSTO8?th=1&linkCode=sl1&tag=3smdewaltcordlesstools-20&linkId=baee7cdc5dd666c2334292c9d19bd681&language=en_US&ref_=as_li_ss_tl) $130 w/o battery
-	[dewalt drill/driver](https://www.amazon.com/DEWALT-Cordless-Battery-Included-DCD777D1/dp/B0C3TGRLLM/ref=sr_1_7?crid=48Z8O4ZW07PZ&dib=eyJ2IjoiMSJ9.ZQtieoXCF4nGxDgvz0-S7ngYUjPNJZWBr-odGvtxtYAQf73DMVcTVg86ckZMOmhk4yBFaDC_ytP85Wq0bR0Ja3IW8l_p3k_plDIAa6BFStLFFoaqKc4JLbz6MZ7ibQraI1pDhdtqgs8BMCJbtSXjo93APZmMrCqQ3j0M_Z2pQ0TXOTAIJk7rqxV1q0rYiJBhqXqTdF04tlP34SS2s52mywqTMbdAXijofsMMLSllQkFd-yjoYb7cmh1xHzrrIL44KpKG_u9Q4cD-06LHhcBCHypI_HEWYJn_KFLt3VWwoiY.1zekUBtbKSbGyKmzufLBjeXogcL_G-w0ogfTXeA8IRQ&dib_tag=se&keywords=dewalt+drill+driver+combo&qid=1764686063&sprefix=dewalt+drill+driver%2Caps%2C193&sr=8-7&ufe=app_do%3Aamzn1.fos.9fe8cbfa-bf43-43d1-a707-3f4e65a4b666) $99
+[new DeWalt battery](https://www.amazon.com/dp/B004LY59V6?ref=ive_vftp_hero_cx_pfo_vse-cards-ingress0&th=1) $30
 [Oscillating Multi-Tool](https://www.amazon.com/Kobalt-18-Piece-Cordless-24-Volt-Oscillating/dp/B07C7YYZDP?crid=X8XYWYNK9TPI&dib=eyJ2IjoiMSJ9.ezb1H7yBJNzWWUQzkJ5640KbH1iMLpGfJ0PHEpL819J4NUkL52J2564zuZL8CY578iUX0zuVrbpoz4DW9wxu9ngwA7ThSwfQPapP3RsWPX-zs1s4lJNK_eU8aV5a-3o3AaVw-cPyggy6ZssEu4RqUgw36Gh5oFD5LWVq_hN3H0k83v9ZtoRZLXIhV_6zqeX9HOc30vd-7wG_ns4o3uijC2dXqV4jaj26VXW4QYx0o3B0nQG1HhmaO2GReXXCDKrOwT8QXV0hw4wpf08lt2uu2IJd5vTmDz0iqO3Y73Qe2jQ.27K9UkkbFqHXwkffDBwwCrYOQVTJz7xA2yjIr4g1aKY&dib_tag=se&keywords=kobalt+tools&qid=1710266353&sbo=RZvfv//HxDF%2BO5021pAnSA%3D%3D&sprefix=kobalt+tool,aps,119&sr=8-16&linkCode=sl1&tag=3smtoolbrands-20&linkId=756fbb474b6597a7ee3bd57eefc0cee4&language=en_US&ref_=as_li_ss_tl) 4.2amp $110
-
+[hose](https://www.lowes.com/pd/Teknor-Apex-Zero-G-5-8-in-X-100-ft-Premium-Duty-Kink-Free-Gray-Woven-Hose/1000168059) and [sprayer](https://www.lowes.com/pd/Turbo-Jet-2-Pattern-Nozzle/1001844302)
 ### other
-- [Hiplok DX1000](https://www.rei.com/product/232764/hiplok-hiplok-dx1000-bike-lock) with [Hiplok BR1000 Lock Bracket](https://www.rei.com/product/245462/hiplok-1000-series-on-bike-bracket) (or [ABUS U-Lock Granit™ Super Extreme 2500 with lock holder](https://newwheel.net/products/abus-u-lock-granit-super-extreme-2500?variant=40763150598222)) $400 (ordered 2/16/26 from REI)
 - [wireless mics](https://www.amazon.com/dp/B0DDL8WGH5/?coliid=I1IF7CU39JCHYJ&colid=1AFMTFRW234UQ&th=1) $100
+- [Dragonsteel](https://simplebits.shop/products/dragonsteel) font (already purchased) and/or [annual sub](https://simplebits.com/club/)
+- [Simple Sabotage Field Manual](https://mattereditions.com/catalog/simple-sabotage-field-manual-1st-edition)
 ### smart home
 - [Air Lab](https://www.crowdsupply.com/networked-artifacts/air-lab#products) with [BMV080](https://www.mouser.com/ProductDetail/Bosch-Sensortec/BMV080?qs=7%2F6SraaimPS7uQ3O%2F8i0pA%3D%3D) (but on [a board](https://www.sparkfun.com/sparkfun-air-quality-pm1-pm2-5-pm10-sensor-bmv080-qwiic.html)) $350ish total
 	- OR [Air Gradient self-assembled](https://www.airgradient.com/shop/#!/AirGradient-ONE-Indoor-Monitor-Pre-Soldered-Kit-Version-9/p/594725501/category=155176011) $138
@@ -22,6 +22,7 @@
 - [smart button](https://www.seeedstudio.com/SONOFF-SNZB-01P-Zigbee-Wireless-Switch-p-6363.html) $10
 - [smart bulb](https://www.seeedstudio.com/Sonoff-B05-BL-A19-Wi-Fi-Smart-LED-Bulb-p-5521.html) $10
 ## Both kids/family
+Arsenal/USA jerseys
 bookshelves (replace ones in [living](https://www.westelm.com/shop/furniture/living-room-bookcases/) [room](https://www.crateandbarrel.com/furniture/bookcases-and-shelves/1) or kids rooms)
 replace red couch
 [Osmo Action chest strap](https://store.dji.com/product/osmo-action-chest-strap-mount?vid=120741)
@@ -32,7 +33,6 @@ dancing plant
 [Duck Detective](https://www.nintendo.com/us/store/products/duck-detective-the-secret-salami-switch/) from Amos
 JetPens planner stickers, etc
 [book shelf (white)](https://www.ikea.com/us/en/p/billy-bookcase-white-20522046/#content)
-
 ## Amos
 * Prophet Amos (English) Orthodox Icon - BlessedMart
 * Forge/kiln, probably [this one](https://www.vevor.com/melting-furnace-c_11137/vevor-6kg-propane-smelting-furnace-kit-melting-furnace-stainless-steel-2700--p_010710661059), if at all $100
@@ -42,10 +42,16 @@ JetPens planner stickers, etc
 * [storage organizer](https://www.ikea.com/us/en/p/kallax-shelf-unit-with-4-inserts-white-s59278307/)
 * [Laptop](https://swappa.com/listing/view/LZLK21171)
 ## Sara
+- https://lectricebikes.com/products/xpress-750-step-thru-white-ebike
+- NSF/ANSI Standard 53 water filter
 - print of book cover, either to hang or for a booth
 - [kitchen scale](https://www.amazon.com/Escali-Digital-Multi-Functional-Kitchen-Measuring/dp/B0007GAWSC?asc_source=verso&asc_campaign=5aa6fe71275dc52331d917ec&asc_refurl=https%3A%2F%2Fwww.bonappetit.com%2Fstory%2Fbest-kitchen-scales&ascsubtag=5aa6fe71275dc52331d917ec&tag=bonappsite-20&th=1) [ATK recommendation](https://www.amazon.com/OXO-Grips-Stainless-Pull-Out-Display/dp/B079D9B82W/ref=sr_1_2?crid=2C3FA7B0H0VRI&dib=eyJ2IjoiMSJ9.62PtzGqZy6MUIqsqaidjoDkmEzG2ot4eQSxOBF8l1fv7pFgv59EvpICcfUn1HytL2Yh_0g0j6w_4Frpv3L93JZhs5Pt0A5poR4Q-PJaGQitkdsskv5zE-UbVwKn_02QfVJ4nkgeU1DbuXbQBMaICNWamiFEBgikVk1dL_XVOmTHnX9YZwPaTmFvzR56L1h9_DBQB8PQYmEG6Mu3I-X0jRCBJkF7-BozS-yYkChLVRTVlco7-5QMyJzBydiVL2hcMEyb4wB3XYAutif711nTZQCK4F0GyFKSQZup7dd9FZpo.KDv4Kffg4Ki3KOArXrKHVFc38ZxO1fL9_2pgW8vZzU0&dib_tag=se&keywords=oxo+scale&qid=1767011551&s=home-garden&sprefix=oxo+sca%2Cgarden%2C181&sr=1-2) [bread baking](https://www.amazon.com/My-Weigh-KD-8000-Kitchen-Digital/dp/B01C6CN1VY?keywords=myweigh+kd-8000&qid=1678908951&sprefix=myweigh,aps,124&sr=8-3&ufe=app_do:amzn1.fos.18ed3cb5-28d5-4975-8bc7-93deae8f9840&linkCode=sl1&tag=theperfectloaf-20&linkId=9de6a5e1671946ce2ee77f84d413d92d&language=en_US&ref_=as_li_ss_tl)
+- [Life and Art of Sister Corita Kent](https://www.amazon.com/dp/159270316X?lv=shuf&tag=braipick-20&channelId=1&plpRedirect=mhFallback) and her [10 Rules](https://mattereditions.com/catalog/ten-rules-for-teachers-and-students) (more [here](https://www.themarginalian.org/2012/08/10/10-rules-for-students-and-teachers-john-cage-corita-kent/))
 Harvest basket
 Connected oven mitts
+
+## Brent/Connie
+- ["Have more fun" pennant](https://oxfordpennant.com/pages/pennant-customizer#5-sided-camp-flag)
 ## Games
 Tunic
 Long Shot, dice game
