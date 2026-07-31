@@ -5,10 +5,13 @@ link:
 image: https://superclark.net/Files/swords-beyond---cover---hydra.png
 date: 2026-07-31
 title:
+aliases:
+  - /swordsbeyond
 ---
-# Credits
 a fast & loose, highly improvisational fantasy rpg
+
 a hack of *[Bump in the Dark, revised edition](https://jexjthomas.itch.io/bump-in-the-dark),* by Jex Thomas
+
 with additional inspiration from
 - *[13th Age](https://pelgranepress.com/13th-age/)* by Rob Heinsoo & Jonathan Tweet  
 - *[Maze Rats](https://questingbeast.itch.io/maze-rats)* by Ben Milton  
