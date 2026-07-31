@@ -6,16 +6,16 @@ image: https://superclark.net/Files/swords-beyond---cover---hydra.png
 date: 2026-07-31
 title:
 ---
-an RPG: **[[#Credit]] | [[#Contents|Rules]]**... [[Introduction]], [[Playing Hunters]], [[Getting Started]], [[The World & Its Peoples]], [[Hunter Roles]], [[Downtime]]
-![[swords beyond - cover - hydra.png]]
-
 # Credits
-a fast & loose, highly improvisational fantasy hack of *[Bump in the Dark, revised edition](https://jexjthomas.itch.io/bump-in-the-dark),* by Jex Thomas
-
+a fast & loose, highly improvisational fantasy rpg
+a hack of *[Bump in the Dark, revised edition](https://jexjthomas.itch.io/bump-in-the-dark),* by Jex Thomas
 with additional inspiration from
 - *[13th Age](https://pelgranepress.com/13th-age/)* by Rob Heinsoo & Jonathan Tweet  
 - *[Maze Rats](https://questingbeast.itch.io/maze-rats)* by Ben Milton  
 - *[50/50](https://docs.google.com/document/d/1NLD_KhZwrKRz3sIquZDSW_Wx__7My6Kdg1Jbk6hF7Mw/edit?pli=1&tab=t.0)* by John Harper
+
+*[[#Contents|All Rules]]* : [[Introduction]] | [[Playing Hunters]] |  [[Getting Started]] | [[The World & Its Peoples]] | [[Hunter Roles]]| [[Downtime]]
+![[swords beyond - cover - hydra.png]]
 
 # Contents
 ## [[Introduction]]
