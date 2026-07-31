@@ -8,16 +8,15 @@ title:
 aliases:
   - /swordsbeyond
 ---
-a fast & loose, highly improvisational fantasy rpg
+**a fast & loose, highly improvisational fantasy rpg**
 
-a hack of *[Bump in the Dark, revised edition](https://jexjthomas.itch.io/bump-in-the-dark),* by Jex Thomas
-
-with additional inspiration from
+a hack of *[Bump in the Dark, revised edition](https://jexjthomas.itch.io/bump-in-the-dark),* by Jex Thomas with additional inspiration from
 - *[13th Age](https://pelgranepress.com/13th-age/)* by Rob Heinsoo & Jonathan Tweet  
 - *[Maze Rats](https://questingbeast.itch.io/maze-rats)* by Ben Milton  
 - *[50/50](https://docs.google.com/document/d/1NLD_KhZwrKRz3sIquZDSW_Wx__7My6Kdg1Jbk6hF7Mw/edit?pli=1&tab=t.0)* by John Harper
 
-*[[#Contents|All Rules]]* : [[Introduction]] | [[Playing Hunters]] |  [[Getting Started]] | [[The World & Its Peoples]] | [[Hunter Roles]]| [[Downtime]]
+*[[#Contents|All Rules]]* : [[Introduction]] | [[Playing Hunters]] |  [[Getting Started]] | [[The World & Its Peoples]] | [[Hunter Roles]]| [[Downtime]] 
+*[Downloads](https://drive.google.com/drive/folders/1rtNJpaatjz2WGgBjgilf1uSoaCo8LBJX?usp=sharing)*
 ![[swords beyond - cover - hydra.png]]
 
 # Contents
