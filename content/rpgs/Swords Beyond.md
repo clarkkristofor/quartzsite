@@ -2,7 +2,7 @@
 publish: true
 description: a fantasy hack of Bump in the Dark, revised edition, by Jex Thomas
 link:
-image: Files/swords beyond - cover.png
+image: https://superclark.net/Files/swords-beyond---cover.png
 date: 2026-07-31
 title:
 ---
