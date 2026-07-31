@@ -1,3 +1,10 @@
+---
+publish: true
+title:
+description:
+image:
+date: 2026-07-31
+---
 [[rpgs/Swords Beyond#Contents|Contents]] | [[Getting Started]]
 *Roll tables for [[#Kin]], [[#Culture & the Beyond]], [[#Power Realm & Link]] and [[rpgs/Swords Beyond#Hunter Roles|Role]]. Also [[#Hearthborn]].*
 
