@@ -6,7 +6,7 @@ image:
 date: 2026-07-30
 "title:":
 link:
-Game: Swords Beyond, beta
+Game: Swords Beyond
 ---
 ## when last we left our heroes
 Escaping the March Lord ambush, Marwen teleported himself, incapacitated Gashnag, and the unconscious thug bearing the light of heaven into the western lighthouse. But the light went out, in the thug and in the lighthouse.

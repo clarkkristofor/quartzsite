@@ -5,6 +5,7 @@ description: playtest beta
 link:
 image:
 date: 2026-06-25
+Game: Swords Beyond
 ---
 ## hunters
 ### Marwen Maxan the Zealot
