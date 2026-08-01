@@ -21,49 +21,78 @@ date: 2026-07-31
 
 **ACQUIRE AN ASSET** (2H). Describe how you gain temporary use of an item, ally/crew, mode of transport or service. You have one use of the asset, and the asset’s Quality is equal to your pact’s Trust. Give each asset 2-3 tags, usually including one benefit and one drawback.
 
-**QUELL ALARM** (2B). Say what your character does to lessen alarm in the people of the Over Reach. Reduce alarm by two.
+==**QUELL ALARM** (2B). Say what your character does to lessen alarm in the people of the Over Reach. Reduce alarm by two.== %% Do I want to use alarm? I do want some mechanical interaction with Lost Plenty. %%
 
 **RECOVER** (2H). When you recover, you seek treatment for your wounds. If you don’t have a connection, ally, or fellow hunter who can help, use the **acquire asset** beat to gain access to someone who can. If you opt to do it yourself, mark 1 favor per wound. Clear all wounds.
 
 **COMMUNE** (2H). Describe how your hunter communes with your Power Beyond and say who, if anyone, is with you. Roll plus fate. On a 10+, clear up to 4 favor; 7-9, clear 1 favor; 6-, suffer the first unmarked snag, then mark it:
 
-□ **Cause Trouble**: The shadow seizes you, and you act out in Lost Plenty. How? Keeper takes a string.
+> □ **Cause Trouble**: The shadow seizes you, and you act out in Lost Plenty. How? Keeper takes a string.
+> 
+> ==□ **Mouth Off:** Brag about your hunts or talk with regular people about the supernatural. Immediately gain +2 alarm.==
+> 
+> □ **Go Missing**: Your hunter vanishes for a few weeks. Play a different hunter until this one returns. When they come back, tell us what they got up to and clear all conditions.
+> 
+> □ **Despair**: Communing no longer provides any relief. Start a 6-segment LONG-TERM PROJECT to find a new way. You cannot COMMUNE until it’s complete. When it is, you must change either your **belief** to reflect what you learned about your Power or your **drive** to reflect what you learned about yourself.
 
-□ **Mouth Off:** Brag about your hunts or talk with regular people about the supernatural. Immediately gain +2 alarm.
-
-□ **Go Missing**: Your hunter vanishes for a few weeks. Play a different hunter until this one returns. When they come back, tell us what they got up to and clear all conditions.
-
-□ **Despair**: Communing no longer provides any relief. Start a 6-segment LONG-TERM PROJECT to find a new way. You cannot COMMUNE until it’s complete. When it is, you must change either your **belief** to reflect what you learned about your Power or your **drive** to reflect what you learned about yourself.
-
-**WORK ON LONG-TERM PROJECT** (2H). When you work on a long-term project, describe what your hunter does to advance the project clock. Make a fortune roll using a relevant stat and mark segments according to the results: 6- is one, 7-9 two, 10+ three, and double 6s is five.
+**WORK ON LONG-TERM PROJECT** (2H). When you work on a long-term project, describe what your hunter does to advance the project clock. Make a [[Playing Hunters#FORTUNE ROLLS|fortune roll]] using a relevant stat and mark segments according to the results: 6- is one, 7-9 two, 10+ three, and double 6s is five.
 
 # Pact Arcs
 
-**CHOSEN FAMILY** (3B). While trying to enjoy some downtime together, an argument breaks out among the hunters. Everyone involved must update or write a new belief about one of the other parties who was involved. [▷]
+==**CHOSEN FAMILY** (3B). While trying to enjoy some downtime together, an argument breaks out among the hunters. *Everyone involved must update or write a new belief about one of the other parties who was involved.* [▷]== %% Since I changed beliefs, this is outmoded. %%
 
-**MAKE A DISCOVERY** (3H). A scene where the hunters discover or become acquainted with a new location. Add it to the map. [▷▷▷▷]
+**MAKE A DISCOVERY** (3H). A scene where the hunters discover or become acquainted with a new location. *Add it to the map.* [▷▷▷▷]
 
-**GALVANIZE** (4B). Describe how the pact works together toward a common goal or endures a difficult experience as one. Take a new pact ability. [▷▷▷▷]
+**GALVANIZE** (4B). Describe how the pact works together toward a common goal or endures a difficult experience as one. *Take a new pact ability.* [▷▷▷▷]
 
 **MAKE FRIENDS** (5B). Describe how you establish a new ally or upgrade an old one. [▷▷▷]
 
-**REMODEL** (5B). You acquire some new tech, building materials, or other resources. Take an upgrade to your base. [▷▷▷]
+**REMODEL** (5B). You acquire some new tech, building materials, or other resources. *Take an upgrade to your base.* [▷▷▷]
 
-**THE TIES THAT BIND** (6B). The hunters spend quality time with the people of the Over Reach and demonstrate their promise. Raise your pact’s Trust by 1 and consider changing your reputation to match the nature of your changing relationship. [▷▷▷▷]
+**THE TIES THAT BIND** (6B). The hunters spend quality time with the people of the Over Reach and demonstrate their promise. *Raise your pact’s Trust by 1 and consider changing your reputation to match the nature of your changing relationship.* [▷▷▷▷]
 
 # Role Arcs
 
-**SHIELD** ▷ Troubled Past (3H) ▷ Kill It With Fire (4H)
+## **SHIELD**
+**TROUBLED PAST** (3H). Someone from your past pays you a visit. Who is it, and what do they want? *Mark a wound and take a new ability from your playbook.* [▷]
 
-**LAW** ▷ The Black Dossier (3H) ▷ Deal with the Devil (4H)
+**KILL IT WITH FIRE** (4H). You’re off on your own when you come face to face with something horrible (what is it?) and you’re forced to deal with it on your own. Say which hunter found you and what they saw that terrified them. *Take a monstrous ability and -1 fate.* [▷]
 
-**SCOURGE** ▷ Accidental Incantation (3H) ▷ The Descent (4H)
+## **LAW** 
+**THE BLACK DOSSIER** (3H). A contact provides you with highly classified information. The kind of information people get killed over. *Describe what it is (be as vague or specific as you’d like), gain -1 status with a relevant faction, and take a new ability from your playbook.* [▷]
 
-**LORESEEKER**  ▷ Favors Due (3H) ▷ The Thing Which … (4H)
+**DEAL WITH THE DEVIL** (4H). Everything comes at a cost. Tell a story about a deal that required you to make a great sacrifice. What did you sacrifice, and was it worth? *Take a monstrous ability and -1 fate.* [▷]
 
-**FOX** ▷ Born to Run (3H) ▷ Blood Brothers (4H)
+## **SCOURGE**
+**ACCIDENTAL INCANTATION** (3H). You’re certain you said the words correctly. All the proper components were there. The blade tasted blood. What went wrong, and who was there to see it? *Mark a condition (your choice) and take a new ability from your playbook.* [▷]
 
-ZEALOT ▷ Ancient Evil (3H) ▷ New Scars (4H)
+**THE DESCENT** (4H). You succumb to the shadow, which you’ve worked so hard to harness and control. Describe what this looks like. *Take a monstrous ability and -1 fate.* [▷]
+
+## **LORESEEKER**
+**FAVORS DUE** (3H). You’re called away on business. What excuse do you tell the other hunters, and why can’t they ever know the truth about what you’re doing? *Write a belief that pertains to this and then take a new ability from your playbook.* [▷]
+
+**THE THING WHICH COULD NOT BE PUT BACK** (4H). You always tell others not to mess with that which they don’t understand, and yet here you are. Of course, it’s hard for you to admit that there are things you don’t understand. *Take a monstrous ability and -1 fate.*  [▷]
+
+## **FOX** 
+BORN TO RUN (3H). Something you thought you’d outrun is making itself a problem in the resent. What is it? Who do you confide in? Describe dealing with things. *Permanently lose one of your connections and take a new ability from your playbook.* [▷]
+
+BLOOD BROTHERS (4H). Someone you care about is in trouble – who? – and you’ve made a deal to save them. How does it backfire, and what is the curse that’s been placed on you? Take a monstrous ability. *Take a monstrous ability and -1 fate.* [▷]
+
+## **ZEALOT**
+**ANCIENT EVIL** (3H). Your training has been pushing you to the limits with no sign of relenting. How have they pushed you too hard, and what is your breaking point? You are exhausted until you confront your leader. *Take a new ability from your playbook.* [▷]
+
+**NEW SCARS** (4H). Your sect has a fabled enemy or rival and they’ve been training you how to hunt it down. Who or what is it, and how have you come to better understand it? Say what this
+knowledge has cost you. *Take a monstrous ability and -1 fate.* [▷]
+
+
+
+
+
+
+
+
+
+
 
 ---
 *[[rpgs/Swords Beyond#Contents|All Rules]]*
