@@ -20,8 +20,9 @@ date: 2026-07-31
 # Basic Beats
 
 **ACQUIRE AN ASSET** (2H). Describe how you gain temporary use of an item, ally/crew, mode of transport or service. You have one use of the asset, and the asset’s Quality is equal to your pact’s Trust. Give each asset 2-3 tags, usually including one benefit and one drawback.
+**QUELL ALARM** (2B). Say what your character does to lessen alarm in the people of the Over Reach. Reduce alarm by two. 
 
-==**QUELL ALARM** (2B). Say what your character does to lessen alarm in the people of the Over Reach. Reduce alarm by two.== %% Do I want to use alarm? I do want some mechanical interaction with Lost Plenty. %%
+%% Do I want to use alarm? I do want some mechanical interaction with Lost Plenty. %%
 
 **RECOVER** (2H). When you recover, you seek treatment for your wounds. If you don’t have a connection, ally, or fellow hunter who can help, use the **acquire asset** beat to gain access to someone who can. If you opt to do it yourself, mark 1 favor per wound. Clear all wounds.
 
@@ -29,7 +30,7 @@ date: 2026-07-31
 
 > □ **Cause Trouble**: The shadow seizes you, and you act out in Lost Plenty. How? Keeper takes a string.
 > 
-> ==□ **Mouth Off:** Brag about your hunts or talk with regular people about the supernatural. Immediately gain +2 alarm.==
+> □ **Mouth Off:** Brag about your hunts or talk with regular people about the supernatural. Immediately gain +2 alarm.
 > 
 > □ **Go Missing**: Your hunter vanishes for a few weeks. Play a different hunter until this one returns. When they come back, tell us what they got up to and clear all conditions.
 > 
@@ -56,7 +57,9 @@ date: 2026-07-31
 
 # Pact Arcs
 
-==**CHOSEN FAMILY** (3B). While trying to enjoy some downtime together, an argument breaks out among the hunters. *Everyone involved must update or write a new belief about one of the other parties who was involved.* [▷]== %% Since I changed beliefs, this is outmoded. %%
+**CHOSEN FAMILY** (3B). While trying to enjoy some downtime together, an argument breaks out among the hunters. *Everyone involved must update or write a new belief about one of the other parties who was involved.* [▷]
+
+%% Since I changed beliefs, this is outmoded. %%
 
 **MAKE A DISCOVERY** (3H). A scene where the hunters discover or become acquainted with a new location. *Add it to the map.* [▷▷▷▷]
 
@@ -100,14 +103,6 @@ BLOOD BROTHERS (4H). Someone you care about is in trouble – who? – and you�
 
 **NEW SCARS** (4H). Your sect has a fabled enemy or rival and they’ve been training you how to hunt it down. Who or what is it, and how have you come to better understand it? Say what this
 knowledge has cost you. *Take a monstrous ability and -1 fate.* [▷]
-
-
-
-
-
-
-
-
 
 
 
