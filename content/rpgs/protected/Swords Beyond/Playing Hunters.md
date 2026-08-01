@@ -5,7 +5,7 @@ description:
 image:
 date: 2026-07-31
 ---
-[[rpgs/Swords Beyond#Contents|Contents]] | [[#Agenda]] | [[#Rolling Dice]] | [[#Conditions & Death]]
+*[[rpgs/Swords Beyond#Contents|All Rules]]* | [[#Agenda]] | [[#Rolling Dice]] | [[#Conditions & Death]]
 
 # Agenda
 

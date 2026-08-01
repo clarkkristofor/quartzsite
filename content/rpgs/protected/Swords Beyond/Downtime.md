@@ -63,7 +63,7 @@ date: 2026-07-31
 
 **FOX** ▷ Born to Run (3H) ▷ Blood Brothers (4H)
 
-**ZEALOT** ▷ Ancient Evil (3H) ▷ New Scars (4H)
+ZEALOT ▷ Ancient Evil (3H) ▷ New Scars (4H)
 
 ---
 *[[rpgs/Swords Beyond#Contents|All Rules]]*
