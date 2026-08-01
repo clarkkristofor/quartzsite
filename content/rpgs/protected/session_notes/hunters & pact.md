@@ -1,0 +1,68 @@
+---
+publish: true
+"title:":
+description: playtest beta
+link:
+image:
+date: 2026-06-25
+---
+## hunters
+### Marwen Maxan the Zealot
+
+**Kin:** coastal crags ravenkin who steal from shadow and Over Reach people and who dominate demons to enchant artifacts and monuments
+
+**Drive:** I will bind every demon to my rock or destroy them. 
+
+**Belief:** My Power Beyond from the Deads is the true founder of my clan and, viciously, he longs to grind demonkind under his boot. 
+
+▲ recruit the archery champion ▼ sister demands my return
+
+### Gashnag the Zealot
+
+**Kin:** warg steppes orcs, cursed children of Marwen’s ravenkin, who venerate paternal ancestors daily at private shrines
+
+**Drive:** I will complete the generational quest. 
+
+**Belief:** My Power from Beyond from the Weft - tear in reality - is the true way to cleanse sin and unworthiness. 
+
+▲ an alchemist promises a remedy ▼my mother, gatekeeper in my absence, is dying from the rift
+
+### Physic Burnbeard the Fox
+
+Kin: deep gnomes who seek secret knowledge of alchemical transcendence
+
+**Drive:** I will trust in the bloody coin. 
+
+**Belief:** My Power Beyond from the Hells has greater things for me. 
+
+▲ the Exorcist claims he knows my birth story ▼cousin Gragen is dying
+
+### Donegal (Donny) the Fox
+
+**Kin:** the ravages (snowy pine forests) elves, loyal to the lady of wisdom, who dominate demons for sport
+
+**Drive:** I will earn renown in Lost Plenty and return to rule the ravages. 
+
+**Belief:** My link (three-tailed fox) to the Wild is a demon that tells me to do things. 
+
+▲ old demon-binding mentor ▼wife and children in ravages
+
+## pact: “Them”
+
+**Conviction:** The shadow is demonic: the March Lord summons demons for profit. But head-on is not the only way to confront him/it. 
+
+**Pact:** You (Lost Plenty) house us, and we will fight for you. (Transactional. They treat you like guard dogs.)
+
+**Promise:** No conversions.
+
+**Factions:**
+- +2 the Seamen Lighthouse cult, keepers of the Light of Heaven
+- -1 mine investors
+ 
+**Allies:**
+- the Toad, blind & mute keeper of pact’s lighthouse
+- Terry, ditto for western lighthouse
+
+
+
+*a [[rpgs/Swords Beyond|Swords Beyond]] playtest*
