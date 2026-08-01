@@ -5,7 +5,8 @@ description:
 image:
 date: 2026-07-31
 ---
-[[rpgs/Swords Beyond#Contents|Contents]] | [[Playing Hunters]]
+*[[rpgs/Swords Beyond#Contents|All Rules]]* | [[#Making your Hunter]] | [[#Making the Pact]]
+
 # Making your Hunter
 *Create hunters together. Fill in gaps. Connect dots. Twist, ignore, and embellish results to make it fun for everyone.*
 ## Roll...
@@ -23,8 +24,8 @@ date: 2026-07-31
 2. **Sketch the world map**. Note where your hunter is from, and whatever else you like. Also, _what resource does the Over Reach supply to the Coastal Cities?_ e.g., iron, timber, wool, salt, amber, gold, something Beyond
 3. **[[#Making the Pact|Make the pact]]**.
 
----
-[[rpgs/Swords Beyond#Contents|Contents]] | [[#Making your Hunter]]
+
+[[rpgs/Swords Beyond#Contents|Contents]] | 
 
 # Making the Pact
 _Create the pact together._
@@ -39,4 +40,4 @@ _Create the pact together._
 9. What NPC **ally** knows about your sanctuary and what you’re doing in Lost Plenty? (If your ally is friendly with a faction, take +1 status; if they are unfriendly with a faction, take -1 status.)
 
 ---
-[[rpgs/Swords Beyond#Contents|Contents]] | [[#Making the Pact]] | [[The World & Its Peoples]]
+*[[rpgs/Swords Beyond#Contents|All Rules]]*  | [[The World & Its Peoples]]

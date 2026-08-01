@@ -5,7 +5,7 @@ description:
 image:
 date: 2026-07-31
 ---
-[[rpgs/Swords Beyond#Contents|Contents]] | [[The World & Its Peoples]]
+*[[rpgs/Swords Beyond#Contents|All Rules]]*
 
 # Role
 **1** [[#the Shield]]
@@ -33,7 +33,6 @@ date: 2026-07-31
 □ **THICK SKIN**. You’re hard to hurt. You may expend your **plot armor** to ignore a condition from an attack in combat or to gain **+1** to a roll at no cost during a fight.
 
 ---
-[[rpgs/Swords Beyond#Contents|Contents]] | [[#the Shield]]
 
 # the Law
 **STATS**: +2 Heart, +1 Mind, -1 Beyond
@@ -53,7 +52,6 @@ date: 2026-07-31
 □ **UNDERCOVER**. When you use a disguise or other form of covert misdirection, gain increased impact on attempts to confuse or deflect suspicion. When you reveal your true identity, the resulting surprise gives you an advantage.
 
 ---
-[[rpgs/Swords Beyond#Contents|Contents]] | [[#the Law]]
 
 # the Scourge
 **STATS**: +1 Mind, +2 Beyond, -1 Heart
@@ -73,7 +71,6 @@ date: 2026-07-31
 □ **SHADOW SENSE**. You’re always aware of shadow entities in your presence. Take **+1** when you investigate shadow effects.
 
 ---
-[[rpgs/Swords Beyond#Contents|Contents]] | [[#the Scourge]]
 
 # the Loreseeker
 **STATS**: +3 Mind, -1 Body
@@ -93,7 +90,6 @@ date: 2026-07-31
 □ **TINKERER**. You can modify or CRAFT new tools or devices. Add one invention to your gear. Additionally, gain **+1** to CRAFT during downtime.
 
 ---
-[[rpgs/Swords Beyond#Contents|Contents]] | [[#the Loreseeker]]
 
 # the Fox
 **STATS**: +2 Body, +1 Heart, -1 Mind or Beyond
@@ -113,7 +109,6 @@ date: 2026-07-31
 □ **QUICKDRAW**. When you attack from hiding, take **+1**. Whenever there’s a question of who acts first, the answer is always you.
 
 ---
-[[rpgs/Swords Beyond#Contents|Contents]] | [[#the Fox]]
 
 # the Zealot
 **STATS**: +2 Mind, +1 Beyond, -1 Body
@@ -134,4 +129,4 @@ date: 2026-07-31
 □ **VISIONS OF DEATH.** When you kill a monster of shadow, roll plus Beyond. On a 10+, name one person who’ll die and one who’ll live. On a 7–9, name one person who’ll die OR one person who’ll live. Not hunters; NPCs only. The GM will make your vision come true, if it’s possible. On a 6-, you foresee your own death. Mark _afraid_.
 
 ---
-[[rpgs/Swords Beyond#Contents|Contents]] | [[#the Zealot]] | [[Downtime]]
+*[[rpgs/Swords Beyond#Contents|All Rules]]* | [[Downtime]]

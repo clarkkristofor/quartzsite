@@ -5,7 +5,7 @@ description:
 image:
 date: 2026-07-31
 ---
-[[rpgs/Swords Beyond#Contents|Contents]] | [[Introduction]]
+[[rpgs/Swords Beyond#Contents|Contents]] | [[#Agenda]] | [[#Rolling Dice]] | [[#Conditions & Death]]
 
 # Agenda
 
@@ -23,8 +23,6 @@ Play like your hunter is real person living in a real world. Multifaceted, flawe
 
 Discover your hunter’s story; don’t plan it. Let it emerge from dice rolls, other players’ actions, your instinct for who your hunter is. Stay in the moment.
 
----
-[[rpgs/Swords Beyond#Contents|Contents]] | [[#Agenda]]
 
 # Rolling Dice
 
@@ -110,8 +108,6 @@ If you can’t take -1 fate, your doom has come and your life as a hunter ends; 
 ### Set the Scene
 Choose players to play your Power and/or the shadow. The rest play the chorus, anonymous Powers of either the relevant Realm Beyond or the shadow. Remind everyone of your Power’s Realm and link, your belief and the pact’s conviction. Decide: who’s driving the scene, what do they want, and who do they want it from? Integrate your reward, doom, or 7-9 choice. End the scene when the driver gets what they want or definitively does not.
 
----
-[[rpgs/Swords Beyond#Contents|Contents]] | [[#Rolling Dice]]
 
 # Conditions & Death
 Conditions make hunting monsters harder. They reflect debilities with story effects. Mark conditions on your hunter sheet. To clear them, take the relevant action and enjoy a more interesting scene.
@@ -121,4 +117,4 @@ Wounds are freeform conditions reflecting physical harm. You can mark **armor** 
 Your death is in the hands of _fate_.
 
 ---
-[[rpgs/Swords Beyond#Contents|Contents]] | [[Getting Started]]
+*[[rpgs/Swords Beyond#Contents|All Rules]]* | [[Getting Started]]

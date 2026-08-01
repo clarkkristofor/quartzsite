@@ -5,7 +5,7 @@ description:
 image:
 date: 2026-07-31
 ---
-[[rpgs/Swords Beyond#Contents|Contents]] | [[Hunter Roles]]
+*[[rpgs/Swords Beyond#Contents|All Rules]]* | [[#Hunter Arc]] | [[#Basic Beats]] | [[#Pact Arcs]] | [[#Role Arcs]]
 
 # Hunter Arc
 
@@ -64,3 +64,6 @@ LORESEEKER  ▷ Favors Due (3H) ▷ The Thing Which … (4H)
 FOX ▷ Born to Run (3H) ▷ Blood Brothers (4H)
 
 ZEALOT ▷ Ancient Evil (3H) ▷ New Scars (4H)
+
+---
+*[[rpgs/Swords Beyond#Contents|All Rules]]*

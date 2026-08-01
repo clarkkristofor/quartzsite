@@ -5,8 +5,7 @@ description:
 image:
 date: 2026-07-31
 ---
-[[rpgs/Swords Beyond#Contents|Contents]] | [[Getting Started]]
-*Roll tables for [[#Kin]], [[#Culture & the Beyond]], [[#Power Realm & Link]] and [[rpgs/Swords Beyond#Hunter Roles|Role]]. Also [[#Hearthborn]].*
+*[[rpgs/Swords Beyond#Contents|All Rules]]* | [[#Kin]] (including [[#Hearthborn]]) | [[#Culture & the Beyond]] | [[#Power Realm & Link]] | [[rpgs/Swords Beyond#Hunter Roles|Role]]
 
 # Kin
 *2d6 + d66*
@@ -154,16 +153,10 @@ _loyal to the…_
 ### **_If they’re not in your pact, are they in your world?_**
 
 
----
-[[rpgs/Swords Beyond#Contents|Contents]] | [[#Kin]]
-
 # Hearthborn
 Hearthborn were **once simply ash, charred firewood, hearth stones, and household items**, bearing generations of traditional Over Reach house blessings. But when their home is destroyed or their family lost, the warmth and protection can endure, born of love and yearning, wandering as **a melancholic exile looking for a new purpose**. 
 
 A hearthborn’s culture is an echo of their family’s culture (identified by your *Culture & the Beyond* result), made their own by childlike imitation.
-
----
-[[rpgs/Swords Beyond#Contents|Contents]] | [[#Hearthborn]]
 
 
 # Culture & the Beyond
@@ -219,9 +212,6 @@ A hearthborn’s culture is an echo of their family’s culture (identified by y
 
 ### **_Do you live your kin’s culture or defy it?_**
 
----
-[[rpgs/Swords Beyond#Contents|Contents]] | [[#Culture & the Beyond]]
-
 
 # Power Realm & Link
 *d66. Rolling 10s die may introduce tension with your kin. Feel free to use your culture’s Realm and roll 1s only.*
@@ -276,4 +266,4 @@ A hearthborn’s culture is an echo of their family’s culture (identified by y
 
 
 ---
-[[rpgs/Swords Beyond#Contents|Contents]] | [[#Power Realm & Link]] | [[Hunter Roles]]
+*[[rpgs/Swords Beyond#Contents|All Rules]]* | [[Hunter Roles]]
