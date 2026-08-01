@@ -35,7 +35,24 @@ date: 2026-07-31
 > 
 > □ **Despair**: Communing no longer provides any relief. Start a 6-segment LONG-TERM PROJECT to find a new way. You cannot COMMUNE until it’s complete. When it is, you must change either your **belief** to reflect what you learned about your Power or your **drive** to reflect what you learned about yourself.
 
-**WORK ON LONG-TERM PROJECT** (2H). When you work on a long-term project, describe what your hunter does to advance the project clock. Make a [[Playing Hunters#FORTUNE ROLLS|fortune roll]] using a relevant stat and mark segments according to the results: 6- is one, 7-9 two, 10+ three, and double 6s is five.
+**WORK ON LONG-TERM PROJECT** (2H). When you work on a long-term project, describe what your hunter does to advance the project clock. Make a [[Playing Hunters#FORTUNE ROLLS|fortune roll]] using a relevant stat and mark segments according to the results: 6- is one, 7-9 two, 10+ three, and double 6s is four.
+
+> A long-term project can cover a wide variety of activities, like doing research into a magic ritual, investigating a side mystery, earning someone’s trust, courting a new connection, changing your character’s solace, crafting or building new equipment, and so on.
+> 
+> Based on the goal of the project, the keeper will tell you the clock(s) to create and suggest a method by which you might make progress. In order to work on a project, you might first have to achieve the means to pursue it. This could be a project in itself. For example, you might want to make friends with one of Lost Plenty's town council members, but you have no connection to them. You could first work on a project to connect in their circles so you have the opportunity to meet one of them. Once that’s accomplished, you could start a new project to form a friendly relationship.
+> 
+> **CRAFTING & RITUALS**. Long-term projects can be used to craft or invent new items, develop rituals or spells, or modify existing equipment. The length of the clock will be based on the following factors, with a minimum length of 4:
+> 
+> - +2 if no blueprint, guide, or design exists.
+> - +2 if the item, ritual, or modification is complex.
+> - +2 if the item, ritual, or modification is dangerous to produce.
+> - +2 if the item requires illegal or restricted resources.
+> - -2 if the ingredients or resources needed are easily accessible.
+> - -2 for each drawback you allow the keeper to add.
+> 
+> The keeper will work with you to determine what the creation is and does, its quality, tags, and how powerful it is.
+> 
+> Each item, ritual, or spell will have 2-3 tags that describe it. Often, one of these tags will be a benefit and the other a drawback.
 
 # Pact Arcs
 
