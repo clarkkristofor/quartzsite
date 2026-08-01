@@ -39,8 +39,8 @@ export const defaultContentPageLayout: PageLayout = {
                 children: [
                   Component.GardenSection({ 
                     title: "Session notes", 
-                    folder: "rpgs/session_notes", 
-                    link: "/rpgs/session_notes/", 
+                    folder: "rpgs/protected/session_notes", 
+                    link: "/rpgs/protected/session_notes/", 
                     limit: 5 
                   }) as any
                 ]
