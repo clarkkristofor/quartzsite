@@ -64,11 +64,11 @@ _Favor_ limits magic on each hunt. _Fate_ limits your hunter’s career and perh
 ## DOUBLE 6s & DOUBLE 1s
 You _roll Power_ when you roll double 6s and _shadow_ when you roll double 1s. Both heighten the importance of the scene.
 
-6 6 **Your Power intervenes.** The outcome is better than _best_. Clear **1 favor**.
+![[Pasted image 20260802163329.png|50]] **Your Power intervenes.** The outcome is better than _best_. Clear **1 favor**.
 
 GM: deliver a message, offer an opportunity, introduce a welcome plot twist, ask questions and use the answers: *What made the stakes so high that your Power intervened? What foreshadowed this intervention?*
 
-1 1 **The shadow gets its tenterhooks in you.** The outcome is worse than _worst_. **Start a** **6-segment clock** representing the shadow-curse hanging over this hunt. Until it ends, mark 1 segment when any hunter rolls _worst_ on a +BEYOND roll. Mark 2 when any hunter marks _overshadowed_. Mark 3 when any hunter rolls _shadow_ again. (Don’t start a new clock.) When the clock runs out? Try not to worry. But if you succeed in the hunt before it does, mark 1 bond.
+![[Pasted image 20260802163241.png|50]]  **The shadow gets its tenterhooks in you.** The outcome is worse than _worst_. How? Mark *overpowered*.
 
 GM: introduce danger, deliver an ominous threat, show something off-screen that just got much worse, offer a deal with the shadow, ask questions and use the answers: *What’s really going on in this scene or hunt? What suddenly makes terrifying sense?*
 

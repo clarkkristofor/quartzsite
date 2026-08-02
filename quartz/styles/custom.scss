@@ -7,10 +7,18 @@
 @use "header";
 @use "search";
 @use "cards";
+@import url('https://fonts.googleapis.com/css2?family=Merriweather+Sans:ital,wght@0,300..800;1,300..800&display=swap');
 
 /* 2. GLOBAL OVERRIDES */
 :root {
   --page-width: 100% !important;
+}
+
+/* 3. Target the 'Swords Beyond' folder path */
+/* Quartz converts spaces in folder names to hyphens (Swords-Beyond) */
+body[data-slug^="rpgs/protected/Swords-Beyond"],
+article[data-slug^="rpgs/protected/Swords-Beyond"] {
+  font-family: 'Merriweather Sans', sans-serif;
 }
 
 /* Zeroing gaps to ensure the header stays at the very top */
