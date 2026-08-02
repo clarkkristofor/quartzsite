@@ -34,9 +34,8 @@ _Mixed_ might mean _best_ but with a cost (injury, trouble, reduced reward). _Wo
 
 Before rolling, you may: 
 
-**Go for broke:** Take on more risk to increase your impact. Do something big, stupid, or beyond your capabilities. Expose yourself to serious trouble. A 9- will be worse but a 10+, better.
-
-**Play it safe:** Reduce your risk for lower impact. Act with great caution. A 9- won’t be as bad, but a 10+ won’t be as good.
+- **Go for broke:** Take on more risk to increase your impact. Do something big, stupid, or beyond your capabilities. Expose yourself to serious trouble. A 9- will be worse but a 10+, better.
+- **Play it safe:** Reduce your risk for lower impact. Act with great caution. A 9- won’t be as bad, but a 10+ won’t be as good.
 
 ## STATS
 - **BODY** when using strength, speed, toughness or nimbleness.
