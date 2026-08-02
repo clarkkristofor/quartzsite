@@ -4,8 +4,8 @@ title:
 description:
 image:
 date: 2026-07-31
+next: "[[Playing Hunters]]"
 ---
-[[rpgs/Swords Beyond#Contents|All Rules]] | [[#A Creeping Shadow]] | [[#The Realms Beyond]]
 # A Creeping Shadow
 In the **Over Reach**, deep in the borderlands, along the **Unbroken Wilderness**, rumors spread of sinister monsters and strange and gruesome events. At the heart of it all lies the town of **Lost Plenty**.
 ### Spent abundance and a merciless March Lord.
@@ -36,6 +36,3 @@ They curse the world with rage and wickedness. Their hordes bring only chaos, co
 It defies logic. It deceives with illusion. It is unnatural, wondrous, and dreadful. Its Powers chafe those of the Wild and the Heavens alike and yet also banish Hells’ demons.
 ### The WILD is life beyond containing or taming.
 The world is thriven by the Wild, which gives healthy life (thus defying the Hells), creates new life out of death (thus sharing some mysterious kinship with the Dead), and stirs love that makes both possible (thus echoing many songs of the Heavens). But Powers of the Wild break many things too. Boundaries, taboos, stone, and the like.
-
----
-*[[rpgs/Swords Beyond#Contents|All Rules]]* |  [[Playing Hunters]]

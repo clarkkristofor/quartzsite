@@ -4,9 +4,9 @@ title:
 description:
 image:
 date: 2026-07-31
+prev: "[[Introduction]]"
+next: "[[Getting Started]]"
 ---
-*[[rpgs/Swords Beyond#Contents|All Rules]]* | [[#Agenda]] | [[#Rolling Dice]] | [[#Conditions & Death]]
-
 # Agenda
 
 ## Do what your hunter would do.
@@ -63,11 +63,11 @@ _Favor_ limits magic on each hunt. _Fate_ limits your hunter’s career and perh
 ## DOUBLE 6s & DOUBLE 1s
 You _roll Power_ when you roll double 6s and _shadow_ when you roll double 1s. Both heighten the importance of the scene.
 
-![[Pasted image 20260802163329.png|50]] **Your Power intervenes.** The outcome is better than _best_. Clear **1 favor**.
+![[Pasted image 20260802163329.png|40]] **Your Power intervenes.** The outcome is better than _best_. Clear **1 favor**.
 
 GM: deliver a message, offer an opportunity, introduce a welcome plot twist, ask questions and use the answers: *What made the stakes so high that your Power intervened? What foreshadowed this intervention?*
 
-![[Pasted image 20260802163241.png|50]]  **The shadow gets its tenterhooks in you.** The outcome is worse than _worst_. How? Mark *overpowered*.
+![[Pasted image 20260802163241.png|40]]  **The shadow gets its tenterhooks in you.** The outcome is worse than _worst_. How? Mark *overpowered*.
 
 GM: introduce danger, deliver an ominous threat, show something off-screen that just got much worse, offer a deal with the shadow, ask questions and use the answers: *What’s really going on in this scene or hunt? What suddenly makes terrifying sense?*
 
@@ -114,6 +114,3 @@ Conditions make hunting monsters harder. They reflect debilities with story effe
 Wounds are freeform conditions reflecting physical harm. You can mark **armor** instead of a wound. Healing (mundane or magical) will stabilize you temporarily, allowing you to ignore the wound’s effects for the current scene.
 
 Your death is in the hands of _fate_.
-
----
-*[[rpgs/Swords Beyond#Contents|All Rules]]* | [[Getting Started]]

@@ -4,9 +4,9 @@ title:
 description:
 image:
 date: 2026-07-31
+prev: "[[Playing Hunters]]"
+next: "[[The World & Its Peoples]]"
 ---
-*[[rpgs/Swords Beyond#Contents|All Rules]]* | [[#Making your Hunter]] | [[#Making the Pact]]
-
 # Making your Hunter
 *Create hunters together. Fill in gaps. Connect dots. Twist, ignore, and embellish results to make it fun for everyone.*
 ## Roll...
@@ -25,8 +25,6 @@ date: 2026-07-31
 3. **[[#Making the Pact|Make the pact]]**.
 
 
-[[rpgs/Swords Beyond#Contents|Contents]] | 
-
 # Making the Pact
 _Create the pact together._
 1. Choose one player to keep the pact sheet.
@@ -38,6 +36,3 @@ _Create the pact together._
 7. What **faction** has been helpful in the past? Take +1 status with them and explain how they’ve helped you out of a jam.
 8. What **faction** have you hurt or screwed over in some way? Take -1 status with them and describe what happened.
 9. What NPC **ally** knows about your sanctuary and what you’re doing in Lost Plenty? (If your ally is friendly with a faction, take +1 status; if they are unfriendly with a faction, take -1 status.)
-
----
-*[[rpgs/Swords Beyond#Contents|All Rules]]*  | [[The World & Its Peoples]]

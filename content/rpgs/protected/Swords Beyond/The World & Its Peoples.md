@@ -4,9 +4,9 @@ title:
 description:
 image:
 date: 2026-07-31
+prev: "[[Getting Started]]"
+next: "[[Downtime]]"
 ---
-*[[rpgs/Swords Beyond#Contents|All Rules]]* | [[#Kin]] (including [[#Hearthborn]]) | [[#Culture & the Beyond]] | [[#Power Realm & Link]] | [[rpgs/Swords Beyond#Hunter Roles|Role]]
-
 # Kin
 *2d6 + d66*
 
@@ -263,7 +263,3 @@ A hearthborn’s culture is an echo of their family’s culture (identified by y
 **4** sprouts from lumber 
 **5** sudden change of season 
 **6** three-tailed fox
-
-
----
-*[[rpgs/Swords Beyond#Contents|All Rules]]* | [[Hunter Roles]]

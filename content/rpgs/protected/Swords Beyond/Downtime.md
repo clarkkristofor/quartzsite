@@ -4,9 +4,8 @@ title:
 description:
 image:
 date: 2026-07-31
+prev: "[[The World & Its Peoples]]"
 ---
-*[[rpgs/Swords Beyond#Contents|All Rules]]* | [[#Hunter Arc]] | [[#Basic Beats]] | [[#Pact Arcs]] | [[#Role Arcs]]
-
 # Hunter Arc
 
 **ORIGIN STORY** (2H). Flashback showing a pivotal moment in your hunter’s life before the pact. Take a new ability that fits with what you described (from any role). [▷▷]
@@ -103,8 +102,3 @@ BLOOD BROTHERS (4H). Someone you care about is in trouble – who? – and you�
 
 **NEW SCARS** (4H). Your sect has a fabled enemy or rival and they’ve been training you how to hunt it down. Who or what is it, and how have you come to better understand it? Say what this
 knowledge has cost you. *Take a monstrous ability and -1 fate.* [▷]
-
-
-
----
-*[[rpgs/Swords Beyond#Contents|All Rules]]*
