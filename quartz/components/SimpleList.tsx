@@ -31,7 +31,7 @@ const SimpleList = ({ pages, title, link, isMusic, customClass }: SimpleListProp
           const rawDate = page.frontmatter?.date
 
           // 2. Determine the icon based on THIS page's description
-          const isRPG = (pageDescription?.toLowerCase()?.includes("shadows") || pageDescription?.toLowerCase()?.includes("redstone")) ?? false
+          const isRPG = (pageDescription?.toLowerCase()?.includes("shadows") || pageDescription?.toLowerCase()?.includes("redstone") || pageDescription?.toLowerCase()?.includes("playtest")) ?? false
 
           const icon = isMusic ? (
             /* Music Icon */
