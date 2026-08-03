@@ -33,7 +33,7 @@ roll 2x, ignore 2s
 |  d6   | *from the* (d60)    | *who eat shadow and* (d6) |
 | :---: | :------------------ | :------------------------ |
 | **1** | undermurk           | a hunter’s kin            |
-| **2** | ravages             | a hunter’s kin            |
+| **2** | the ravages         | a hunter’s kin            |
 | **3** | creeping grot       | a hunter’s kin            |
 | **4** | Unbroken Wilderness | a hunter’s kin            |
 | **5** | barrow wood         | Over Reach people         |
@@ -52,14 +52,14 @@ roll 2x, ignore 2s
 | **6** | Widow’s Take    | was lost to shadow          |
 
 ## **5** Forged
-|  d6   | *function* (d60) | *who serve* (d6)  |
-| :---: | :--------------- | :---------------- |
-| **1** | drudgers         | a hunter’s kin    |
-| **2** | forge cogs       | a hunter’s kin    |
-| **3** | servitors        | Over Reach people |
-| **4** | miners           | Over Reach people |
-| **5** | war machines     | a god             |
-| **6** | wildbuilt        | the shadow        |
+|  d6   | *from the* (d60) | *...who serve…* (d6) |
+| :---: | :--------------- | :------------------- |
+| **1** | drudgers         | a hunter’s kin       |
+| **2** | forge cogs       | a hunter’s kin       |
+| **3** | servitors        | Over Reach people    |
+| **4** | miners           | Over Reach people    |
+| **5** | war machines     | a god                |
+| **6** | wildbuilt        | the shadow           |
 
 ## **6** Dwarf
 |  d6   | *from the* (d60)      | *with a legacy of* (d6)                         |
@@ -143,53 +143,14 @@ A hearthborn’s culture is an echo of their family’s culture (identified by y
 # Culture & the Beyond
 *d66*
 
-#### **10** Your kin venerate ancestors… 
-**1** by consenting to fleeting possession
-**2** by raising them to the council undying
-**3** daily at private shrines
-**4** with elaborate funerary shrouds, tended for generations
-**5** with offerings of blood, bread, fruit, gold, wine, or vows
-**6** with public death day ceremonies
-
-#### **20** Your kin’s *(blank)* interpret dreams and nightmares. 
-**1** blind priests
-**2** delver monks
-**3** drowned prophets
-**4** mycologists
-**5** raving oracles
-**6** tenebrologers (who study the darkness between, not the stars)
-
-#### **30** Your kin worship gods, primarily the…  
-**1** herald
-**2** judge
-**3** maw
-**4** mother
-**5** trickster
-**6** weaver
-
-#### **40** Your kin dominate demons… 
-**1** for sport
-**2** to curse enemies and punish evildoers
-**3** to enchant artefacts and monuments
-**4** to power machinery
-**5** to redeem captive souls
-**6** to ward off evil
-
-#### **50** Your kin seek secret knowledge of…  
-**1** alchemical transcendence
-**2** arcane flows and wells
-**3** cosmological phenomena
-**4** exegesis of the Weft
-**5** orphic geometries
-**6** true names
-
-#### **60** Your kin honor cycles and seasons at…  
-**1** breeding grounds and migratory paths
-**2** coasts, rivers, and headwaters
-**3** sacred groves
-**4** sites of rot and decay
-**5** stone circles
-**6** windswept plains
+| d6 | 10 — *venerate ancestors…* | 20 — *interpret dreams…* | 30 — *worship gods…* | 40 — *dominate demons…* | 50 — *seek secret knowledge of…* | 60 — *honor cycles & seasons at…* |
+| :---: | :--- | :--- | :--- | :--- | :--- | :--- |
+| **1** | by consenting to fleeting possession | blind priests | herald | for sport | alchemical transcendence | breeding grounds & migratory paths |
+| **2** | by raising them to council undying | delver monks | judge | to curse enemies & punish evildoers | arcane flows & wells | coasts, rivers, & headwaters |
+| **3** | daily at private shrines | drowned prophets | maw | to enchant artefacts & monuments | cosmological phenomena | sacred groves |
+| **4** | with elaborate funerary shrouds | mycologists | mother | to power machinery | exegesis of the Weft | sites of rot & decay |
+| **5** | with offerings of blood, fruit, or vows | raving oracles | trickster | to redeem captive souls | orphic geometries | stone circles |
+| **6** | with public death day ceremonies | tenebrologers | weaver | to ward off evil | true names | windswept plains |
 
 ##### **_Do you live your kin’s culture or defy it?_**
 
@@ -206,61 +167,13 @@ A hearthborn’s culture is an echo of their family’s culture (identified by y
 | **5** | telepathic skull | something in shadows | message of judgment or mercy | unclean hands | tear in reality | sudden change of season |
 | **6** | village ghost | uncut gem | prayer book | voice of self-loathing | whispering tome | three-tailed fox |
 
-#### **10** DEAD 
-**1** breathing amulet
-**2** forgotten ancestor’s spirit
-**3** marigolds
-**4** spent phylactery
-**5** telepathic skull
-**6** village ghost
-
-#### **20** DEEPS 
-**1** insatiable craving
-**2** lunatics
-**3** recurring dream
-**4** sightless creature
-**5** something in the shadows
-**6** uncut gem
-
-#### **30** HEAVENS 
-**1** beggars giving you alms 
-**2** berobed child 
-**3** hymnic earworm 
-**4** icon of a saint 
-**5** message of judgment or mercy
-**6** prayer book
-
-#### **40** HELLS 
-**1** bloody coin
-**2** chaos spirit
-**3** imp
-**4** ritual dagger
-**5** unclean hands
-**6** voice of self-loathing
-
-#### **50** WEFT 
-1 small clockwork wonder 
-**2** elemental spirit 
-**3** levitating stone
-**4** spark of living magic 
-**5** tear in reality 
-**6** whispering tome
-
-#### **60** WILD 
-**1** carcasses
-**2** mice
-**3** river spirit
-**4** sprouts from lumber
-**5** sudden change of season
-**6** three-tailed fox
-
 
 # Role
-|  d6   |                                                 |
-| :---: | :---------------------------------------------- |
-| **1** | [[Hunter Roles#the Shield\|the Shield]]         |
-| **2** | [[Hunter Roles#the Law\|the Law]]               |
-| **3** | [[Hunter Roles#the Scourge\|the Scourge]]       |
+|  d6   | Role |
+| :---: | :--- |
+| **1** | [[Hunter Roles#the Shield\|the Shield]] |
+| **2** | [[Hunter Roles#the Law\|the Law]] |
+| **3** | [[Hunter Roles#the Scourge\|the Scourge]] |
 | **4** | [[Hunter Roles#the Loreseeker\|the Loreseeker]] |
-| **5** | [[Hunter Roles#the Fox\|the Fox]]               |
-| **6** | [[Hunter Roles#the Zealot\|the Zealot]]         |
+| **5** | [[Hunter Roles#the Fox\|the Fox]] |
+| **6** | [[Hunter Roles#the Zealot\|the Zealot]] |
