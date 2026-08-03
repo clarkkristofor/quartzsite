@@ -40,6 +40,8 @@ roll 2x, ignore 2s
 | **6** | witchwood           | Over Reach people         |
 
 ## **4** Hearthborn
+*[[#Hearthborn|What are hearthborn?]]*
+
 |  d66  | *from* (d60)    | *whose family* (d6)         |
 | :---: | :-------------- | :-------------------------- |
 | **1** | Lost Plenty     | left for the Coastal Cities |
@@ -48,7 +50,6 @@ roll 2x, ignore 2s
 | **4** | New Gull        | died of want or violence    |
 | **5** | Blooming Shores | was lost to shadow          |
 | **6** | Widow’s Take    | was lost to shadow          |
-*[[#Hearthborn|What are hearthborn?]]*
 
 ## **5** Forged
 |  d66  | *function* (d60) | *who serve* (d6)  |
