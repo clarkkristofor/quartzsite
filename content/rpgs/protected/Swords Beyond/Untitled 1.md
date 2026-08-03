@@ -143,14 +143,14 @@ A hearthborn’s culture is an echo of their family’s culture (identified by y
 # Culture & the Beyond
 *d66*
 
-| d6 | 10 — *venerate ancestors…* | 20 — *interpret dreams…* | 30 — *worship gods…* | 40 — *dominate demons…* | 50 — *seek secret knowledge of…* | 60 — *honor cycles & seasons at…* |
-| :---: | :--- | :--- | :--- | :--- | :--- | :--- |
-| **1** | by consenting to fleeting possession | blind priests | herald | for sport | alchemical transcendence | breeding grounds & migratory paths |
-| **2** | by raising them to council undying | delver monks | judge | to curse enemies & punish evildoers | arcane flows & wells | coasts, rivers, & headwaters |
-| **3** | daily at private shrines | drowned prophets | maw | to enchant artefacts & monuments | cosmological phenomena | sacred groves |
-| **4** | with elaborate funerary shrouds | mycologists | mother | to power machinery | exegesis of the Weft | sites of rot & decay |
-| **5** | with offerings of blood, fruit, or vows | raving oracles | trickster | to redeem captive souls | orphic geometries | stone circles |
-| **6** | with public death day ceremonies | tenebrologers | weaver | to ward off evil | true names | windswept plains |
+|  d6   | 10 — *venerate ancestors…*              | 20 — *interpret dreams…* | 30 — *worship gods…* | 40 — *dominate demons…*             | 50 — *seek secret knowledge of…* | 60 — *honor cycles & seasons at…*  |
+| :---: | :-------------------------------------- | :----------------------- | :------------------- | :---------------------------------- | :------------------------------- | :--------------------------------- |
+| **1** | by consenting to fleeting possession    | blind priests            | herald               | for sport                           | alchemical transcendence         | breeding grounds & migratory paths |
+| **2** | by raising them to council undying      | delver monks             | judge                | to curse enemies & punish evildoers | arcane flows & wells             | coasts, rivers, & headwaters       |
+| **3** | daily at private shrines                | drowned prophets         | maw                  | to enchant artefacts & monuments    | cosmological phenomena           | sacred groves                      |
+| **4** | with elaborate funerary shrouds         | mycologists              | mother               | to power machinery                  | exegesis of the Weft             | sites of rot & decay               |
+| **5** | with offerings of blood, fruit, or vows | raving oracles           | trickster            | to redeem captive souls             | orphic geometries                | stone circles                      |
+| **6** | with public death day ceremonies        | tenebrologers            | weaver               | to ward off evil                    | true names                       | windswept plains                   |
 
 ##### **_Do you live your kin’s culture or defy it?_**
 

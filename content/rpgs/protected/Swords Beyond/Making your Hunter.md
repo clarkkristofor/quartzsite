@@ -30,7 +30,7 @@ order: "4"
 roll 2x, ignore 2s
 
 ## **3** Troll
-|  d6   | *from the* (d60)    | *who eat shadow and* (d6) |
+|  d66  | *from the* (d60)    | *who eat shadow and* (d6) |
 | :---: | :------------------ | :------------------------ |
 | **1** | undermurk           | a hunter’s kin            |
 | **2** | ravages             | a hunter’s kin            |
@@ -42,7 +42,7 @@ roll 2x, ignore 2s
 ## **4** Hearthborn
 *[[#Hearthborn|What are hearthborn?]]*
 
-|  d6   | *from* (d60)    | *whose family* (d6)         |
+|  d66  | *from* (d60)    | *whose family* (d6)         |
 | :---: | :-------------- | :-------------------------- |
 | **1** | Lost Plenty     | left for the Coastal Cities |
 | **2** | Dunhold         | left for the Coastal Cities |
@@ -52,7 +52,7 @@ roll 2x, ignore 2s
 | **6** | Widow’s Take    | was lost to shadow          |
 
 ## **5** Forged
-|  d6   | *function* (d60) | *who serve* (d6)  |
+|  d66  | *function* (d60) | *who serve* (d6)  |
 | :---: | :--------------- | :---------------- |
 | **1** | drudgers         | a hunter’s kin    |
 | **2** | forge cogs       | a hunter’s kin    |
@@ -62,7 +62,7 @@ roll 2x, ignore 2s
 | **6** | wildbuilt        | the shadow        |
 
 ## **6** Dwarf
-|  d6   | *from the* (d60)      | *with a legacy of* (d6)                         |
+|  d66  | *from the* (d60)      | *with a legacy of* (d6)                         |
 | :---: | :-------------------- | :---------------------------------------------- |
 | **1** | deepening mines       | cataclysm and exile among a hunter’s kin        |
 | **2** | glittering caves      | war-making against a hunter’s kin               |
@@ -72,7 +72,7 @@ roll 2x, ignore 2s
 | **6** | wardens of the passes | seclusion, secretly serving the shadow          |
 
 ## **7** Human
-|  d6   | *from the* (d60)            | *of ___ status* (d6) |
+|  d66  | *from the* (d60)            | *of ___ status* (d6) |
 | :---: | :-------------------------- | :------------------- |
 | **1** | Coastal Cities              | exalted              |
 | **2** | Over Reach                  | gilded               |
@@ -82,7 +82,7 @@ roll 2x, ignore 2s
 | **6** | Heirs *(ruins dwellers)*    | unshackled           |
 
 ## **8** Elf 
-|  d6   | *from the* (d60)                         | *loyal to the* (d6) |
+|  d66  | *from the* (d60)                         | *loyal to the* (d6) |
 | :---: | :--------------------------------------- | :------------------ |
 | **1** | forest towers                            | lady of wisdom      |
 | **2** | seeping caverns                          | prince militant     |
@@ -92,7 +92,7 @@ roll 2x, ignore 2s
 | **6** | ruins the Coastal Cities were built upon | shadow              |
 
 ## **9** Orc
-|  d6   | *from the* (d60)  | *cursed children of* (d6) |
+|  d66  | *from the* (d60)  | *cursed children of* (d6) |
 | :---: | :---------------- | :------------------------ |
 | **1** | drifts            | a hunter’s kin            |
 | **2** | creeping grot     | a hunter’s kin            |
@@ -102,7 +102,7 @@ roll 2x, ignore 2s
 | **6** | western highlands | the shadow                |
 
 ## **10** Dragonkin 
-|  d6   | *from the* (d60) | *who are soldiers in a* (d6)   |
+|  d66  | *from the* (d60) | *who are soldiers in a* (d6)   |
 | :---: | :--------------- | :----------------------------- |
 | **1** | banelands        | hunter’s kin’s armies          |
 | **2** | broodfire        | hunter’s kin’s armies          |
@@ -112,7 +112,7 @@ roll 2x, ignore 2s
 | **6** | wyrmsilver       | great dragon’s war with shadow |
 
 ## **11** Ravenkin 
-|  d6   | *from the* (d60)              | *who steal from the shadow and* (d6) |
+|  d66  | *from the* (d60)              | *who steal from the shadow and* (d6) |
 | :---: | :---------------------------- | :----------------------------------- |
 | **1** | coastal crags                 | a hunter’s kin                       |
 | **2** | brownlands *(desert canyons)* | a hunter’s kin                       |
@@ -122,7 +122,7 @@ roll 2x, ignore 2s
 | **6** | Unbroken Wilderness           | Over Reach people                    |
 
 ## **12** Outsider
-|  d6   | *from* (d60)                                             | *who* (d6) |
+|  d66  | *from* (d60)                                             | *who* (d6) |
 | :---: | :------------------------------------------------------- | :--------- |
 | **1** | another world                                            | is lost    |
 | **2** | another this-world                                       | was sent   |
@@ -141,70 +141,36 @@ A hearthborn’s culture is an echo of their family’s culture (identified by y
 
 
 # Culture & the Beyond
-*d66*
+**10** Your kin venerate ancestors… 
+**20** Your kin’s *(blank)* interpret dreams and nightmares. 
+**30** Your kin worship gods, primarily the…  
+**40** Your kin dominate demons… 
+**50** Your kin seek secret knowledge of…  
+**60** Your kin honor cycles and seasons at…  
 
-#### **10** Your kin venerate ancestors… 
-**1** by consenting to fleeting possession
-**2** by raising them to the council undying
-**3** daily at private shrines
-**4** with elaborate funerary shrouds, tended for generations
-**5** with offerings of blood, bread, fruit, gold, wine, or vows
-**6** with public death day ceremonies
-
-#### **20** Your kin’s *(blank)* interpret dreams and nightmares. 
-**1** blind priests
-**2** delver monks
-**3** drowned prophets
-**4** mycologists
-**5** raving oracles
-**6** tenebrologers (who study the darkness between, not the stars)
-
-#### **30** Your kin worship gods, primarily the…  
-**1** herald
-**2** judge
-**3** maw
-**4** mother
-**5** trickster
-**6** weaver
-
-#### **40** Your kin dominate demons… 
-**1** for sport
-**2** to curse enemies and punish evildoers
-**3** to enchant artefacts and monuments
-**4** to power machinery
-**5** to redeem captive souls
-**6** to ward off evil
-
-#### **50** Your kin seek secret knowledge of…  
-**1** alchemical transcendence
-**2** arcane flows and wells
-**3** cosmological phenomena
-**4** exegesis of the Weft
-**5** orphic geometries
-**6** true names
-
-#### **60** Your kin honor cycles and seasons at…  
-**1** breeding grounds and migratory paths
-**2** coasts, rivers, and headwaters
-**3** sacred groves
-**4** sites of rot and decay
-**5** stone circles
-**6** windswept plains
+|  d66  | 10                                      | 20               | 30        | 40                                  | 50                       | 60                                 |
+| :---: | :-------------------------------------- | :--------------- | :-------- | :---------------------------------- | :----------------------- | :--------------------------------- |
+| **1** | by consenting to fleeting possession    | blind priests    | herald    | for sport                           | alchemical transcendence | breeding grounds & migratory paths |
+| **2** | by raising them to council undying      | delver monks     | judge     | to curse enemies & punish evildoers | arcane flows & wells     | coasts, rivers, & headwaters       |
+| **3** | daily at private shrines                | drowned prophets | maw       | to enchant artefacts & monuments    | cosmological phenomena   | sacred groves                      |
+| **4** | with elaborate funerary shrouds         | mycologists      | mother    | to power machinery                  | exegesis of the Weft     | sites of rot & decay               |
+| **5** | with offerings of blood, fruit, or vows | raving oracles   | trickster | to redeem captive souls             | orphic geometries        | stone circles                      |
+| **6** | with public death day ceremonies        | tenebrologers    | weaver    | to ward off evil                    | true names               | windswept plains                   |
 
 ##### **_Do you live your kin’s culture or defy it?_**
 
 
 # Power Realm & Link
-*d66. Rolling 10s die may introduce tension with your kin. Feel free to use your culture’s Realm and roll 1s only.*
+Rolling 10s die may introduce tension with your kin. Feel free to use your culture’s Realm and roll 1s only.*
 
-| d6 | 10 — DEAD | 20 — DEEPS | 30 — HEAVENS | 40 — HELLS | 50 — WEFT | 60 — WILD |
-| :---: | :--- | :--- | :--- | :--- | :--- | :--- |
-| **1** | breathing amulet | insatiable craving | beggars giving you alms | bloody coin | small clockwork wonder | carcasses |
-| **2** | forgotten ancestor’s spirit | lunatics | berobed child | chaos spirit | elemental spirit | mice |
-| **3** | marigolds | recurring dream | hymnic earworm | imp | levitating stone | river spirit |
-| **4** | spent phylactery | sightless creature | icon of a saint | ritual dagger | spark of living magic | sprouts from lumber |
-| **5** | telepathic skull | something in shadows | message of judgment or mercy | unclean hands | tear in reality | sudden change of season |
-| **6** | village ghost | uncut gem | prayer book | voice of self-loathing | whispering tome | three-tailed fox |
+|  d66  | 10 DEAD                     | 20 DEEPS             | 30 HEAVENS                   | 40 HELLS               | 50 WEFT                | 60 WILD                 |
+| :---: | :-------------------------- | :------------------- | :--------------------------- | :--------------------- | :--------------------- | :---------------------- |
+| **1** | breathing amulet            | insatiable craving   | beggars giving you alms      | bloody coin            | small clockwork wonder | carcasses               |
+| **2** | forgotten ancestor’s spirit | lunatics             | berobed child                | chaos spirit           | elemental spirit       | mice                    |
+| **3** | marigolds                   | recurring dream      | hymnic earworm               | imp                    | levitating stone       | river spirit            |
+| **4** | spent phylactery            | sightless creature   | icon of a saint              | ritual dagger          | spark of living magic  | sprouts from lumber     |
+| **5** | telepathic skull            | something in shadows | message of judgment or mercy | unclean hands          | tear in reality        | sudden change of season |
+| **6** | village ghost               | uncut gem            | prayer book                  | voice of self-loathing | whispering tome        | three-tailed fox        |
 
 #### **10** DEAD 
 **1** breathing amulet
