@@ -20,7 +20,7 @@ order: "4"
 4. **Gear**: You have basics – weapons, armor, etc. Want special gear? Ask the GM.
 #### All Together...
 1. **Introduce your Hunter**. The GM will ask questions.
-2. **Sketch the world map**. Note where your hunter is from, and whatever else you like. Also, _what resource does the Over Reach supply to the Coastal Cities?_ e.g., iron, timber, wool, salt, amber, gold, something Beyond
+2. **Sketch the [[World Map|world map]]**. Note where your hunter is from, and whatever else you like. Also, _what resource does the Over Reach supply to the Coastal Cities?_ e.g., iron, timber, wool, salt, amber, gold, something Beyond
 3. **[[#Making the Pact|Make the pact]]**.
 
 # Kin
@@ -143,7 +143,7 @@ A hearthborn’s culture is an echo of their family’s culture (identified by y
 # Culture & the Beyond
 *d66*
 #### **10** Your kin venerate ancestors…   
-| **d6** |      |
+| **d6** | the DEAD                                |
 | ------ | --------------------------------------- |
 | **1**  | by consenting to fleeting possession    |
 | **2**  | by raising them to council undying      |
@@ -153,27 +153,27 @@ A hearthborn’s culture is an echo of their family’s culture (identified by y
 | **6**  | with public death day ceremonies        |
 
 #### **20** Your kin’s *(blank)* interpret dreams and nightmares. 
-|  d6   | |
-| :---: | :---------------------------------------------------- |
-| **1** | blind priests                                         |
-| **2** | delver monks                                          |
-| **3** | drowned prophets                                      |
-| **4** | mycologists                                           |
-| **5** | raving oracles                                        |
-| **6** | tenebrologers                                         |
+|  d6   | the DEEPS        |
+| :---: | :--------------- |
+| **1** | blind priests    |
+| **2** | delver monks     |
+| **3** | drowned prophets |
+| **4** | mycologists      |
+| **5** | raving oracles   |
+| **6** | tenebrologers    |
 
 #### **30** Your kin worship gods, primarily the…
-|  d6   |  |
-| :---: | :------------------------------------ |
-| **1** | herald                                |
-| **2** | judge                                 |
-| **3** | maw                                   |
-| **4** | mother                                |
-| **5** | trickster                             |
-| **6** | weaver                                |
+|  d6   | the HEAVENS |
+| :---: | :---------- |
+| **1** | herald      |
+| **2** | judge       |
+| **3** | maw         |
+| **4** | mother      |
+| **5** | trickster   |
+| **6** | weaver      |
 
 #### **40** Your kin dominate demons…  
-|  d6   |          |
+|  d6   | the HELLS                           |
 | :---: | :---------------------------------- |
 | **1** | for sport                           |
 | **2** | to curse enemies & punish evildoers |
@@ -183,30 +183,30 @@ A hearthborn’s culture is an echo of their family’s culture (identified by y
 | **6** | to ward off evil                    |
 
 #### **50** Your kin seek secret knowledge of…
-|  d6   |  |
-| :---: | :--------------------------------- |
-| **1** | alchemical transcendence           |
-| **2** | arcane flows & wells               |
-| **3** | cosmological phenomena             |
-| **4** | exegesis of the Weft               |
-| **5** | orphic geometries                  |
-| **6** | true names                         |
+|  d6   | the WEFT                 |
+| :---: | :----------------------- |
+| **1** | alchemical transcendence |
+| **2** | arcane flows & wells     |
+| **3** | cosmological phenomena   |
+| **4** | exegesis of the Weft     |
+| **5** | orphic geometries        |
+| **6** | true names               |
 
 #### **60** Your kin honor cycles and seasons at…
-|  d6   |  |
-| :---: | :------------------------------------ |
-| **1** | breeding grounds & migratory paths    |
-| **2** | coasts, rivers, & headwaters          |
-| **3** | sacred groves                         |
-| **4** | sites of rot & decay                  |
-| **5** | stone circles                         |
-| **6** | windswept plains                      |
+|  d6   | the WILD                           |
+| :---: | :--------------------------------- |
+| **1** | breeding grounds & migratory paths |
+| **2** | coasts, rivers, & headwaters       |
+| **3** | sacred groves                      |
+| **4** | sites of rot & decay               |
+| **5** | stone circles                      |
+| **6** | windswept plains                   |
 
 ##### **_Do you live your kin’s culture or defy it?_**
 
 
 # Power Realm & Link
-Rolling 10s die may introduce tension with your kin. Feel free to use your culture’s Realm and roll 1s only.*
+*Rolling 10s die may introduce tension with your kin. Feel free to use your culture’s Realm and roll 1s only.*
 
 |  d66  | 10 DEAD                     | 20 DEEPS             | 30 HEAVENS                   | 40 HELLS               | 50 WEFT                | 60 WILD                 |
 | :---: | :-------------------------- | :------------------- | :--------------------------- | :--------------------- | :--------------------- | :---------------------- |
@@ -216,55 +216,6 @@ Rolling 10s die may introduce tension with your kin. Feel free to use your cultu
 | **4** | spent phylactery            | sightless creature   | icon of a saint              | ritual dagger          | spark of living magic  | sprouts from lumber     |
 | **5** | telepathic skull            | something in shadows | message of judgment or mercy | unclean hands          | tear in reality        | sudden change of season |
 | **6** | village ghost               | uncut gem            | prayer book                  | voice of self-loathing | whispering tome        | three-tailed fox        |
-
-#### **10** DEAD 
-**1** breathing amulet
-**2** forgotten ancestor’s spirit
-**3** marigolds
-**4** spent phylactery
-**5** telepathic skull
-**6** village ghost
-
-#### **20** DEEPS 
-**1** insatiable craving
-**2** lunatics
-**3** recurring dream
-**4** sightless creature
-**5** something in the shadows
-**6** uncut gem
-
-#### **30** HEAVENS 
-**1** beggars giving you alms 
-**2** berobed child 
-**3** hymnic earworm 
-**4** icon of a saint 
-**5** message of judgment or mercy
-**6** prayer book
-
-#### **40** HELLS 
-**1** bloody coin
-**2** chaos spirit
-**3** imp
-**4** ritual dagger
-**5** unclean hands
-**6** voice of self-loathing
-
-#### **50** WEFT 
-1 small clockwork wonder 
-**2** elemental spirit 
-**3** levitating stone
-**4** spark of living magic 
-**5** tear in reality 
-**6** whispering tome
-
-#### **60** WILD 
-**1** carcasses
-**2** mice
-**3** river spirit
-**4** sprouts from lumber
-**5** sudden change of season
-**6** three-tailed fox
-
 
 # Role
 |  d6   |                                                 |
