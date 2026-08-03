@@ -181,3 +181,111 @@ body[data-slug^="rpgs/protected/swords-beyond" i] .center article {
     white-space: pre-line !important;
   }
 }
+
+/* ==========================================
+   SWORDS BEYOND PROSE & SIDEBAR TWEAKS
+   ========================================== */
+
+body[data-slug^="rpgs/protected/swords-beyond" i] {
+
+  /* 1. Center the Page Header in the Center Column */
+  .page-header {
+    margin: 0 auto !important;
+    text-align: center !important;
+  }
+
+  /* 2. Title larger than H1 headings */
+  .center article {
+    h1.title {
+      font-size: 2.25rem !important;
+      font-weight: 800 !important;
+      margin-bottom: 0.5rem !important;
+    }
+
+    h1:not(.title) {
+      font-size: 1.75rem !important;
+      font-weight: 700 !important;
+    }
+  }
+
+  /* 3. Hide Date and Reading Time meta block */
+  .content-meta {
+    display: none !important;
+  }
+}
+
+body[data-slug^="rpgs/protected/swords-beyond" i] .toc {
+  ul, ol, ul.toc-content {
+    /* Base item alignment (H1 / depth-1) */
+    li.depth-1 {
+      padding-left: 0 !important;
+    }
+
+    /* First indent (H2 / depth-2) */
+    li.depth-2 {
+      padding-left: 0.75rem !important;
+    }
+
+    /* Second indent (H3 / depth-3) */
+    li.depth-3 {
+      padding-left: 1.5rem !important;
+    }
+  }
+}
+
+/* ==========================================
+   SWORDS BEYOND DOM-MATCHED FIXES
+   ========================================== */
+
+body[data-slug^="rpgs/protected/swords-beyond" i] {
+
+  /* 1. Center the entire header flex container */
+  .page-header header {
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    width: 100% !important;
+    margin: 0 auto !important;
+  }
+
+  /* 2. Article Title (h2) larger than Markdown Headings (h1/h2) */
+  .center {
+    /* Title ("Playing Hunters") */
+    h2.article-title {
+      font-size: 2.25rem !important;
+      font-weight: 800 !important;
+      line-height: 1.2 !important;
+      margin-bottom: 0.5rem !important;
+    }
+
+    /* Markdown # Headings inside the article */
+    article h1 {
+      font-size: 1.6rem !important;
+      font-weight: 700 !important;
+    }
+
+    /* Markdown ## Headings inside the article */
+    article h2:not(.article-title) {
+      font-size: 1.35rem !important;
+      font-weight: 600 !important;
+    }
+  }
+
+  /* 3. Hide Date and Reading Time (<p class="content-meta">) */
+  p.content-meta {
+    display: none !important;
+  }
+
+  /* 4. Fix TOC Indentation for depth-0, depth-1, depth-2 */
+  .toc ul.toc-content {
+    li.depth-0 {
+      padding-left: 0rem !important;  /* Top level # headings */
+    }
+    li.depth-1 {
+      padding-left: 1rem !important;  /* Sub-level ## headings */
+    }
+    li.depth-2 {
+      padding-left: 2rem !important;  /* Sub-level ### headings */
+    }
+  }
+}
