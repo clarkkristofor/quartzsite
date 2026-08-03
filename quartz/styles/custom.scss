@@ -8,11 +8,11 @@
 @use "search";
 @use "cards";
 
-/* 2. GLOBAL OVERRIDES */
+/* 2. GLOBAL OVERRIDES 
 :root {
   --page-width: 100% !important;
 }
-
+*/
 /* 3. Target the 'Swords Beyond' folder path */
 /* Quartz converts spaces in folder names to hyphens (Swords-Beyond) */
 body[data-slug^="rpgs/protected/Swords-Beyond"],
