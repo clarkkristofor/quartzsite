@@ -90,26 +90,31 @@ body[data-slug^="rpgs/protected/swords-beyond" i] {
     }
   }
 
-  /* --- Top Header Navigation --- */
+  /* --- Reset Header to Default Behavior --- */
   .page-header {
-    display: flex !important;
-    justify-content: center !important;
-    width: 100% !important;
-    margin-top: 1rem !important;
-    margin-bottom: 2.5rem !important; /* Restores spacing above article title */
-
-    header {
-      display: flex !important;
-      flex-direction: row !important;
-      align-items: center !important;
-      justify-content: center !important;
-      gap: 1.5rem !important;
-      margin: 0 auto !important;
-    }
+    margin-bottom: 2rem !important;
   }
 
-  /* --- Article Prose & Typography --- */
+  /* --- Article Prose & Title Fixes --- */
   .center {
+    /* Reset popover wrapper so the title doesn't align to the far right */
+    .popover-hint {
+      display: block !important;
+      width: 100% !important;
+      text-align: left !important;
+    }
+
+    /* Main Page Title ("Playing Hunters") */
+    h2.article-title {
+      display: block !important;
+      font-size: 2.25rem !important;
+      font-weight: 800 !important;
+      line-height: 1.2 !important;
+      margin-top: 0 !important;
+      margin-bottom: 0.5rem !important;
+      text-align: left !important;
+    }
+
     article {
       /* Preserve line breaks in text */
       p {
@@ -126,14 +131,6 @@ body[data-slug^="rpgs/protected/swords-beyond" i] {
         font-size: 1.35rem !important;
         font-weight: 600 !important;
       }
-    }
-
-    /* Main Title ("Playing Hunters") */
-    h2.article-title {
-      font-size: 2.25rem !important;
-      font-weight: 800 !important;
-      line-height: 1.2 !important;
-      margin-bottom: 0.5rem !important;
     }
   }
 
