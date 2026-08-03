@@ -201,3 +201,25 @@ body[data-slug^="rpgs/protected/swords-beyond" i] {
   color: var(--secondary) !important;
   text-decoration: none !important;
 }
+
+/* Reset popover wrappers in the content column */
+body[data-slug^="rpgs/protected/swords-beyond" i] .center {
+  div.popover-hint,
+  article.popover-hint {
+    display: block !important;
+    width: 100% !important;
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+    text-align: left !important;
+  }
+
+  /* Keep the title snapped left */
+  h2.article-title {
+    display: block !important;
+    font-size: 2.25rem !important;
+    font-weight: 800 !important;
+    line-height: 1.2 !important;
+    margin: 0 0 0.5rem 0 !important;
+    text-align: left !important;
+  }
+}
