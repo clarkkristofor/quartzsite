@@ -4,9 +4,7 @@ title:
 description:
 image:
 date: 2026-07-31
-prev: "[[Introduction]]"
-next: "[[Getting Started]]"
-order: "2"
+order: "3"
 ---
 # Agenda
 

@@ -4,17 +4,10 @@ title:
 description:
 image:
 date: 2026-07-31
-prev: "[[The World & Its Peoples]]"
+prev: "[[Making your Hunter]]"
 next: "[[Downtime]]"
 order: "7"
 ---
-**1** [[#the Shield]]
-**2** [[#the Law ]]
-**3** [[#the Scourge]]
-**4** [[#the Loreseeker]]
-**5** [[#the Fox]]
-**6** [[#the Zealot]]
-
 # the Shield
 **STATS**: +2 Body, +1 Heart, -1 Mind
 **GAIN HOPE VIA** force of will or brawn.
