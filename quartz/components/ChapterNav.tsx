@@ -1,22 +1,22 @@
 import { QuartzComponent, QuartzComponentProps } from "./types"
 import { resolveRelative, SimpleSlug, FilePath, slugifyFilePath } from "../util/path"
 
-// Helper function that uses Quartz's internal slugifier to match exact build URL outputs
 const formatChapterSlug = (currentSlug: string, targetPath: string): SimpleSlug => {
   const cleanTarget = targetPath.replace(/[\[\]]/g, "").trim()
 
-  // If frontmatter provides a full relative/absolute path
-  if (cleanTarget.startsWith("/") || cleanTarget.includes("/")) {
-    return slugifyFilePath(cleanTarget as unknown as FilePath) as unknown as SimpleSlug
-  }
-
-  // Extract current file's directory (e.g., "rpgs/protected/Swords-Beyond")
+  // Extract current file's directory while keeping exact casing (e.g., "rpgs/protected/Swords-Beyond")
   const lastSlashIndex = currentSlug.lastIndexOf("/")
   const currentDir = lastSlashIndex !== -1 ? currentSlug.substring(0, lastSlashIndex) : ""
 
-  // Use Quartz's internal slugifyFilePath to handle symbols (& -> and) properly
-  const slugifiedTitle = slugifyFilePath(cleanTarget as unknown as FilePath)
+  // If frontmatter already provides a path with slashes
+  if (cleanTarget.startsWith("/") || cleanTarget.includes("/")) {
+    return cleanTarget as unknown as SimpleSlug
+  }
 
+  // Slugify ONLY the title filename (converts "The World & Its Peoples" -> "The-World--and--Its-Peoples")
+  const slugifiedTitle = slugifyFilePath(cleanTarget as unknown as FilePath) as string
+
+  // Join directory with the slugified title
   const fullPath = currentDir ? `${currentDir}/${slugifiedTitle}` : slugifiedTitle
   
   return fullPath as unknown as SimpleSlug
