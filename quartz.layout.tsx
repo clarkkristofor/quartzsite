@@ -118,29 +118,7 @@ export const defaultContentPageLayout: PageLayout = {
       )
     }),
   ],
-  left: [
-    ((props: QuartzComponentProps) => {
-    const slug = (props.fileData.slug ?? "").toLowerCase()
-    
-    // Check for the folder path in lowercase
-    const isSwordsBeyond = slug.includes("swords-beyond") || slug.includes("swords beyond")
-
-    if (!isSwordsBeyond) return null
-
-    // Instantiate factory functions
-    const PrevNav = Component.ChapterNavPrev()
-    const Toc = Component.TableOfContents()
-    const NextNav = Component.ChapterNavNext()
-
-    return (
-      <>
-        <PrevNav {...props} />
-        <Toc {...props} />
-        <NextNav {...props} />
-      </>
-      )
-    }),
-  ],
+  left: [Component.TableOfContents()],
   right: [],
 }
 
