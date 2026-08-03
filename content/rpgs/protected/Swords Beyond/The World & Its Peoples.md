@@ -11,10 +11,10 @@ order: "6"
 # Kin
 *2d6 + d66*
 
-### **2** DUAL KINSHIP
+## **2** DUAL KINSHIP
 roll 2x, ignore 2s
 
-### **3** Troll
+## **3** Troll
 **10** undermurk
 **20** the ravages
 **30** creeping grot 
@@ -26,7 +26,7 @@ roll 2x, ignore 2s
 **1-4** a hunter’s kin
 **5-6** Over Reach people
 
-### 4 Hearthborn
+## 4 Hearthborn
 *[[#Hearthborn|What are hearthborn?]]*
 
 **10** Lost Plenty
@@ -41,7 +41,7 @@ roll 2x, ignore 2s
 **3-4** died of want or violence
 **5-6** was lost to shadow
 
-### **5** Forged
+## **5** Forged
 **10** drudgers
 **20** forge cogs
 **30** servitors
@@ -55,7 +55,7 @@ roll 2x, ignore 2s
 **5** a god
 **6** the shadow
 
-### **6** Dwarf
+## **6** Dwarf
 **10** deepening mines
 **20** glittering caves
 **30** iron range
@@ -69,7 +69,7 @@ roll 2x, ignore 2s
 **4-5** sharing artifacts of renown with a hunter’s kin
 **6** seclusion, secretly serving the shadow
 
-### **7** Human
+## **7** Human
 **10** Coastal Cities
 **20** Over Reach
 **30** Unbroken Wilderness
@@ -85,7 +85,7 @@ _of ___ status…_
 **5** fringe
 **6** unshackled
 
-### **8** Elf 
+## **8** Elf 
 **10** forest towers
 **20** seeping caverns
 **30** starwane peaks
@@ -101,7 +101,7 @@ _...loyal to the…_
 **5** one true god
 **6** shadow
 
-### **9** Orc
+## **9** Orc
 **10** the drifts
 **20** creeping grot
 **30** eastern reach
@@ -115,7 +115,7 @@ _...loyal to the…_
 **5** a dead god
 **6** the shadow
 
-### **10** Dragonkin 
+## **10** Dragonkin 
 **10** banelands
 **20** broodfire
 **30** frozen ruins
@@ -127,7 +127,7 @@ _...loyal to the…_
 **1-3** a hunter’s kin’s armies
 **4-6** a great dragon’s war with shadow
 
-### **11** Ravenkin 
+## **11** Ravenkin 
 **10** coastal crags
 **20** brownlands (desert canyons)
 **30** frozen ruins
@@ -139,7 +139,7 @@ _...loyal to the…_
 **1-3** a hunter’s kin
 **4-6** Over Reach people
 
-### **12** Outsider
+## **12** Outsider
 **10** another world
 **20** another this-world
 **30** another time

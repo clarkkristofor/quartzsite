@@ -73,32 +73,32 @@ order: "8"
 
 # Role Arcs
 
-### Shield
+## Shield
 **TROUBLED PAST** (3H). Someone from your past pays you a visit. Who is it, and what do they want? *Mark a wound and take a new ability from your playbook.* [▷]
 
 **KILL IT WITH FIRE** (4H). You’re off on your own when you come face to face with something horrible (what is it?) and you’re forced to deal with it on your own. Say which hunter found you and what they saw that terrified them. *Take a monstrous ability and -1 fate.* [▷]
 
-### Law
+## Law
 **THE BLACK DOSSIER** (3H). A contact provides you with highly classified information. The kind of information people get killed over. *Describe what it is (be as vague or specific as you’d like), gain -1 status with a relevant faction, and take a new ability from your playbook.* [▷]
 
 **DEAL WITH THE DEVIL** (4H). Everything comes at a cost. Tell a story about a deal that required you to make a great sacrifice. What did you sacrifice, and was it worth? *Take a monstrous ability and -1 fate.* [▷]
 
-### Sourge
+## Scourge
 **ACCIDENTAL INCANTATION** (3H). You’re certain you said the words correctly. All the proper components were there. The blade tasted blood. What went wrong, and who was there to see it? *Mark a condition (your choice) and take a new ability from your playbook.* [▷]
 
 **THE DESCENT** (4H). You succumb to the shadow, which you’ve worked so hard to harness and control. Describe what this looks like. *Take a monstrous ability and -1 fate.* [▷]
 
-### Loreseeker
+## Loreseeker
 **FAVORS DUE** (3H). You’re called away on business. What excuse do you tell the other hunters, and why can’t they ever know the truth about what you’re doing? *Write a belief that pertains to this and then take a new ability from your playbook.* [▷]
 
 **THE THING WHICH COULD NOT BE PUT BACK** (4H). You always tell others not to mess with that which they don’t understand, and yet here you are. Of course, it’s hard for you to admit that there are things you don’t understand. *Take a monstrous ability and -1 fate.*  [▷]
 
-### Fox 
+## Fox 
 BORN TO RUN (3H). Something you thought you’d outrun is making itself a problem in the resent. What is it? Who do you confide in? Describe dealing with things. *Permanently lose one of your connections and take a new ability from your playbook.* [▷]
 
 BLOOD BROTHERS (4H). Someone you care about is in trouble – who? – and you’ve made a deal to save them. How does it backfire, and what is the curse that’s been placed on you? Take a monstrous ability. *Take a monstrous ability and -1 fate.* [▷]
 
-### Zealot
+## Zealot
 **ANCIENT EVIL** (3H). Your training has been pushing you to the limits with no sign of relenting. How have they pushed you too hard, and what is your breaking point? You are exhausted until you confront your leader. *Take a new ability from your playbook.* [▷]
 
 **NEW SCARS** (4H). Your sect has a fabled enemy or rival and they’ve been training you how to hunt it down. Who or what is it, and how have you come to better understand it? Say what this
