@@ -4,10 +4,9 @@ title:
 description:
 image:
 date: 2026-07-31
+prev: "[[The World & Its Peoples]]"
+next: "[[Downtime]]"
 ---
-*[[rpgs/Swords Beyond#Contents|All Rules]]*
-
-# Role
 **1** [[#the Shield]]
 **2** [[#the Law ]]
 **3** [[#the Scourge]]
@@ -19,7 +18,7 @@ date: 2026-07-31
 **STATS**: +2 Body, +1 Heart, -1 Mind
 **GAIN HOPE VIA** force of will or brawn.
 **DRIVE PROMPT**: A past tragedy or a future hope. What keeps you moving forward?
-### Abilities
+#### Abilities
 □ **RECKLESS**. When you rush into combat without the aid or support of your pact, you do so with increased impact.
 
 □ **BASHING HEADS**. Take **+1** to rolls against minions and mooks. When you investigate using intimidation or actual violence, take **+1** too.
@@ -38,7 +37,7 @@ date: 2026-07-31
 **STATS**: +2 Heart, +1 Mind, -1 Beyond
 **GAIN HOPE VIA** influence or analysis.
 **DRIVE PROMPT**: Your organization or assignment. Were you assigned here as a reward or punishment?
-### Abilities
+#### Abilities
 □ **COASTAL CITIES INVESTIGATOR**. You have a practiced eye for examining crime scenes and sites of strange occurrences. Gain **+1** when you do. You can always find a clue when you study wounds, corpses, etc., even on a worst outcome.
 
 □ **KEEN AWARENESS**. You can always **help** another hunter without marking hope as long as you can see them and you agree to **protect** them from consequences.
@@ -57,7 +56,7 @@ date: 2026-07-31
 **STATS**: +1 Mind, +2 Beyond, -1 Heart
 **GAIN HOPE VIA** eldritch wisdom or arcane power.
 **DRIVE PROMPT**: Your craft or its power. Will you give in to your dark temptations?
-### Abilities
+#### Abilities
 □ **MINOR INDISCRETIONS**. You can draw power from the shadow. Gain a **6-segment “Indiscretion” clock**. Anytime you’d mark 2 favor, you may mark 1 segment instead. When you do, roll 1d6. If the result is less than or equal to the number of marked segments, mark _overshadowed_. Already marked? Make a fate roll instead.
 
 □ **INVOKE**. You can compel shadow, forcing a nearby entity to obey a command you give it. You are not supernaturally terrified by what you summon or compel, though your teammates might be.
@@ -76,7 +75,7 @@ date: 2026-07-31
 **STATS**: +3 Mind, -1 Body
 **GAIN HOPE VIA** knowledge or insight.
 **DRIVE PROMPT**: Your research or pursuit. What tragic past mistakes can you never forget, no matter how much studying you do?
-### Abilities
+#### Abilities
 □ **ALL PART OF THE PLAN**. Expend your **plot armor** to reveal that this was the plan all along. Describe a flashback showing how you prepared, and grant **+2** when helping a teammate, even after they roll. Gain increased impact when acting on your prep.
 
 □ **HIT THE BOOKS**. During downtime, you get two ticks to distribute among any LONG-TERM PROJECT clocks that involve investigation or learning something new.
@@ -95,7 +94,7 @@ date: 2026-07-31
 **STATS**: +2 Body, +1 Heart, -1 Mind or Beyond
 **GAIN HOPE VIA** deception or charm.
 **DRIVE PROMPT**: A long con or your redemption. Did you choose a life of crime, or was it chosen for you?
-### Abilities
+#### Abilities
 □ **SMELL IT ON ‘EM**. You always know when someone is lying to you.
 
 □ **DEVIL’S LUCK**. You gain a second use of **plot armor** between downtimes. You may expend your plot armor to resist the consequences of violence or to gain **+1** to a roll at no cost when talking your way out of, or running away from, trouble.
@@ -115,7 +114,7 @@ date: 2026-07-31
 **GAIN HOPE VIA** cooperation or control.
 **DRIVE PROMPT**: Your sect or crusade. Are you alone in your beliefs or do others walk beside you on this winding path?
 
-### Abilities
+#### Abilities
 □ **SIGNATURE STYLE**. When fighting in the manner of your sect, choose one; it occurs even on a worst outcome: _you force them where you want them – you gain an extra use of armor – you can escape and they cannot follow._ You cannot choose the same option twice during a hunt.
 
 □ **ALL-CONSUMED**. You are captivated by an element of the history or lore of your sect. What is it? When you investigate or work on a LONG-TERM PROJECT about this subject, gain **+1 result level**.
@@ -127,6 +126,3 @@ date: 2026-07-31
 □ **MASTER MEDITATOR**. You’ve learned to control your vital functions and autonomic responses for several minutes. Expend your **plot armor** to _feign death convincingly, lie without being caught, hold your breath for an extended period of time, etc_.
 
 □ **VISIONS OF DEATH.** When you kill a monster of shadow, roll plus Beyond. On a 10+, name one person who’ll die and one who’ll live. On a 7–9, name one person who’ll die OR one person who’ll live. Not hunters; NPCs only. The GM will make your vision come true, if it’s possible. On a 6-, you foresee your own death. Mark _afraid_.
-
----
-*[[rpgs/Swords Beyond#Contents|All Rules]]* | [[Downtime]]

@@ -9,17 +9,17 @@ next: "[[The World & Its Peoples]]"
 ---
 # Making your Hunter
 *Create hunters together. Fill in gaps. Connect dots. Twist, ignore, and embellish results to make it fun for everyone.*
-## Roll...
+### Roll...
 1. **_[[The World & Its Peoples#Kin|Kin]]_** (2d6 + d66)
-2. ***[[The World & Its Peoples#Culture & the Beyond|Culture & the Beyond]]*** (d66)
+2. ***[[The World & Its Peoples#Culture & the Beyond|Culture & the Beyond]]*** (d66)
 3. **_[[The World & Its Peoples#Power Realm & Link|Power Realm & Link]]_** (d66)
 4. ***[[Hunter Roles#Role|Role]]*** (d6): Note the stats and gain +1 in Body, Heart, Mind, or Beyond (stat max: +3). Note how you gain hope. Choose 1 ability.
-## Write...
+### Write...
 1. **Belief:** What does your hunter think is true about your Power? Write a declaration starting with its name or what you call it.
 2. **Drive:** Why do you hunt monsters, the shadow? Now or after the pact writes its conviction, write a statement related to your role’s drive prompt starting with “I will…”.
 3. **Gain two NPC connections**. ▲ Who ties you to Lost Plenty (for good or for ill)? ▼ Who pulls you away from (or is pushing you out of) Lost Plenty?
 4. **Gear**: You have basics – weapons, armor, etc. Want special gear? Ask the GM.
-## All Together...
+### All Together...
 1. **Introduce your Hunter**. The GM will ask questions.
 2. **Sketch the world map**. Note where your hunter is from, and whatever else you like. Also, _what resource does the Over Reach supply to the Coastal Cities?_ e.g., iron, timber, wool, salt, amber, gold, something Beyond
 3. **[[#Making the Pact|Make the pact]]**.

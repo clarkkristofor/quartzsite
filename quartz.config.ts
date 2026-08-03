@@ -1,5 +1,6 @@
 import { QuartzConfig } from "./quartz/cfg"
 import * as Plugin from "./quartz/plugins"
+import { defaultContentPageLayout, defaultListPageLayout } from "./quartz.layout"
 
 /**
  * Quartz 4 Configuration
@@ -77,9 +78,9 @@ const config: QuartzConfig = {
     emitters: [
       Plugin.AliasRedirects(),
       Plugin.ComponentResources(),
-      Plugin.ContentPage(),
-      Plugin.FolderPage(),
-      Plugin.TagPage(),
+      Plugin.ContentPage(defaultContentPageLayout),
+      Plugin.FolderPage(defaultListPageLayout),
+      Plugin.TagPage(defaultListPageLayout),
       Plugin.ContentIndex({
         enableSiteMap: true,
         enableRSS: true,

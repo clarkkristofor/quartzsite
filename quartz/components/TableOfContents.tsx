@@ -30,6 +30,9 @@ export default ((opts?: Partial<Options>) => {
       return null
     }
 
+    // Dynamic Title Logic: Use frontmatter title if present, fallback to default i18n
+    const displayTitle = fileData.frontmatter?.title ?? i18n(cfg.locale).components.tableOfContents.title
+
     const id = `toc-${numTocs++}`
     return (
       <div class={classNames(displayClass, "toc")}>
@@ -39,7 +42,7 @@ export default ((opts?: Partial<Options>) => {
           aria-controls={id}
           aria-expanded={!fileData.collapseToc}
         >
-          <h3>{i18n(cfg.locale).components.tableOfContents.title}</h3>
+          <h3>{displayTitle}</h3>
           <svg
             xmlns="http://www.w3.org/2000/svg"
             width="24"
@@ -78,10 +81,13 @@ export default ((opts?: Partial<Options>) => {
     if (!fileData.toc) {
       return null
     }
+
+    const displayTitle = fileData.frontmatter?.title ?? i18n(cfg.locale).components.tableOfContents.title
+
     return (
       <details class="toc" open={!fileData.collapseToc}>
         <summary>
-          <h3>{i18n(cfg.locale).components.tableOfContents.title}</h3>
+          <h3>{displayTitle}</h3>
         </summary>
         <ul>
           {fileData.toc.map((tocEntry) => (

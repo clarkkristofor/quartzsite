@@ -16,7 +16,11 @@ export const sharedPageComponents: SharedLayout = {
   }),
 }
 
-// 2. STANDARD NOTE & HOMEPAGE LAYOUT
+// 1. Instantiate the factory components once at top level
+const ChapterPrev = Component.ChapterNavPrev()
+const SidebarToc = Component.TableOfContents()
+const ChapterNext = Component.ChapterNavNext()
+
 // 2. STANDARD NOTE & HOMEPAGE LAYOUT
 export const defaultContentPageLayout: PageLayout = {
   beforeBody: [
@@ -118,7 +122,25 @@ export const defaultContentPageLayout: PageLayout = {
       )
     }),
   ],
-  left: [Component.TableOfContents()],
+  left: [
+    (props: QuartzComponentProps) => {
+      const slug = (props.fileData.slug ?? "").toLowerCase()
+
+      // Target only pages inside the Swords Beyond folder
+      const isSwordsBeyond =
+        slug.includes("swords-beyond") || slug.includes("swords beyond")
+
+      if (!isSwordsBeyond) return null
+
+      return (
+        <div className="sidebar-content">
+          <ChapterPrev {...props} />
+          <SidebarToc {...props} />
+          <ChapterNext {...props} />
+        </div>
+      )
+    },
+  ],
   right: [],
 }
 
