@@ -1,20 +1,26 @@
 import { QuartzComponent, QuartzComponentProps } from "./types"
 import { resolveRelative, SimpleSlug, FilePath, slugifyFilePath } from "../util/path"
 
-// Helper function to turn raw titles or relative strings into valid SimpleSlug relative to current directory
+// Helper function that preserves folder casing for strict case-sensitive hosts (GitHub Pages)
 const formatChapterSlug = (currentSlug: string, targetPath: string): SimpleSlug => {
   const cleanTarget = targetPath.replace(/[\[\]]/g, "").trim()
 
+  // If frontmatter provides a full path or absolute slug
   if (cleanTarget.startsWith("/") || cleanTarget.includes("/")) {
-    return slugifyFilePath(cleanTarget as unknown as FilePath) as unknown as SimpleSlug
+    const formatted = cleanTarget.replace(/\s+/g, "-")
+    return formatted as unknown as SimpleSlug
   }
 
+  // Extract current file's directory while preserving exact casing (e.g., "rpgs/protected/Swords-Beyond")
   const lastSlashIndex = currentSlug.lastIndexOf("/")
   const currentDir = lastSlashIndex !== -1 ? currentSlug.substring(0, lastSlashIndex) : ""
-  const slugifiedTitle = cleanTarget.toLowerCase().replace(/\s+/g, "-")
-  const fullPath = currentDir ? `${currentDir}/${slugifiedTitle}` : slugifiedTitle
+
+  // Format only spaces to hyphens without changing character case
+  const formattedTitle = cleanTarget.replace(/\s+/g, "-")
+
+  const fullPath = currentDir ? `${currentDir}/${formattedTitle}` : formattedTitle
   
-  return slugifyFilePath(fullPath as unknown as FilePath) as unknown as SimpleSlug
+  return fullPath as unknown as SimpleSlug
 }
 
 export const ChapterNavPrev = (): QuartzComponent => {
