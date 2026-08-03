@@ -223,3 +223,57 @@ body[data-slug^="rpgs/protected/swords-beyond" i] .center {
     text-align: left !important;
   }
 }
+
+body[data-slug^="rpgs/protected/swords-beyond" i] .center article {
+  ol, ul {
+    display: block !important;
+    
+    li {
+      display: list-item !important; /* Forces every <li> onto its own line */
+      width: 100% !important;
+      margin-bottom: 0.35rem !important;
+
+      /* Keep inline formatting (bold/highlighting) intact inside the item */
+      span, strong, em, mark, a {
+        display: inline !important;
+      }
+    }
+  }
+}
+
+/* ==========================================
+   SIDEBAR SPACING HARMONIZATION
+   ========================================== */
+
+body[data-slug^="rpgs/protected/swords-beyond" i] .sidebar.left {
+
+  /* 1. Standardize line-height & spacing for Table of Contents items */
+  .toc ul, 
+  .toc ol, 
+  .toc ul.toc-content {
+    li {
+      margin-bottom: 0.35rem !important; /* Matches chapter list item spacing */
+      
+      a {
+        line-height: 1.25 !important;    /* Tightens vertical height per link */
+        font-size: 0.85rem !important;
+        display: block !important;
+      }
+    }
+  }
+
+  /* 2. Standardize line-height & spacing for Chapter List items */
+  .chapter-nav-full-list {
+    margin-top: 1.5rem !important; /* Clean gap separating TOC from Chapter List */
+
+    .chapter-nav-item {
+      margin-bottom: 0.35rem !important; /* Matches TOC item spacing */
+      line-height: 1.25 !important;
+
+      a, span {
+        font-size: 0.85rem !important;    /* Matches TOC link font size */
+        display: block !important;
+      }
+    }
+  }
+}
