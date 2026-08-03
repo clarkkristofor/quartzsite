@@ -1,5 +1,5 @@
 ---
-publish: true
+publish: false
 title:
 description:
 image:
@@ -11,8 +11,8 @@ order: "4"
 #### Roll...
 1. **_[[#Kin|Kin]]_** (2d6 + d66)
 2. ***[[#Culture & the Beyond|Culture & the Beyond]]*** (d66)
-3. **_[[Making your Hunter#Power Realm & Link|Power Realm & Link]]_** (d66)
-4. ***[[Hunter Roles#Role|Role]]*** (d6): Note the stats and gain +1 in Body, Heart, Mind, or Beyond (stat max: +3). Note how you gain hope. Choose 1 ability.
+3. **_[[#Power Realm & Link|Power Realm & Link]]_** (d66)
+4. ***[[#Role|Role]]*** (d6): Note the stats and gain +1 in Body, Heart, Mind, or Beyond (stat max: +3). Note how you gain hope. Choose 1 ability.
 #### Write...
 1. **Belief:** What does your hunter think is true about your Power? Write a declaration starting with its name or what you call it.
 2. **Drive:** Why do you hunt monsters, the shadow? Now or after the pact writes its conviction, write a statement related to your role’s drive prompt starting with “I will…”.
