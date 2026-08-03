@@ -85,6 +85,7 @@ roll 2x, ignore 2s
 **6** seclusion, secretly serving the shadow
 
 ## **7** Human
+*from the*
 **10** Coastal Cities
 **20** Over Reach
 **30** Unbroken Wilderness
@@ -92,13 +93,22 @@ roll 2x, ignore 2s
 **50** Conclave (union of kins)
 **60** Heirs (ruins dwellers)
 
-_of ___ status…_
+*of ___ status*
 **1** exalted
 **2** gilded
 **3** commoner
 **4** bound
 **5** fringe
 **6** unshackled
+
+|  d6   | *from the*                  | *of ___ status* |
+| :---: | :-------------------------- | :-------------- |
+| **1** | Coastal Cities              | exalted         |
+| **2** | Over Reach                  | gilded          |
+| **3** | Unbroken Wilderness         | commoner        |
+| **4** | Skerries *(free islerfolk)* | bound           |
+| **5** | Conclave *(union of kins)*  | fringe          |
+| **6** | Heirs *(ruins dwellers)*    | unshackled      |
 
 ## **8** Elf 
 **10** forest towers
@@ -206,11 +216,11 @@ A hearthborn’s culture is an echo of their family’s culture (identified by y
 **6** weaver
 
 #### **40** Your kin dominate demons… 
-**1** for sport 
-**2** to curse enemies and punish evildoers 
-**3** to enchant artefacts and monuments 
-**4** to power machinery 
-**5** to redeem captive souls 
+**1** for sport
+**2** to curse enemies and punish evildoers
+**3** to enchant artefacts and monuments
+**4** to power machinery
+**5** to redeem captive souls
 **6** to ward off evil
 
 #### **50** Your kin seek secret knowledge of…  
@@ -236,19 +246,19 @@ A hearthborn’s culture is an echo of their family’s culture (identified by y
 *d66. Rolling 10s die may introduce tension with your kin. Feel free to use your culture’s Realm and roll 1s only.*
 
 #### **10** DEAD 
-**1** breathing amulet 
-**2** forgotten ancestor’s spirit 
-**3** marigolds 
-**4** spent phylactery  
-**5** telepathic skull 
+**1** breathing amulet
+**2** forgotten ancestor’s spirit
+**3** marigolds
+**4** spent phylactery
+**5** telepathic skull
 **6** village ghost
 
 #### **20** DEEPS 
-**1** insatiable craving 
-**2** lunatics 
-**3** recurring dream 
-**4** sightless creature 
-**5** something in the shadows 
+**1** insatiable craving
+**2** lunatics
+**3** recurring dream
+**4** sightless creature
+**5** something in the shadows
 **6** uncut gem
 
 #### **30** HEAVENS 
@@ -256,7 +266,7 @@ A hearthborn’s culture is an echo of their family’s culture (identified by y
 **2** berobed child 
 **3** hymnic earworm 
 **4** icon of a saint 
-**5** message of judgment or mercy  
+**5** message of judgment or mercy
 **6** prayer book
 
 #### **40** HELLS 
