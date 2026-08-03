@@ -5,6 +5,7 @@ description:
 image:
 date: 2026-07-31
 next: "[[Playing Hunters]]"
+order: "1"
 ---
 # A Creeping Shadow
 In the **Over Reach**, deep in the borderlands, along the **Unbroken Wilderness**, rumors spread of sinister monsters and strange and gruesome events. At the heart of it all lies the town of **Lost Plenty**.

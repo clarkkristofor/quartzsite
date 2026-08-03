@@ -5,6 +5,7 @@ description:
 image:
 date: 2026-07-31
 prev: "[[Hunter Roles]]"
+order: "8"
 ---
 # Hunter Arc
 

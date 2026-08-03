@@ -6,6 +6,7 @@ image:
 date: 2026-07-31
 prev: "[[The World & Its Peoples]]"
 next: "[[Downtime]]"
+order: "7"
 ---
 **1** [[#the Shield]]
 **2** [[#the Law ]]

@@ -6,6 +6,7 @@ image:
 date: 2026-07-31
 prev: "[[Playing Hunters]]"
 next: "[[The World & Its Peoples]]"
+order: "5"
 ---
 # Making your Hunter
 *Create hunters together. Fill in gaps. Connect dots. Twist, ignore, and embellish results to make it fun for everyone.*

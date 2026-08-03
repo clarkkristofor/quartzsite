@@ -6,6 +6,7 @@ image:
 date: 2026-07-31
 prev: "[[Getting Started]]"
 next: "[[Hunter Roles]]"
+order: "6"
 ---
 # Kin
 *2d6 + d66*
