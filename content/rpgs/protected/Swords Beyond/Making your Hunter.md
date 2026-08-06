@@ -142,65 +142,33 @@ A hearthborn’s culture is an echo of their family’s culture (identified by y
 
 # Culture & the Beyond
 *d66*
-#### **10** Your kin venerate ancestors…   
-| **d6** | the DEAD                                |
-| ------ | --------------------------------------- |
-| **1**  | by consenting to fleeting possession    |
-| **2**  | by raising them to council undying      |
-| **3**  | daily at private shrines                |
-| **4**  | with elaborate funerary shrouds         |
-| **5**  | with offerings of blood, fruit, or vows |
-| **6**  | with public death day ceremonies        |
 
-#### **20** Your kin’s *(blank)* interpret dreams and nightmares. 
-|  d6   | the DEEPS        |
-| :---: | :--------------- |
-| **1** | blind priests    |
-| **2** | delver monks     |
-| **3** | drowned prophets |
-| **4** | mycologists      |
-| **5** | raving oracles   |
-| **6** | tenebrologers    |
+| **d60** |             |                                                       |
+| ------- | ----------- | ----------------------------------------------------- |
+| **10**  | the DEAD    | Your kin venerate ancestors…                          |
+| **20**  | the DEEPS   | Your kin’s *(blank)* interpret dreams and nightmares. |
+| **30**  | the HEAVENS | Your kin worship gods, primarily the…                 |
+| **40**  | the HELLS   | Your kin dominate demons…                             |
+| **50**  | the WEFT    | Your kin seek secret knowledge of…                    |
+| **60**  | the WILD    | Your kin honor cycles and seasons at…                 |
 
-#### **30** Your kin worship gods, primarily the…
-|  d6   | the HEAVENS |
-| :---: | :---------- |
-| **1** | herald      |
-| **2** | judge       |
-| **3** | maw         |
-| **4** | mother      |
-| **5** | trickster   |
-| **6** | weaver      |
+| **d6** | 10 the DEAD                             | 20 the DEEPS     | 30 the HEAVENS |
+| ------ | --------------------------------------- | :--------------- | :------------- |
+| **1**  | by consenting to fleeting possession    | blind priests    | herald         |
+| **2**  | by raising them to council undying      | delver monks     | judge          |
+| **3**  | daily at private shrines                | drowned prophets | maw            |
+| **4**  | with elaborate funerary shrouds         | mycologists      | mother         |
+| **5**  | with offerings of blood, fruit, or vows | raving oracles   | trickster      |
+| **6**  | with public death day ceremonies        | tenebrologers    | weaver         |
 
-#### **40** Your kin dominate demons…  
-|  d6   | the HELLS                           |
-| :---: | :---------------------------------- |
-| **1** | for sport                           |
-| **2** | to curse enemies & punish evildoers |
-| **3** | to enchant artefacts & monuments    |
-| **4** | to power machinery                  |
-| **5** | to redeem captive souls             |
-| **6** | to ward off evil                    |
-
-#### **50** Your kin seek secret knowledge of…
-|  d6   | the WEFT                 |
-| :---: | :----------------------- |
-| **1** | alchemical transcendence |
-| **2** | arcane flows & wells     |
-| **3** | cosmological phenomena   |
-| **4** | exegesis of the Weft     |
-| **5** | orphic geometries        |
-| **6** | true names               |
-
-#### **60** Your kin honor cycles and seasons at…
-|  d6   | the WILD                           |
-| :---: | :--------------------------------- |
-| **1** | breeding grounds & migratory paths |
-| **2** | coasts, rivers, & headwaters       |
-| **3** | sacred groves                      |
-| **4** | sites of rot & decay               |
-| **5** | stone circles                      |
-| **6** | windswept plains                   |
+|  d6   | 40 the HELLS                        | 50 the WEFT              | 60 the WILD                        |
+| :---: | :---------------------------------- | :----------------------- | :--------------------------------- |
+| **1** | for sport                           | alchemical transcendence | breeding grounds & migratory paths |
+| **2** | to curse enemies & punish evildoers | arcane flows & wells     | coasts, rivers, & headwaters       |
+| **3** | to enchant artefacts & monuments    | dimensional manipulation | sacred groves                      |
+| **4** | to power machinery                  | the Weftling             | sites of rot & decay               |
+| **5** | to redeem captive souls             | orphic geometries        | stone circles                      |
+| **6** | to ward off evil                    | true names               | windswept plains                   |
 
 ##### **_Do you live your kin’s culture or defy it?_**
 
