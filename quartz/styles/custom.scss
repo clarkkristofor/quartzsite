@@ -13,13 +13,14 @@
   --page-width: 1200px;
 }
 
+/* Force homepage grid to stretch full width */
 body[data-slug="index"] {
   --page-width: 100% !important;
 }
 
+
 /* Zeroing gaps */
-#quartz-body, .page-header, .center, article, 
-.home-only-grid, .folder-index-layout {
+#quartz-body, .page-header, .center, article, .folder-index-layout {
   margin-top: 0 !important;
   padding-top: 0 !important;
   top: 0 !important;
