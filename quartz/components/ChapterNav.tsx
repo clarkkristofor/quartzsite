@@ -57,9 +57,7 @@ export const ChapterNavNext = (): QuartzComponent => {
     return (
       <div className="chapter-nav-container" style={{ marginTop: "1.5rem" }}>
         {/* Plain, clean header without buttons or card wrappers */}
-        <h3 className="sidebar-section-title" style={{ margin: "0 0 0.5rem 0", fontSize: "1.1rem", fontWeight: 700 }}>
-          Chapters
-        </h3>
+        <h3 className="sidebar-section-title" style={{ margin: "0 0 0.5rem 0", fontSize: "1.1rem", fontWeight: 700 }}>Chapters</h3>
 
         {/* Chapter List */}
         <div className="chapter-nav-full-list">

@@ -134,10 +134,8 @@ export const defaultContentPageLayout: PageLayout = {
 
       return (
         <div className="sidebar-content">
-          {/* Order 1: Table of Contents */}
-          <SidebarToc {...props} />
-          {/* Order 2: Chapter Navigation List */}
           <ChapterNext {...props} />
+          <SidebarToc {...props} />
         </div>
       )
     },
@@ -160,13 +158,10 @@ export const defaultListPageLayout: PageLayout = {
 
       if (!isSwordsBeyond) return null
 
-      const Toc = Component.TableOfContents()
-      const NextNav = Component.ChapterNavNext()
-
       return (
         <div className="sidebar-content">
-          <Toc {...props} />
-          <NextNav {...props} />
+          <ChapterNext {...props} />
+          <SidebarToc {...props} />
         </div>
       )
     }),
