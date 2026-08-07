@@ -2,7 +2,7 @@ import { PageLayout, SharedLayout } from "./quartz/cfg"
 import * as Component from "./quartz/components"
 import { QuartzComponent, QuartzComponentProps } from "./quartz/components/types"
 
-// 1. SHARED COMPONENTS (Header & Footer)
+// 1. SHARED COMPONENTS
 export const sharedPageComponents: SharedLayout = {
   head: Component.Head(),
   header: [
@@ -16,83 +16,74 @@ export const sharedPageComponents: SharedLayout = {
   }),
 }
 
-// 2. TOP-LEVEL COMPONENT INSTANTIATIONS
+// Top-level component instantiations
 const SidebarToc = Component.TableOfContents()
 const ChapterList = Component.ChapterNavNext()
 
-// Homepage Layout Construction
-const HomeGrid = Component.Section({ 
-  className: "home-only-grid",
-  children: [
-    Component.Section({ className: "home-hero", title: "" }),
-    // UPPER GARDEN
-    Component.Section({ 
-      className: "garden-section upper",
-      children: [
-        Component.Section({
-          className: "garden-col-left",
-          children: [
-            Component.GardenSection({ 
-              title: "Session notes", 
-              folder: "rpgs/session_notes", 
-              limit: 3 
-            }),
-          ],
-        }),
-        Component.Section({
-          className: "garden-col-right",
-          children: [
-            Component.GardenSection({ 
-              title: "Books", 
-              folder: "media/books", 
-              limit: 3 
-            }),
-          ],
-        }),
-      ],
-    }),
-    // LOWER GARDEN
-    Component.Section({ 
-      className: "garden-section lower",
-      children: [
-        Component.Section({
-          className: "garden-col-left",
-          children: [
-            Component.GardenSection({ 
-              title: "Audio", 
-              folder: "media/audio", 
-              limit: 3 
-            }),
-          ],
-        }),
-        Component.Section({
-          className: "garden-col-right",
-          children: [
-            Component.GardenSection({ 
-              title: "Tech & Systems", 
-              folder: "tech", 
-              limit: 3 
-            }),
-          ],
-        }),
-      ],
-    }),
-  ],
-})
-
-// 3. STANDARD NOTE & HOMEPAGE LAYOUT
+// 2. STANDARD NOTE & HOMEPAGE LAYOUT
 export const defaultContentPageLayout: PageLayout = {
   beforeBody: [
-    // Homepage Logic - Rendered as JSX Element
-    ((props: QuartzComponentProps) => {
-      const slug = props.fileData.slug ?? ""
-      const isHome = slug === "index" || slug === "" || slug === "/"
-      if (!isHome) return null
+    // Homepage Grid (Direct Component Tree - Restored from working original)
+    Component.Section({
+      className: "home-only-grid",
+      children: [
+        Component.Section({ className: "home-hero", title: "" }),
+        // UPPER GARDEN
+        Component.Section({
+          className: "garden-section upper",
+          children: [
+            Component.Section({
+              className: "garden-col-left",
+              children: [
+                Component.GardenSection({
+                  title: "Session notes",
+                  folder: "rpgs/session_notes",
+                  limit: 3,
+                }),
+              ],
+            }),
+            Component.Section({
+              className: "garden-col-right",
+              children: [
+                Component.GardenSection({
+                  title: "Books",
+                  folder: "media/books",
+                  limit: 3,
+                }),
+              ],
+            }),
+          ],
+        }),
+        // LOWER GARDEN
+        Component.Section({
+          className: "garden-section lower",
+          children: [
+            Component.Section({
+              className: "garden-col-left",
+              children: [
+                Component.GardenSection({
+                  title: "Audio",
+                  folder: "media/audio",
+                  limit: 3,
+                }),
+              ],
+            }),
+            Component.Section({
+              className: "garden-col-right",
+              children: [
+                Component.GardenSection({
+                  title: "Tech & Systems",
+                  folder: "tech",
+                  limit: 3,
+                }),
+              ],
+            }),
+          ],
+        }),
+      ],
+    }),
 
-      return <HomeGrid {...props} />
-    }) as unknown as QuartzComponent,
-
-    // Non-homepage article header elements
+    // Standard Article Header Elements (Title, Meta, Tags)
     ((props: QuartzComponentProps) => {
       const slug = props.fileData.slug ?? ""
       const isHome = slug === "index" || slug === "" || slug === "/"
@@ -104,9 +95,9 @@ export const defaultContentPageLayout: PageLayout = {
 
       return (
         <>
-          <Title {...props} />
-          <Meta {...props} />
-          <Tags {...props} />
+          {Title(props)}
+          {Meta(props)}
+          {Tags(props)}
         </>
       )
     }) as unknown as QuartzComponent,
@@ -135,7 +126,7 @@ export const defaultContentPageLayout: PageLayout = {
   right: [],
 }
 
-// 4. LIST PAGES (Tags/Folders)
+// 3. LIST PAGES (Tags/Folders)
 export const defaultListPageLayout: PageLayout = {
   beforeBody: [
     Component.ArticleTitle(),
