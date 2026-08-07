@@ -1,6 +1,6 @@
 9 broken ribs
 2 breaks in sternum
-L9 and L10 minimally displaced fracture
+L9 and L10 transverse processes, minimally displaced fracture
 broken right big toe
 
 I want to thank you for your prayers. I feel tremendously grateful, because the accident could have been much worse. As it is, I broke 9 ribs, my sternum, 2 vertebrae and my big

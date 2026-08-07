@@ -55,7 +55,14 @@ export const ChapterNavNext = (): QuartzComponent => {
     if (folderFiles.length === 0) return null
 
     return (
-      <div className="chapter-nav-full-list" style={{ marginTop: "1rem" }}>
+      <div className="chapter-nav-container" style={{ marginTop: "1.5rem" }}>
+      {/* Chapter Header matching Table of Contents style */}
+      <div className="toc-header">
+        <h3>Chapters</h3>
+      </div>
+
+      {/* Chapter List */}
+      <div className="chapter-nav-full-list" style={{ marginTop: "0.5rem" }}>
         {folderFiles.map((file) => {
           const isCurrent = file.slug === fileData.slug
           const title = (file.frontmatter?.title ?? file.slug?.split("/").pop()) as string
@@ -81,7 +88,8 @@ export const ChapterNavNext = (): QuartzComponent => {
           )
         })}
       </div>
-    )
+    </div>
+  )
   }
 
   return ChapterNavNextComponent

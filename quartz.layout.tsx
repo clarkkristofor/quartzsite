@@ -2,7 +2,7 @@ import { PageLayout, SharedLayout } from "./quartz/cfg"
 import * as Component from "./quartz/components"
 import { QuartzComponent, QuartzComponentProps } from "./quartz/components/types"
 
-// 1. SHARED COMPONENTS
+// 1. SHARED COMPONENTS (Header & Footer)
 export const sharedPageComponents: SharedLayout = {
   head: Component.Head(),
   header: [
@@ -16,12 +16,11 @@ export const sharedPageComponents: SharedLayout = {
   }),
 }
 
-// 1. Instantiate the factory components once at top level
-const ChapterPrev = Component.ChapterNavPrev()
+// 2. TOP-LEVEL COMPONENT INSTANTIATION
 const SidebarToc = Component.TableOfContents()
-const ChapterNext = Component.ChapterNavNext()
+const ChapterList = Component.ChapterNavNext() // Full chapter list component
 
-// 2. STANDARD NOTE & HOMEPAGE LAYOUT
+// 3. STANDARD NOTE & HOMEPAGE LAYOUT
 export const defaultContentPageLayout: PageLayout = {
   beforeBody: [
     // Homepage Logic - Explicitly typed to stop Error 7006
@@ -43,23 +42,22 @@ export const defaultContentPageLayout: PageLayout = {
                 children: [
                   Component.GardenSection({ 
                     title: "Session notes", 
-                    folder: "rpgs/protected/session_notes", 
-                    link: "/rpgs/protected/session_notes/", 
-                    limit: 5 
-                  }) as any
-                ]
+                    folder: "rpgs/session_notes", 
+                    limit: 3 
+                  }),
+                ],
               }),
               Component.Section({
                 className: "garden-col-right",
                 children: [
-                  Component.RPGgrid({ 
-                    folder: "rpgs", 
-                    displayClass: "rpg-grid", 
-                    limit: 4 
-                  }) as any,
-                ]
+                  Component.GardenSection({ 
+                    title: "Books", 
+                    folder: "media/books", 
+                    limit: 3 
+                  }),
+                ],
               }),
-            ]
+            ],
           }),
           // LOWER GARDEN
           Component.Section({ 
@@ -68,47 +66,35 @@ export const defaultContentPageLayout: PageLayout = {
               Component.Section({
                 className: "garden-col-left",
                 children: [
-                  Component.BookGrid({ 
-                    folder: "books", 
-                    displayClass: "book-grid", 
-                    limit: 6 
-                  }) as any,
-                ]
+                  Component.GardenSection({ 
+                    title: "Audio", 
+                    folder: "media/audio", 
+                    limit: 3 
+                  }),
+                ],
               }),
               Component.Section({
                 className: "garden-col-right",
                 children: [
                   Component.GardenSection({ 
-                    title: "Music", 
-                    folder: "music", 
-                    link: "/music/", 
-                    limit: 5 
-                  }) as any,
-                ]
+                    title: "Tech & Systems", 
+                    folder: "tech", 
+                    limit: 3 
+                  }),
+                ],
               }),
-            ]
+            ],
           }),
-          Component.Section({
-            className: "blog-section",
-            children: [
-                  Component.GardenSection({ 
-                    title: "Notes", 
-                    folder: "blog", 
-                    link: "/blog/", 
-                    limit: 4
-                  }) as any
-                ]
-          }),
-        ]
-      })(props)
-    }), // <-- CHECK: This must have a comma and the closing bracket
-  
-    // Standard Note Headers
+        ],
+      })
+    }) as unknown as QuartzComponent,
+
+    // Non-homepage article header elements
     ((props: QuartzComponentProps) => {
       const slug = props.fileData.slug ?? ""
       const isHome = slug === "index" || slug === "" || slug === "/"
       if (isHome) return null
-      
+
       const Title = Component.ArticleTitle()
       const Meta = Component.ContentMeta()
       const Tags = Component.TagList()
@@ -120,8 +106,9 @@ export const defaultContentPageLayout: PageLayout = {
           {Tags(props)}
         </>
       )
-    }),
+    }) as unknown as QuartzComponent,
   ],
+
   left: [
     (props: QuartzComponentProps) => {
       const slug = (props.fileData.slug ?? "").toLowerCase()
@@ -134,9 +121,8 @@ export const defaultContentPageLayout: PageLayout = {
 
       return (
         <div className="sidebar-content">
-          <ChapterPrev {...props} />
+          <ChapterList {...props} />
           <SidebarToc {...props} />
-          <ChapterNext {...props} />
         </div>
       )
     },
@@ -144,7 +130,7 @@ export const defaultContentPageLayout: PageLayout = {
   right: [],
 }
 
-// 3. LIST PAGES (Tags/Folders)
+// 4. LIST PAGES (Tags/Folders)
 export const defaultListPageLayout: PageLayout = {
   beforeBody: [
     Component.ArticleTitle(),
@@ -152,27 +138,20 @@ export const defaultListPageLayout: PageLayout = {
     Component.FolderGridSystem(),
   ],
   left: [
-    ((props: QuartzComponentProps) => {
-    const slug = (props.fileData.slug ?? "").toLowerCase()
-    
-    // Check for the folder path in lowercase
-    const isSwordsBeyond = slug.includes("swords-beyond") || slug.includes("swords beyond")
+    (props: QuartzComponentProps) => {
+      const slug = (props.fileData.slug ?? "").toLowerCase()
+      const isSwordsBeyond =
+        slug.includes("swords-beyond") || slug.includes("swords beyond")
 
-    if (!isSwordsBeyond) return null
+      if (!isSwordsBeyond) return null
 
-    // Instantiate factory functions
-    const PrevNav = Component.ChapterNavPrev()
-    const Toc = Component.TableOfContents()
-    const NextNav = Component.ChapterNavNext()
-
-    return (
-      <>
-        <PrevNav {...props} />
-        <Toc {...props} />
-        <NextNav {...props} />
-      </>
+      return (
+        <div className="sidebar-content">
+          <ChapterList {...props} />
+          <SidebarToc {...props} />
+        </div>
       )
-    }),
+    },
   ],
   right: [],
 }

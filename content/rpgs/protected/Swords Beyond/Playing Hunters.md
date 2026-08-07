@@ -101,7 +101,7 @@ Take -1 fate and mark a condition.
 
 If you can’t take -1 fate, your doom has come and your life as a hunter ends; choose:
 
-* ***Sacrifice yourself**, giving +2 to each hunter’s next roll. Does your hunter die, retire, ascend Beyond, or something else?
+* **Sacrifice yourself*, giving +2 to each hunter’s next roll. Does your hunter die, retire, ascend Beyond, or something else?
 * **Embrace the shadow.** It’s satisfied…for now. All other hunters may take +1 fate. Your hunter is in the GM’s hands now.
 
 ### Set the Scene
