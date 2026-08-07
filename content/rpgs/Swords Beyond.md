@@ -8,6 +8,7 @@ title:
 aliases:
   - /swordsbeyond
 ---
+![[swords beyond - logo.png]]
 **a fast & loose, highly improvisational fantasy rpg**
 
 a hack of *[Bump in the Dark, revised edition](https://jexjthomas.itch.io/bump-in-the-dark),* by Jex Thomas with additional inspiration from
