@@ -136,12 +136,6 @@ export const defaultContentPageLayout: PageLayout = {
         <div className="sidebar-content">
           <ChapterNext {...props} />
           <SidebarToc {...props} />
-
-          <img
-            src="https://superclark.net/Files/swords-beyond---cover---hydra.png"
-            alt="Swords Beyond Cover"
-            className="sidebar-cover-img"
-          />
         </div>
       )
     },
@@ -168,12 +162,6 @@ export const defaultListPageLayout: PageLayout = {
         <div className="sidebar-content">
           <ChapterNext {...props} />
           <SidebarToc {...props} />
-
-          <img
-            src="https://superclark.net/Files/swords-beyond---cover---hydra.png"
-            alt="Swords Beyond Cover"
-            className="sidebar-cover-img"
-          />
         </div>
       )
     }),

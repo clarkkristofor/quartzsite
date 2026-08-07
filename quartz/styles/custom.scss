@@ -301,3 +301,33 @@ body[data-slug^="rpgs/protected/swords-beyond" i] .sidebar.left {
     padding-top: 0.2rem !important;
   }
 }
+
+/* Target the Swords Beyond left sidebar wrapper */
+body[data-slug^="rpgs/protected/swords-beyond" i] .sidebar-content {
+  
+  /* 1. Remove space below Table of Contents */
+  .toc {
+    margin-bottom: 0 !important;
+    padding-bottom: 0 !important;
+  }
+
+  /* 2. Remove space above Chapter Next component */
+  /* Targets both class/element wrapper patterns common in Quartz components */
+  .chapter-nav,
+  .chapter-next,
+  .toc + div,
+  .toc + ul,
+  .toc + nav {
+    margin-top: 0 !important;
+    padding-top: 0 !important;
+  }
+
+  /* 3. Zero out any headers/lists inside the chapter listing component */
+  .toc + * h3,
+  .toc + * ul,
+  .toc + * ol,
+  .toc + * button {
+    margin-top: 0 !important;
+    padding-top: 0 !important;
+  }
+}
