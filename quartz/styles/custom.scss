@@ -269,8 +269,6 @@ body[data-slug^="rpgs/protected/swords-beyond" i] .sidebar.left {
 
   /* 2. Standardize line-height & spacing for Chapter List items */
   .chapter-nav-full-list {
-    margin-top: 1.5rem !important; /* Clean gap separating TOC from Chapter List */
-
     .chapter-nav-item {
       margin-bottom: 0.35rem !important; /* Matches TOC item spacing */
       line-height: 1.25 !important;
