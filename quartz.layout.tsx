@@ -16,74 +16,80 @@ export const sharedPageComponents: SharedLayout = {
   }),
 }
 
-// Top-level component instantiations
+// Instantiate top-level components
 const SidebarToc = Component.TableOfContents()
 const ChapterList = Component.ChapterNavNext()
 
 // 2. STANDARD NOTE & HOMEPAGE LAYOUT
 export const defaultContentPageLayout: PageLayout = {
   beforeBody: [
-    // Homepage Grid (Direct Component Tree - Restored from working original)
-    Component.Section({
-      className: "home-only-grid",
-      children: [
-        Component.Section({ className: "home-hero", title: "" }),
-        // UPPER GARDEN
-        Component.Section({
-          className: "garden-section upper",
-          children: [
-            Component.Section({
-              className: "garden-col-left",
-              children: [
-                Component.GardenSection({
-                  title: "Session notes",
-                  folder: "rpgs/session_notes",
-                  limit: 3,
-                }),
-              ],
-            }),
-            Component.Section({
-              className: "garden-col-right",
-              children: [
-                Component.GardenSection({
-                  title: "Books",
-                  folder: "media/books",
-                  limit: 3,
-                }),
-              ],
-            }),
-          ],
-        }),
-        // LOWER GARDEN
-        Component.Section({
-          className: "garden-section lower",
-          children: [
-            Component.Section({
-              className: "garden-col-left",
-              children: [
-                Component.GardenSection({
-                  title: "Audio",
-                  folder: "media/audio",
-                  limit: 3,
-                }),
-              ],
-            }),
-            Component.Section({
-              className: "garden-col-right",
-              children: [
-                Component.GardenSection({
-                  title: "Tech & Systems",
-                  folder: "tech",
-                  limit: 3,
-                }),
-              ],
-            }),
-          ],
-        }),
-      ],
+    // Homepage Logic - Invoked with (props) at the end
+    ((props: QuartzComponentProps) => {
+      const slug = props.fileData.slug ?? ""
+      const isHome = slug === "index" || slug === "" || slug === "/"
+      if (!isHome) return null
+
+      return Component.Section({ 
+        className: "home-only-grid",
+        children: [
+          Component.Section({ className: "home-hero", title: "" }),
+          // UPPER GARDEN
+          Component.Section({ 
+            className: "garden-section upper",
+            children: [
+              Component.Section({
+                className: "garden-col-left",
+                children: [
+                  Component.GardenSection({ 
+                    title: "Session notes", 
+                    folder: "rpgs/session_notes", 
+                    limit: 3 
+                  }) as any,
+                ],
+              }),
+              Component.Section({
+                className: "garden-col-right",
+                children: [
+                  Component.GardenSection({ 
+                    title: "Books", 
+                    folder: "media/books", 
+                    limit: 3 
+                  }) as any,
+                ],
+              }),
+            ],
+          }),
+          // LOWER GARDEN
+          Component.Section({ 
+            className: "garden-section lower",
+            children: [
+              Component.Section({
+                className: "garden-col-left",
+                children: [
+                  Component.GardenSection({ 
+                    title: "Audio", 
+                    folder: "media/audio", 
+                    limit: 3 
+                  }) as any,
+                ],
+              }),
+              Component.Section({
+                className: "garden-col-right",
+                children: [
+                  Component.GardenSection({ 
+                    title: "Tech & Systems", 
+                    folder: "tech", 
+                    limit: 3 
+                  }) as any,
+                ],
+              }),
+            ],
+          }),
+        ],
+      })(props) // <-- Immediately called with props
     }),
 
-    // Standard Article Header Elements (Title, Meta, Tags)
+    // Non-homepage article header elements
     ((props: QuartzComponentProps) => {
       const slug = props.fileData.slug ?? ""
       const isHome = slug === "index" || slug === "" || slug === "/"
@@ -100,7 +106,7 @@ export const defaultContentPageLayout: PageLayout = {
           {Tags(props)}
         </>
       )
-    }) as unknown as QuartzComponent,
+    }),
   ],
 
   left: [
