@@ -83,13 +83,13 @@ const HomeGrid = Component.Section({
 // 3. STANDARD NOTE & HOMEPAGE LAYOUT
 export const defaultContentPageLayout: PageLayout = {
   beforeBody: [
-    // Homepage Logic - Properly executes HomeGrid(props)
+    // Homepage Logic - Rendered as JSX Element
     ((props: QuartzComponentProps) => {
       const slug = props.fileData.slug ?? ""
       const isHome = slug === "index" || slug === "" || slug === "/"
       if (!isHome) return null
 
-      return HomeGrid(props)
+      return <HomeGrid {...props} />
     }) as unknown as QuartzComponent,
 
     // Non-homepage article header elements
@@ -104,9 +104,9 @@ export const defaultContentPageLayout: PageLayout = {
 
       return (
         <>
-          {Title(props)}
-          {Meta(props)}
-          {Tags(props)}
+          <Title {...props} />
+          <Meta {...props} />
+          <Tags {...props} />
         </>
       )
     }) as unknown as QuartzComponent,
