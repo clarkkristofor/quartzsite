@@ -16,77 +16,80 @@ export const sharedPageComponents: SharedLayout = {
   }),
 }
 
-// 2. TOP-LEVEL COMPONENT INSTANTIATION
+// 2. TOP-LEVEL COMPONENT INSTANTIATIONS
 const SidebarToc = Component.TableOfContents()
-const ChapterList = Component.ChapterNavNext() // Full chapter list component
+const ChapterList = Component.ChapterNavNext()
+
+// Homepage Layout Construction
+const HomeGrid = Component.Section({ 
+  className: "home-only-grid",
+  children: [
+    Component.Section({ className: "home-hero", title: "" }),
+    // UPPER GARDEN
+    Component.Section({ 
+      className: "garden-section upper",
+      children: [
+        Component.Section({
+          className: "garden-col-left",
+          children: [
+            Component.GardenSection({ 
+              title: "Session notes", 
+              folder: "rpgs/session_notes", 
+              limit: 3 
+            }),
+          ],
+        }),
+        Component.Section({
+          className: "garden-col-right",
+          children: [
+            Component.GardenSection({ 
+              title: "Books", 
+              folder: "media/books", 
+              limit: 3 
+            }),
+          ],
+        }),
+      ],
+    }),
+    // LOWER GARDEN
+    Component.Section({ 
+      className: "garden-section lower",
+      children: [
+        Component.Section({
+          className: "garden-col-left",
+          children: [
+            Component.GardenSection({ 
+              title: "Audio", 
+              folder: "media/audio", 
+              limit: 3 
+            }),
+          ],
+        }),
+        Component.Section({
+          className: "garden-col-right",
+          children: [
+            Component.GardenSection({ 
+              title: "Tech & Systems", 
+              folder: "tech", 
+              limit: 3 
+            }),
+          ],
+        }),
+      ],
+    }),
+  ],
+})
 
 // 3. STANDARD NOTE & HOMEPAGE LAYOUT
 export const defaultContentPageLayout: PageLayout = {
   beforeBody: [
-    // Homepage Logic - Explicitly typed to stop Error 7006
+    // Homepage Logic - Properly executes HomeGrid(props)
     ((props: QuartzComponentProps) => {
       const slug = props.fileData.slug ?? ""
       const isHome = slug === "index" || slug === "" || slug === "/"
       if (!isHome) return null
 
-      return Component.Section({ 
-        className: "home-only-grid",
-        children: [
-          Component.Section({ className: "home-hero", title: "" }),
-          // UPPER GARDEN
-          Component.Section({ 
-            className: "garden-section upper",
-            children: [
-              Component.Section({
-                className: "garden-col-left",
-                children: [
-                  Component.GardenSection({ 
-                    title: "Session notes", 
-                    folder: "rpgs/session_notes", 
-                    limit: 3 
-                  }),
-                ],
-              }),
-              Component.Section({
-                className: "garden-col-right",
-                children: [
-                  Component.GardenSection({ 
-                    title: "Books", 
-                    folder: "media/books", 
-                    limit: 3 
-                  }),
-                ],
-              }),
-            ],
-          }),
-          // LOWER GARDEN
-          Component.Section({ 
-            className: "garden-section lower",
-            children: [
-              Component.Section({
-                className: "garden-col-left",
-                children: [
-                  Component.GardenSection({ 
-                    title: "Audio", 
-                    folder: "media/audio", 
-                    limit: 3 
-                  }),
-                ],
-              }),
-              Component.Section({
-                className: "garden-col-right",
-                children: [
-                  Component.GardenSection({ 
-                    title: "Tech & Systems", 
-                    folder: "tech", 
-                    limit: 3 
-                  }),
-                ],
-              }),
-            ],
-          }),
-        ],
-      })
+      return HomeGrid(props)
     }) as unknown as QuartzComponent,
 
     // Non-homepage article header elements
@@ -121,8 +124,10 @@ export const defaultContentPageLayout: PageLayout = {
 
       return (
         <div className="sidebar-content">
-          <ChapterList {...props} />
+          {/* Order 1: Table of Contents */}
           <SidebarToc {...props} />
+          {/* Order 2: Chapter Navigation List */}
+          <ChapterList {...props} />
         </div>
       )
     },
@@ -147,8 +152,10 @@ export const defaultListPageLayout: PageLayout = {
 
       return (
         <div className="sidebar-content">
-          <ChapterList {...props} />
+          {/* Order 1: Table of Contents */}
           <SidebarToc {...props} />
+          {/* Order 2: Chapter Navigation List */}
+          <ChapterList {...props} />
         </div>
       )
     },
