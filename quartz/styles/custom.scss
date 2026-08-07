@@ -282,3 +282,22 @@ body[data-slug^="rpgs/protected/swords-beyond" i] .sidebar.left {
     }
   }
 }
+
+/* Remove gap between Chapters header button and its chapter list */
+.sidebar-content .toc {
+  margin-bottom: 0.5rem !important;
+
+  /* Remove default bottom padding/margins on the header button */
+  button.toc-header {
+    margin-bottom: 0 !important;
+    padding-bottom: 0.2rem !important;
+  }
+
+  /* Target the list container directly beneath the button */
+  .toc-content, 
+  ul, 
+  ol {
+    margin-top: 0 !important;
+    padding-top: 0.2rem !important;
+  }
+}
