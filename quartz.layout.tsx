@@ -1,6 +1,6 @@
 import { PageLayout, SharedLayout } from "./quartz/cfg"
 import * as Component from "./quartz/components"
-import { QuartzComponent, QuartzComponentProps } from "./quartz/components/types"
+import { QuartzComponentProps } from "./quartz/components/types"
 
 // 1. SHARED COMPONENTS
 export const sharedPageComponents: SharedLayout = {
@@ -18,12 +18,12 @@ export const sharedPageComponents: SharedLayout = {
 
 // Instantiate top-level components
 const SidebarToc = Component.TableOfContents()
-const ChapterList = Component.ChapterNavNext()
+const ChapterNext = Component.ChapterNavNext()
 
 // 2. STANDARD NOTE & HOMEPAGE LAYOUT
 export const defaultContentPageLayout: PageLayout = {
   beforeBody: [
-    // Homepage Logic - Invoked with (props) at the end
+    // Homepage Logic - Restored to your exact working setup
     ((props: QuartzComponentProps) => {
       const slug = props.fileData.slug ?? ""
       const isHome = slug === "index" || slug === "" || slug === "/"
@@ -42,22 +42,23 @@ export const defaultContentPageLayout: PageLayout = {
                 children: [
                   Component.GardenSection({ 
                     title: "Session notes", 
-                    folder: "rpgs/session_notes", 
-                    limit: 3 
-                  }) as any,
-                ],
+                    folder: "rpgs/protected/session_notes", 
+                    link: "/rpgs/protected/session_notes/", 
+                    limit: 5 
+                  }) as any
+                ]
               }),
               Component.Section({
                 className: "garden-col-right",
                 children: [
-                  Component.GardenSection({ 
-                    title: "Books", 
-                    folder: "media/books", 
-                    limit: 3 
+                  Component.RPGgrid({ 
+                    folder: "rpgs", 
+                    displayClass: "rpg-grid", 
+                    limit: 4 
                   }) as any,
-                ],
+                ]
               }),
-            ],
+            ]
           }),
           // LOWER GARDEN
           Component.Section({ 
@@ -66,35 +67,47 @@ export const defaultContentPageLayout: PageLayout = {
               Component.Section({
                 className: "garden-col-left",
                 children: [
-                  Component.GardenSection({ 
-                    title: "Audio", 
-                    folder: "media/audio", 
-                    limit: 3 
+                  Component.BookGrid({ 
+                    folder: "books", 
+                    displayClass: "book-grid", 
+                    limit: 6 
                   }) as any,
-                ],
+                ]
               }),
               Component.Section({
                 className: "garden-col-right",
                 children: [
                   Component.GardenSection({ 
-                    title: "Tech & Systems", 
-                    folder: "tech", 
-                    limit: 3 
+                    title: "Music", 
+                    folder: "music", 
+                    link: "/music/", 
+                    limit: 5 
                   }) as any,
-                ],
+                ]
               }),
-            ],
+            ]
           }),
-        ],
-      })(props) // <-- Immediately called with props
+          Component.Section({
+            className: "blog-section",
+            children: [
+              Component.GardenSection({ 
+                title: "Notes", 
+                folder: "blog", 
+                link: "/blog/", 
+                limit: 4
+              }) as any
+            ]
+          }),
+        ]
+      })(props)
     }),
 
-    // Non-homepage article header elements
+    // Standard Note Headers
     ((props: QuartzComponentProps) => {
       const slug = props.fileData.slug ?? ""
       const isHome = slug === "index" || slug === "" || slug === "/"
       if (isHome) return null
-
+      
       const Title = Component.ArticleTitle()
       const Meta = Component.ContentMeta()
       const Tags = Component.TagList()
@@ -124,7 +137,7 @@ export const defaultContentPageLayout: PageLayout = {
           {/* Order 1: Table of Contents */}
           <SidebarToc {...props} />
           {/* Order 2: Chapter Navigation List */}
-          <ChapterList {...props} />
+          <ChapterNext {...props} />
         </div>
       )
     },
@@ -140,22 +153,23 @@ export const defaultListPageLayout: PageLayout = {
     Component.FolderGridSystem(),
   ],
   left: [
-    (props: QuartzComponentProps) => {
+    ((props: QuartzComponentProps) => {
       const slug = (props.fileData.slug ?? "").toLowerCase()
-      const isSwordsBeyond =
-        slug.includes("swords-beyond") || slug.includes("swords beyond")
+      
+      const isSwordsBeyond = slug.includes("swords-beyond") || slug.includes("swords beyond")
 
       if (!isSwordsBeyond) return null
 
+      const Toc = Component.TableOfContents()
+      const NextNav = Component.ChapterNavNext()
+
       return (
         <div className="sidebar-content">
-          {/* Order 1: Table of Contents */}
-          <SidebarToc {...props} />
-          {/* Order 2: Chapter Navigation List */}
-          <ChapterList {...props} />
+          <Toc {...props} />
+          <NextNav {...props} />
         </div>
       )
-    },
+    }),
   ],
   right: [],
 }
