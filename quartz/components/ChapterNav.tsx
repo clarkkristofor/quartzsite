@@ -56,40 +56,46 @@ export const ChapterNavNext = (): QuartzComponent => {
 
     return (
       <div className="chapter-nav-container" style={{ marginTop: "1.5rem" }}>
-      {/* Chapter Header matching Table of Contents style */}
-      <div className="toc-header">
-        <h3>Chapters</h3>
-      </div>
+        {/* Wrapped inside button container to inherit TOC's background card styling */}
+        <div className="toc-header">
+          <button 
+            type="button" 
+            className="toc-button" 
+            style={{ width: "100%", textAlign: "left", cursor: "default" }}
+          >
+            <h3>Chapters</h3>
+          </button>
+        </div>
 
-      {/* Chapter List */}
-      <div className="chapter-nav-full-list" style={{ marginTop: "0.5rem" }}>
-        {folderFiles.map((file) => {
-          const isCurrent = file.slug === fileData.slug
-          const title = (file.frontmatter?.title ?? file.slug?.split("/").pop()) as string
-          const targetSlug = formatChapterSlug(fileData.slug!, title)
+        {/* Chapter List */}
+        <div className="chapter-nav-full-list" style={{ marginTop: "0.5rem" }}>
+          {folderFiles.map((file) => {
+            const isCurrent = file.slug === fileData.slug
+            const title = (file.frontmatter?.title ?? file.slug?.split("/").pop()) as string
+            const targetSlug = formatChapterSlug(fileData.slug!, title)
 
-          return (
-            <div 
-              key={file.slug} 
-              className={`chapter-nav-item ${isCurrent ? "active-chapter" : ""}`}
-              style={{ marginBottom: "0.35rem" }}
-            >
-              {isCurrent ? (
-                <span style={{ fontWeight: "bold", opacity: 0.85 }}>{title}</span>
-              ) : (
-                <a 
-                  href={resolveRelative(fileData.slug!, targetSlug)}
-                  style={{ textDecoration: "none" }}
-                >
-                  {title}
-                </a>
-              )}
-            </div>
-          )
-        })}
+            return (
+              <div 
+                key={file.slug} 
+                className={`chapter-nav-item ${isCurrent ? "active-chapter" : ""}`}
+                style={{ marginBottom: "0.35rem" }}
+              >
+                {isCurrent ? (
+                  <span style={{ fontWeight: "bold", opacity: 0.85 }}>{title}</span>
+                ) : (
+                  <a 
+                    href={resolveRelative(fileData.slug!, targetSlug)}
+                    style={{ textDecoration: "none" }}
+                  >
+                    {title}
+                  </a>
+                )}
+              </div>
+            )
+          })}
+        </div>
       </div>
-    </div>
-  )
+    )
   }
 
   return ChapterNavNextComponent
