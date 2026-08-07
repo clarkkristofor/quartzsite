@@ -93,7 +93,7 @@ If you can’t take +1 fate, your reward has come and your life as a hunter ends
 #### **7-9, your Power Beyond and the shadow.** 
 Choose:
 
-* ***Resist.** Mark a _wound_ “shadow sickness” and _incapacitated_ to take +1 fate.
+* **Resist.** Mark a _wound_ “shadow sickness” and _incapacitated_ to take +1 fate.
 * **Noble bargain.** Take -1 fate to give another hunter +1 fate.
 * **Ignoble bargain.** Take +1 fate. The hunter besides you with the lowest fate takes -1 fate. (Tied hunters roll +FATE; lowest loses.)
 #### **6-, the shadow.**

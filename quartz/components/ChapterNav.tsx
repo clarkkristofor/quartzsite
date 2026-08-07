@@ -56,19 +56,13 @@ export const ChapterNavNext = (): QuartzComponent => {
 
     return (
       <div className="chapter-nav-container" style={{ marginTop: "1.5rem" }}>
-        {/* Wrapped inside button container to inherit TOC's background card styling */}
-        <div className="toc-header">
-          <button 
-            type="button" 
-            className="toc-button" 
-            style={{ width: "100%", textAlign: "left", cursor: "default" }}
-          >
-            <h3>Chapters</h3>
-          </button>
-        </div>
+        {/* Plain, clean header without buttons or card wrappers */}
+        <h3 className="sidebar-section-title" style={{ margin: "0 0 0.5rem 0", fontSize: "1.1rem", fontWeight: 700 }}>
+          Chapters
+        </h3>
 
         {/* Chapter List */}
-        <div className="chapter-nav-full-list" style={{ marginTop: "0.5rem" }}>
+        <div className="chapter-nav-full-list">
           {folderFiles.map((file) => {
             const isCurrent = file.slug === fileData.slug
             const title = (file.frontmatter?.title ?? file.slug?.split("/").pop()) as string
