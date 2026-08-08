@@ -134,6 +134,10 @@ export const defaultContentPageLayout: PageLayout = {
 
       return (
         <div className="sidebar-content">
+          <img
+            src="https://superclark.net/Files/swords-beyond---logo---online-rules.png"
+            alt="Swords Beyond"
+          />
           <ChapterNext {...props} />
           <SidebarToc {...props} />
         </div>
@@ -160,6 +164,10 @@ export const defaultListPageLayout: PageLayout = {
 
       return (
         <div className="sidebar-content">
+          <img
+            src="https://superclark.net/Files/swords-beyond---logo---online-rules.png"
+            alt="Swords Beyond"
+          />
           <ChapterNext {...props} />
           <SidebarToc {...props} />
         </div>
