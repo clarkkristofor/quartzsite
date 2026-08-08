@@ -8,14 +8,11 @@ title:
 aliases:
   - /swordsbeyond
 ---
-![[swords beyond - logo.png|left 200]]**a fast & loose, highly improvisational fantasy rpg**
+**a fast & loose, highly improvisational fantasy rpg**
 hack of *[Bump in the Dark, revised edition](https://jexjthomas.itch.io/bump-in-the-dark),* by Jex Thomas 
 with additional inspiration from *[13th Age](https://pelgranepress.com/13th-age/)* by Rob Heinsoo & Jonathan Tweet, *[Maze Rats](https://questingbeast.itch.io/maze-rats)* by Ben Milton, and *[50/50](https://docs.google.com/document/d/1NLD_KhZwrKRz3sIquZDSW_Wx__7My6Kdg1Jbk6hF7Mw/edit?pli=1&tab=t.0)* by John Harper
 
-*[[#Contents|All Rules]]* : [[A Creeping Shadow]] | [[Playing Hunters]] |  [[Making the Pact]] | [[Making your Hunter]] | [[Hunter Roles]]| [[Downtime]] 
 *[Downloads](https://drive.google.com/drive/folders/1rtNJpaatjz2WGgBjgilf1uSoaCo8LBJX?usp=sharing)* | Playtest beta: [[hunters & pact]], session [[well of shadow|3 (demon well)]]
-![[swords beyond - cover - hydra.png]]
-
 
 ![[swords beyond - logo - online rules.png|250]]
 # Contents
@@ -45,3 +42,5 @@ with additional inspiration from *[13th Age](https://pelgranepress.com/13th-age/
 5. [[Hunter Roles#the Fox|the Fox]]
 6. [[Hunter Roles#the Zealot|the Zealot]]
 ## [[Downtime]]
+
+![[swords beyond - cover - hydra.png|350]]

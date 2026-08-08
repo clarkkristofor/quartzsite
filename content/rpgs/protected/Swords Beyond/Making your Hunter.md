@@ -144,7 +144,7 @@ A hearthborn’s culture is an echo of their family’s culture (identified by y
 *d66*
 
 | **d60** |             |                                                       |
-| ------- | ----------- | ----------------------------------------------------- |
+| :-----: | ----------- | ----------------------------------------------------- |
 | **10**  | the DEAD    | Your kin venerate ancestors…                          |
 | **20**  | the DEEPS   | Your kin’s *(blank)* interpret dreams and nightmares. |
 | **30**  | the HEAVENS | Your kin worship gods, primarily the…                 |
@@ -153,7 +153,7 @@ A hearthborn’s culture is an echo of their family’s culture (identified by y
 | **60**  | the WILD    | Your kin honor cycles and seasons at…                 |
 
 | **d6** | 10 the DEAD                             | 20 the DEEPS     | 30 the HEAVENS |
-| ------ | --------------------------------------- | :--------------- | :------------- |
+| :----: | --------------------------------------- | :--------------- | :------------- |
 | **1**  | by consenting to fleeting possession    | blind priests    | herald         |
 | **2**  | by raising them to council undying      | delver monks     | judge          |
 | **3**  | daily at private shrines                | drowned prophets | maw            |
