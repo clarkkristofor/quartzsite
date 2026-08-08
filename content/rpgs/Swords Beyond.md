@@ -8,8 +8,7 @@ title:
 aliases:
   - /swordsbeyond
 ---
-![[swords beyond - logo.png]]
-**a fast & loose, highly improvisational fantasy rpg**
+![[swords beyond - logo.png|left 200]]**a fast & loose, highly improvisational fantasy rpg**
 
 a hack of *[Bump in the Dark, revised edition](https://jexjthomas.itch.io/bump-in-the-dark),* by Jex Thomas with additional inspiration from
 - *[13th Age](https://pelgranepress.com/13th-age/)* by Rob Heinsoo & Jonathan Tweet  
@@ -20,6 +19,8 @@ a hack of *[Bump in the Dark, revised edition](https://jexjthomas.itch.io/bump-i
 *[Downloads](https://drive.google.com/drive/folders/1rtNJpaatjz2WGgBjgilf1uSoaCo8LBJX?usp=sharing)* | Playtest beta: [[hunters & pact]], session [[well of shadow|3 (demon well)]]
 ![[swords beyond - cover - hydra.png]]
 
+
+![[swords beyond - logo - online rules.png|250]]
 # Contents
 ## [[A Creeping Shadow]]
 - [[A Creeping Shadow#A Creeping Shadow|A Creeping Shadow]] 
