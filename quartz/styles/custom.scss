@@ -343,3 +343,22 @@ body[data-slug^="rpgs/protected/swords-beyond" i] .sidebar-content {
   margin-left: 1rem;
   margin-bottom: 0.5rem;
 }
+/* Float both the image and its parent paragraph wrapper in Quartz */
+.article p:has(> img[alt*="left"]),
+.article img[alt*="left"] {
+  float: left;
+  margin-right: 1.2rem;
+  margin-bottom: 0.5rem;
+}
+
+.article p:has(> img[alt*="right"]),
+.article img[alt*="right"] {
+  float: right;
+  margin-left: 1.2rem;
+  margin-bottom: 0.5rem;
+}
+
+/* Ensure subsequent headings clear the floated image */
+.article h1, .article h2, .article h3, .article h4 {
+  clear: both;
+}
