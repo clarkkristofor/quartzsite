@@ -35,6 +35,20 @@ body[data-slug="index"] {
 }
 
 /* 3. SWORDS BEYOND LAYOUT & TYPOGRAPHY OVERRIDES */
+@font-face {
+  font-family: 'Dragonsteel';
+  src: url('/static/fonts/Dragonsteel.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* Apply Dragonsteel font to note titles in the Swords Beyond folder */
+body[data-slug^="rpgs/protected/Swords-Beyond"] .article-title,
+body[data-slug^="rpgs/protected/Swords-Beyond"] article h1 {
+  font-family: 'Dragonsteel', fantasy, sans-serif;
+}
+
 body[data-slug^="rpgs/protected/swords-beyond" i] {
   font-family: 'Merriweather Sans', sans-serif;
 
