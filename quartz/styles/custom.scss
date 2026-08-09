@@ -35,19 +35,18 @@ body[data-slug="index"] {
 }
 
 /* 3. SWORDS BEYOND LAYOUT & TYPOGRAPHY OVERRIDES */
+/* 1. Font Definition with correct static asset path */
 @font-face {
   font-family: 'Dragonsteel';
-  src: url('/static/fonts/Dragonsteel-Regular.otf') format('opentype');
+  src: url('./static/fonts/Dragonsteel-Regular.otf') format('opentype');
   font-weight: normal;
   font-style: normal;
   font-display: swap;
 }
 
-/* Apply Dragonsteel font to note titles in the Swords Beyond folder */
-/* Apply Dragonsteel font to note titles (h2) in the Swords Beyond folder */
-body[data-slug^="rpgs/protected/swords-beyond" i] .article-title,
-body[data-slug^="rpgs/protected/swords-beyond" i] h2 {
-  font-family: 'Dragonsteel', fantasy, sans-serif;
+/* 2. Target ONLY note titles in the Swords Beyond folder */
+body[data-slug^="rpgs/protected/swords-beyond" i] .article-title {
+  font-family: 'Dragonsteel', fantasy, sans-serif !important;
 }
 
 body[data-slug^="rpgs/protected/swords-beyond" i] {
@@ -73,7 +72,7 @@ body[data-slug^="rpgs/protected/swords-beyond" i] {
       height: auto !important;
       padding-top: 0 !important;
       position: sticky !important;
-      margin-top: 8rem !important;
+      margin-top: 7rem !important;
       top: 6rem !important;
 
       /* Sidebar Title Spacing */
