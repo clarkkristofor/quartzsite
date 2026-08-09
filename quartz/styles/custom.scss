@@ -44,8 +44,9 @@ body[data-slug="index"] {
 }
 
 /* Apply Dragonsteel font to note titles in the Swords Beyond folder */
-body[data-slug^="rpgs/protected/Swords-Beyond"] .article-title,
-body[data-slug^="rpgs/protected/Swords-Beyond"] article h1 {
+/* Apply Dragonsteel font to note titles (h2) in the Swords Beyond folder */
+body[data-slug^="rpgs/protected/swords-beyond" i] .article-title,
+body[data-slug^="rpgs/protected/swords-beyond" i] h2 {
   font-family: 'Dragonsteel', fantasy, sans-serif;
 }
 
