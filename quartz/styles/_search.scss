@@ -4,17 +4,31 @@
    SEARCH INTERFACE _search.scss
    ========================================================================== */
 
-/* 1. The Search Wrapper (The Mint Green Bar) */
+/* 1. The Search Wrapper (Main Bar) */
 .search-wrapper {
   background-color: v.$search-bg !important;
-  border: 1px solid #000 !important;
-  border-radius: 4px !important;
-  padding: 8px 12px !important;
+  border: 1.5px solid var(--darkgray, #333333) !important;
+  border-radius: 6px !important;
+  padding: 6px 12px !important;
   display: flex !important;
   align-items: center !important;
   width: 250px !important; // Fixed width for consistency
   position: relative;
-  
+  box-shadow: 2px 2px 0px rgba(0, 0, 0, 0.8) !important;
+  transition: border-color 0.2s ease, box-shadow 0.2s ease, transform 0.2s ease !important;
+
+  &:hover,
+  &:focus-within {
+    border-color: #a33827 !important; /* Rust accent */
+    box-shadow: 3px 3px 0px #a33827 !important;
+    transform: translateY(-1px);
+
+    .search-icon {
+      fill: #a33827 !important;
+      opacity: 1;
+    }
+  }
+
   @media (max-width: v.$mobile-breakpoint) {
     width: 100% !important;
     max-width: 300px;
@@ -25,12 +39,23 @@
 #search-bar {
   background: transparent !important;
   border: none !important;
+  outline: none !important;
+  box-shadow: none !important;
   font-family: v.$font-main;
   font-size: 0.9rem;
+  color: var(--dark, #2b2b2b) !important;
   width: 100%;
-  padding-left: 30px !important; // Space for the magnifying glass
+  padding-left: 28px !important; // Space for the magnifying glass
 
-  &:focus { outline: none; }
+  &::placeholder {
+    color: var(--gray, #777777);
+    font-style: italic;
+    opacity: 0.8;
+  }
+
+  &:focus { 
+    outline: none !important; 
+  }
 }
 
 .search-icon {
@@ -41,15 +66,18 @@
   width: 18px;
   height: 18px;
   pointer-events: none;
+  fill: var(--darkgray, #333333) !important;
+  opacity: 0.8;
+  transition: fill 0.2s ease, opacity 0.2s ease;
 }
 
 /* 3. Search Results Overlay */
 #search-container {
   .search-results {
     background: var(--light);
-    border: 1px solid var(--lightgray);
-    border-radius: 8px;
-    box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+    border: 1.5px solid var(--darkgray, #333333);
+    border-radius: 6px;
+    box-shadow: 4px 4px 0px rgba(0, 0, 0, 0.8);
     
     // Ensure it doesn't bleed off screen on mobile
     @media (max-width: v.$mobile-breakpoint) {
@@ -60,7 +88,7 @@
 
   // The "Preview" pane on the right of search
   .search-preview {
-    border-left: 1px solid var(--lightgray);
+    border-left: 1px dashed var(--lightgray);
     padding: 1.5rem;
     
     @media (max-width: v.$tablet-breakpoint) {
