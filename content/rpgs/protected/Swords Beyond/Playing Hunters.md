@@ -8,7 +8,7 @@ order: "3"
 ---
 # Agenda
 
-## Do what your hunter would do.
+## Do what your hunter would do. 
 
 The game gives you **the bones** – _kin_, _culture_, _belief_, and _drive_ – and dumps them in the middle of your hunter sheet. Put flesh on those bones by acting on them, give them life by letting your hunter embody them, even struggle with them, change them.
 
@@ -66,7 +66,7 @@ You _roll Power_ when you roll double 6s and _shadow_ when you roll double 1s. B
 
 GM: deliver a message, offer an opportunity, introduce a welcome plot twist, ask questions and use the answers: *What made the stakes so high that your Power intervened? What foreshadowed this intervention?*
 
-![[Pasted image 20260802163241.png|40]]  **The shadow gets its tenterhooks in you.** The outcome is worse than _worst_. How? Mark *overpowered*.
+![[Pasted image 20260802163241.png|40]]  **The shadow gets its tenterhooks in you.** The outcome is worse than _worst_. How? In addition, mark *overpowered*.
 
 GM: introduce danger, deliver an ominous threat, show something off-screen that just got much worse, offer a deal with the shadow, ask questions and use the answers: *What’s really going on in this scene or hunt? What suddenly makes terrifying sense?*
 
@@ -93,7 +93,7 @@ If you can’t take +1 fate, your reward has come and your life as a hunter ends
 #### **7-9, your Power Beyond and the shadow.** 
 Choose:
 
-* **Resist.** Mark a _wound_ “shadow sickness” and _incapacitated_ to take +1 fate.
+* **Resist.** Mark both a _wound_ “shadow sickness” and _incapacitated_ to take +1 fate.
 * **Noble bargain.** Take -1 fate to give another hunter +1 fate.
 * **Ignoble bargain.** Take +1 fate. The hunter besides you with the lowest fate takes -1 fate. (Tied hunters roll +FATE; lowest loses.)
 #### **6-, the shadow.**
@@ -101,7 +101,7 @@ Take -1 fate and mark a condition.
 
 If you can’t take -1 fate, your doom has come and your life as a hunter ends; choose:
 
-* **Sacrifice yourself*, giving +2 to each hunter’s next roll. Does your hunter die, retire, ascend Beyond, or something else?
+* **Sacrifice yourself**, giving +2 to each hunter’s next roll. Does your hunter die, retire, ascend Beyond, or something else?
 * **Embrace the shadow.** It’s satisfied…for now. All other hunters may take +1 fate. Your hunter is in the GM’s hands now.
 
 ### Set the Scene
