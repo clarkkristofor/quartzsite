@@ -4,104 +4,102 @@
    SEARCH INTERFACE _search.scss
    ========================================================================== */
 
-/* Target Quartz's native search input wrapper and any wrapper classes */
-.search,
-.search-wrapper,
-#search-container,
-.search-button {
-  background-color: v.$search-bg !important;
-  border: 1.5px solid var(--darkgray, #333333) !important;
-  border-radius: 6px !important;
-  padding: 6px 12px !important;
+/* 1. The Header Search Button (Styles the trigger to look like a search bar) */
+.search {
+  /* Fix layout parent positioning */
   display: flex !important;
   align-items: center !important;
-  width: 250px !important;
-  position: relative !important;
-  box-shadow: 2px 2px 0px rgba(0, 0, 0, 0.8) !important;
-  transition: border-color 0.2s ease, box-shadow 0.2s ease, transform 0.2s ease !important;
 
-  &:hover,
-  &:focus-within {
-    border-color: #a33827 !important; /* Rust accent */
-    box-shadow: 3px 3px 0px #a33827 !important;
-    transform: translateY(-1px);
+  .search-button {
+    background-color: v.$search-bg !important;
+    border: 1.5px solid var(--darkgray, #333333) !important;
+    border-radius: 6px !important;
+    padding: 6px 12px !important;
+    display: inline-flex !important;
+    align-items: center !important;
+    gap: 8px !important;
+    width: 200px !important; /* Adjust width as needed for header space */
+    cursor: pointer !important;
+    box-shadow: 2px 2px 0px rgba(0, 0, 0, 0.8) !important;
+    transition: border-color 0.2s ease, box-shadow 0.2s ease, transform 0.2s ease !important;
 
-    svg,
-    .search-icon {
-      fill: #a33827 !important;
-      opacity: 1 !important;
+    /* The Text ("Search") */
+    p {
+      margin: 0 !important;
+      font-family: v.$font-main, sans-serif !important;
+      font-size: 0.9rem !important;
+      color: var(--gray, #777777) !important;
+      font-style: italic;
+      opacity: 0.8;
+    }
+
+    /* The Magnifying Glass SVG */
+    svg {
+      width: 16px !important;
+      height: 16px !important;
+      fill: none !important;
+      stroke: var(--darkgray, #333333) !important;
+      stroke-width: 2px !important;
+      opacity: 0.8 !important;
+      transition: stroke 0.2s ease, opacity 0.2s ease !important;
+
+      path, g {
+        fill: none !important;
+        stroke: inherit !important;
+      }
+    }
+
+    /* Hover & Focus Interaction */
+    &:hover,
+    &:focus {
+      border-color: #a33827 !important; /* Rust accent */
+      box-shadow: 3px 3px 0px #a33827 !important;
+      transform: translateY(-1px);
+
+      p {
+        color: var(--dark, #2b2b2b) !important;
+        opacity: 1;
+      }
+
+      svg {
+        stroke: #a33827 !important;
+        opacity: 1 !important;
+      }
     }
   }
-
-  @media (max-width: v.$mobile-breakpoint) {
-    width: 100% !important;
-    max-width: 300px;
-  }
 }
 
-/* Target the input bar directly */
-.search input,
-#search-bar,
-#search-container input {
-  background: transparent !important;
-  border: none !important;
-  outline: none !important;
-  box-shadow: none !important;
-  font-family: v.$font-main, sans-serif !important;
-  font-size: 0.9rem !important;
-  color: var(--dark, #2b2b2b) !important;
-  width: 100% !important;
-  padding-left: 28px !important;
-
-  &::placeholder {
-    color: var(--gray, #777777) !important;
-    font-style: italic;
-    opacity: 0.8;
-  }
-
-  &:focus { 
-    outline: none !important; 
-    box-shadow: none !important;
-  }
-}
-
-/* Search Icon positioning and tinting */
-.search svg,
-.search-icon {
-  position: absolute !important;
-  left: 10px !important;
-  top: 50% !important;
-  transform: translateY(-50%) !important;
-  width: 18px !important;
-  height: 18px !important;
-  pointer-events: none !important;
-  fill: var(--darkgray, #333333) !important;
-  opacity: 0.8 !important;
-  transition: fill 0.2s ease, opacity 0.2s ease !important;
-}
-
-/* Search Results Modal / Overlay */
-#search-container {
-  .search-results,
-  .results,
-  & > div {
-    background: var(--light) !important;
+/* 2. The Popover Modal & Modal Input Field */
+.search-container {
+  .search-space {
+    background: var(--light, #fbf9f6) !important;
     border: 1.5px solid var(--darkgray, #333333) !important;
     border-radius: 6px !important;
     box-shadow: 4px 4px 0px rgba(0, 0, 0, 0.8) !important;
-    
-    @media (max-width: v.$mobile-breakpoint) {
-      width: 95vw !important;
-      left: 2.5vw !important;
+    padding: 12px !important;
+
+    /* Actual text input inside the modal */
+    input.search-bar {
+      background: transparent !important;
+      border: 1px solid var(--lightgray, #e5e5e5) !important;
+      border-radius: 4px !important;
+      padding: 8px 12px !important;
+      font-family: v.$font-main, sans-serif !important;
+      font-size: 0.95rem !important;
+      color: var(--dark, #2b2b2b) !important;
+
+      &:focus {
+        border-color: #a33827 !important;
+        outline: none !important;
+        box-shadow: 0 0 0 2px rgba(163, 56, 39, 0.2) !important;
+      }
     }
   }
 
-  .search-preview {
-    border-left: 1px dashed var(--lightgray) !important;
-    padding: 1.5rem !important;
-    
-    @media (max-width: v.$tablet-breakpoint) {
-      display: none !important;
-    }
+  /* Right-hand side preview pane in modal */
+  .search-layout {
+    border-top: 1px dashed var(--lightgray) !important;
+    margin-top: 12px !important;
+    padding-top: 12px !important;
   }
 }
