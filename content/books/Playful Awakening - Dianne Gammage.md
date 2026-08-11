@@ -1,5 +1,5 @@
 ---
-title: "Reading Now: Playful Awakening"
+title: "READING: Playful Awakening"
 subtitle: Releasing the Gift of Play in Your Life
 author: Dianne Gammage
 authors: Dianne Gammage
