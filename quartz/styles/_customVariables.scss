@@ -16,7 +16,7 @@ $brand-yellow: #ffcc33;
 // 3. SPECIAL STYLES
 $flame-gradient: linear-gradient(62deg, $brand-red 0%, #e53935 45%, $brand-yellow 100%);
 $hover-overlay:  linear-gradient(0deg, $brand-blue, $brand-blue);
-$search-bg: #B8FFD0; 
+$search-bg: var(--light); 
 
 // 4. BREAKPOINTS & SPACING
 $page-max-width: 1400px;
