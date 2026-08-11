@@ -44,7 +44,7 @@ export const defaultContentPageLayout: PageLayout = {
                     title: "Session notes", 
                     folder: "rpgs/protected/session_notes", 
                     link: "/rpgs/protected/session_notes/", 
-                    limit: 5 
+                    limit: 4
                   }) as any
                 ]
               }),
