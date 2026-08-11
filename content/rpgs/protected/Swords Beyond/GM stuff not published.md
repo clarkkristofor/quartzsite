@@ -1,6 +1,6 @@
-|         |      |         |      |         |
-| ------- | ---- | ------- | ---- | ------- |
-| 2       | 3-5  | 6-8     | 9-11 | 12      |
+
+|    2    | 3-5  |   6-8   | 9-11 |   12    |
+| :-----: | :--: | :-----: | :--: | :-----: |
 | Hostile | Wary | Curious | Kind | Helpful |
 
 
@@ -11,7 +11,7 @@ A doom is simply a negative descriptor.
 Thieves of the Tome
 
 
-As a consequence of a Failed Conflict, the SoD suffers a Trauma—a **physical**, **psychological**, or **social** wound—that the Ludi Magister invents on the spot and the player records on their Sheet. To ensure the continuity of the story, the Trauma should be coherent with with both the situation at hand and the SoD’s actions.
+As a consequence of a Failed Conflict, the SoD suffers a Trauma—a **physical**, **psychological**, or **social** wound—that the Ludi Magister invents on the spot and the player records on their Sheet. To ensure the continuity of the story, the Trauma should be coherent with both the situation at hand and the SoD’s actions.
 
 Piaga 1348 by Helios Pu
 
