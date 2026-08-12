@@ -1,75 +1,123 @@
+// quartz/components/RPGGrid.tsx
 import { QuartzComponent, QuartzComponentConstructor, QuartzComponentProps } from "./types"
-import BaseGrid from "./BaseGrid"
+import { resolveRelative, SimpleSlug, simplifySlug } from "../util/path"
+import style from "./styles/rpgGrid.scss"
 
-interface Options { 
-  folder: string
-  displayClass?: string 
-  limit?: number
-  title?: string // Added title to options to make it flexible
+interface Options {
+  title?: string
+  maxDisplay?: number
 }
 
-const RPGgrid: QuartzComponent = (props: QuartzComponentProps & { options?: Options }) => {
-  // Pull values from options with fallbacks
-  const folder = props.options?.folder ?? "rpgs"
-  const title = props.options?.title ?? "RPGs" // Now supports custom titles like "Current Games"
-  const limit = props.options?.limit ?? 4
-  const link = `/${folder}/` // Dynamic link based on the folder
-  
-  const getDateTimestamp = (page: typeof props.allFiles[0]): number => {
-    const rawDate = page.frontmatter?.date
-    
-    // Handle undefined/null
-    if (!rawDate) return 0
-    
-    // Handle string or Date object
-    if (typeof rawDate === 'string' || rawDate instanceof Date) {
-      return new Date(rawDate).getTime()
+const defaultOptions = {
+  title: "TTRPG Systems",
+  maxDisplay: Infinity,
+} satisfies Options
+
+export default ((userOpts?: Options) => {
+  const opts = { ...defaultOptions, ...userOpts }
+
+  const RPGGrid: QuartzComponent = ({ allFiles, fileData }: QuartzComponentProps) => {
+    const allRpgNotes = allFiles.filter((file) => file.slug?.startsWith("rpgs/"))
+
+    if (allRpgNotes.length === 0) return null
+
+    const parseWikilink = (linkStr?: string): { text: string; slug: SimpleSlug } | null => {
+      if (!linkStr) return null
+      const cleanText = linkStr.replace(/^\[\[/, "").replace(/\]\]$/, "").trim()
+      if (!cleanText) return null
+
+      const targetFile = allFiles.find(
+        (f) => f.frontmatter?.title === cleanText || f.slug?.endsWith(cleanText.toLowerCase().replace(/\s+/g, "-"))
+      )
+
+      const targetSlug: SimpleSlug = targetFile?.slug 
+        ? simplifySlug(targetFile.slug)
+        : (cleanText.toLowerCase().replace(/\s+/g, "-") as SimpleSlug)
+
+      return { text: cleanText, slug: targetSlug }
     }
-    
-    // Fallback for unexpected types
-    return 0
+
+    const maxLimit = opts.maxDisplay ?? Infinity
+    const displayedNotes = allRpgNotes.slice(0, maxLimit)
+    const hasMore = allRpgNotes.length > maxLimit
+    const rpgsFolderUrl = resolveRelative(fileData.slug!, "rpgs" as SimpleSlug)
+
+    return (
+      <div className="rpg-section">
+        {opts.title && <h2>{opts.title}</h2>}
+        <div className="rpg-grid">
+          {displayedNotes.map((rpg) => {
+            const rpgTitle = (rpg.frontmatter?.title as string | undefined) ?? rpg.slug ?? "Untitled System"
+            const description = (rpg.frontmatter?.description as string | undefined) ?? (rpg.frontmatter?.summary as string | undefined)
+
+            const currentCampaignRaw = (rpg.frontmatter?.current_campaign ?? rpg.frontmatter?.["current campaign"]) as string | undefined
+            const currentCampaign = parseWikilink(currentCampaignRaw)
+
+            const coverImage = (rpg.frontmatter?.cover ?? rpg.frontmatter?.image) as string | undefined
+            const rpgUrl = resolveRelative(fileData.slug!, simplifySlug(rpg.slug!))
+
+            return (
+              <div className="rpg-card" key={rpg.slug}>
+                {/* Left Column: Cover Image */}
+                {coverImage && (
+                  <a href={rpgUrl} className="rpg-card-image-link">
+                    <img src={coverImage} alt={rpgTitle} className="rpg-card-image" />
+                  </a>
+                )}
+
+                {/* Right Column: Title, Description, Campaign Link */}
+                <div className="rpg-card-content">
+                  <div className="rpg-card-header">
+                    <h3>
+                      <a href={rpgUrl} className="internal">
+                        {rpgTitle}
+                      </a>
+                    </h3>
+                  </div>
+
+                  {description && <p className="rpg-card-desc">{description}</p>}
+
+                  {currentCampaign && (
+                    <div className="rpg-card-status">
+                      <span className="status-label">🔥 Current Campaign:</span>{" "}
+                      <a
+                        href={resolveRelative(fileData.slug!, currentCampaign.slug)}
+                        className="internal campaign-link"
+                      >
+                        {currentCampaign.text}
+                      </a>
+                    </div>
+                  )}
+                </div>
+              </div>
+            )
+          })}
+
+          {/* Capped "More" Card */}
+          {hasMore && (
+            <div className="rpg-card rpg-card-more">
+              <div className="rpg-card-content">
+                <div className="rpg-card-header">
+                  <h3>
+                    <a href={rpgsFolderUrl} className="internal">
+                      More Systems →
+                    </a>
+                  </h3>
+                </div>
+                <p className="rpg-card-desc">
+                  Explore {allRpgNotes.length - maxLimit} additional campaign logs and rules.
+                </p>
+                <a href={rpgsFolderUrl} className="internal view-all-link">
+                  View All RPG Notes ({allRpgNotes.length})
+                </a>
+              </div>
+            </div>
+          )}
+        </div>
+      </div>
+    )
   }
-  
-  const pages = props.allFiles.filter(page => {
-    const slug = page.slug ?? ""
-    if (slug.endsWith("index")) return false
-    
-    const slugParts = slug.split("/")
-    const targetParts = folder.split("/").filter(p => p !== "")
-    
-    // Only direct children
-    return slug.startsWith(folder + "/") && slugParts.length === targetParts.length + 1
-  })
-  .sort((a, b) => {
-    const timeA = getDateTimestamp(a)
-    const timeB = getDateTimestamp(b)
 
-    // If times are actually different, sort newest first
-    if (timeA !== timeB) {
-      return timeB - timeA
-    }
-
-    // Only if times are identical, use title as a stable tie-breaker
-    return (a.frontmatter?.title ?? "").localeCompare(b.frontmatter?.title ?? "")
-  })
-  .slice(0, limit)
-
-  return (
-    <BaseGrid 
-      pages={pages} 
-      title={title} 
-      link={link} 
-      customClass={props.options?.displayClass} 
-      {...props} 
-    />
-  )
-}
-
-/**
- * Corrected Constructor Factory
- * Ensures options passed from layout.ts are correctly injected into props.
- */
-export default ((opts?: Options) => {
-  const Component = (props: QuartzComponentProps) => <RPGgrid options={opts} {...props} />
-  return Component
+  RPGGrid.css = style
+  return RPGGrid
 }) satisfies QuartzComponentConstructor

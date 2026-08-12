@@ -33,33 +33,9 @@ export const defaultContentPageLayout: PageLayout = {
         className: "home-only-grid",
         children: [
           Component.Section({ className: "home-hero", title: "" }),
-          // UPPER GARDEN
-          Component.Section({ 
-            className: "garden-section upper",
-            children: [
-              Component.Section({
-                className: "garden-col-left",
-                children: [
-                  Component.GardenSection({ 
-                    title: "Session notes", 
-                    folder: "rpgs/protected/session_notes", 
-                    link: "/rpgs/protected/session_notes/", 
-                    limit: 4
-                  }) as any
-                ]
-              }),
-              Component.Section({
-                className: "garden-col-right",
-                children: [
-                  Component.RPGgrid({ 
-                    folder: "rpgs", 
-                    displayClass: "rpg-grid", 
-                    limit: 4 
+          Component.RPGgrid({
+                    maxDisplay: 2
                   }) as any,
-                ]
-              }),
-            ]
-          }),
           // LOWER GARDEN
           Component.Section({ 
             className: "garden-section lower",
