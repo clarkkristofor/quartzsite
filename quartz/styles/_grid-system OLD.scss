@@ -1,0 +1,324 @@
+@use "customVariables" as v;
+
+/* ==========================================================================
+   0. GLOBAL RESPONSIVENESS FIXES (The Mobile Margins)
+   ========================================================================== */
+
+@media (max-width: v.$tablet-breakpoint) {
+  #quartz-root {
+    width: calc(100% - 30px) !important; 
+    margin: 0 auto !important;
+  }
+  .center article {
+    padding: 0 !important; 
+    img, pre, blockquote {
+      max-width: 100% !important;
+      height: auto !important;
+    }
+  }
+}
+
+/* ==========================================================================
+   1. HOMEPAGE & FOLDERS (The Grid Gatekeeper)
+   ========================================================================== */
+.page:has(.home-only-grid),
+.page:has(.folder-index-layout),
+body[data-slug$="index"] {
+
+  .garden-section {
+    display: grid;
+    gap: 2rem;
+    margin: 3rem 0;
+    width: 100%;
+    align-items: start; /* Prevents short sidebars from stretching unnaturally */
+
+    /* 3-Unit Macro Grid Splits */
+    &.upper { 
+      grid-template-columns: 2fr 1fr; /* ~66% Left | ~33% Right */
+    } 
+    &.lower { 
+      grid-template-columns: 1fr 2fr; /* ~33% Left | ~66% Right */
+    } 
+
+    /* Mobile & Tablet Responsiveness */
+    @media (max-width: v.$tablet-breakpoint) {
+      grid-template-columns: 1fr !important; /* Stack vertically on small screens */
+      gap: 1.5rem;
+    }
+  }
+}
+
+
+/* ==========================================================================
+   2. INDIVIDUAL NOTES (The Centering Reset)
+   ========================================================================== */
+body:not([data-slug$="index"]):not(:has(.home-only-grid)) {
+  
+  /* 1. Kill the Sidebars and release their Grid slots */
+  .page > #quartz-body .sidebar.right,
+  .page > #quartz-body .sidebar.left,
+  .sidebar {
+    display: none !important;
+    grid-area: none !important; 
+    width: 0 !important;
+    height: 0 !important;
+    position: absolute !important;
+  }
+
+  /* 2. Stack everything vertically */
+  #quartz-body {
+    display: flex !important;
+    flex-direction: column !important; 
+    align-items: center !important;    
+    width: 100% !important;
+    max-width: none !important;
+    
+    /* KILL THE SCROLL: This overrides the 1200px media query padding */
+    padding: 0 !important; 
+    margin: 0 !important;
+    
+    grid-template-areas: none !important;
+    grid-template-columns: 100% !important;
+    gap: 2rem !important;
+  }
+
+  /* 3. The Note Content */
+  .center {
+    width: 100% !important;
+    max-width: 800px !important; /* Keeps desktop text readable */
+    margin: 0 auto !important;
+    display: block !important;
+    min-width: unset !important;
+    
+    @media (max-width: v.$tablet-breakpoint) {
+      max-width: none !important; /* Allows mobile to use the calc margin */
+    }
+  }
+
+  /* 4. The Footer Fix: Breaking out of the Grid slot */
+  .page > #quartz-body footer, 
+  footer {
+    display: block !important;
+    grid-area: unset !important;   /* CRITICAL: Stops it from jumping to the side */
+    width: 100% !important;
+    padding: 0 !important;
+    max-width: 800px !important;
+    margin: 4rem auto 4rem auto !important;
+    min-width: unset !important;   /* Overrides the 'min-width: 100%' you found */
+    // text-align: center !important; /* Optional: centers the footer text */
+    box-sizing: border-box !important; /* Safety net for layout math */
+  }
+}
+
+@media (max-width: v.$tablet-breakpoint) {
+  /* This creates the 15px side margins for the whole page */
+  #quartz-root {
+    width: calc(100vw - 30px) !important; 
+    margin: 0 auto !important;
+
+    /* Prevents horizontal overflow if the calculation is tight */
+    overflow-x: hidden;
+  }
+
+  /* This protects content from overflowing the new margins */
+  .center article {
+    padding: 0 !important; 
+    box-sizing: border-box !important;
+    overflow-wrap: break-word;
+
+    /* Keep these! They prevent images/code from breaking the layout */
+    img, pre, blockquote {
+      max-width: calc(100vw - 15px) !important; 
+      height: auto !important;
+
+      @media (pointer: fine) {
+      /* Adds a tiny bit of extra breathing room only when a mouse is used */
+      width: calc(100vw - 30px) !important; 
+      }
+    }
+  }
+
+  @media (pointer: fine) {
+    #quartz-root {
+      /* Adds a tiny bit of extra breathing room only when a mouse is used */
+      width: calc(100vw - 40px) !important; 
+    }
+  }
+}
+
+/* ==========================================================================
+   3. MACRO GRID STRUCTURE (The Garden Sections)
+   ========================================================================== */
+
+.blog-section .simple-list, 
+.home-only-grid .simple-list {
+  display: flex !important;
+  flex-direction: row !important;
+  flex-wrap: wrap !important; 
+  gap: 1rem !important; 
+  padding: 0;
+  margin: 0;
+  width: 100% !important;
+}
+
+.garden-section {
+  display: grid;
+  gap: 2rem;
+  margin: 3rem 0;
+  width: 100%;
+
+  &.upper { grid-template-columns: 2fr 1fr; }
+  &.lower { grid-template-columns: 1fr 2fr; }
+
+  @media (max-width: v.$tablet-breakpoint) {
+    grid-template-columns: 1fr !important;
+    gap: 1.5rem;
+  }
+}
+
+/* ==========================================================================
+   4. MICRO GRID STRUCTURE (The Cards)
+   ========================================================================== */
+
+.folder-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1.5rem;
+  width: 100%;
+
+  @media (max-width: v.$tablet-breakpoint) {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  @media (max-width: 600px) {
+    grid-template-columns: repeat(2, 1fr) !important; 
+    gap: 12px !important;
+  }
+}
+
+body .book-grid.folder-grid,
+body .book-grid .folder-grid,
+body[data-slug^="books"] .folder-grid,
+.lower .garden-col-left .folder-grid {
+  grid-template-columns: repeat(6, 1fr) !important;
+  gap: 1rem !important;
+
+  @media (max-width: 1200px) { 
+    grid-template-columns: repeat(4, 1fr) !important; 
+  }
+  
+  @media (max-width: v.$tablet-breakpoint) { 
+    grid-template-columns: repeat(3, 1fr) !important; 
+  }
+  
+  @media (max-width: 600px) { 
+    grid-template-columns: repeat(3, 1fr) !important;
+    gap: 8px !important; 
+  }
+}
+
+.lower .garden-col-right .folder-grid {
+  grid-template-columns: 1fr !important;
+}
+
+/* ==========================================================================
+   5. CARD STYLING & TYPOGRAPHY OVERRIDES
+   ========================================================================== */
+
+.grid-card {
+  display: flex;
+  flex-direction: column;
+  background-color: var(--light);
+  border-radius: 4px;
+  overflow: hidden;
+  height: 100%;
+  transition: transform v.$transition-smooth, box-shadow v.$transition-smooth;
+
+  &:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+  }
+
+  .card-image {
+    width: 100%;
+    aspect-ratio: 2 / 3;
+    overflow: hidden;
+    
+    img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      display: block;
+      margin: 0 !important;
+    }
+  }
+
+  .card-content {
+    padding: 1rem !important;
+    h3 { 
+      margin: 0 !important; 
+      color: v.$brand-blue; 
+    }
+  }
+}
+
+/* ==========================================================================
+   6. FOLDER PAGE LIST FILTERING
+   ========================================================================== */
+
+.page-listing {
+  & > p {
+    display: none !important;
+  }
+
+  &::before {
+    content: "Subfolders in this folder";
+    display: block;
+    margin-bottom: 1rem;
+    margin-top: 2.5rem;
+    font-family: v.$font-body;
+    color: var(--gray);
+    font-size: 0.9rem;
+    font-weight: bold;
+    text-transform: capitalize;
+  }
+
+  .section-ul {
+    .section-li {
+      display: none !important;
+
+      &:has(a[href$="/"]) {
+        display: list-item !important;
+      }
+      
+      &:has(a[href*="/index/"]) {
+        display: list-item !important;
+      }
+    }
+  }
+}
+
+/* ==========================================================================
+FULL-WIDTH HOMEPAGE OVERRIDE
+========================================================================== */
+
+body[data-slug="index"],
+.page:has(.home-only-grid) {
+  /* Hide sidebars on homepage */
+  .sidebar.left,
+  .sidebar.right {
+    display: none !important;
+  }
+
+  /* Force Quartz main content containers to full screen width */
+  #quartz-root,
+  .page,
+  .center,
+  .page-header,
+  article {
+    width: 100% !important;
+    max-width: 1400px !important; /* Expands container to allow large cards */
+    margin-left: auto !important;
+    margin-right: auto !important;
+  }
+}

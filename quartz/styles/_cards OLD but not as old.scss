@@ -1,0 +1,354 @@
+@use "customVariables" as v;
+
+
+
+/* ==========================================================================
+   1. BASE CARD STYLE (The Container)
+   ========================================================================== */
+.grid-card {
+  display: flex;
+  flex-direction: column;
+  background-color: var(--light);
+  border-radius: 4px;
+  overflow: hidden;
+  height: 100%;
+  transition: transform v.$transition-smooth, box-shadow v.$transition-smooth;
+
+  &:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+  }
+
+  .card-image {
+    width: 100%;
+    aspect-ratio: 2 / 3;
+    overflow: hidden;
+    img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      display: block;
+      margin: 0 !important;
+    }
+  }
+
+  .card-content {
+    padding: 0.75rem 0.5rem !important;
+    display: flex;
+    flex-direction: column;
+    gap: 0.25rem;
+
+    h3 {
+      margin: 0 !important;
+      font-size: 1rem;
+      color: v.$brand-blue;
+      font-family: v.$font-main;
+    }
+
+    p {
+      margin: 0;
+      font-style: italic;
+      font-size: 0.875rem !important;
+      font-weight: 500;
+      color: #a33827 !important; /* High-contrast rust */
+      font-family: v.$font-body;
+      display: -webkit-box;
+      -webkit-line-clamp: 3;
+      -webkit-box-orient: vertical;
+      overflow: hidden;
+    }
+  }
+}
+
+/* ==========================================================================
+   2. BOOK & LIBRARY SPECIFIC
+   ========================================================================== */
+.book-grid .grid-card, 
+.library-list .grid-card {
+  .card-content {
+    padding: 0.6rem !important;
+    h3 { font-size: 1rem; }
+    p { 
+      -webkit-line-clamp: 2; 
+      font-size: 0.875rem !important; 
+      line-height: 1.35 !important;    /* Added: fixes line-height when author names wrap */
+      margin-top: 0.2rem !important;   /* Added: standardizes gap below book titles */
+      color: #a33827 !important;       
+      font-style: italic !important;
+    }
+  }
+}
+
+/* ==========================================================================
+   3. LIST ITEMS (Music / Session Notes / Bottom Notes)
+   ========================================================================== */
+
+/* A. DEFAULT HORIZONTAL GRID (Preserves the 4-column layout for Notes) */
+.blog-section .simple-list, 
+.home-only-grid .simple-list {
+  display: flex !important;
+  flex-direction: row !important;
+  flex-wrap: wrap !important; 
+  gap: 1rem !important; 
+  padding: 0;
+  margin: 0;
+  width: 100% !important;
+}
+
+/* B. SIDEBAR VERTICAL STACK OVERRIDE ONLY (Session notes & Music) */
+.garden-section .simple-list,
+.garden-col-left .simple-list,
+.garden-col-right .simple-list,
+.music-section .simple-list {
+  flex-direction: column !important;
+  flex-wrap: nowrap !important;
+  gap: 1.25rem !important;
+
+  .grid-card.list-item-card {
+    flex: 1 1 100% !important;
+    width: 100% !important;
+    border-bottom: 1px dotted var(--lightgray, #e5e5e5) !important;
+    padding-bottom: 0.75rem !important;
+
+    &:last-child {
+      border-bottom: none !important;
+    }
+  }
+}
+
+/* C. CARD ITEM BASE STYLES */
+.blog-section, .home-only-grid {
+  .grid-card.list-item-card {
+    flex: 1 1 calc(23% - 0.5rem) !important; 
+    min-width: 200px !important; 
+    display: flex !important;
+    flex-direction: row !important;      
+    align-items: flex-start !important;
+    padding: 0.5rem 0 !important;
+    background: transparent !important;
+    border: none !important;
+    box-shadow: none !important;
+    height: auto !important;
+    text-decoration: none !important;
+
+    &:hover {
+      transform: translateX(4px) !important;
+      background: transparent !important;
+      h3 { color: var(--dark) !important; }
+      .card-metadata { color: #822a1c !important; }
+      .card-snippet p { color: var(--dark) !important; opacity: 1 !important; }
+    }
+
+    .card-icon-wrapper {
+      margin-right: 0.8rem;
+      margin-top: 0.35rem; 
+      flex-shrink: 0;
+      color: #a33827;
+      svg { width: 18px; height: 18px; display: block; }
+    }
+
+    .card-content {
+      padding: 0 !important;
+      display: flex;
+      flex-direction: column; 
+      min-width: 0;
+
+      h3 {
+        font-size: 0.95rem !important;
+        line-height: 1.3 !important;
+        margin: 0 !important;
+        font-style: normal !important;
+        color: var(--dark) !important; 
+        text-decoration: none !important;
+      }
+
+      .card-metadata {
+        font-family: var(--bodyFont);
+        font-style: italic !important; 
+        font-size: 0.875rem !important;
+        font-weight: 500 !important;
+        line-height: 1.35 !important;  /* Added: matches Books line height exactly */
+        color: #a33827 !important; /* Higher contrast rust */
+        opacity: 1 !important;
+        margin-bottom: 0.25rem;
+        text-decoration: none !important;
+      }
+
+      .card-snippet p {
+        font-family: var(--bodyFont) !important;
+        font-style: normal !important;      
+        color: var(--darkgray) !important;  
+        opacity: 0.85 !important;
+        font-size: 0.85rem !important;
+        line-height: 1.4;
+        margin: 0 !important;
+        text-decoration: none !important;
+        display: -webkit-box;
+        -webkit-line-clamp: 2;
+        -webkit-box-orient: vertical;
+        overflow: hidden;
+      }
+    }
+  }
+}
+
+/* D. MUSIC OVERRIDE */
+.music-section .grid-card.list-item-card {
+  align-items: center !important;
+  .card-icon-wrapper {
+    margin-top: 0 !important; 
+  }
+}
+
+/* ==========================================================================
+   4. RANDOM FIXES & OVERRIDES
+   ========================================================================== */
+body[data-slug="books/index"] .header-link { display:none !important; }
+body[data-slug="books/index"] {
+  .garden-section-container:nth-of-type(2) {
+    margin-top: 5rem !important; 
+    padding-top: 2rem;
+    border-top: 1px solid var(--lightgray);
+    display: block !important;
+    .garden-title { margin-top: 0 !important; }
+  }
+}
+
+.callout.is-collapsed > .callout-content {
+  display: none !important;
+}
+
+.callout:not(.is-collapsed) > .callout-content {
+  display: block !important;
+}
+
+/* ==========================================================================
+   EXACT HARMONIZATION FOR BOOKS (p) AND MUSIC (div)
+   ========================================================================== */
+
+/* Target BOTH the <p> in Books and the <div> in Music simultaneously */
+.grid-card .card-content p.card-author,
+.book-grid .grid-card .card-content p,
+.blog-section .grid-card.list-item-card .card-metadata,
+.home-only-grid .grid-card.list-item-card .card-metadata {
+  
+  /* 1. Standardize Display & Box Model */
+  display: block !important;
+  display: -webkit-box !important;
+  -webkit-box-orient: vertical !important;
+  -webkit-line-clamp: 2 !important;
+  
+  /* 2. Overrule inherited p { line-height: 1.6rem } from index.css */
+  line-height: 1.3 !important;
+  font-size: 0.875rem !important;
+  font-weight: 500 !important;
+  font-style: italic !important;
+  color: #a33827 !important;
+  
+  /* 3. Reset Margins & Padding to prevent flow-root shifts */
+  margin: 0.2rem 0 0 0 !important;
+  padding: 0 !important;
+  opacity: 1 !important;
+}
+
+/* ==========================================================================
+   RPG CARD GRID (Upper Section - 2fr Column)
+   ========================================================================== */
+
+/* Sub-grid container for RPG cards */
+.rpg-grid {
+  display: grid !important;
+  grid-template-columns: repeat(2, 1fr) !important; /* 2 cards side-by-side */
+  gap: 1.5rem !important;
+  width: 100% !important;
+
+  @media (max-width: v.$tablet-breakpoint) {
+    grid-template-columns: 1fr !important;
+  }
+}
+
+/* Force RPG Cards to be Vertical (Image top, text bottom) */
+.rpg-card {
+  display: flex !important;
+  flex-direction: column !important; /* STACK VERTICALLY */
+  width: 100% !important;
+  height: 100% !important;
+  background-color: var(--light);
+  border-radius: 6px;
+  overflow: hidden;
+
+  /* Image wrapper styling */
+  .rpg-card-image-wrapper,
+  .rpg-card-image {
+    width: 100% !important;
+    max-width: 100% !important;
+    flex: 0 0 auto !important; /* Stop flex-shrink from squishing the image */
+    aspect-ratio: 16 / 9;
+    overflow: hidden;
+
+    img {
+      width: 100% !important;
+      height: 100% !important;
+      object-fit: cover !important;
+      display: block !important;
+      margin: 0 !important;
+    }
+  }
+
+  .rpg-card-content {
+    padding: 1rem !important;
+    display: flex !important;
+    flex-direction: column !important;
+    justify-content: space-between !important;
+    flex: 1 1 auto !important;
+  }
+}
+
+.rpg-card {
+  width: 100% !important;
+  
+  .rpg-card-image-wrapper {
+    width: 100% !important;
+    height: auto !important;
+    aspect-ratio: 16 / 9 !important;
+  }
+}
+
+.grid-card {
+  width: 100% !important;
+
+  .card-image {
+    width: 100% !important;
+    height: auto !important;
+    aspect-ratio: 2 / 3 !important;
+  }
+}
+
+/* ==========================================================================
+FLEXIBLY SPANNED ROW GRIDS
+========================================================================== */
+
+.rpg-grid,
+.book-grid,
+.media-grid,
+.grid-card-container {
+  display: flex !important;
+  flex-direction: row !important;
+  flex-wrap: nowrap !important; /* Force items into a single row on desktop */
+  gap: 1.25rem !important;
+  width: 100% !important;
+
+  /* Target all direct children/cards inside containers */
+  & > * {
+    flex: 1 1 0px !important; /* Equal distribution across the row */
+    min-width: 0 !important;   /* Allows flex shrinkage without breaking layout */
+  }
+
+  /* Wrap into standard multi-row grids on mobile/tablets only */
+  @media (max-width: 768px) {
+    flex-wrap: wrap !important;
+    & > * {
+      flex: 1 1 140px !important; /* Min width per card on mobile */
+    }
+  }
+}
