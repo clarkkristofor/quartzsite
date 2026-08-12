@@ -8,7 +8,7 @@ interface Options {
 }
 
 const defaultOptions = {
-  title: "TTRPG Systems",
+  title: "RPGs",
   maxDisplay: Infinity,
 } satisfies Options
 
@@ -38,8 +38,7 @@ export default ((userOpts?: Options) => {
 
     const maxLimit = opts.maxDisplay ?? Infinity
     const displayedNotes = allRpgNotes.slice(0, maxLimit)
-    const hasMore = allRpgNotes.length > maxLimit
-    const rpgsFolderUrl = resolveRelative(fileData.slug!, "rpgs" as SimpleSlug)
+    // const rpgsFolderUrl = resolveRelative(fileData.slug!, "rpgs" as SimpleSlug)
 
     return (
       <div className="rpg-section">
@@ -91,27 +90,6 @@ export default ((userOpts?: Options) => {
               </div>
             )
           })}
-
-          {/* Capped "More" Card */}
-          {hasMore && (
-            <div className="rpg-card rpg-card-more">
-              <div className="rpg-card-content">
-                <div className="rpg-card-header">
-                  <h3>
-                    <a href={rpgsFolderUrl} className="internal">
-                      More Systems →
-                    </a>
-                  </h3>
-                </div>
-                <p className="rpg-card-desc">
-                  Explore {allRpgNotes.length - maxLimit} additional campaign logs and rules.
-                </p>
-                <a href={rpgsFolderUrl} className="internal view-all-link">
-                  View All RPG Notes ({allRpgNotes.length})
-                </a>
-              </div>
-            </div>
-          )}
         </div>
       </div>
     )
