@@ -17,25 +17,33 @@ body[data-slug="index"],
 body[data-slug=""],
 body[data-slug="index/"] {
 
-  /* 1. Force central content container to span across all grid columns */
-  .center {
-    grid-column: 1 / -1 !important;
+  /* 1. Reset parent containers so they don't constrain .center to 320px */
+  #quartz-body,
+  .page,
+  div.center {
     width: 100% !important;
-    max-width: 1100px !important; /* Set your preferred max container width */
+    min-width: 100% !important;
+    max-width: 1100px !important; /* Adjust to your preferred max container width */
     margin: 0 auto !important;
+    grid-column: 1 / -1 !important;
+    flex: 1 1 100% !important;
   }
 
-  /* 2. Hide empty sidebar columns completely */
+  /* 2. Hide left and right sidebars completely */
   .sidebar.left,
-  .sidebar.right {
+  .sidebar.right,
+  #quartz-body > .sidebar {
     display: none !important;
     width: 0 !important;
+    min-width: 0 !important;
     padding: 0 !important;
     margin: 0 !important;
   }
 
-  /* 3. Allow inner card rows to expand across the full 1100px width */
+  /* 3. Force inner components and article wrappers to fill the 1100px width */
   article,
+  .page-header,
+  .garden-section,
   .rpg-grid,
   .book-grid {
     width: 100% !important;
