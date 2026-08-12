@@ -304,9 +304,28 @@ body[data-slug="books/index"] {
   }
 }
 
+.rpg-card {
+  width: 100% !important;
+  
+  .rpg-card-image-wrapper {
+    width: 100% !important;
+    height: auto !important;
+    aspect-ratio: 16 / 9 !important;
+  }
+}
+
+.grid-card {
+  width: 100% !important;
+
+  .card-image {
+    width: 100% !important;
+    height: auto !important;
+    aspect-ratio: 2 / 3 !important;
+  }
+}
 
 /* ==========================================================================
-   FLEXIBLY SPANNED ROW GRIDS (Auto-distribute 100% width)
+FLEXIBLY SPANNED ROW GRIDS
 ========================================================================== */
 
 .rpg-grid,
@@ -315,45 +334,21 @@ body[data-slug="books/index"] {
 .grid-card-container {
   display: flex !important;
   flex-direction: row !important;
-  flex-wrap: wrap !important; /* Wraps cleanly on mobile/small screens */
+  flex-wrap: nowrap !important; /* Force items into a single row on desktop */
   gap: 1.25rem !important;
   width: 100% !important;
 
-  /* Target all direct children/cards inside the containers */
+  /* Target all direct children/cards inside containers */
   & > * {
-    flex: 1 1 0px !important; /* Grow equally to fill 100% of the row width */
-    min-width: 0 !important;   /* Prevents content from forcing flex items to overflow */
+    flex: 1 1 0px !important; /* Equal distribution across the row */
+    min-width: 0 !important;   /* Allows flex shrinkage without breaking layout */
   }
 
-  /* Responsive Fallback for Mobile/Tablets */
-  @media (max-width: v.$tablet-breakpoint) {
+  /* Wrap into standard multi-row grids on mobile/tablets only */
+  @media (max-width: 768px) {
+    flex-wrap: wrap !important;
     & > * {
-      /* On smaller screens, allow cards to wrap cleanly when space gets tight */
-      flex: 1 1 200px !important; 
+      flex: 1 1 140px !important; /* Min width per card on mobile */
     }
-  }
-}
-
-/* Ensure RPG cards fill their flex item parent width */
-.rpg-card {
-  width: 100% !important;
-  height: 100% !important;
-  display: flex !important;
-  flex-direction: column !important;
-
-  .rpg-card-image-wrapper {
-    width: 100% !important;
-    aspect-ratio: 16 / 9; /* Maintains uniform aspect ratio as card gets wider */
-  }
-}
-
-/* Ensure Book / Media cards fill their flex item parent width */
-.grid-card {
-  width: 100% !important;
-  height: 100% !important;
-
-  .card-image {
-    width: 100% !important;
-    aspect-ratio: 2 / 3; /* Aspect ratio for book covers */
   }
 }

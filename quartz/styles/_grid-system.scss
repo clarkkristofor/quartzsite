@@ -298,20 +298,27 @@ body[data-slug^="books"] .folder-grid,
   }
 }
 
-/* ==========================================================================\n   FULL-WIDTH HOMEPAGE OVERRIDE\n   ========================================================================== */
+/* ==========================================================================
+FULL-WIDTH HOMEPAGE OVERRIDE
+========================================================================== */
+
 body[data-slug="index"],
 .page:has(.home-only-grid) {
-  /* Hide sidebars on homepage if empty or unneeded */
+  /* Hide sidebars on homepage */
   .sidebar.left,
   .sidebar.right {
     display: none !important;
   }
 
-  /* Expand center content area to 100% width */
+  /* Force Quartz main content containers to full screen width */
+  #quartz-root,
+  .page,
   .center,
   .page-header,
   article {
     width: 100% !important;
-    max-width: 100% !important;
+    max-width: 1400px !important; /* Expands container to allow large cards */
+    margin-left: auto !important;
+    margin-right: auto !important;
   }
 }
