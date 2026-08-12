@@ -15,5 +15,5 @@ previewLink: http://books.google.com/books?id=Ey_-0QEACAAJ&dq=From+strength+to+s
 isbn13: 9798995566977
 localCoverImage: Files/BookCovers/From Strength to Strength - Arthur C Brooks.jpg
 date_finished: 2026-08-11
-publish: true
+publish: true true
 ---

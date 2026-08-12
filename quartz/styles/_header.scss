@@ -38,7 +38,7 @@ header {
   overflow: visible !important;
 
   #superclark {
-    fill: var(--light);
+    fill: var(--dark);
     // Handles Quartz dark mode theme switching
     [saved-theme="dark"] & { fill: var(--secondary); }
     transition: fill v.$transition-smooth;
