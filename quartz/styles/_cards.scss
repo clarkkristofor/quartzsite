@@ -221,3 +221,11 @@ body[data-slug="books/index"] {
 .callout:not(.is-collapsed) > .callout-content {
   display: block !important;
 }
+
+/* Standardize line wrapping behavior across Books and Music */
+.grid-card .card-content p,
+.book-grid .grid-card .card-content p,
+.blog-section .grid-card.list-item-card .card-metadata,
+.home-only-grid .grid-card.list-item-card .card-metadata {
+  text-wrap: wrap !important; /* Prevents text-wrap: pretty from prematurely forcing lines */
+}
