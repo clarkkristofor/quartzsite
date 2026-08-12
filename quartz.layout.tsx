@@ -41,16 +41,6 @@ export const defaultContentPageLayout: PageLayout = {
             className: "garden-section lower",
             children: [
               Component.Section({
-                className: "garden-col-left",
-                children: [
-                  Component.BookGrid({ 
-                    folder: "books", 
-                    displayClass: "book-grid", 
-                    limit: 6 
-                  }) as any,
-                ]
-              }),
-              Component.Section({
                 className: "garden-col-right",
                 children: [
                   Component.GardenSection({ 
@@ -61,17 +51,27 @@ export const defaultContentPageLayout: PageLayout = {
                   }) as any,
                 ]
               }),
-            ]
-          }),
-          Component.Section({
-            className: "blog-section",
-            children: [
-              Component.GardenSection({ 
-                title: "Notes", 
-                folder: "blog", 
-                link: "/blog/", 
-                limit: 4
-              }) as any
+              Component.Section({
+                className: "garden-col-left",
+                children: [
+                  Component.BookGrid({ 
+                    folder: "books", 
+                    displayClass: "book-grid", 
+                    limit: 3
+                  }) as any,
+                ]
+              }),
+              Component.Section({
+                className: "blog-section",
+                children: [
+                  Component.GardenSection({ 
+                    title: "Notes", 
+                    folder: "blog", 
+                    link: "/blog/", 
+                    limit: 4
+                  }) as any
+                ]
+              }),
             ]
           }),
         ]
