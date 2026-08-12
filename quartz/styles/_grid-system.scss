@@ -1,8 +1,39 @@
 @use "customVariables" as v;
 
 /* ==========================================================================
-   CLEAN CARD ROWS (Fills 100% of Central Content Area)
+1. FULL-WIDTH HOMEPAGE / CENTRAL LAYOUT OVERRIDE
 ========================================================================== */
+
+body[data-slug="index"],
+.page:has(.home-only-grid) {
+
+  /* Collapse sidebars on homepage if empty */
+  .sidebar.left,
+  .sidebar.right {
+    display: none !important;
+    width: 0 !important;
+    padding: 0 !important;
+    margin: 0 !important;
+  }
+
+  /* Force content container to take up maximum available desktop width */
+  #quartz-root,
+  .page,
+  .center,
+  .page-header,
+  article {
+    width: 100% !important;
+    max-width: 1200px !important; /* Adjust if you want an even wider spread */
+    margin-left: auto !important;
+    margin-right: auto !important;
+    padding-left: 1rem !important;
+    padding-right: 1rem !important;
+  }
+}
+
+/* ==========================================================================
+   2. FLEXIBLY SPANNED HORIZONTAL CARD ROWS
+   ========================================================================== */
 
 .rpg-grid,
 .book-grid,
@@ -10,18 +41,18 @@
 .grid-card-container {
   display: flex !important;
   flex-direction: row !important;
-  flex-wrap: nowrap !important; /* Forces cards into a single horizontal row */
-  gap: 1rem !important;
+  flex-wrap: nowrap !important; /* Keeps all cards in a single line on desktop */
+  gap: 1.25rem !important;
   width: 100% !important;
   margin: 1.5rem 0 !important;
 
-  /* Target all cards inside the containers */
+  /* Force direct child cards to scale equally across the row */
   & > * {
-    flex: 1 1 0px !important; /* Equal distribution across available width */
-    min-width: 0 !important;   /* Allows text/images to scale down cleanly */
+    flex: 1 1 0px !important;
+    min-width: 0 !important; /* Critical: prevents overflow/shrink conflicts */
   }
 
-  /* Responsive Fallback: Allow wrapping on small screens/tablets */
+  /* Mobile / Tablet wrapping */
   @media (max-width: 768px) {
     flex-wrap: wrap !important;
     & > * {
