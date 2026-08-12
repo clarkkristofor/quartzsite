@@ -1,5 +1,7 @@
 @use "customVariables" as v;
 
+
+
 /* ==========================================================================
    1. BASE CARD STYLE (The Container)
    ========================================================================== */
@@ -215,4 +217,23 @@ body[data-slug="books/index"] {
 
 .callout:not(.is-collapsed) > .callout-content {
   display: block !important;
+}
+
+/* ==========================================================================
+   METADATA LINE-HEIGHT & WRAP HARMONIZATION
+   ========================================================================== */
+
+/* 1. Books / Grid Card Authors & Subtitles */
+.grid-card .card-content p,
+.book-grid .grid-card .card-content p {
+  line-height: 1.35 !important;    /* Opens up wrapped text spacing */
+  margin-top: 0.2rem !important;   /* Creates consistent gap below the bold title */
+}
+
+/* 2. Music / List Item Subtitles & Metadata */
+.blog-section .grid-card.list-item-card .card-metadata,
+.home-only-grid .grid-card.list-item-card .card-metadata {
+  line-height: 1.35 !important;    /* Matches Books line height exactly */
+  margin-top: 0.15rem !important;
+  margin-bottom: 0.25rem !important;
 }
