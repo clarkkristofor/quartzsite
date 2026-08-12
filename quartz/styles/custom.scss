@@ -13,20 +13,19 @@
 FULL-WIDTH HOMEPAGE OVERRIDE
 ========================================================================== */
 
-/* Target index, root slug, or pages with homepage grid classes */
 body[data-slug="index"],
-body[data-slug=""],
-body[data-slug="index/"],
-.page:has(.rpg-grid) {
+body[data-slug=""] {
 
-  /* 1. Break Quartz's 3-column grid layout */
+  /* 1. Reset page layout to a simple vertical block */
   .page {
-    display: flex !important;
-    flex-direction: column !important; /* Stack header, content, and footer vertically */
+    display: block !important;
     width: 100% !important;
+    max-width: 1200px !important;
+    margin: 0 auto !important;
+    padding: 0 1.5rem !important;
   }
 
-  /* 2. Hide sidebars if you want card rows to take 100% full monitor width */
+  /* 2. Collapse and hide sidebars completely */
   .sidebar.left,
   .sidebar.right {
     display: none !important;
@@ -36,21 +35,23 @@ body[data-slug="index/"],
     margin: 0 !important;
   }
 
-  /* 3. Expand the main article container */
+  /* 3. Force main content wrappers to expand to 100% */
   #quartz-root,
   .center,
   .page-header,
   article {
+    display: block !important;
     width: 100% !important;
-    max-width: 1200px !important; /* Set to desired max width (e.g., 1400px or 100%) */
-    margin-left: auto !important;
-    margin-right: auto !important;
-    padding-left: 1rem !important;
-    padding-right: 1rem !important;
+    max-width: 100% !important;
+    margin: 0 !important;
+    padding: 0 !important;
   }
 }
 
-/* 3. SWORDS BEYOND LAYOUT & TYPOGRAPHY OVERRIDES */
+/* ==========================================================================
+SWORDS BEYOND LAYOUT & TYPOGRAPHY OVERRIDES
+========================================================================== */
+
 /* 1. Font Definition with correct static asset path */
 @font-face {
   font-family: 'Dragonsteel';

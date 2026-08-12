@@ -64,3 +64,9 @@ CARD CONTAINER & INNER IMAGE PROPORTIONS
     }
   }
 }
+
+.rpg-grid > *,
+.book-grid > * {
+  flex: 1 1 0px !important; /* Forces all cards in the row to expand equally to fill 100% width */
+  min-width: 0 !important;   /* Prevents overflow squishing */
+}
