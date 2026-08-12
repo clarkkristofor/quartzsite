@@ -5,7 +5,6 @@ description: classic
 link:
 image: https://upload.wikimedia.org/wikipedia/en/1/10/13th_Age%2C_role-playing_game.jpg
 date: 2024-11-21
-status: played
 ---
 ![[Matt's Campaign Notes]]
 
