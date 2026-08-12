@@ -256,51 +256,51 @@ body[data-slug="books/index"] {
    ========================================================================== */
 
 /* Sub-grid container for RPG cards */
-.garden-col-left .rpg-grid,
 .rpg-grid {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr); /* 2 RPG cards side-by-side */
-  gap: 1.5rem;
-  width: 100%;
+  display: grid !important;
+  grid-template-columns: repeat(2, 1fr) !important; /* 2 cards side-by-side */
+  gap: 1.5rem !important;
+  width: 100% !important;
 
-  @media (max-width: v.$mobile-breakpoint) {
-    grid-template-columns: 1fr; /* 1 card per row on mobile */
+  @media (max-width: v.$tablet-breakpoint) {
+    grid-template-columns: 1fr !important;
   }
 }
 
-/* Vertical RPG Card layout */
+/* Force RPG Cards to be Vertical (Image top, text bottom) */
 .rpg-card {
-  display: flex;
-  flex-direction: column; /* Stack image on top of text */
-  width: 100%;
-  height: 100%;
+  display: flex !important;
+  flex-direction: column !important; /* STACK VERTICALLY */
+  width: 100% !important;
+  height: 100% !important;
   background-color: var(--light);
   border-radius: 6px;
   overflow: hidden;
 
-  /* Fluid Image Container with Aspect Ratio constraint */
+  /* Image wrapper styling */
   .rpg-card-image-wrapper,
   .rpg-card-image {
     width: 100% !important;
     max-width: 100% !important;
-    aspect-ratio: 16 / 9; /* Fluid aspect ratio instead of fixed height */
+    flex: 0 0 auto !important; /* Stop flex-shrink from squishing the image */
+    aspect-ratio: 16 / 9;
     overflow: hidden;
 
     img {
-      width: 100%;
-      height: 100%;
-      object-fit: cover; /* Fill area cleanly without warping */
-      display: block;
+      width: 100% !important;
+      height: 100% !important;
+      object-fit: cover !important;
+      display: block !important;
       margin: 0 !important;
     }
   }
 
   .rpg-card-content {
-    padding: 1rem;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    flex: 1;
+    padding: 1rem !important;
+    display: flex !important;
+    flex-direction: column !important;
+    justify-content: space-between !important;
+    flex: 1 1 auto !important;
   }
 }
 
@@ -310,35 +310,19 @@ body[data-slug="books/index"] {
    ========================================================================== */
 
 /* Sub-grid container for Books / Media */
-.garden-col-right .book-grid,
-.book-grid {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr); /* 3 book cards side-by-side */
-  gap: 1.25rem;
-  width: 100%;
+.book-grid,
+.media-grid,
+.grid-card-container {
+  display: grid !important;
+  grid-template-columns: repeat(3, 1fr) !important; /* 3 book cards side-by-side */
+  gap: 1.25rem !important;
+  width: 100% !important;
+
+  @media (max-width: v.$tablet-breakpoint) {
+    grid-template-columns: repeat(2, 1fr) !important;
+  }
 
   @media (max-width: v.$mobile-breakpoint) {
-    grid-template-columns: repeat(2, 1fr); /* 2 per row on mobile */
-  }
-}
-
-/* Fluid Book Cards */
-.grid-card {
-  display: flex;
-  flex-direction: column;
-  width: 100%;
-
-  .card-image {
-    width: 100%;
-    aspect-ratio: 2 / 3; /* Standard book cover aspect ratio */
-    overflow: hidden;
-
-    img {
-      width: 100%;
-      height: 100%;
-      object-fit: cover;
-      display: block;
-      margin: 0 !important;
-    }
+    grid-template-columns: 1fr !important;
   }
 }
