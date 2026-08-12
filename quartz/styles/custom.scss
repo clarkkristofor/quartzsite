@@ -14,37 +14,32 @@ FULL-WIDTH HOMEPAGE OVERRIDE
 ========================================================================== */
 
 body[data-slug="index"],
-body[data-slug=""] {
+body[data-slug=""],
+body[data-slug="index/"] {
 
-  /* 1. Reset page layout to a simple vertical block */
-  .page {
-    display: block !important;
+  /* 1. Force central content container to span across all grid columns */
+  .center {
+    grid-column: 1 / -1 !important;
     width: 100% !important;
-    max-width: 1200px !important;
+    max-width: 1100px !important; /* Set your preferred max container width */
     margin: 0 auto !important;
-    padding: 0 1.5rem !important;
   }
 
-  /* 2. Collapse and hide sidebars completely */
+  /* 2. Hide empty sidebar columns completely */
   .sidebar.left,
   .sidebar.right {
     display: none !important;
     width: 0 !important;
-    height: 0 !important;
     padding: 0 !important;
     margin: 0 !important;
   }
 
-  /* 3. Force main content wrappers to expand to 100% */
-  #quartz-root,
-  .center,
-  .page-header,
-  article {
-    display: block !important;
+  /* 3. Allow inner card rows to expand across the full 1100px width */
+  article,
+  .rpg-grid,
+  .book-grid {
     width: 100% !important;
     max-width: 100% !important;
-    margin: 0 !important;
-    padding: 0 !important;
   }
 }
 
