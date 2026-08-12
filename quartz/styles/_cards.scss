@@ -250,3 +250,95 @@ body[data-slug="books/index"] {
   padding: 0 !important;
   opacity: 1 !important;
 }
+
+/* ==========================================================================
+   RPG CARD GRID (Upper Section - 2fr Column)
+   ========================================================================== */
+
+/* Sub-grid container for RPG cards */
+.garden-col-left .rpg-grid,
+.rpg-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); /* 2 RPG cards side-by-side */
+  gap: 1.5rem;
+  width: 100%;
+
+  @media (max-width: v.$mobile-breakpoint) {
+    grid-template-columns: 1fr; /* 1 card per row on mobile */
+  }
+}
+
+/* Vertical RPG Card layout */
+.rpg-card {
+  display: flex;
+  flex-direction: column; /* Stack image on top of text */
+  width: 100%;
+  height: 100%;
+  background-color: var(--light);
+  border-radius: 6px;
+  overflow: hidden;
+
+  /* Fluid Image Container with Aspect Ratio constraint */
+  .rpg-card-image-wrapper,
+  .rpg-card-image {
+    width: 100% !important;
+    max-width: 100% !important;
+    aspect-ratio: 16 / 9; /* Fluid aspect ratio instead of fixed height */
+    overflow: hidden;
+
+    img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover; /* Fill area cleanly without warping */
+      display: block;
+      margin: 0 !important;
+    }
+  }
+
+  .rpg-card-content {
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex: 1;
+  }
+}
+
+
+/* ==========================================================================
+   BOOK & MEDIA GRID (Lower Section - 2fr Column)
+   ========================================================================== */
+
+/* Sub-grid container for Books / Media */
+.garden-col-right .book-grid,
+.book-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* 3 book cards side-by-side */
+  gap: 1.25rem;
+  width: 100%;
+
+  @media (max-width: v.$mobile-breakpoint) {
+    grid-template-columns: repeat(2, 1fr); /* 2 per row on mobile */
+  }
+}
+
+/* Fluid Book Cards */
+.grid-card {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+
+  .card-image {
+    width: 100%;
+    aspect-ratio: 2 / 3; /* Standard book cover aspect ratio */
+    overflow: hidden;
+
+    img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      display: block;
+      margin: 0 !important;
+    }
+  }
+}

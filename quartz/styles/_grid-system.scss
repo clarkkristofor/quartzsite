@@ -24,68 +24,30 @@
 .page:has(.home-only-grid),
 .page:has(.folder-index-layout),
 body[data-slug$="index"] {
-  
-  #quartz-root {
-    margin: 0 auto !important;
-    max-width: v.$page-max-width !important; 
-    width: 95% !important; 
-    display: block !important;
-  }
 
-  #quartz-body {
-    display: block !important; 
-    width: 100% !important;
-    padding: 0 !important;
-  }
-
-  .sidebar { display: none !important; }
-
-  .center {
-    display: block !important;
-    width: 100% !important;
-    margin: 0 !important;
-    max-width: none !important;
-  }
-
-  /* Inside Section 1 (The Homepage Gatekeeper) */
   .garden-section {
-    display: grid !important;
-    width: 100% !important;
-    gap: 2rem !important;
+    display: grid;
+    gap: 2rem;
+    margin: 3rem 0;
+    width: 100%;
+    align-items: start; /* Prevents short sidebars from stretching unnaturally */
 
-    &.upper { grid-template-columns: 3fr 1fr !important; }
-    &.lower { grid-template-columns: 3fr 1fr !important; }
+    /* 3-Unit Macro Grid Splits */
+    &.upper { 
+      grid-template-columns: 2fr 1fr; /* ~66% Left | ~33% Right */
+    } 
+    &.lower { 
+      grid-template-columns: 1fr 2fr; /* ~33% Left | ~66% Right */
+    } 
 
-    /* MOVE THE STACKING LOGIC HERE */
+    /* Mobile & Tablet Responsiveness */
     @media (max-width: v.$tablet-breakpoint) {
-      display: flex !important;
-      flex-direction: column !important;
-      gap: 2rem !important;
-      
-      .garden-col-left, 
-      .garden-col-right {
-        width: 100% !important;
-      }
-      
-      .folder-grid {
-        grid-template-columns: repeat(2, 1fr) !important;
-        gap: 12px !important;
-      }
+      grid-template-columns: 1fr !important; /* Stack vertically on small screens */
+      gap: 1.5rem;
     }
-  }
-
-  @media (pointer: fine) {
-    #quartz-root {
-      /* Adds a tiny bit of extra breathing room only when a mouse is used */
-      width: calc(100vw - 40px) !important; 
-    }
-  }
-
-  .page > #quartz-body footer, 
-  footer {
-    margin: 4rem auto 4rem auto !important;
   }
 }
+
 
 /* ==========================================================================
    2. INDIVIDUAL NOTES (The Centering Reset)
@@ -205,8 +167,8 @@ body:not([data-slug$="index"]):not(:has(.home-only-grid)) {
   margin: 3rem 0;
   width: 100%;
 
-  &.upper { grid-template-columns: 3fr 1fr; }
-  &.lower { grid-template-columns: 3fr 1fr; }
+  &.upper { grid-template-columns: 2fr 1fr; }
+  &.lower { grid-template-columns: 1fr 2fr; }
 
   @media (max-width: v.$tablet-breakpoint) {
     grid-template-columns: 1fr !important;
