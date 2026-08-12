@@ -6,7 +6,7 @@ import { QuartzComponentProps } from "./quartz/components/types"
 export const sharedPageComponents: SharedLayout = {
   head: Component.Head(),
   header: [
-    // Component.PageMenu(),
+    Component.PageMenu(),
     Component.PageLogo(),
     Component.Search(),
   ],
@@ -23,7 +23,7 @@ const ChapterNext = Component.ChapterNavNext()
 // 2. STANDARD NOTE & HOMEPAGE LAYOUT
 export const defaultContentPageLayout: PageLayout = {
   beforeBody: [
-    // Homepage Logic - Restored to your exact working setup
+    // Homepage Layout Logic
     ((props: QuartzComponentProps) => {
       const slug = props.fileData.slug ?? ""
       const isHome = slug === "index" || slug === "" || slug === "/"
@@ -33,13 +33,47 @@ export const defaultContentPageLayout: PageLayout = {
         className: "home-only-grid",
         children: [
           Component.Section({ className: "home-hero", title: "" }),
-          Component.RPGgrid({
+          
+          // UPPER GARDEN (Session Notes & RPG Grid)
+          Component.Section({ 
+            className: "garden-section upper",
+            children: [
+              Component.Section({
+                className: "garden-col-left",
+                children: [
+                  Component.GardenSection({ 
+                    title: "Session notes", 
+                    folder: "rpgs/protected/session_notes", 
+                    link: "/rpgs/protected/session_notes/", 
+                    limit: 4
+                  }) as any
+                ]
+              }),
+              Component.Section({
+                className: "garden-col-right",
+                children: [
+                  Component.RPGgrid({ 
                     maxDisplay: 2
                   }) as any,
-          // LOWER GARDEN
+                ]
+              }),
+            ]
+          }),
+
+          // LOWER GARDEN (Books & Music)
           Component.Section({ 
             className: "garden-section lower",
             children: [
+              Component.Section({
+                className: "garden-col-left",
+                children: [
+                  Component.BookGrid({ 
+                    folder: "books", 
+                    displayClass: "book-grid", 
+                    limit: 6 
+                  }) as any,
+                ]
+              }),
               Component.Section({
                 className: "garden-col-right",
                 children: [
@@ -51,34 +85,26 @@ export const defaultContentPageLayout: PageLayout = {
                   }) as any,
                 ]
               }),
-              Component.Section({
-                className: "garden-col-left",
-                children: [
-                  Component.BookGrid({ 
-                    folder: "books", 
-                    displayClass: "book-grid", 
-                    limit: 3
-                  }) as any,
-                ]
-              }),
-              Component.Section({
-                className: "blog-section",
-                children: [
-                  Component.GardenSection({ 
-                    title: "Notes", 
-                    folder: "blog", 
-                    link: "/blog/", 
-                    limit: 4
-                  }) as any
-                ]
-              }),
+            ]
+          }),
+
+          // BLOG / NOTES SECTION
+          Component.Section({
+            className: "blog-section",
+            children: [
+              Component.GardenSection({ 
+                title: "Notes", 
+                folder: "blog", 
+                link: "/blog/", 
+                limit: 4
+              }) as any
             ]
           }),
         ]
-      })(props)
+      })(props) // <-- Executing with (props) preserves full grid hierarchy!
     }),
 
-    // Standard Note Headers
+    // Standard Note Headers (Non-Homepage)
     ((props: QuartzComponentProps) => {
       const slug = props.fileData.slug ?? ""
       const isHome = slug === "index" || slug === "" || slug === "/"
