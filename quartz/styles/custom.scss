@@ -9,32 +9,40 @@
 @use "cards";
 // Remove or comment out @use "rpgGrid"; if it contains old grid rules
 
-/* 2. FULL-WIDTH HOMEPAGE OVERRIDE */
-body[data-slug="index"] {
-  --page-width: 100% !important;
+/* ==========================================================================
+FULL-WIDTH HOMEPAGE OVERRIDE
+========================================================================== */
 
-  /* Reset Quartz's 3-column page grid */
+/* Target index, root slug, or pages with homepage grid classes */
+body[data-slug="index"],
+body[data-slug=""],
+body[data-slug="index/"],
+.page:has(.rpg-grid) {
+
+  /* 1. Break Quartz's 3-column grid layout */
   .page {
-    display: block !important;
+    display: flex !important;
+    flex-direction: column !important; /* Stack header, content, and footer vertically */
     width: 100% !important;
   }
 
-  /* Collapse empty sidebars */
+  /* 2. Hide sidebars if you want card rows to take 100% full monitor width */
   .sidebar.left,
   .sidebar.right {
     display: none !important;
     width: 0 !important;
+    height: 0 !important;
     padding: 0 !important;
     margin: 0 !important;
   }
 
-  /* Expand center column to full layout width */
+  /* 3. Expand the main article container */
   #quartz-root,
   .center,
   .page-header,
   article {
     width: 100% !important;
-    max-width: 1200px !important;
+    max-width: 1200px !important; /* Set to desired max width (e.g., 1400px or 100%) */
     margin-left: auto !important;
     margin-right: auto !important;
     padding-left: 1rem !important;
