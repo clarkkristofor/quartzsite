@@ -87,7 +87,7 @@ export default ((userOpts?: Options) => {
     const customClass = userOpts?.displayClass ?? displayClass
 
     return (
-      <div className={`garden-section-container ${customClass ?? ""}`}>
+      <div className={`garden-section-container rpg-section ${customClass ?? ""}`}>
         {/* Section Title matching BaseGrid.tsx header formatting */}
         {titleText && (
           <h2 className="garden-title">
@@ -113,8 +113,8 @@ export default ((userOpts?: Options) => {
           </h2>
         )}
 
-        {/* Grid wrapper using BaseGrid's folder-grid along with rpg-grid */}
-        <div className="folder-grid">
+        {/* Outer grid container */}
+        <div className="folder-grid rpg-grid">
           {displayNotes.map((rpg) => {
             const fm = (rpg.frontmatter ?? {}) as Frontmatter
 
@@ -128,16 +128,16 @@ export default ((userOpts?: Options) => {
             const rpgUrl = resolveRelative((fileData.slug ?? "") as FullSlug, rpg.slug!)
 
             return (
-              <div className="grid-card">
+              <div className="grid-card rpg-card" key={rpg.slug}>
                 {coverImage && (
-                  <div className="card-image">
+                  <div className="card-image rpg-card-image-link">
                     <a href={rpgUrl}>
                       <img src={coverImage} alt={rpgTitle} className="rpg-card-image" />
                     </a>
                   </div>
                 )}
 
-                <div className="card-content">
+                <div className="card-content rpg-card-content">
                   <div className="rpg-card-header">
                     <h3>
                       <a href={rpgUrl} className="internal">
@@ -150,7 +150,7 @@ export default ((userOpts?: Options) => {
 
                   {currentCampaign && (
                     <div className="rpg-card-status">
-                      <span className="status-label">🔥 Current Campaign:</span>{" "}
+                      <span className="status-label">🔥 Campaign:</span>{" "}
                       <a
                         href={resolveRelative((fileData.slug ?? "") as FullSlug, currentCampaign.slug)}
                         className="internal campaign-link"
@@ -163,6 +163,27 @@ export default ((userOpts?: Options) => {
               </div>
             )
           })}
+
+          {/* Capped "More" Card matching BaseGrid card formatting */}
+          {hasMore && (
+            <div className="grid-card rpg-card rpg-card-more">
+              <div className="card-content rpg-card-content">
+                <div className="rpg-card-header">
+                  <h3>
+                    <a href={rpgsFolderUrl} className="internal">
+                      More Systems →
+                    </a>
+                  </h3>
+                </div>
+                <p className="rpg-card-desc">
+                  Explore {activeRpgNotes.length - maxLimit} additional campaign logs and rules.
+                </p>
+                <a href={rpgsFolderUrl} className="internal view-all-link">
+                  View All RPG Notes ({activeRpgNotes.length})
+                </a>
+              </div>
+            </div>
+          )}
         </div>
       </div>
     )
