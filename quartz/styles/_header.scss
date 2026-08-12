@@ -4,23 +4,27 @@
    1. GLOBAL HEADER STRUCTURE
    ========================================================================== */
 header {
-  /* Remove 'all: unset !important;' */
   box-sizing: border-box;
   display: flex !important;
   justify-content: center !important;
   align-items: center !important;
-  z-index: 10;
-  
-  position: relative !important;
   width: 100% !important;
-  margin-top: 2rem !important;
-  margin-bottom: 2rem !important;
+  margin: 1.5rem auto !important;
   gap: 25px !important;
+  position: relative !important;
+  z-index: 10;
 
   @media (max-width: v.$mobile-breakpoint) {
     flex-wrap: wrap;
     gap: 15px !important;
   }
+}
+
+/* Ensure outer page-header wrapper takes full horizontal width */
+.page-header {
+  width: 100% !important;
+  display: block !important;
+  margin: 0 auto !important;
 }
 
 /* ==========================================================================

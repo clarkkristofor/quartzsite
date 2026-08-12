@@ -48,6 +48,14 @@ body[data-slug=""] {
   }
 }
 
+/* Ensure footer always spans full width across all CSS grid columns */
+footer {
+  grid-column: 1 / -1 !important;
+  width: 100% !important;
+  clear: both !important;
+  margin-top: 2rem !important;
+}
+
 /* ==========================================================================
 SWORDS BEYOND LAYOUT & TYPOGRAPHY OVERRIDES
 ========================================================================== */
