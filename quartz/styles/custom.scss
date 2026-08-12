@@ -7,32 +7,39 @@
 @use "header";
 @use "search";
 @use "cards";
-@use "rpgGrid";
+// Remove or comment out @use "rpgGrid"; if it contains old grid rules
 
-/* 2. GLOBAL OVERRIDES */
-:root {
-  --page-width: 1200px;
-}
-
-/* Force homepage grid to stretch full width */
+/* 2. FULL-WIDTH HOMEPAGE OVERRIDE */
 body[data-slug="index"] {
   --page-width: 100% !important;
-}
 
+  /* Reset Quartz's 3-column page grid */
+  .page {
+    display: block !important;
+    width: 100% !important;
+  }
 
-/* Zeroing gaps */
-#quartz-body, .page-header, .center, article, .folder-index-layout {
-  margin-top: 0 !important;
-  padding-top: 0 !important;
-  top: 0 !important;
-}
+  /* Collapse empty sidebars */
+  .sidebar.left,
+  .sidebar.right {
+    display: none !important;
+    width: 0 !important;
+    padding: 0 !important;
+    margin: 0 !important;
+  }
 
-.spacer, [style*="height"] { 
-  display: none !important; 
-}
-
-.darkmode { 
-  top: 4px; 
+  /* Expand center column to full layout width */
+  #quartz-root,
+  .center,
+  .page-header,
+  article {
+    width: 100% !important;
+    max-width: 1200px !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    padding-left: 1rem !important;
+    padding-right: 1rem !important;
+  }
 }
 
 /* 3. SWORDS BEYOND LAYOUT & TYPOGRAPHY OVERRIDES */
