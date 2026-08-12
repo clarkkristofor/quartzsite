@@ -80,11 +80,9 @@ export default ((userOpts?: Options) => {
 
     const maxLimit = userOpts?.maxDisplay ?? opts.maxDisplay
     const displayNotes = activeRpgNotes.slice(0, maxLimit)
-    const hasMore = activeRpgNotes.length > maxLimit
     const rpgsFolderUrl = resolveRelative((fileData.slug ?? "") as FullSlug, "rpgs/index" as SimpleSlug)
 
     const titleText = userOpts?.title ?? opts.title
-    const customClass = userOpts?.displayClass ?? displayClass
 
     return (
       <div className={`garden-section-container`}>

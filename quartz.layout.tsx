@@ -40,20 +40,20 @@ export const defaultContentPageLayout: PageLayout = {
               Component.Section({
                 className: "garden-col-left",
                 children: [
-                  Component.GardenSection({ 
-                    title: "Session notes", 
-                    folder: "rpgs/protected/session_notes", 
-                    link: "/rpgs/protected/session_notes/", 
-                    limit: 4
-                  }) as any
-                ]
-              }),
-              Component.Section({
-                className: "garden-col-right",
-                children: [
                   Component.RPGgrid({ 
                     maxDisplay: 2
                   }) as any,
+                ]
+              }),
+              Component.Section({
+                className: "garden-col-left",
+                children: [
+                  Component.GardenSection({ 
+                    title: "Notes", 
+                    folder: "blog", 
+                    link: "/blog/", 
+                    limit: 4
+                  }) as any
                 ]
               }),
             ]
@@ -84,19 +84,6 @@ export const defaultContentPageLayout: PageLayout = {
                   }) as any,
                 ]
               }),
-            ]
-          }),
-
-          // BLOG / NOTES SECTION
-          Component.Section({
-            className: "blog-section",
-            children: [
-              Component.GardenSection({ 
-                title: "Notes", 
-                folder: "blog", 
-                link: "/blog/", 
-                limit: 4
-              }) as any
             ]
           }),
         ]
