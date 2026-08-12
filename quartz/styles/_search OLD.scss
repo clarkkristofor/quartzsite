@@ -1,0 +1,105 @@
+@use "customVariables" as v;
+
+/* ==========================================================================
+   SEARCH INTERFACE _search.scss
+   ========================================================================== */
+
+/* 1. The Header Search Button (Styles the trigger to look like a search bar) */
+.search {
+  /* Fix layout parent positioning */
+  display: flex !important;
+  align-items: center !important;
+
+  .search-button {
+    background-color: v.$search-bg !important;
+    border: 1.5px solid var(--darkgray, #333333) !important;
+    border-radius: 6px !important;
+    padding: 6px 12px !important;
+    display: inline-flex !important;
+    align-items: center !important;
+    gap: 8px !important;
+    width: 200px !important; /* Adjust width as needed for header space */
+    cursor: pointer !important;
+    box-shadow: 2px 2px 0px rgba(0, 0, 0, 0.8) !important;
+    transition: border-color 0.2s ease, box-shadow 0.2s ease, transform 0.2s ease !important;
+
+    /* The Text ("Search") */
+    p {
+      margin: 0 !important;
+      font-family: v.$font-main, sans-serif !important;
+      font-size: 0.9rem !important;
+      color: var(--gray, #777777) !important;
+      font-style: italic;
+      opacity: 0.8;
+    }
+
+    /* The Magnifying Glass SVG */
+    svg {
+      width: 16px !important;
+      height: 16px !important;
+      fill: none !important;
+      stroke: var(--darkgray, #333333) !important;
+      stroke-width: 2px !important;
+      opacity: 0.8 !important;
+      transition: stroke 0.2s ease, opacity 0.2s ease !important;
+
+      path, g {
+        fill: none !important;
+        stroke: inherit !important;
+      }
+    }
+
+    /* Hover & Focus Interaction */
+    &:hover,
+    &:focus {
+      border-color: #a33827 !important; /* Rust accent */
+      box-shadow: 3px 3px 0px #a33827 !important;
+      transform: translateY(-1px);
+
+      p {
+        color: var(--dark, #2b2b2b) !important;
+        opacity: 1;
+      }
+
+      svg {
+        stroke: #a33827 !important;
+        opacity: 1 !important;
+      }
+    }
+  }
+}
+
+/* 2. The Popover Modal & Modal Input Field */
+.search-container {
+  .search-space {
+    background: var(--light, #fbf9f6) !important;
+    border: 1.5px solid var(--darkgray, #333333) !important;
+    border-radius: 6px !important;
+    box-shadow: 4px 4px 0px rgba(0, 0, 0, 0.8) !important;
+    padding: 12px !important;
+
+    /* Actual text input inside the modal */
+    input.search-bar {
+      background: transparent !important;
+      border: 1px solid var(--lightgray, #e5e5e5) !important;
+      border-radius: 4px !important;
+      padding: 8px 12px !important;
+      font-family: v.$font-main, sans-serif !important;
+      font-size: 0.95rem !important;
+      color: var(--dark, #2b2b2b) !important;
+
+      &:focus {
+        border-color: #a33827 !important;
+        outline: none !important;
+        box-shadow: 0 0 0 2px rgba(163, 56, 39, 0.2) !important;
+      }
+    }
+  }
+
+  /* Right-hand side preview pane in modal */
+  .search-layout {
+    border-top: 1px dashed var(--lightgray) !important;
+    margin-top: 12px !important;
+    padding-top: 12px !important;
+  }
+}
