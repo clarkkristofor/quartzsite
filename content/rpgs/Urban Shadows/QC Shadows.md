@@ -1,12 +1,19 @@
 ---
 publish: true
-title: characters
-description: QC Shadows, session zero
+title:
+description:
 link:
 image:
 date: 2025-06-05
 Game: Urban Shadows
 ---
+Handwritten notes by C.
+
+![[qc shadows 13-1.png]]
+![[qc shadows 13-2.png]]
+![[qc shadows 13-3.png]]
+
+
 ## Characters
 - [Jack the Spectre](https://superclark.notion.site/Jack-the-Spectre-20a7a6861866801e92ddc2e1853fcdb4?pvs=25)
 - [Linsey the Immortal](https://superclark.notion.site/Linsey-the-Immortal-20a7a686186680659e47d61a1f52d218?pvs=25)

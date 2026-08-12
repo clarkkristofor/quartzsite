@@ -1,1 +1,0 @@
-**Conviction**, what you know is true about the shadow: “The Shadow will blank unless we blank"

@@ -4,9 +4,10 @@ description: my fantasy hack of Bump in the Dark
 link:
 image: https://superclark.net/Files/swords-beyond---cover---hydra.png
 date: 2026-07-31
-title:
+title: Swords Beyond
 aliases:
   - /swordsbeyond
+current campaign: "[[playtest beta]]"
 ---
 ![[swords beyond - logo - online rules.png|350]]
 
@@ -18,7 +19,7 @@ with additional inspiration from *[13th Age](https://pelgranepress.com/13th-age/
 
 ### *[Downloads](https://drive.google.com/drive/folders/1rtNJpaatjz2WGgBjgilf1uSoaCo8LBJX?usp=sharing)*
 ### Playtest beta
-[[hunters & pact]], session [[well of shadow|3 (demon well)]]
+[[playtest beta]]
 
 # Contents
 ## [[A Creeping Shadow]]

@@ -17,6 +17,6 @@ Those who remain are proud and unwilling to see the even more ominous **shadow**
 
 **You are a hunter.** You have come to Lost Plenty to defend its people and unravel the mystery and defeat the shadow. You’re not alone.
 
-While hunches and feelings from the [[#The Realms Beyond|**Realms Beyond**]] are common, you _know_ one of these **Powers** and it knows _you_. You call on it to do wondrous things, but it calls on you too.
+While hunches and feelings from [[The Realms Beyond]] are common, you _know_ one of these **Powers** and it knows _you_. You call on it to do wondrous things, but it calls on you too.
 
 Your destiny is also intertwined with a **pact** of other hunters and, of course, with the people of Lost Plenty.

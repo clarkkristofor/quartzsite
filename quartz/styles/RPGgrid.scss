@@ -1,0 +1,125 @@
+// quartz/components/styles/rpgGrid.scss
+@use "../../../quartz/styles/variables.scss" as v;
+
+.rpg-section {
+  margin: 2rem 0;
+
+  h2 {
+    margin-bottom: 1rem;
+    font-size: 1.5rem;
+  }
+}
+
+/* Double-width cards layout grid */
+.rpg-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(560px, 1fr));
+  gap: 1.5rem;
+
+  @media (max-width: v.$mobile-breakpoint) {
+    grid-template-columns: 1fr;
+  }
+}
+
+.rpg-card {
+  border: 1px solid var(--lightgray);
+  border-radius: 8px;
+  background-color: var(--highlight);
+  display: flex;
+  flex-direction: row;
+  overflow: hidden;
+
+  @media (max-width: v.$mobile-breakpoint) {
+    flex-direction: column;
+  }
+
+  /* Left Image Block */
+  .rpg-card-image-link {
+    flex: 0 0 40%;
+    max-width: 240px;
+    display: block;
+    overflow: hidden;
+
+    @media (max-width: v.$mobile-breakpoint) {
+      flex: 0 0 100%;
+      max-width: 100%;
+      height: 180px;
+    }
+
+    .rpg-card-image {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      transition: transform 0.2s ease;
+
+      &:hover {
+        transform: scale(1.03);
+      }
+    }
+  }
+
+  /* Right Text Content Block */
+  .rpg-card-content {
+    padding: 1.25rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex: 1;
+
+    h3 {
+      margin: 0 0 0.5rem 0;
+      font-size: 1.25rem;
+
+      a {
+        text-decoration: none;
+        color: var(--secondary);
+
+        &:hover {
+          color: var(--tertiary);
+        }
+      }
+    }
+
+    .rpg-card-desc {
+      font-size: 0.9rem;
+      color: var(--gray);
+      margin: 0 0 1rem 0;
+      line-height: 1.4;
+    }
+
+    .rpg-card-status {
+      font-size: 0.875rem;
+
+      .status-label {
+        font-weight: 600;
+        color: var(--dark);
+      }
+
+      .campaign-link {
+        font-weight: 500;
+      }
+    }
+  }
+}
+
+/* "More" Card Styling */
+.rpg-card-more {
+  border: 2px dashed var(--lightgray);
+  background-color: transparent;
+
+  &:hover {
+    border-color: var(--secondary);
+    background-color: var(--highlight);
+  }
+
+  .view-all-link {
+    font-weight: 600;
+    font-size: 0.875rem;
+    color: var(--secondary);
+    text-decoration: none;
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+}

@@ -165,3 +165,8 @@ your growing understanding of this
 particular Thing Below.
 
 ![[Screenshot_20260812-033507.png]]
+
+**Conviction**, what you know is true about the shadow: “The Shadow will blank unless we blank"
+
+- [ ] keys and deadlocks – personality traits you can lean on for XP or cross off when you’ve succumbed to stress
+- [ ] 

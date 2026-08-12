@@ -1,2 +1,0 @@
-- [ ] keys and deadlocks – personality traits you can lean on for XP or cross off when you’ve succumbed to stress
-- [ ] 

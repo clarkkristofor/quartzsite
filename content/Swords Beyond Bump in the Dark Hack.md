@@ -1,5 +1,5 @@
 [[Swords Beyond with Sway]]
-[[Swords Beyond]]
+[[GM stuff not published]]
 [[new rpgs vs Swords Beyond]]
 
 [[Swords Beyond Bump in the Dark Hack magic options]]
