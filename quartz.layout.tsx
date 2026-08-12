@@ -46,7 +46,7 @@ export const defaultContentPageLayout: PageLayout = {
                 ]
               }),
               Component.Section({
-                className: "garden-col-left",
+                className: "garden-col-right",
                 children: [
                   Component.GardenSection({ 
                     title: "Notes", 
