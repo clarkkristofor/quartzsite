@@ -31,15 +31,14 @@
   }
 
   .card-content {
-    padding: 0.75rem 0.5rem !important; /* Compact padding for equal density */
+    padding: 0.75rem 0.5rem !important;
     display: flex;
     flex-direction: column;
     gap: 0.25rem;
 
     h3 {
       margin: 0 !important;
-      font-size: 1.1rem;
-      line-height: 1.25;
+      font-size: 1rem;
       color: v.$brand-blue;
       font-family: v.$font-main;
     }
@@ -47,9 +46,9 @@
     p {
       margin: 0;
       font-style: italic;
-      font-size: 0.875rem !important; /* Increased from 0.85rem for readability */
+      font-size: 0.875rem !important;
       font-weight: 500;
-      color: #a33827 !important;       /* Darker rust/terracotta for contrast */
+      color: #a33827 !important; /* High-contrast rust */
       font-family: v.$font-body;
       display: -webkit-box;
       -webkit-line-clamp: 3;
@@ -66,22 +65,21 @@
 .library-list .grid-card {
   .card-content {
     padding: 0.6rem !important;
-    h3 { font-size: 1.1rem; }
+    h3 { font-size: 1rem; }
     p { 
       -webkit-line-clamp: 2; 
       font-size: 0.875rem !important; 
-      color: #a33827 !important;       /* High-contrast rust color */
+      color: #a33827 !important;
       font-style: italic !important;
     }
   }
 }
 
-
 /* ==========================================================================
    3. LIST ITEMS (Music / Session Notes / Bottom Notes)
    ========================================================================== */
 
-/* A. DEFAULT GRID CONTAINER (Restores 4-column horizontal layout for Notes) */
+/* A. DEFAULT HORIZONTAL GRID (Preserves the 4-column layout for Notes) */
 .blog-section .simple-list, 
 .home-only-grid .simple-list {
   display: flex !important;
@@ -93,11 +91,13 @@
   width: 100% !important;
 }
 
-/* B. SIDEBAR OVERRIDE ONLY (Forces vertical stacking ONLY in sidebars, leaving Notes horizontal) */
+/* B. SIDEBAR VERTICAL STACK OVERRIDE ONLY (Session notes & Music) */
+.garden-section .simple-list,
 .garden-col-left .simple-list,
 .garden-col-right .simple-list,
 .music-section .simple-list {
   flex-direction: column !important;
+  flex-wrap: nowrap !important;
   gap: 1.25rem !important;
 
   .grid-card.list-item-card {
@@ -112,7 +112,7 @@
   }
 }
 
-/* C. CARD ITEM STYLING */
+/* C. CARD ITEM BASE STYLES */
 .blog-section, .home-only-grid {
   .grid-card.list-item-card {
     flex: 1 1 calc(23% - 0.5rem) !important; 
@@ -150,7 +150,7 @@
       min-width: 0;
 
       h3 {
-        font-size: 1.1rem !important;
+        font-size: 0.95rem !important;
         line-height: 1.3 !important;
         margin: 0 !important;
         font-style: normal !important;
@@ -163,7 +163,7 @@
         font-style: italic !important; 
         font-size: 0.875rem !important;
         font-weight: 500 !important;
-        color: #a33827 !important;       /* Maintained WCAG AA contrast */
+        color: #a33827 !important; /* Higher contrast rust */
         opacity: 1 !important;
         margin-bottom: 0.25rem;
         text-decoration: none !important;
@@ -195,7 +195,6 @@
   }
 }
 
-
 /* ==========================================================================
    4. RANDOM FIXES & OVERRIDES
    ========================================================================== */
@@ -210,12 +209,10 @@ body[data-slug="books/index"] {
   }
 }
 
-/* Force collapsed callouts to hide content */
 .callout.is-collapsed > .callout-content {
   display: none !important;
 }
 
-/* Ensure they show when toggled open */
 .callout:not(.is-collapsed) > .callout-content {
   display: block !important;
 }
