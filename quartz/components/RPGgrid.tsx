@@ -137,16 +137,12 @@ export default ((userOpts?: Options) => {
                   </div>
                 )}
 
-                <div className="card-content rpg-card-content">
-                  <div className="rpg-card-header">
-                    <h3>
-                      <a href={rpgUrl} className="internal">
-                        {rpgTitle}
-                      </a>
-                    </h3>
-                  </div>
+                <div className="card-content">
+                  <h3>
+                      <a href={rpgUrl}>{rpgTitle}</a>
+                  </h3>
 
-                  {description && <p className="rpg-card-desc">{description}</p>}
+                  {description && <p>{description}</p>}
 
                   {currentCampaign && (
                     <div className="rpg-card-status">
