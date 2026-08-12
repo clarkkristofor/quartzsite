@@ -306,23 +306,54 @@ body[data-slug="books/index"] {
 
 
 /* ==========================================================================
-   BOOK & MEDIA GRID (Lower Section - 2fr Column)
-   ========================================================================== */
+   FLEXIBLY SPANNED ROW GRIDS (Auto-distribute 100% width)
+========================================================================== */
 
-/* Sub-grid container for Books / Media */
+.rpg-grid,
 .book-grid,
 .media-grid,
 .grid-card-container {
-  display: grid !important;
-  grid-template-columns: repeat(3, 1fr) !important; /* 3 book cards side-by-side */
+  display: flex !important;
+  flex-direction: row !important;
+  flex-wrap: wrap !important; /* Wraps cleanly on mobile/small screens */
   gap: 1.25rem !important;
   width: 100% !important;
 
-  @media (max-width: v.$tablet-breakpoint) {
-    grid-template-columns: repeat(2, 1fr) !important;
+  /* Target all direct children/cards inside the containers */
+  & > * {
+    flex: 1 1 0px !important; /* Grow equally to fill 100% of the row width */
+    min-width: 0 !important;   /* Prevents content from forcing flex items to overflow */
   }
 
-  @media (max-width: v.$mobile-breakpoint) {
-    grid-template-columns: 1fr !important;
+  /* Responsive Fallback for Mobile/Tablets */
+  @media (max-width: v.$tablet-breakpoint) {
+    & > * {
+      /* On smaller screens, allow cards to wrap cleanly when space gets tight */
+      flex: 1 1 200px !important; 
+    }
+  }
+}
+
+/* Ensure RPG cards fill their flex item parent width */
+.rpg-card {
+  width: 100% !important;
+  height: 100% !important;
+  display: flex !important;
+  flex-direction: column !important;
+
+  .rpg-card-image-wrapper {
+    width: 100% !important;
+    aspect-ratio: 16 / 9; /* Maintains uniform aspect ratio as card gets wider */
+  }
+}
+
+/* Ensure Book / Media cards fill their flex item parent width */
+.grid-card {
+  width: 100% !important;
+  height: 100% !important;
+
+  .card-image {
+    width: 100% !important;
+    aspect-ratio: 2 / 3; /* Aspect ratio for book covers */
   }
 }

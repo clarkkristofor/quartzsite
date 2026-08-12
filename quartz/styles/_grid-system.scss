@@ -297,3 +297,21 @@ body[data-slug^="books"] .folder-grid,
     }
   }
 }
+
+/* ==========================================================================\n   FULL-WIDTH HOMEPAGE OVERRIDE\n   ========================================================================== */
+body[data-slug="index"],
+.page:has(.home-only-grid) {
+  /* Hide sidebars on homepage if empty or unneeded */
+  .sidebar.left,
+  .sidebar.right {
+    display: none !important;
+  }
+
+  /* Expand center content area to 100% width */
+  .center,
+  .page-header,
+  article {
+    width: 100% !important;
+    max-width: 100% !important;
+  }
+}
