@@ -87,7 +87,7 @@ export default ((userOpts?: Options) => {
     const customClass = userOpts?.displayClass ?? displayClass
 
     return (
-      <div className={`garden-section-container rpg-section ${customClass ?? ""}`}>
+      <div className={`garden-section-container`}>
         {/* Section Title matching BaseGrid.tsx header formatting */}
         {titleText && (
           <h2 className="garden-title">
@@ -114,7 +114,7 @@ export default ((userOpts?: Options) => {
         )}
 
         {/* Outer grid container */}
-        <div className="folder-grid rpg-grid">
+        <div className="folder-grid">
           {displayNotes.map((rpg) => {
             const fm = (rpg.frontmatter ?? {}) as Frontmatter
 
@@ -128,7 +128,7 @@ export default ((userOpts?: Options) => {
             const rpgUrl = resolveRelative((fileData.slug ?? "") as FullSlug, rpg.slug!)
 
             return (
-              <div className="grid-card rpg-card" key={rpg.slug}>
+              <div className="grid-card">
                 {coverImage && (
                   <div className="card-image rpg-card-image-link">
                     <a href={rpgUrl}>
@@ -163,27 +163,6 @@ export default ((userOpts?: Options) => {
               </div>
             )
           })}
-
-          {/* Capped "More" Card matching BaseGrid card formatting */}
-          {hasMore && (
-            <div className="grid-card rpg-card rpg-card-more">
-              <div className="card-content rpg-card-content">
-                <div className="rpg-card-header">
-                  <h3>
-                    <a href={rpgsFolderUrl} className="internal">
-                      More Systems →
-                    </a>
-                  </h3>
-                </div>
-                <p className="rpg-card-desc">
-                  Explore {activeRpgNotes.length - maxLimit} additional campaign logs and rules.
-                </p>
-                <a href={rpgsFolderUrl} className="internal view-all-link">
-                  View All RPG Notes ({activeRpgNotes.length})
-                </a>
-              </div>
-            </div>
-          )}
         </div>
       </div>
     )
