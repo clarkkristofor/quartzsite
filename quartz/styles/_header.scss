@@ -65,6 +65,15 @@ header {
     }
     transition: fill v.$transition-smooth, opacity v.$transition-smooth;
   }
+
+    .logo-lens {
+    fill: transparent; 
+    transition: all 0.4s ease-in-out;
+  }
+
+  &:hover .logo-lens {
+    fill: v.$brand-blue; // Using Superman Blue from variables
+  }
 }
 
 /* ==========================================================================
