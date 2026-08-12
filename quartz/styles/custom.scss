@@ -343,3 +343,22 @@ body[data-slug^="rpgs/protected/swords-beyond" i] .sidebar-content {
     padding-top: 0 !important;
   }
 }
+
+
+/* Force the header title to ignore sibling widths and center on page */
+header.header {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  /* Target the center title component */
+  .page-header-title, 
+  div:has(> .article-title) { 
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+    white-space: nowrap;
+  }
+}
