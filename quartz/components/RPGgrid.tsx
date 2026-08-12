@@ -5,15 +5,15 @@ import { resolveRelative, SimpleSlug, simplifySlug, FullSlug } from "../util/pat
 interface Options {
   title?: string
   maxDisplay?: number
+  displayClass?: string
 }
 
-// Define a type interface for frontmatter fields
 interface Frontmatter {
   title?: string
   description?: string
   cover?: string
   image?: string
-  [key: string]: any // Allows string indexing like fm["current campaign"]
+  [key: string]: any
 }
 
 const defaultOptions = {
@@ -24,7 +24,7 @@ const defaultOptions = {
 export default ((userOpts?: Options) => {
   const opts = { ...defaultOptions, ...userOpts }
 
-  const RPGGrid: QuartzComponent = ({ allFiles, fileData }: QuartzComponentProps) => {
+  const RPGGrid: QuartzComponent = ({ allFiles, fileData, displayClass }: QuartzComponentProps) => {
     // Robust wikilink parser handling [[Path/To/File|Alias]] or [[File]]
     const parseWikilink = (linkStr?: string): { text: string; slug: SimpleSlug } | null => {
       if (!linkStr || typeof linkStr !== "string") return null
@@ -70,9 +70,7 @@ export default ((userOpts?: Options) => {
       const slug = file.slug ?? ""
       if (!slug.startsWith("rpgs/") || slug.endsWith("index")) return false
 
-      // Cast frontmatter to explicit type
       const fm = (file.frontmatter ?? {}) as Frontmatter
-
       const rawCampaign = fm["current campaign"] ?? fm["currentCampaign"] ?? fm["current_campaign"]
       
       return Boolean(rawCampaign)
@@ -85,11 +83,39 @@ export default ((userOpts?: Options) => {
     const hasMore = activeRpgNotes.length > maxLimit
     const rpgsFolderUrl = resolveRelative((fileData.slug ?? "") as FullSlug, "rpgs/index" as SimpleSlug)
 
+    const titleText = userOpts?.title ?? opts.title
+    const customClass = userOpts?.displayClass ?? displayClass
+
     return (
-      <div className="rpg-section">
-        <div className="rpg-grid">
+      <div className={`garden-section-container rpg-section ${customClass ?? ""}`}>
+        {/* Section Title matching BaseGrid.tsx header formatting */}
+        {titleText && (
+          <h2 className="garden-title">
+            <a href={rpgsFolderUrl} className="header-link">
+              {titleText}
+              <span className="header-arrow">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="20"
+                  height="20"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  strokeWidth="2"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                >
+                  <path d="M5 12h14" />
+                  <path d="m12 5 7 7-7 7" />
+                </svg>
+              </span>
+            </a>
+          </h2>
+        )}
+
+        {/* Grid wrapper using BaseGrid's folder-grid along with rpg-grid */}
+        <div className="folder-grid rpg-grid">
           {displayNotes.map((rpg) => {
-            // Cast frontmatter safely
             const fm = (rpg.frontmatter ?? {}) as Frontmatter
 
             const rpgTitle = fm.title ?? rpg.slug?.split("/").pop() ?? "Untitled RPG"
@@ -102,14 +128,16 @@ export default ((userOpts?: Options) => {
             const rpgUrl = resolveRelative((fileData.slug ?? "") as FullSlug, rpg.slug!)
 
             return (
-              <div className="rpg-card" key={rpg.slug}>
+              <div className="grid-card rpg-card" key={rpg.slug}>
                 {coverImage && (
-                  <a href={rpgUrl} className="rpg-card-image-link">
-                    <img src={coverImage} alt={rpgTitle} className="rpg-card-image" />
-                  </a>
+                  <div className="card-image rpg-card-image-link">
+                    <a href={rpgUrl}>
+                      <img src={coverImage} alt={rpgTitle} className="rpg-card-image" />
+                    </a>
+                  </div>
                 )}
 
-                <div className="rpg-card-content">
+                <div className="card-content rpg-card-content">
                   <div className="rpg-card-header">
                     <h3>
                       <a href={rpgUrl} className="internal">
@@ -136,9 +164,10 @@ export default ((userOpts?: Options) => {
             )
           })}
 
+          {/* Capped "More" Card matching BaseGrid card formatting */}
           {hasMore && (
-            <div className="rpg-card rpg-card-more">
-              <div className="rpg-card-content">
+            <div className="grid-card rpg-card rpg-card-more">
+              <div className="card-content rpg-card-content">
                 <div className="rpg-card-header">
                   <h3>
                     <a href={rpgsFolderUrl} className="internal">
