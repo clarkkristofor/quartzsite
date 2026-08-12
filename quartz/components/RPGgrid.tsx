@@ -1,7 +1,6 @@
 // quartz/components/RPGGrid.tsx
 import { QuartzComponent, QuartzComponentConstructor, QuartzComponentProps } from "./types"
-import { resolveRelative, SimpleSlug, simplifySlug } from "../util/path"
-import style from "./styles/rpgGrid.scss"
+import { resolveRelative, SimpleSlug, simplifySlug, FullSlug } from "../util/path"
 
 interface Options {
   title?: string
@@ -81,7 +80,7 @@ export default ((userOpts?: Options) => {
                     <div className="rpg-card-status">
                       <span className="status-label">🔥 Current Campaign:</span>{" "}
                       <a
-                        href={resolveRelative(fileData.slug!, currentCampaign.slug)}
+                        href={resolveRelative((fileData.slug ?? "") as FullSlug, currentCampaign.slug)}
                         className="internal campaign-link"
                       >
                         {currentCampaign.text}
@@ -118,6 +117,5 @@ export default ((userOpts?: Options) => {
     )
   }
 
-  RPGGrid.css = style
   return RPGGrid
 }) satisfies QuartzComponentConstructor
