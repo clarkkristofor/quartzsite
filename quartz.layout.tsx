@@ -6,7 +6,6 @@ import { QuartzComponentProps } from "./quartz/components/types"
 export const sharedPageComponents: SharedLayout = {
   head: Component.Head(),
   header: [
-    Component.PageMenu(),
     Component.PageLogo(),
     Component.Search(),
   ],
