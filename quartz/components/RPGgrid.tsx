@@ -1,4 +1,3 @@
-// quartz/components/RPGgrid.tsx
 import { QuartzComponent, QuartzComponentConstructor, QuartzComponentProps } from "./types"
 import { resolveRelative, FullSlug, slugifyFilePath } from "../util/path"
 
@@ -55,45 +54,32 @@ export default ((userOpts?: Options) => {
       }
     }
 
-    // --- RESTORED STRICT FILTERING LOGIC ---
-    const pages = allFiles.filter((f) => {
-      // Must have frontmatter
-      if (!f.frontmatter) return false
-      if (!f.slug) return false
-      
-      // 1. Exclude the folder's index page itself
-      if (f.slug === folder || f.slug === `${folder}/index`) return false
+    // STRICT FILTER: ONLY include files in rpgs/ that HAVE a "current campaign" or "current_campaign" property
+    const activeRpgNotes = allFiles.filter((file) => {
+      const slug = file.slug ?? ""
+      if (!slug.startsWith("rpgs/")) return false
+      if (slug === "rpgs/index" || slug === "rpgs/") return false
 
-      // 2. Must be inside the target folder
-      if (!f.slug.startsWith(`${folder}/`)) return false
+      const fm = (file.frontmatter ?? {}) as Frontmatter
+      const rawCampaign = fm["current campaign"] || fm["current_campaign"]
 
-      // 3. ONLY include files directly in the root of the folder.
-      // By stripping the base folder path, if there is another "/" left, 
-      // it means the file is deep in a subfolder (like /session_notes/).
-      const slugWithoutBaseFolder = f.slug.substring(folder.length + 1)
-      if (slugWithoutBaseFolder.includes("/")) return false
-
-      return true
+      // Checks if 'current campaign' property exists and actually contains text/wikilink
+      const campaignLink = parseWikilink(rawCampaign as string)
+      return Boolean(campaignLink)
     })
 
-    if (pages.length === 0) return null
+    const displayedRpgs = activeRpgNotes.slice(0, opts.maxDisplay)
 
-    // Sort and limit
-    pages.sort((a, b) => {
-      const aDate = a.dates?.modified || a.dates?.created || new Date()
-      const bDate = b.dates?.modified || b.dates?.created || new Date()
-      return bDate.getTime() - aDate.getTime()
-    })
+    if (displayedRpgs.length === 0) return null
 
-    const displayPages = pages.slice(0, limit)
     const rpgsFolderUrl = resolveRelative((fileData.slug ?? "") as FullSlug, folder as FullSlug)
 
     return (
       <div className={`garden-section-container ${gridClassName}`}>
         {/* --- THE FANCY TITLE BLOCK --- */}
         <div className="garden-title">
-          <h3>
-            <a href={rpgsFolderUrl} className="internal">
+          <h2>
+            <a href={rpgsFolderUrl}>
               {title}
             </a>
             <a href={rpgsFolderUrl} className="internal svg-link">
@@ -113,7 +99,7 @@ export default ((userOpts?: Options) => {
                 <path d="M2 12H22" />
               </svg>
             </a>
-          </h3>
+          </h2>
         </div>
         {/* --- END FANCY TITLE BLOCK --- */}
 
@@ -121,7 +107,7 @@ export default ((userOpts?: Options) => {
           className="rpg-grid-cards"
           style={{ gridTemplateColumns: `repeat(${cols}, 1fr)` }}
         >
-          {displayPages.map((rpg) => {
+          {displayedRpgs.map((rpg) => {
             const fm = rpg.frontmatter as Frontmatter
             if (!fm) return null
 
