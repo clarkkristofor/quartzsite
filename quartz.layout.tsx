@@ -6,7 +6,8 @@ import { QuartzComponentProps } from "./quartz/components/types"
 export const sharedPageComponents: SharedLayout = {
   head: Component.Head(),
   header: [
-    
+    Component.PageLogo(),
+    Component.Search(),
   ],
   afterBody: [],
   footer: Component.Footer({
@@ -19,26 +20,31 @@ const SidebarToc = Component.TableOfContents()
 const ChapterNext = Component.ChapterNavNext()
 
 // 2. STANDARD NOTE & HOMEPAGE LAYOUT (2-Column Grid: Main + Right Sidebar)
+
 export const defaultContentPageLayout: PageLayout = {
   beforeBody: [
     Component.RPGgrid({ 
       maxDisplay: 2
     }) as any,
-    Component.BookGrid({ 
-      folder: "books", 
-      displayClass: "book-grid", 
-      limit: 6 
-    }) as any,
-  ],
-  left: [], // Kept as an empty array to satisfy TypeScript's PageLayout interface
-  right: [
-    Component.PageLogo(),
-    Component.Search(),
     Component.GardenSection({ 
       title: "Music", 
       folder: "music", 
       link: "/music/", 
       limit: 3
+    }) as any,
+    Component.GardenSection({ 
+      title: "Notes", 
+      folder: "blog", 
+      link: "/blog/", 
+      limit: 3
+    }) as any, 
+  ],
+  left: [], // Kept as an empty array to satisfy TypeScript's PageLayout interface
+  right: [
+    Component.BookGrid({ 
+      folder: "books", 
+      displayClass: "book-grid", 
+      limit: 4
     }) as any,
   ],
 }
