@@ -43,25 +43,6 @@ const BookGrid: QuartzComponent = ({ options, ...props }: QuartzComponentProps &
 
   return (
     <div className={className}>
-      <style>{`
-        .${className} {
-          width: 100%;
-        }
-        .${className} .grid-container,
-        .${className} .book-grid-container {
-          display: grid;
-          grid-template-columns: repeat(${cols}, 1fr);
-          gap: 1.25rem;
-          width: 100%;
-        }
-        @media (max-width: 768px) {
-          .${className} .grid-container,
-          .${className} .book-grid-container {
-            grid-template-columns: 1fr;
-          }
-        }
-      `}</style>
-
       <BaseGrid 
         pages={pages} 
         title={title} 
