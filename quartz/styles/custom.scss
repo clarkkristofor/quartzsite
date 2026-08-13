@@ -20,6 +20,35 @@ div.center {
 }
 
 /* ==========================================================================
+2-COLUMN GRID ADJUSTMENT (No Left Sidebar)
+========================================================================== */
+
+#quartz-body {
+  /* Redefine grid tracks: 
+     1st track (left) = 0px
+     2nd track (center content) = expands naturally (1fr)
+     3rd track (right sidebar) = fixed/auto width 
+  */
+  grid-template-columns: 0fr 1fr auto !important;
+  max-width: 1200px !important;
+  margin: 0 auto !important;
+  gap: 2rem !important;
+}
+
+/* Ensure center column spans properly from the edge */
+div.center {
+  grid-column: 2 !important;
+  width: 100% !important;
+  min-width: 0 !important; /* Prevents grid items from clipping/collapsing */
+}
+
+/* Ensure right sidebar top-aligns correctly with center content */
+.sidebar.right {
+  grid-column: 3 !important;
+  margin-top: 0 !important;
+}
+
+/* ==========================================================================
 SWORDS BEYOND LAYOUT & TYPOGRAPHY OVERRIDES
 ========================================================================== */
 
@@ -349,4 +378,12 @@ header.header {
     text-align: center;
     white-space: nowrap;
   }
+}
+
+.rpg-grid {
+  display: grid !important;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)) !important;
+  gap: 1.5rem !important;
+  width: 100% !important;
+  margin-bottom: 2rem !important;
 }
