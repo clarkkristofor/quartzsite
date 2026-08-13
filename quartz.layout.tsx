@@ -19,15 +19,10 @@ export const sharedPageComponents: SharedLayout = {
 const SidebarToc = Component.TableOfContents()
 const ChapterNext = Component.ChapterNavNext()
 
-// Home grid component with isHome safeguard to prevent it rendering on standard notes
+// Define HomeGrids as a true top-level QuartzComponent
 const HomeGrids: QuartzComponent = (props: QuartzComponentProps) => {
-  // DEBUG: This will print every single page slug to your terminal during build
+  // This will now successfully print to your terminal on every page evaluation
   console.log("PAGE SLUG CHECK ->", JSON.stringify(props.fileData.slug))
-
-  const slug = (props.fileData.slug ?? "").toLowerCase()
-  const isHome = slug === "" || slug === "index" || slug === "index.md" || slug === "/"
-
-  if (!isHome) return null
 
   return (
     <>
@@ -44,7 +39,7 @@ export const defaultContentPageLayout: PageLayout = {
   beforeBody: [
     HomeGrids as any,
   ],
-  left: [], // Kept as an empty array to satisfy TypeScript's PageLayout interface
+  left: [], 
   right: [],
 }
 
