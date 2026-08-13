@@ -2,7 +2,7 @@ import { PageLayout, SharedLayout } from "./quartz/cfg"
 import * as Component from "./quartz/components"
 import { QuartzComponentProps } from "./quartz/components/types"
 
-// 1. Shared header and footer components across all pages
+// 1. Components shared across all pages
 export const sharedPageComponents: SharedLayout = {
   head: Component.Head(),
   header: [
@@ -15,11 +15,11 @@ export const sharedPageComponents: SharedLayout = {
   }),
 }
 
-// Instantiate sidebar helpers
+// Instantiate top-level components
 const SidebarToc = Component.TableOfContents()
 const ChapterNext = Component.ChapterNavNext()
 
-// 2. STANDARD NOTE & HOMEPAGE LAYOUT (2-Column Grid: Main + Right Sidebar)
+// 2. STANDARD NOTE & HOMEPAGE LAYOUT
 export const defaultContentPageLayout: PageLayout = {
   beforeBody: [
     Component.RPGgrid({ 
@@ -31,7 +31,7 @@ export const defaultContentPageLayout: PageLayout = {
       limit: 6 
     }) as any,
   ],
-  left: [], // Kept as an empty array to satisfy TypeScript's PageLayout interface
+  left: [],
   right: [
     Component.GardenSection({ 
       title: "Music", 
@@ -48,7 +48,7 @@ export const defaultContentPageLayout: PageLayout = {
   ],
 }
 
-// 3. LIST PAGES (Tags / Folders / Protected Pages)
+// 3. LIST PAGES (Tags/Folders)
 export const defaultListPageLayout: PageLayout = {
   beforeBody: [
     Component.ArticleTitle(),
@@ -58,6 +58,7 @@ export const defaultListPageLayout: PageLayout = {
   left: [
     ((props: QuartzComponentProps) => {
       const slug = (props.fileData.slug ?? "").toLowerCase()
+      
       const isSwordsBeyond = slug.includes("swords-beyond") || slug.includes("swords beyond")
 
       if (!isSwordsBeyond) return null
@@ -65,15 +66,14 @@ export const defaultListPageLayout: PageLayout = {
       return (
         <div className="sidebar-content">
           <img
-            src="https://superclark.net/static/swords-beyond-logo.png"
-            alt="Swords Beyond Logo"
-            className="sidebar-logo"
+            src="https://superclark.net/Files/swords-beyond---logo---online-rules.png"
+            alt="Swords Beyond"
           />
-          <SidebarToc {...props} />
           <ChapterNext {...props} />
+          <SidebarToc {...props} />
         </div>
       )
-    }) as any,
+    }),
   ],
   right: [],
 }

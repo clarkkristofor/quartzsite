@@ -10,55 +10,13 @@
 
 
 /* ==========================================================================
-FULL-WIDTH HOMEPAGE OVERRIDE
+STANDARD LAYOUT OVERRIDES
 ========================================================================== */
 
-/* 1. Reset Quartz body container from CSS Grid to Flexbox */
-body[data-slug="index"] #quartz-body,
-body[data-slug=""] #quartz-body,
-body[data-slug="index/"] #quartz-body {
-  display: flex !important;
-  flex-direction: row !important;
-  justify-content: space-between !important;
-  width: 100% !important;
-  max-width: 1200px !important;
-  margin: 0 auto !important;
-}
-
-/* 2. Force div.center to take up 100% width and grow */
-body[data-slug="index"] div.center,
-body[data-slug=""] div.center,
-body[data-slug="index/"] div.center {
-  display: block !important;
-  width: 100% !important;
-  max-width: 100% !important;
-  flex: 1 1 100% !important; /* Forces flex item to grow and basis at 100% */
-  min-width: 100% !important; /* Overrides Quartz's 0px / default min-width collapse */
-  margin: 0 !important;
-}
-
-/* 3. Ensure left sidebar stays hidden on index page */
-body[data-slug="index"] .sidebar.left,
-body[data-slug=""] .sidebar.left,
-body[data-slug="index/"] .sidebar.left {
-  display: none !important;
-}
-
-body[data-slug="index"] .sidebar.right,
-body[data-slug=""] .sidebar.right,
-body[data-slug="index/"] .sidebar.right {
-  display: block !important;
-  flex: 0 0 300px !important;     /* Fixed width sidebar on desktop */
-  width: 300px !important;
-  margin-left: 2rem !important;
-}
-
-/* Ensure footer always spans full width across all CSS grid columns */
-footer {
-  grid-column: 1 / -1 !important;
-  width: 100% !important;
-  clear: both !important;
-  margin-top: 2rem !important;
+/* Prevent center column overflow without breaking grid calculations */
+div.center {
+  width: 100%;
+  min-width: 0;
 }
 
 /* ==========================================================================
