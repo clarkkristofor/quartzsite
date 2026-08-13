@@ -19,10 +19,9 @@ CARD CONTAINER & INNER IMAGE PROPORTIONS
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
   }
 
-  /* Book / Media Covers (2:3 aspect ratio) */
+  /* Book / Media Covers */
   .card-image {
     width: 100% !important;
-    aspect-ratio: 2 / 3 !important;
     overflow: hidden;
 
     img {

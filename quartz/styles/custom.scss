@@ -177,6 +177,27 @@ div.center {
   flex-grow: 1 !important;
 }
 
+/* Override _cards.scss aspect-ratio specifically for RPG Grid Cards */
+.rpg-grid-cards .grid-card .card-image {
+  aspect-ratio: auto !important; /* Disables 2/3 ratio from _cards.scss */
+  height: auto !important;
+  width: 100% !important;
+
+  a {
+    display: block !important;
+    width: 100% !important;
+    height: auto !important;
+  }
+
+  img,
+  .rpg-card-image {
+    width: 100% !important;
+    height: auto !important;
+    object-fit: contain !important; /* Displays full cover without cropping */
+    display: block !important;
+  }
+}
+
 /* ==========================================================================
 SWORDS BEYOND LAYOUT & TYPOGRAPHY OVERRIDES
 ========================================================================== */
