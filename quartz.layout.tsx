@@ -6,8 +6,7 @@ import { QuartzComponentProps } from "./quartz/components/types"
 export const sharedPageComponents: SharedLayout = {
   head: Component.Head(),
   header: [
-    Component.PageLogo(),
-    Component.Search(),
+    
   ],
   afterBody: [],
   footer: Component.Footer({
@@ -33,18 +32,14 @@ export const defaultContentPageLayout: PageLayout = {
   ],
   left: [], // Kept as an empty array to satisfy TypeScript's PageLayout interface
   right: [
+    Component.PageLogo(),
+    Component.Search(),
     Component.GardenSection({ 
       title: "Music", 
       folder: "music", 
       link: "/music/", 
       limit: 3
     }) as any,
-    Component.GardenSection({ 
-      title: "Notes", 
-      folder: "blog", 
-      link: "/blog/", 
-      limit: 3
-    }) as any, 
   ],
 }
 
