@@ -92,9 +92,7 @@ export default ((userOpts?: Options) => {
                 )}
 
                 <div className="card-content">
-                  <h3>
-                    <a href={rpgUrl}>{rpgTitle}</a>
-                  </h3>
+                  <h3>{rpgTitle}</h3>
 
                   {description && <p className="rpg-card-desc">{description}</p>}
 

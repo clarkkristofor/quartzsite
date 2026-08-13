@@ -132,6 +132,50 @@ div.center {
   }
 }
 
+/* RPG Card Image & Layout (Fluid Height) */
+.rpg-grid-cards {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1.5rem;
+  width: 100%;
+  align-items: start; /* Prevents shorter cards from forcibly stretching taller cards */
+
+  @media (max-width: 768px) {
+    grid-template-columns: 1fr;
+  }
+}
+
+.grid-card {
+  display: flex !important;
+  flex-direction: column !important;
+  height: auto !important; /* Allows card height to flow naturally */
+}
+
+/* Allow RPG cover images to display completely without cropping */
+.card-image.rpg-card-image-link {
+  width: 100% !important;
+  height: auto !important; /* Removes 180px height ceiling */
+
+  a {
+    display: block !important;
+    width: 100% !important;
+    height: auto !important;
+  }
+
+  .rpg-card-image {
+    width: 100% !important;
+    height: auto !important; /* Maintains natural image proportions */
+    object-fit: contain !important; /* Ensures whole image is visible */
+    display: block !important;
+  }
+}
+
+.card-content {
+  padding: 1.25rem !important;
+  display: flex !important;
+  flex-direction: column !important;
+  flex-grow: 1 !important;
+}
 
 /* ==========================================================================
 SWORDS BEYOND LAYOUT & TYPOGRAPHY OVERRIDES
@@ -497,67 +541,5 @@ RPG GRID & FLUID CARD HEIGHT FIX
   &:hover {
     transform: translateY(-2px);
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
-  }
-}
-
-/* Cover Image Wrapper (Fixed height so images don't dictate card size) */
-.card-image.rpg-card-image-link {
-  width: 100% !important;
-  height: 180px !important; /* Standard banner height for cards with images */
-  flex-shrink: 0 !important;
-
-  a {
-    display: block !important;
-    width: 100% !important;
-    height: 100% !important;
-  }
-
-  .rpg-card-image {
-    width: 100% !important;
-    height: 100% !important;
-    object-fit: cover !important; /* Crops image cleanly to fit 180px */
-    display: block !important;
-  }
-}
-
-/* Card Content Area (Fluid height for cards with OR without images) */
-.card-content {
-  padding: 1.25rem !important;
-  display: flex !important;
-  flex-direction: column !important;
-  flex-grow: 1 !important; /* Expands to take up all remaining space in the card */
-  justify-content: flex-start !important;
-
-  h3 {
-    margin: 0 0 0.5rem 0 !important;
-    font-size: 1.15rem !important;
-    line-height: 1.3 !important;
-
-    a {
-      color: var(--secondary) !important;
-      text-decoration: none !important;
-
-      &:hover {
-        color: var(--tertiary) !important;
-      }
-    }
-  }
-
-  .rpg-card-desc {
-    font-size: 0.875rem !important;
-    color: var(--gray) !important;
-    margin: 0 0 1rem 0 !important;
-    line-height: 1.4 !important;
-  }
-
-  /* Anchors campaign links cleanly to the bottom edge when present */
-  .rpg-card-status {
-    font-size: 0.85rem !important;
-    margin-top: auto !important; 
-    padding-top: 0.75rem !important;
-
-    .status-label {
-      font-weight: 600;
-    }
   }
 }
