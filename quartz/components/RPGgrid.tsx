@@ -47,22 +47,18 @@ export default ((userOpts?: Options) => {
       return { text, slug }
     }
 
-    // FILTER LOGIC: Strict filtering to ONLY include parent RPG notes with cover images
+    // STRICT FILTER: ONLY include files in rpgs/ that HAVE a "current campaign" or "current_campaign" property
     const activeRpgNotes = allFiles.filter((file) => {
       const slug = file.slug ?? ""
       if (!slug.startsWith("rpgs/")) return false
-      
-      // Ignore root index
       if (slug === "rpgs/index" || slug === "rpgs/") return false
 
       const fm = (file.frontmatter ?? {}) as Frontmatter
-      const coverImage = fm.cover || fm.image
+      const rawCampaign = fm["current campaign"] || fm["current_campaign"]
 
-      // REQUIRE an image or strict top-level folder depth (rpgs/system-name)
-      const pathSegments = slug.split("/")
-      const isTopLevelRpg = pathSegments.length === 2
-
-      return Boolean(coverImage) || isTopLevelRpg
+      // Checks if 'current campaign' property exists and actually contains text/wikilink
+      const campaignLink = parseWikilink(rawCampaign as string)
+      return Boolean(campaignLink)
     })
 
     const displayedRpgs = activeRpgNotes.slice(0, opts.maxDisplay)
