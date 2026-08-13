@@ -22,7 +22,8 @@ const ChapterNext = Component.ChapterNavNext()
 // Home grid component with isHome safeguard to prevent it rendering on standard notes
 const HomeGrids: QuartzComponent = (props: QuartzComponentProps) => {
   const slug = (props.fileData.slug ?? "").toLowerCase()
-  const isHome = slug === "" || slug === "index"
+  // Broadened check for root index variations
+  const isHome = slug === "" || slug === "index" || slug === "index.md" || slug === "/"
 
   if (!isHome) return null
 
