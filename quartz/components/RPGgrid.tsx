@@ -32,7 +32,8 @@ export default ((userOpts?: Options) => {
       let clean = linkStr
         .trim()
         .replace(/^['\"]|['\"]$/g, "")
-        .replace(/^\[\[/, "")         .replace(/\]\]$/, "")
+        .replace(/^\[\[/, "")
+        .replace(/\]\]$/, "")
         .trim()
       if (!clean) return null
 
@@ -50,16 +51,21 @@ export default ((userOpts?: Options) => {
       }
     }
 
-    // Filter files in the RPG folder
-    const rpgPages = allFiles
+    // Filter files in the RPG folder that strictly have a 'current campaign' frontmatter property
+    const activeRpgNotes = allFiles
       .filter((file) => {
         const slug = file.slug ?? ""
         const isDirectChild = slug.split("/").length === folder.split("/").length + 1
-        return slug.startsWith(folder + "/") && !slug.endsWith("index") && isDirectChild
+        const isRpgNote = slug.startsWith(folder + "/") && !slug.endsWith("index") && isDirectChild
+
+        const fm = (file.frontmatter ?? {}) as Frontmatter
+        const hasCurrentCampaign = !!(fm["current campaign"] || fm["current_campaign"])
+
+        return isRpgNote && hasCurrentCampaign
       })
       .slice(0, limit)
 
-    if (rpgPages.length === 0) return null
+    if (activeRpgNotes.length === 0) return null
 
     return (
       <div className={`garden-section-container ${className}`}>
@@ -92,7 +98,7 @@ export default ((userOpts?: Options) => {
         )}
 
         <div className="rpg-grid-cards">
-          {rpgPages.map((rpg) => {
+          {activeRpgNotes.map((rpg) => {
             const fm = (rpg.frontmatter ?? {}) as Frontmatter
             const rpgTitle = fm.title || rpg.slug?.split("/").pop() || "Untitled"
             const description = fm.description || ""
