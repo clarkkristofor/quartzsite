@@ -33,19 +33,18 @@ export const defaultContentPageLayout: PageLayout = {
   ],
   left: [],
   right: [
-    /*
     Component.GardenSection({ 
       title: "Music", 
       folder: "music", 
       link: "/music/", 
-      limit: 5 
+      limit: 3
     }) as any,
     Component.GardenSection({ 
       title: "Notes", 
       folder: "blog", 
       link: "/blog/", 
-      limit: 4
-    }) as any, */
+      limit: 3
+    }) as any, 
   ],
 }
 

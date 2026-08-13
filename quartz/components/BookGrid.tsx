@@ -1,3 +1,4 @@
+// quartz/components/BookGrid.tsx
 import { QuartzComponent, QuartzComponentConstructor, QuartzComponentProps } from "./types"
 import BaseGrid from "./BaseGrid"
 
@@ -5,15 +6,16 @@ interface Options {
   folder: string
   displayClass?: string
   limit?: number
+  columns?: number
   title?: string
 }
 
-// We change the signature to accept 'options' as a top-level prop alongside Quartz props
 const BookGrid: QuartzComponent = ({ options, ...props }: QuartzComponentProps & { options?: Options }) => {
-  // We pull from 'options' (which the factory below will provide)
   const folder = options?.folder ?? "books"
   const title = options?.title ?? "Books"
   const limit = options?.limit ?? 6
+  const cols = options?.columns ?? Math.min(limit, 3)
+  const className = options?.displayClass ?? "book-grid"
   const link = `/${folder}/`
   
   const pages = props.allFiles.filter(page => {
@@ -40,22 +42,37 @@ const BookGrid: QuartzComponent = ({ options, ...props }: QuartzComponentProps &
   .slice(0, limit)
 
   return (
-    <BaseGrid 
-      pages={pages} 
-      title={title} 
-      link={link} 
-      customClass={options?.displayClass} 
-      {...props} 
-    />
+    <div className={className}>
+      <style>{`
+        .${className} {
+          width: 100%;
+        }
+        .${className} .grid-container,
+        .${className} .book-grid-container {
+          display: grid;
+          grid-template-columns: repeat(${cols}, 1fr);
+          gap: 1.25rem;
+          width: 100%;
+        }
+        @media (max-width: 768px) {
+          .${className} .grid-container,
+          .${className} .book-grid-container {
+            grid-template-columns: 1fr;
+          }
+        }
+      `}</style>
+
+      <BaseGrid 
+        pages={pages} 
+        title={title} 
+        link={link} 
+        customClass={className}
+        {...props} 
+      />
+    </div>
   )
 }
 
-// The Constructor Factory: This is the critical change
-const BookGridConstructor = (userOptions?: Options): QuartzComponent => {
-  const Component: QuartzComponent = (props: QuartzComponentProps) => (
-    <BookGrid options={userOptions} {...props} />
-  )
-  return Component
-}
-
-export default BookGridConstructor
+export default ((options?: Options) => {
+  return (props: QuartzComponentProps) => <BookGrid options={options} {...props} />
+}) satisfies QuartzComponentConstructor
