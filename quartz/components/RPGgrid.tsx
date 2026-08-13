@@ -26,11 +26,9 @@ export default ((userOpts?: Options) => {
   const opts = { ...defaultOptions, ...userOpts }
 
   const RPGGrid: QuartzComponent = ({ allFiles, fileData, displayClass }: QuartzComponentProps) => {
-    // Determine column count: use explicit columns, fallback to maxDisplay, or default to 2
     const cols = opts.columns ?? (opts.maxDisplay !== Infinity ? opts.maxDisplay : 2)
     const gridClassName = displayClass ?? opts.displayClass ?? "rpg-grid"
 
-    // Robust wikilink parser handling [[Path/To/File|Alias]] or [[File]]
     const parseWikilink = (linkStr?: string): { text: string; slug: SimpleSlug } | null => {
       if (!linkStr || typeof linkStr !== "string") return null
       
@@ -50,7 +48,6 @@ export default ((userOpts?: Options) => {
       return { text, slug }
     }
 
-    // Filter for RPG system landing pages
     const rpgPages = allFiles
       .filter((file) => {
         const slug = file.slug ?? ""
@@ -64,15 +61,18 @@ export default ((userOpts?: Options) => {
       <div className={gridClassName}>
         <style>{`
           .${gridClassName} {
-            display: grid;
-            grid-template-columns: repeat(${cols}, 1fr);
-            gap: 1.5rem;
             width: 100%;
             margin-bottom: 2rem;
           }
+          .${gridClassName} .rpg-grid-cards {
+            display: grid !important;
+            grid-template-columns: repeat(${cols}, 1fr) !important;
+            gap: 1.5rem !important;
+            width: 100% !important;
+          }
           @media (max-width: 768px) {
-            .${gridClassName} {
-              grid-template-columns: 1fr;
+            .${gridClassName} .rpg-grid-cards {
+              grid-template-columns: 1fr !important;
             }
           }
         `}</style>
