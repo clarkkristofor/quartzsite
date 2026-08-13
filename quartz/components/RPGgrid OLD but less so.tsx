@@ -108,7 +108,7 @@ export default ((userOpts?: Options) => {
             const rpgUrl = resolveRelative((fileData.slug ?? "") as FullSlug, rpg.slug!)
 
             return (
-              <div className="grid-card" key={rpg.slug}>
+              <div className="grid-card">
                 {coverImage && (
                   <div className="card-image rpg-card-image-link">
                     <a href={rpgUrl}>

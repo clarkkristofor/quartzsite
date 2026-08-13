@@ -1,10 +1,9 @@
-// quartz/components/RPGgrid.tsx
 import { QuartzComponent, QuartzComponentConstructor, QuartzComponentProps } from "./types"
 import { resolveRelative, FullSlug, slugifyFilePath } from "../util/path"
-import { CSSProperties } from "preact/compat"
 
 interface Options {
   title?: string
+  link?: string // Added so you can pass a custom link for the title arrow
   maxDisplay?: number
   columns?: number
   displayClass?: string
@@ -22,79 +21,88 @@ interface Frontmatter {
 const defaultOptions = {
   title: "RPGs",
   maxDisplay: Infinity,
-  folder: "rpgs",
-  columns: 2,
+  folder: "rpgs" 
 } satisfies Options
 
 export default ((userOpts?: Options) => {
   const opts = { ...defaultOptions, ...userOpts }
 
   const RPGGrid: QuartzComponent = ({ allFiles, fileData, displayClass }: QuartzComponentProps) => {
-    const folder = opts.folder ?? "rpgs"
-    const title = opts.title ?? "RPGs"
-    const limit = opts.maxDisplay ?? Infinity
-    const cols = opts.columns ?? (limit !== Infinity ? limit : 2)
     const gridClassName = displayClass ?? opts.displayClass ?? "rpg-grid"
+    const folder = opts.folder ?? "rpgs"
+    const title = opts.title
+    
+    // Automatically point the title link to the folder index if no link is explicitly provided
+    const sectionLink = opts.link ?? (folder ? `/${folder}/` : undefined)
 
     const parseWikilink = (linkStr?: string): { text: string; slug: FullSlug } | null => {
       if (!linkStr || typeof linkStr !== "string") return null
-      let clean = linkStr.trim().replace(/^['\"]|['\"]/g, "").replace(/^\[\[/, "").replace(/\]\]$/, "").trim()
+      
+      let clean = linkStr.trim().replace(/^['"]|['"]$/g, "").replace(/^\[\[/, "").replace(/\]\]$/, "").trim()
       if (!clean) return null
 
-      let displayAlias = ""
+      let displayAlias = clean
       if (clean.includes("|")) {
         const parts = clean.split("|")
-        clean = parts[0].trim()
-        displayAlias = parts[1].trim()
+        clean = parts[0]
+        displayAlias = parts[1]
       }
-
-      const targetSlug = slugifyFilePath(clean as any) as FullSlug
-      return {
-        text: displayAlias || clean,
-        slug: targetSlug,
-      }
+      
+      return { text: displayAlias, slug: slugifyFilePath(clean as any) as FullSlug }
     }
 
-    const rpgNotes = allFiles.filter((file) => file.slug?.startsWith(`${folder}/`) && file.slug !== folder)
+    const pages = allFiles.filter((f) => f.slug?.startsWith(folder + "/") && f.slug !== folder + "/index")
+    const displayPages = pages.slice(0, opts.maxDisplay)
 
-    const sortedRpgs = rpgNotes.sort((a, b) => {
-      const dateA = new Date(a.dates?.modified || a.dates?.created || 0).getTime()
-      const dateB = new Date(b.dates?.modified || b.dates?.created || 0).getTime()
-      return dateB - dateA
-    })
-
-    const displayedRpgs = sortedRpgs.slice(0, limit)
-    if (displayedRpgs.length === 0) {
+    if (displayPages.length === 0) {
       return null
     }
 
+    const currentSlug = (fileData.slug ?? "index") as FullSlug
+
     return (
-      <div className={gridClassName} style={{ "--columns": cols } as CSSProperties}>
+      // Added your garden-section-container wrapper
+      <div className={`garden-section-container ${gridClassName}`}>
+        
+        {/* Restored Header Block */}
         {title && (
-          <h2>
-            <a href={resolveRelative((fileData.slug ?? "") as FullSlug, `/${folder}/` as FullSlug)} className="internal">
-              {title}
-            </a>
+          <h2 className="garden-title">
+            {sectionLink ? (
+              <a href={sectionLink} className="header-link">
+                {title}
+                <span className="header-arrow">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+                    <path d="M5 12h14" />
+                    <path d="m12 5 7 7-7 7" />
+                  </svg>
+                </span>
+              </a>
+            ) : (
+              <span className="header-text-only">{title}</span>
+            )}
           </h2>
         )}
-        <div className={`${gridClassName}-cards grid-card-container`}>
-          {displayedRpgs.map((rpg) => {
-            const fm = rpg.frontmatter as Frontmatter
-            const rpgTitle = fm?.title || rpg.slug?.split("/").pop() || "Untitled"
-            const description = fm?.description
-            const coverImage = fm?.cover || fm?.image
+        
+        {/* The Style-Free Card Grid */}
+        <div className="rpg-grid-cards">
+          {displayPages.map((rpg) => {
+            // Preserving the strict TS string casts to prevent Signalish/alt errors
+            const fm = (rpg.frontmatter ?? {}) as Frontmatter
+            const rpgTitle = (fm.title ?? rpg.name ?? "Untitled") as string
+            const description = fm.description as string | undefined
+            const coverImage = (fm.cover || fm.image) as string | undefined
 
             const rawCampaign = fm["current campaign"] || fm["current_campaign"]
             const currentCampaign = parseWikilink(rawCampaign as string)
 
-            const rpgUrl = resolveRelative((fileData.slug ?? "") as FullSlug, rpg.slug! as FullSlug)
+            const rpgUrl = resolveRelative(currentSlug, (rpg.slug ?? "") as FullSlug)
 
             return (
               <div className="grid-card rpg-card" key={rpg.slug}>
                 {coverImage && (
                   <div className="card-image rpg-card-image-link">
                     <a href={rpgUrl}>
-                      <img src={coverImage} alt={rpgTitle} className="rpg-card-image" />
+                      <img src={coverImage} alt={`${rpgTitle}`} className="rpg-card-image" />
                     </a>
                   </div>
                 )}
@@ -110,7 +118,7 @@ export default ((userOpts?: Options) => {
                     <div className="rpg-card-status">
                       <span className="status-label">🔥 Campaign:</span>{" "}
                       <a
-                        href={resolveRelative((fileData.slug ?? "") as FullSlug, currentCampaign.slug)}
+                        href={resolveRelative(currentSlug, currentCampaign.slug)}
                         className="internal campaign-link"
                       >
                         {currentCampaign.text}
