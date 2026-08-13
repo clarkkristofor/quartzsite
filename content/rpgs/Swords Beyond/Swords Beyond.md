@@ -1,7 +1,5 @@
 ---
 publish: true
-description: my fantasy hack rpg
-link:
 image: https://superclark.net/Files/swords-beyond---cover---hydra.png
 date: 2026-07-31
 title: Swords Beyond
