@@ -32,6 +32,11 @@ export const defaultContentPageLayout: PageLayout = {
       link: "/music/", 
       limit: 3
     }) as any,
+    Component.BookGrid({ 
+      folder: "books", 
+      displayClass: "book-grid", 
+      limit: 4
+    }) as any,
     Component.GardenSection({ 
       title: "Notes", 
       folder: "blog", 
@@ -40,13 +45,7 @@ export const defaultContentPageLayout: PageLayout = {
     }) as any, 
   ],
   left: [], // Kept as an empty array to satisfy TypeScript's PageLayout interface
-  right: [
-    Component.BookGrid({ 
-      folder: "books", 
-      displayClass: "book-grid", 
-      limit: 4
-    }) as any,
-  ],
+  right: [],
 }
 
 // 3. LIST PAGES (Tags / Folders / Protected Pages)

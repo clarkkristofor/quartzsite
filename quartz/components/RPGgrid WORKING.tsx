@@ -1,11 +1,12 @@
 import { QuartzComponent, QuartzComponentConstructor, QuartzComponentProps } from "./types"
-import { resolveRelative, SimpleSlug, simplifySlug, FullSlug } from "../util/path"
+import { resolveRelative, FullSlug, simplifySlug, SimpleSlug } from "../util/path"
 
 interface Options {
   title?: string
   maxDisplay?: number
   columns?: number
   displayClass?: string
+  folder?: string
 }
 
 interface Frontmatter {
@@ -19,27 +20,32 @@ interface Frontmatter {
 const defaultOptions = {
   title: "RPGs",
   maxDisplay: Infinity,
+  folder: "rpgs",
+  columns: 2,
 } satisfies Options
 
 export default ((userOpts?: Options) => {
   const opts = { ...defaultOptions, ...userOpts }
 
   const RPGGrid: QuartzComponent = ({ allFiles, fileData, displayClass }: QuartzComponentProps) => {
-    const cols = opts.columns ?? (opts.maxDisplay !== Infinity ? opts.maxDisplay : 2)
+    const folder = opts.folder ?? "rpgs"
+    const title = opts.title ?? "RPGs"
+    const limit = opts.maxDisplay ?? Infinity
+    const cols = opts.columns ?? (limit !== Infinity ? limit : 2)
     const gridClassName = displayClass ?? opts.displayClass ?? "rpg-grid"
 
     const parseWikilink = (linkStr?: string): { text: string; slug: SimpleSlug } | null => {
-      if (!linkStr || typeof linkStr !== "string") return null
-      
-      let clean = linkStr.trim().replace(/^['\"]|['\"]$/g, "").replace(/^\[\[/, "").replace(/\]\]$/, "").trim()
-      if (!clean) return null
-
-      let displayAlias = ""
-      if (clean.includes("|")) {
-        const parts = clean.split("|")
-        clean = parts[0].trim()
-        displayAlias = parts[1].trim()
-      }
+          if (!linkStr || typeof linkStr !== "string") return null
+          
+          let clean = linkStr.trim().replace(/^['\"]|['\"]$/g, "").replace(/^\[\[/, "").replace(/\]\]$/, "").trim()
+          if (!clean) return null
+    
+          let displayAlias = ""
+          if (clean.includes("|")) {
+            const parts = clean.split("|")
+            clean = parts[0].trim()
+            displayAlias = parts[1].trim()
+          }
 
       const slug = simplifySlug(clean as FullSlug)
       const text = displayAlias || clean.split("/").pop() || clean
@@ -64,51 +70,56 @@ export default ((userOpts?: Options) => {
 
     if (displayedRpgs.length === 0) return null
 
-    return (
-      <div className={`garden-section-container ${className}`}>
-        {title && (
-          <h2 className="garden-title">
-            {sectionLink ? (
-              <a href={sectionLink} className="header-link">
-                {title}
-                <span className="header-arrow">
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    width="20"
-                    height="20"
-                    viewBox="0 0 24 24"
-                    fill="none"
-                    stroke="currentColor"
-                    strokeWidth="2"
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                  >
-                    <path d="M5 12h14" />
-                    <path d="m12 5 7 7-7 7" />
-                  </svg>
-                </span>
-              </a>
-            ) : (
-              <span className="header-text-only">{title}</span>
-            )}
-          </h2>
-        )}
-        
+    const rpgsFolderUrl = resolveRelative((fileData.slug ?? "") as FullSlug, folder as FullSlug)
 
-        <div className="rpg-grid-cards">
+    return (
+      <div className={`garden-section-container ${gridClassName}`}>
+        {/* --- THE FANCY TITLE BLOCK --- */}
+        <div className="garden-title">
+          <h2 class="garden-title">
+            <a href={rpgsFolderUrl} class="header-link">
+              {title}
+            </a>
+            <a href={rpgsFolderUrl} >
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                strokeWidth="2"
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                className="lucide lucide-move-right"
+              >
+                <path d="M18 8L22 12L18 16" />
+                <path d="M2 12H22" />
+              </svg>
+            </a>
+          </h2>
+        </div>
+        {/* --- END FANCY TITLE BLOCK --- */}
+
+        <div
+          className="rpg-grid-cards"
+          style={{ gridTemplateColumns: `repeat(${cols}, 1fr)` }}
+        >
           {displayedRpgs.map((rpg) => {
-            const fm = (rpg.frontmatter ?? {}) as Frontmatter
-            const rpgTitle = fm.title || rpg.slug?.split("/").pop() || "Untitled RPG"
+            const fm = rpg.frontmatter as Frontmatter
+            if (!fm) return null
+
+            const rpgTitle = fm.title || rpg.slug?.split("/").pop() || "Untitled"
             const description = fm.description
             const coverImage = fm.cover || fm.image
 
             const rawCampaign = fm["current campaign"] || fm["current_campaign"]
             const currentCampaign = parseWikilink(rawCampaign as string)
 
-            const rpgUrl = resolveRelative((fileData.slug ?? "") as FullSlug, rpg.slug!)
+            const rpgUrl = resolveRelative((fileData.slug ?? "") as FullSlug, rpg.slug! as FullSlug)
 
             return (
-              <div className="grid-card">
+              <div className="grid-card rpg-card" key={rpg.slug}>
                 {coverImage && (
                   <div className="card-image rpg-card-image-link">
                     <a href={rpgUrl}>
@@ -117,7 +128,7 @@ export default ((userOpts?: Options) => {
                   </div>
                 )}
 
-                <div className="card-content">
+                <div className="card-content rpg-card-content">
                   <h3>{rpgTitle}</h3>
 
                   {description && <p className="rpg-card-desc">{description}</p>}
