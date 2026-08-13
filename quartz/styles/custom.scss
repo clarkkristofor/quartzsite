@@ -10,7 +10,7 @@
 
 
 /* ==========================================================================
-STANDARD LAYOUT OVERRIDES
+0. STANDARD LAYOUT OVERRIDES
 ========================================================================== */
 
 /* Prevent center column overflow without breaking grid calculations */
@@ -20,32 +20,86 @@ div.center {
 }
 
 /* ==========================================================================
-2-COLUMN GRID ADJUSTMENT (No Left Sidebar)
+1. COLLAPSE EMPTY LEFT SIDEBAR & FIX PAGE GRID
 ========================================================================== */
 
 #quartz-body {
-  /* Redefine grid tracks: 
-     1st track (left) = 0px
-     2nd track (center content) = expands naturally (1fr)
-     3rd track (right sidebar) = fixed/auto width 
-  */
-  grid-template-columns: 0fr 1fr auto !important;
+  display: grid !important;
+  /* Track 1: Main Content (1fr) | Track 2: Right Sidebar (fixed ~320px) */
+  grid-template-columns: minmax(0, 1fr) 320px !important;
   max-width: 1200px !important;
   margin: 0 auto !important;
   gap: 2rem !important;
 }
 
-/* Ensure center column spans properly from the edge */
-div.center {
-  grid-column: 2 !important;
-  width: 100% !important;
-  min-width: 0 !important; /* Prevents grid items from clipping/collapsing */
+/* Completely remove left sidebar DOM presence */
+.sidebar.left {
+  display: none !important;
+  width: 0 !important;
+  margin: 0 !important;
+  padding: 0 !important;
 }
 
-/* Ensure right sidebar top-aligns correctly with center content */
+/* Place center content strictly in the primary 1fr track */
+div.center {
+  grid-column: 1 !important;
+  width: 100% !important;
+  min-width: 0 !important;
+}
+
+/* Place right sidebar in track 2 */
 .sidebar.right {
-  grid-column: 3 !important;
+  grid-column: 2 !important;
   margin-top: 0 !important;
+}
+
+
+/* ==========================================================================
+2. FIX RPG CARDS (Using exact classes from RPGgrid.tsx)
+========================================================================== */
+
+.rpg-grid {
+  width: 100% !important;
+  margin-bottom: 2rem !important;
+
+  /* Target the inner container output by RPGgrid.tsx */
+  .grid-container {
+    display: grid !important;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)) !important;
+    gap: 1.5rem !important;
+    width: 100% !important;
+  }
+
+  /* Target individual cards */
+  .grid-card {
+    display: flex !important;
+    flex-direction: column !important; /* Forces vertical card layout */
+    background: var(--lightness);
+    border: 1px solid var(--lightgray);
+    border-radius: 8px;
+    overflow: hidden;
+    height: 100%;
+
+    .card-image {
+      width: 100% !important;
+      height: 180px !important;
+      overflow: hidden;
+
+      img.rpg-card-image {
+        width: 100% !important;
+        height: 100% !important;
+        object-fit: cover !important; /* Crops image cleanly without distortion */
+      }
+    }
+
+    .card-content {
+      padding: 1.25rem !important;
+      display: flex !important;
+      flex-direction: column !important;
+      justify-content: space-between !important;
+      flex-grow: 1 !important;
+    }
+  }
 }
 
 /* ==========================================================================
