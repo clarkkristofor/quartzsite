@@ -44,49 +44,110 @@ export default ((userOpts?: Options) => {
 
       const slug = simplifySlug(clean as FullSlug)
       const text = displayAlias || clean.split("/").pop() || clean
-
       return { text, slug }
     }
 
-    const rpgPages = allFiles
-      .filter((file) => {
-        const slug = file.slug ?? ""
-        return slug.startsWith("rpgs/") && !slug.startsWith("rpgs/protected") && !slug.endsWith("index")
-      })
-      .slice(0, opts.maxDisplay)
+    // FILTER LOGIC: Strict filtering to ONLY include parent RPG notes with cover images
+    const activeRpgNotes = allFiles.filter((file) => {
+      const slug = file.slug ?? ""
+      if (!slug.startsWith("rpgs/")) return false
+      
+      // Ignore root index
+      if (slug === "rpgs/index" || slug === "rpgs/") return false
 
-    if (rpgPages.length === 0) return null
+      const fm = (file.frontmatter ?? {}) as Frontmatter
+      const coverImage = fm.cover || fm.image
+
+      // REQUIRE an image or strict top-level folder depth (rpgs/system-name)
+      const pathSegments = slug.split("/")
+      const isTopLevelRpg = pathSegments.length === 2
+
+      return Boolean(coverImage) || isTopLevelRpg
+    })
+
+    const displayedRpgs = activeRpgNotes.slice(0, opts.maxDisplay)
+
+    if (displayedRpgs.length === 0) return null
 
     return (
       <div className={gridClassName}>
         <style>{`
-          .${gridClassName} {
+          .rpg-grid {
             width: 100%;
             margin-bottom: 2rem;
           }
-          .${gridClassName} .rpg-grid-cards {
+          .rpg-grid .rpg-grid-cards {
             display: grid !important;
             grid-template-columns: repeat(${cols}, 1fr) !important;
             gap: 1.5rem !important;
             width: 100% !important;
+            align-items: stretch !important;
           }
           @media (max-width: 768px) {
-            .${gridClassName} .rpg-grid-cards {
+            .rpg-grid .rpg-grid-cards {
               grid-template-columns: 1fr !important;
             }
+          }
+          .rpg-grid .grid-card {
+            display: flex !important;
+            flex-direction: column !important;
+            height: 100% !important;
+            background: var(--light) !important;
+            border: 1px solid var(--lightgray) !important;
+            border-radius: 8px !important;
+            overflow: hidden !important;
+            box-sizing: border-box !important;
+          }
+          .rpg-grid .card-image.rpg-card-image-link {
+            width: 100% !important;
+            height: 180px !important;
+            flex-shrink: 0 !important;
+          }
+          .rpg-grid .card-image.rpg-card-image-link a {
+            display: block !important;
+            width: 100% !important;
+            height: 100% !important;
+          }
+          .rpg-grid .rpg-card-image {
+            width: 100% !important;
+            height: 100% !important;
+            object-fit: cover !important;
+            display: block !important;
+          }
+          .rpg-grid .card-content {
+            padding: 1.25rem !important;
+            display: flex !important;
+            flex-direction: column !important;
+            flex-grow: 1 !important;
+            justify-content: flex-start !important;
+          }
+          .rpg-grid .card-content h3 {
+            margin: 0 0 0.5rem 0 !important;
+            font-size: 1.15rem !important;
+          }
+          .rpg-grid .rpg-card-desc {
+            font-size: 0.875rem !important;
+            color: var(--gray) !important;
+            margin: 0 0 1rem 0 !important;
+            line-height: 1.4 !important;
+          }
+          .rpg-grid .rpg-card-status {
+            font-size: 0.85rem !important;
+            margin-top: auto !important;
+            padding-top: 0.5rem !important;
           }
         `}</style>
 
         {opts.title && <h2>{opts.title}</h2>}
 
         <div className="rpg-grid-cards">
-          {rpgPages.map((rpg) => {
+          {displayedRpgs.map((rpg) => {
             const fm = (rpg.frontmatter ?? {}) as Frontmatter
-            const rpgTitle = fm.title ?? rpg.slug?.split("/").pop() ?? "Untitled RPG"
-            const description = fm.description ?? ""
-            const coverImage = fm.cover ?? fm.image
-            
-            const rawCampaign = fm["current campaign"] ?? fm["currentCampaign"] ?? fm["current_campaign"]
+            const rpgTitle = fm.title || rpg.slug?.split("/").pop() || "Untitled RPG"
+            const description = fm.description
+            const coverImage = fm.cover || fm.image
+
+            const rawCampaign = fm["current campaign"] || fm["current_campaign"]
             const currentCampaign = parseWikilink(rawCampaign as string)
 
             const rpgUrl = resolveRelative((fileData.slug ?? "") as FullSlug, rpg.slug!)
