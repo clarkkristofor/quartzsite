@@ -84,7 +84,7 @@ export default ((userOpts?: Options) => {
             return (
               <div className="grid-card" key={rpg.slug}>
                 {coverImage && (
-                  <div className="card-image rpg-card-image-link">
+                  <div className="card-image">
                     <a href={rpgUrl}>
                       <img src={coverImage} alt={rpgTitle} className="rpg-card-image" />
                     </a>
