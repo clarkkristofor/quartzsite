@@ -73,6 +73,20 @@ CARD CONTAINER & INNER IMAGE PROPORTIONS
       svg { width: 18px; height: 18px; display: block; }
     }
 
+.book-grid .grid-card, 
+.library-list .grid-card {
+  .card-content {
+    padding: 0.8rem !important;
+    h3 { font-size: 1rem; }
+    p { 
+      -webkit-line-clamp: 2; 
+      font-size: 0.85rem !important; 
+      color: var(--secondary) !important;
+      font-style: italic !important;
+    }
+  }
+}
+
 .rpg-grid > *,
 .book-grid > * {
   flex: 1 1 0px !important; /* Forces all cards in the row to expand equally to fill 100% width */

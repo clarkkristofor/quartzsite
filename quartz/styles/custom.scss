@@ -25,22 +25,23 @@ body[data-slug="index/"] #quartz-body {
   margin: 0 auto !important;
 }
 
-/* 2. Un-collapse div.center and let it expand dynamically */
+/* 2. Force div.center to take up 100% width and grow */
 body[data-slug="index"] div.center,
 body[data-slug=""] div.center,
 body[data-slug="index/"] div.center {
+  display: block !important;
   width: 100% !important;
   max-width: 100% !important;
-  flex: 1 1 auto !important;
-  min-width: 0 !important;
+  flex: 1 1 100% !important; /* Forces flex item to grow and basis at 100% */
+  min-width: 100% !important; /* Overrides Quartz's 0px / default min-width collapse */
   margin: 0 !important;
 }
-/* 3. Ensure left sidebar stays gone, right sidebar stays visible */
+
+/* 3. Ensure left sidebar stays hidden on index page */
 body[data-slug="index"] .sidebar.left,
 body[data-slug=""] .sidebar.left,
 body[data-slug="index/"] .sidebar.left {
   display: none !important;
-  width: 0 !important;
 }
 
 body[data-slug="index"] .sidebar.right,
