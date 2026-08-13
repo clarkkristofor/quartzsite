@@ -132,29 +132,12 @@ div.center {
   }
 }
 
-/* RPG Card Image & Layout (Fluid Height) */
-.rpg-grid-cards {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  gap: 1.5rem;
-  width: 100%;
-  align-items: start; /* Prevents shorter cards from forcibly stretching taller cards */
-
-  @media (max-width: 768px) {
-    grid-template-columns: 1fr;
-  }
-}
-
-.grid-card {
-  display: flex !important;
-  flex-direction: column !important;
-  height: auto !important; /* Allows card height to flow naturally */
-}
-
-/* Allow RPG cover images to display completely without cropping */
+/* RPG Card Image - Natural Fluid Scaling */
 .card-image.rpg-card-image-link {
   width: 100% !important;
-  height: auto !important; /* Removes 180px height ceiling */
+  height: auto !important; /* Removes the 180px height limit */
+  aspect-ratio: auto !important; /* Overrides _cards.scss 2/3 ratio */
+  flex-shrink: 0 !important;
 
   a {
     display: block !important;
