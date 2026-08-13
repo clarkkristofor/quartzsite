@@ -92,3 +92,31 @@ CARD CONTAINER & INNER IMAGE PROPORTIONS
   flex: 1 1 0px !important; /* Forces all cards in the row to expand equally to fill 100% width */
   min-width: 0 !important;   /* Prevents overflow squishing */
 }
+
+/* Target the link wrapper inside card images */
+.card-image,
+.rpg-card-image-link,
+.rpg-card-image-wrapper {
+  width: 100% !important;
+  overflow: hidden;
+
+  a {
+    display: block !important;
+    width: 100% !important;
+    height: 100% !important;
+  }
+
+  img {
+    width: 100% !important;
+    height: 100% !important;
+    object-fit: cover !important;
+    display: block !important;
+    margin: 0 !important;
+  }
+}
+
+/* Book / Media Covers (2:3 aspect ratio) */
+.card-image:not(.rpg-card-image-link) {
+  width: 100% !important;
+  aspect-ratio: 2 / 3 !important;
+}
