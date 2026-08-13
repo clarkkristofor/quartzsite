@@ -13,37 +13,44 @@
 FULL-WIDTH HOMEPAGE OVERRIDE
 ========================================================================== */
 
-body[data-slug="index"],
-body[data-slug=""],
-body[data-slug="index/"] {
+/* 1. Target the grid layout parent */
+body[data-slug="index"] #quartz-body,
+body[data-slug=""] #quartz-body,
+body[data-slug="index/"] #quartz-body {
+  display: flex !important;
+  flex-direction: row !important;
+  justify-content: space-between !important;
+  width: 100% !important;
+  max-width: 1200px !important;
+  margin: 0 auto !important;
+}
 
-  /* Reset center column constraints so it can grow up to 100% of available grid area */
-  div.center {
-    width: 100% !important;
-    max-width: 100% !important;
-    margin: 0 !important;
-  }
+/* 2. Heavy-handed specificity override for .center to kill 320px completely */
+html body[data-slug="index"] div.center,
+html body[data-slug=""] div.center,
+html body[data-slug="index/"] div.center {
+  width: 0 !important;             /* Kills fixed width inheritance */
+  min-width: 0 !important;         /* Allows flexible expansion */
+  flex: 1 1 auto !important;       /* Forces center column to consume all available space */
+  max-width: 100% !important;
+  margin: 0 !important;
+}
 
-  /* Keep left sidebar hidden (since left: [] in layout), but keep right sidebar active */
-  .sidebar.left {
-    display: none !important;
-    width: 0 !important;
-  }
+/* 3. Ensure left sidebar stays gone, right sidebar stays visible */
+body[data-slug="index"] .sidebar.left,
+body[data-slug=""] .sidebar.left,
+body[data-slug="index/"] .sidebar.left {
+  display: none !important;
+  width: 0 !important;
+}
 
-  /* Explicitly display and style right sidebar */
-  .sidebar.right {
-    display: block !important;
-    width: auto !important;
-    opacity: 1 !important;
-    visibility: visible !important;
-  }
-
-  article,
-  .rpg-grid,
-  .book-grid {
-    width: 100% !important;
-    max-width: 100% !important;
-  }
+body[data-slug="index"] .sidebar.right,
+body[data-slug=""] .sidebar.right,
+body[data-slug="index/"] .sidebar.right {
+  display: block !important;
+  flex: 0 0 300px !important;     /* Fixed width sidebar on desktop */
+  width: 300px !important;
+  margin-left: 2rem !important;
 }
 
 /* Ensure footer always spans full width across all CSS grid columns */

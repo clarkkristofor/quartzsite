@@ -65,6 +65,14 @@ CARD CONTAINER & INNER IMAGE PROPORTIONS
   }
 }
 
+.card-icon-wrapper {
+      margin-right: 0.8rem;
+      margin-top: 0.5rem; 
+      flex-shrink: 0;
+      color: var(--secondary);
+      svg { width: 18px; height: 18px; display: block; }
+    }
+
 .rpg-grid > *,
 .book-grid > * {
   flex: 1 1 0px !important; /* Forces all cards in the row to expand equally to fill 100% width */
