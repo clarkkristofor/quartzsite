@@ -1,5 +1,5 @@
 import { QuartzComponent, QuartzComponentConstructor, QuartzComponentProps } from "./types"
-import { resolveRelative, FullSlug, slugifyFilePath } from "../util/path"
+import { resolveRelative, FullSlug, simplifySlug, SimpleSlug } from "../util/path"
 
 interface Options {
   title?: string
@@ -34,24 +34,22 @@ export default ((userOpts?: Options) => {
     const cols = opts.columns ?? (limit !== Infinity ? limit : 2)
     const gridClassName = displayClass ?? opts.displayClass ?? "rpg-grid"
 
-    const parseWikilink = (linkStr?: string): { text: string; slug: FullSlug } | null => {
-      if (!linkStr || typeof linkStr !== "string") return null
-      
-      let clean = linkStr.trim().replace(/^['"]|['"]$/g, "").replace(/^\[\[/, "").replace(/\]\]$/, "").trim()
-      if (!clean) return null
+    const parseWikilink = (linkStr?: string): { text: string; slug: SimpleSlug } | null => {
+          if (!linkStr || typeof linkStr !== "string") return null
+          
+          let clean = linkStr.trim().replace(/^['\"]|['\"]$/g, "").replace(/^\[\[/, "").replace(/\]\]$/, "").trim()
+          if (!clean) return null
+    
+          let displayAlias = ""
+          if (clean.includes("|")) {
+            const parts = clean.split("|")
+            clean = parts[0].trim()
+            displayAlias = parts[1].trim()
+          }
 
-      let displayAlias = ""
-      if (clean.includes("|")) {
-        const parts = clean.split("|")
-        clean = parts[0]
-        displayAlias = parts[1]
-      }
-
-      // Force to FullSlug using slugifyFilePath
-      return {
-        text: displayAlias || clean,
-        slug: slugifyFilePath(clean as any),
-      }
+      const slug = simplifySlug(clean as FullSlug)
+      const text = displayAlias || clean.split("/").pop() || clean
+      return { text, slug }
     }
 
     // STRICT FILTER: ONLY include files in rpgs/ that HAVE a "current campaign" or "current_campaign" property
@@ -78,11 +76,11 @@ export default ((userOpts?: Options) => {
       <div className={`garden-section-container ${gridClassName}`}>
         {/* --- THE FANCY TITLE BLOCK --- */}
         <div className="garden-title">
-          <h2>
-            <a href={rpgsFolderUrl}>
+          <h2 class="garden-title">
+            <a href={rpgsFolderUrl} class="header-link">
               {title}
             </a>
-            <a href={rpgsFolderUrl} className="internal svg-link">
+            <a href={rpgsFolderUrl} >
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="24"
