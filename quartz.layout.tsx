@@ -21,8 +21,10 @@ const ChapterNext = Component.ChapterNavNext()
 
 // Home grid component with isHome safeguard to prevent it rendering on standard notes
 const HomeGrids: QuartzComponent = (props: QuartzComponentProps) => {
+  // DEBUG: This will print every single page slug to your terminal during build
+  console.log("PAGE SLUG CHECK ->", JSON.stringify(props.fileData.slug))
+
   const slug = (props.fileData.slug ?? "").toLowerCase()
-  // Broadened check for root index variations
   const isHome = slug === "" || slug === "index" || slug === "index.md" || slug === "/"
 
   if (!isHome) return null
