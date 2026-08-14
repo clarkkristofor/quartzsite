@@ -11,8 +11,8 @@ order: "4"
 #### Roll...
 1. **_[[#Kin|Kin]]_** (2d6 + d66)
 2. ***[[#Culture & the Beyond|Culture & the Beyond]]*** (d66)
-3. **_[[Making your Hunter#Power Realm & Link|Power Realm & Link]]_** (d66)
-4. ***[[Hunter Roles#Role|Role]]*** (d6): Note the stats and gain +1 in Body, Heart, Mind, or Beyond (stat max: +3). Note how you gain hope. Choose 1 ability.
+3. **_[[Swords Beyond online rules#Power Realm & Link|Power Realm & Link]]_** (d66)
+4. ***[[Swords Beyond online rules#Role|Role]]*** (d6): Note the stats and gain +1 in Body, Heart, Mind, or Beyond (stat max: +3). Note how you gain hope. Choose 1 ability.
 #### Write...
 1. **Belief:** What does your hunter think is true about your Power? Write a declaration starting with its name or what you call it.
 2. **Drive:** Why do you hunt monsters, the shadow? Now or after the pact writes its conviction, write a statement related to your role’s drive prompt starting with “I will…”.
@@ -294,9 +294,9 @@ A hearthborn’s culture is an echo of their family’s culture (identified by y
 
 
 # Role
-**1** [[Hunter Roles#the Shield|the Shield]]
-**2** [[Hunter Roles#the Law|the Law]]
-**3** [[Hunter Roles#the Scourge|the Scourge]]
-**4** [[Hunter Roles#the Loreseeker|the Loreseeker]]
-**5** [[Hunter Roles#the Fox|the Fox]]
-**6** [[Hunter Roles#the Zealot|the Zealot]]
+**1** [[Swords Beyond online rules#the Shield|the Shield]]
+**2** [[Swords Beyond online rules#the Law|the Law]]
+**3** [[Swords Beyond online rules#the Scourge|the Scourge]]
+**4** [[Swords Beyond online rules#the Loreseeker|the Loreseeker]]
+**5** [[Swords Beyond online rules#the Fox|the Fox]]
+**6** [[Swords Beyond online rules#the Zealot|the Zealot]]

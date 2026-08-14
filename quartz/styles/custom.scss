@@ -79,8 +79,8 @@ HOMEPAGE
     
     /* Flexible width so it fits cleanly alongside the logo */
     width: auto !important; 
-    // min-width: 140px !important;
-    // max-width: 200px !important;
+    min-width: 140px !important;
+    max-width: 200px !important;
     
     cursor: pointer !important;
     box-shadow: 2px 2px 0px var(--secondary) !important;
@@ -94,8 +94,8 @@ HOMEPAGE
 
     &:hover,
     &:focus {
-      border-color: #a33827 !important;
-      box-shadow: 3px 3px 0px #a33827 !important;
+      border-color: var(--secondary) !important;
+      box-shadow: 3px 3px 0px var(--secondary) !important;
       transform: translateY(-1px);
 
       p {
