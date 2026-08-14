@@ -146,7 +146,6 @@ plugins:
     layout:
       position: header
       priority: 20
-      group: toolbar
   - source: "@quartz-community/backlinks"
     enabled: true
     layout:
@@ -172,7 +171,6 @@ plugins:
     layout:
       position: header
       priority: 10
-      group: toolbar
   - source: "@quartz-community/darkmode"
     enabled: false
     layout:

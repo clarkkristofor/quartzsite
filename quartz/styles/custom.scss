@@ -57,9 +57,20 @@ HOMEPAGE
   }
 }
 
+[data-slug="index"] {
+  .article-title, .content-meta {
+    display: none;
+  }
+}
+
+
 /* ==========================================================================
-   SEARCH INTERFACE _search.scss
-   ========================================================================== */
+ SEARCH INTERFACE _search.scss
+========================================================================== */
+
+header .flex-component {
+  justify-content: center;
+}
 
 /* 1. The Header Search Button */
 .search {
