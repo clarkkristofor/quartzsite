@@ -144,10 +144,7 @@ plugins:
     enabled: true
     layout:
       position: left
-      priority: 80
-      group: toolbar
-      groupOptions:
-        grow: true
+      priority: 20
   - source: "@quartz-community/backlinks"
     enabled: true
     layout:
@@ -174,13 +171,13 @@ plugins:
       position: left
       priority: 10
   - source: "@quartz-community/darkmode"
-    enabled: true
+    enabled: false
     layout:
       position: left
       priority: 30
       group: toolbar
   - source: "@quartz-community/reader-mode"
-    enabled: true
+    enabled: false
     layout:
       position: left
       priority: 35
@@ -189,7 +186,7 @@ plugins:
     enabled: true
     layout:
       position: beforeBody
-      priority: 5
+      priority: 50
       condition: not-index
   - source: "@quartz-community/comments"
     enabled: false

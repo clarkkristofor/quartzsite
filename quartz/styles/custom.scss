@@ -51,8 +51,14 @@ LOGO
 HOMEPAGE
 =============================================================*/
 [data-slug="index"],
-[data-slug="rpgs/swords-beyond/"] {
+[data-slug="rpgs/swords-beyond/swords-beyond"] {
   .article-title, .content-meta {
+    display: none;
+  }
+}
+
+[data-slug="index"] {
+  .toc {
     display: none;
   }
 }
