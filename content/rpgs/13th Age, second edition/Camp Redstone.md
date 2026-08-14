@@ -7,6 +7,7 @@ date: 2026-04-09
 Game: 13th Age, 2e
 ---
 ## 4. Calm before the betrayal
+- full heal up with incremental (Lorn: HP)
 - wild-built not new
 - Archive of Empire in Axis has more on [[Tod]] Delver clan
 - [[Dwarf King]] wants money and resources for war with Orc Lord

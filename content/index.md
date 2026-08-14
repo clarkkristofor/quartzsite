@@ -5,11 +5,9 @@ date: 2026-03-05
 layout: index
 ---
 # [[rpgs/index|RPGs]]
-## [[rpgs/Swords Beyond/Swords Beyond|Swords Beyond]]
-![[Pasted image 20260814073638.png|250]]
+[[rpgs/Swords Beyond/Swords Beyond|Swords Beyond]]
 - campaign: [[playtest beta]]
-## [[rpgs/13th Age, second edition/13th Age|13th Age]]
-![[Pasted image 20260814073707.png|250]]
+[[rpgs/13th Age, second edition/13th Age|13th Age]]
 - campaign: [[rpgs/13th Age, second edition/Camp Redstone|Camp Redstone]]
 # [[books/index|Books]]
 **Reading Now**
