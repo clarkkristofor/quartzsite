@@ -162,7 +162,7 @@ Your death is in the hands of *[[#Magic, Favor & Fate|fate]]*.
 4. **Gear**: You have basics – weapons, armor, etc. Want special gear? Ask the GM.
 #### All Together...
 1. **Introduce your Hunter**. The GM will ask questions.
-2. **Sketch the [[Swords Beyond online rules#World Map|world map]]]**. Note where your hunter is from, and whatever else you like. Also, _what resource does the Over Reach supply to the Coastal Cities?_ e.g., iron, timber, wool, salt, amber, gold, something Beyond
+2. **Sketch the [[Swords Beyond online rules#World Map|world map]]**. Note where your hunter is from, and whatever else you like. Also, _what resource does the Over Reach supply to the Coastal Cities?_ e.g., iron, timber, wool, salt, amber, gold, something Beyond
 3. **[[#Making the Pact|Make the pact]]**.
 
 ## Kin

@@ -3,6 +3,7 @@
 /* ===========================================================
 LOGO
 =============================================================*/
+
 .page-title a {
   position: relative;
   display: inline-block;
@@ -37,7 +38,7 @@ LOGO
 
 .page-title a:hover::before {
   background: var(--tertiary);
-}
+} 
 
 // Top layer: black glasses frame, with the lens area transparent in the artwork itself.
 .page-title a::after {
@@ -46,6 +47,29 @@ LOGO
   background: black;
   z-index: 2;
 }
+
+/*
+.header-logo {
+  #superclark {
+    fill: var(--dark);
+    
+    // Quartz v5 uses data-theme attributes
+    [data-theme="dark"] & { 
+      fill: var(--secondary); 
+    }
+    
+    transition: fill var(--transition-snappy);
+  }
+
+  .logo-lens {
+    fill: transparent;
+    transition: all var(--transition-snappy);
+  }
+
+  &:hover .logo-lens {
+    fill: var(--tertiary);
+  }
+} */
 
 /* ===========================================================
 HOMEPAGE
@@ -68,7 +92,9 @@ HOMEPAGE
  SEARCH INTERFACE _search.scss
 ========================================================================== */
 
-header .flex-component {
+// center items in the header
+header {
+  display: flex;
   justify-content: center;
 }
 
@@ -118,4 +144,123 @@ header .flex-component {
       }
     }
   }
+}
+
+/* ==========================================================================
+   Typography & Font-Weight Hierarchy
+   ========================================================================== */
+
+// 1. HEADERS (Lexend)
+h1, h2, h3, h4, h5, h6, .page-title {
+  font-family: var(--headerFont);
+}
+
+// Site title / Main H1 - Extra Bold
+.page-title, 
+article h1 {
+  font-weight: 800;
+  letter-spacing: -0.02em;
+}
+
+// Section Headings - Bold
+h2, h3 {
+  font-weight: 700;
+}
+
+// Sub-headings & Card titles - Semi-Bold
+h4, h5, h6, 
+.section-header, 
+.card-title {
+  font-weight: 600;
+}
+
+// Subtitles / Header meta text - Regular & Italic
+.header-meta, 
+.subtitle {
+  font-family: var(--headerFont);
+  font-weight: 400;
+  font-style: italic;
+  opacity: 0.85;
+}
+
+
+// 2. BODY TEXT (Merriweather)
+body, p, li {
+  font-family: var(--bodyFont);
+  font-weight: 400; // Regular body text
+  line-height: 1.65;
+}
+
+// Heavy bold body text
+strong, b {
+  font-weight: 900;
+}
+
+// Light weight for introductory leads / blockquotes
+.lead-text, 
+blockquote p {
+  font-weight: 300;
+}
+
+// True italics for emphasis & blockquotes
+em, i, blockquote {
+  font-style: italic;
+}
+
+// Bold body callouts
+strong, b {
+  font-weight: 700;
+}
+
+
+// 3. CODE (IBM Plex Mono)
+code, pre, kbd {
+  font-family: var(--codeFont);
+  font-weight: 400;
+}
+
+// Medium weight for code headers, inline tags, or bold code terms
+.code-header, 
+.tag, 
+pre strong, 
+code strong {
+  font-weight: 500;
+}
+
+// H1 LINKS
+/* Target internal links inside H1 elements */
+/* 1. Main heading link: clear highlight, set dark color, add red arrow */
+h1 a.internal.alias {
+  background-color: transparent;
+  color: var(--dark);
+  padding: 0;
+  border-radius: 0;
+  display: inline-flex;
+  align-items: center;
+
+  &::after {
+    content: " →";
+    color: var(--secondary);
+    margin-left: 0.35rem;
+    font-weight: 400;
+    transition: transform 0.2s ease-in-out;
+  }
+
+  &:hover::after {
+    transform: translateX(4px);
+  }
+}
+
+/* 2. Anchor icon link: strip background highlight & color */
+h1 a.internal[role="anchor"] {
+  background-color: transparent;
+  padding: 0;
+  // color: var(--gray); // or transparent/none if you want to hide it completely
+  // opacity: 0.5;
+  color: transparent;
+
+  /*
+  &:hover {
+    opacity: 1;
+  } */
 }

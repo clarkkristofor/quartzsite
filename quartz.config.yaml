@@ -101,6 +101,19 @@ plugins:
     order: 92
   - source: "@quartz-community/quartz-fonts"
     enabled: true
+    options:
+      fontOrigin: googleFonts
+      header:
+        name: Lexend
+        weights: [400, 600, 700, 800]
+        includeItalic: true
+      body:
+        name: Merriweather
+        weights: [300, 400, 700, 900]
+        includeItalic: true
+      code:
+        name: IBM Plex Mono
+        weights: [400, 500]
   - source: "@quartz-themes/core"
     enabled: false
     options:
