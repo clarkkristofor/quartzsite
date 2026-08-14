@@ -23,39 +23,41 @@ While hunches and feelings from [[Swords Beyond online rules]] are common, you _
 
 Your destiny is also intertwined with a **pact** of other hunters and, of course, with the people of Lost Plenty.
 
-# The DEAD
+# The Realms Beyond
+## The DEAD
 **...is beyond this life.** It does not steal our beloved or cause our grief, so we do not fear it. Instead we fear the envious and the resentful who in death eschew the Dead and return to haunt us. It protects us, and we revere it, because it is the rest and reward of our ancestors who yet guide us.
-# The DEEPS
+## The DEEPS
 **...are beyond comprehension.** They hide in the dark, in dreams and nightmares, in madness and desire, in the riches buried within the earth, the leviathans buried beneath the sea, and the mysteries buried between the stars. We can only respect them and humble ourselves, lest we awaken their horrors.
-# The HEAVENS
+## The HEAVENS
 **...are beyond the skies.** They are home to our gods and the source of goodness, blessing, and harmony. To the Heavens we give thanks and direct our prayers—not least, to war against demons of the Hells and to bear the departed safely to the Dead. Though there may be corners of the Heavens, adjacent to the Deeps, to which other prayers are raised.
-# The HELLS
+## The HELLS
 **...are beyond forgiveness.** They curse the world with rage and wickedness. Their hordes bring only chaos, corruption, pestilence, and woe. Unless they are carefully bound, very carefully indeed.
-# The WEFT
+## The WEFT
 **...is beyond explaining.** It defies logic. It deceives with illusion. It is unnatural, wondrous, and dreadful. Its Powers chafe those of the Wild and the Heavens alike and yet also banish Hells’ demons.
-# The WILD
+## The WILD
 **...is life beyond containing or taming.** The world is thriven by the Wild, which gives healthy life (thus defying the Hells), creates new life out of death (thus sharing some mysterious kinship with the Dead), and stirs love that makes both possible (thus echoing many songs of the Heavens). But Powers of the Wild break many things too. Boundaries, taboos, stone, and the like.
 
-# Agenda
+# Playing Hunters
 
-## Do what your hunter would do. 
+## Agenda
+
+### Do what your hunter would do. 
 
 The game gives you **the bones** – _kin_, _culture_, _belief_, and _drive_ – and dumps them in the middle of your hunter sheet. Put flesh on those bones by acting on them, give them life by letting your hunter embody them, even struggle with them, change them.
 
 The game also gives you **the incentive**. Doing what your hunter would do will earn you _hope_ to unlock new hunter abilities and bonuses.
 
-## Make your hunter real.
+### Make your hunter real.
 
 Play like your hunter is real person living in a real world. Multifaceted, flawed, heroic, changing. All the more, given the pressure of being a hunter. Most importantly, give your hunter skin in the game, something urgent and important that’s at stake. Tangle them up in the fiction of the world.
 
-## Play to find out what happens.
+### Play to find out what happens.
 
 Discover your hunter’s story; don’t plan it. Let it emerge from dice rolls, other players’ actions, your instinct for who your hunter is. Stay in the moment.
 
+## Rolling Dice
 
-# Rolling Dice
-
-## Basic Rolls
+### Basic Rolls
 
 Say what your hunter does. If the action is risky, the GM may call for a roll. Roll 2d6 +STAT. Your action’s outcome is: **10+** _best_, **7-9** _mixed_, or **6-** _worst_.
 
@@ -66,7 +68,7 @@ Before rolling, you may: 
 - **Go for broke:** Take on more risk to increase your impact. Do something big, stupid, or beyond your capabilities. Expose yourself to serious trouble. A 9- will be worse but a 10+, better.
 - **Play it safe:** Reduce your risk for lower impact. Act with great caution. A 9- won’t be as bad, but a 10+ won’t be as good.
 
-## Stats
+### Stats
 - **BODY** when using strength, speed, toughness or nimbleness.
 - **HEART** when testing loyalty or using persuasion, empathy, cunning or wisdom.
 - **MIND** when using learning, analysis or perception, testing composure, or tinkering.
@@ -75,7 +77,7 @@ Before rolling, you may: 
 - **TRUST** when leveraging the pact’s relationship with the people of Lost Plenty.
 - **STATUS** when leveraging the pact’s reputation with other factions.
 
-## Magic, Favor & Fate
+### Magic, Favor & Fate
 **There are no spells. Every spell is bespoke.** For inspiration, cross your Power’s Realm Beyond with a verb from the +BEYOND “Stats” sidebar. For example:
 
 - **the** **Dead:** summon spirits, drain life, reduce chains to rust
@@ -89,7 +91,7 @@ _Favor_ is magic granted by your Power Beyond. After any roll, mark 2 _favor_ fo
 
 _Favor_ limits magic on each hunt. _Fate_ limits your hunter’s career and perhaps lifespan.
 
-## Double 6s & Double 1s
+### Double 6s & Double 1s
 You _roll Power_ when you roll double 6s and _shadow_ when you roll double 1s. Both heighten the importance of the scene.
 
 ![[Pasted image 20260802163329.png|40]] **Your Power intervenes.** The outcome is better than _best_. Clear **1 favor**.
@@ -100,17 +102,17 @@ GM: deliver a message, offer an opportunity, introduce a welcome plot twist, ask
 
 GM: introduce danger, deliver an ominous threat, show something off-screen that just got much worse, offer a deal with the shadow, ask questions and use the answers: *What’s really going on in this scene or hunt? What suddenly makes terrifying sense?*
 
-## Teamwork
+### Teamwork
 Teamwork actions are _help_, _protect_, _set up_, and _act together_. As always, say what your hunter does before rolling. _Angry_ hunters cannot lead, participate in, or benefit from teamwork.
 
 **Help.** Helpers may suffer any consequences, depending on the outcome. Only one helper at a time.
 
 **Act Together.** The single lowest result determines consequences for the group. If you roll 7+, you may mark 1 favor to get someone else out of a bad spot, turning their 6- into a 7-9. Describe how the other hunter saved you. _Rolling_ _Power_ cancels all 6- for 0 favor.
 
-## Fortune Rolls
+### Fortune Rolls
 Fortune rolls are for no-risk actions or leaving aspects of the world or situation to chance. Describe your goal, then roll with +1 per major advantage and -1 per major disadvantage. The GM may let you add a stat.
 
-## Fate Rolls
+### Fate Rolls
 A fate roll frames an encounter with your Power Beyond and/or the shadow. When filling your favor track, roll +FATE and play a scene with:
 
 #### **10+, your Power Beyond.**
@@ -134,18 +136,19 @@ If you can’t take -1 fate, your doom has come and your life as a hunter ends; 
 * **Sacrifice yourself**, giving +2 to each hunter’s next roll. Does your hunter die, retire, ascend Beyond, or something else?
 * **Embrace the shadow.** It’s satisfied…for now. All other hunters may take +1 fate. Your hunter is in the GM’s hands now.
 
-### Set the Scene
+#### Set the Scene
 Choose players to play your Power and/or the shadow. The rest play the chorus, anonymous Powers of either the relevant Realm Beyond or the shadow. Remind everyone of your Power’s Realm and link, your belief and the pact’s conviction. Decide: who’s driving the scene, what do they want, and who do they want it from? Integrate your reward, doom, or 7-9 choice. End the scene when the driver gets what they want or definitively does not.
 
 
-# Conditions & Death
+## Conditions & Death
 Conditions make hunting monsters harder. They reflect debilities with story effects. Mark conditions on your hunter sheet. To clear them, take the relevant action and enjoy a more interesting scene.
 
 Wounds are freeform conditions reflecting physical harm. You can mark **armor** instead of a wound. Healing (mundane or magical) will stabilize you temporarily, allowing you to ignore the wound’s effects for the current scene.
 
 Your death is in the hands of *[[#Magic, Favor & Fate|fate]]*.
 
-# Overview
+# Making your Hunter
+## Overview
 *Create hunters together. Fill in gaps. Connect dots. Twist, ignore, and embellish results to make it fun for everyone.*
 #### Roll...
 1. **_[[#Kin|Kin]]_** (2d6 + d66)
@@ -162,13 +165,13 @@ Your death is in the hands of *[[#Magic, Favor & Fate|fate]]*.
 2. **Sketch the[[Swords Beyond online rules|world map]]]**. Note where your hunter is from, and whatever else you like. Also, _what resource does the Over Reach supply to the Coastal Cities?_ e.g., iron, timber, wool, salt, amber, gold, something Beyond
 3. **[[#Making the Pact|Make the pact]]**.
 
-# Kin
+## Kin
 *2d6 + d66*
 
-## **2** Dual Kinship
+### **2** Dual Kinship
 roll 2x, ignore 2s
 
-## **3** Troll
+### **3** Troll
 |  d66  | *from the* (d60)    | *who eat shadow and* (d6) |
 | :---: | :------------------ | :------------------------ |
 | **1** | undermurk           | a hunter’s kin            |
@@ -178,7 +181,7 @@ roll 2x, ignore 2s
 | **5** | barrow wood         | Over Reach people         |
 | **6** | witchwood           | Over Reach people         |
 
-## **4** Hearthborn
+### **4** Hearthborn
 *[[#Hearthborn|What are hearthborn?]]*
 
 |  d66  | *from* (d60)    | *whose family* (d6)         |
@@ -190,7 +193,7 @@ roll 2x, ignore 2s
 | **5** | Blooming Shores | was lost to shadow          |
 | **6** | Widow’s Take    | was lost to shadow          |
 
-## **5** Forged
+### **5** Forged
 |  d66  | *function* (d60) | *who serve* (d6)  |
 | :---: | :--------------- | :---------------- |
 | **1** | drudgers         | a hunter’s kin    |
@@ -200,7 +203,7 @@ roll 2x, ignore 2s
 | **5** | war machines     | a god             |
 | **6** | wildbuilt        | the shadow        |
 
-## **6** Dwarf
+### **6** Dwarf
 |  d66  | *from the* (d60)      | *with a legacy of* (d6)                         |
 | :---: | :-------------------- | :---------------------------------------------- |
 | **1** | deepening mines       | cataclysm and exile among a hunter’s kin        |
@@ -210,7 +213,7 @@ roll 2x, ignore 2s
 | **5** | undermurk             | sharing artifacts of renown with a hunter’s kin |
 | **6** | wardens of the passes | seclusion, secretly serving the shadow          |
 
-## **7** Human
+### **7** Human
 |  d66  | *from the* (d60)            | *of ___ status* (d6) |
 | :---: | :-------------------------- | :------------------- |
 | **1** | Coastal Cities              | exalted              |
@@ -220,7 +223,7 @@ roll 2x, ignore 2s
 | **5** | Conclave *(union of kins)*  | fringe               |
 | **6** | Heirs *(ruins dwellers)*    | unshackled           |
 
-## **8** Elf 
+### **8** Elf 
 |  d66  | *from the* (d60)                            | *loyal to the* (d6) |
 | :---: | :------------------------------------------ | :------------------ |
 | **1** | forest towers                               | lady of wisdom      |
@@ -230,7 +233,7 @@ roll 2x, ignore 2s
 | **5** | ravages                                     | one true god        |
 | **6** | ruins the Coastal Cities<br>were built upon | shadow              |
 
-## **9** Orc
+### **9** Orc
 |  d66  | *from the* (d60)  | *cursed children of* (d6) |
 | :---: | :---------------- | :------------------------ |
 | **1** | drifts            | a hunter’s kin            |
@@ -240,7 +243,7 @@ roll 2x, ignore 2s
 | **5** | warg steppes      | a dead god                |
 | **6** | western highlands | the shadow                |
 
-## **10** Dragonkin 
+### **10** Dragonkin 
 |  d66  | *from the* (d60) | *who are soldiers in a* (d6)   |
 | :---: | :--------------- | :----------------------------- |
 | **1** | banelands        | hunter’s kin’s armies          |
@@ -250,7 +253,7 @@ roll 2x, ignore 2s
 | **5** | secret eyrie     | great dragon’s war with shadow |
 | **6** | wyrmsilver       | great dragon’s war with shadow |
 
-## **11** Ravenkin 
+### **11** Ravenkin 
 |  d66  | *from the* (d60)              | *who steal from the shadow and* (d6) |
 | :---: | :---------------------------- | :----------------------------------- |
 | **1** | coastal crags                 | a hunter’s kin                       |
@@ -260,7 +263,7 @@ roll 2x, ignore 2s
 | **5** | eastern reach                 | Over Reach people                    |
 | **6** | Unbroken Wilderness           | Over Reach people                    |
 
-## **12** Outsider
+### **12** Outsider
 |  d66  | *from* (d60)                                             | *who* (d6) |
 | :---: | :------------------------------------------------------- | :--------- |
 | **1** | another world                                            | is lost    |
@@ -273,13 +276,13 @@ roll 2x, ignore 2s
 ##### **_If they’re not in your pact, are they in your world?_**
 
 
-# Hearthborn
+## Hearthborn
 Hearthborn were **once simply ash, charred firewood, hearth stones, and household items**, bearing generations of traditional Over Reach house blessings. But when their home is destroyed or their family lost, the warmth and protection can endure, born of love and yearning, wandering as **a melancholic exile looking for a new purpose**. 
 
 A hearthborn’s culture is an echo of their family’s culture (identified by your *Culture & the Beyond* result), made their own by childlike imitation.
 
 
-# Culture & the Beyond
+## Culture & the Beyond
 *d66*
 
 | **d60** |             |                                                       |
@@ -312,7 +315,7 @@ A hearthborn’s culture is an echo of their family’s culture (identified by y
 ##### **_Do you live your kin’s culture or defy it?_**
 
 
-# Power Realm & Link
+## Power Realm & Link
 *Rolling 10s die may introduce tension with your kin. Feel free to use your culture’s Realm and roll 1s only.*
 
 |  d66  | 10 DEAD                     | 20 DEEPS             | 30 HEAVENS                   | 40 HELLS               | 50 WEFT                | 60 WILD                 |
@@ -324,17 +327,17 @@ A hearthborn’s culture is an echo of their family’s culture (identified by y
 | **5** | telepathic skull            | something in shadows | message of judgment or mercy | unclean hands          | tear in reality        | sudden change of season |
 | **6** | village ghost               | uncut gem            | prayer book                  | voice of self-loathing | whispering tome        | three-tailed fox        |
 
-# Role
-|  d6   |                                                 |
-| :---: | [[Swords Beyond online rules#the Shield\|the Shield]]-------- |
-| **1** | [[Swords Beyond online rules#the Law\|the Law]]ield]]         |
-| **2** | [[Swords Beyond online rules#the Scourge\|the Scourge]]       |
-| **3** | [[Swords Beyond online rules#the Loreseeker\|the Loreseeker]] |
-| **4** | [[Swords Beyond online rules#the Fox\|the Fox]]e Loreseeker]] |
-| **5** | [[Swords Beyond online rules#the Zealot\|the Zealot]]         |
-| **6** | [[Hunter Roles#the Zealot\|the Zealot]]         |
+## Role
+|  d6   |                                                               |
+| :---: | ------------------------------------------------------------- |
+| **1** | [[Swords Beyond online rules#the Shield\|the Shield]]         |
+| **2** | [[Swords Beyond online rules#the Law\|the Law]]               |
+| **3** | [[Swords Beyond online rules#the Scourge\|the Scourge]]       |
+| **4** | [[Swords Beyond online rules#the Loreseeker\|the Loreseeker]] |
+| **5** | [[Swords Beyond online rules#the Fox\|the Fox]]               |
+| **6** | [[Swords Beyond online rules#the Zealot\|the Zealot]]         |
 
-# Overview
+# Making the Pack
 *Create the pact together.*
 1. Choose one player to keep the pact sheet.
 2. What is your shared **conviction** about the shadow?
@@ -346,7 +349,9 @@ A hearthborn’s culture is an echo of their family’s culture (identified by y
 8. What **faction** have you hurt or screwed over in some way? Take -1 status with them and describe what happened.
 9. What NPC **ally** knows about your sanctuary and what you’re doing in Lost Plenty? (If your ally is friendly with a faction, take +1 status; if they are unfriendly with a faction, take -1 status.)
 
-# the Shield
+
+# Hunter Roles
+## the Shield
 **STATS**: +2 Body, +1 Heart, -1 Mind
 **GAIN HOPE VIA** force of will or brawn.
 **DRIVE PROMPT**: A past tragedy or a future hope. What keeps you moving forward?
@@ -365,7 +370,7 @@ A hearthborn’s culture is an echo of their family’s culture (identified by y
 
 ---
 
-# the Law
+## the Law
 **STATS**: +2 Heart, +1 Mind, -1 Beyond
 **GAIN HOPE VIA** influence or analysis.
 **DRIVE PROMPT**: Your organization or assignment. Were you assigned here as a reward or punishment?
@@ -384,7 +389,7 @@ A hearthborn’s culture is an echo of their family’s culture (identified by y
 
 ---
 
-# the Scourge
+## the Scourge
 **STATS**: +1 Mind, +2 Beyond, -1 Heart
 **GAIN HOPE VIA** eldritch wisdom or arcane power.
 **DRIVE PROMPT**: Your craft or its power. Will you give in to your dark temptations?
@@ -403,7 +408,7 @@ A hearthborn’s culture is an echo of their family’s culture (identified by y
 
 ---
 
-# the Loreseeker
+## the Loreseeker
 **STATS**: +3 Mind, -1 Body
 **GAIN HOPE VIA** knowledge or insight.
 **DRIVE PROMPT**: Your research or pursuit. What tragic past mistakes can you never forget, no matter how much studying you do?
@@ -422,7 +427,7 @@ A hearthborn’s culture is an echo of their family’s culture (identified by y
 
 ---
 
-# the Fox
+## the Fox
 **STATS**: +2 Body, +1 Heart, -1 Mind or Beyond
 **GAIN HOPE VIA** deception or charm.
 **DRIVE PROMPT**: A long con or your redemption. Did you choose a life of crime, or was it chosen for you?
@@ -441,7 +446,7 @@ A hearthborn’s culture is an echo of their family’s culture (identified by y
 
 ---
 
-# the Zealot
+## the Zealot
 **STATS**: +2 Mind, +1 Beyond, -1 Body
 **GAIN HOPE VIA** cooperation or control.
 **DRIVE PROMPT**: Your sect or crusade. Are you alone in your beliefs or do others walk beside you on this winding path?
@@ -459,7 +464,10 @@ A hearthborn’s culture is an echo of their family’s culture (identified by y
 
 □ **VISIONS OF DEATH.** When you kill a monster of shadow, roll plus Beyond. On a 10+, name one person who’ll die and one who’ll live. On a 7–9, name one person who’ll die OR one person who’ll live. Not hunters; NPCs only. The GM will make your vision come true, if it’s possible. On a 6-, you foresee your own death. Mark _afraid_.
 
-# Hunter Arc
+
+# Downtime
+
+## Hunter Arc
 
 **ORIGIN STORY** (2H). Flashback showing a pivotal moment in your hunter’s life before the pact. Take a new ability that fits with what you described (from any role). [▷▷]
 
@@ -469,7 +477,7 @@ A hearthborn’s culture is an echo of their family’s culture (identified by y
 
 **RETIRE** (4B). Describe how you leave the life of monster hunting and who from the community either takes you in or helps you get out. Introduce your new hunter. [▷]
 
-# Basic Beats
+## Basic Beats
 
 **ACQUIRE AN ASSET** (2H). Describe how you gain temporary use of an item, ally/crew, mode of transport or service. You have one use of the asset, and the asset’s Quality is equal to your pact’s Trust. Give each asset 2-3 tags, usually including one benefit and one drawback.
 **QUELL ALARM** (2B). Say what your character does to lessen alarm in the people of the Over Reach. Reduce alarm by two. 
@@ -507,7 +515,7 @@ A hearthborn’s culture is an echo of their family’s culture (identified by y
 > 
 > Each item, ritual, or spell will have 2-3 tags that describe it. Often, one of these tags will be a benefit and the other a drawback.
 
-# Pact Arcs
+## Pact Arcs
 
 **CHOSEN FAMILY** (3B). While trying to enjoy some downtime together, an argument breaks out among the hunters. *Everyone involved must update or write a new belief about one of the other parties who was involved.* [▷]
 
@@ -523,37 +531,40 @@ A hearthborn’s culture is an echo of their family’s culture (identified by y
 
 **THE TIES THAT BIND** (6B). The hunters spend quality time with the people of the Over Reach and demonstrate their promise. *Raise your pact’s Trust by 1 and consider changing your reputation to match the nature of your changing relationship.* [▷▷▷▷]
 
-# Role Arcs
+## Role Arcs
 
-## Shield
+### Shield
 **TROUBLED PAST** (3H). Someone from your past pays you a visit. Who is it, and what do they want? *Mark a wound and take a new ability from your playbook.* [▷]
 
 **KILL IT WITH FIRE** (4H). You’re off on your own when you come face to face with something horrible (what is it?) and you’re forced to deal with it on your own. Say which hunter found you and what they saw that terrified them. *Take a monstrous ability and -1 fate.* [▷]
 
-## Law
+### Law
 **THE BLACK DOSSIER** (3H). A contact provides you with highly classified information. The kind of information people get killed over. *Describe what it is (be as vague or specific as you’d like), gain -1 status with a relevant faction, and take a new ability from your playbook.* [▷]
 
 **DEAL WITH THE DEVIL** (4H). Everything comes at a cost. Tell a story about a deal that required you to make a great sacrifice. What did you sacrifice, and was it worth? *Take a monstrous ability and -1 fate.* [▷]
 
-## Scourge
+### Scourge
 **ACCIDENTAL INCANTATION** (3H). You’re certain you said the words correctly. All the proper components were there. The blade tasted blood. What went wrong, and who was there to see it? *Mark a condition (your choice) and take a new ability from your playbook.* [▷]
 
 **THE DESCENT** (4H). You succumb to the shadow, which you’ve worked so hard to harness and control. Describe what this looks like. *Take a monstrous ability and -1 fate.* [▷]
 
-## Loreseeker
+### Loreseeker
 **FAVORS DUE** (3H). You’re called away on business. What excuse do you tell the other hunters, and why can’t they ever know the truth about what you’re doing? *Write a belief that pertains to this and then take a new ability from your playbook.* [▷]
 
 **THE THING WHICH COULD NOT BE PUT BACK** (4H). You always tell others not to mess with that which they don’t understand, and yet here you are. Of course, it’s hard for you to admit that there are things you don’t understand. *Take a monstrous ability and -1 fate.*  [▷]
 
-## Fox 
+### Fox 
 BORN TO RUN (3H). Something you thought you’d outrun is making itself a problem in the resent. What is it? Who do you confide in? Describe dealing with things. *Permanently lose one of your connections and take a new ability from your playbook.* [▷]
 
 BLOOD BROTHERS (4H). Someone you care about is in trouble – who? – and you’ve made a deal to save them. How does it backfire, and what is the curse that’s been placed on you? Take a monstrous ability. *Take a monstrous ability and -1 fate.* [▷]
 
-## Zealot
+### Zealot
 **ANCIENT EVIL** (3H). Your training has been pushing you to the limits with no sign of relenting. How have they pushed you too hard, and what is your breaking point? You are exhausted until you confront your leader. *Take a new ability from your playbook.* [▷]
 
 **NEW SCARS** (4H). Your sect has a fabled enemy or rival and they’ve been training you how to hunt it down. Who or what is it, and how have you come to better understand it? Say what this
 knowledge has cost you. *Take a monstrous ability and -1 fate.* [▷]
+
+
+# World Map
 
 ![[Swords Beyond - blank map.png]]

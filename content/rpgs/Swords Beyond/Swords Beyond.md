@@ -18,7 +18,7 @@ with additional inspiration from *[13th Age](https://pelgranepress.com/13th-age/
 - playtest alpha
 
 # Contents
-## [[Swords Beyond online rules]]
+## [[Swords Beyond online rules#A Creeping Shadow|A Creeping Shadow]]
 ## [[Swords Beyond online rules]]
 ## [[Swords Beyond online rules]]
 - [[Swords Beyond online rules#Agenda|Agenda]]
