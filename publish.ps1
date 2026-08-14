@@ -3,7 +3,7 @@ Set-Location -Path "C:\Users\clark\quartzsite"
 
 Write-Host "--- Starting Quartz Sync ---" -ForegroundColor Cyan
 
-# Check for git changes (content or build configuration)
+# Check for git changes
 $status = git status --porcelain
 if ($status) {
     Write-Host "Changes detected. Staging and committing..." -ForegroundColor Yellow
@@ -15,8 +15,8 @@ if ($status) {
     Write-Host "No local content changes detected." -ForegroundColor Green
 }
 
-# Sync with remote repository
+# Sync with remote repository targeting the v5 branch
 Write-Host "Pushing to remote repository..." -ForegroundColor Cyan
-git push origin main
+git push origin v5
 
 Write-Host "--- Sync Complete! ---" -ForegroundColor Green
