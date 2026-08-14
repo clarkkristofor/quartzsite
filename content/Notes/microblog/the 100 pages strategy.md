@@ -1,0 +1,1 @@
+[The 100 Pages Strategy](https://thelampmagazine.com/issues/issue-26/the-one-hundred-pages-strategy)

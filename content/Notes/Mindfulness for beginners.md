@@ -1,0 +1,3 @@
+[Elaine's handout for "Practice of Mindfulness"](<H:\.shortcut-targets-by-id\0B-rNyEbzo-e3YTFkMWIzZWEtZjA0MS00YzZjLTk3ZjEtZjM3N2NlNmQwNGFj\Pastor Clark\RESOURCES\Contemplation\Practice of Mindfulness - Elaine Olson 2024-04-13.pdf>) [In Word](<H:\.shortcut-targets-by-id\0B-rNyEbzo-e3YTFkMWIzZWEtZjA0MS00YzZjLTk3ZjEtZjM3N2NlNmQwNGFj\Pastor Clark\RESOURCES\Contemplation\Practice of mindfulness booklet.docx>)
+
+[[mindfulness]] [[Elaine Olson]] [[Ronald Rolheiser]] [[Contemplation]]

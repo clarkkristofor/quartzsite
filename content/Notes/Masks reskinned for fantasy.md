@@ -1,0 +1,2 @@
+changed the names of the “back stories” and some of the moves. (“Dragon”, “Fated”, “Hero”, “Trickster”, “Weapon”, “Protege”, “Other”, “Outsider”, “Hidden” and “Paragon”. The main difference was that I didn’t want to emphasis “teen”, so I was loose with Influence and treated it more like Respect.
+[Source](https://pbta.gplusarchive.online/2017/07/31/i-just-ran-masks-reskinned-for-fantasy-over-the-weekend/)

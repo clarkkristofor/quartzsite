@@ -1,0 +1,1 @@
+<% tp.frontmatter.prev %> | <% tp.frontmatter.up %> | <% tp.frontmatter.next %>

@@ -1,0 +1,9 @@
+https://www.theatlantic.com/politics/archive/2024/12/political-parties-populist-policies/680951/
+
+
+On midwinter’s day, for long ages past, human beings have marked the moment when the darkness reaches its zenith and earth begins to emerge again, inexorably, into the light. Coinciding with the northern hemisphere’s midwinter season, Christians around the world have celebrated another kind of solstice—the turning point when the Virgin accepted an unknown path of suffering and love and the Unimaginable God came to Earth as a human embryo who would love and suffer, and the world started the long climb: The coming of Christ, whose everlasting kingdom is and will be founded on right relationships and true justice. 
+
+It’s a shocking story, if we can see through the accumulated layers of sentimentality. The story is full of suffering. But it’s not gratuitous misery. It’s suffering that has endured to reach an infinite joy. [Clarke has also spoken](https://www.churchtimes.co.uk/articles/2020/11-december/features/features/susanna-clarke-rescued-by-faith-and-strictly) about the importance of joy in her life and her work: “I am very interested in describing joy. Where does one look in modern culture for joy?” Suffering comes to every life, and _The Wood at Midwinter_ is full of its shadows. But the story also asks us to consider whether there might be something more.
+
+“Saints do shocking things,” Apple the pig tells her friends the dogs. “It’s what makes them saints.” But it’s not the shock value that makes a saint. As both Merowdis and Ysolde discover in the course of the story, saints do shocking things _for love_.
+https://currentpub.com/2024/12/10/review-the-wood-at-midwinter/

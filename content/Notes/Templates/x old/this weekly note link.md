@@ -1,0 +1,1 @@
+[[to Sun <% tp.date.weekday("YYYY-MM-DD", 7) %>|weekly note]]

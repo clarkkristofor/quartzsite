@@ -1,3 +1,110 @@
 @use "./variables.scss" as *;
 
-// put your custom CSS here!
+/* ===========================================================
+LOGO
+=============================================================*/
+.page-title a {
+  position: relative;
+  display: inline-block;
+  width: 200px;
+  height: 55px; // when 160x44px wide
+  text-indent: -200%;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+.page-title a::before,
+.page-title a::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  -webkit-mask-repeat: no-repeat;
+  mask-repeat: no-repeat;
+  -webkit-mask-size: contain;
+  mask-size: contain;
+  -webkit-mask-position: center;
+  mask-position: center;
+}
+
+// Bottom layer: just the lens shapes. Transparent by default, blue on hover.
+.page-title a::before {
+  -webkit-mask-image: url("/static/logo-lenses.svg");
+  mask-image: url("/static/logo-lenses.svg");
+  background: transparent;
+  transition: background 0.2s ease;
+  z-index: 1;
+}
+
+.page-title a:hover::before {
+  background: var(--tertiary);
+}
+
+// Top layer: black glasses frame, with the lens area transparent in the artwork itself.
+.page-title a::after {
+  -webkit-mask-image: url("/static/logo-frame.svg");
+  mask-image: url("/static/logo-frame.svg");
+  background: black;
+  z-index: 2;
+}
+
+/* ===========================================================
+HOMEPAGE
+=============================================================*/
+[data-slug="index"],
+[data-slug="rpgs/swords-beyond/"] {
+  .article-title, .content-meta {
+    display: none;
+  }
+}
+
+/* ==========================================================================
+   SEARCH INTERFACE _search.scss
+   ========================================================================== */
+
+/* 1. The Header Search Button */
+.search {
+  display: flex !important;
+  align-items: center !important;
+  position: relative !important;
+  margin: 0 !important;
+
+  .search-button {
+    background-color: var(--light) !important;
+    border: 1.5px solid var(--darkgray, #333333) !important;
+    border-radius: 6px !important;
+    padding: 6px 12px !important;
+    display: inline-flex !important;
+    align-items: center !important;
+    gap: 8px !important;
+    
+    /* Flexible width so it fits cleanly alongside the logo */
+    width: auto !important; 
+    min-width: 140px !important;
+    max-width: 200px !important;
+    
+    cursor: pointer !important;
+    box-shadow: 2px 2px 0px rgba(0, 0, 0, 0.8) !important;
+    transition: border-color 0.2s ease, box-shadow 0.2s ease, transform 0.2s ease !important;
+
+    p {
+      margin: 0 !important;
+      font-size: 0.9rem !important;
+      color: var(--gray, #777777) !important;
+    }
+
+    &:hover,
+    &:focus {
+      border-color: #a33827 !important;
+      box-shadow: 3px 3px 0px #a33827 !important;
+      transform: translateY(-1px);
+
+      p {
+        color: var(--dark, #2b2b2b) !important;
+      }
+
+      svg {
+        stroke: #a33827 !important;
+      }
+    }
+  }
+}

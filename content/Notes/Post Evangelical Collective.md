@@ -1,0 +1,3 @@
+[[David Gushee]] [wrote about a gathering](https://baptistnews.com/article/the-post-evangelicals-take-their-next-step-forward/) of the [Post Evangelical Collective](https://www.postevangelicalcollective.org)
+
+I was moved, excited. I want to go to the next one. End of April 2025 in Nashville. These are my people. I want to feel seen. I want to bridge gaps. Between Mainline and Evangelical. I already do in my self. I'm surprised by my emotion about this.

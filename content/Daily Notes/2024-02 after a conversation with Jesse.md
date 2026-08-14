@@ -1,0 +1,2 @@
+[[mental illness]] [[hard conversations]] [[Jesse]] [[meditaion]]
+Now I’m just tired. Not smart or mystical. Just am. Tough visit with Jesse, who is just as nuts as before. What do I do? What do I say? How do I end this? He just ranted for…I lost track of time…30 minutes? More? I’ll cut him off next time. “We’ve been through this. Can we just pray? You ever pray like this….” And lead him in a guided meditation.

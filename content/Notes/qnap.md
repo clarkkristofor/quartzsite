@@ -1,0 +1,1 @@
+https://account.qnap.com/activation-success?ts=true

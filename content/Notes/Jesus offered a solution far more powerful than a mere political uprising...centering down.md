@@ -1,0 +1,17 @@
+Daily prayer as silent communion with God was common for Jesus because "to him God is the answer to the deepest needs of human life; and if I were as sure of God as Jesus was, God would become for me the answer to my deepest needs.” 
+
+…What is most brilliant about Thurman's analysis is his amplification of the stark parallels between Jesus's context, as a poor, marginalized Jew living in Palestine, and the social, political, and economic milieu of American Negroes. In order to survive, most disinherited people—enslaved people and their descendants, sharecroppers, domestics, farmworkers, refugees, immigrants, and the undocumented—feel compelled to offer unmerited flattery to those in authority. But Jesus knew that powerful people—oppressors, specifically—were not the gods that disinherited people needed to worship or depend on.
+
+Luther Smith Jr. adeptly summarizes how Thurman interprets the religion of Jesus: Jesus stood with the dis- possessed because he was one of them. Jesus's message provided a vital resource to empower his own people, who felt disenfranchised, vulnerable, disrespected, and without a stable [[sense of self]].
+
+…Howard Thurman understood Jesus, without directly labeling him as such, to be a spiritual and psychological genius. Jesus knew real [[power]] lay in the inward center—the [[inner life]] of an individual—and it was here that Jesus directed his attention. Comprehending both the spiritual and psychological dynamics of the self, Jesus offered a solution far more powerful than a mere political uprising. “He recognized with authentic realism that anyone who permits another to determine the quality of his inner life gives into the hands of the other the keys to his destiny," Thurman writes. "If a man knows precisely what he can do to you or what epithet he can hurl against you in order to make you lose your temper, your equilibrium, then he can always keep you under subjection. It is a man's reaction to things that determines their ability to exercise power over him.”
+
+…African Americans and other disinherited people, Thurman writes, need to know that the true message of Jesus centers on [[love]], intrinsic worthiness, prayer, and the worship of the living God. God, as the Creator and Source of all, would desire [[justice]] and humanity for every segment of creation.
+
+…A powerful group cannot overtake and dominate people without winning control over their minds and their spirits. Howard Thurman believed Jesus wanted to raise the awareness of other poor Jews by modeling for them a direct connection to God. In Jesus's time, to make a sacrifice to God at the temple required money for an animal to sacrifice, temple fees, and Roman taxes—that poor Jews didn't have or that would take them many days of labor to earn. Everywhere people tried to find ways to earn favor with anyone in the temple hierarchy, and [[exploitation]] was rampant.
+
+Thurman writes that Jesus taught people that the three hounds that track the trail of the disinherited—fear, hypocrisy, and hatred—need not leave them powerless. They must not allow these responses to power to prevent them from employing God's power to survive in such circumstances.
+
+From fear to dignity and determination…going inward—“centering down”
+
+—[[Howard Thurman]] via [[Lerita Coleman Brown]], *What Makes You Come Alive*

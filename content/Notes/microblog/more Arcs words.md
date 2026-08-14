@@ -1,0 +1,4 @@
+SU&SD Tom had [more Arcs words](https://tomswordsblog.blogspot.com/2024/11/some-spare-words-about-arcs.html): 
+	"Arcs, the base game, is the kind of box that I think anyone can love - given the right approach to the systems, and electing to meet it on its own terms.
+	"The Campaign? I would personally recommend it more than anything else out there in board games - I think it’s one-of-a-kind and spectacularly iterates on the ideas of everything Leder made before it, whilst building a more competitive (if more complex) experience. 
+	"But it’s so much. It’s too much. It’s a bonkers, bonkers box. But I’m so glad it exists."

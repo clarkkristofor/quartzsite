@@ -1,0 +1,1 @@
+https://www.eugenegendlin.com/quotations/

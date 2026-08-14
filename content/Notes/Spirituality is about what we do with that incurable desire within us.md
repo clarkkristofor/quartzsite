@@ -1,0 +1,5 @@
+There is a [[discontent]], another word for soul and spirit, in all things and what those things, or persons, do with that discontent is their [[spirituality]].
+
+We are part of a universe, that part that has become conscious of itself, wherein everything yearns for something beyond just itself. We have in us spirit, soul, and what we do with that soul is our spirituality. At a very basic level, long before anything explicitly religious need be mentioned, it is true to say that if we do things which keep us energized and integrated, on fire and yet glued together, we have a healthy spirituality. Conversely, if our yearning drives us into actions which harden our insides or cause us to fall apart and die then we have an unhealthy spirituality. Spirituality is about what we do with that incurable desire, the madness that comes from the gods, within us.
+
+[[Ronald Rolheiser]], The Holy Longing, page 18

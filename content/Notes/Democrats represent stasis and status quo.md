@@ -1,0 +1,13 @@
+
+> This election was about who told a better story about the fundamentals without promising anything to fix those fundamentals. That is the sweet spot for an opportunist like Trump and his party. Sell everything, promise nothing. Keep them coming back for more.
+> The Harris campaign countered with a relatively hopeful message about the future. But the candidate ultimately ran on a platform of stasis. Her promise was that nothing much would change about the country but the race and gender of the one in charge — and she didn’t even lean into a history-making narrative about her race and gender because it felt like a promise she could not keep. A promise of a more audacious America.
+> Maybe how she almost won is the reason she could not win. 
+
+[Tressie McMillan Cottom](https://www.nytimes.com/2024/11/06/opinion/why-kamala-harris-lost.html)
+
+> An unpopular White House, with a mute and much-mocked president, weighed on the campaign, perhaps more than anything the vice president actually did or said since her surprise elevation to the nomination this summer. But the albatross was not just Joe Biden; it was the longer-term perception that liberals constituted the country’s ruling class. This is something the otherwise inchoate conservative moment has emphasized consistently and effectively in recent years: that the Democrats were now the party of power and the establishment, and that the right was the natural home for anti-establishment resentment of all kinds — of which, it’s now clear to see, there is an awful lot. Most on the left haven’t seen it this way, frustrated by legislative stalemates and judicial setbacks and too-close-for-comfort elections seemingly every cycle, with a feeling all along that liberals were always swimming upstream. But in profound ways that the party’s voters rarely recognize, the Democrats have been the country’s incumbent political force now for a full generation.
+> Now, it seems, that may be over — the second Trump term promising, if not necessarily delivering, the wholesale replacement of one establishment elite, which presided for a generation, with a new one almost unrecognizable to the last.
+
+[David Wallace-Wells](https://messaging-custom-newsletters.nytimes.com/dynamic/render?campaign_id=253&emc=edit_dww_20241106&free_trial=0&instance_id=138904&isViewInBrowser=true&nl=david-wallace-wells&paid_regi=1&regi_id=8181352&segment_id=182455&sendId=182455&uri=nyt://newsletter/32977476-2c19-5024-b64f-c0a64b8d08b9&user_id=62c9e267ea5e57f3eda39bdaeb43a1f0)
+
+[[2024 election]]

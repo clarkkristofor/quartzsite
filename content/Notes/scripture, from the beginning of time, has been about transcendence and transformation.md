@@ -1,0 +1,9 @@
+Lion Man, therefore, also expresses a deep-seated human yearning for [[transformation]]. People did not merely seek an experience of [[transcendence]]; rather, they wanted to embody and somehow become one with it. They didn't want a distant deity but sought an enhanced humanity. This, we shall see, is a major theme of [[scripture]]: people want to "get beyond" suffering and mortality and devise ways of achieving this. Today we are less ambitious; we want to be slimmer, healthier, younger and more attractive than we really are. We feel that a "better self" lurks beneath our lamentably imperfect one: we want to be kinder, braver, more brilliant and charismatic. But the scriptures go further, insisting that each one of us can become a Buddha, a sage, a [[Christ]] or even a god. The American scholar Frederick Streng has this working definition of religion:
+
+> Religion is a *means of ultimate transformation*... An ultimate transformation is a fundamental change from being caught up in the troubles of common existence (sin, ignorance) to living in such a way that one can cope at the deepest level with these troubles. That capacity for living allows one to experience the most authentic or deepest reality—the ultimate."
+
+The myths, rituals, sacred texts and ethical practices of [[religion]] develop a plan of action "whereby people reach beyond themselves to connect with the true and ultimate reality that will save them from the destructive forces of everyday existence." Living with what is ultimately real and true, people have found that they are not only better able to bear these destructive tensions, but that life itself acquires new depth and purpose. (8)
+
+…Religion—and scripture—were, therefore, art forms that helped them to live in relation to this transcendent reality and somehow embody it.
+
+[[Karen Armstrong]], The Lost Art of Scripture, 8-9

@@ -1,0 +1,6 @@
+What is [[contemplation]]? Well, for me, it's ***a reconnection to the source of all being***. Just as our computers and phones need recharging, so do we. We're awash in stories that are not of our own making. We're subjected to a 24-hour news cycle to anxiety, illusions, delusions, and contemplation is a ***pause for the cause***. During this pause, we remember who we are and whose we are. This pause can come in the midst of a silent sit or a Pentecostal shout or powwow drumming.
+
+Is that really contemplation, though? Well, as I have written in *Joy Unspeakable,* if the model for contemplation is Eurocentric, then the religious experience of [[indigenous people]] will never fit the mold. But if ***contemplation is an accessible and vibrant response to life and to a God who unleashes [[life]] toward its most diverse potentials***, then practices that turn the human spirit inward may or may not be silent or solitary.
+
+[[Barbara Holmes]], What is Contemplation, [[Living School]]
+***Emphasis mine.***

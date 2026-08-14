@@ -1,0 +1,1 @@
+https://www.jezebel.com/the-problem-with-booktok-isnt-the-pretty-influencers-or-the-fantasy-books?utm_source=www.garbageday.email&utm_medium=referral&utm_campaign=finding-the-ai-line

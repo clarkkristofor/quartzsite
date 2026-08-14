@@ -1,0 +1,1 @@
+[Bio](https://teilharddechardin.org/teilhard-de-chardin/biography-of-teilhard-de-chardin/)

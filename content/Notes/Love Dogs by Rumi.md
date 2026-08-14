@@ -1,0 +1,27 @@
+“Love Dogs” by Rumi.  Translated by Coleman Barks 
+
+One night a man was crying,
+“Allah, Allah!”
+His lips grew sweet with the praising,
+until a cynic said,
+“So! I have heard you
+calling out, but have you ever
+gotten any response?”
+The man had no answer for that.
+He quit praying and fell into a confused sleep.
+He dreamed he saw Khidr, the guide of souls,
+in a thick, green foliage,
+“Why did you stop praising?”
+“Because I’ve never heard anything back.”
+“This longing you express
+is the return message.”
+The grief you cry out from
+draws you toward union.
+Your pure sadness that wants help
+is the secret cup.
+Listen to the moan of a dog for its master.
+That whining is the connection.
+There are love dogs no one knows the names of.
+Give your life to be one of them. 
+
+[[Living School]]

@@ -1,0 +1,1 @@
+AI is teaching me to turn an underused desktop (my first purchase with money inherited from my dad a few years ago) into a home server

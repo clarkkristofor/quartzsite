@@ -1,0 +1,239 @@
+configuration:
+  pageTitle: "super clark"
+  pageTitleSuffix: ": the real punk rock"
+  enableSPA: false
+  enablePopovers: true
+  analytics:
+    provider: plausible
+  locale: en-US
+  baseUrl: superclark.net
+  ignorePatterns:
+    - private
+    - Templates
+    - .obsidian
+    - Daily Notes
+    - Notes
+  defaultDateType: modified
+
+  theme:
+    fontOrigin: googleFonts
+    cdnCaching: true
+    typography:
+      header: Lexend
+      body: Merriweather
+      code: IBM Plex Mono
+    colors:
+      lightMode:
+        light: "#fffdf9"
+        lightgray: "#f2ede4"
+        gray: "#b8b8b8"
+        darkgray: "#4e4e4e"
+        dark: "#2b2b2b"
+        secondary: "#8b0000"
+        tertiary: "#0d47a1"
+        highlight: "rgba(255, 204, 51, 0.2)"
+        textHighlight: "#fff2aa"
+      darkMode:
+        light: "#161618"
+        lightgray: "#393639"
+        gray: "#646464"
+        darkgray: "#d4d4d4"
+        dark: "#ebebec"
+        secondary: "#ec4899"
+        tertiary: "#84e1bc"
+        highlight: "rgba(143, 159, 169, 0.15)"
+        textHighlight: "#b3aa02"
+
+# All your custom components live in one bundled repo:
+#   github.com/clarkkristofor/quartz-components
+# with each component as its own top-level folder (no "plugins/" wrapper).
+# CONFIRMED syntax (from quartz.jzhao.xyz/configuration, Advanced Source
+# Options): monorepo-style sources use the object form with `repo` +
+# `subdir`, not the `//subpath` string form I'd guessed earlier.
+
+plugins:
+  # ---- transformers ----
+  - source: github:quartz-community/frontmatter
+    enabled: true
+  - source: github:quartz-community/created-modified-date
+    enabled: true
+    options:
+      priority: [frontmatter, git, filesystem]
+  - source: github:quartz-community/syntax-highlighting
+    enabled: true
+    options:
+      theme:
+        light: github-light
+        dark: github-dark
+      keepBackground: false
+  - source: github:quartz-community/obsidian-flavored-markdown
+    enabled: true
+    options:
+      enableInHtmlEmbed: false
+  - source: github:quartz-community/github-flavored-markdown
+    enabled: true
+  - source: github:quartz-community/table-of-contents
+    enabled: true
+  - source: github:quartz-community/crawl-links
+    enabled: true
+    options:
+      markdownLinkResolution: shortest
+  - source: github:quartz-community/description
+    enabled: true
+  - source: github:quartz-community/latex
+    enabled: true
+    options:
+      renderEngine: katex
+
+  # ---- filters ----
+  - source: github:quartz-community/remove-drafts
+    enabled: true
+  - source: github:quartz-community/explicit-publish
+    enabled: true
+
+  # ---- header ----
+  - source:
+      repo: "https://github.com/clarkkristofor/quartz-components.git"
+      subdir: page-logo
+      name: page-logo
+    enabled: true
+    layout:
+      position: header
+      priority: 20
+  - source: github:quartz-community/page-menu
+    enabled: true
+    layout:
+      position: header
+      priority: 10
+  - source: github:quartz-community/search
+    enabled: true
+    layout:
+      position: header
+      priority: 30
+
+  # ---- footer ----
+  - source: github:quartz-community/footer
+    enabled: true
+    options:
+      links: {}
+    layout:
+      position: footer
+      priority: 50
+
+  # ---- standard content metadata, hidden on the homepage ----
+  - source: github:quartz-community/article-title
+    enabled: true
+    layout:
+      position: beforeBody
+      priority: 10
+      condition: not-index
+  - source: github:quartz-community/content-meta
+    enabled: true
+    layout:
+      position: beforeBody
+      priority: 20
+      condition: not-index
+  - source: github:quartz-community/tag-list
+    enabled: true
+    layout:
+      position: beforeBody
+      priority: 30
+      condition: not-index
+
+  # ---- homepage-only sections ----
+  # rpg-grid registers the "index-only" condition; the rest reuse it.
+  - source:
+      repo: "https://github.com/clarkkristofor/quartz-components.git"
+      subdir: rpg-grid
+      name: rpg-grid
+    enabled: true
+    options:
+      maxDisplay: 2
+    layout:
+      position: beforeBody
+      priority: 10
+      condition: index-only
+
+  # Two independent installs of the same component, disambiguated via the
+  # `name` field (confirmed: overrides the local .quartz/plugins/ dir name,
+  # so these don't collide even though they share repo + subdir).
+  - source:
+      repo: "https://github.com/clarkkristofor/quartz-components.git"
+      subdir: garden-section
+      name: garden-section-music
+    enabled: true
+    options:
+      title: Music
+      folder: music
+      link: /music/
+      limit: 3
+    layout:
+      position: beforeBody
+      priority: 20
+      condition: index-only
+
+  - source:
+      repo: "https://github.com/clarkkristofor/quartz-components.git"
+      subdir: garden-section
+      name: garden-section-notes
+    enabled: true
+    options:
+      title: Notes
+      folder: blog
+      link: /blog/
+      limit: 3
+    layout:
+      position: beforeBody
+      priority: 40
+      condition: index-only
+
+  - source:
+      repo: "https://github.com/clarkkristofor/quartz-components.git"
+      subdir: book-grid
+      name: book-grid
+    enabled: true
+    options:
+      folder: books
+      displayClass: book-grid
+      limit: 4
+    layout:
+      position: beforeBody
+      priority: 30
+      condition: index-only
+
+  # ---- Swords Beyond sidebar, shown only on matching-slug pages ----
+  - source:
+      repo: "https://github.com/clarkkristofor/quartz-components.git"
+      subdir: swords-beyond-sidebar
+      name: swords-beyond-sidebar
+    enabled: true
+    layout:
+      position: left
+      priority: 10
+      condition: swords-beyond
+
+  # ---- folder/tag page grid, not tied to a layout position of its own ----
+  - source:
+      repo: "https://github.com/clarkkristofor/quartz-components.git"
+      subdir: folder-grid-system
+      name: folder-grid-system
+    enabled: true
+
+layout:
+  byPageType:
+    folder:
+      beforeBody:
+        - github:quartz-community/article-title
+        - github:quartz-community/content-meta
+        - folder-grid-system
+      left:
+        - source: swords-beyond-sidebar
+          condition: swords-beyond
+    tag:
+      beforeBody:
+        - github:quartz-community/article-title
+        - github:quartz-community/content-meta
+        - folder-grid-system
+      left:
+        - source: swords-beyond-sidebar
+          condition: swords-beyond

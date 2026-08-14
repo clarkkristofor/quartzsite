@@ -1,0 +1,1 @@
+[[shadowboxing]] Some degree of conflict and stress is necessary. They are signs of being in the mystery. [[Richard Rohr]]

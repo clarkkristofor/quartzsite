@@ -1,0 +1,1 @@
+1..4 | ForEach-Object { New-Item -Path "D:\ghost-data\content$_\images","D:\ghost-data\content$_\themes","D:\ghost-data\content$_\data" -ItemType Directory -Force }

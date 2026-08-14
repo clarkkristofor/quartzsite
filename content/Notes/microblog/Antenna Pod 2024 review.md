@@ -1,0 +1,1 @@
+In 2024, I listened 226 hours of episodes from 51 different podcasts. ![AntennaPodEcho2024.png](https://share.superclark.net/hotlink/5lMAvZFuUsNOz5HcUv99w3MF1sVXEc4vAkjtyVdk.png)

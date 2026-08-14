@@ -1,0 +1,1 @@
+Now a Pi is running AdGuard Home and a Windows desktop is running Portainer, Homarr, Plex, and RustDesk. LEGIT home servers.

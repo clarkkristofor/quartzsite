@@ -1,0 +1,35 @@
+# Past Network, Web Hosting Changes
+
+- 2025-01-30: added a new Pi 5 running Home Assistant OS and removed the Home Assistant Core from Pi 5 server
+- 2025-01-07: added Home Assistant Core to Pi 5
+- 2025-01-04: added webhook server to Windows server to automatically restart cloudflared countainer when tunneled services go down but set up is not correct, because the webhook wasn't working
+- 2025-01-02: updated Watchtower configuration: removed notifications and set monitor only to false
+- 2025-01-02: added Minecraft service to Windows server, running Create and Citadel 1.20.1 via Forge 
+- 2024-12-28: redeployed Ghost with fresh installs and direct volume access for both content and mysql databases, to make backup/restore operations easier via mysqldump and Backblaze
+- 2024-12-28: added Uptime Kuma monitoring on all Windows server Cloudflare Tunnels, so when they all go down, I will know to restart cloudflared
+- 2024-12-27: accidentally overwrote Ghost container volumes, started trying to restore them with Duplicati back ups
+- 2024-12-22: added Watchtower service to Pi 5 and Duplicati to both servers
+- 2024-12-20: added Freshrss service to Pi 5
+- 2024-12-18: added Changedetector.io service to Pi 5
+- 2024-12-15: configured Mailgun for all Ghost sites, migrated clarkolsonsmith.com from Ghost.org to self-hosted
+- 2024-12-15: configured Uptime Kuma monitoring of gokAPI
+- 2024-12-15: removed Technitium and Syncthing stacks from Pi 5, moved Obsidian vault back to Google Drive
+- 2024-12-14: upgraded Windows server power supply from 180W L81008-800 to 500W L05757-800 and added ZOTAC NVIDIA GeForce RTX 2060 8GB GDDR6 Graphics Card - ‎ZT-T20610E-10M GPU
+- 2024-12-14: added cloudflared and Ghost to Windows server
+- 2024-12-14: fixed Uptime Kuma (on Pi 5) configuration to allow monitoring http on Windows server services 
+- 2024-12-14: added Stirling-PDF service to Pi 5
+- 2024-12-13: set up cloudflard and gokAPI services on Pi 5
+- 2024-12-09: removed proxy (nginx) stack from Pi 5 Portainer, gave up on proxy set up,  returned eero DNS settings to default, instead set dns on personal devices to point to Pi 5
+- 2024-12-09: reordered Adguard and Technitium in DNS chain, so clients are visible in Adguard query log
+- 2024-12-07: created a MAC Address Binding on Pi 5 to avoid triggering modem security protections (see [[MAC Flooding Protection]])
+- 2024-12-07: tried to deploy Pi 5 with ngnix as proxy but triggered modem security protections (see [[MAC Flooding Protection]])
+- 2024-12-07: on Pi 5, set appropriate UDP buffer sizes for QUIC performance, to make them permanent, add these lines to /etc/sysctl.conf:
+	`net.core.rmem_max=7500000 net.core.wmem_max=7500000`
+- 2024-12-06: put anti-bot security in place--added robot.txt and enabled Cloudflare's "Bot Fight Mode" and "Block AI Bots" for superclark.net and clarkolsonsmith.com, and added '<meta name="robots" content="noai, noimageai">' to super clark's header
+- 2024-12-04: deployed Uptime Kuma on Pi 5, set up Discord Uptime Kuma server, and added monitors for Portainers on both servers, AdGuard, Technitium, Ollama, and Pi 5 Syncthing
+- 2024-12-01: 3d printed and installed a rack shelf to better organize router, modem, and Pi 5
+- 2024-12-01: upgraded Windows server RAM (16 → 64 GB) and updated Docker .wslconfig to make use of upgrade
+- 2024-12-01: upgraded Eero router software (v7.6.2-130 → v7.6.3-130)
+- 2024-11-30: Migrated Syncthing to Raspberry Pi 5
+- 2024-11-29: Added DNS services (AdGuard + Technitium)
+- 2024-11-29: Deployed Docker + Portainer on Pi 5

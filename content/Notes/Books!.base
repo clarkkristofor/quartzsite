@@ -1,0 +1,18 @@
+views:
+  - type: table
+    name: Table
+    filters:
+      and:
+        - file.inFolder("Notes/media log")
+    order:
+      - file.name
+      - Title
+      - Author
+      - date
+      - Rating
+    sort: []
+    columnSize:
+      file.name: 87
+      note.Title: 595
+      note.Author: 189
+      note.date: 131

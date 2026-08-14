@@ -1,0 +1,3 @@
+- linked
+- line item budget is the council votes on it budget
+- update percentages

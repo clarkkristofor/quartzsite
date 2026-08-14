@@ -1,0 +1,3 @@
+In 2016, Chuck Schumer, Democrat and U.S. Senator from New York, said, “for every blue-collar Democrat we lose in western Pennsylvania, we will pick up two moderate Republicans in the suburbs in Philadelphia.” This turned out to be wishful thinking; Hillary Clinton lost Pennsylvania to Donald Trump by less than one percentage point.
+
+But Schumer wasn’t just predicting the future. He was describing Democrats’ national campaign strategy in the 2016 election.
