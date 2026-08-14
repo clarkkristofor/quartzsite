@@ -19,8 +19,8 @@ with additional inspiration from *[13th Age](https://pelgranepress.com/13th-age/
 
 # Contents
 ## [[Swords Beyond online rules#A Creeping Shadow|A Creeping Shadow]]
-## [[Swords Beyond online rules]]
-## [[Swords Beyond online rules]]
+## [[Swords Beyond online rules#The Realms Beyond|The Realms Beyond]]
+## [[Swords Beyond online rules#Playing Hunters|Playing HUnters]]
 - [[Swords Beyond online rules#Agenda|Agenda]]
 	- [[Swords Beyond online rules#Rolling Dice|Rolling Dice]]
 	- [[Swords Beyond online rules#BASIC ROLLS|Basic Rolls]]
@@ -31,18 +31,21 @@ with additional inspiration from *[13th Age](https://pelgranepress.com/13th-age/
 	- [[Swords Beyond online rules#FORTUNE ROLLS|Fortune Rolls]]
 	- [[Swords Beyond online rules#FATE ROLLS|Fate Rolls]]
 - [[Swords Beyond online rules#Conditions & Death|Conditions & Death]]
-## [[Swords Beyond online rules]]
+## [[Swords Beyond online rules#Making your Hunter|Making your Hunter]]
 - [[Swords Beyond online rules#Kin|Kin]] (including [[Swords Beyond online rules#Hearthborn|Hearthborn]])
 - [[Swords Beyond online rules#Culture & the Beyond|Culture & the Beyond]]
 - [[Swords Beyond online rules#Power Realm & Link|Power Realm & Link]]
-## [[Swords Beyond online rules]]
-## [[Swords Beyond online rules]]
+## [[Swords Beyond online rules#Making the Pact|Making the Pact]]
+## [[Swords Beyond online rules#Hunter Roles|Hunter Roles]]
 1. [[Swords Beyond online rules#the Shield|the Shield]]
 2. [[Swords Beyond online rules#the Law|the Law]]
 3. [[Swords Beyond online rules#the Scourge|the Scourge]]
 4. [[Swords Beyond online rules#the Loreseeker|the Loreseeker]]
 5. [[Swords Beyond online rules#the Fox|the Fox]]
 6. [[Swords Beyond online rules#the Zealot|the Zealot]]
-## [[Swords Beyond online rules]]
+## [[Swords Beyond online rules#Downtime|Downtime]]
+
+## [[Swords Beyond online rules#World Map|World Map]]
+
 
 ![[swords beyond - cover - hydra.png|350]]

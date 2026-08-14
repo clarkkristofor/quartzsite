@@ -19,7 +19,7 @@ Those who remain are proud and unwilling to see the even more ominous **shadow**
 
 **You are a hunter.** You have come to Lost Plenty to defend its people and unravel the mystery and defeat the shadow. You’re not alone.
 
-While hunches and feelings from [[Swords Beyond online rules]] are common, you _know_ one of these **Powers** and it knows _you_. You call on it to do wondrous things, but it calls on you too.
+While hunches and feelings from [[Swords Beyond online rules#The Realms Beyond|the Realms Beyond]] are common, you _know_ one of these **Powers** and it knows _you_. You call on it to do wondrous things, but it calls on you too.
 
 Your destiny is also intertwined with a **pact** of other hunters and, of course, with the people of Lost Plenty.
 
@@ -162,7 +162,7 @@ Your death is in the hands of *[[#Magic, Favor & Fate|fate]]*.
 4. **Gear**: You have basics – weapons, armor, etc. Want special gear? Ask the GM.
 #### All Together...
 1. **Introduce your Hunter**. The GM will ask questions.
-2. **Sketch the[[Swords Beyond online rules|world map]]]**. Note where your hunter is from, and whatever else you like. Also, _what resource does the Over Reach supply to the Coastal Cities?_ e.g., iron, timber, wool, salt, amber, gold, something Beyond
+2. **Sketch the [[Swords Beyond online rules#World Map|world map]]]**. Note where your hunter is from, and whatever else you like. Also, _what resource does the Over Reach supply to the Coastal Cities?_ e.g., iron, timber, wool, salt, amber, gold, something Beyond
 3. **[[#Making the Pact|Make the pact]]**.
 
 ## Kin
@@ -337,7 +337,7 @@ A hearthborn’s culture is an echo of their family’s culture (identified by y
 | **5** | [[Swords Beyond online rules#the Fox\|the Fox]]               |
 | **6** | [[Swords Beyond online rules#the Zealot\|the Zealot]]         |
 
-# Making the Pack
+# Making the Pact
 *Create the pact together.*
 1. Choose one player to keep the pact sheet.
 2. What is your shared **conviction** about the shadow?
