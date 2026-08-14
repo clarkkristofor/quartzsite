@@ -17,4 +17,5 @@ isbn13: 9780345452399
 isbn10: 345452399
 localCoverImage: Files/BookCovers/Ammonite - Nicola Griffith.jpg
 publish: true
+date_finished: 2023-04-11
 ---

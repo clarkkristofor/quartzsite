@@ -1,6 +1,6 @@
 ---
 publish: true
-image: https://superclark.net/Files/swords-beyond---cover---hydra.png
+image: swords beyond - cover - hydra.png
 date: 2026-07-31
 current campaign: "[[playtest beta]]"
 ---

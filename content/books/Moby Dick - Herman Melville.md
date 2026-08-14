@@ -15,6 +15,6 @@ link: https://play.google.com/store/books/details?id=XV8XAAAAYAAJ
 previewLink: http://books.google.com/books?id=XV8XAAAAYAAJ&printsec=frontcover&dq=moby+dick&hl=&as_pt=BOOKS&cd=1&source=gbs_api
 isbn13: HARVARD:HN1E4C
 localCoverImage: Files/BookCovers/Moby Dick - Herman Melville.jpg
-date_finished: 7/11/2015
+date_finished: 2007-11-20
 publish: true
 ---

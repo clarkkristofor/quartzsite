@@ -15,7 +15,7 @@ I want fantasy but...
 
 OSR I've seen is too survival and dungeon-crawl and tracking torches for me. Too old-school? Maybe [[Dungeon World 2]] will hit a sweet spot. I borrowed a lot from its alpha releases for Swords Beyond but haven't played its final alpha yet.
 
-At the con, while playing [[Xenolanguage]], I remembered [[A Land Once Magic]] and wondered if I should make system-neutral character archetype and relationship cards. We could use them for [[rpgs/13th Age, second edition/13th Age|13th Age]] character creation and session zero. This would get at #2 at least. 
+At the con, while playing [[Xenolanguage]], I remembered [[A Land Once Magic]] and wondered if I should make system-neutral character archetype and relationship cards. We could use them for [[rpgs/13th Age|13th Age]] character creation and session zero. This would get at #2 at least. 
 
 Then again, maybe we're not a character drama group. [[Urban Shadows]] is all about character drama but the group is sticking together like an adventuring party. I don't think these are polar opposite play styles, maybe there's a continuum from more character drama to more party solidarity? I want some in between.
 

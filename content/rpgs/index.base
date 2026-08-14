@@ -1,0 +1,21 @@
+filters:
+  and:
+    - file.folder == "rpgs"
+    - '!file.name.contains("index")'
+views:
+  - type: table
+    name: Table
+  - type: cards
+    name: View
+    groupBy:
+      property: current campaign
+      direction: ASC
+    order:
+      - file.name
+      - current campaign
+    sort:
+      - property: date
+        direction: DESC
+    image: note.image
+    cardSize: 360
+    imageAspectRatio: 1.5

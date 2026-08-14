@@ -15,4 +15,5 @@ link: https://books.google.com/books/about/Abundance.html?hl=&id=t2zc0AEACAAJ
 previewLink: http://books.google.com/books?id=t2zc0AEACAAJ&dq=Abundance+chen+scifi&hl=&as_pt=BOOKS&cd=4&source=gbs_api
 isbn13: 9798990940000
 localCoverImage: Files/BookCovers/Abundance - Alan Chan.jpg
+date_finished: 2024-10-17
 ---

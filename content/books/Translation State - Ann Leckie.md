@@ -16,6 +16,6 @@ previewLink: http://books.google.com/books?id=q3KSEAAAQBAJ&printsec=frontcover&d
 isbn13: 9780316290241
 isbn10: 316290246
 localCoverImage: Files/BookCovers/Translation State - Ann Leckie.jpg
-date_finished: 7/31/2023
+date_finished: 2023-07-31
 publish: true
 ---

@@ -87,4 +87,4 @@ Kin: deep gnomes who seek secret knowledge of alchemical transcendence
 
 
 
-*a [[rpgs/Swords Beyond/Swords Beyond|swordsbeyond]] playtest*
+*a [[Swords Beyond|swordsbeyond]] playtest*

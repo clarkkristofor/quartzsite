@@ -1,0 +1,20 @@
+views:
+  - type: table
+    name: Table
+  - type: cards
+    name: View
+    filters:
+      and:
+        - file.folder == "books"
+        - '!file.name.contains("index")'
+        - "!date_finished.isEmpty()"
+    order:
+      - title
+      - author
+      - link
+    sort:
+      - property: date_finished
+        direction: DESC
+    cardSize: 120
+    image: note.image
+    imageAspectRatio: 1.5
