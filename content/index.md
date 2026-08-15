@@ -1,5 +1,6 @@
 ---
 publish: true
+title: super clark
 ---
 # [[Campaigns.base|RPGs]]
 ```base
