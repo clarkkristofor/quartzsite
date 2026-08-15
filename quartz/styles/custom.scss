@@ -320,7 +320,7 @@ body[data-slug="books/books-read.base"] {
     font-size: 0;
   }
   .bases-table a.external::before {
-    content: "View →";
+    content: "View"; // →
     font-size: 1rem;
   }
 }
