@@ -1,10 +1,12 @@
 ---
 publish: true
 title:
-description: the mission's best images
+description:
 image:
 date: 2026-04-10
 ---
+## *the mission's best images*
+
 I discovered this via a great video from [Hank Green](https://youtu.be/oaXRREHVkHo?si=qtZohsD1XD4IggMT). [More images.](https://www.planetary.org/articles/the-best-images-from-artemis-ii).
 
 ![[moon-and-earth-from-orion.jpg]]
