@@ -36,4 +36,5 @@ views:
 - [[The Former Site Of]]
 - *Advent playlist:* [[that joy]]
 - [[Merry Christmas playlist]]
-# [[blog/index|Notes]]
+# [[blog/index|Blog]]
+*quick thoughts on games and more*

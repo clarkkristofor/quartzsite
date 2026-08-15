@@ -1,4 +1,5 @@
 ---
 publish: true
-title: Notes
+title: Blog
+description: quick thoughts on games and more
 ---
