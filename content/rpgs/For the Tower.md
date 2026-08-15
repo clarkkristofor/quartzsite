@@ -1,8 +1,7 @@
 ---
 publish: true
 Game: For the Tower
-link:
-image: Files/PXL_20260307_174756738.MP.jpg
+image: https://superclark.net/files/pxl_20260307_174756738.mp.jpg
 description: like For the Queen, Dread, and The Quiet Year, inspired by Silo
 date: 2026-03-07
 date_finished: 2026-03-07

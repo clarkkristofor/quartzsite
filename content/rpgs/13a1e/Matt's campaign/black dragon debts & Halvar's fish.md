@@ -6,14 +6,14 @@ Game: 13th Age
 GM: Matt
 Campaign:
   - Fallen Magic
-up: "[[Matt's Campaign Notes|all]]"
+up: "[[Matt's Fallen Magic|all]]"
 same: ""
 down: ""
 next: "[[brain jacked on the map|next]]"
 prev: "[[Hold the Gate|prev]]"
 Level: 4
 ---
-[[Hold the Gate|prev]] | [[Matt's Campaign Notes|all]] | [[brain jacked on the map|next]]
+[[Hold the Gate|prev]] | [[Matt's Fallen Magic|all]] | [[brain jacked on the map|next]]
 # Matt's "Fallen Magic" campaign
 *2024-11-14 (level 4)*
 ## black dragon debts & Halvar's fish

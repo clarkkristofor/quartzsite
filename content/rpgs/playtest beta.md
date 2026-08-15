@@ -1,9 +1,7 @@
 ---
 publish: true
-image: Files/swords beyond - island Lost Plenty.png
+image: https://superclark.net/files/swords-beyond---island-lost-plenty.png
 date: 2026-06-25
-"title:":
-link:
 Game: Swords Beyond
 ---
 ## when last we left our heroes

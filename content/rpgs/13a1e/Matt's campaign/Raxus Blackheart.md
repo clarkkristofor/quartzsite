@@ -122,4 +122,4 @@ tags:
 > - [ ] Skill Checks
 > - [ ] Recovery die
 
-> [[Matt's Campaign Notes]]
+> [[Matt's Fallen Magic]]

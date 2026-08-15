@@ -6,7 +6,7 @@ link:
 image: https://upload.wikimedia.org/wikipedia/en/1/10/13th_Age%2C_role-playing_game.jpg
 date: 2024-11-21
 ---
-![[Matt's Campaign Notes]]
+![[Matt's Fallen Magic]]
 
 Also:
 	[[Ardent of Zilharr the Radiant, Sunday 13a]]

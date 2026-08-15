@@ -6,12 +6,12 @@ Game: 13th Age
 Campaign:
   - Fallen Magic
 Level: 2
-up: "[[Matt's Campaign Notes|all]]"
+up: "[[Matt's Fallen Magic|all]]"
 prev: "[[Hopewell Hostel hearth|prev]]"
 next: "[[For the Queen|next]]"
 GM: Matt
 ---
-[[Hopewell Hostel hearth|prev]] | [[Matt's Campaign Notes|all]] | [[For the Queen|next]]
+[[Hopewell Hostel hearth|prev]] | [[Matt's Fallen Magic|all]] | [[For the Queen|next]]
 # Matt's "Fallen Magic" campaign
 *2024-05-16 (level 2)*
 ## Fleeing Old Town

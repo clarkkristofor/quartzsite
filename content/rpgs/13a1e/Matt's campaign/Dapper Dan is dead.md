@@ -6,12 +6,12 @@ Game: 13th Age
 Campaign:
   - Fallen Magic
 Level: 1
-up: "[[Matt's Campaign Notes|all]]"
+up: "[[Matt's Fallen Magic|all]]"
 prev: "[[Rustlers hassle Keef|prev]]"
 next: "[[Arvax and Endra the Cursed|next]]"
 GM: Matt
 ---
-[[Rustlers hassle Keef|prev]] | [[Matt's Campaign Notes|all]] | [[Arvax and Endra the Cursed|next]]
+[[Rustlers hassle Keef|prev]] | [[Matt's Fallen Magic|all]] | [[Arvax and Endra the Cursed|next]]
 # Matt's "Fallen Magic" campaign
 *2024-04-18 (level 1)*
 ## Dapper Dan is dead

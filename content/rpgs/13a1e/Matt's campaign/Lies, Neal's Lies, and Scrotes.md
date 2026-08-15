@@ -6,12 +6,12 @@ Game: 13th Age
 Campaign:
   - Fallen Magic
 Level: 2
-up: "[[Matt's Campaign Notes|all]]"
+up: "[[Matt's Fallen Magic|all]]"
 prev: "[[A Dead Douche, but Raxus's Dead Douche|prev]]"
 next: "[[Bizness Time|next]]"
 GM: Matt
 ---
-[[A Dead Douche, but Raxus's Dead Douche|prev]] | [[Matt's Campaign Notes|all]] | [[Bizness Time|next]]
+[[A Dead Douche, but Raxus's Dead Douche|prev]] | [[Matt's Fallen Magic|all]] | [[Bizness Time|next]]
 # Matt's "Fallen Magic" campaign
 *2024-07-11 (level 2)*
 ## Lies, Neal's Lies, and Scrotes

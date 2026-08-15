@@ -6,11 +6,11 @@ Game: 13th Age
 Campaign:
   - Fallen Magic
 Level: 1
-up: "[[Matt's Campaign Notes|all]]"
+up: "[[Matt's Fallen Magic|all]]"
 next: "[[Dapper Dan is dead|next]]"
 GM: Matt
 ---
-[[Matt's Campaign Notes|all]] | [[Dapper Dan is dead|next]]
+[[Matt's Fallen Magic|all]] | [[Dapper Dan is dead|next]]
 # Matt's "Fallen Magic" campaign
 *2024-04-11 (level 1)*
 ## History

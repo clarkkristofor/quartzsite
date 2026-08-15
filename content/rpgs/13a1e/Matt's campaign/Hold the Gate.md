@@ -7,11 +7,11 @@ Campaign:
   - Fallen Magic
 GM: Matt
 Level: 3
-up: "[[Matt's Campaign Notes|all]]"
+up: "[[Matt's Fallen Magic|all]]"
 prev: "[[Scrotes Boat Zombie Stuff|prev]]"
 next: "[[black dragon debts & Halvar's fish|next]]"
 ---
-[[Scrotes Boat Zombie Stuff|prev]] | [[Matt's Campaign Notes|all]] | [[black dragon debts & Halvar's fish|next]]
+[[Scrotes Boat Zombie Stuff|prev]] | [[Matt's Fallen Magic|all]] | [[black dragon debts & Halvar's fish|next]]
 # Matt's "Fallen Magic" campaign
 *2024-10-02 (level 3)*
 ## Hold the Gate

@@ -6,12 +6,12 @@ Game: 13th Age
 Campaign:
   - Fallen Magic
 Level: 3
-up: "[[Matt's Campaign Notes|all]]"
+up: "[[Matt's Fallen Magic|all]]"
 prev: "[[Session 11|prev]]"
 next: "[[Hold the Gate|next]]"
 GM: Matt
 ---
-[[Session 11|prev]] | [[Matt's Campaign Notes|all]] | [[Hold the Gate|next]]
+[[Session 11|prev]] | [[Matt's Fallen Magic|all]] | [[Hold the Gate|next]]
 # Matt's "Fallen Magic" campaign
 *2024-09-27 (level 3)*
 ## Scrotes Boat Zombie Stuff

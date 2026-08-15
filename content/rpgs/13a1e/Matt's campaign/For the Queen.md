@@ -6,12 +6,12 @@ Game: 13th Age
 Campaign:
   - Fallen Magic
 Level: 2
-up: "[[Matt's Campaign Notes|all]]"
+up: "[[Matt's Fallen Magic|all]]"
 prev: "[[Fleeing Old Town|prev]]"
 next: "[[A Dead Douche, but Raxus's Dead Douche|next]]"
 GM: Matt
 ---
-[[Fleeing Old Town|prev]] | [[Matt's Campaign Notes|all]] | [[A Dead Douche, but Raxus's Dead Douche|next]]
+[[Fleeing Old Town|prev]] | [[Matt's Fallen Magic|all]] | [[A Dead Douche, but Raxus's Dead Douche|next]]
 # Matt's "Fallen Magic" campaign
 *2024-05-23 (level 2)*
 ## For the Queen

@@ -6,12 +6,12 @@ Game: 13th Age
 Campaign:
   - Fallen Magic
 Level: 1
-up: "[[Matt's Campaign Notes|all]]"
+up: "[[Matt's Fallen Magic|all]]"
 prev: "[[Arvax and Endra the Cursed|prev]]"
 next: "[[Fleeing Old Town|next]]"
 GM: Matt
 ---
-[[Arvax and Endra the Cursed|prev]] | [[Matt's Campaign Notes|all]] | [[Fleeing Old Town|next]]
+[[Arvax and Endra the Cursed|prev]] | [[Matt's Fallen Magic|all]] | [[Fleeing Old Town|next]]
 # Matt's "Fallen Magic" campaign
 *2024-05-02 (level 1)*
 ## Hopewell Hostel hearth

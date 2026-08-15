@@ -6,12 +6,12 @@ Game: 13th Age
 Campaign:
   - Fallen Magic
 Level: 1
-up: "[[Matt's Campaign Notes|all]]"
+up: "[[Matt's Fallen Magic|all]]"
 prev: "[[Dapper Dan is dead|prev]]"
 next: "[[Hopewell Hostel hearth|next]]"
 GM: Matt
 ---
-[[Dapper Dan is dead|prev]] | [[Matt's Campaign Notes|all]] | [[Hopewell Hostel hearth|next]]
+[[Dapper Dan is dead|prev]] | [[Matt's Fallen Magic|all]] | [[Hopewell Hostel hearth|next]]
 # Matt's "Fallen Magic" campaign
 *2024-04-25 (level 1)*
 ## Arvax and Endra the Cursed

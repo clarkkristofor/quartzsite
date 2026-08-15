@@ -6,12 +6,12 @@ Game: 13th Age
 Campaign:
   - Fallen Magic
 Level: 2
-up: "[[Matt's Campaign Notes|all]]"
+up: "[[Matt's Fallen Magic|all]]"
 prev: "[[Lies, Neal's Lies, and Scrotes|prev]]"
 next: "[[Marley and Speagol and the Chalice of Blessings|next]]"
 GM: Matt
 ---
-[[Lies, Neal's Lies, and Scrotes|prev]] | [[Matt's Campaign Notes|all]] | [[Marley and Speagol and the Chalice of Blessings|next]]
+[[Lies, Neal's Lies, and Scrotes|prev]] | [[Matt's Fallen Magic|all]] | [[Marley and Speagol and the Chalice of Blessings|next]]
 # Matt's "Fallen Magic" campaign
 *2024-07-16 (level 2)*
 ## [Bizness Time](https://youtu.be/AqZcYPEszN8)

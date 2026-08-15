@@ -6,12 +6,12 @@ Game: 13th Age
 Campaign:
   - Fallen Magic
 Level: 2
-up: "[[Matt's Campaign Notes|all]]"
+up: "[[Matt's Fallen Magic|all]]"
 prev: "[[Bizness Time|prev]]"
 next: "[[Session 10|next]]"
 GM: Matt
 ---
-[[Bizness Time|prev]] | [[Matt's Campaign Notes|all]] | [[Session 10|next]]
+[[Bizness Time|prev]] | [[Matt's Fallen Magic|all]] | [[Session 10|next]]
 # Matt's "Fallen Magic" campaign
 *2024-08-15 (level 2)*
 ## Marley and Speagol and the Chalice of Blessings

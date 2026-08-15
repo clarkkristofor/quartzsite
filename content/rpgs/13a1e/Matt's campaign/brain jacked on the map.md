@@ -6,14 +6,14 @@ Game: 13th Age
 GM: Matt
 Campaign:
   - Fallen Magic
-up: "[[Matt's Campaign Notes|all]]"
+up: "[[Matt's Fallen Magic|all]]"
 same: ""
 down: ""
 next: "[[matts next|next]]"
 prev: "[[black dragon debts & Halvar's fish|prev]]"
 Level: 4
 ---
-[[black dragon debts & Halvar's fish|prev]] | [[Matt's Campaign Notes|all]] | [[matts next|next]]
+[[black dragon debts & Halvar's fish|prev]] | [[Matt's Fallen Magic|all]] | [[matts next|next]]
 # Matt's "Fallen Magic" campaign
 *2024-11-21 (level 4)*
 ## brain jacked on the map
