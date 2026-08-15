@@ -2,7 +2,7 @@
 title: Colossians
 author: Unknown
 authors: Unknown
-date_finished: 11/12/2025
+date_finished: 2025-11-12
 isbn:
 image: https://cdn.britannica.com/99/149699-050-B38AF1D0/Frontispiece-engraving-King-James-Version-of-the-1611.jpg
 link: https://www.biblegateway.com/passage/?search=Colossians%201&version=NRSVUE

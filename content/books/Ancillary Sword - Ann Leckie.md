@@ -16,6 +16,6 @@ previewLink: http://books.google.com/books?id=N9cNAwAAQBAJ&printsec=frontcover&d
 isbn13: 9780316246644
 isbn10: 316246646
 localCoverImage: Files/BookCovers/Ancillary Sword - Ann Leckie.jpg
-date_finished: 11/1/2015
+date_finished: 2015-11-01
 publish: true
 ---

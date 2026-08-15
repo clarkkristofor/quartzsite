@@ -16,6 +16,6 @@ previewLink: http://books.google.com/books?id=cmWnDQAAQBAJ&printsec=frontcover&d
 isbn13: 9780316229258
 isbn10: 316229253
 localCoverImage: Files/BookCovers/The Stone Sky - N K Jemisin.jpg
-date_finished: 10/2/2017
+date_finished: 2017-10-02
 publish: true
 ---
