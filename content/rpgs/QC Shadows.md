@@ -6,7 +6,7 @@ link:
 image: https://superclark.notion.site/image/attachment%3A3320d93e-841b-47fd-86cf-0b8ac56999f5%3Afirefox_BNAXNEjRpO.png?table=block&id=113015ce-4815-434b-a7c0-fcd1db149ea7&spaceId=bf0d41e0-dfe8-43a4-bb51-83db31b6ab27&width=2000&userId=&cache=v2&imgBuildSrc=requestProxiedImageUrl
 date: 2025-06-05
 Game: Urban Shadows
-date_finished: 2026-03-05
+date_finished: 2026-05-05
 ---
 Handwritten notes by C.
 

@@ -2,7 +2,7 @@
 publish: true
 title: super clark
 ---
-# [[Campaigns.base|RPGs]]
+# [[RPG Campaigns & One-Shots.base|RPGs]]
 ```base
 "0":
   type: card
