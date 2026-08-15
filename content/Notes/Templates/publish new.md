@@ -4,4 +4,5 @@ title:
 description:
 image:
 date:
+date_finished:
 ---

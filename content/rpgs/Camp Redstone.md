@@ -18,6 +18,7 @@ Game: 13th Age, 2e
 - ambushed by [[Wolfgang Puck]] and Fred Boulder at site of next mine clearing job for Adonian
 ## 3. Purple orb of the Tod Delver clan
 First abandoned mine we cleared for [[Adonian]], with working smelter, a stockpile of gold ore, natural caves and a standoffish [[Tod]] orb. Statue to dwarf Silverbeard here. Fought turtles and otyugh.
+![[PXL_20260814_185251390~2.jpg]]
 ## 0. Ghouls in Holes
 When a barfight destroyed the holy ward above the front door of [[Holes]], ghouls burst in and started murdering patrons. We slew all but one ghoul, which escaped into the night. [[Boof]] the doof hid under a warded trapdoor the whole time.
 

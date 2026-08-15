@@ -5,8 +5,9 @@ date: 2025-06-05
 Game: Urban Shadows
 date_finished: 2026-05-05
 ---
-## [Urban Shadows](https://magpiegames.com/collections/urban-shadows) *with deer hearts and real estate developers*
-
+## *deer hearts and real estate developers*
+![image](https://magpiegames.com/cdn/shop/files/Urban-Shadows-Core_1.jpg?v=1734451236&width=1800)
+[Urban Shadows](https://magpiegames.com/collections/urban-shadows)
 ### Characters
 - [Jack the Spectre](https://superclark.notion.site/Jack-the-Spectre-20a7a6861866801e92ddc2e1853fcdb4?pvs=25)
 - [Linsey the Immortal](https://superclark.notion.site/Linsey-the-Immortal-20a7a686186680659e47d61a1f52d218?pvs=25)

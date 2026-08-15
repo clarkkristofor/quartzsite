@@ -84,5 +84,3 @@ Kin: deep gnomes who seek secret knowledge of alchemical transcendence
 - Terry, ditto for western lighthouse
 
 
-
-*a [[Swords Beyond|swordsbeyond]] playtest*
