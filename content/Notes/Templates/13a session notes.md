@@ -8,4 +8,4 @@ Game: 13th Age, 2e
 ---
 
 
-a [[rpgs/13th Age]] campaign
+a [[rpgs/system-only/13th Age]] campaign

@@ -4,7 +4,7 @@ dg-publish: "true"
 tags:
 ---
 # Heartland Justice: Factions and NPCs
-[[Heartland Justice Factions and NPCs#AEGIS|AEGIS]] | [[Heartland Justice Factions and NPCs#City of Chicago|City of Chicago]] | [[Heartland Justice Factions and NPCs#Patton Development Group (PDG)|PDG]] | [[Heartland Justice Factions and NPCs#ScumTech|SkumTech]] | *[[Heartland Justice|the Heroes]]* | *[[Heartland Justice Session Notes|Session Notes]]*
+[[Heartland Justice Factions and NPCs#AEGIS|AEGIS]] | [[Heartland Justice Factions and NPCs#City of Chicago|City of Chicago]] | [[Heartland Justice Factions and NPCs#Patton Development Group (PDG)|PDG]] | [[Heartland Justice Factions and NPCs#ScumTech|SkumTech]] | *[[rpgs/Masks/Heartland Justice/Heartland Justice|the Heroes]]* | *[[rpgs/Heartland Justice|Session Notes]]*
 
 ___
 ## AEGIS
@@ -13,11 +13,11 @@ headquartered in [[Heartland Justice Factions and NPCs#City of Chicago|Chicago]]
 ### Russell Sun
 AEGIS director
 ### Nadine Bass
-AEGIS HR director: white woman, hates and fears [[Heartland Justice]]
+AEGIS HR director: white woman, hates and fears [[rpgs/Masks/Heartland Justice/Heartland Justice]]
 ### Field Agent Rayburn
 black, in 60s, probably could retire but hasn't
 ### Mara Anderson
-AEGIS Assistant to the Chief Super Prosecutor of AEGIS: white woman, took charge of [[Heartland Justice Session Notes#FLASHBACK Outranked|Apple Vision Pro investigation]]
+AEGIS Assistant to the Chief Super Prosecutor of AEGIS: white woman, took charge of [[rpgs/Heartland Justice#FLASHBACK Outranked|Apple Vision Pro investigation]]
 with Legal Department, aligned with [[Heartland Justice Factions and NPCs#William Patton|Patton]]'s campaign promise to "get behind the shield"
 ### Carbine
 a rogue AEGIS agent, who saw too many of her teammates killed in action by supers
@@ -39,11 +39,11 @@ AEGIS's premier superhero team, established in Golden Era
 (coming up/ready to take over)
 - [[Storm Lightning]]
 #### Modern
-- [[Heartland Justice]]
-- [[Void]], alien with telepathy, flight, and fire stuff powers, [[Heartland Justice Session Notes#**2024-05-09 Heartwarming Disaster**|played by Dan]]
-- [[Halftime]], grandson of [[Hourglass]], supervillain who blinded Bolt, [[Heartland Justice Session Notes#the Supe|confronted team in the Supe]]
-- [[Heartland Justice Session Notes#Guard duty at the Inter-Dimensional Rift|Rajesh]]
-- [[Heartland Justice Session Notes#**2024-07-25 Hashtag and Milkman**|Hashtag]], aka Valerie, has psionic powers including powers of suggestion, her nemesis: Milkman
+- [[rpgs/Masks/Heartland Justice/Heartland Justice]]
+- [[Void]], alien with telepathy, flight, and fire stuff powers, [[rpgs/Heartland Justice#**2024-05-09 Heartwarming Disaster**|played by Dan]]
+- [[Halftime]], grandson of [[Hourglass]], supervillain who blinded Bolt, [[rpgs/Heartland Justice#the Supe|confronted team in the Supe]]
+- [[rpgs/Heartland Justice#Guard duty at the Inter-Dimensional Rift|Rajesh]]
+- [[rpgs/Heartland Justice#**2024-07-25 Hashtag and Milkman**|Hashtag]], aka Valerie, has psionic powers including powers of suggestion, her nemesis: Milkman
 
 ---
 ## City of Chicago
@@ -73,6 +73,6 @@ ___
 ### Julius Skum
 founder and CEO, major donor to Patton's campaign
 ### Leon Skum/"X"
-son of Julius, [[Heartland Justice Session Notes#**3/21/24 X**|defeated & captured]] in AEGIS Containment Unit
+son of Julius, [[rpgs/Heartland Justice#**3/21/24 X**|defeated & captured]] in AEGIS Containment Unit
 head of SkumAI, SkumTech's AI division
 ![the villain, X|200](https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/8359efd9-fa97-4919-8f02-3712e70a0eeb/davytsx-73a6a047-e4b9-4236-b61e-e6966ef869ae.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzgzNTllZmQ5LWZhOTctNDkxOS04ZjAyLTM3MTJlNzBhMGVlYlwvZGF2eXRzeC03M2E2YTA0Ny1lNGI5LTQyMzYtYjYxZS1lNjk2NmVmODY5YWUuanBnIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.4260ycB3HBYUJZ0a1BnsZb2822QkZmYZOF5VAmGZ3r4)

@@ -1,7 +1,7 @@
 ---
 publish: true
 ---
-# [[RPGs Played.base|RPGs]]
+# [[Campaigns.base|RPGs]]
 ```base
 "0":
   type: card
@@ -13,14 +13,13 @@ publish: true
 filters:
   and:
     - file.folder == "rpgs"
-    - '!file.basename.contains("index")'
-    - '!note["current campaign"].isEmpty()'
+    - '!file.basename.contains("campaigns")'
+    - date_finished.isEmpty()
 views:
   - type: cards
     name: View
     order:
       - file.name
-      - current campaign
     sort:
       - property: file.ctime
         direction: DESC

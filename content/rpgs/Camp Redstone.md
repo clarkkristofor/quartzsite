@@ -1,8 +1,7 @@
 ---
 publish: true
-title:
-description:
-image:
+description: staking a claim in a lawless frontier
+image: https://pelgranepress.com/wp-content/uploads/2025/07/PEL13A202-scaled.jpg
 date: 2026-04-09
 Game: 13th Age, 2e
 ---

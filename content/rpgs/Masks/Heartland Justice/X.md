@@ -5,11 +5,11 @@ Game: Masks
 Campaign:
   - Heartland Justice
 next: "[[Heartland Justice forms]]"
-up: "[[Heartland Justice Session Notes]]"
+up: "[[rpgs/Heartland Justice]]"
 dg-publish: "true"
 tags:
 ---
-[[Heartland Justice Session Notes]] | next: [[Heartland Justice forms]]
+[[rpgs/Heartland Justice]] | next: [[Heartland Justice forms]]
 ## **3/21/24: X**
 ### team’s backstory
 - at Chicago ComiCon at McCormick Place, the team came together to fight a shadowy, unnamed villain who tried to control people’s minds with tainted water

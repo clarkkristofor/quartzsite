@@ -1,10 +1,12 @@
 ---
 publish: true
-dg-publish: "true"
-tags:
+image: https://magpiegames.com/cdn/shop/files/Masks-Core-softcover_2.jpg?v=1734448458&width=1800
+date_finished: 2025-06-01
+description: teenage superheroes, portals, time loops, loss and redemption
+Game: "Masks: A New Generation"
 ---
 # ***Heartland Justice***
-*[[Heartland Justice|the Heroes]]* | *[[Heartland Justice Factions and NPCs|Factions & NPCs]]*
+*[[rpgs/Masks/Heartland Justice/Heartland Justice|the Heroes]]* | *[[Heartland Justice Factions and NPCs|Factions & NPCs]]*
 
 | Session notes                                | Date     |
 | -------------------------------------------- | -------- |

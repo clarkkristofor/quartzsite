@@ -8,7 +8,7 @@ layout: index
 **[[Swords Beyond|Swords Beyond]]**
 - *campaign:* [[playtest beta]]
 
-**[[rpgs/13th Age|13th Age]]**
+**[[rpgs/system-only/13th Age|13th Age]]**
 - *campaign:* [[Camp Redstone|Camp Redstone]]
 # [[books/index|Books]]
 **Reading Now**

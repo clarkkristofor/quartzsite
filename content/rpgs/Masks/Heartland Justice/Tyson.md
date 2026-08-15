@@ -1,11 +1,11 @@
 ---
 publish: true
 dg-publish: "true"
-Date: 
+Date:
 Game: Masks
 Campaign:
   - Heartland Justice
-up: "[[Heartland Justice Session Notes]]"
+up: "[[rpgs/Heartland Justice]]"
 same: ""
 down: ""
 next: ""

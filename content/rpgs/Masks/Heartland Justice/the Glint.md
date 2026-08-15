@@ -3,7 +3,7 @@ publish: true
 dg-publish: "true"
 tags:
 ---
-[[Heartland Justice]]: [[Blink Lightning]] | [[the Glint]] | [[el Luchador]] | [[Clarke the Bear]] | [[Eagle Eye]]
+[[rpgs/Masks/Heartland Justice/Heartland Justice]]: [[Blink Lightning]] | [[the Glint]] | [[el Luchador]] | [[Clarke the Bear]] | [[Eagle Eye]]
 ## the Glint
 *Real name:* Abed
 *Age*: 19

@@ -1,10 +1,11 @@
 ---
 publish: true
-"title:": For the Tower
+Game: For the Tower
 link:
 image: Files/PXL_20260307_174756738.MP.jpg
 description: like For the Queen, Dread, and The Quiet Year, inspired by Silo
 date: 2026-03-07
+date_finished: 2026-03-07
 ---
 ### One-Shot Playtest
 A playtest with the designer at [[Gamicon Bromine 2026]]. Inspired by RPGs like For the Queen, Dread, and The Quiet Year and media like Silo. It's played with tarot cards and a Jenga tower. Here's [an older version](https://aquavertigo.itch.io/for-the-tower).

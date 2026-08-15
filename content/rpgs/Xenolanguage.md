@@ -1,10 +1,11 @@
 ---
-title: Xenolanguage
+Game: Xenolanguage
 description: Arrival the RPG
 publish: true
 link:
 image: https://thornygames.com/cdn/shop/files/xenolanguage_cover_1_e5c36610-64cc-4ccc-8e5d-370940e7872c_1024x1024@2x.jpg?v=1703438926
 date: 2026-03-07
+date_finished: 2026-03-07
 ---
 I played [Xenolanguage](https://thornygames.com/pages/xenolanguage-a-game-about-alien-language-and-human-memory) at [[Gamicon Bromine 2026]]. It's *[Arrival](https://en.wikipedia.org/wiki/Arrival_(film)) the RPG*. 
 

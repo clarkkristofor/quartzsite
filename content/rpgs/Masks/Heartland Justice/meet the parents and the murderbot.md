@@ -5,7 +5,7 @@ Game: Masks
 GM: Clark
 Campaign:
   - Heartland Justice
-up: "[[Heartland Justice|all]]"
+up: "[[rpgs/Masks/Heartland Justice/Heartland Justice|all]]"
 same: ""
 down:
 next: "[[X ambush|next]]"
@@ -13,7 +13,7 @@ prev: "[[Chicago's Grand Mosque and divided AEGIS|prev]]"
 dg-publish: "true"
 tags:
 ---
-[[Chicago's Grand Mosque and divided AEGIS|prev]] | [[Heartland Justice|all]] | [[X ambush|next]]
+[[Chicago's Grand Mosque and divided AEGIS|prev]] | [[rpgs/Masks/Heartland Justice/Heartland Justice|all]] | [[X ambush|next]]
 # meet the parents and the murderbot
 *Masks: Heartland Justice*, 2024-12-19
 

@@ -11,8 +11,8 @@ https://asteriskmag.com/issues/05/why-you-ve-never-been-in-a-plane-crash
 - his imam at Masjed NationWide helps him stay calm and in control
 
 **connections with other heroes:**
-- hangs out with [[Heartland Justice#el Luchador|Diego]]
-- hurt [[Heartland Justice#Eagle Eye|Lizzy]] when he lost control
+- hangs out with [[rpgs/Masks/Heartland Justice/Heartland Justice#el Luchador|Diego]]
+- hurt [[rpgs/Masks/Heartland Justice/Heartland Justice#Eagle Eye|Lizzy]] when he lost control
 
 *Playbook*: the Nova
 *Player*: Hans

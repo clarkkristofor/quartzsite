@@ -5,7 +5,7 @@ Game: Masks
 GM: Clark
 Campaign:
   - Heartland Justice
-up: "[[Heartland Justice|all]]"
+up: "[[rpgs/Masks/Heartland Justice/Heartland Justice|all]]"
 same: ""
 down: ""
 next: "[[meet the parents and the murderbot|next]]"
@@ -13,7 +13,7 @@ prev: "[[Rock ’n’ Roll|prev]]"
 dg-publish: "true"
 tags:
 ---
-[[Rock ’n’ Roll|prev]] | [[Heartland Justice|all]] | [[meet the parents and the murderbot|next]]
+[[Rock ’n’ Roll|prev]] | [[rpgs/Masks/Heartland Justice/Heartland Justice|all]] | [[meet the parents and the murderbot|next]]
 # Chicago's Grand Mosque and divided AEGIS
 *Masks: Heartland Justice*, 2024-12-12
 ## a new day, after the launch/explosion

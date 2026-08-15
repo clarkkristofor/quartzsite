@@ -1,7 +1,8 @@
 ---
 publish: true
-dg-publish: "true"
-dg-permalink: matt2024
+Game: 13th Age, 1e
+date_finished: 2024-11-21
+image:
 ---
 # ***Matt's Campaign***
 [[Raxus Blackheart]]

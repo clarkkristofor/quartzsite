@@ -7,6 +7,7 @@ title: Mothership
 description: scifi horror, but capitalism is the scariest part
 link:
 image: https://www.tuesdayknightgames.com/cdn/shop/files/Mothership_RPG_Core_Set.jpg?v=1784392837&width=1800
+date_finished: 2025-03-01
 ---
 ### One-Shot: The Haunting of Ypsilon 14
 *[Mothership](https://www.tuesdayknightgames.com/pages/mothership-rpg)* at Gamicon, 2025-03-01 

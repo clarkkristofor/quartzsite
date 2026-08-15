@@ -1,18 +1,14 @@
 filters:
   and:
     - file.folder == "rpgs"
-    - '!file.name.contains("RPGs played")'
+    - '!file.name.contains("campaign")'
 views:
   - type: cards
     name: View
-    groupBy:
-      property: current campaign
-      direction: ASC
     order:
       - file.name
-      - current campaign
     sort:
-      - property: date
+      - property: date_finished
         direction: DESC
     image: note.image
     cardSize: 180
