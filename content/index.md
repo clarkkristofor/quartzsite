@@ -18,9 +18,6 @@ filters:
 views:
   - type: cards
     name: View
-    order:
-      - file.name
-      - current campaign
     sort:
       - property: file.ctime
         direction: DESC

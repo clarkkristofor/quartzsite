@@ -1,4 +1,25 @@
+filters:
+  and:
+    - file.folder == "books"
+    - '!file.name.contains("books read")'
+    - "!date_finished.isEmpty()"
+formulas:
+  book: link(link, title)
+  redirect: link(link, title)
+properties:
+  formula.redirect:
+    displayName: book
 views:
+  - type: table
+    name: View 2
+    order:
+      - formula.redirect
+      - author
+    sort:
+      - property: date_finished
+        direction: DESC
+    columnSize:
+      formula.redirect: 247
   - type: cards
     name: View
     filters:
