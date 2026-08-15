@@ -4,9 +4,9 @@ title:
 description:
 image: https://superclark.net/files/13a-profantasy-map---hi-res---hex---faith--and--fortresses-start.jpg
 date: 2019-02-04
-date_finished: 2021-03-15
+date_finished: 2021-05-15
 ---
-The one that started with [[Cursed Myth the Elf Queen is Dead!.pdf|the Elf Queen is dead!]] And then went into elf heaven...
+The one that started with [[Cursed Myth the Elf Queen is Dead!.pdf|the Elf Queen is dead!]] And an elven myth-quest went wrong. And from Valor, into elf heaven... the Last Bastion of Heavenly Light, beseiged by the Godkillers and other devils. Chiefly, Gûlrymsúl, mythic enemy of elves, who was imprisoned in myth and for ages made myth his weapon, and tried to break free.
 # Oramir the Seer
 *Speaker (Holy One Cleric)*
 - My right eye was blinded when I was touched by the bright gods. Now that eye sees visions of the gods’ realm.
@@ -23,6 +23,7 @@ The one that started with [[Cursed Myth the Elf Queen is Dead!.pdf|the Elf Queen
 *Goblin ​Ranger*
 - Somewhere in a forgotten sub-basement of the Emperox's Cathedral is a dusty, cobwebbed, all-but-ignored little shrine... to Stink.
 - Escaped horde, Mad Potato God
+- whose goblin followers included Burpsneeze, Shart, Grummy, Nosebleed (dead), Pusslick, Grimtoe, Munch, Soft-Skull, and Runt, leader of Havoc Brigade
 # Thasomi Copperbrand
 *Dwarf Abomination*
 - I was touched by the Lich King, and I lived (sorta).
@@ -40,3 +41,11 @@ The one that started with [[Cursed Myth the Elf Queen is Dead!.pdf|the Elf Queen
 
 
 ![[13a Profantasy map - hi-res - HEX - Faith & Fortresses start.jpg]]
+![[valor_smaller.png]]
+![[campaign_diary_-_beginning_to_April_2020.png]]
+
+![[calendar_-_elves.png]]
+
+![[calendar_-_humans.png]]
+
+![[calendar_-_dwarves.png]]
