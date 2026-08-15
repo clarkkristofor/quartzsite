@@ -138,11 +138,11 @@ function setupPopovers() {
   }
 }
 
-IGNORE BASES */
+IGNORE BASES & PDFs */
 function setupPopovers() {
   const links = [...document.querySelectorAll("a.internal")] as HTMLAnchorElement[]
   for (const link of links) {
-    if (/\.base$/i.test(link.pathname)) continue // Bases aren't rendered pages — skip popover
+    if (/\.(pdf|base)$/i.test(link.pathname)) continue // no renderable preview for these — let them link through normally
 
     link.addEventListener("mouseenter", mouseEnterHandler)
     link.addEventListener("mouseleave", clearActivePopover)
