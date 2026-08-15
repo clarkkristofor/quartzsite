@@ -2,6 +2,7 @@ filters:
   and:
     - file.folder == "rpgs"
     - '!file.name.contains("campaign")'
+    - file.name != "index"
 views:
   - type: cards
     name: View

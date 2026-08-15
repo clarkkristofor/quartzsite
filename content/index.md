@@ -16,7 +16,7 @@ filters:
     - file.folder == "rpgs"
     - '!file.fullname.contains("campaigns")'
     - date_finished.isEmpty()
-    - file.ext == "md"
+    - file.name != "index"
 views:
   - type: cards
     name: View
