@@ -4,7 +4,7 @@ views:
     filters:
       and:
         - file.folder == "books"
-        - '!file.name.contains("index")'
+        - '!file.name.contains("books read")'
         - "!date_finished.isEmpty()"
     order:
       - title

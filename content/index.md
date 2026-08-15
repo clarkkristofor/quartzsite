@@ -1,19 +1,15 @@
 ---
 publish: true
 ---
-# [[rpgs/rpgs.base|RPGs]]
+# [[RPGs Played.base|RPGs]]
 ```base
 "0":
   type: card
   title: RPGs
   sources:
     - folder: rpgs
-  properties:
-    - system
-    - status
   cardOptions:
     imageProperty: image
-    columns: 3
 filters:
   and:
     - file.folder == "rpgs"
@@ -22,14 +18,16 @@ filters:
 views:
   - type: cards
     name: View
+    order:
+      - file.name
+      - current campaign
     sort:
       - property: file.ctime
         direction: DESC
     image: note.image
-    #imageAspectRatio: 2
 
 ```
-# [[books/books.base|Books]]
+# [[Books Read.base|Books]]
 **Reading Now**
 - [[When Driving Is Not an Option - Anna Zivarts]]
 - [[Playful Awakening - Dianne Gammage]]
