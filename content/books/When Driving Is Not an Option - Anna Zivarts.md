@@ -1,5 +1,5 @@
 ---
-title: "READING: When Driving Is Not an Option"
+title: When Driving Is Not an Option
 subtitle: Steering Away from Car Dependency
 author: Anna Zivarts
 authors: Anna Zivarts
