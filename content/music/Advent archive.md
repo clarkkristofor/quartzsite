@@ -1,13 +1,12 @@
 ---
-dg-publish: "true"
-dg-permalink: advent
 publish: true
 title: Advent archive
-description: all Advent playlists, 2024 and earlier
+description:
 link:
 image:
 date: 2024-11-25
 ---
+*all Advent playlists, 2024 and earlier*
 ## 2024: wait for it
 on [Spotify](https://open.spotify.com/playlist/0eRnQyyXznzy7GpQ0wULMf?si=87fc627c27ea423c) and [YouTube](https://www.youtube.com/watch?v=g63Vuqjditk&list=PL66Y_LFBHGX3pdrfh2mBqzoh7I5U09KPl)
 1. **Bang (Peanut Butter Wolf Remix)** by Melenas & Peanut Butter Wolf

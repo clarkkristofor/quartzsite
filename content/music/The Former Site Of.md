@@ -1,10 +1,12 @@
 ---
 publish: true
 title:
-description: a new New Pornographers album
+description:
 image:
 date: 2026-04-04
 ---
+## *a new New Pornographers album*
+
 my album of the year so far?
 
 saw them live at the Metro in Chicago on May 3, 2026. no neko, sadly.

@@ -2,12 +2,12 @@
 dg-publish: "true"
 publish: true
 title: that joy
-description: Advent 2025 playlist
+description:
 link: https://open.qobuz.com/playlist/45725394
 image:
 date: 2025-11-27
 ---
-## "that joy" 
+## "that joy": Advent 2025 playlist
 *on [qobuz]()*
 
 1. **Joy, Joy**
