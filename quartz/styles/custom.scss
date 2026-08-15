@@ -87,6 +87,10 @@ HOMEPAGE
   }
 }
 
+// hide properties on all pages
+.note-properties {
+  display: none;
+}
 
 /* ==========================================================================
  SEARCH INTERFACE _search.scss
