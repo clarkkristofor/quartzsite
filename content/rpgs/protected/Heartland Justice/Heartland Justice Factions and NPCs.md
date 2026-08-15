@@ -4,7 +4,7 @@ dg-publish: "true"
 tags:
 ---
 # Heartland Justice: Factions and NPCs
-[[Heartland Justice Factions and NPCs#AEGIS|AEGIS]] | [[Heartland Justice Factions and NPCs#City of Chicago|City of Chicago]] | [[Heartland Justice Factions and NPCs#Patton Development Group (PDG)|PDG]] | [[Heartland Justice Factions and NPCs#ScumTech|SkumTech]] | *[[rpgs/Masks/Heartland Justice/Heartland Justice|the Heroes]]* | *[[rpgs/Heartland Justice|Session Notes]]*
+[[Heartland Justice Factions and NPCs#AEGIS|AEGIS]] | [[Heartland Justice Factions and NPCs#City of Chicago|City of Chicago]] | [[Heartland Justice Factions and NPCs#Patton Development Group (PDG)|PDG]] | [[Heartland Justice Factions and NPCs#ScumTech|SkumTech]] | *[[rpgs/protected/Heartland Justice/Heartland Justice|the Heroes]]* | *[[rpgs/Heartland Justice|Session Notes]]*
 
 ___
 ## AEGIS
@@ -13,7 +13,7 @@ headquartered in [[Heartland Justice Factions and NPCs#City of Chicago|Chicago]]
 ### Russell Sun
 AEGIS director
 ### Nadine Bass
-AEGIS HR director: white woman, hates and fears [[rpgs/Masks/Heartland Justice/Heartland Justice]]
+AEGIS HR director: white woman, hates and fears [[rpgs/protected/Heartland Justice/Heartland Justice]]
 ### Field Agent Rayburn
 black, in 60s, probably could retire but hasn't
 ### Mara Anderson
@@ -39,7 +39,7 @@ AEGIS's premier superhero team, established in Golden Era
 (coming up/ready to take over)
 - [[Storm Lightning]]
 #### Modern
-- [[rpgs/Masks/Heartland Justice/Heartland Justice]]
+- [[rpgs/protected/Heartland Justice/Heartland Justice]]
 - [[Void]], alien with telepathy, flight, and fire stuff powers, [[rpgs/Heartland Justice#**2024-05-09 Heartwarming Disaster**|played by Dan]]
 - [[Halftime]], grandson of [[Hourglass]], supervillain who blinded Bolt, [[rpgs/Heartland Justice#the Supe|confronted team in the Supe]]
 - [[rpgs/Heartland Justice#Guard duty at the Inter-Dimensional Rift|Rajesh]]

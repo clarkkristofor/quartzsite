@@ -5,7 +5,7 @@ Game: Masks
 GM: Clark
 Campaign:
   - Heartland Justice
-up: "[[rpgs/Masks/Heartland Justice/Heartland Justice|all]]"
+up: "[[rpgs/protected/Heartland Justice/Heartland Justice|all]]"
 same: ""
 down: ""
 next: "[[ |next]]"
@@ -13,7 +13,7 @@ prev: "[[timeblink|prev]]"
 dg-publish: "true"
 tags:
 ---
-[[timeblink|prev]] | [[rpgs/Masks/Heartland Justice/Heartland Justice|all]] | [[ |next]]
+[[timeblink|prev]] | [[rpgs/protected/Heartland Justice/Heartland Justice|all]] | [[ |next]]
 # crowd control
 *Masks: Heartland Justice*, 2025-03-27
 

@@ -3,7 +3,7 @@ publish: true
 dg-publish: "true"
 tags:
 ---
-[[rpgs/Masks/Heartland Justice/Heartland Justice]]: [[Blink Lightning]] | [[the Glint]] | [[el Luchador]] | [[Clarke the Bear]] | [[Eagle Eye]]
+[[rpgs/protected/Heartland Justice/Heartland Justice]]: [[Blink Lightning]] | [[the Glint]] | [[el Luchador]] | [[Clarke the Bear]] | [[Eagle Eye]]
 ## el Luchador
 *Real name:* Diego Garcia Hernandez
 *Age*: 19

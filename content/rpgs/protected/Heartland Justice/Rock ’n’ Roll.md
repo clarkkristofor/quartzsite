@@ -13,7 +13,7 @@ prev: "[[CogX|prev]]"
 dg-publish: "true"
 tags:
 ---
-[[CogX]] | [[rpgs/Masks/Heartland Justice/Heartland Justice|all]] | [[Chicago's Grand Mosque and divided AEGIS|next]]
+[[CogX]] | [[rpgs/protected/Heartland Justice/Heartland Justice|all]] | [[Chicago's Grand Mosque and divided AEGIS|next]]
 # Rock ’n’ Roll
 *Masks: Heartland Justice*, 2024-12-05
 

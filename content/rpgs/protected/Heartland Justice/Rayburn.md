@@ -5,7 +5,7 @@ Game: Masks
 GM: Clark
 Campaign:
   - Heartland Justice
-up: "[[rpgs/Masks/Heartland Justice/Heartland Justice|all]]"
+up: "[[rpgs/protected/Heartland Justice/Heartland Justice|all]]"
 same: ""
 down: ""
 next: "[[cops and thugs|next]]"
@@ -13,7 +13,7 @@ prev: "[[angel of death|prev]]"
 dg-publish: "true"
 tags:
 ---
-[[angel of death|prev]] | [[rpgs/Masks/Heartland Justice/Heartland Justice|all]] | [[cops and thugs|next]]
+[[angel of death|prev]] | [[rpgs/protected/Heartland Justice/Heartland Justice|all]] | [[cops and thugs|next]]
 # Rayburn
 *Masks: Heartland Justice*, 2025-02-27
 
