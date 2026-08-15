@@ -1,5 +1,5 @@
 ---
-title: "READING: Fully Alive: Tending to the Soul in Turbulent Times"
+title: "Fully Alive: Tending to the Soul in Turbulent Times"
 author: Elizabeth Oldfield
 authors: Elizabeth Oldfield
 date_finished: 2027-12-14

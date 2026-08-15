@@ -30,14 +30,8 @@ views:
 ```
 # [[Books Read.base|Books]]
 **Reading Now**
-- [[When Driving Is Not an Option - Anna Zivarts]]
-- [[Playful Awakening - Dianne Gammage]]
-
-**Recently Read**
-- [[From Strength to Strength - Arthur C Brooks]]
-- [[The Faith of Beasts - James S A Corey]]
-- [[What Makes You Come Alive - Lerita Coleman Brown]]
-- [[Transcription - Ben Lerner]]
+- *When Driving Is Not an Option* by Anna Zivarts
+- *Fully Alive: Tending to the Soul in Turbulent Times* by Elizabeth Oldfield
 # [[music/index|Music]]
 - [[The Former Site Of]]
 - *Advent playlist:* [[that joy]]

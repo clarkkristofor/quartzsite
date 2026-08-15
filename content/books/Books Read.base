@@ -12,9 +12,13 @@ properties:
 views:
   - type: table
     name: List
+    filters:
+      and:
+        - date_finished <= today()
     order:
       - title
       - author
+      - date_finished
       - link
     sort:
       - property: date_finished

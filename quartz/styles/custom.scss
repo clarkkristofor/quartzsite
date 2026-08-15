@@ -309,7 +309,8 @@ h1 a.internal[role="anchor"] {
 
 body[data-slug="books/books-read.base"] {
   .bases-table a.internal-link {
-    color: inherit;
+    color: var(--dark);
+    background-color: var(--light);
     text-decoration: none;
     pointer-events: none;
     cursor: default;
@@ -319,7 +320,7 @@ body[data-slug="books/books-read.base"] {
     font-size: 0;
   }
   .bases-table a.external::before {
-    content: "View on Google Books →";
+    content: "View →";
     font-size: 1rem;
   }
 }
