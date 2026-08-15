@@ -1,33 +1,46 @@
 ---
-# Section 1: RPG Cards Grid
-- type: card
-  title: "RPGs"
+publish: true
+---
+# [[rpgs/rpgs.base|RPGs]]
+```base
+"0":
+  type: card
+  title: RPGs
   sources:
-    - folder: "rpgs"
+    - folder: rpgs
   properties:
     - system
     - status
   cardOptions:
     imageProperty: image
     columns: 3
+filters:
+  and:
+    - file.folder == "rpgs"
+    - '!file.basename.contains("index")'
+    - '!note["current campaign"].isEmpty()'
+views:
+  - type: cards
+    name: View
+    sort:
+      - property: file.ctime
+        direction: DESC
+    image: note.image
+    #imageAspectRatio: 2
 
-# Section 2: Book Cards Grid
-- type: card
-  title: "Reading List"
-  sources:
-    - folder: "books"
-  properties:
-    - author
-    - rating
-  cardOptions:
-    imageProperty: cover
-    columns: 4
+```
+# [[books/books.base|Books]]
+**Reading Now**
+- [[When Driving Is Not an Option - Anna Zivarts]]
+- [[Playful Awakening - Dianne Gammage]]
 
-# Section 3: Notes List
-- type: list
-  title: "Recent Notes"
-  sources:
-    - folder: "notes"
-  properties:
-    - updated
----
+**Recently Read**
+- [[From Strength to Strength - Arthur C Brooks]]
+- [[The Faith of Beasts - James S A Corey]]
+- [[What Makes You Come Alive - Lerita Coleman Brown]]
+- [[Transcription - Ben Lerner]]
+# [[music/index|Music]]
+- [[The Former Site Of]]
+- *Advent playlist:* [[that joy]]
+- [[Merry Christmas playlist]]
+# [[blog/index|Notes]]

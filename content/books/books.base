@@ -1,6 +1,4 @@
 views:
-  - type: table
-    name: Table
   - type: cards
     name: View
     filters:

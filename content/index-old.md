@@ -9,7 +9,7 @@ layout: index
 - *campaign:* [[playtest beta]]
 
 **[[rpgs/13th Age|13th Age]]**
-- *campaign:* [[rpgs/13th Age, second edition/Camp Redstone|Camp Redstone]]
+- *campaign:* [[Camp Redstone|Camp Redstone]]
 # [[books/index|Books]]
 **Reading Now**
 - [[When Driving Is Not an Option - Anna Zivarts]]

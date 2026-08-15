@@ -1,6 +1,6 @@
 ---
 publish: true
-image: swords beyond - cover - hydra.png
+image: https://superclark.net/files/swords-beyond---cover---hydra.png
 date: 2026-07-31
 current campaign: "[[playtest beta]]"
 ---
@@ -20,7 +20,7 @@ with additional inspiration from *[13th Age](https://pelgranepress.com/13th-age/
 # Contents
 ## [[Swords Beyond online rules#A Creeping Shadow|A Creeping Shadow]]
 ## [[Swords Beyond online rules#The Realms Beyond|The Realms Beyond]]
-## [[Swords Beyond online rules#Playing Hunters|Playing HUnters]]
+## [[Swords Beyond online rules#Playing Hunters|Playing Hunters]]
 - [[Swords Beyond online rules#Agenda|Agenda]]
 	- [[Swords Beyond online rules#Rolling Dice|Rolling Dice]]
 	- [[Swords Beyond online rules#BASIC ROLLS|Basic Rolls]]

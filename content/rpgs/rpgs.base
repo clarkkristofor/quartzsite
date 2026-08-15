@@ -3,8 +3,6 @@ filters:
     - file.folder == "rpgs"
     - '!file.name.contains("index")'
 views:
-  - type: table
-    name: Table
   - type: cards
     name: View
     groupBy:
@@ -17,5 +15,5 @@ views:
       - property: date
         direction: DESC
     image: note.image
-    cardSize: 360
+    cardSize: 180
     imageAspectRatio: 1.5
