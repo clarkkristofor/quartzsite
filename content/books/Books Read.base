@@ -11,9 +11,9 @@ properties:
     displayName: book
 views:
   - type: table
-    name: Table
+    name: List
     order:
-      - formula.redirect
+      - title
       - author
       - link
     sort:
@@ -28,10 +28,7 @@ views:
         - file.folder == "books"
         - '!file.name.contains("books read")'
         - "!date_finished.isEmpty()"
-    order:
-      - title
-      - author
-      - link
+    order: []
     sort:
       - property: date_finished
         direction: DESC
