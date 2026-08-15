@@ -307,10 +307,19 @@ h1 a.internal[role="anchor"] {
   overflow: hidden;
 }
 
-.bases-table a.external {
-  font-size: 0;
-}
-.bases-table a.external::before {
-  content: "View on Google Books →";
-  font-size: 1rem;
+body[data-slug="books/books-read"] {
+  .bases-table a.internal-link {
+    color: inherit;
+    text-decoration: none;
+    pointer-events: none;
+    cursor: default;
+  }
+
+  .bases-table a.external {
+    font-size: 0;
+  }
+  .bases-table a.external::before {
+    content: "View on Google Books →";
+    font-size: 1rem;
+  }
 }
