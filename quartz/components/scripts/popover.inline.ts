@@ -125,9 +125,25 @@ function clearActivePopover() {
   allPopoverElements.forEach((popoverElement) => popoverElement.classList.remove("active-popover"))
 }
 
+/* STOCK
 function setupPopovers() {
   const links = [...document.querySelectorAll("a.internal")] as HTMLAnchorElement[]
   for (const link of links) {
+    link.addEventListener("mouseenter", mouseEnterHandler)
+    link.addEventListener("mouseleave", clearActivePopover)
+    window.addCleanup(() => {
+      link.removeEventListener("mouseenter", mouseEnterHandler)
+      link.removeEventListener("mouseleave", clearActivePopover)
+    })
+  }
+}
+
+IGNORE BASES */
+function setupPopovers() {
+  const links = [...document.querySelectorAll("a.internal")] as HTMLAnchorElement[]
+  for (const link of links) {
+    if (/\.base$/i.test(link.pathname)) continue // Bases aren't rendered pages — skip popover
+
     link.addEventListener("mouseenter", mouseEnterHandler)
     link.addEventListener("mouseleave", clearActivePopover)
     window.addCleanup(() => {

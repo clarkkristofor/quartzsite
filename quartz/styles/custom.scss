@@ -72,7 +72,7 @@ LOGO
 } */
 
 /* ===========================================================
-HOMEPAGE
+HOMEPAGE & OTHER TWEAKS
 =============================================================*/
 [data-slug="index"],
 [data-slug="rpgs/swords-beyond/swords-beyond"] {
@@ -90,6 +90,18 @@ HOMEPAGE
 // hide properties on all pages
 .note-properties {
   display: none;
+}
+
+// fix PDF popover
+.popover-inner[data-content-type="application/pdf"] {
+  width: 500px;
+  height: 400px;
+
+  iframe {
+    width: 100% !important;
+    height: 100% !important;
+    border: none !important;
+  }
 }
 
 /* ==========================================================================
