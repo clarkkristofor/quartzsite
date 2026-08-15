@@ -92,18 +92,6 @@ HOMEPAGE & OTHER TWEAKS
   display: none;
 }
 
-// fix PDF popover
-.popover-inner[data-content-type="application/pdf"] {
-  width: 500px;
-  height: 400px;
-
-  iframe {
-    width: 100% !important;
-    height: 100% !important;
-    border: none !important;
-  }
-}
-
 /* ==========================================================================
  SEARCH INTERFACE _search.scss
 ========================================================================== */
@@ -173,10 +161,18 @@ h1, h2, h3, h4, h5, h6, .page-title {
 
 // Site title / Main H1 - Extra Bold
 .page-title, 
-article h1 {
+article h1,
+h1.article-title {
   font-weight: 800;
   letter-spacing: -0.02em;
+}
+
+h1.article-title {
   font-size: clamp(1.5rem, 4vw, 3rem);
+}
+
+article h1 {
+  font-size: 1.25rem;
 }
 
 // Section Headings - Bold
