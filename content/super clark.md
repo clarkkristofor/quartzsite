@@ -13,7 +13,7 @@ publish: true
 filters:
   and:
     - file.folder == "rpgs"
-    - '!file.basename.contains("campaigns")'
+    - '!file.fullname.contains("campaigns")'
     - date_finished.isEmpty()
 views:
   - type: cards
