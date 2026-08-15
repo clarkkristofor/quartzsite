@@ -11,17 +11,18 @@ properties:
     displayName: book
 views:
   - type: table
-    name: View 2
+    name: Table
     order:
       - formula.redirect
       - author
+      - link
     sort:
       - property: date_finished
         direction: DESC
     columnSize:
       formula.redirect: 247
   - type: cards
-    name: View
+    name: Covers
     filters:
       and:
         - file.folder == "books"
