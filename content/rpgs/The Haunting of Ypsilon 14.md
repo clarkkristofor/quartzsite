@@ -4,8 +4,6 @@ Date: 2025-03-01
 Game: Mothership
 GM: Branden
 title: Mothership
-description: scifi horror, but capitalism is the scariest part
-link:
 image: https://www.tuesdayknightgames.com/cdn/shop/files/Mothership_RPG_Core_Set.jpg?v=1784392837&width=1800
 date_finished: 2025-03-01
 ---
@@ -13,7 +11,7 @@ date_finished: 2025-03-01
 *[Mothership](https://www.tuesdayknightgames.com/pages/mothership-rpg)* at Gamicon, 2025-03-01 
 GM: Branden
 
-OSR sci-fi horror in the vein of *Alien* and *The Expanse*. A d100 system with stress and panic mechanics.
+OSR sci-fi horror in the vein of *Alien* and *The Expanse*, but capitalism is the scariest part. A d100 system with stress and panic mechanics.
 
 I played a marine. Others played a teamster, scientist, and android. So we covered all four classes.
 

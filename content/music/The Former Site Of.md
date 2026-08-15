@@ -1,8 +1,5 @@
 ---
 publish: true
-title:
-description:
-image:
 date: 2026-04-04
 ---
 ## *a new New Pornographers album*

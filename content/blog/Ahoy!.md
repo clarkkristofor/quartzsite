@@ -1,9 +1,6 @@
 ---
 publish: true
 title: Ahoy!
-description:
-link:
-image: Files/PXL_20260306_194328019.jpg
 date: 2026-03-07
 ---
 ## *Leder Games*

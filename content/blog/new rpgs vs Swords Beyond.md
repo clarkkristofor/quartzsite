@@ -1,8 +1,5 @@
 ---
 publish: true
-title:
-description:
-image: Files/chrome_rMu2tYRy8k.png
 date: 2026-03-20
 ---
 ## *design thoughts*

@@ -1,8 +1,5 @@
 ---
 publish: true
-title:
-description:
-image:
 date: 2026-04-17
 ---
 ## *not only freedom of speech and worship*

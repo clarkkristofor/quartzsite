@@ -1,9 +1,6 @@
 ---
 publish: true
 title: Silos
-description:
-link:
-image: Files/PXL_20260308_191426559.jpg
 date: 2026-03-08
 ---
 ## *by Reiner Knizia*

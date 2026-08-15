@@ -1,9 +1,6 @@
 ---
 publish: true
 title: Advent archive
-description:
-link:
-image:
 date: 2024-11-25
 ---
 *all Advent playlists, 2024 and earlier*
