@@ -92,6 +92,22 @@ HOMEPAGE & OTHER TWEAKS
   display: none;
 }
 
+/* Suppress the stock folder-page listing on the Books folder page —
+   the custom BookGrid "Read" instance replaces it */
+body[data-slug="books/index"] .page-listing {
+  display: none !important;
+}
+
+// eliminate hr between pageBody and afterBody
+.center > hr {
+  display: none !important;
+}
+
+// eliminate border on bases cards
+.bases-card {
+  border: none !important;
+}
+
 /* ==========================================================================
  SEARCH INTERFACE _search.scss
 ========================================================================== */

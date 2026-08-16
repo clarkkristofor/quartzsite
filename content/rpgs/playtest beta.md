@@ -4,10 +4,7 @@ image: https://superclark.net/files/swords-beyond---island-lost-plenty.png
 date: 2026-06-25
 Game: Swords Beyond
 ---
-
-![[swords beyond - island Lost Plenty.png]]
-*1 hex = 1 hour of travel*
-
+# session notes
 ## 3. well of shadow
 Marwen found Donny the ravages elf and his three-tailed fox demon buddy in the lighthouse. Despite theological disputes about demon society in the Hells and uses of demons in this world, they managed to:
 - banish the demon possessing the thug
@@ -25,13 +22,15 @@ Marwen found Donny the ravages elf and his three-tailed fox demon buddy in the l
 - hobble merrily back to the western lighthouse for some well-earned downtime, and maybe more stew
 ## 2. trying to relight their lighthouse
 Escaping the March Lord ambush, Marwen teleported himself, incapacitated Gashnag, and the unconscious thug bearing the light of heaven into the western lighthouse. But the light went out, in the thug and in the lighthouse.
-## hunters
+# map
+![[swords beyond - island Lost Plenty.png]]
+*1 hex = 1 hour of travel*
+# hunters
 ### Marwen Maxan the Zealot
 - **Kin:** coastal crags ravenkin who steal from shadow and Over Reach people and who dominate demons to enchant artifacts and monuments
 - **Drive:** I will bind every demon to my rock or destroy them. 
 - **Belief:** My Power Beyond from the Deads is the true founder of my clan and, viciously, he longs to grind demonkind under his boot. 
 - ▲ recruit the archery champion ▼ sister demands my return
-
 ### Gashng the Zealot
 - **Kin:** warg steppes orcs, cursed children of Marwen’s ravenkin, who venerate paternal ancestors daily at private shrines
 - **Drive:** I will complete the generational quest. 
@@ -47,7 +46,7 @@ Escaping the March Lord ambush, Marwen teleported himself, incapacitated Gashnag
 - **Drive:** I will earn renown in Lost Plenty and return to rule the ravages. 
 - **Belief:** My link (three-tailed fox) to the Wild is a demon that tells me to do things. 
 - ▲ old demon-binding mentor ▼wife and children in ravages
-## pact: “Them”
+# pact: “Them”
 **Conviction:** The shadow is demonic: the March Lord summons demons for profit. But head-on is not the only way to confront him/it. 
 
 **Pact:** You (Lost Plenty) house us, and we will fight for you. (Transactional. They treat you like guard dogs.)

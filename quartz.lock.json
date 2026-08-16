@@ -116,6 +116,12 @@
       "subdir": "page-logo",
       "installedAt": "2026-08-14T10:47:35.028Z"
     },
+    "quartz-components": {
+      "source": "github:clarkkristofor/quartz-components",
+      "resolved": "https://github.com/clarkkristofor/quartz-components.git",
+      "commit": "2029fe8fc8e16466e4e9490584f0a8e10374ad14",
+      "installedAt": "2026-08-16T19:59:04.788Z"
+    },
     "rpg-grid": {
       "source": {
         "repo": "https://github.com/clarkkristofor/quartz-components.git",
