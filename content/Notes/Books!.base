@@ -1,9 +1,9 @@
+filters:
+  and:
+    - file.folder == "Books"
 views:
   - type: table
     name: Table
-    filters:
-      and:
-        - file.inFolder("Notes/media log")
     order:
       - file.name
       - Title
