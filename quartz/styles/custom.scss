@@ -366,8 +366,8 @@ NOTE LIST (Music / Blog) — icon-row list layout
   flex-direction: row !important;
   align-items: flex-start;
   background-color: var(--light);
-  border: 1px solid var(--lightgray);
-  border-radius: 8px;
+  // border: 1px solid var(--lightgray);
+  // border-radius: 8px;
   padding: 1rem;
   text-decoration: none;
   color: inherit;
@@ -446,4 +446,14 @@ NOTE LIST (Music / Blog) — icon-row list layout
 body[data-slug="music/index"] .page-listing,
 body[data-slug="blog/index"] .page-listing {
   display: none !important;
+}
+
+.home-archive-row {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2rem;
+
+  @media (max-width: 768px) {
+    grid-template-columns: 1fr; // stack on mobile
+  }
 }
