@@ -14,3 +14,19 @@ views:
     image: note.image
     cardSize: 180
     imageAspectRatio: 1.5
+  - type: table
+    name: List
+    groupBy:
+      property: GM
+      direction: DESC
+    order:
+      - file.name
+      - Game
+      - GM
+      - date
+      - date_finished
+    sort:
+      - property: date_finished
+        direction: DESC
+    columnSize:
+      note.GM: 81

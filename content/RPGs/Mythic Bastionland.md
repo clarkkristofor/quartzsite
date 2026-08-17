@@ -6,6 +6,7 @@ link:
 image: https://cdn.shopify.com/s/files/1/0388/3902/5709/files/MythicCover.png?v=1746521859
 date: 2026-03-08
 date_finished: 2026-03-08
+GM: Branden
 ---
 ### One-Shot
 I played [Mythic Bastionland](https://chrismcdee.itch.io/mythic-bastionland) at [[Gamicon Bromine 2026]].

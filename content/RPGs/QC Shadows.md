@@ -4,6 +4,7 @@ image: https://superclark.notion.site/image/attachment%3A3320d93e-841b-47fd-86cf
 date: 2025-06-05
 Game: Urban Shadows
 date_finished: 2026-05-05
+GM: me
 ---
 ## *deer hearts and real estate developers*
 ![image](https://magpiegames.com/cdn/shop/files/Urban-Shadows-Core_1.jpg?v=1734451236&width=1800)

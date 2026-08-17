@@ -6,6 +6,7 @@ link:
 image: https://d1vzi28wh99zvq.cloudfront.net/images/23533/508832.png
 date: 2026-03-08
 date_finished: 2026-03-08
+GM: "?"
 ---
 ### One-Shot
 I played [Daggerheart](https://www.daggerheart.com/) at [[Gamicon Bromine 2026]]. Meh. It was fine. Better than 5e, for sure.

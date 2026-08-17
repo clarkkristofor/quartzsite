@@ -3,6 +3,7 @@ publish: true
 image: https://superclark.net/files/swords-beyond---island-lost-plenty.png
 date: 2026-06-25
 Game: Swords Beyond
+GM: me
 ---
 # session notes
 ## 3. well of shadow

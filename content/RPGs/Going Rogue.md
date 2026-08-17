@@ -6,6 +6,7 @@ link:
 image: https://img.itch.zone/aW1hZ2UvMTA2NTg2Mi8xMTgzMzIwMC5wbmc=/794x1000/weuG3X.png
 date: 2026-02-15
 date_finished: 2026-02-15
+GM: none
 ---
 ### One-Shot
 C, H, and I played [Going Rogue](https://jumpgategames.itch.io/going-rogue), a GM-less game inspired by Star Wars Rogue One and Andor. I Kickstarted its new edition. 

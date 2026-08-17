@@ -4,6 +4,7 @@ image: https://magpiegames.com/cdn/shop/files/Masks-Core-softcover_2.jpg?v=17344
 date_finished: 2025-06-01
 Game: "Masks: A New Generation"
 date: 2024-03-01
+GM: me
 ---
 ## *teenage superheroes, portals, time loops, loss and redemption*
 *[[RPGs/protected/Heartland Justice/Heartland Justice|the Heroes]]* | *[[Heartland Justice Factions and NPCs|Factions & NPCs]]*

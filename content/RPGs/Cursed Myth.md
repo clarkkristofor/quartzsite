@@ -3,6 +3,8 @@ publish: true
 image: https://superclark.net/files/valor_smaller.png
 date: 2019-02-04
 date_finished: 2021-05-15
+Game: 13th Age, 1e
+GM: me
 ---
 The one that started with [[Cursed Myth the Elf Queen is Dead!.pdf|the Elf Queen is dead!]] And an elven myth-quest went wrong. And from Valor, into elf heaven... the Last Bastion of Heavenly Light, beseiged by the Godkillers (devil dwarves) and other devils. Chiefly, Gûlrymsúl, mythic enemy of elves, who was imprisoned in myth and for ages made myth his weapon, then tried to break free.
 # Oramir the Seer
