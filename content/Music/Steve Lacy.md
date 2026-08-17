@@ -1,7 +1,7 @@
 ---
 publish: true
 title:
-description: love that guy
+description: "new album: Oh yeah?"
 image:
 date: 2026-07-27
 date_finished:
