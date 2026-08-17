@@ -1,6 +1,7 @@
 ---
 publish: true
 date: 2026-04-04
+description: my album of the year so far?
 ---
 ## *a new New Pornographers album*
 

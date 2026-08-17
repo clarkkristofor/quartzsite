@@ -4,6 +4,7 @@ publish: true
 title: that joy
 link: https://open.qobuz.com/playlist/45725394
 date: 2025-11-27
+description: Advent 2025 playlist, the 20th
 ---
 ## "that joy": Advent 2025 playlist
 *on [qobuz]()*

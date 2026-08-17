@@ -38,7 +38,7 @@ LOGO
 
 .page-title a:hover::before {
   background: var(--tertiary);
-} 
+}
 
 // Top layer: black glasses frame, with the lens area transparent in the artwork itself.
 .page-title a::after {
@@ -48,40 +48,11 @@ LOGO
   z-index: 2;
 }
 
-/*
-.header-logo {
-  #superclark {
-    fill: var(--dark);
-    
-    // Quartz v5 uses data-theme attributes
-    [data-theme="dark"] & { 
-      fill: var(--secondary); 
-    }
-    
-    transition: fill var(--transition-snappy);
-  }
-
-  .logo-lens {
-    fill: transparent;
-    transition: all var(--transition-snappy);
-  }
-
-  &:hover .logo-lens {
-    fill: var(--tertiary);
-  }
-} */
-
 /* ===========================================================
 HOMEPAGE & OTHER TWEAKS
 =============================================================*/
 [data-slug="index"],
 [data-slug="rpgs/swords-beyond/swords-beyond"] {
-  .article-title, .content-meta {
-    display: none;
-  }
-}
-
-[data-slug="index"] {
   .article-title, .content-meta {
     display: none;
   }
@@ -103,13 +74,12 @@ body[data-slug="books/index"] .page-listing {
   display: none !important;
 }
 
-// eliminate border on bases cards
-.bases-card {
-  border: none !important;
+footer {
+  margin-top: 2rem;
 }
 
 /* ==========================================================================
- SEARCH INTERFACE _search.scss
+ SEARCH INTERFACE
 ========================================================================== */
 
 // center items in the header
@@ -133,12 +103,11 @@ header {
     display: inline-flex !important;
     align-items: center !important;
     gap: 8px !important;
-    
+
     /* Flexible width so it fits cleanly alongside the logo */
-    // width: auto !important; 
     min-width: 140px !important;
     max-width: 200px !important;
-    
+
     cursor: pointer !important;
     box-shadow: 2px 2px 0px var(--darkgray) !important;
     transition: border-color 0.2s ease, box-shadow 0.2s ease, transform 0.2s ease !important;
@@ -176,7 +145,7 @@ h1, h2, h3, h4, h5, h6, .page-title {
 }
 
 // Site title / Main H1 - Extra Bold
-.page-title, 
+.page-title,
 article h1,
 h1.article-title {
   font-weight: 800;
@@ -193,14 +162,14 @@ h2, h3 {
 }
 
 // Sub-headings & Card titles - Semi-Bold
-h4, h5, h6, 
-.section-header, 
+h4, h5, h6,
+.section-header,
 .card-title {
   font-weight: 600;
 }
 
 // Subtitles / Header meta text - Regular & Italic
-.header-meta, 
+.header-meta,
 .subtitle {
   font-family: var(--headerFont);
   font-weight: 400;
@@ -216,13 +185,13 @@ body, p, li {
   line-height: 1.65;
 }
 
-// Heavy bold body text
+// Heavy bold body text / bold body callouts
 strong, b {
   font-weight: 900;
 }
 
 // Light weight for introductory leads / blockquotes
-.lead-text, 
+.lead-text,
 blockquote p {
   font-weight: 300;
 }
@@ -230,11 +199,6 @@ blockquote p {
 // True italics for emphasis & blockquotes
 em, i, blockquote {
   font-style: italic;
-}
-
-// Bold body callouts
-strong, b {
-  font-weight: 700;
 }
 
 
@@ -245,9 +209,9 @@ code, pre, kbd {
 }
 
 // Medium weight for code headers, inline tags, or bold code terms
-.code-header, 
-.tag, 
-pre strong, 
+.code-header,
+.tag,
+pre strong,
 code strong {
   font-weight: 500;
 }
@@ -280,37 +244,49 @@ h1 a.internal.alias {
 h1 a.internal[role="anchor"] {
   background-color: transparent;
   padding: 0;
-  // color: var(--gray); // or transparent/none if you want to hide it completely
-  // opacity: 0.5;
   color: transparent;
-
-  /*
-  &:hover {
-    opacity: 1;
-  } */
 }
 
 /* ==========================================================================
    CARDS & BASES
    ========================================================================== */
 
+.bases-card {
+  border: none !important;
+  box-shadow: none;
+  background-color: var(--light);
+  padding: 1rem;
+  transition: transform 0.15s ease, box-shadow 0.15s ease;
+
+  &:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  }
+}
+
+.bases-card.internal {
+  background-color: transparent;
+}
+
+a.grid-card {
+  background-color: var(--light);
+  padding: 1rem;
+  transition: transform 0.15s ease, box-shadow 0.15s ease;
+
+  &:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  }
+}
+
 .bases-card-body {
   background-color: var(--light);
   padding: 0.75rem;
-  
-}
-
-.bases-card {
-  box-shadow: none;
 }
 
 .bases-card-title {
   color: var(--dark);
   font-weight: 700;
-}
-
-.bases-card.internal {
-  background-color: transparent;
 }
 
 [data-slug="index"] {
@@ -369,23 +345,9 @@ NOTE LIST (Music / Blog) — icon-row list layout
   flex-direction: row !important;
   align-items: flex-start;
   background-color: var(--light);
-  // border: 1px solid var(--lightgray);
-  // border-radius: 8px;
   padding: 1rem;
   text-decoration: none;
   color: inherit;
-  transition: transform 0.15s ease, box-shadow 0.15s ease;
-
-  &:hover {
-    transform: translateY(-2px);
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
-  }
-}
-
-.bases-card,
-a.grid-card {
-  background-color: var(--light);
-  padding: 1rem;
   transition: transform 0.15s ease, box-shadow 0.15s ease;
 
   &:hover {
@@ -429,22 +391,9 @@ a.grid-card {
     color: var(--darkgray);
   }
 
-  .meta-separator {
-    margin: 0 0.35rem;
-    color: var(--gray);
-  }
-
   .card-date {
     white-space: nowrap;
   }
-}
-
-.note-list .card-metadata .card-desc {
-  display: -webkit-box;
-  -webkit-line-clamp: 2;
-  line-clamp: 2;
-  -webkit-box-orient: vertical;
-  overflow: hidden;
 }
 
 /* Truncate long auto-generated descriptions in Music/Blog list cards */
