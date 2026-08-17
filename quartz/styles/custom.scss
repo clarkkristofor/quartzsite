@@ -323,18 +323,19 @@ h1 a.internal[role="anchor"] {
   background-color: var(--light);
 }
 
-.bases-card-image img {
-  aspect-ratio: 4 / 3;
-  object-fit: cover;
-  object-position: center;
-  width: 100%;
-  height: 100%;
-  display: block;
-}
-
 .bases-card-image {
-  aspect-ratio: 3 / 4;
+  width: 100%;
+  aspect-ratio: 4 / 3;
   overflow: hidden;
+  background-color: var(--light);
+
+  img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+    display: block;
+  }
 }
 
 body[data-slug="books/books-read.base"] {
