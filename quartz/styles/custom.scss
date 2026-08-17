@@ -366,7 +366,9 @@ NOTE LIST (Music / Blog) — icon-row list layout
   margin: 1rem 0 2rem;
 }
 
-.note-list .grid-card.list-item-card {
+// RPG, music, and blog cards - including on hover
+.note-list .grid-card.list-item-card,
+.bases-card {
   display: flex !important;
   flex-direction: row !important;
   align-items: flex-start;
