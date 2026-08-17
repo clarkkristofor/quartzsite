@@ -1,7 +1,7 @@
 ---
 publish: true
 title:
-description:
+description: "song of the moment: Modesto by Pedro the Lion"
 image:
 date: 2026-02-16
 ---
