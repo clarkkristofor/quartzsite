@@ -28,9 +28,3 @@ views:
     image: note.image
 
 ```
-# [[music/index|Music]]
-- [[The Former Site Of]]
-- *Advent playlist:* [[that joy]]
-- [[Merry Christmas playlist]]
-# [[blog/index|Blog]]
-*quick thoughts on games and more*
