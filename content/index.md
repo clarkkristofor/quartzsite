@@ -26,5 +26,6 @@ views:
       - property: file.mtime
         direction: DESC
     image: note.image
+    # imageAspectRatio: 1.5
 
 ```
