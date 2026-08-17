@@ -140,7 +140,7 @@ header {
     max-width: 200px !important;
     
     cursor: pointer !important;
-    box-shadow: 2px 2px 0px var(--secondary) !important;
+    box-shadow: 2px 2px 0px var(--darkgray) !important;
     transition: border-color 0.2s ease, box-shadow 0.2s ease, transform 0.2s ease !important;
 
     p {
@@ -347,5 +347,79 @@ body[data-slug="books/books-read.base"] {
   .bases-table a.external::before {
     content: "View"; // →
     font-size: 1rem;
+  }
+}
+
+/* ==========================================================================
+NOTE LIST (Music / Blog) — icon-row list layout
+========================================================================== */
+
+.note-list .simple-list {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+  margin: 1rem 0 2rem;
+}
+
+.note-list .grid-card.list-item-card {
+  display: flex !important;
+  flex-direction: row !important;
+  align-items: flex-start;
+  background-color: var(--light);
+  border: 1px solid var(--lightgray);
+  border-radius: 8px;
+  padding: 1rem;
+  text-decoration: none;
+  color: inherit;
+  transition: transform 0.15s ease, box-shadow 0.15s ease;
+
+  &:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  }
+}
+
+.note-list .card-icon-wrapper {
+  flex-shrink: 0;
+  margin-right: 0.9rem;
+  margin-top: 0.2rem;
+  color: var(--secondary);
+
+  .list-icon {
+    width: 20px;
+    height: 20px;
+    display: block;
+  }
+}
+
+.note-list .card-content {
+  display: flex;
+  flex-direction: column;
+  gap: 0.2rem;
+  min-width: 0; /* allow text truncation inside flex */
+
+  h3 {
+    margin: 0;
+    font-size: 1rem;
+    color: var(--dark);
+  }
+}
+
+.note-list .card-metadata {
+  font-size: 0.85rem;
+  color: var(--gray);
+  line-height: 1.4;
+
+  .card-desc {
+    color: var(--darkgray);
+  }
+
+  .meta-separator {
+    margin: 0 0.35rem;
+    color: var(--gray);
+  }
+
+  .card-date {
+    white-space: nowrap;
   }
 }

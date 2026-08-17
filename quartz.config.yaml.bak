@@ -284,53 +284,80 @@ plugins:
       position: afterBody
       priority: 50
       display: all
-  - source:
-      repo: https://github.com/clarkkristofor/quartz-components.git
-      name: BookGridReadingNow
+  - source: github:clarkkristofor/quartz-components
+    name: bookgrid-reading-now
     enabled: true
+    options:
+      folder: books
+      status: reading
+      sectionTitle: "Books"
+      sectionLink: "/books/"
+      title: "Reading Now"
+      limit: 5
+      className: book-grid
+      restrictTo: ["home"]
+    order: 50
     layout:
       position: afterBody
       priority: 25
-
-  - source:
-      repo: https://github.com/clarkkristofor/quartz-components.git
-      name: BookGridRead
+  - source: github:clarkkristofor/quartz-components
+    name: bookgrid-read
     enabled: true
+    options:
+      folder: books
+      status: finished
+      title: "Read"
+      limit: 0
+      className: book-grid
+      restrictTo: ["folderPage"]
+    order: 51
     layout:
       position: afterBody
       priority: 25
-
-  - source:
-      repo: https://github.com/clarkkristofor/quartz-components.git
-      name: NoteListMusicHome
+  - source: github:clarkkristofor/quartz-components
+    name: notelist-music-home
     enabled: true
-    layout:
-      position: afterBody
-      priority: 25
-
-  - source:
-      repo: https://github.com/clarkkristofor/quartz-components.git
-      name: NoteListBlogHome
+    options:
+      folder: music
+      sectionTitle: "Music"
+      sectionLink: "/music/"
+      limit: 3
+      restrictTo: ["home"]
+    order: 52
+    layout: { position: afterBody, priority: 25 }
+  - source: github:clarkkristofor/quartz-components
+    name: notelist-blog-home
     enabled: true
-    layout:
-      position: afterBody
-      priority: 25
-
-  - source:
-      repo: https://github.com/clarkkristofor/quartz-components.git
-      name: NoteListMusicArchive
+    options:
+      folder: blog
+      sectionTitle: "Blog"
+      sectionLink: "/blog/"
+      limit: 3
+      restrictTo: ["home"]
+    order: 53
+    layout: { position: afterBody, priority: 25 }
+  - source: github:clarkkristofor/quartz-components
+    name: notelist-music-archive
     enabled: true
-    layout:
-      position: afterBody
-      priority: 25
-
-  - source:
-      repo: https://github.com/clarkkristofor/quartz-components.git
-      name: NoteListBlogArchive
+    options:
+      folder: music
+      sectionTitle: "Music"
+      sectionLink: "/music/"
+      limit: 0
+      restrictTo: ["folderPage"]
+    order: 54
+    layout: { position: afterBody, priority: 25 }
+  - source: github:clarkkristofor/quartz-components
+    name: notelist-blog-archive
     enabled: true
-    layout:
-      position: afterBody
-      priority: 25
+    options:
+      folder: blog
+      sectionTitle: "Blog"
+      sectionLink: "/blog/"
+      limit: 0
+      restrictTo: ["folderPage"]
+    order: 55
+    layout: { position: afterBody, priority: 25 }
 layout:
   groups:
     toolbar:

@@ -28,10 +28,6 @@ views:
     image: note.image
 
 ```
-# [[Books Read.base|Books]]
-**Reading Now**
-- *When Driving Is Not an Option* by Anna Zivarts
-- *Fully Alive: Tending to the Soul in Turbulent Times* by Elizabeth Oldfield
 # [[music/index|Music]]
 - [[The Former Site Of]]
 - *Advent playlist:* [[that joy]]
