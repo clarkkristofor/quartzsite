@@ -20,3 +20,5 @@ date: 2026-05-13
 **A:** "Butt Chef."
 
 **Me:** *more laughing*
+
+[[Blood on the Clocktower]]

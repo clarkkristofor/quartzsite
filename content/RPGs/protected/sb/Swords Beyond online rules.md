@@ -18,6 +18,7 @@ with additional inspiration from *[13th Age](https://pelgranepress.com/13th-age/
 - playtest alpha
 
 ![[swords beyond - cover - hydra.png]]
+[[Swords Beyond]]
 # A Creeping Shadow
 In the **Over Reach**, deep in the borderlands, along the **Unbroken Wilderness**, rumors spread of sinister monsters and strange and gruesome events. At the heart of it all lies the town of **Lost Plenty**.
 

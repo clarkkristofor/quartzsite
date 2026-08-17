@@ -172,8 +172,8 @@ plugins:
   - source: "@quartz-community/backlinks"
     enabled: true
     layout:
-      position: null
-      priority: null
+      position: left
+      priority: 80
   - source: "@quartz-community/article-title"
     enabled: true
     layout:

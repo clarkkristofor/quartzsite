@@ -9,4 +9,4 @@ date_finished: 2026-08-14
 Game: Swords Beyond
 GM: me
 ---
-with A and friends
+[[Swords Beyond]] with A and friends

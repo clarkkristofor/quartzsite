@@ -4,7 +4,7 @@ date: 2026-03-20
 ---
 ## *design thoughts*
 
-Since [[Gamicon Bromine 2026]] and the new-to-me RPGs I played, I've been thinking about [Swords Beyond](https://docs.google.com/document/d/1FiAnhtnQSA-RDvV6rTmSERamipQNpVTWUzAr3hyKfd0/edit?tab=t.mnnppiy4c84i#heading=h.v7ztrz64au89) and what I'm trying achieve. 
+Since [[Gamicon Bromine 2026]] and the new-to-me RPGs I played, I've been thinking about [[Swords Beyond]] and what I'm trying achieve. 
 
 I want fantasy but...
 1. ...with lighter rules and faster more cinematic fights
