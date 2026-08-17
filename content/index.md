@@ -13,7 +13,7 @@ title: super clark
     imageProperty: image
 filters:
   and:
-    - file.folder == "rpgs"
+    - file.folder == "RPGs"
     - '!file.fullname.contains("campaigns")'
     - date_finished.isEmpty()
     - file.name != "index"
