@@ -62,7 +62,7 @@ MP: Take DNA test. Read their myths, fairy tales and stories. Have pictures of f
 
 BM: Connect this with previous question. Seems woo woo. Do we have to say this is literally true? Everyone has a lot of fine print with word "God". How many of our ideas do we want to put on as required footnotes to that work? Or how much do we want to be pointing to something without requiring (others to adopt) our words or ideas?
 
-CAB: Deep listening 90% before dropping in my 10%. My students are all over map. The first thing they want to know is "Do I care?" They've seen a lot of older people not follow through. I let them know I meditate. For practical tips, at end of [[Life After Doom]], appendix how to have conversations. [[Richard Rohr]] has a huge gift for this. They really don't care what I know until they know that I care.
+CAB: Deep listening 90% before dropping in my 10%. My students are all over map. The first thing they want to know is "Do I care?" They've seen a lot of older people not follow through. I let them know I meditate. For practical tips, at end of [[Notes/media log/Life After Doom]], appendix how to have conversations. [[Richard Rohr]] has a huge gift for this. They really don't care what I know until they know that I care.
 
 JF: Being sensitive and attentive to the person I'm with. What do they want to hear or are they capable of hearing? With each person, in language that expresses what the relationship means to one another? How to turn information into transformation? Every time you say "I love you" it recreates the moment to experience and be changed by it.
 

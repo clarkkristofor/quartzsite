@@ -16,7 +16,7 @@ Older women. Like church, honestly. Very few men, or my age.
 
 "Learn" feels like a small word. I feel a depth. Submerged. In it. Shadowboxing. Versus insecurity. Falling into insecurity is...can be?...falling upward too. Even this. Do not be afraid.
 
-I'm incredibly sleepy. I was up at 5am. I finished [[Falling Upward]]. I played with Amos. I worked out and showered. Here I am, almost nodding off as I type.
+I'm incredibly sleepy. I was up at 5am. I finished [[Notes/media log/Falling Upward]]. I played with Amos. I worked out and showered. Here I am, almost nodding off as I type.
 
 I don't feel like I know the others, to know what I want them to know. I guess, it's not too late. This is like a commencement. A beginning, even as its an end.
 

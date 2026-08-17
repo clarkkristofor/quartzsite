@@ -8,7 +8,7 @@ date: 2026-03-08
 Here's what I played.
 ### Friday
 - **[[Ahoy!]] by Leder Games**
-- **[[Mythic Bastionland]]**
+- **[[RPGs/Mythic Bastionland]]**
 - **Blood on the Clocktower** - We won.
 
 ### Saturday

@@ -6,11 +6,11 @@ Campaign:
   - Heartland Justice
 prev: "[[Heartland Justice forms]]"
 next: "[[Playing Politics and also maybe God]]"
-up: "[[rpgs/Heartland Justice]]"
+up: "[[RPGs/Heartland Justice]]"
 dg-publish: "true"
 tags:
 ---
-prev: [[Heartland Justice forms]] | [[rpgs/Heartland Justice]] | next: [[Playing Politics and also maybe God]]
+prev: [[Heartland Justice forms]] | [[RPGs/Heartland Justice]] | next: [[Playing Politics and also maybe God]]
 ## **2024-05-09: Heartwarming Disaster**
 ### Lecture with Robbery footage
  - [[Storm Lightning]] and hungover Miles and Abed in Lightning safehouse

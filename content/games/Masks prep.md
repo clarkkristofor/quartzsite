@@ -9,7 +9,7 @@ publish: true
 
 
 ## other stuff
-*[[rpgs/protected/Heartland Justice/Heartland Justice|the Heroes]]* | [[rpgs/Heartland Justice|notes]]
+*[[RPGs/protected/Heartland Justice/Heartland Justice|the Heroes]]* | [[RPGs/Heartland Justice|notes]]
 [[Exemplars]] | [Eagle Eye](https://www.pinterest.com/pin/694187730045167733/) | [the Glint](https://www.pinterest.fr/pin/510032726547385546/) | [Music](https://app.sessions.blue/album/bc7c293b-bb14-428c-8e2d-9e1b1b767cc4) on [Spotify](https://open.spotify.com/album/0JW2kcPIS4vEBulLO9yu1O?si=q7OPQ0cbS1CoO0ALapIiZQ)
 
 Sun Sun

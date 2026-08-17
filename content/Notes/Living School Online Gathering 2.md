@@ -22,7 +22,7 @@ En la calma del momento yo siento paz pura paz
 - the very point at which you shared you don't know what that means - to share from the heart - that's you heart!
 - don't talk over other person, don't talk over own self
 - as we listen, we realize God is infinitely listening to us; as we try to understand, we understand God infinitely understands us
-- fatalism or destiny - we took that and put it on God and said, You're in charge, so we don't have to be. God's a great opportunist. "Honey, shit happens." [[Life After Doom]]
+- fatalism or destiny - we took that and put it on God and said, You're in charge, so we don't have to be. God's a great opportunist. "Honey, shit happens." [[Notes/media log/Life After Doom]]
 - from information to transformation - response to "I love you" isn't "define your terms" or "I never heard that, let me write that down. Do you have any books on that?" 
 - lean into whatever gives you life
 - when you're in creation, there's no such thing as silence, except at like 3am. everything is resting then. the silence is filled with rest and peace. i need that, to go and sit and look at the stars at 3am.

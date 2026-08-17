@@ -6,7 +6,7 @@ Game: "Masks: A New Generation"
 date: 2024-03-01
 ---
 ## *teenage superheroes, portals, time loops, loss and redemption*
-*[[rpgs/protected/Heartland Justice/Heartland Justice|the Heroes]]* | *[[Heartland Justice Factions and NPCs|Factions & NPCs]]*
+*[[RPGs/protected/Heartland Justice/Heartland Justice|the Heroes]]* | *[[Heartland Justice Factions and NPCs|Factions & NPCs]]*
 
 | Session notes                                | Date     |
 | -------------------------------------------- | -------- |

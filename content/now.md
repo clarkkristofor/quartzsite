@@ -5,7 +5,7 @@
 
 - playing on this site ([Obsidian](https://obsidian.md/) + [Digital Garden plugin](https://dg-docs.ole.dev)), inspired by [melonland.net](https://melonland.net) and [Naive Weekly](https://www.naiveweekly.com/) and the "small web"/"personal web"/"web revival" which seem to be summed up in melonland's goal: **"To make the web genuine, chaotic, timeless, individual and joyful"**
 
-- running a [Masks](https://magpiegames.com/collections/masks) (teenage superhero) campaign: [[rpgs/protected/Heartland Justice/Heartland Justice]]; so much faster, looser, more story-forward than trad fantasy, which I'm also having fun with [[Matt's Fallen Magic|as a player]]
+- running a [Masks](https://magpiegames.com/collections/masks) (teenage superhero) campaign: [[RPGs/protected/Heartland Justice/Heartland Justice]]; so much faster, looser, more story-forward than trad fantasy, which I'm also having fun with [[Matt's Fallen Magic|as a player]]
 
 - cheering on [Arsenal](https://www.arsenal.com/), through a rocky start to the season, and wearing my new [away Saka jersey](https://arsenaldirect.arsenal.com/Football-Shirts-and-Kit/Away/Arsenal-adidas-24-25-Away-Shirt/p/MIT6148); watching soccer live, including [USA GOLD METALISTS](https://youtu.be/0CIK6QK25-o?si=TEg916KozsqEyuqe); also scoping out [[World Cup 2026]]
 

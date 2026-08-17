@@ -4,7 +4,7 @@ Date: 2024-10-17
 Game: Masks
 Campaign:
   - Heartland Justice
-up: "[[rpgs/Heartland Justice|all]]"
+up: "[[RPGs/Heartland Justice|all]]"
 same: ""
 down: ""
 next: "[[CogX|next]]"
@@ -12,7 +12,7 @@ prev: "[[Hashtag and Milkman|prev]]"
 dg-publish: "true"
 tags:
 ---
-[[Hashtag and Milkman|prev]] | [[rpgs/Heartland Justice|all]] | [[CogX|next]]
+[[Hashtag and Milkman|prev]] | [[RPGs/Heartland Justice|all]] | [[CogX|next]]
 # **parents and children** 
 *Masks: Heartland Justice*, 2024-10-17 
 ## legacy

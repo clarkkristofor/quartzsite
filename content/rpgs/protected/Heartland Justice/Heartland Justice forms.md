@@ -7,11 +7,11 @@ Campaign:
 Title: Heartland Justice!
 prev: "[[X]]"
 next: "[[Heartwarming Disaster]]"
-up: "[[rpgs/Heartland Justice]]"
+up: "[[RPGs/Heartland Justice]]"
 dg-publish: "true"
 tags:
 ---
-prev: [[X]] | [[rpgs/Heartland Justice]] | next: [[Heartwarming Disaster]]
+prev: [[X]] | [[RPGs/Heartland Justice]] | next: [[Heartwarming Disaster]]
 ## **3/28/24: Heartland Justice!**
 
 ### AEGIS recognition ceremony

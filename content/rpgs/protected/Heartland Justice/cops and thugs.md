@@ -5,7 +5,7 @@ Game: Masks
 GM: Clark
 Campaign:
   - Heartland Justice
-up: "[[rpgs/protected/Heartland Justice/Heartland Justice|all]]"
+up: "[[RPGs/protected/Heartland Justice/Heartland Justice|all]]"
 same: ""
 down: ""
 next: "[[timeblink|next]]"
@@ -13,7 +13,7 @@ prev: "[[Rayburn|prev]]"
 dg-publish: "true"
 tags:
 ---
-[[Rayburn|prev]] | [[rpgs/protected/Heartland Justice/Heartland Justice|all]] | [[timeblink|next]]
+[[Rayburn|prev]] | [[RPGs/protected/Heartland Justice/Heartland Justice|all]] | [[timeblink|next]]
 # cops and thugs
 *Masks: Heartland Justice*, 2025-03-06
 

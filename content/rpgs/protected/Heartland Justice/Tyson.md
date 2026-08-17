@@ -5,7 +5,7 @@ Date:
 Game: Masks
 Campaign:
   - Heartland Justice
-up: "[[rpgs/Heartland Justice]]"
+up: "[[RPGs/Heartland Justice]]"
 same: ""
 down: ""
 next: ""

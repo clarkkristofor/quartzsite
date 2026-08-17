@@ -7,7 +7,7 @@ tags:
 *from the files of Nadine Bass, AEGIS HR director*
 
 [[Blink Lightning]] | [[the Glint]] | [[el Luchador]] | [[Clarke the Bear]] | [[Eagle Eye]]
-*[[rpgs/protected/Heartland Justice/Heartland Justice#Playbooks|playbooks summary]]* | *[[rpgs/Heartland Justice|Session Notes]]* | *[[Heartland Justice Factions and NPCs|Factions & NPCs]]*
+*[[RPGs/protected/Heartland Justice/Heartland Justice#Playbooks|playbooks summary]]* | *[[RPGs/Heartland Justice|Session Notes]]* | *[[Heartland Justice Factions and NPCs|Factions & NPCs]]*
 
 ---
 ![[Blink Lightning#Blink Lightning]]

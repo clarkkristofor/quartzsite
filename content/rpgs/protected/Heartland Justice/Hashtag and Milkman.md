@@ -6,11 +6,11 @@ Campaign:
   - Heartland Justice
 prev: "[[Playing Politics and also maybe God|prev]]"
 next: "[[parents and children]]"
-up: "[[rpgs/Heartland Justice|all]]"
+up: "[[RPGs/Heartland Justice|all]]"
 dg-publish: "true"
 tags:
 ---
-prev: [[Playing Politics and also maybe God]] | [[rpgs/Heartland Justice|all]] | next: [[parents and children]]
+prev: [[Playing Politics and also maybe God]] | [[RPGs/Heartland Justice|all]] | next: [[parents and children]]
 ## **2024-07-25: Hashtag and Milkman**
 
 ### seminar on "Nemeses"

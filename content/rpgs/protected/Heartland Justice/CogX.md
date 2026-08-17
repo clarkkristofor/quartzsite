@@ -4,7 +4,7 @@ Date: 2024-10-24
 Game: Masks
 Campaign:
   - Heartland Justice
-up: "[[rpgs/Heartland Justice|all]]"
+up: "[[RPGs/Heartland Justice|all]]"
 same: ""
 down: ""
 next: "[[Rock ’n’ Roll]]"
@@ -12,12 +12,12 @@ prev: "[[parents and children|prev]]"
 dg-publish: "true"
 tags:
 ---
-[[parents and children|prev]] | [[rpgs/Heartland Justice|all]] | [[Rock ’n’ Roll|next]]
+[[parents and children|prev]] | [[RPGs/Heartland Justice|all]] | [[Rock ’n’ Roll|next]]
 
 # CogX 
 *Masks: Heartland Justice*, 2024-10-24
 ## ticking clock
-AEGIS HQ was swirling with activity. The Rajesh incident, of course, stirred the hive. But even more, tomorrow [[Playing Politics and also maybe God#Abed in the River|Operation Rock-'n'-Roll]] would launch. [[rpgs/protected/Heartland Justice/Heartland Justice]]--poster children of AEGIS's "you'll be safe even with almost all of the [[Exemplars]] gone" PR campaign since they saved the mayor--were to be featured at the launch ceremony.
+AEGIS HQ was swirling with activity. The Rajesh incident, of course, stirred the hive. But even more, tomorrow [[Playing Politics and also maybe God#Abed in the River|Operation Rock-'n'-Roll]] would launch. [[RPGs/protected/Heartland Justice/Heartland Justice]]--poster children of AEGIS's "you'll be safe even with almost all of the [[Exemplars]] gone" PR campaign since they saved the mayor--were to be featured at the launch ceremony.
 
 In the meantime, looking for help cracking their [[parents and children#computer thieves|stolen computers]], [[Blink Lightning]], [[el Luchador]], and [[the Glint]] found [[Void]] in [[Heartland Justice Factions and NPCs#AEGIS|AEGIS]] HQ. They thought his ooze interface could help.
 ## ooze pool

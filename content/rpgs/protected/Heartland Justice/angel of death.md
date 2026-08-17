@@ -5,7 +5,7 @@ Game: Masks
 GM: Clark
 Campaign:
   - Heartland Justice
-up: "[[rpgs/Heartland Justice|all]]"
+up: "[[RPGs/Heartland Justice|all]]"
 same:
 down: ""
 next: "[[ |next]]"
@@ -13,7 +13,7 @@ prev: "[[kissing|prev]]"
 dg-publish: "true"
 tags:
 ---
-[[kissing|prev]] | [[rpgs/Heartland Justice|all]] | [[Rayburn|next]]
+[[kissing|prev]] | [[RPGs/Heartland Justice|all]] | [[Rayburn|next]]
 # angel of death
 *Masks: Heartland Justice*, 2025-02-20
 

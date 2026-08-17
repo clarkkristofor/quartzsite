@@ -3,7 +3,7 @@ publish: true
 dg-publish: "true"
 tags:
 ---
-[[rpgs/protected/Heartland Justice/Heartland Justice]]: [[Blink Lightning]] | [[the Glint]] | [[el Luchador]] | [[Clarke the Bear]] | [[Eagle Eye]]
+[[RPGs/protected/Heartland Justice/Heartland Justice]]: [[Blink Lightning]] | [[the Glint]] | [[el Luchador]] | [[Clarke the Bear]] | [[Eagle Eye]]
 ## Clarke the Bear
 *Real name:* Addison
 *Age*: 18

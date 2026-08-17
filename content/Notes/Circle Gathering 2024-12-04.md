@@ -21,7 +21,7 @@ It felt integrating. Many people I want to be praying for but don't stop and int
 
 I prayed hardest for Donald Trump. Let him know You. Guide him.
 
-I learned I'm a seasoned pray-er. It reaffirmed--especially the introduction--what I've been sensing. This invitation to SLOW DOWN. Become more Self-led, in [[Introduction to Internal Family Systems]] language.
+I learned I'm a seasoned pray-er. It reaffirmed--especially the introduction--what I've been sensing. This invitation to SLOW DOWN. Become more Self-led, in [[Notes/media log/Introduction to Internal Family Systems]] language.
 
 I also learned I'm very sleepy. And kinda hungry.
 

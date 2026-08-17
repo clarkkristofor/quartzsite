@@ -5,7 +5,7 @@ Game: Masks
 GM: Clark
 Campaign:
   - Heartland Justice
-up: "[[rpgs/protected/Heartland Justice/Heartland Justice|all]]"
+up: "[[RPGs/protected/Heartland Justice/Heartland Justice|all]]"
 same: ""
 down: ""
 next: "[[next masks|next]]"
@@ -13,7 +13,7 @@ prev: "[[X ambush|prev]]"
 dg-publish: "true"
 tags:
 ---
-[[X ambush|prev]] | [[rpgs/protected/Heartland Justice/Heartland Justice|all]] | [[angel of death|next]]
+[[X ambush|prev]] | [[RPGs/protected/Heartland Justice/Heartland Justice|all]] | [[angel of death|next]]
 # kissing
 *Masks: Heartland Justice*, 2025-01-30
 ## opening panels
