@@ -423,3 +423,27 @@ NOTE LIST (Music / Blog) — icon-row list layout
     white-space: nowrap;
   }
 }
+
+.note-list .card-metadata .card-desc {
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+/* Truncate long auto-generated descriptions in Music/Blog list cards */
+.note-list .card-metadata .card-desc {
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+/* Suppress the stock folder-page listing on Music/Blog folder pages —
+   the custom NoteList "archive" instances replace them */
+body[data-slug="music/index"] .page-listing,
+body[data-slug="blog/index"] .page-listing {
+  display: none !important;
+}
