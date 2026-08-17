@@ -13,7 +13,7 @@ views:
         direction: DESC
     image: note.image
     cardSize: 180
-    imageAspectRatio: 1.5
+    imageAspectRatio: 0.65
   - type: table
     name: List
     groupBy:

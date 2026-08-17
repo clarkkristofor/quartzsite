@@ -4,6 +4,7 @@ Game: 13th Age, 1e
 date_finished: 2024-11-21
 image: https://upload.wikimedia.org/wikipedia/en/1/10/13th_Age%2C_role-playing_game.jpg
 GM: Matt
+date: 2024-04-11
 ---
 # ***Matt's Campaign***
 [[Raxus Blackheart]]
