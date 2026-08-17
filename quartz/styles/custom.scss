@@ -457,3 +457,7 @@ body[data-slug="blog/index"] .page-listing {
     grid-template-columns: 1fr; // stack on mobile
   }
 }
+
+.note-list .meta-separator {
+  display: none;
+}
