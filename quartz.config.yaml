@@ -302,19 +302,9 @@ plugins:
 
   - source:
       repo: https://github.com/clarkkristofor/quartz-components.git
-      name: NoteListMusicHome
+      name: HomeArchiveRow
     enabled: true
-    layout:
-      position: afterBody
-      priority: 25
-
-  - source:
-      repo: https://github.com/clarkkristofor/quartz-components.git
-      name: NoteListBlogHome
-    enabled: true
-    layout:
-      position: afterBody
-      priority: 25
+    layout: { position: afterBody, priority: 25 }
 
   - source:
       repo: https://github.com/clarkkristofor/quartz-components.git

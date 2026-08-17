@@ -119,8 +119,8 @@
     "quartz-components": {
       "source": "github:clarkkristofor/quartz-components",
       "resolved": "https://github.com/clarkkristofor/quartz-components.git",
-      "commit": "287f2468d429076d46ab1d523b7fad0c4a23924d",
-      "installedAt": "2026-08-17T07:18:59.440Z"
+      "commit": "0b76f98f76fc5876dcf651b578c486cd9c4aceea",
+      "installedAt": "2026-08-17T11:10:01.546Z"
     },
     "rpg-grid": {
       "source": {
