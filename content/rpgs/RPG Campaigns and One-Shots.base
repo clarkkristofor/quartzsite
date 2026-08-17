@@ -1,6 +1,6 @@
 filters:
   and:
-    - file.folder == "RPGs"
+    - file.folder == "rpgs"
     - '!file.name.contains("campaign")'
     - file.name != "index"
 views:

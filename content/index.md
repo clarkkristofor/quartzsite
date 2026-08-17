@@ -13,7 +13,7 @@ title: super clark
     imageProperty: image
 filters:
   and:
-    - file.folder == "RPGs"
+    - file.folder == "rpgs"
     - '!file.fullname.contains("campaigns")'
     - date_finished.isEmpty()
     - file.name != "index"
@@ -23,7 +23,7 @@ views:
     order:
       - file.name
     sort:
-      - property: file.ctime
+      - property: file.mtime
         direction: DESC
     image: note.image
 

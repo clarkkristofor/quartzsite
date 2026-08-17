@@ -8,3 +8,8 @@ I want to thank you for your prayers. I feel tremendously grateful, because the 
 Pastor Stephanie Wood will cover Zion emergencies now through Sunday: 402-659-3427
 
 I doubt it, given the officer's vibe. I did hear that driver was going 35 in a 30 but again I've seen nothing official. There were two oncoming lanes of traffic. The one nearest me was a turning lane. It was backed up with cars. I passed through that turning lane without stopping to check the other lane, which appeared clear as I approached but obviously was not.  
+
+PT exercises
+Thumb arms length, stationary, move chin up and down eyes focused on thumb. Until double vision first comes on, then back
+
+Pen/Popsicle stick closer and father away 
