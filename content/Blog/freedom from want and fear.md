@@ -1,6 +1,7 @@
 ---
 publish: true
 date: 2026-04-17
+description: not only freedom of speech and worship
 ---
 ## *not only freedom of speech and worship*
 

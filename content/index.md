@@ -22,10 +22,10 @@ views:
     name: View
     order:
       - file.name
+      - Game
     sort:
       - property: file.mtime
         direction: DESC
     image: note.image
-    # imageAspectRatio: 1.5
 
 ```
