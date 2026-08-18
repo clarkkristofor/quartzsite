@@ -342,12 +342,33 @@ NOTE LIST (Music / Blog) & POPULAR NOTES (backlink-ranked list)
 — shared icon-row list layout
 ========================================================================== */
 
-.note-list .simple-list,
-.popular-notes .simple-list {
+.note-list .simple-list {
   display: flex;
   flex-direction: column;
   gap: 0.75rem;
   margin: 1rem 0 2rem;
+}
+
+.popular-notes .simple-list {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+  margin: 1rem 0 2rem;
+}
+
+.popular-notes .grid-card.list-item-card {
+  flex: 1 1 180px;
+  min-width: 0;
+}
+
+@media (max-width: 768px) {
+  .popular-notes .simple-list {
+    flex-direction: column;
+  }
+  .popular-notes .grid-card.list-item-card {
+    flex: 1 1 auto;
+  }
 }
 
 // RPG, music, blog, and popular-notes cards - including on hover
