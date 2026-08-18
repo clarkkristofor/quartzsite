@@ -2,6 +2,7 @@
 publish: true
 title: Silos
 date: 2026-03-08
+description: by Reiner Knizia
 ---
 ## *by Reiner Knizia*
 

@@ -1,6 +1,7 @@
 ---
 publish: true
 date: 2026-04-11
+description: about being human, not the science
 ---
 ## *about being human, not the science*
 

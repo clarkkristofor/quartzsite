@@ -2,6 +2,7 @@
 publish: true
 title: Ahoy!
 date: 2026-03-07
+description: from Leder Games
 ---
 ## *Leder Games*
 

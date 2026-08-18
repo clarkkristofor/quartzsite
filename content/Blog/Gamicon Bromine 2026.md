@@ -2,6 +2,7 @@
 publish: true
 title: Gamicon Bromine
 date: 2026-03-08
+description: the Iowa City games convention
 ---
 ## *the Iowa City [[game con|games convention]], 2026*
 

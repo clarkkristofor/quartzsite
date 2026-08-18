@@ -1,6 +1,7 @@
 ---
 publish: true
 date: 2026-04-10
+description: the mission's best images
 ---
 ## *the mission's best images*
 

@@ -2,6 +2,7 @@
 publish: true
 title: Pieces
 date: 2026-03-21
+description: a board games bar & restaurant in the shadow of Budweiser
 ---
 ## *a board games bar & restaurant in the shadow of Budweiser*
 
