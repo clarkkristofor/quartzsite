@@ -16,7 +16,7 @@ An ordered "story deck" of cards paces the plot. A Ouija board with alien symbol
 
 I don't think I'll add it to my collection, but I'm really glad I played. I wonder how the character archetypes and relationships (both on cards) could be integrated into other genres, like fantasy.
 
-![image](https://thornygames.com/cdn/shop/files/xenolanguage_cover_1_e5c36610-64cc-4ccc-8e5d-370940e7872c_1024x1024@2x.jpg?v=1703438926)[[Xenolanguage]]
+![image](https://thornygames.com/cdn/shop/files/xenolanguage_cover_1_e5c36610-64cc-4ccc-8e5d-370940e7872c_1024x1024@2x.jpg?v=1703438926)
 
 includes 5 archetypes and 7 relationships
 
