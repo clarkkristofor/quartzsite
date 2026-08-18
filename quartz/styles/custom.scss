@@ -269,11 +269,12 @@ h1 a.internal[role="anchor"] {
 
 a.grid-card {
   background-color: var(--light);
-  transition: transform 0.15s ease, box-shadow 0.15s ease;
+  //transition: transform 0.15s ease, box-shadow 0.15s ease;
 
   &:hover {
     transform: translateY(-2px);
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+    //box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+    background-color: var(--tertiary);
   }
 }
 
@@ -324,6 +325,16 @@ body[data-slug="books/books-read.base"] {
     content: "View"; // →
     font-size: 1rem;
   }
+}
+
+.bases-card-row {
+  color: var(--gray);
+  font-weight: 400;
+  font-size: .8rem;
+}
+
+.bases-card-label {
+  display: none;
 }
 
 /* ==========================================================================
