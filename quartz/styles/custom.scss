@@ -255,7 +255,6 @@ h1 a.internal[role="anchor"] {
   border: none !important;
   box-shadow: none;
   background-color: var(--light);
-  //padding: 1rem;
   transition: transform 0.15s ease, box-shadow 0.15s ease;
 
   &:hover {
@@ -270,7 +269,6 @@ h1 a.internal[role="anchor"] {
 
 a.grid-card {
   background-color: var(--light);
-  padding: 1rem;
   transition: transform 0.15s ease, box-shadow 0.15s ease;
 
   &:hover {
