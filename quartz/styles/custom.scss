@@ -247,6 +247,12 @@ h1 a.internal[role="anchor"] {
   color: transparent;
 }
 
+/* Scope to the folder-page title specifically */
+body[data-slug="garden/index"] .article-title,
+body[data-slug="garden/index"] h1 {
+  text-transform: capitalize;
+}
+
 /* ==========================================================================
    CARDS & BASES
    ========================================================================== */
