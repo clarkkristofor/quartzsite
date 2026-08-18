@@ -6,6 +6,7 @@ image:
 date: 2026-07-31
 ---
 ![[swords beyond - logo - online rules.png]]
+
 **a fast & loose, highly improvisational fantasy rpg**
 
 hack of *[Bump in the Dark, revised edition](https://jexjthomas.itch.io/bump-in-the-dark),* by Jex Thomas 
