@@ -398,6 +398,9 @@ NOTE LIST (Music / Blog) & POPULAR NOTES (backlink-ranked list)
 
 .note-list .card-metadata,
 .popular-notes .card-metadata {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem;
   font-size: 0.85rem;
   color: var(--gray);
   line-height: 1.4;
