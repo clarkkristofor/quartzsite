@@ -17,4 +17,5 @@ isbn10: 345336283
 isbn13: 9780345336286
 localCoverImage: Files/BookCovers/Foundation and Empire - Isaac Asimov.jpg
 date_finished: 1992-08-29
+publish: true
 ---

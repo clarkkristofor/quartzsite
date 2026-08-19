@@ -17,4 +17,5 @@ isbn10: 575073357
 isbn13: 9780575073357
 localCoverImage: Files/BookCovers/The Man in the High Castle - Philip K Dick.jpg
 date_finished: 2000-07-12
+publish: true
 ---

@@ -16,5 +16,6 @@ previewLink: http://books.google.com/books?id=Qx1xDwAAQBAJ&printsec=frontcover&d
 isbn13: 9780441014101
 isbn10: 441014100
 localCoverImage: Files/BookCovers/Starship Troopers - Robert A Heinlein.jpg
-date_finished: 1995-04-18
+date_finished: 1996-04-18
+publish: true
 ---

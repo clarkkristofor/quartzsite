@@ -17,4 +17,5 @@ isbn13: 9780765388988
 isbn10: 765388987
 localCoverImage: Files/BookCovers/The Consuming Fire - John Scalzi.jpg
 date_finished: 2018-11-23
+publish: true
 ---

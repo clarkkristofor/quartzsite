@@ -17,4 +17,5 @@ isbn10: 808520873
 isbn13: 9780808520870
 localCoverImage: Files/BookCovers/Stranger in a Strange Land - Robert Anson Heinlein.jpg
 date_finished: 1996-10-19
+publish: true
 ---

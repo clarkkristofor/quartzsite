@@ -17,4 +17,5 @@ isbn10: 881030333
 isbn13: 9780881030334
 localCoverImage: Files/BookCovers/The Martian Chronicles - Ray Bradbury.jpg
 date_finished: 1993-04-12
+publish: true
 ---

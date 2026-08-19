@@ -16,4 +16,5 @@ isbn10: 857897829
 isbn13: 9780857897824
 date_finished: 2016-06-26
 publishDate: 2016-05-16
+publish: true
 ---

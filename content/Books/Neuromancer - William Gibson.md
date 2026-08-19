@@ -16,4 +16,5 @@ isbn10: 7119585
 isbn13: 9780007119585
 localCoverImage: Files/BookCovers/Neuromancer - William Gibson.jpg
 date_finished: 1998-08-08
+publish: true
 ---

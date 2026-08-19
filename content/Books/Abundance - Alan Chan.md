@@ -16,4 +16,5 @@ previewLink: http://books.google.com/books?id=t2zc0AEACAAJ&dq=Abundance+chen+sci
 isbn13: 9798990940000
 localCoverImage: Files/BookCovers/Abundance - Alan Chan.jpg
 date_finished: 2024-10-17
+publish: true
 ---

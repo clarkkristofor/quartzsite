@@ -17,4 +17,5 @@ isbn13: 9780345508553
 isbn10: 345508556
 localCoverImage: Files/BookCovers/Do Androids Dream of Electric Sheep - Philip K Dick.jpg
 date_finished: 2000-03-19
+publish: true
 ---

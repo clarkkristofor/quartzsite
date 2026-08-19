@@ -17,4 +17,5 @@ isbn13: 9780553565072
 isbn10: 553565079
 localCoverImage: Files/BookCovers/Forward the Foundation - Isaac Asimov.jpg
 date_finished: 1994-04-04
+publish: true
 ---

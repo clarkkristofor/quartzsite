@@ -19,12 +19,14 @@ views:
       - title
       - author
       - date_finished
+      - publish
       - link
     sort:
       - property: date_finished
         direction: DESC
     columnSize:
-      formula.redirect: 247
+      note.title: 260
+      note.author: 196
   - type: cards
     name: Covers
     filters:

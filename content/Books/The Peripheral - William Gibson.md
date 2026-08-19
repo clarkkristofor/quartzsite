@@ -17,4 +17,5 @@ isbn13: 9780698170704
 isbn10: 698170709
 localCoverImage: Files/BookCovers/The Peripheral - William Gibson.jpg
 date_finished: 2015-02-09
+publish: true
 ---

@@ -17,4 +17,5 @@ isbn13: 9780765388896
 isbn10: 765388898
 localCoverImage: Files/BookCovers/The Collapsing Empire - John Scalzi.jpg
 date_finished: 2018-01-01
+publish: true
 ---

@@ -17,4 +17,5 @@ isbn13: 9780765389176
 isbn10: 765389177
 localCoverImage: Files/BookCovers/The Last Emperox - John Scalzi.jpg
 date_finished: 2020-05-19
+publish: true
 ---

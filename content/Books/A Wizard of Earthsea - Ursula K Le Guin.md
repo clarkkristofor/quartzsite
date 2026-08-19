@@ -17,4 +17,5 @@ isbn10: 547851391
 isbn13: 9780547851396
 localCoverImage: Files/BookCovers/A Wizard of Earthsea - Ursula K Le Guin.jpg
 date_finished: 1999-06-09
+publish: true
 ---

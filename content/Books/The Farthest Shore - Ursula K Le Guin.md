@@ -17,4 +17,5 @@ isbn13: 9781473208476
 isbn10: 1473208475
 localCoverImage: Files/BookCovers/The Farthest Shore - Ursula K Le Guin.jpg
 date_finished: 2000-07-19
+publish: true
 ---

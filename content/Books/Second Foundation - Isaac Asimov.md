@@ -17,4 +17,5 @@ isbn13: 9780553900361
 isbn10: 553900366
 localCoverImage: Files/BookCovers/Second Foundation - Isaac Asimov.jpg
 date_finished: 1992-11-09
+publish: true
 ---

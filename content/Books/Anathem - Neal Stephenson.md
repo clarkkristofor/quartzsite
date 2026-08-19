@@ -17,4 +17,5 @@ isbn13: 9780061474101
 isbn10: 006147410X
 localCoverImage: Files/BookCovers/Anathem - Neal Stephenson.jpg
 date_finished: 2010-12-12
+publish: true
 ---

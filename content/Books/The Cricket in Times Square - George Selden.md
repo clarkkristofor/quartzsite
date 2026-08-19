@@ -17,4 +17,5 @@ isbn13: 9780374391072
 isbn10: 374391076
 localCoverImage: Files/BookCovers/The Cricket in Times Square - George Selden.jpg
 date_finished: 1988-09-25
+publish: true
 ---

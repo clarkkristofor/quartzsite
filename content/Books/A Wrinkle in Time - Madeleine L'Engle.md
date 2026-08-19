@@ -17,4 +17,5 @@ isbn13: 9781429915649
 isbn10: 1429915641
 localCoverImage: Files/BookCovers/A Wrinkle in Time - Madeleine L'Engle.jpg
 date_finished: 1991-10-02
+publish: true
 ---

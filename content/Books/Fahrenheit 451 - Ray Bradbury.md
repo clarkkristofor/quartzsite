@@ -17,4 +17,5 @@ isbn13: 9781451673319
 isbn10: 1451673310
 localCoverImage: Files/BookCovers/Fahrenheit 451 - Ray Bradbury.jpg
 date_finished: 1994-01-15
+publish: true
 ---

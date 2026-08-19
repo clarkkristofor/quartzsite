@@ -17,4 +17,5 @@ isbn10: 63382938
 isbn13: 9780063382930
 localCoverImage: Files/BookCovers/Dispossessed the [50th Anniversary Edition] - Ursula K Le Guin.jpg
 date_finished: 2001-06-07
+publish: true
 ---

@@ -17,4 +17,5 @@ isbn10: 057507681X
 isbn13: 9780575076815
 localCoverImage: Files/BookCovers/A Scanner Darkly - Philip K Dick.jpg
 date_finished: 2002-04-08
+publish: true
 ---

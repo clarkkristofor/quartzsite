@@ -17,4 +17,5 @@ isbn13: 9781250791610
 isbn10: 1250791618
 localCoverImage: Files/BookCovers/The Wizard Knight - Gene Wolfe.jpg
 date_finished: 2019-07-20
+publish: true
 ---

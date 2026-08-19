@@ -17,4 +17,5 @@ isbn13: 9781668017401
 isbn10: 1668017407
 localCoverImage: Files/BookCovers/The Lathe Of Heaven - Ursula K Le Guin.jpg
 date_finished: 2001-08-15
+publish: true
 ---

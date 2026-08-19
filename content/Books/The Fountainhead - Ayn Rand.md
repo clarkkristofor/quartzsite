@@ -16,4 +16,5 @@ previewLink: http://books.google.com/books?id=Go9kAAAAMAAJ&q=fountainhead&dq=fou
 isbn13: UOM:39015054079721
 localCoverImage: Files/BookCovers/The Fountainhead - Ayn Rand.jpg
 date_finished: 2000-10-17
+publish: true
 ---

@@ -17,4 +17,5 @@ isbn10: 679736646
 isbn13: 9780679736646
 localCoverImage: Files/BookCovers/Ubik - Philip K Dick.jpg
 date_finished: 2004-10-04
+publish: true
 ---

@@ -17,4 +17,5 @@ isbn13: 9780689316845
 isbn10: 689316844
 localCoverImage: Files/BookCovers/The Tombs of Atuan - Ursula K Le Guin.jpg
 date_finished: 2000-02-27
+publish: true
 ---

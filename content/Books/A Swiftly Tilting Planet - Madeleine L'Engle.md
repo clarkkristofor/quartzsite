@@ -17,4 +17,5 @@ isbn10: 1439518173
 isbn13: 9781439518175
 localCoverImage: Files/BookCovers/A Swiftly Tilting Planet - Madeleine L'Engle.jpg
 date_finished: 1991-12-12
+publish: true
 ---

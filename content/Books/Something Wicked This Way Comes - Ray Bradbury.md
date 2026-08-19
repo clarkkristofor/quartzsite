@@ -16,4 +16,5 @@ previewLink: http://books.google.com/books?id=AIAGAQAAIAAJ&dq=something+wicked+t
 isbn13: STANFORD:36105004888744
 localCoverImage: Files/BookCovers/Something Wicked This Way Comes - Ray Bradbury.jpg
 date_finished: 1994-03-02
+publish: true
 ---

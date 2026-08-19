@@ -17,4 +17,5 @@ isbn13: 9781466814462
 isbn10: 1466814462
 localCoverImage: Files/BookCovers/The Arm of the Starfish - Madeleine L'Engle.jpg
 date_finished: 1992-01-31
+publish: true
 ---

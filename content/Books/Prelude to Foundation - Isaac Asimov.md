@@ -17,4 +17,5 @@ isbn13: 9780553278392
 isbn10: 553278398
 localCoverImage: Files/BookCovers/Prelude to Foundation - Isaac Asimov.jpg
 date_finished: 1993-12-18
+publish: true
 ---

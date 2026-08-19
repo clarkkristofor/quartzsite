@@ -17,4 +17,5 @@ isbn13: 9780062101341
 isbn10: 006210134X
 localCoverImage: Files/BookCovers/Reamde - Neal Stephenson.jpg
 date_finished: 2011-11-11
+publish: true
 ---

@@ -16,4 +16,5 @@ previewLink: http://books.google.com/books?id=EUPyAAAAMAAJ&q=foundation+asimov&d
 isbn13: PSU:000059688501
 localCoverImage: Files/BookCovers/Foundation - Isaac Asimov.jpg
 date_finished: 1992-06-27
+publish: true
 ---

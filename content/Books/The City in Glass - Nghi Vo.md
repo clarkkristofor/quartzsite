@@ -17,4 +17,5 @@ isbn13: 9781250348289
 isbn10: 1250348285
 localCoverImage: Files/BookCovers/The City in Glass - Nghi Vo.jpg
 date_finished: 2026-01-23
+publish: true
 ---

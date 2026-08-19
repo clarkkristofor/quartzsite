@@ -17,4 +17,5 @@ isbn10: 1857236645
 isbn13: 9781857236644
 localCoverImage: Files/BookCovers/2001 - Arthur C Clarke Stanley Kubrick.jpg
 date_finished: 1995-07-13
+publish: true
 ---

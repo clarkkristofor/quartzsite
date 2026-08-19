@@ -17,4 +17,5 @@ isbn10: 055327449X
 isbn13: 9780553274493
 localCoverImage: Files/BookCovers/The Illustrated Man - Ray Bradbury.jpg
 date_finished: 1993-08-01
+publish: true
 ---

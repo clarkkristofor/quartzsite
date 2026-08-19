@@ -17,4 +17,5 @@ isbn13: 9781429915786
 isbn10: 1429915781
 localCoverImage: Files/BookCovers/A Wind in the Door - Madeleine L'Engle.jpg
 date_finished: 1991-11-17
+publish: true
 ---
