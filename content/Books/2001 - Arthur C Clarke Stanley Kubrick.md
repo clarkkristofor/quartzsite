@@ -1,5 +1,5 @@
 ---
-title: 2001
+title: "2001: A Space Odyssey"
 subtitle: A Space Odyssey
 author: Arthur C. Clarke, Stanley Kubrick
 authors: Arthur C. Clarke,Stanley Kubrick
