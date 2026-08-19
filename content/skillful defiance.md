@@ -1,8 +1,3 @@
----
-tags:
-  - blog
-  - advice
----
 - Does this align with my goals and values?
 - What is the cost of saying yes? 
 - What is the benefit of saying no?
