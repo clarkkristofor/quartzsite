@@ -1,0 +1,10 @@
+filters:
+  and:
+    - file.folder == "RPGs/protected/sb/playtest beta oracle deck"
+    - '!file.name.contains("oracle")'
+views:
+  - type: table
+    name: Table
+    order:
+      - file.name
+      - card type

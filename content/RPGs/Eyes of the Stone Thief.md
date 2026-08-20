@@ -42,3 +42,10 @@ Out to capture monster and win Stathron’s bounty - If the adventurers went to 
 ## F. the monster’s current owner
 Archmage
 ## X. PHASE SPIDER CRB 246
+
+## **the Thief**
+- aka, the Condemned, the Malcontent
+- *themes*: accusation, prejudice, material loss, vulnerability
+- *symbol*: an empty noose hanging from a gallows, surrounded by a crowd, laughing and pointing at the one who is led to it, among the crowd are many prominent coin purses and valuables, while a pickpocket sneaks among them
+- *description*: What the people wish for the March Lord and his demons. Also, what the people you protect would do to you, if they didn't need your protection so desperately. Who ravenkin are to the people of Lost Plenty.
+- *divination*: The Thief appears to many as a suddenly-realized absence or the horror of losing what they counted on most just when they need it. The Thief can also warn of a threat to one's reputation, whether because of false bias or true revelation. In some cases, it might mean there is urgent need for honesty and forthrightness, action to preempt accusation or misunderstanding, or careful safeguarding of what matters most. In others, it represents an opportunity for making amends before it's too late. Or for using others' small-mindedness or prejudices against them.
