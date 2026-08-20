@@ -1,6 +1,6 @@
 filters:
   and:
-    - file.folder == "books"
+    - file.folder == "Books"
     - '!file.name.contains("books read")'
     - "!date_finished.isEmpty()"
 formulas:
