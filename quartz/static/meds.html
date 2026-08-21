@@ -1,0 +1,670 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="robots" content="noindex, nofollow">
+<meta name="theme-color" content="#3D6B5C">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-title" content="Meds">
+<meta name="apple-mobile-web-app-status-bar-style" content="default">
+<title>Medication Checklist</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:wght@500;600&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --bg: #F2F6F3;
+    --card: #FFFFFF;
+    --ink: #1F2B25;
+    --ink-soft: #5C6B62;
+    --line: #DCE4DE;
+    --pine: #3D6B5C;
+    --pine-light: #E4EFEA;
+    --slot-empty: #F7F9F6;
+    --slot-border: #D3DED6;
+  }
+  html[data-theme="dark"]{
+    --bg: #141B17;
+    --card: #1D2622;
+    --ink: #E9EFEB;
+    --ink-soft: #93A69B;
+    --line: #2C3A34;
+    --pine: #6FB396;
+    --pine-light: #223530;
+    --slot-empty: #1A2320;
+    --slot-border: #33443C;
+  }
+  *{box-sizing:border-box;}
+  body{
+    margin:0;
+    background:var(--bg);
+    color:var(--ink);
+    font-family:'Inter',system-ui,sans-serif;
+    padding:32px 16px 64px;
+    transition:background .2s ease, color .2s ease;
+  }
+  .wrap{max-width:760px;margin:0 auto;}
+  header{margin-bottom:28px;}
+  .header-row{display:flex;align-items:flex-start;justify-content:space-between;gap:12px;}
+  @media (max-width:420px){
+    .theme-toggle{padding:6px 10px;font-size:11.5px;}
+    h1{font-size:25px;}
+  }
+  .theme-toggle{
+    flex:none;
+    display:flex;align-items:center;gap:6px;
+    background:var(--card);
+    border:1px solid var(--line);
+    color:var(--ink-soft);
+    font-family:'Inter',sans-serif;
+    font-size:12.5px;
+    padding:7px 12px;
+    border-radius:20px;
+    cursor:pointer;
+    -webkit-appearance:none;appearance:none;
+  }
+  .theme-toggle:hover{background:var(--pine-light);color:var(--pine);}
+  h1{
+    font-family:'Fraunces',serif;
+    font-weight:600;
+    font-size:30px;
+    margin:0 0 6px;
+    letter-spacing:-0.01em;
+  }
+  .sub{color:var(--ink-soft);font-size:14px;margin:0;}
+  .weeknav{
+    display:flex;align-items:center;justify-content:space-between;
+    background:var(--card);border:1px solid var(--line);border-radius:12px;
+    padding:10px 14px;margin:20px 0 24px;
+  }
+  .weeknav button{
+    border:1px solid var(--line);background:#fff;border-radius:8px;
+    width:32px;height:32px;cursor:pointer;font-size:16px;color:var(--pine);
+    display:flex;align-items:center;justify-content:center;
+  }
+  .weeknav button:hover{background:var(--pine-light);}
+  .weeknav .range{font-weight:500;font-size:14px;}
+  .day{
+    background:var(--card);
+    border:1px solid var(--line);
+    border-radius:14px;
+    padding:18px 20px 8px;
+    margin-bottom:16px;
+  }
+  .day-head{
+    display:flex;align-items:baseline;gap:10px;
+    margin-bottom:14px;
+    padding-bottom:12px;
+    border-bottom:1px solid var(--line);
+  }
+  .day-weekday{
+    font-family:'Fraunces',serif;font-weight:600;font-size:18px;
+  }
+  .day-date{color:var(--ink-soft);font-size:13px;}
+  .day.is-today .day-weekday{color:var(--pine);}
+  .day.is-today{border-color:var(--pine);border-width:1.5px;}
+  .med-row{
+    padding:10px 0 14px;
+    border-bottom:1px solid #EEF2EF;
+  }
+  .med-row:last-child{border-bottom:none;}
+  .med-name-row{
+    display:flex;align-items:center;justify-content:space-between;
+    margin-bottom:8px;
+  }
+  .med-name{font-weight:500;font-size:14.5px;}
+  .med-instr{color:var(--ink-soft);font-size:12px;margin-top:1px;}
+  .med-count{
+    font-size:11.5px;color:var(--ink-soft);
+    background:var(--slot-empty);border:1px solid var(--slot-border);
+    padding:2px 8px;border-radius:20px;white-space:nowrap;
+  }
+  .med-count.full{color:var(--pine);background:var(--pine-light);border-color:var(--pine);}
+  .slots{display:flex;flex-wrap:wrap;gap:8px;}
+  .slot{
+    display:flex;align-items:center;gap:6px;
+    background:var(--slot-empty);
+    border:1px solid var(--slot-border);
+    border-radius:9px;
+    padding:6px 10px;
+    flex:1 1 150px;
+  }
+  .slot.checked{
+    background:var(--pine-light);
+    border-color:var(--pine);
+  }
+  .slot input[type="checkbox"]{
+    width:16px;height:16px;accent-color:var(--pine);cursor:pointer;flex:none;
+  }
+  .slot input[type="time"]{
+    border:none;background:transparent;font-size:12.5px;font-family:'Inter',sans-serif;
+    color:var(--ink);width:100%;min-width:96px;cursor:pointer;flex:1;
+  }
+  .slot input[type="time"]:disabled{color:var(--ink-soft);cursor:default;}
+  .next-due-row{
+    display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:8px;
+    margin-top:10px;
+    padding:8px 10px;
+    background:var(--slot-empty);
+    border:1px dashed var(--slot-border);
+    border-radius:9px;
+    font-size:12.5px;
+  }
+  .next-due-row.reached{background:var(--pine-light);border-style:solid;border-color:var(--pine);}
+  .next-due-text{color:var(--ink-soft);}
+  .next-due-text strong{color:var(--ink);font-weight:600;}
+  .interval-inline{color:var(--ink-soft);}
+  .interval-inline input{
+    width:34px;border:1px solid var(--slot-border);border-radius:6px;
+    font-size:12px;text-align:center;padding:2px;font-family:'Inter',sans-serif;
+  }
+  .copy-time-btn{
+    display:inline-flex;align-items:center;
+    color:var(--pine);background:#fff;text-decoration:none;font-weight:500;font-size:12.5px;
+    border:1px solid var(--pine);border-radius:20px;padding:4px 10px;
+    white-space:nowrap;cursor:pointer;font-family:'Inter',sans-serif;
+    -webkit-appearance:none;appearance:none;
+  }
+  .copy-time-btn:hover{background:var(--pine-light);}
+  .backup-row{
+    display:flex;gap:10px;margin-bottom:16px;
+  }
+  .backup-row .export-btn{margin-bottom:0;}
+  .export-btn{
+    display:block;
+    width:100%;
+    background:#fff;
+    border:1px solid var(--line);
+    color:var(--pine);
+    font-family:'Inter',sans-serif;
+    font-size:13.5px;
+    font-weight:500;
+    padding:10px 14px;
+    border-radius:10px;
+    cursor:pointer;
+    margin-bottom:16px;
+  }
+  .export-btn:hover{background:var(--pine-light);border-color:var(--pine);}
+  @media (max-width:420px){
+    .backup-row{flex-direction:column;}
+  }
+  .footer-note{
+    text-align:center;color:var(--ink-soft);font-size:12px;margin-top:20px;line-height:1.6;
+  }
+  .savebadge{
+    position:fixed;bottom:18px;left:50%;transform:translateX(-50%) translateY(20px);
+    background:var(--ink);color:#fff;font-size:12.5px;padding:8px 16px;border-radius:20px;
+    opacity:0;transition:opacity .25s ease, transform .25s ease;pointer-events:none;
+  }
+  .savebadge.show{opacity:1;transform:translateX(-50%) translateY(0);}
+  @media (max-width:480px){
+    .slots{flex-direction:column;}
+    .slot{flex:1 1 auto;justify-content:space-between;}
+    .slot input[type="time"]{width:auto;min-width:110px;text-align:right;}
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <div class="header-row">
+      <div>
+        <h1>Medication checklist</h1>
+        <p class="sub">Check each dose off as you take it and record the time. Saved automatically in this browser, on this device.</p>
+      </div>
+      <button id="themeToggle" class="theme-toggle" type="button">&#9728;&#65039; Light</button>
+    </div>
+  </header>
+
+  <div class="weeknav">
+    <button id="prevWeek" aria-label="Previous week">&#8592;</button>
+    <span class="range" id="weekRange"></span>
+    <button id="nextWeek" aria-label="Next week">&#8594;</button>
+  </div>
+
+  <div class="backup-row">
+    <button id="exportBtn" class="export-btn">Export backup (.md)</button>
+    <button id="importBtn" class="export-btn">Import backup (.md)</button>
+    <input type="file" id="importInput" accept=".md,text/markdown" style="display:none">
+  </div>
+
+  <div id="days"></div>
+
+  <p class="footer-note">Always follow your prescriber's or pharmacist's instructions.<br>This checklist is a personal tracking tool, not medical advice.<br>Data is stored only in this browser &mdash; clearing your browser data will erase it.</p>
+</div>
+
+<div class="savebadge" id="saveBadge">Saved</div>
+
+<script>
+const THEME_KEY = 'medlog-theme';
+
+function applyTheme(theme){
+  document.documentElement.setAttribute('data-theme', theme);
+  const btn = document.getElementById('themeToggle');
+  if (btn){
+    btn.innerHTML = theme === 'dark' ? '&#127769; Dark' : '&#9728;&#65039; Light';
+  }
+}
+
+function initTheme(){
+  const saved = localStorage.getItem(THEME_KEY);
+  if (saved){
+    applyTheme(saved);
+  } else {
+    const prefersDark = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
+    applyTheme(prefersDark ? 'dark' : 'light');
+  }
+}
+
+document.getElementById('themeToggle').addEventListener('click', () => {
+  const current = document.documentElement.getAttribute('data-theme') || 'light';
+  const next = current === 'dark' ? 'light' : 'dark';
+  localStorage.setItem(THEME_KEY, next);
+  applyTheme(next);
+});
+
+initTheme();
+
+const MEDS = [
+  { id: 'acetaminophen', name: 'Acetaminophen', instr: 'Max 4x daily', maxDoses: 4, defaultInterval: 6 },
+  { id: 'methocarbamol', name: 'Methocarbamol', instr: 'Max 3x daily', maxDoses: 3, defaultInterval: 8 },
+  { id: 'pantoprazole', name: 'Pantoprazole', instr: '1x daily, 30 min before breakfast', maxDoses: 1 },
+  { id: 'meloxicam', name: 'Meloxicam', instr: '1x daily, with breakfast', maxDoses: 1 },
+  { id: 'escitalopram', name: 'Escitalopram', instr: '1x daily', maxDoses: 1 }
+];
+
+const WEEKDAYS = ['Sunday','Monday','Tuesday','Wednesday','Thursday','Friday','Saturday'];
+const MONTHS = ['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec'];
+const STORAGE_PREFIX = 'medlog:';
+const INTERVAL_PREFIX = 'medlog-interval:';
+
+function getInterval(med){
+  const raw = localStorage.getItem(INTERVAL_PREFIX + med.id);
+  const n = raw ? parseFloat(raw) : med.defaultInterval;
+  return (n && n > 0) ? n : med.defaultInterval;
+}
+function setInterval_(med, hours){
+  localStorage.setItem(INTERVAL_PREFIX + med.id, String(hours));
+}
+function formatHM(h, m){
+  const period = h >= 12 ? 'PM' : 'AM';
+  let h12 = h % 12;
+  if (h12 === 0) h12 = 12;
+  return `${h12}:${String(m).padStart(2,'0')} ${period}`;
+}
+
+function dateKey(d){
+  return d.getFullYear() + '-' + String(d.getMonth()+1).padStart(2,'0') + '-' + String(d.getDate()).padStart(2,'0');
+}
+function startOfWeek(d){
+  const copy = new Date(d);
+  copy.setHours(0,0,0,0);
+  copy.setDate(copy.getDate() - copy.getDay());
+  return copy;
+}
+function sameDate(a,b){
+  return a.getFullYear()===b.getFullYear() && a.getMonth()===b.getMonth() && a.getDate()===b.getDate();
+}
+
+function defaultDoses(maxDoses){
+  return Array.from({length: maxDoses}, () => ({ checked: false, time: '' }));
+}
+
+function loadDay(key){
+  const data = {};
+  for (const med of MEDS){
+    const raw = localStorage.getItem(STORAGE_PREFIX + key + ':' + med.id);
+    try {
+      data[med.id] = raw ? JSON.parse(raw) : defaultDoses(med.maxDoses);
+    } catch (e) {
+      data[med.id] = defaultDoses(med.maxDoses);
+    }
+  }
+  return data;
+}
+
+function saveSlot(key, medId, doses){
+  try {
+    localStorage.setItem(STORAGE_PREFIX + key + ':' + medId, JSON.stringify(doses));
+    flashSaved();
+  } catch (e) {
+    console.error('Storage error', e);
+  }
+}
+
+function flashSaved(){
+  const badge = document.getElementById('saveBadge');
+  badge.classList.add('show');
+  clearTimeout(flashSaved._t);
+  flashSaved._t = setTimeout(() => badge.classList.remove('show'), 1000);
+}
+
+let weekStart = startOfWeek(new Date());
+const today = new Date();
+
+function renderWeekRange(){
+  const end = new Date(weekStart);
+  end.setDate(end.getDate() + 6);
+  const label = weekStart.getMonth() === end.getMonth()
+    ? `${MONTHS[weekStart.getMonth()]} ${weekStart.getDate()}\u2013${end.getDate()}, ${end.getFullYear()}`
+    : `${MONTHS[weekStart.getMonth()]} ${weekStart.getDate()} \u2013 ${MONTHS[end.getMonth()]} ${end.getDate()}, ${end.getFullYear()}`;
+  document.getElementById('weekRange').textContent = label;
+}
+
+function renderNextDue(el, med, doses){
+  const checkedCount = doses.filter(d => d.checked).length;
+  const interval = getInterval(med);
+
+  if (checkedCount === 0){
+    el.innerHTML = `
+      <div class="next-due-row">
+        <span class="next-due-text">Log a dose to estimate the next one.</span>
+        <span class="interval-inline">every <input type="number" min="1" max="24" step="0.5" value="${interval}" class="interval-input"> hrs</span>
+      </div>`;
+  } else if (checkedCount >= med.maxDoses){
+    el.innerHTML = `
+      <div class="next-due-row reached">
+        <span class="next-due-text"><strong>Max reached</strong> for today</span>
+        <span class="interval-inline">every <input type="number" min="1" max="24" step="0.5" value="${interval}" class="interval-input"> hrs</span>
+      </div>`;
+  } else {
+    const latest = doses
+      .filter(d => d.checked && d.time)
+      .map(d => {
+        const [h, m] = d.time.split(':').map(Number);
+        return h * 60 + m;
+      })
+      .sort((a,b) => b - a)[0];
+
+    if (latest === undefined){
+      el.innerHTML = `
+        <div class="next-due-row">
+          <span class="next-due-text">Add a time to estimate the next dose.</span>
+          <span class="interval-inline">every <input type="number" min="1" max="24" step="0.5" value="${interval}" class="interval-input"> hrs</span>
+        </div>`;
+    } else {
+      const totalMin = latest + Math.round(interval * 60);
+      const nextDay = totalMin >= 24 * 60;
+      const wrapped = ((totalMin % (24*60)) + 24*60) % (24*60);
+      const nextH = Math.floor(wrapped / 60);
+      const nextM = wrapped % 60;
+      const timeLabel = formatHM(nextH, nextM) + (nextDay ? ' (tomorrow)' : '');
+
+      el.innerHTML = `
+        <div class="next-due-row">
+          <span class="next-due-text">Next dose due <strong>${timeLabel}</strong></span>
+          <span class="interval-inline">every <input type="number" min="1" max="24" step="0.5" value="${interval}" class="interval-input"> hrs</span>
+          <button type="button" class="copy-time-btn" data-time="${timeLabel}">Copy time</button>
+        </div>`;
+    }
+  }
+
+  const intervalInput = el.querySelector('.interval-input');
+  if (intervalInput){
+    intervalInput.addEventListener('change', () => {
+      const val = parseFloat(intervalInput.value);
+      if (val > 0){
+        setInterval_(med, val);
+        renderNextDue(el, med, doses);
+      }
+    });
+  }
+  const copyBtn = el.querySelector('.copy-time-btn');
+  if (copyBtn){
+    copyBtn.addEventListener('click', () => {
+      const t = copyBtn.getAttribute('data-time');
+      if (navigator.clipboard && navigator.clipboard.writeText){
+        navigator.clipboard.writeText(t).then(() => {
+          copyBtn.textContent = 'Copied!';
+          setTimeout(() => { copyBtn.textContent = 'Copy time instead'; }, 1500);
+        }).catch(() => {
+          alert('Next dose time: ' + t);
+        });
+      } else {
+        alert('Next dose time: ' + t);
+      }
+    });
+  }
+}
+
+function renderDays(){
+  const container = document.getElementById('days');
+  container.innerHTML = '';
+  for (let i = 0; i < 7; i++){
+    const d = new Date(weekStart);
+    d.setDate(d.getDate() + i);
+    const key = dateKey(d);
+    const isToday = sameDate(d, today);
+
+    const dayEl = document.createElement('div');
+    dayEl.className = 'day' + (isToday ? ' is-today' : '');
+
+    const head = document.createElement('div');
+    head.className = 'day-head';
+    head.innerHTML = `<span class="day-weekday">${WEEKDAYS[d.getDay()]}</span><span class="day-date">${MONTHS[d.getMonth()]} ${d.getDate()}, ${d.getFullYear()}${isToday ? ' \u00b7 Today' : ''}</span>`;
+    dayEl.appendChild(head);
+
+    const data = loadDay(key);
+
+    MEDS.forEach(med => {
+      const doses = data[med.id];
+      const row = document.createElement('div');
+      row.className = 'med-row';
+
+      const checkedCount = doses.filter(x => x.checked).length;
+      const nameRow = document.createElement('div');
+      nameRow.className = 'med-name-row';
+      nameRow.innerHTML = `
+        <div>
+          <div class="med-name">${med.name}</div>
+          <div class="med-instr">${med.instr}</div>
+        </div>
+        <span class="med-count ${checkedCount === med.maxDoses ? 'full' : ''}">${checkedCount}/${med.maxDoses}</span>
+      `;
+      row.appendChild(nameRow);
+
+      let nextDueEl = null;
+      if (med.maxDoses > 1 && isToday){
+        nextDueEl = document.createElement('div');
+        row.appendChild(nextDueEl);
+        renderNextDue(nextDueEl, med, doses);
+      }
+
+      const slotsEl = document.createElement('div');
+      slotsEl.className = 'slots';
+
+      doses.forEach((dose) => {
+        const slot = document.createElement('label');
+        slot.className = 'slot' + (dose.checked ? ' checked' : '');
+
+        const cb = document.createElement('input');
+        cb.type = 'checkbox';
+        cb.checked = dose.checked;
+
+        const timeInput = document.createElement('input');
+        timeInput.type = 'time';
+        timeInput.value = dose.time || '';
+        timeInput.disabled = !dose.checked;
+
+        cb.addEventListener('change', () => {
+          dose.checked = cb.checked;
+          if (dose.checked && !dose.time){
+            const now = new Date();
+            dose.time = String(now.getHours()).padStart(2,'0') + ':' + String(now.getMinutes()).padStart(2,'0');
+            timeInput.value = dose.time;
+          }
+          timeInput.disabled = !dose.checked;
+          slot.classList.toggle('checked', dose.checked);
+          const count = doses.filter(x => x.checked).length;
+          const countEl = nameRow.querySelector('.med-count');
+          countEl.textContent = count + '/' + med.maxDoses;
+          countEl.classList.toggle('full', count === med.maxDoses);
+          saveSlot(key, med.id, doses);
+          if (nextDueEl) renderNextDue(nextDueEl, med, doses);
+        });
+
+        timeInput.addEventListener('change', () => {
+          dose.time = timeInput.value;
+          saveSlot(key, med.id, doses);
+          if (nextDueEl) renderNextDue(nextDueEl, med, doses);
+        });
+
+        slot.appendChild(cb);
+        slot.appendChild(timeInput);
+        slotsEl.appendChild(slot);
+      });
+
+      row.appendChild(slotsEl);
+      dayEl.appendChild(row);
+    });
+
+    container.appendChild(dayEl);
+  }
+}
+
+function exportMarkdown(){
+  const byDate = {};
+  for (let i = 0; i < localStorage.length; i++){
+    const key = localStorage.key(i);
+    if (!key || !key.startsWith(STORAGE_PREFIX)) continue;
+    const rest = key.slice(STORAGE_PREFIX.length);
+    const parts = rest.split(':');
+    const medId = parts.pop();
+    const date = parts.join(':');
+    const med = MEDS.find(m => m.id === medId);
+    if (!med) continue;
+    let doses;
+    try {
+      doses = JSON.parse(localStorage.getItem(key));
+    } catch (e) {
+      continue;
+    }
+    const takenDoses = doses.filter(d => d.checked);
+    if (takenDoses.length === 0) continue;
+    if (!byDate[date]) byDate[date] = [];
+    byDate[date].push({ med, doses: takenDoses });
+  }
+
+  const dates = Object.keys(byDate).sort();
+  if (dates.length === 0){
+    alert('No logged doses yet to export.');
+    return;
+  }
+
+  let md = '# Medication log backup\n\n';
+  md += `_Exported ${new Date().toLocaleString()}_\n\n`;
+
+  dates.forEach(date => {
+    const d = new Date(date + 'T00:00:00');
+    const label = `${WEEKDAYS[d.getDay()]}, ${MONTHS[d.getMonth()]} ${d.getDate()}, ${d.getFullYear()}`;
+    md += `## ${label}\n\n`;
+    byDate[date]
+      .sort((a, b) => a.med.name.localeCompare(b.med.name))
+      .forEach(entry => {
+        const times = entry.doses.map(d => d.time || 'time not recorded').join(', ');
+        md += `- **${entry.med.name}** (${entry.doses.length}/${entry.med.maxDoses}): ${times}\n`;
+      });
+    md += '\n';
+  });
+
+  const blob = new Blob([md], { type: 'text/markdown' });
+  const url = URL.createObjectURL(blob);
+  const a = document.createElement('a');
+  const stamp = dateKey(new Date());
+  a.href = url;
+  a.download = `medication-log-backup-${stamp}.md`;
+  document.body.appendChild(a);
+  a.click();
+  document.body.removeChild(a);
+  URL.revokeObjectURL(url);
+  flashSaved();
+}
+
+function parseMarkdownBackup(text){
+  const lines = text.split('\n');
+  const entries = []; // { date, medId, doses }
+  let currentDate = null;
+
+  const dateHeadingRe = /^##\s+\w+,\s+(\w+)\s+(\d{1,2}),\s+(\d{4})\s*$/;
+  const entryRe = /^-\s+\*\*(.+?)\*\*\s*\((\d+)\/(\d+)\):\s*(.+)$/;
+
+  lines.forEach(line => {
+    const dateMatch = line.match(dateHeadingRe);
+    if (dateMatch){
+      const monthIdx = MONTHS.indexOf(dateMatch[1]);
+      const day = parseInt(dateMatch[2], 10);
+      const year = parseInt(dateMatch[3], 10);
+      if (monthIdx >= 0){
+        currentDate = year + '-' + String(monthIdx + 1).padStart(2,'0') + '-' + String(day).padStart(2,'0');
+      }
+      return;
+    }
+    const entryMatch = line.match(entryRe);
+    if (entryMatch && currentDate){
+      const name = entryMatch[1].trim();
+      const timesRaw = entryMatch[4].split(',').map(t => t.trim());
+      const med = MEDS.find(m => m.name === name);
+      if (!med) return;
+      const doses = defaultDoses(med.maxDoses);
+      timesRaw.forEach((t, i) => {
+        if (i >= med.maxDoses) return;
+        doses[i].checked = true;
+        doses[i].time = (t === 'time not recorded' || !t) ? '' : t;
+      });
+      entries.push({ date: currentDate, medId: med.id, doses });
+    }
+  });
+
+  return entries;
+}
+
+function importMarkdown(text){
+  const entries = parseMarkdownBackup(text);
+  if (entries.length === 0){
+    alert('No recognizable medication entries found in that file.');
+    return;
+  }
+  const dateSet = new Set(entries.map(e => e.date));
+  const ok = confirm(`Found logged doses for ${dateSet.size} day(s) in this file. Importing will overwrite any existing entries for those same days and medications. Continue?`);
+  if (!ok) return;
+
+  entries.forEach(e => {
+    localStorage.setItem(STORAGE_PREFIX + e.date + ':' + e.medId, JSON.stringify(e.doses));
+  });
+
+  renderDays();
+  flashSaved();
+  alert('Import complete.');
+}
+
+document.getElementById('importBtn').addEventListener('click', () => {
+  document.getElementById('importInput').click();
+});
+document.getElementById('importInput').addEventListener('change', (e) => {
+  const file = e.target.files[0];
+  if (!file) return;
+  const reader = new FileReader();
+  reader.onload = () => importMarkdown(reader.result);
+  reader.readAsText(file);
+  e.target.value = '';
+});
+
+document.getElementById('exportBtn').addEventListener('click', exportMarkdown);
+
+document.getElementById('prevWeek').addEventListener('click', () => {
+  weekStart.setDate(weekStart.getDate() - 7);
+  renderWeekRange();
+  renderDays();
+});
+document.getElementById('nextWeek').addEventListener('click', () => {
+  weekStart.setDate(weekStart.getDate() + 7);
+  renderWeekRange();
+  renderDays();
+});
+
+renderWeekRange();
+renderDays();
+</script>
+</body>
+</html>
