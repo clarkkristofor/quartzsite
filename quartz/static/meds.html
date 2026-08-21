@@ -211,7 +211,7 @@
     <div class="header-row">
       <div>
         <h1>Medication checklist</h1>
-        <p class="sub">Check each dose off as you take it and record the time. Saved automatically in this browser, on this device.</p>
+        <p class="sub">Check each dose off as you take it and record the time. Saved automatically and synced across your devices.</p>
       </div>
       <button id="themeToggle" class="theme-toggle" type="button">&#9728;&#65039; Light</button>
     </div>
@@ -231,7 +231,7 @@
 
   <div id="days"></div>
 
-  <p class="footer-note">Always follow your prescriber's or pharmacist's instructions.<br>This checklist is a personal tracking tool, not medical advice.<br>Data is stored only in this browser &mdash; clearing your browser data will erase it.</p>
+  <p class="footer-note">Always follow your prescriber's or pharmacist's instructions.<br>This checklist is a personal tracking tool, not medical advice.<br>Data syncs across your devices, with a local copy in this browser as a backup.</p>
 </div>
 
 <div class="savebadge" id="saveBadge">Saved</div>
@@ -265,6 +265,12 @@ document.getElementById('themeToggle').addEventListener('click', () => {
 });
 
 initTheme();
+
+// --- Cross-device sync (Cloudflare Worker + KV) ---
+// Replace with your deployed Worker URL and the shared secret you set via
+// `wrangler secret put AUTH_TOKEN`.
+const SYNC_URL = "https://meds-sync-worker.clark-kristofor.workers.dev";
+const SYNC_TOKEN = "rGzpD3rhLJc7XY3XJKGa5DsM0Zn7pCE8lt28kzro";
 
 const MEDS = [
   { id: 'acetaminophen', name: 'Acetaminophen', instr: 'Max 4x daily', maxDoses: 4, defaultInterval: 6 },
@@ -328,8 +334,66 @@ function saveSlot(key, medId, doses){
   try {
     localStorage.setItem(STORAGE_PREFIX + key + ':' + medId, JSON.stringify(doses));
     flashSaved();
+    pushSync();
   } catch (e) {
     console.error('Storage error', e);
+  }
+}
+
+// Gather every logged dose (STORAGE_PREFIX keys only) into one plain object,
+// keyed by the same "date:medId" string used in localStorage.
+function collectAllLocal(){
+  const snapshot = {};
+  for (let i = 0; i < localStorage.length; i++){
+    const key = localStorage.key(i);
+    if (!key || !key.startsWith(STORAGE_PREFIX)) continue;
+    snapshot[key] = localStorage.getItem(key);
+  }
+  return snapshot;
+}
+
+// Write a snapshot (same shape as collectAllLocal's output) back into
+// localStorage. Remote data overwrites local for any key it contains.
+function applyRemoteSnapshot(snapshot){
+  Object.keys(snapshot).forEach(key => {
+    if (key.startsWith(STORAGE_PREFIX)){
+      localStorage.setItem(key, snapshot[key]);
+    }
+  });
+}
+
+// Pull the latest log from the Worker before first render. If it fails
+// (offline, Worker down, etc.) the app just falls back to whatever is
+// already in localStorage.
+async function pullSync(){
+  try {
+    const res = await fetch(SYNC_URL, {
+      headers: { 'X-Auth-Token': SYNC_TOKEN }
+    });
+    if (!res.ok) throw new Error('Sync GET failed: ' + res.status);
+    const remote = await res.json();
+    applyRemoteSnapshot(remote);
+  } catch (err) {
+    console.warn('Sync pull failed, using local data:', err);
+  }
+}
+
+// Push the full current log to the Worker. Called after every dose change
+// and after a markdown import. Local save already happened by the time
+// this runs, so a failed push just gets retried on the next change.
+async function pushSync(){
+  try {
+    const res = await fetch(SYNC_URL, {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json',
+        'X-Auth-Token': SYNC_TOKEN
+      },
+      body: JSON.stringify(collectAllLocal())
+    });
+    if (!res.ok) throw new Error('Sync POST failed: ' + res.status);
+  } catch (err) {
+    console.warn('Sync push failed, will retry on next change:', err);
   }
 }
 
@@ -635,6 +699,7 @@ function importMarkdown(text){
 
   renderDays();
   flashSaved();
+  pushSync();
   alert('Import complete.');
 }
 
@@ -664,7 +729,10 @@ document.getElementById('nextWeek').addEventListener('click', () => {
 });
 
 renderWeekRange();
-renderDays();
+(async () => {
+  await pullSync();
+  renderDays();
+})();
 </script>
 </body>
 </html>
