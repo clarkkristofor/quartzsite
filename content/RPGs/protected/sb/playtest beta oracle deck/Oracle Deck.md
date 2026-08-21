@@ -1,3 +1,6 @@
+---
+password: 8;qTcpW]j]=m_EOx,aTo{XcB
+---
 # good and bad
 [[the Thief]]
 [[the Light]]

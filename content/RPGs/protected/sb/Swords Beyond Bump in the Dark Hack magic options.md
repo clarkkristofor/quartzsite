@@ -1,3 +1,6 @@
+---
+password: 8;qTcpW]j]=m_EOx,aTo{XcB
+---
 Options for handling magic
 1. Mimic Bump in the Dark: all magic is from the shadow. Jettison the realms beyond or use them only as the campaign's antagonist
 2. Inverse of action dots: intriguing but complicated and potentially OP. My favorite part of this idea is: you can't be good at both the magical action and the non-magical action and the list of magical actions is great.

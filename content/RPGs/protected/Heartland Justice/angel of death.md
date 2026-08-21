@@ -12,6 +12,7 @@ next: "[[ |next]]"
 prev: "[[kissing|prev]]"
 dg-publish: "true"
 tags:
+password: 8;qTcpW]j]=m_EOx,aTo{XcB
 ---
 [[kissing|prev]] | [[RPGs/Heartland Justice|all]] | [[Rayburn|next]]
 # angel of death

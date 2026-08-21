@@ -12,6 +12,7 @@ down: ""
 next: "[[matts next|next]]"
 prev: "[[black dragon debts & Halvar's fish|prev]]"
 Level: 4
+password: 8;qTcpW]j]=m_EOx,aTo{XcB
 ---
 [[black dragon debts & Halvar's fish|prev]] | [[Matt's Fallen Magic|all]] | [[matts next|next]]
 # Matt's "Fallen Magic" campaign

@@ -1,6 +1,7 @@
 ---
 publish: true
 dg-publish: "true"
+password: 8;qTcpW]j]=m_EOx,aTo{XcB
 ---
 # Prince of Shadows
 ## agents

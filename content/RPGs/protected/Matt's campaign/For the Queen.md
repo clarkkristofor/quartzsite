@@ -10,6 +10,7 @@ up: "[[Matt's Fallen Magic|all]]"
 prev: "[[Fleeing Old Town|prev]]"
 next: "[[A Dead Douche, but Raxus's Dead Douche|next]]"
 GM: Matt
+password: 8;qTcpW]j]=m_EOx,aTo{XcB
 ---
 [[Fleeing Old Town|prev]] | [[Matt's Fallen Magic|all]] | [[A Dead Douche, but Raxus's Dead Douche|next]]
 # Matt's "Fallen Magic" campaign

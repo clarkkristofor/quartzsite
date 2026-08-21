@@ -12,6 +12,7 @@ next: "[[cops and thugs|next]]"
 prev: "[[angel of death|prev]]"
 dg-publish: "true"
 tags:
+password: 8;qTcpW]j]=m_EOx,aTo{XcB
 ---
 [[angel of death|prev]] | [[RPGs/protected/Heartland Justice/Heartland Justice|all]] | [[cops and thugs|next]]
 # Rayburn

@@ -4,6 +4,7 @@ title:
 description:
 image:
 date: 2026-07-31
+password: 8;qTcpW]j]=m_EOx,aTo{XcB
 ---
 ![[swords beyond - logo - online rules.png]]
 

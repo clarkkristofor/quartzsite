@@ -10,6 +10,7 @@ up: "[[Matt's Fallen Magic|all]]"
 prev: "[[Arvax and Endra the Cursed|prev]]"
 next: "[[Fleeing Old Town|next]]"
 GM: Matt
+password: 8;qTcpW]j]=m_EOx,aTo{XcB
 ---
 [[Arvax and Endra the Cursed|prev]] | [[Matt's Fallen Magic|all]] | [[Fleeing Old Town|next]]
 # Matt's "Fallen Magic" campaign

@@ -10,6 +10,7 @@ up: "[[Matt's Fallen Magic|all]]"
 prev: "[[Hopewell Hostel hearth|prev]]"
 next: "[[For the Queen|next]]"
 GM: Matt
+password: 8;qTcpW]j]=m_EOx,aTo{XcB
 ---
 [[Hopewell Hostel hearth|prev]] | [[Matt's Fallen Magic|all]] | [[For the Queen|next]]
 # Matt's "Fallen Magic" campaign

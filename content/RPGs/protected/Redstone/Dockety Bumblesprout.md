@@ -3,6 +3,7 @@ publish: true
 title:
 description: halfling cleric
 image:
+password: 8;qTcpW]j]=m_EOx,aTo{XcB
 ---
 *halfling cleric*
 

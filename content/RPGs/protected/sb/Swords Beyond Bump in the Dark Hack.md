@@ -1,3 +1,6 @@
+---
+password: 8;qTcpW]j]=m_EOx,aTo{XcB
+---
 [[Swords Beyond with Sway]]
 [[GM stuff not published]]
 [[new rpgs vs Swords Beyond]]

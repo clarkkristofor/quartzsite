@@ -12,6 +12,7 @@ next: "[[next masks|next]]"
 prev: "[[X ambush|prev]]"
 dg-publish: "true"
 tags:
+password: 8;qTcpW]j]=m_EOx,aTo{XcB
 ---
 [[X ambush|prev]] | [[RPGs/protected/Heartland Justice/Heartland Justice|all]] | [[angel of death|next]]
 # kissing

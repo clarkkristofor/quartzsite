@@ -8,3 +8,7 @@ views:
     order:
       - file.name
       - card type
+      - password
+      - publish
+    columnSize:
+      note.password: 154

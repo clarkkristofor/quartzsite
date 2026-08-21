@@ -12,6 +12,7 @@ next: "[[kissing|next]]"
 prev: "[[meet the parents and the murderbot|prev]]"
 dg-publish: "true"
 tags:
+password: 8;qTcpW]j]=m_EOx,aTo{XcB
 ---
 [[meet the parents and the murderbot|prev]] | [[RPGs/protected/Heartland Justice/Heartland Justice|all]] | [[kissing|next]]
 # X ambush

@@ -12,6 +12,7 @@ next: "[[crowd control|next]]"
 prev: "[[cops and thugs|prev]]"
 dg-publish: "true"
 tags:
+password: 8;qTcpW]j]=m_EOx,aTo{XcB
 ---
 [[cops and thugs|prev]] | [[RPGs/protected/Heartland Justice/Heartland Justice|all]] | [[crowd control|next]]
 # timeblink

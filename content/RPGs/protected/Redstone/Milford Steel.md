@@ -3,6 +3,7 @@ publish: true
 title:
 description: dwarf rogue
 image:
+password: 8;qTcpW]j]=m_EOx,aTo{XcB
 ---
 *dwarf rogue*
 

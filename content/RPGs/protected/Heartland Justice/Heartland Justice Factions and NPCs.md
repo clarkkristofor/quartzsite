@@ -2,6 +2,7 @@
 publish: true
 dg-publish: "true"
 tags:
+password: 8;qTcpW]j]=m_EOx,aTo{XcB
 ---
 # Heartland Justice: Factions and NPCs
 [[Heartland Justice Factions and NPCs#AEGIS|AEGIS]] | [[Heartland Justice Factions and NPCs#City of Chicago|City of Chicago]] | [[Heartland Justice Factions and NPCs#Patton Development Group (PDG)|PDG]] | [[Heartland Justice Factions and NPCs#ScumTech|SkumTech]] | *[[RPGs/protected/Heartland Justice/Heartland Justice|the Heroes]]* | *[[RPGs/Heartland Justice|Session Notes]]*

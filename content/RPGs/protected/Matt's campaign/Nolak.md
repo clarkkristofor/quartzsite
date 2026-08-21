@@ -1,6 +1,7 @@
 ---
 publish: true
 dg-publish: "true"
+password: 8;qTcpW]j]=m_EOx,aTo{XcB
 ---
 # Nolak & the Rustlers
 - [[Nolak]] leads the [[Nolak|Rustlers]], a ruthless and effective magic item hunting gang from [[Horizon]]/[[Red Wastes]]

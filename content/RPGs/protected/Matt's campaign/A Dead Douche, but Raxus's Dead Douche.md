@@ -10,6 +10,7 @@ up: "[[Matt's Fallen Magic|all]]"
 prev: "[[For the Queen|prev]]"
 next: "[[Lies, Neal's Lies, and Scrotes|next]]"
 GM: Matt
+password: 8;qTcpW]j]=m_EOx,aTo{XcB
 ---
 [[For the Queen|prev]] | [[Matt's Fallen Magic|all]] | [[Lies, Neal's Lies, and Scrotes|next]]
 # Matt's "Fallen Magic" campaign

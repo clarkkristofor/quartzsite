@@ -12,6 +12,7 @@ next: "[[Chicago's Grand Mosque and divided AEGIS|next]]"
 prev: "[[CogX|prev]]"
 dg-publish: "true"
 tags:
+password: 8;qTcpW]j]=m_EOx,aTo{XcB
 ---
 [[CogX]] | [[RPGs/protected/Heartland Justice/Heartland Justice|all]] | [[Chicago's Grand Mosque and divided AEGIS|next]]
 # Rock ’n’ Roll

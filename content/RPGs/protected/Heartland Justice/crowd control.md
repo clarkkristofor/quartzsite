@@ -12,6 +12,7 @@ next: "[[ |next]]"
 prev: "[[timeblink|prev]]"
 dg-publish: "true"
 tags:
+password: 8;qTcpW]j]=m_EOx,aTo{XcB
 ---
 [[timeblink|prev]] | [[RPGs/protected/Heartland Justice/Heartland Justice|all]] | [[ |next]]
 # crowd control

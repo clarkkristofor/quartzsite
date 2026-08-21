@@ -2,6 +2,7 @@
 publish: true
 dg-publish: "true"
 dg-permalink: zilharr-places
+password: 8;qTcpW]j]=m_EOx,aTo{XcB
 ---
 # Places
 the Ardent of Zilharr the Radiant

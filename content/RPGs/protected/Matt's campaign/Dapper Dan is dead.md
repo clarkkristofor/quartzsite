@@ -10,6 +10,7 @@ up: "[[Matt's Fallen Magic|all]]"
 prev: "[[Rustlers hassle Keef|prev]]"
 next: "[[Arvax and Endra the Cursed|next]]"
 GM: Matt
+password: 8;qTcpW]j]=m_EOx,aTo{XcB
 ---
 [[Rustlers hassle Keef|prev]] | [[Matt's Fallen Magic|all]] | [[Arvax and Endra the Cursed|next]]
 # Matt's "Fallen Magic" campaign

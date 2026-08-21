@@ -10,6 +10,7 @@ up: "[[Matt's Fallen Magic|all]]"
 prev: "[[Dapper Dan is dead|prev]]"
 next: "[[Hopewell Hostel hearth|next]]"
 GM: Matt
+password: 8;qTcpW]j]=m_EOx,aTo{XcB
 ---
 [[Dapper Dan is dead|prev]] | [[Matt's Fallen Magic|all]] | [[Hopewell Hostel hearth|next]]
 # Matt's "Fallen Magic" campaign

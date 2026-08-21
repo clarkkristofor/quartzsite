@@ -6,6 +6,11 @@ date: 2026-04-09
 Game: 13th Age, 2e
 GM: Sean
 ---
+## 5. Ambush defeated
+We killed everyone, except one wizard (who defected to us) and Fred Boulder (who was revealed as a [[High Druid]] shapechanger). The real Boulder is tied up in an [[Clan Ironsong]] cellar. The shapechanger does not want mines cleared or the camp expanded and wants Redstone people to fight among themselves. 
+
+Also, Lorn received this message:
+![[PXL_20260821_153417518~2.jpg]]
 ## 4. Calm before the betrayal
 - full heal up with incremental (Lorn: HP)
 - wild-built not new

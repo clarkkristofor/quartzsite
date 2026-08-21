@@ -3,6 +3,7 @@ publish: true
 dg-publish: "true"
 dg-permalink: raxus
 tags:
+password: 8;qTcpW]j]=m_EOx,aTo{XcB
 ---
 # *Raxus Blackheart*
 ## I'm sworn by the [[Gods of Light]] to protect the [[Planesweaver]].

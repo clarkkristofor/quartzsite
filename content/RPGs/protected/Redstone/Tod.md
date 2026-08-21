@@ -3,6 +3,7 @@ publish: true
 title:
 description: gnomes displaced and assimilated by the Dwarf King
 image:
+password: 8;qTcpW]j]=m_EOx,aTo{XcB
 ---
 Gnomes who held this land around [[the Camp|the Camp]] in ancient times. The ruins here are theirs.
 

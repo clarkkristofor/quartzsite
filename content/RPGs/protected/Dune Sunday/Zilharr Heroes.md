@@ -2,6 +2,7 @@
 publish: true
 dg-publish: "true"
 dg-permalink: zilharr-heroes
+password: 8;qTcpW]j]=m_EOx,aTo{XcB
 ---
 # ![[sunday game.png|48]] Heroes
 the Ardent of Zilharr the Radiant

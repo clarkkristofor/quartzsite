@@ -1,6 +1,7 @@
 ---
 publish: true
 dg-publish: "true"
+password: 8;qTcpW]j]=m_EOx,aTo{XcB
 ---
 # Queensgate
 - port town located where the elf wood meets the [[Midland Sea]]

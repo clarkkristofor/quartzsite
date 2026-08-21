@@ -10,6 +10,7 @@ up: "[[Matt's Fallen Magic|all]]"
 prev: "[[Lies, Neal's Lies, and Scrotes|prev]]"
 next: "[[Marley and Speagol and the Chalice of Blessings|next]]"
 GM: Matt
+password: 8;qTcpW]j]=m_EOx,aTo{XcB
 ---
 [[Lies, Neal's Lies, and Scrotes|prev]] | [[Matt's Fallen Magic|all]] | [[Marley and Speagol and the Chalice of Blessings|next]]
 # Matt's "Fallen Magic" campaign

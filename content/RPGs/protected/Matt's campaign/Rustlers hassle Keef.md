@@ -9,6 +9,7 @@ Level: 1
 up: "[[Matt's Fallen Magic|all]]"
 next: "[[Dapper Dan is dead|next]]"
 GM: Matt
+password: 8;qTcpW]j]=m_EOx,aTo{XcB
 ---
 [[Matt's Fallen Magic|all]] | [[Dapper Dan is dead|next]]
 # Matt's "Fallen Magic" campaign

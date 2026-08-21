@@ -10,6 +10,7 @@ up: "[[Matt's Fallen Magic|all]]"
 prev: "[[A Dead Douche, but Raxus's Dead Douche|prev]]"
 next: "[[Bizness Time|next]]"
 GM: Matt
+password: 8;qTcpW]j]=m_EOx,aTo{XcB
 ---
 [[A Dead Douche, but Raxus's Dead Douche|prev]] | [[Matt's Fallen Magic|all]] | [[Bizness Time|next]]
 # Matt's "Fallen Magic" campaign

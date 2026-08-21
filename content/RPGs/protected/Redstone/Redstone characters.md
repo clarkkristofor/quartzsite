@@ -3,6 +3,7 @@ publish: true
 title:
 description: Redstone Party of Five
 image:
+password: 8;qTcpW]j]=m_EOx,aTo{XcB
 ---
 [[Dockety Bumblesprout]], halfling cleric
 

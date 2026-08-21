@@ -12,6 +12,7 @@ next: "[[meet the parents and the murderbot|next]]"
 prev: "[[Rock ’n’ Roll|prev]]"
 dg-publish: "true"
 tags:
+password: 8;qTcpW]j]=m_EOx,aTo{XcB
 ---
 [[Rock ’n’ Roll|prev]] | [[RPGs/protected/Heartland Justice/Heartland Justice|all]] | [[meet the parents and the murderbot|next]]
 # Chicago's Grand Mosque and divided AEGIS

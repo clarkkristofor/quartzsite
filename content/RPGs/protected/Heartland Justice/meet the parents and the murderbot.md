@@ -12,6 +12,7 @@ next: "[[X ambush|next]]"
 prev: "[[Chicago's Grand Mosque and divided AEGIS|prev]]"
 dg-publish: "true"
 tags:
+password: 8;qTcpW]j]=m_EOx,aTo{XcB
 ---
 [[Chicago's Grand Mosque and divided AEGIS|prev]] | [[RPGs/protected/Heartland Justice/Heartland Justice|all]] | [[X ambush|next]]
 # meet the parents and the murderbot

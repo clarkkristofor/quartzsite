@@ -1,3 +1,6 @@
+---
+password: 8;qTcpW]j]=m_EOx,aTo{XcB
+---
 How does your Power manifest to you? How do you communicate or understand each other? What is its name?
 Talk with the others, players and GM, especially with players whose Power is the same type as yours. Is It the same Power? Or different Powers? Does One serve the Other? Are They rivals? Is It the same Power with different names? What's more fun: deciding now or discovering along the way? The next page lists potential names. This may not be your Power's True Name, only the name It allows you to use.
 When you See Beyond or Wield Power, this is the Power you call upon by name. As It calls you by name. Your capacity to call upon this Power is what makes you useful to the small ‘p’ powerful of this world, as well as to the powerless. It’s what makes your life interesting. This Power has Marked you in some decisive and unique way. (More on The Mark of the Beyond later.)
