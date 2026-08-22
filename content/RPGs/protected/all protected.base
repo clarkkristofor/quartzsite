@@ -4,9 +4,6 @@ filters:
 views:
   - type: table
     name: Table
-    filters:
-      and:
-        - file.path.contains("deck")
     order:
       - file.name
       - publish

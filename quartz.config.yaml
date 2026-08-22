@@ -9,9 +9,10 @@ configuration:
   locale: en-US
   baseUrl: superclark.net
   ignorePatterns:
-    - private
-    - templates
-    - .obsidian
+  - private
+  - templates
+  - .obsidian
+  - "rpgs/protected/**/*.base.md"
   theme:
     fontOrigin: googleFonts
     cdnCaching: true
