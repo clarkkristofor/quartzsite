@@ -12,7 +12,7 @@ publish: true
 - material loss
 - vulnerability
 ## *symbol*
-an empty noose hanging from a gallows, surrounded by a crowd, laughing and pointing at the one who is led to it, among the crowd are many prominent coin purses and valuables, while a pickpocket sneaks among them
+an empty noose hanging from a gallows, surrounded by a crowd, laughing and pointing at the unseen offender who is led to it; meanwhile, a pickpocket sneaks among the crowd, eyeing many prominent, unguarded coin purses and valuables
 ## *description*
 The noose is what the people wish for the March Lord and his demons. Also, what the people you protect would do to you, if they didn't need your protection so desperately. The Thief is who ravenkin are to the people of Lost Plenty.
 ## *divination*
