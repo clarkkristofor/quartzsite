@@ -1,7 +1,8 @@
 ---
 publish: true
 dg-publish: "true"
-password: 8;qTcpW]j]=m_EOx,aTo{XcB
+password:
+unlisted: true
 ---
 # Urza
 - human associate of [[Keef the innkeep]] who exclusively goes by Glunch outside of the inn (because they're not *keefing* it right now)

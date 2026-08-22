@@ -3,7 +3,8 @@ publish: true
 title:
 description: dwarf bard
 image:
-password: 8;qTcpW]j]=m_EOx,aTo{XcB
+password:
+unlisted: true
 ---
 *dwarf bard*
 ## I am the Voice of [[Brawn Ironsong]] in [[the Camp]].

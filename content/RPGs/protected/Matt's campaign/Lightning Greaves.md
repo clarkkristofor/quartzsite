@@ -1,7 +1,8 @@
 ---
 publish: true
 dg-publish: "true"
-password: 8;qTcpW]j]=m_EOx,aTo{XcB
+password:
+unlisted: true
 ---
 # Lightning Greaves
 - magic item previously owned by the [[Prince of Shadows MC]]

@@ -12,7 +12,8 @@ down: ""
 next: "[[brain jacked on the map|next]]"
 prev: "[[Hold the Gate|prev]]"
 Level: 4
-password: 8;qTcpW]j]=m_EOx,aTo{XcB
+password:
+unlisted: true
 ---
 [[Hold the Gate|prev]] | [[Matt's Fallen Magic|all]] | [[brain jacked on the map|next]]
 # Matt's "Fallen Magic" campaign

@@ -10,7 +10,8 @@ next: "[[Heartwarming Disaster]]"
 up: "[[RPGs/Heartland Justice]]"
 dg-publish: "true"
 tags:
-password: 8;qTcpW]j]=m_EOx,aTo{XcB
+password:
+unlisted: true
 ---
 prev: [[X]] | [[RPGs/Heartland Justice]] | next: [[Heartwarming Disaster]]
 ## **3/28/24: Heartland Justice!**

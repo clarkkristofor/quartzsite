@@ -2,7 +2,8 @@
 publish: true
 dg-publish: "true"
 dg-permalink: zilharr-people
-password: 8;qTcpW]j]=m_EOx,aTo{XcB
+password:
+unlisted: true
 ---
 # People
 the Ardent of Zilharr the Radiant

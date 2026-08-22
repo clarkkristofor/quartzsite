@@ -3,7 +3,8 @@ publish: true
 title:
 description: gnome barbarian
 image:
-password: 8;qTcpW]j]=m_EOx,aTo{XcB
+password:
+unlisted: true
 ---
 *gnome barbarian*
 

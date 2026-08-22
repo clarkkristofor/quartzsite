@@ -2,7 +2,8 @@
 publish: true
 dg-publish: "true"
 tags:
-password: 8;qTcpW]j]=m_EOx,aTo{XcB
+password:
+unlisted: true
 ---
 # Heartland Justice: the Heroes 
 *from the files of Nadine Bass, AEGIS HR director*

@@ -10,7 +10,8 @@ up: "[[Matt's Fallen Magic|all]]"
 prev: "[[Session 11|prev]]"
 next: "[[Hold the Gate|next]]"
 GM: Matt
-password: 8;qTcpW]j]=m_EOx,aTo{XcB
+password:
+unlisted: true
 ---
 [[Session 11|prev]] | [[Matt's Fallen Magic|all]] | [[Hold the Gate|next]]
 # Matt's "Fallen Magic" campaign

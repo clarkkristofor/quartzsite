@@ -12,7 +12,8 @@ next: "[[timeblink|next]]"
 prev: "[[Rayburn|prev]]"
 dg-publish: "true"
 tags:
-password: 8;qTcpW]j]=m_EOx,aTo{XcB
+password:
+unlisted: true
 ---
 [[Rayburn|prev]] | [[RPGs/protected/Heartland Justice/Heartland Justice|all]] | [[timeblink|next]]
 # cops and thugs

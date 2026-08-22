@@ -10,7 +10,8 @@ up: "[[Matt's Fallen Magic|all]]"
 prev: "[[Session 10|prev]]"
 next: "[[Scrotes Boat Zombie Stuff|next]]"
 GM: Matt
-password: 8;qTcpW]j]=m_EOx,aTo{XcB
+password:
+unlisted: true
 ---
 [[Session 10|prev]] | [[Matt's Fallen Magic|all]] | [[Scrotes Boat Zombie Stuff|next]]
 # Matt's "Fallen Magic" campaign

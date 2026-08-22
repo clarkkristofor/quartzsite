@@ -9,7 +9,8 @@ next: "[[Hashtag and Milkman]]"
 up: "[[RPGs/Heartland Justice]]"
 dg-publish: "true"
 tags:
-password: 8;qTcpW]j]=m_EOx,aTo{XcB
+password:
+unlisted: true
 ---
 prev: [[Heartwarming Disaster]] | [[RPGs/Heartland Justice]] | next: [[Hashtag and Milkman]]
 ## **2024-06-06: Playing Politics and also maybe God**

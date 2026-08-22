@@ -10,7 +10,8 @@ Level: 3
 up: "[[Matt's Fallen Magic|all]]"
 prev: "[[Scrotes Boat Zombie Stuff|prev]]"
 next: "[[black dragon debts & Halvar's fish|next]]"
-password: 8;qTcpW]j]=m_EOx,aTo{XcB
+password:
+unlisted: true
 ---
 [[Scrotes Boat Zombie Stuff|prev]] | [[Matt's Fallen Magic|all]] | [[black dragon debts & Halvar's fish|next]]
 # Matt's "Fallen Magic" campaign

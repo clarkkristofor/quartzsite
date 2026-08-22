@@ -10,7 +10,8 @@ up: "[[Matt's Fallen Magic|all]]"
 prev: "[[Marley and Speagol and the Chalice of Blessings|prev]]"
 next: "[[Session 11|next]]"
 GM: Matt
-password: 8;qTcpW]j]=m_EOx,aTo{XcB
+password:
+unlisted: true
 ---
 [[Marley and Speagol and the Chalice of Blessings|prev]] | [[Matt's Fallen Magic|all]] | [[Session 11|next]]
 # Matt's "Fallen Magic" campaign

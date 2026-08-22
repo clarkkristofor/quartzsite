@@ -7,4 +7,5 @@ views:
     order:
       - file.name
       - publish
+      - unlisted
       - password

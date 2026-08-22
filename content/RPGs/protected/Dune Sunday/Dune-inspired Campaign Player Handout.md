@@ -1,7 +1,8 @@
 ---
 publish: true
 dg-publish: "true"
-password: 8;qTcpW]j]=m_EOx,aTo{XcB
+password:
+unlisted: true
 ---
 # Dune-inspired Campaign Player Handout
 

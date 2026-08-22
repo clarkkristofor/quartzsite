@@ -9,7 +9,8 @@ next: "[[Playing Politics and also maybe God]]"
 up: "[[RPGs/Heartland Justice]]"
 dg-publish: "true"
 tags:
-password: 8;qTcpW]j]=m_EOx,aTo{XcB
+password:
+unlisted: true
 ---
 prev: [[Heartland Justice forms]] | [[RPGs/Heartland Justice]] | next: [[Playing Politics and also maybe God]]
 ## **2024-05-09: Heartwarming Disaster**

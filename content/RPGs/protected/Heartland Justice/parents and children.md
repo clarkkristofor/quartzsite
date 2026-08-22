@@ -11,7 +11,8 @@ next: "[[CogX|next]]"
 prev: "[[Hashtag and Milkman|prev]]"
 dg-publish: "true"
 tags:
-password: 8;qTcpW]j]=m_EOx,aTo{XcB
+password:
+unlisted: true
 ---
 [[Hashtag and Milkman|prev]] | [[RPGs/Heartland Justice|all]] | [[CogX|next]]
 # **parents and children** 

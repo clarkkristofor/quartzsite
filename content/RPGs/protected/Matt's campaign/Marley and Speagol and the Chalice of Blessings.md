@@ -10,7 +10,8 @@ up: "[[Matt's Fallen Magic|all]]"
 prev: "[[Bizness Time|prev]]"
 next: "[[Session 10|next]]"
 GM: Matt
-password: 8;qTcpW]j]=m_EOx,aTo{XcB
+password:
+unlisted: true
 ---
 [[Bizness Time|prev]] | [[Matt's Fallen Magic|all]] | [[Session 10|next]]
 # Matt's "Fallen Magic" campaign

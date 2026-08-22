@@ -2,7 +2,8 @@
 publish: true
 dg-publish: "true"
 tags:
-password: 8;qTcpW]j]=m_EOx,aTo{XcB
+password:
+unlisted: true
 ---
 [[RPGs/protected/Heartland Justice/Heartland Justice]]: [[Blink Lightning]] | [[the Glint]] | [[el Luchador]] | [[Clarke the Bear]] | [[Eagle Eye]]
 ## the Glint
