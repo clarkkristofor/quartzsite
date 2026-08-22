@@ -12,7 +12,7 @@ configuration:
   - private
   - templates
   - .obsidian
-  - "rpgs/protected/**/*.base.md"
+  - "RPGs/protected/**/*.base"
   theme:
     fontOrigin: googleFonts
     cdnCaching: true
