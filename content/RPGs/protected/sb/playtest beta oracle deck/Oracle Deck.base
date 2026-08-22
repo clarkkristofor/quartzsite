@@ -8,7 +8,8 @@ views:
     order:
       - file.name
       - card type
-      - password
       - publish
+      - unlisted
+      - password
     columnSize:
       note.password: 154

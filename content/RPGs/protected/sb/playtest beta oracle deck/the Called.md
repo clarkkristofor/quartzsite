@@ -1,7 +1,8 @@
 ---
 card type: open/ambivalent
-password: 8;qTcpW]j]=m_EOx,aTo{XcB
+password:
 publish: true
+unlisted: true
 ---
 ## *other names*
 - the Servant

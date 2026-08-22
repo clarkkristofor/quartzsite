@@ -1,7 +1,8 @@
 ---
 card type: good/bad
-password: 8;qTcpW]j]=m_EOx,aTo{XcB
+password:
 publish: true
+unlisted: true
 ---
 ## *other names*
 - Abuse, Rot
