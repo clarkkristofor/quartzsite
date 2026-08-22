@@ -8,7 +8,7 @@
 <style>
   body { font-family: system-ui, sans-serif; background: #fffdf9; color: #2b2b2b; margin: 0; padding: 2rem 1rem; }
   #oracle-deck-widget { max-width: 500px; margin: 2rem auto; text-align: center; }
-  #card-face { border: 1px solid #b8b8b8; border-radius: 12px; padding: 2rem; min-height: 200px; margin-bottom: 1.5rem; background: #fff; text-align: left; }
+  #card-face { border: 4px solid #2b2b2b; border-radius: 12px; padding: 2rem; min-height: 200px; margin-bottom: 1.5rem; background: #fff; text-align: left; }
   #card-face h2 { margin-top: 1rem; font-size: 1rem; text-transform: uppercase; letter-spacing: 0.05em; opacity: 0.7; }
   #card-face h2:first-child { margin-top: 0; }
   .oracle-card-title { margin-top: 0; font-size: 1.5rem; }
@@ -29,37 +29,20 @@
 
 <script>
 (function() {
-  const CARD_SLUGS = [
-    "rpgs/protected/sb/playtest-beta-oracle-deck/corruption",
-    "rpgs/protected/sb/playtest-beta-oracle-deck/family",
-    "rpgs/protected/sb/playtest-beta-oracle-deck/sin",
-    "rpgs/protected/sb/playtest-beta-oracle-deck/the-alchemist",
-    "rpgs/protected/sb/playtest-beta-oracle-deck/the-called",
-    "rpgs/protected/sb/playtest-beta-oracle-deck/the-champion",
-    "rpgs/protected/sb/playtest-beta-oracle-deck/the-exorcist",
-    "rpgs/protected/sb/playtest-beta-oracle-deck/the-light",
-    "rpgs/protected/sb/playtest-beta-oracle-deck/the-mentor",
-    "rpgs/protected/sb/playtest-beta-oracle-deck/the-thief"
-  ];
+  // Replace with your actual deployed Worker URL
+  const WORKER_URL = "https://oracle-deck-worker.clark-kristofor.workers.dev";
+  const POLL_MS = 3000;
+  const TOTAL_CARDS = 10;
 
-  const STORAGE_KEY = "oracle-deck-used";
   const CARD_BACK_HTML = '<div class="card-back"><h1>Oracle Deck</h1><img src="/static/oracle-deck.svg" alt="Oracle Deck card back"></div>';
 
   const cardFace = document.getElementById("card-face");
   const drawBtn = document.getElementById("draw-btn");
 
-  function getUsed() {
-    try { return JSON.parse(sessionStorage.getItem(STORAGE_KEY) || "[]"); }
-    catch (e) { return []; }
-  }
-  function setUsed(arr) { sessionStorage.setItem(STORAGE_KEY, JSON.stringify(arr)); }
-  function remainingSlugs() {
-    const used = getUsed();
-    return CARD_SLUGS.filter(s => !used.includes(s));
-  }
-  function updateButtonState() {
-    drawBtn.textContent = remainingSlugs().length === 0 ? "Reshuffle" : "Draw";
-  }
+  let lastKnownCurrent = undefined; // undefined = not yet loaded
+  let lastKnownUsedCount = 0;
+  let polling = false;
+
   function showCardBack() {
     cardFace.innerHTML = CARD_BACK_HTML;
   }
@@ -101,36 +84,67 @@
     iframe.addEventListener("load", function() { setTimeout(poll, 150); });
   }
 
-  function drawCard() {
-    let remaining = remainingSlugs();
-
-    if (remaining.length === 0) {
-      setUsed([]);
-      showCardBack();
-      updateButtonState();
-      return;
-    }
-
-    drawBtn.disabled = true;
-    const chosen = remaining[Math.floor(Math.random() * remaining.length)];
-
-    fetchDecryptedCard(chosen, function(card, err) {
-      drawBtn.disabled = false;
+  function renderCurrentCard(slug) {
+    fetchDecryptedCard(slug, function(card, err) {
       if (err) {
         cardFace.innerHTML = '<p class="oracle-hint">' + err + '</p>';
         return;
       }
-      const used = getUsed();
-      used.push(chosen);
-      setUsed(used);
       cardFace.innerHTML = '<h1 class="oracle-card-title">' + card.title + '</h1>' + card.html;
-      updateButtonState();
     });
   }
 
-  drawBtn.addEventListener("click", drawCard);
+  function updateButtonLabel(usedCount) {
+    drawBtn.textContent = usedCount >= TOTAL_CARDS ? "Reshuffle" : "Draw";
+  }
+
+  function applyState(state) {
+    const usedCount = state.used ? state.used.length : 0;
+    updateButtonLabel(usedCount);
+
+    const currentChanged = state.current !== lastKnownCurrent;
+    if (currentChanged) {
+      lastKnownCurrent = state.current;
+      if (state.current) {
+        renderCurrentCard(state.current);
+      } else {
+        showCardBack();
+      }
+    }
+    lastKnownUsedCount = usedCount;
+  }
+
+  function fetchState() {
+    fetch(WORKER_URL + "/state")
+      .then(function(res) { return res.json(); })
+      .then(applyState)
+      .catch(function() { /* silent; will retry on next poll */ });
+  }
+
+  function startPolling() {
+    if (polling) return;
+    polling = true;
+    setInterval(fetchState, POLL_MS);
+  }
+
+  function handleDrawClick() {
+    drawBtn.disabled = true;
+    const endpoint = lastKnownUsedCount >= TOTAL_CARDS ? "/reshuffle" : "/draw";
+    fetch(WORKER_URL + endpoint, { method: "POST" })
+      .then(function(res) { return res.json(); })
+      .then(function(state) {
+        drawBtn.disabled = false;
+        applyState(state);
+      })
+      .catch(function() {
+        drawBtn.disabled = false;
+      });
+  }
+
+  drawBtn.addEventListener("click", handleDrawClick);
   showCardBack();
-  updateButtonState();
+  fetchState();
+  startPolling();
 })();
 </script>
 
