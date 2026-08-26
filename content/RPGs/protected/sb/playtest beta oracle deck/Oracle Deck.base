@@ -11,5 +11,9 @@ views:
       - publish
       - unlisted
       - password
+      - description
+    sort:
+      - property: card type
+        direction: ASC
     columnSize:
       note.password: 154

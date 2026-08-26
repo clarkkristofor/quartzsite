@@ -3,9 +3,11 @@ card type: good/bad
 password:
 publish: true
 unlisted: true
+description: draft oracle deck card
 ---
 ## *other names*
-- Abuse, Rot
+- Abuse
+- Rot
 ## *themes*
 - decay
 - depravity

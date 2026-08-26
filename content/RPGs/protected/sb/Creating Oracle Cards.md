@@ -1,6 +1,5 @@
----
-password: 8;qTcpW]j]=m_EOx,aTo{XcB
----
+By James D'Amato, from *The Ultimate RPG Game Master's Guide*
+
 For a basic functioning divination set, you’ll want to start with at least eight cards, adding more as you see fit. For small sets, about half of the cards (four of the eight) should represent ideas that are clearly positive or negative from the perspective of the PCs. “Good” and “bad” results are extremely evocative in divination—they provoke a clear emotional response. They also ensure your deck can give a basic yes or no answer. The other half of your deck should be less binary and more grounded in highlighting unique features of your world.
 
 The following format is recommended:
