@@ -216,35 +216,42 @@ code strong {
   font-weight: 500;
 }
 
-// H1 LINKS
-/* Target internal links inside H1 elements */
-/* 1. Main heading link: clear highlight, set dark color, add red arrow */
-h1 a.internal.alias {
+// ANCHOR ICONS (site-wide, all headings)
+/* Keep the anchor icon visible, but strip the highlight/background */
+:is(h1, h2, h3, h4, h5, h6) a.internal[role="anchor"] {
   background-color: transparent;
-  color: var(--dark);
   padding: 0;
-  border-radius: 0;
-  display: inline-flex;
-  align-items: center;
-
-  &::after {
-    content: " →";
-    color: var(--secondary);
-    margin-left: 0.35rem;
-    font-weight: 400;
-    transition: transform 0.2s ease-in-out;
-  }
-
-  &:hover::after {
-    transform: translateX(4px);
-  }
 }
 
-/* 2. Anchor icon link: strip background highlight & color */
-h1 a.internal[role="anchor"] {
-  background-color: transparent;
-  padding: 0;
-  color: transparent;
+// H1 LINKS — INDEX PAGE ONLY
+/* Hide default link icon and highlighting on H1, use dark text + red arrow instead */
+body[data-slug="index"] {
+  h1 a.internal.alias {
+    background-color: transparent;
+    color: var(--dark);
+    padding: 0;
+    border-radius: 0;
+    display: inline-flex;
+    align-items: center;
+
+    &::after {
+      content: " →";
+      color: var(--secondary);
+      margin-left: 0.35rem;
+      font-weight: 400;
+      transition: transform 0.2s ease-in-out;
+    }
+
+    &:hover::after {
+      transform: translateX(4px);
+    }
+  }
+
+  h1 a.internal[role="anchor"] {
+    background-color: transparent;
+    padding: 0;
+    color: transparent;
+  }
 }
 
 /* Scope to the folder-page title specifically */

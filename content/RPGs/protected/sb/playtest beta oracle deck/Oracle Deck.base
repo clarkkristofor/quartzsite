@@ -13,6 +13,8 @@ views:
       - password
       - description
     sort:
+      - property: file.name
+        direction: ASC
       - property: card type
         direction: ASC
     columnSize:
