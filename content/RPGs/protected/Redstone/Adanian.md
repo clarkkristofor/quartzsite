@@ -3,7 +3,7 @@ publish: true
 password:
 unlisted: true
 ---
-ruthless high elf
+ruthless high elf (maybe [[Camp Redstone#5. Ambush defeated|green dragon]])
 prime mover in camp
 owner of Rock Bottom
 the [[Elf Queen]] owes him favors
