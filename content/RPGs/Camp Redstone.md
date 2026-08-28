@@ -7,6 +7,8 @@ Game: 13th Age, 2e
 GM: Sean
 ---
 ## 6. Cult of the Right Height
+We rescued the real Fred Boulder from the basement of [[Wolfgang Puck]]'s Fox & Hound.
+
 Leader [[Bartleby Stumps]] and the 45 members (including 9 other fully mutilated) were enthralled to a demon. We interrupted the new moon ritual in Owl's Head Grove, saved [[Bartleby Stumps|Bart]] and the rest, and banished the demon. [[Chevon]] helped. A traveling evangelist named Frank Lloyd Height converted Bart originally. (Ended session at escalation 5. Demon and priests not yet defeated.)
 ## 5. Ambush defeated
 We killed everyone, except one wizard (who defected to us) and Fred Boulder (who was revealed as a [[High Druid]] shapechanger). The real Boulder is tied up in an [[Clan Ironsong]] cellar. The shapechanger does not want mines cleared or the camp expanded and wants Redstone people to fight among themselves. 
