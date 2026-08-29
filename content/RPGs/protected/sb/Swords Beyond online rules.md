@@ -11,7 +11,7 @@ unlisted: true
 
 **a fast & loose, highly improvisational fantasy rpg**
 
-hack of *[Bump in the Dark, revised edition](https://jexjthomas.itch.io/bump-in-the-dark),* by Jex Thomas 
+mash up of *[Bump in the Dark, revised edition](https://jexjthomas.itch.io/bump-in-the-dark),* by Jex Thomas, and *[FIST: Ultra Edition](https://claymorerpgs.itch.io/fist)*, by B. Everett Dutton, Ripley Caldwell, T.H. Cochlin, Back-Alley Coalition, Max Danle.
 
 with additional inspiration from *[13th Age](https://pelgranepress.com/13th-age/)* by Rob Heinsoo & Jonathan Tweet, *[Maze Rats](https://questingbeast.itch.io/maze-rats)* by Ben Milton, and *[50/50](https://docs.google.com/document/d/1NLD_KhZwrKRz3sIquZDSW_Wx__7My6Kdg1Jbk6hF7Mw/edit?pli=1&tab=t.0)* by John Harper
 ### *[Downloads](https://drive.google.com/drive/folders/1rtNJpaatjz2WGgBjgilf1uSoaCo8LBJX?usp=sharing)*
@@ -52,48 +52,45 @@ Your destiny is also intertwined with a **pact** of other hunters and, of course
 **...is life beyond containing or taming.** The world is thriven by the Wild, which gives healthy life (thus defying the Hells), creates new life out of death (thus sharing some mysterious kinship with the Dead), and stirs love that makes both possible (thus echoing many songs of the Heavens). But Powers of the Wild break many things too. Boundaries, taboos, stone, and the like.
 
 # Playing Hunters
-
 ## Agenda
-
 ### Do what your hunter would do. 
-
 The game gives you **the bones** – _kin_, _culture_, _belief_, and _drive_ – and dumps them in the middle of your hunter sheet. Put flesh on those bones by acting on them, give them life by letting your hunter embody them, even struggle with them, change them.
 
 The game also gives you **the incentive**. Doing what your hunter would do will earn you _hope_ to unlock new hunter abilities and bonuses.
-
 ### Make your hunter real.
-
 Play like your hunter is real person living in a real world. Multifaceted, flawed, heroic, changing. All the more, given the pressure of being a hunter. Most importantly, give your hunter skin in the game, something urgent and important that’s at stake. Tangle them up in the fiction of the world.
-
 ### Play to find out what happens.
-
 Discover your hunter’s story; don’t plan it. Let it emerge from dice rolls, other players’ actions, your instinct for who your hunter is. Stay in the moment.
 
 ## Rolling Dice
-
 ### Basic Rolls
-
-Say what your hunter does. If the action is risky, the GM may call for a roll. Roll 2d6 +STAT. Your action’s outcome is: **10+** _best_, **7-9** _mixed_, or **6-** _worst_.
-
-_Mixed_ might mean _best_ but with a cost (injury, trouble, reduced reward). _Worst_ means negative consequences, not simply failure. You may do what you intended but be undone by others’ actions, unintended consequences, or the shadow.
-
-Before rolling, you may: 
-
-- **Go for broke:** Take on more risk to increase your impact. Do something big, stupid, or beyond your capabilities. Expose yourself to serious trouble. A 9- will be worse but a 10+, better.
-- **Play it safe:** Reduce your risk for lower impact. Act with great caution. A 9- won’t be as bad, but a 10+ won’t be as good.
-
-### Stats
+Say what your hunter does. If the action is risky, the GM may call for a roll. Roll 2d6 +STAT. 
+#### Stats
 - **BODY** when using strength, speed, toughness or nimbleness.
 - **HEART** when testing loyalty or using persuasion, empathy, cunning or wisdom.
 - **MIND** when using learning, analysis or perception, testing composure, or tinkering.
-- **BEYOND** when using magic, accessing or channeling a Power Beyond this world; banish or harm, conjure or create, control or animate, divine or descry, illude or trick, transform or mend, ward or protect.
-- **FATE** when framing a fateful encounter with the Beyond and/or shadow.
-- **TRUST** when leveraging the pact’s relationship with the people of Lost Plenty.
-- **STATUS** when leveraging the pact’s reputation with other factions.
+- **BEYOND** when using [[#Magic, Favor & Fate|magic]] or accessing or channeling a Power Beyond this world.
+#### Outcomes
+Your action’s outcome is either **10+** _best_ or **9-** *worst*, with special cases that heighten the importance of the scene: *power* (double 6s) and *shadow* (double 1s).
+- ***Best*** means you do what you intended and it achieves what you hoped.
+- ***Worst*** means negative consequences, not simply failure. You may do what you intended but be undone by others’ actions, unintended consequences, or the shadow.
+- ***Power*** means your Power intervenes. It's better than *best*. Clear 2 *favor*. Draw an *oracle card*.
+  GM: deliver a message, offer an opportunity, introduce a welcome plot twist, ask questions and use the answers: *What made the stakes so high that your Power intervened? What foreshadowed this intervention?*
+- ***Shadow*** means the shadow gets its tenterhooks in you. It's worse than *worst*. Mark *overpowered*. Draw an *oracle card*.
+  GM: introduce danger, deliver an ominous threat, show something off-screen that just got much worse, offer a deal with the shadow, ask questions and use the answers: *What’s really going on in this scene or hunt? What suddenly makes terrifying sense?*
+#### Influencing Outcomes
+Before basic rolls, you may: 
+- **Go for broke:** Take on more risk to increase your impact. Do something big, stupid, or beyond your capabilities. Expose yourself to serious trouble. A 9- will be worse but a 10+, better. Gain 1 *hope* when you do.
+- Receive a **Help Die** or **Set Up** action. (See [[#Teamwork|"Teamwork"]].)
 
-### Magic, Favor & Fate
-**There are no spells. Every spell is bespoke.** For inspiration, cross your Power’s Realm Beyond with a verb from the +BEYOND “Stats” sidebar. For example:
+After basic rolls, as long as you haven't already rolled *shadow*, you may mark *[[#Favor|favor]]* or a *[[#Conditions & Death|condition]]* to roll +1d6 to improve the result:
+- **Power Die**: Mark 2 *favor*.
+- **Price Die**: Mark a *condition*, relevant first (*exhausted* for +BODY, *overwhelmed* for +HEART, etc.).
 
+When rolling 3 or 4 dice, two 6s or two 1s count as *Power* or *shadow* outcomes respectively.
+
+### Magic
+**There are no spells. Every spell is bespoke.** For inspiration, cross your Power’s Realm Beyond with a verb from this list: banish or harm, conjure or create, control or animate, divine or descry, illude or trick, transform or mend, ward or protect. For example:
 - **the** **Dead:** summon spirits, drain life, reduce chains to rust
 - **the Deeps:** control water, see in the dark, enter dreams
 - **the** **Heavens:** consecrate a place, raise a divine light, discern truth
@@ -101,63 +98,38 @@ Before rolling, you may: 
 - **the Weft:** teleport, pick locks, animate a cairn
 - the **Wild:** speak with animals, animate vines, summon the wind
 
-_Favor_ is magic granted by your Power Beyond. After any roll, mark 2 _favor_ for +1. Rolling 7-9 on +BEYOND rolls may cost you _favor_. The GM may require _favor_ for even trying major magic. Some abilities cost _favor_ to use. When you use _favor_, mark your 9-segment favor track. Filling it triggers a *[[#Magic, Favor & Fate|fate roll]]*.
-
-_Favor_ limits magic on each hunt. _Fate_ limits your hunter’s career and perhaps lifespan.
-
-### Double 6s & Double 1s
-You _roll Power_ when you roll double 6s and _shadow_ when you roll double 1s. Both heighten the importance of the scene.
-
-![[Pasted image 20260802163329.png|40]] **Your Power intervenes.** The outcome is better than _best_. Clear **1 favor**.
-
-GM: deliver a message, offer an opportunity, introduce a welcome plot twist, ask questions and use the answers: *What made the stakes so high that your Power intervened? What foreshadowed this intervention?*
-
-![[Pasted image 20260802163241.png|40]]  **The shadow gets its tenterhooks in you.** The outcome is worse than _worst_. How? In addition, mark *overpowered*.
-
-GM: introduce danger, deliver an ominous threat, show something off-screen that just got much worse, offer a deal with the shadow, ask questions and use the answers: *What’s really going on in this scene or hunt? What suddenly makes terrifying sense?*
-
-### Teamwork
-Teamwork actions are _help_, _protect_, _set up_, and _act together_. As always, say what your hunter does before rolling. _Angry_ hunters cannot lead, participate in, or benefit from teamwork.
-
-**Help.** Helpers may suffer any consequences, depending on the outcome. Only one helper at a time.
-
-**Act Together.** The single lowest result determines consequences for the group. If you roll 7+, you may mark 1 favor to get someone else out of a bad spot, turning their 6- into a 7-9. Describe how the other hunter saved you. _Rolling_ _Power_ cancels all 6- for 0 favor.
-
-### Fortune Rolls
-Fortune rolls are for no-risk actions or leaving aspects of the world or situation to chance. Describe your goal, then roll with +1 per major advantage and -1 per major disadvantage. The GM may let you add a stat.
+### Favor
+_Favor_ is magic granted by your Power Beyond. After a basic, you may mark 2 *favor* to add a **Power Die** (+1d6) to the result. The GM may require _favor_ for even trying major magic. Some abilities cost _favor_ to use. When you use _favor_, mark your 9-segment favor track. Filling it triggers a *[[#Magic, Favor & Fate|fate roll]]*.
 
 ### Fate Rolls
-A fate roll frames an encounter with your Power Beyond and/or the shadow. When filling your favor track, roll +FATE and play a scene with:
-
-#### **10+, your Power Beyond.**
-Take +1 fate and clear a condition.
-
-If you can’t take +1 fate, your reward has come and your life as a hunter ends; choose _revelation_ or _miracle_. After, does your hunter die, retire, ascend Beyond, or something else?
-
+A fate roll frames an encounter with your Power Beyond and/or the shadow. When filling your favor track, roll 2d6 +FATE and play a scene with:
+#### 10+, your Power Beyond.
+Take +1 fate and clear a condition. If you can’t take +1 fate, your reward has come and your life as a hunter ends; choose _revelation_ or _miracle_. After, does your hunter die, retire, ascend Beyond, or something else?
 - **Revelation.** Your Power reveals how to deal the shadow a crippling blow. All other hunters mark 4 hope.
 - **Miracle.** Through you, your Power does something extraordinary for Lost Plenty and the Over Reach. The pact marks 2 trust.
-#### **7-9, your Power Beyond and the shadow.** 
+#### 7-9, your Power Beyond and the shadow. 
 Choose:
-
 * **Resist.** Mark both a _wound_ “shadow sickness” and _incapacitated_ to take +1 fate.
 * **Noble bargain.** Take -1 fate to give another hunter +1 fate.
 * **Ignoble bargain.** Take +1 fate. The hunter besides you with the lowest fate takes -1 fate. (Tied hunters roll +FATE; lowest loses.)
-#### **6-, the shadow.**
-Take -1 fate and mark a condition.
-
-If you can’t take -1 fate, your doom has come and your life as a hunter ends; choose:
-
+#### 6-, the shadow.
+Take -1 fate and mark a condition. If you can’t take -1 fate, your doom has come and your life as a hunter ends; choose:
 * **Sacrifice yourself**, giving +2 to each hunter’s next roll. Does your hunter die, retire, ascend Beyond, or something else?
 * **Embrace the shadow.** It’s satisfied…for now. All other hunters may take +1 fate. Your hunter is in the GM’s hands now.
 
 #### Set the Scene
 Choose players to play your Power and/or the shadow. The rest play the chorus, anonymous Powers of either the relevant Realm Beyond or the shadow. Remind everyone of your Power’s Realm and link, your belief and the pact’s conviction. Decide: who’s driving the scene, what do they want, and who do they want it from? Integrate your reward, doom, or 7-9 choice. End the scene when the driver gets what they want or definitively does not.
 
+### Teamwork
+Teamwork is a set of actions hunters can take to benefit pact mates: _help_, _protect_, and _set up_. *Angry* hunters cannot lead, participate in, or benefit from teamwork.
+- **Help.** Spend 1 *hope* to give another hunter a +1d6 **Help Die** on a basic roll. Helpers may suffer any consequences, depending on the outcome. Only one helper at a time. Describe how you help.
+- **Protect**. Intervene to suffer consequences instead of another hunter. Describe how you protect them.
+- **Set Up**. Perform a set up action for another hunter. If they follow through, they will do more on their own *best* result. Describe your set up.
 
 ## Conditions & Death
 Conditions make hunting monsters harder. They reflect debilities with story effects. Mark conditions on your hunter sheet. To clear them, take the relevant action and enjoy a more interesting scene.
 
-Wounds are freeform conditions reflecting physical harm. You can mark **armor** instead of a wound. Healing (mundane or magical) will stabilize you temporarily, allowing you to ignore the wound’s effects for the current scene.
+Wounds are freeform conditions reflecting serious physical harm. You can mark **armor** instead of a wound. Healing (mundane or magical) will stabilize you temporarily, allowing you to ignore the wound’s effects for the current scene.
 
 Your death is in the hands of *[[#Magic, Favor & Fate|fate]]*.
 
@@ -577,6 +549,26 @@ BLOOD BROTHERS (4H). Someone you care about is in trouble – who? – and you�
 
 **NEW SCARS** (4H). Your sect has a fabled enemy or rival and they’ve been training you how to hunt it down. Who or what is it, and how have you come to better understand it? Say what this
 knowledge has cost you. *Take a monstrous ability and -1 fate.* [▷]
+
+
+# the Pact
+
+## Faction Status
+Your pact has a status with each of the relevant factions of the Over Reach. This indicates how well you are liked, hated, or, most often, how much of a threat that faction sees you as. Status is rated from -2 to +2, with zero (neutral) being the default starting status. You track your status with the relevant factions on the faction tracker.
+### Changes
+Your status with a faction changes for any number of reasons, but one of the most likely is that your actions during a hunt affected them in some way. If a faction is hurt by your actions, you take -1 status with them. If a faction is helped by your actions, you take +1 status with them. Your status may also change if you do a favor for a faction, you refuse a faction’s demands, a faction catches you investigating their operations, or you make a deal with the darkness.
+## Levels
+**+2 (Linked).** This faction will help you even if it’s not in their best interest to do so. They expect you to do the same for them.
+
+**+1 (Friendly).** This faction will help you if it doesn’t create any problems for them. They expect you to do the same.
+
+**0 (Neutral).** This faction doesn’t think about you very much, one way or the other.
+
+**-1 (Hostile).** This faction will look for opportunities to cause trouble for you or even hurt you if it doesn’t cause problems for them. They expect the same from you, and take precautions against you.
+
+**-2 (Hunted).** This faction will go out of its way to hurt you even if it’s not in their best interest to do so. They see you as a threat to their operations and take precautions against you. They want you out of the picture.
+
+When you’re being hunted by one or more factions, your pact suffers +2 alarm after hunts, and every string the keeper pulls will involve the involved faction(s) coming for you. The only way to stop a faction from hunting you once they’ve started is to find a way to eliminate them, or by spending Trust to negotiate a mutual agreement to establish a new status rating
 
 
 # World Map
