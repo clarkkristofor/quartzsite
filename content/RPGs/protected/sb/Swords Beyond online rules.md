@@ -72,12 +72,18 @@ Say what your hunter does. If the action is risky, the GM may call for a roll. R
 - **BEYOND** when using [[#Magic, Favor & Fate|magic]] or accessing or channeling a Power Beyond this world.
 #### Outcomes
 Your action’s outcome is either **10+** _best_ or **9-** *worst*, with special cases that heighten the importance of the scene: *power* (double 6s) and *shadow* (double 1s).
-- ***Best*** means you do what you intended and it achieves what you hoped.
-- ***Worst*** means negative consequences, not simply failure. You may do what you intended but be undone by others’ actions, unintended consequences, or the shadow.
-- ***Power*** means your Power intervenes. It's better than *best*. Clear 2 *favor*. Draw an *oracle card*.
-  GM: deliver a message, offer an opportunity, introduce a welcome plot twist, ask questions and use the answers: *What made the stakes so high that your Power intervened? What foreshadowed this intervention?*
-- ***Shadow*** means the shadow gets its tenterhooks in you. It's worse than *worst*. Mark *overpowered*. Draw an *oracle card*.
-  GM: introduce danger, deliver an ominous threat, show something off-screen that just got much worse, offer a deal with the shadow, ask questions and use the answers: *What’s really going on in this scene or hunt? What suddenly makes terrifying sense?*
+##### *Best*
+You do what you intended, and it achieves what you hoped.
+##### *Worst*
+Negative consequences, not simply failure. You may do what you intended but be undone by others’ actions, unintended consequences, or the shadow.
+##### *Power*
+Your Power intervenes. It's better than *best*. Clear 2 *favor*. Draw an *oracle card*.
+
+*GM:* deliver a message, offer an opportunity, introduce a welcome plot twist, ask questions and use the answers: *What made the stakes so high that your Power intervened? What foreshadowed this intervention?*
+##### *Shadow*
+The shadow gets its tenterhooks in you. It's worse than *worst*. Mark *overpowered*. Draw an *oracle card*.
+
+*GM:* introduce danger, deliver an ominous threat, show something off-screen that just got much worse, offer a deal with the shadow, ask questions and use the answers: *What’s really going on in this scene or hunt? What suddenly makes terrifying sense?*
 #### Influencing Outcomes
 Before basic rolls, you may: 
 - **Go for broke:** Take on more risk to increase your impact. Do something big, stupid, or beyond your capabilities. Expose yourself to serious trouble. A 9- will be worse but a 10+, better. Gain 1 *hope* when you do.
@@ -121,13 +127,33 @@ Take -1 fate and mark a condition. If you can’t take -1 fate, your doom has co
 Choose players to play your Power and/or the shadow. The rest play the chorus, anonymous Powers of either the relevant Realm Beyond or the shadow. Remind everyone of your Power’s Realm and link, your belief and the pact’s conviction. Decide: who’s driving the scene, what do they want, and who do they want it from? Integrate your reward, doom, or 7-9 choice. End the scene when the driver gets what they want or definitively does not.
 
 ### Teamwork
-Teamwork is a set of actions hunters can take to benefit pact mates: _help_, _protect_, and _set up_. *Angry* hunters cannot lead, participate in, or benefit from teamwork.
-- **Help.** Spend 1 *hope* to give another hunter a +1d6 **Help Die** on a basic roll. Helpers may suffer any consequences, depending on the outcome. Only one helper at a time. Describe how you help.
-- **Protect**. Intervene to suffer consequences instead of another hunter. Describe how you protect them.
-- **Set Up**. Perform a set up action for another hunter. If they follow through, they will do more on their own *best* result. Describe your set up.
+Teamwork is a set of actions hunters can take to benefit pact mates: _help_, _protect_, _set up_, and **anchor**. *Angry* hunters cannot lead, participate in, or benefit from teamwork.
+##### **Help**
+Spend 1 *hope* to give another hunter a +1d6 **Help Die** on a basic roll. Helpers may suffer any consequences, depending on the outcome. Only one helper at a time. Describe how you help.
+##### **Protect**
+Intervene to suffer consequences instead of another hunter. Succeeds automatically. Describe how you protect them. Mark 1 hope.
+##### **Set Up**
+Perform a set up action for another hunter. If they follow through, they will do more on their own *best* result. Describe your set up. Roll if necessary.
+##### **Anchor**
+Act to clear another hunter's condition:
+- *Exhausted* - Sustain (+BODY)
+- *Overwhelmed* - Steady (+MIND)
+- *Afraid* - Encourage (+HEART)
+- *Overshadowed* - Ground (+BEYOND)
+- *Angry* - Temper (+HEART)
+
+Describe what you do. Make a basic roll, 2d6 +STAT.
+- **10+** They clear the condition and mark 1 hope or 1 bond, their choice.
+- **9-** They immediately do the solo action that clears the condition. You mark the same condition.
 
 ## Conditions & Death
 Conditions make hunting monsters harder. They reflect debilities with story effects. Mark conditions on your hunter sheet. To clear them, take the relevant action and enjoy a more interesting scene.
+
+Conditions cascade. If you must mark a condition that you've already marked, mark the next. There are two "tracks."
+- Exhausted → Overwhelmed → Afraid → Overshadowed
+- Angry → Overshadowed
+
+If you must mark *overshadowed* a second time, *act in the interest of the shadow* without clearing *overshadowed*.
 
 Wounds are freeform conditions reflecting serious physical harm. You can mark **armor** instead of a wound. Healing (mundane or magical) will stabilize you temporarily, allowing you to ignore the wound’s effects for the current scene.
 
@@ -502,10 +528,6 @@ A hearthborn’s culture is an echo of their family’s culture (identified by y
 > Each item, ritual, or spell will have 2-3 tags that describe it. Often, one of these tags will be a benefit and the other a drawback.
 
 ## Pact Arcs
-
-**CHOSEN FAMILY** (3B). While trying to enjoy some downtime together, an argument breaks out among the hunters. *Everyone involved must update or write a new belief about one of the other parties who was involved.* [▷]
-
-%% Since I changed beliefs, this is outmoded. %%
 
 **MAKE A DISCOVERY** (3H). A scene where the hunters discover or become acquainted with a new location. *Add it to the map.* [▷▷▷▷]
 
