@@ -72,18 +72,15 @@ Say what your hunter does. If the action is risky, the GM may call for a roll. R
 - **BEYOND** when using [[#Magic, Favor & Fate|magic]] or accessing or channeling a Power Beyond this world.
 #### Outcomes
 Your action’s outcome is either **10+** _best_ or **9-** *worst*, with special cases that heighten the importance of the scene: *power* (double 6s) and *shadow* (double 1s).
-##### *Best*
+##### *Best* (10+)
 You do what you intended, and it achieves what you hoped.
-##### *Worst*
+##### *Worst* (9-)
 Negative consequences, not simply failure. You may do what you intended but be undone by others’ actions, unintended consequences, or the shadow.
-##### *Power*
-Your Power intervenes. It's better than *best*. Clear 2 *favor*. Draw an *oracle card*.
+##### *Power* (double 6s)
+Your Power intervenes. It's better than *best*. Clear 2 *favor*. Draw an *[[#Drawing Cards the Oracle Deck|oracle card]]*.
+##### *Shadow* (double 1s)
+The shadow gets its tenterhooks in you. It's worse than *worst*. Mark *overpowered*. Draw an *[[#Drawing Cards the Oracle Deck|oracle card]]*.
 
-*GM:* deliver a message, offer an opportunity, introduce a welcome plot twist, ask questions and use the answers: *What made the stakes so high that your Power intervened? What foreshadowed this intervention?*
-##### *Shadow*
-The shadow gets its tenterhooks in you. It's worse than *worst*. Mark *overpowered*. Draw an *oracle card*.
-
-*GM:* introduce danger, deliver an ominous threat, show something off-screen that just got much worse, offer a deal with the shadow, ask questions and use the answers: *What’s really going on in this scene or hunt? What suddenly makes terrifying sense?*
 #### Influencing Outcomes
 Before basic rolls, you may: 
 - **Go for broke:** Take on more risk to increase your impact. Do something big, stupid, or beyond your capabilities. Expose yourself to serious trouble. A 9- will be worse but a 10+, better. Gain 1 *hope* when you do.
@@ -109,16 +106,16 @@ _Favor_ is magic granted by your Power Beyond. After a basic, you may mark 2 *fa
 
 ### Fate Rolls
 A fate roll frames an encounter with your Power Beyond and/or the shadow. When filling your favor track, roll 2d6 +FATE and play a scene with:
-#### 10+, your Power Beyond.
+##### 10+, your Power Beyond.
 Take +1 fate and clear a condition. If you can’t take +1 fate, your reward has come and your life as a hunter ends; choose _revelation_ or _miracle_. After, does your hunter die, retire, ascend Beyond, or something else?
 - **Revelation.** Your Power reveals how to deal the shadow a crippling blow. All other hunters mark 4 hope.
 - **Miracle.** Through you, your Power does something extraordinary for Lost Plenty and the Over Reach. The pact marks 2 trust.
-#### 7-9, your Power Beyond and the shadow. 
+##### 7-9, your Power Beyond and the shadow. 
 Choose:
 * **Resist.** Mark both a _wound_ “shadow sickness” and _incapacitated_ to take +1 fate.
 * **Noble bargain.** Take -1 fate to give another hunter +1 fate.
 * **Ignoble bargain.** Take +1 fate. The hunter besides you with the lowest fate takes -1 fate. (Tied hunters roll +FATE; lowest loses.)
-#### 6-, the shadow.
+##### 6-, the shadow.
 Take -1 fate and mark a condition. If you can’t take -1 fate, your doom has come and your life as a hunter ends; choose:
 * **Sacrifice yourself**, giving +2 to each hunter’s next roll. Does your hunter die, retire, ascend Beyond, or something else?
 * **Embrace the shadow.** It’s satisfied…for now. All other hunters may take +1 fate. Your hunter is in the GM’s hands now.
@@ -127,35 +124,56 @@ Take -1 fate and mark a condition. If you can’t take -1 fate, your doom has co
 Choose players to play your Power and/or the shadow. The rest play the chorus, anonymous Powers of either the relevant Realm Beyond or the shadow. Remind everyone of your Power’s Realm and link, your belief and the pact’s conviction. Decide: who’s driving the scene, what do they want, and who do they want it from? Integrate your reward, doom, or 7-9 choice. End the scene when the driver gets what they want or definitively does not.
 
 ### Teamwork
-Teamwork is a set of actions hunters can take to benefit pact mates: _help_, _protect_, _set up_, and **anchor**. *Angry* hunters cannot lead, participate in, or benefit from teamwork.
-##### **Help**
+Teamwork is a set of actions hunters can take to benefit pact mates: _help_, _protect_, _set up_, and **anchor**. *Angry* hunters cannot lead, participate in, or benefit from teamwork, except *anchor: temper*.
+##### Help
 Spend 1 *hope* to give another hunter a +1d6 **Help Die** on a basic roll. Helpers may suffer any consequences, depending on the outcome. Only one helper at a time. Describe how you help.
-##### **Protect**
+##### Protect
 Intervene to suffer consequences instead of another hunter. Succeeds automatically. Describe how you protect them. Mark 1 hope.
-##### **Set Up**
+##### Set Up
 Perform a set up action for another hunter. If they follow through, they will do more on their own *best* result. Describe your set up. Roll if necessary.
-##### **Anchor**
-Act to clear another hunter's condition:
-- *Exhausted* - Sustain (+BODY)
-- *Overwhelmed* - Steady (+MIND)
-- *Afraid* - Encourage (+HEART)
-- *Overshadowed* - Ground (+BEYOND)
-- *Angry* - Temper (+HEART)
+##### Anchor
+Act to clear another hunter's condition.
 
+| Condition    | Anchor Action | Stat    |
+| ------------ | ------------- | ------- |
+| Exhausted    | Sustain       | +BODY   |
+| Overwhelmed  | Steady        | +HEART  |
+| Afraid       | Encourage     | +MIND   |
+| Overshadowed | Ground        | +BEYOND |
+| Angry        | Temper        | +HEART  |
 Describe what you do. Make a basic roll, 2d6 +STAT.
 - **10+** They clear the condition and mark 1 hope or 1 bond, their choice.
 - **9-** They immediately do the solo action that clears the condition. You mark the same condition.
 
-## Conditions & Death
-Conditions make hunting monsters harder. They reflect debilities with story effects. Mark conditions on your hunter sheet. To clear them, take the relevant action and enjoy a more interesting scene.
+## Drawing Cards
+### the Oracle Deck
+When you roll double 6s or double 1s, your Power Beyond intervenes or the shadow gets its tenterhooks in you. Something significant will change in the scene or hunt. The GM has not predetermined *what* and *how*; that's up to the whole table. Use the card you draw from the Oracle Deck to inspire you. Collaborate with the other players and the GM to interpret the meaning of the card in the context of this moment in the game.
 
-Conditions cascade. If you must mark a condition that you've already marked, mark the next. There are two "tracks."
+The cards in the Oracle Deck are unique, custom-written by the GM for your campaign. Some have clear good or bad outcomes. Others are more ambiguous or open ended. 
+### Reading Oracle cards
+Always let your interpretation of the card follow the die roll. Say, for example, you roll double 6s and draw a "bad" card. The roll's outcome is still better than *best*. The "bad" card could show you how the stakes were higher than you thought and thus why your Power intervened. Or it could reveal what "bad" fate befell your opponents.
+
+The events or revelations the card inspires could happen in the scene. Or they could offer a glimpse of something off-screen. They could happen to anyone - the people of Lost Plenty, the March Lord, the Coastal Cities, a player's kin - friend or foe, near or far.
+
+A few good open-ended questions might help prime your creative pump. *Power (6s):* *What made the stakes so high that my Power intervened? What foreshadowed this intervention?* *Shadow (1s):* *What’s really going on in this scene or hunt? What suddenly makes terrifying sense?* Ask these and other questions that flow from the story so far. Don't be afraid of a little silence. Use the answers that most resonate or excite you all or seem most surprising and fun. Ask "*What if...*?" to test out possibilities before settling on the final interpretation.
+
+## Conditions & Death
+Conditions make hunting monsters harder. They reflect debilities with story effects. Mark conditions on your hunter sheet. To clear them, take the relevant solo action and enjoy a more interesting scene. Or another hunter could take an *[[#Anchor|anchor]]* action.
+
+| Condition    | Debility                   | Solo Action                                               |
+| ------------ | -------------------------- | --------------------------------------------------------- |
+| Exhausted    | -2 BODY                    | *ignore the demands of a situation to steal some respite* |
+| Overwhelmed  | -2 HEART                   | *act in the interests of a rival NPC*                     |
+| Afraid       | -2 MIND                    | *flee, leaving something important behind*                |
+| Overshadowed | -2 BEYOND                  | *act in the interests of the shadow*                      |
+| Angry        | no [[#Teamwork\|teamwork]] | *take a rash action others cannot ignore*                 |
+Conditions cascade. If you must mark a condition that you've already marked, mark the next.
 - Exhausted → Overwhelmed → Afraid → Overshadowed
 - Angry → Overshadowed
 
 If you must mark *overshadowed* a second time, *act in the interest of the shadow* without clearing *overshadowed*.
 
-Wounds are freeform conditions reflecting serious physical harm. You can mark **armor** instead of a wound. Healing (mundane or magical) will stabilize you temporarily, allowing you to ignore the wound’s effects for the current scene.
+Wounds are freeform conditions reflecting serious physical harm. You can mark **armor** instead of a wound. Healing (mundane or magical) will stabilize you temporarily, allowing you to ignore the wound’s effects for the current scene. To clear a wound, take the *recover* beat in sanctuary.
 
 Your death is in the hands of *[[#Magic, Favor & Fate|fate]]*.
 
