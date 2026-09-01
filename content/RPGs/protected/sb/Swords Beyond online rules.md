@@ -219,10 +219,10 @@ Your death is in the hands of *[[#Magic, Favor & Fate|fate]]*.
 ## Kin
 *2d6 + d66*
 
-### **2** Dual Kinship
+##### **2** Dual Kinship
 roll 2x, ignore 2s
 
-### **3** Troll
+##### **3** Troll
 |  d66  | *from the* (10s)    | *who eat shadow and* (1s) |
 | :---: | :------------------ | :------------------------ |
 | **1** | undermurk           | a hunter’s kin            |
@@ -232,7 +232,7 @@ roll 2x, ignore 2s
 | **5** | barrow wood         | Over Reach people         |
 | **6** | witchwood           | Over Reach people         |
 
-### **4** Hearthborn
+##### **4** Hearthborn
 
 |  d66  | *from* (10s)    | *whose family* (1s)         |
 | :---: | :-------------- | :-------------------------- |
@@ -242,12 +242,12 @@ roll 2x, ignore 2s
 | **4** | New Gull        | died of want or violence    |
 | **5** | Blooming Shores | was lost to shadow          |
 | **6** | Widow’s Take    | was lost to shadow          |
-#### *What are hearthborn?*
+###### *What are hearthborn?*
 Hearthborn were **once simply ash, charred firewood, hearth stones, and household items**, bearing generations of traditional Over Reach house blessings. But when their home is destroyed or their family lost, the warmth and protection can endure, born of love and yearning, wandering as **a melancholic exile looking for a new purpose**. 
 
 A hearthborn’s culture is an echo of their family’s culture (identified by your *Culture & the Beyond* result), made their own by childlike imitation.
 
-### **5** Forged
+##### **5** Forged
 |  d66  | *function* (10s) | *who serve* (1s)  |
 | :---: | :--------------- | :---------------- |
 | **1** | drudgers         | a hunter’s kin    |
@@ -257,7 +257,7 @@ A hearthborn’s culture is an echo of their family’s culture (identified by y
 | **5** | war machines     | a god             |
 | **6** | wildbuilt        | the shadow        |
 
-### **6** Dwarf
+##### **6** Dwarf
 |  d66  | *from the* (10s)      | *with a legacy of* (1s)                         |
 | :---: | :-------------------- | :---------------------------------------------- |
 | **1** | deepening mines       | cataclysm and exile among a hunter’s kin        |
@@ -267,7 +267,7 @@ A hearthborn’s culture is an echo of their family’s culture (identified by y
 | **5** | undermurk             | sharing artifacts of renown with a hunter’s kin |
 | **6** | wardens of the passes | seclusion, secretly serving the shadow          |
 
-### **7** Human
+##### **7** Human
 |  d66  | *from the* (10s)            | *of ___ status* (1s) |
 | :---: | :-------------------------- | :------------------- |
 | **1** | Coastal Cities              | exalted              |
@@ -277,7 +277,7 @@ A hearthborn’s culture is an echo of their family’s culture (identified by y
 | **5** | Conclave *(union of kins)*  | fringe               |
 | **6** | Heirs *(ruins dwellers)*    | unshackled           |
 
-### **8** Elf 
+##### **8** Elf 
 |  d66  | *from the* (10s)                            | *loyal to the* (1s) |
 | :---: | :------------------------------------------ | :------------------ |
 | **1** | forest towers                               | lady of wisdom      |
@@ -287,7 +287,7 @@ A hearthborn’s culture is an echo of their family’s culture (identified by y
 | **5** | ravages                                     | one true god        |
 | **6** | ruins the Coastal Cities<br>were built upon | shadow              |
 
-### **9** Orc
+##### **9** Orc
 |  d66  | *from the* (10s)  | *cursed children of* (1s) |
 | :---: | :---------------- | :------------------------ |
 | **1** | drifts            | a hunter’s kin            |
@@ -297,7 +297,7 @@ A hearthborn’s culture is an echo of their family’s culture (identified by y
 | **5** | warg steppes      | a dead god                |
 | **6** | western highlands | the shadow                |
 
-### **10** Dragonkin 
+##### **10** Dragonkin 
 |  d66  | *from the* (10s) | *who are soldiers in a* (1s)   |
 | :---: | :--------------- | :----------------------------- |
 | **1** | banelands        | hunter’s kin’s armies          |
@@ -307,7 +307,7 @@ A hearthborn’s culture is an echo of their family’s culture (identified by y
 | **5** | secret eyrie     | great dragon’s war with shadow |
 | **6** | wyrmsilver       | great dragon’s war with shadow |
 
-### **11** Ravenkin 
+##### **11** Ravenkin 
 |  d66  | *from the* (10s)              | *who steal from the shadow and* (1s) |
 | :---: | :---------------------------- | :----------------------------------- |
 | **1** | coastal crags                 | a hunter’s kin                       |
@@ -317,7 +317,7 @@ A hearthborn’s culture is an echo of their family’s culture (identified by y
 | **5** | eastern reach                 | Over Reach people                    |
 | **6** | Unbroken Wilderness           | Over Reach people                    |
 
-### **12** Outsider
+##### **12** Outsider
 |  d66  | *from* (10s)                                             | *who* (1s) |
 | :---: | :------------------------------------------------------- | :--------- |
 | **1** | another world                                            | is lost    |
@@ -327,7 +327,7 @@ A hearthborn’s culture is an echo of their family’s culture (identified by y
 | **5** | your Power’s Realm Beyond                                | is hunted  |
 | **6** | another Realm Beyond<br>*(not 1 of 6, don't roll Power)* | returned   |
 
-##### **_If they’re not in your pact, are they in your world?_**
+###### **_If they’re not in your pact, are they in your world?_**
 
 
 ## Culture & the Beyond
@@ -360,7 +360,7 @@ A hearthborn’s culture is an echo of their family’s culture (identified by y
 | **5** | to redeem captive souls             | orphic geometries        | stone circles                      |
 | **6** | to ward off evil                    | true names               | windswept plains                   |
 
-##### **_Do you live your kin’s culture or defy it?_**
+###### **_Do you live your kin’s culture or defy it?_**
 
 
 ## Power Realm & Tether
@@ -369,7 +369,7 @@ A hearthborn’s culture is an echo of their family’s culture (identified by y
 ### Tethers
 You are tethered to your Power Beyond in one of three ways. A link is something you have: a physical object or an attendant being. A mark is something you are: born bodily or in your soul, though others may feel its effects. An omen is something that happens around you: the world reacting to you.
 
-### the DEAD (100)
+##### the DEAD (100)
 
 |       | Link (10–20)                | Mark (30–40)                               | Omen (50–60)                                             |
 | :---: | --------------------------- | ------------------------------------------ | -------------------------------------------------------- |
@@ -380,7 +380,7 @@ You are tethered to your Power Beyond in one of three ways. A link is something 
 | **5** | the urn you were born in    | you smell alternately of marigolds and rot | people nearby cough dust                                 |
 | **6** | village ghost               | your dreams carry messages for the living  | sound of children's laughter                             |
 
-### the DEEPS (200)
+##### the DEEPS (200)
 
 |       | Link (10–20)                          | Mark (30–40)                           | Omen (50–60)                                   |
 | :---: | ------------------------------------- | -------------------------------------- | ---------------------------------------------- |
@@ -391,7 +391,7 @@ You are tethered to your Power Beyond in one of three ways. A link is something 
 | **5** | shard of night                        | you bleed quicksilver                  | water swells toward you                        |
 | **6** | something in shadows                  | you write only in indecipherable runes | your voice always echoes                       |
 
-### the HEAVENS (300)
+##### the HEAVENS (300)
 
 |       | Link (10–20)                                          | Mark (30–40)                             | Omen (50–60)                           |
 | :---: | ----------------------------------------------------- | ---------------------------------------- | -------------------------------------- |
@@ -402,7 +402,7 @@ You are tethered to your Power Beyond in one of three ways. A link is something 
 | **5** | incense that burns but is not consumed                | you can't lie                            | strangers bring you to dying relatives |
 | **6** | many-armed soapstone figure, posed anew every morning | you hear nearby prayers                  | the faithful weep when you near        |
 
-### the HELLS (400)
+##### the HELLS (400)
 
 |       | Link (10–20)         | Mark (30–40)                                            | Omen (50–60)                           |
 | :---: | -------------------- | ------------------------------------------------------- | -------------------------------------- |
@@ -413,7 +413,7 @@ You are tethered to your Power Beyond in one of three ways. A link is something 
 | **5** | ritual dagger        | weeping wound                                           | tempers and old grudges                |
 | **6** | unfulfilled contract | voice of self-loathing                                  | wine sours to vinegar in your presence |
 
-### the WEFT (500)
+##### the WEFT (500)
 
 |       | Link (10–20)                  | Mark (30–40)                                                | Omen (50–60)                                    |
 | :---: | ----------------------------- | ----------------------------------------------------------- | ----------------------------------------------- |
@@ -424,7 +424,7 @@ You are tethered to your Power Beyond in one of three ways. A link is something 
 | **5** | spindle that spins on its own | when you write, the words squirm before settling into place | not even your kin can say where you're from     |
 | **6** | whispering tome               | you keep tripping over the threads of reality               | notes scrawled in random places                 |
 
-### the WILD (600)
+##### the WILD (600)
 
 |       | Link (10–20)            | Mark (30–40)                                                                       | Omen (50–60)                                                |
 | :---: | ----------------------- | ---------------------------------------------------------------------------------- | ----------------------------------------------------------- |
@@ -463,7 +463,7 @@ You are tethered to your Power Beyond in one of three ways. A link is something 
 **STATS**: +2 Body, +1 Heart, -1 Mind
 **GAIN HOPE VIA** force of will or brawn.
 **DRIVE PROMPT**: A past tragedy or a future hope. What keeps you moving forward?
-#### Abilities
+##### Abilities
 □ **RECKLESS**. When you rush into combat without the aid or support of your pact, you do so with increased impact.
 
 □ **BASHING HEADS**. Take **+1** to rolls against minions and mooks. When you investigate using intimidation or actual violence, take **+1** too.
@@ -482,7 +482,7 @@ You are tethered to your Power Beyond in one of three ways. A link is something 
 **STATS**: +2 Heart, +1 Mind, -1 Beyond
 **GAIN HOPE VIA** influence or analysis.
 **DRIVE PROMPT**: Your organization or assignment. Were you assigned here as a reward or punishment?
-#### Abilities
+##### Abilities
 □ **COASTAL CITIES INVESTIGATOR**. You have a practiced eye for examining crime scenes and sites of strange occurrences. Gain **+1** when you do. You can always find a clue when you study wounds, corpses, etc., even on a worst outcome.
 
 □ **KEEN AWARENESS**. You can always **help** another hunter without marking hope as long as you can see them and you agree to **protect** them from consequences.
@@ -501,7 +501,7 @@ You are tethered to your Power Beyond in one of three ways. A link is something 
 **STATS**: +1 Mind, +2 Beyond, -1 Heart
 **GAIN HOPE VIA** eldritch wisdom or arcane power.
 **DRIVE PROMPT**: Your craft or its power. Will you give in to your dark temptations?
-#### Abilities
+##### Abilities
 □ **MINOR INDISCRETIONS**. You can draw power from the shadow. Gain a **6-segment “Indiscretion” clock**. Anytime you’d mark 2 favor, you may mark 1 segment instead. When you do, roll 1d6. If the result is less than or equal to the number of marked segments, mark _overshadowed_. Already marked? Make a fate roll instead.
 
 □ **INVOKE**. You can compel shadow, forcing a nearby entity to obey a command you give it. You are not supernaturally terrified by what you summon or compel, though your teammates might be.
@@ -520,7 +520,7 @@ You are tethered to your Power Beyond in one of three ways. A link is something 
 **STATS**: +3 Mind, -1 Body
 **GAIN HOPE VIA** knowledge or insight.
 **DRIVE PROMPT**: Your research or pursuit. What tragic past mistakes can you never forget, no matter how much studying you do?
-#### Abilities
+##### Abilities
 □ **ALL PART OF THE PLAN**. Expend your **plot armor** to reveal that this was the plan all along. Describe a flashback showing how you prepared, and grant **+2** when helping a teammate, even after they roll. Gain increased impact when acting on your prep.
 
 □ **HIT THE BOOKS**. During downtime, you get two ticks to distribute among any LONG-TERM PROJECT clocks that involve investigation or learning something new.
@@ -539,7 +539,7 @@ You are tethered to your Power Beyond in one of three ways. A link is something 
 **STATS**: +2 Body, +1 Heart, -1 Mind or Beyond
 **GAIN HOPE VIA** deception or charm.
 **DRIVE PROMPT**: A long con or your redemption. Did you choose a life of crime, or was it chosen for you?
-#### Abilities
+##### Abilities
 □ **SMELL IT ON ‘EM**. You always know when someone is lying to you.
 
 □ **DEVIL’S LUCK**. You gain a second use of **plot armor** between downtimes. You may expend your plot armor to resist the consequences of violence or to gain **+1** to a roll at no cost when talking your way out of, or running away from, trouble.
@@ -559,7 +559,7 @@ You are tethered to your Power Beyond in one of three ways. A link is something 
 **GAIN HOPE VIA** cooperation or control.
 **DRIVE PROMPT**: Your sect or crusade. Are you alone in your beliefs or do others walk beside you on this winding path?
 
-#### Abilities
+##### Abilities
 □ **SIGNATURE STYLE**. When fighting in the manner of your sect, choose one; it occurs even on a worst outcome: _you force them where you want them – you gain an extra use of armor – you can escape and they cannot follow._ You cannot choose the same option twice during a hunt.
 
 □ **ALL-CONSUMED**. You are captivated by an element of the history or lore of your sect. What is it? When you investigate or work on a LONG-TERM PROJECT about this subject, gain **+1 result level**.
@@ -637,32 +637,32 @@ You are tethered to your Power Beyond in one of three ways. A link is something 
 
 ## Role Arcs
 
-### Shield
+##### Shield
 **TROUBLED PAST** (3H). Someone from your past pays you a visit. Who is it, and what do they want? *Mark a wound and take a new ability from your playbook.* [▷]
 
 **KILL IT WITH FIRE** (4H). You’re off on your own when you come face to face with something horrible (what is it?) and you’re forced to deal with it on your own. Say which hunter found you and what they saw that terrified them. *Take a monstrous ability and -1 fate.* [▷]
 
-### Law
+##### Law
 **THE BLACK DOSSIER** (3H). A contact provides you with highly classified information. The kind of information people get killed over. *Describe what it is (be as vague or specific as you’d like), gain -1 status with a relevant faction, and take a new ability from your playbook.* [▷]
 
 **DEAL WITH THE DEVIL** (4H). Everything comes at a cost. Tell a story about a deal that required you to make a great sacrifice. What did you sacrifice, and was it worth? *Take a monstrous ability and -1 fate.* [▷]
 
-### Scourge
+##### Scourge
 **ACCIDENTAL INCANTATION** (3H). You’re certain you said the words correctly. All the proper components were there. The blade tasted blood. What went wrong, and who was there to see it? *Mark a condition (your choice) and take a new ability from your playbook.* [▷]
 
 **THE DESCENT** (4H). You succumb to the shadow, which you’ve worked so hard to harness and control. Describe what this looks like. *Take a monstrous ability and -1 fate.* [▷]
 
-### Loreseeker
+##### Loreseeker
 **FAVORS DUE** (3H). You’re called away on business. What excuse do you tell the other hunters, and why can’t they ever know the truth about what you’re doing? *Write a belief that pertains to this and then take a new ability from your playbook.* [▷]
 
 **THE THING WHICH COULD NOT BE PUT BACK** (4H). You always tell others not to mess with that which they don’t understand, and yet here you are. Of course, it’s hard for you to admit that there are things you don’t understand. *Take a monstrous ability and -1 fate.*  [▷]
 
-### Fox 
+##### Fox 
 BORN TO RUN (3H). Something you thought you’d outrun is making itself a problem in the resent. What is it? Who do you confide in? Describe dealing with things. *Permanently lose one of your connections and take a new ability from your playbook.* [▷]
 
 BLOOD BROTHERS (4H). Someone you care about is in trouble – who? – and you’ve made a deal to save them. How does it backfire, and what is the curse that’s been placed on you? Take a monstrous ability. *Take a monstrous ability and -1 fate.* [▷]
 
-### Zealot
+##### Zealot
 **ANCIENT EVIL** (3H). Your training has been pushing you to the limits with no sign of relenting. How have they pushed you too hard, and what is your breaking point? You are exhausted until you confront your leader. *Take a new ability from your playbook.* [▷]
 
 **NEW SCARS** (4H). Your sect has a fabled enemy or rival and they’ve been training you how to hunt it down. Who or what is it, and how have you come to better understand it? Say what this
