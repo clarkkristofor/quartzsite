@@ -82,16 +82,34 @@ Your Power intervenes. It's better than *best*. Clear 2 *favor*. Draw an *[[#Dra
 The shadow gets its tenterhooks in you. It's worse than *worst*. Mark *overpowered*. Draw an *[[#Drawing Cards the Oracle Deck|oracle card]]*.
 
 #### Influencing Outcomes
-Before basic rolls, you may: 
-- **Go for broke:** Take on more risk to increase your impact. Do something big, stupid, or beyond your capabilities. Expose yourself to serious trouble. A 9- will be worse but a 10+, better. Gain 1 *hope* when you do.
-- Receive a **Help Die** or **Set Up** action. (See [[#Teamwork|"Teamwork"]].)
+##### Before roll
+###### Go for broke
+Take on more risk to increase your impact. Do something big, stupid, or beyond your capabilities. Expose yourself to serious trouble. A 9- will be worse but a 10+, better. Gain 1 *hope* when you do.
+###### Receive a **Help Die** or **Set Up** action
+See [[#Teamwork|"Teamwork"]].
 
-%% add a "fiction die"? %%
-After basic rolls, as long as you haven't already rolled *shadow*, you may mark *[[#Favor|favor]]* or a *[[#Conditions & Death|condition]]* to roll +1d6 to improve the result:
-- **Power Die**: Mark 2 *favor*.
-- **Price Die**: Mark a *condition*, relevant first (*exhausted* for +BODY, *overwhelmed* for +HEART, etc.).
+##### After roll
+As long as you haven't already rolled *shadow*, you may mark *[[#Favor|favor]]* or a *[[#Conditions & Death|condition]]* or choose a complication to roll +1d6 to improve the result.
+###### Power Die
+Mark 2 *favor*.
+###### Condition Die
+Mark the relevant *condition* (*exhausted* for +BODY, *overwhelmed* for +HEART, etc.).
+###### Complication Die
+Choose one below and sort out the details with the GM.
+- what you accomplish is partial, temporary, or unstable
+- the obstacle or opponent adapts, reinforces, or outflanks you
+- you and your opponent trade blows (to body, reputation, belief, drive, etc.)
+- you go off-course, blow your cover, or put yourself in harm's way
+- you deplete a resource or need more time
+- you must prove yourself, owe a debt, or answer a counterproposal
+- word travels, or you're remembered and not on your terms
 
-When rolling 3 or 4 dice, two 6s or two 1s count as *Power* or *shadow* outcomes respectively.
+##### Subtle Press-Your-Luck Dynamic
+You can roll up to 4 dice: the standard 2d6 +1 Help Die +1 Power/Condition/Complication Die.
+
+No matter how many dice you roll, two 6s or two 1s count as *Power* or *shadow* outcomes respectively. As you decide whether to add a Power/Condition/Complication Die, remember the extra die is not a guaranteed +1 minimum to the result. If you already rolled one 1, then you bear a 1 in 6 risk of a worse than *worst* outcome.
+
+Alternately, if you already rolled one 6, then you might see your Power intervene.
 
 ### Magic
 **There are no spells. Every spell is bespoke.** For inspiration, cross your Power’s Realm Beyond with a verb from this list: banish or harm, conjure or create, control or animate, divine or descry, illude or trick, transform or mend, ward or protect. For example:
@@ -429,15 +447,15 @@ You are tethered to your Power Beyond in one of three ways. A link is something 
 
 # Making the Pact
 *Create the pact together.*
-1. Choose one player to keep the pact sheet.
-2. What is your shared **conviction** about the shadow?
-3. What is the unspoken **pact** you’ve made with the people of Lost Plenty?
-4. What is the **promise**, spoken or unspoken, that you’ve made to each other?
-5. What is your **reputation** among the people of Lost Plenty?
+1. Choose one player to keep the pact sheet.
+2. What is your shared **conviction** about the shadow?
+3. What is the unspoken **pact** you’ve made with the people of Lost Plenty?
+4. What is the **promise**, spoken or unspoken, that you’ve made to each other?
+5. What is your **reputation** among the people of Lost Plenty?
 6. What is the **name** your pact is known by (either among you or the locals)?
-7. What **faction** has been helpful in the past? Take +1 status with them and explain how they’ve helped you out of a jam.
-8. What **faction** have you hurt or screwed over in some way? Take -1 status with them and describe what happened.
-9. What NPC **ally** knows about your sanctuary and what you’re doing in Lost Plenty? (If your ally is friendly with a faction, take +1 status; if they are unfriendly with a faction, take -1 status.)
+7. What **faction** has been helpful in the past? Take +1 status with them and explain how they’ve helped you out of a jam.
+8. What **faction** have you hurt or screwed over in some way? Take -1 status with them and describe what happened.
+9. What NPC **ally** knows about your sanctuary and what you’re doing in Lost Plenty? (If your ally is friendly with a faction, take +1 status; if they are unfriendly with a faction, take -1 status.)
 
 
 # Hunter Roles
