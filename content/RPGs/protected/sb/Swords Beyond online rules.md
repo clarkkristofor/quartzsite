@@ -86,6 +86,7 @@ Before basic rolls, you may: 
 - **Go for broke:** Take on more risk to increase your impact. Do something big, stupid, or beyond your capabilities. Expose yourself to serious trouble. A 9- will be worse but a 10+, better. Gain 1 *hope* when you do.
 - Receive a **Help Die** or **Set Up** action. (See [[#Teamwork|"Teamwork"]].)
 
+%% add a "fiction die"? %%
 After basic rolls, as long as you haven't already rolled *shadow*, you may mark *[[#Favor|favor]]* or a *[[#Conditions & Death|condition]]* to roll +1d6 to improve the result:
 - **Power Die**: Mark 2 *favor*.
 - **Price Die**: Mark a *condition*, relevant first (*exhausted* for +BODY, *overwhelmed* for +HEART, etc.).
@@ -141,6 +142,7 @@ Act to clear another hunter's condition.
 | Afraid       | Encourage     | +MIND   |
 | Overshadowed | Ground        | +BEYOND |
 | Angry        | Temper        | +HEART  |
+
 Describe what you do. Make a basic roll, 2d6 +STAT.
 - **10+** They clear the condition and mark 1 hope or 1 bond, their choice.
 - **9-** They immediately do the solo action that clears the condition. You mark the same condition.
@@ -167,6 +169,7 @@ Conditions make hunting monsters harder. They reflect debilities with story effe
 | Afraid       | -2 MIND                    | *flee, leaving something important behind*                |
 | Overshadowed | -2 BEYOND                  | *act in the interests of the shadow*                      |
 | Angry        | no [[#Teamwork\|teamwork]] | *take a rash action others cannot ignore*                 |
+
 Conditions cascade. If you must mark a condition that you've already marked, mark the next.
 - Exhausted → Overwhelmed → Afraid → Overshadowed
 - Angry → Overshadowed
@@ -183,7 +186,7 @@ Your death is in the hands of *[[#Magic, Favor & Fate|fate]]*.
 #### Roll...
 1. **_[[#Kin|Kin]]_** (2d6 + d66)
 2. ***[[#Culture & the Beyond|Culture & the Beyond]]*** (d66)
-3. **_[[#Power Realm & Link|Power Realm & Link]]_** (d66)
+3. **_[[#Power Realm & Link|Power Realm & Tether]]_** (d666)
 4. ***[[#Role|Role]]*** (d6): Note the stats and gain +1 in Body, Heart, Mind, or Beyond (stat max: +3). Note how you gain hope. Choose 1 ability.
 #### Write...
 1. **Belief:** What does your hunter think is true about your Power? Write a declaration starting with its name or what you call it.
@@ -202,7 +205,7 @@ Your death is in the hands of *[[#Magic, Favor & Fate|fate]]*.
 roll 2x, ignore 2s
 
 ### **3** Troll
-|  d66  | *from the* (d60)    | *who eat shadow and* (d6) |
+|  d66  | *from the* (10s)    | *who eat shadow and* (1s) |
 | :---: | :------------------ | :------------------------ |
 | **1** | undermurk           | a hunter’s kin            |
 | **2** | ravages             | a hunter’s kin            |
@@ -212,9 +215,8 @@ roll 2x, ignore 2s
 | **6** | witchwood           | Over Reach people         |
 
 ### **4** Hearthborn
-*[[#Hearthborn|What are hearthborn?]]*
 
-|  d66  | *from* (d60)    | *whose family* (d6)         |
+|  d66  | *from* (10s)    | *whose family* (1s)         |
 | :---: | :-------------- | :-------------------------- |
 | **1** | Lost Plenty     | left for the Coastal Cities |
 | **2** | Dunhold         | left for the Coastal Cities |
@@ -222,9 +224,13 @@ roll 2x, ignore 2s
 | **4** | New Gull        | died of want or violence    |
 | **5** | Blooming Shores | was lost to shadow          |
 | **6** | Widow’s Take    | was lost to shadow          |
+#### *What are hearthborn?*
+Hearthborn were **once simply ash, charred firewood, hearth stones, and household items**, bearing generations of traditional Over Reach house blessings. But when their home is destroyed or their family lost, the warmth and protection can endure, born of love and yearning, wandering as **a melancholic exile looking for a new purpose**. 
+
+A hearthborn’s culture is an echo of their family’s culture (identified by your *Culture & the Beyond* result), made their own by childlike imitation.
 
 ### **5** Forged
-|  d66  | *function* (d60) | *who serve* (d6)  |
+|  d66  | *function* (10s) | *who serve* (1s)  |
 | :---: | :--------------- | :---------------- |
 | **1** | drudgers         | a hunter’s kin    |
 | **2** | forge cogs       | a hunter’s kin    |
@@ -234,7 +240,7 @@ roll 2x, ignore 2s
 | **6** | wildbuilt        | the shadow        |
 
 ### **6** Dwarf
-|  d66  | *from the* (d60)      | *with a legacy of* (d6)                         |
+|  d66  | *from the* (10s)      | *with a legacy of* (1s)                         |
 | :---: | :-------------------- | :---------------------------------------------- |
 | **1** | deepening mines       | cataclysm and exile among a hunter’s kin        |
 | **2** | glittering caves      | war-making against a hunter’s kin               |
@@ -244,7 +250,7 @@ roll 2x, ignore 2s
 | **6** | wardens of the passes | seclusion, secretly serving the shadow          |
 
 ### **7** Human
-|  d66  | *from the* (d60)            | *of ___ status* (d6) |
+|  d66  | *from the* (10s)            | *of ___ status* (1s) |
 | :---: | :-------------------------- | :------------------- |
 | **1** | Coastal Cities              | exalted              |
 | **2** | Over Reach                  | gilded               |
@@ -254,7 +260,7 @@ roll 2x, ignore 2s
 | **6** | Heirs *(ruins dwellers)*    | unshackled           |
 
 ### **8** Elf 
-|  d66  | *from the* (d60)                            | *loyal to the* (d6) |
+|  d66  | *from the* (10s)                            | *loyal to the* (1s) |
 | :---: | :------------------------------------------ | :------------------ |
 | **1** | forest towers                               | lady of wisdom      |
 | **2** | seeping caverns                             | prince militant     |
@@ -264,7 +270,7 @@ roll 2x, ignore 2s
 | **6** | ruins the Coastal Cities<br>were built upon | shadow              |
 
 ### **9** Orc
-|  d66  | *from the* (d60)  | *cursed children of* (d6) |
+|  d66  | *from the* (10s)  | *cursed children of* (1s) |
 | :---: | :---------------- | :------------------------ |
 | **1** | drifts            | a hunter’s kin            |
 | **2** | creeping grot     | a hunter’s kin            |
@@ -274,7 +280,7 @@ roll 2x, ignore 2s
 | **6** | western highlands | the shadow                |
 
 ### **10** Dragonkin 
-|  d66  | *from the* (d60) | *who are soldiers in a* (d6)   |
+|  d66  | *from the* (10s) | *who are soldiers in a* (1s)   |
 | :---: | :--------------- | :----------------------------- |
 | **1** | banelands        | hunter’s kin’s armies          |
 | **2** | broodfire        | hunter’s kin’s armies          |
@@ -284,7 +290,7 @@ roll 2x, ignore 2s
 | **6** | wyrmsilver       | great dragon’s war with shadow |
 
 ### **11** Ravenkin 
-|  d66  | *from the* (d60)              | *who steal from the shadow and* (d6) |
+|  d66  | *from the* (10s)              | *who steal from the shadow and* (1s) |
 | :---: | :---------------------------- | :----------------------------------- |
 | **1** | coastal crags                 | a hunter’s kin                       |
 | **2** | brownlands *(desert canyons)* | a hunter’s kin                       |
@@ -294,7 +300,7 @@ roll 2x, ignore 2s
 | **6** | Unbroken Wilderness           | Over Reach people                    |
 
 ### **12** Outsider
-|  d66  | *from* (d60)                                             | *who* (d6) |
+|  d66  | *from* (10s)                                             | *who* (1s) |
 | :---: | :------------------------------------------------------- | :--------- |
 | **1** | another world                                            | is lost    |
 | **2** | another this-world                                       | was sent   |
@@ -304,12 +310,6 @@ roll 2x, ignore 2s
 | **6** | another Realm Beyond<br>*(not 1 of 6, don't roll Power)* | returned   |
 
 ##### **_If they’re not in your pact, are they in your world?_**
-
-
-## Hearthborn
-Hearthborn were **once simply ash, charred firewood, hearth stones, and household items**, bearing generations of traditional Over Reach house blessings. But when their home is destroyed or their family lost, the warmth and protection can endure, born of love and yearning, wandering as **a melancholic exile looking for a new purpose**. 
-
-A hearthborn’s culture is an echo of their family’s culture (identified by your *Culture & the Beyond* result), made their own by childlike imitation.
 
 
 ## Culture & the Beyond
@@ -349,9 +349,9 @@ A hearthborn’s culture is an echo of their family’s culture (identified by y
 *d666: Rolling 100s die may introduce tension with your kin. Feel free to use your culture’s Realm and roll d66 (10s and 1s) only.*
 
 ### Tethers
-You are tethered to your Power Beyond in one of three ways. A link is something you have: a physical object or an attendant being. A mark is something you are: you bear it in or on your body or soul, though others may feel its effects. An omen is something that happens around you: the world reacting to you.
+You are tethered to your Power Beyond in one of three ways. A link is something you have: a physical object or an attendant being. A mark is something you are: born bodily or in your soul, though others may feel its effects. An omen is something that happens around you: the world reacting to you.
 
-### the Dead (100)
+### the DEAD (100)
 
 |       | Link (10–20)                | Mark (30–40)                               | Omen (50–60)                                             |
 | :---: | --------------------------- | ------------------------------------------ | -------------------------------------------------------- |
@@ -362,7 +362,7 @@ You are tethered to your Power Beyond in one of three ways. A link is something 
 | **5** | the urn you were born in    | you smell alternately of marigolds and rot | people nearby cough dust                                 |
 | **6** | village ghost               | your dreams carry messages for the living  | sound of children's laughter                             |
 
-### the Deeps (200)
+### the DEEPS (200)
 
 |       | Link (10–20)                          | Mark (30–40)                           | Omen (50–60)                                   |
 | :---: | ------------------------------------- | -------------------------------------- | ---------------------------------------------- |
@@ -373,7 +373,7 @@ You are tethered to your Power Beyond in one of three ways. A link is something 
 | **5** | shard of night                        | you bleed quicksilver                  | water swells toward you                        |
 | **6** | something in shadows                  | you write only in indecipherable runes | your voice always echoes                       |
 
-### the Heavens (300)
+### the HEAVENS (300)
 
 |       | Link (10–20)                                          | Mark (30–40)                             | Omen (50–60)                           |
 | :---: | ----------------------------------------------------- | ---------------------------------------- | -------------------------------------- |
@@ -384,7 +384,7 @@ You are tethered to your Power Beyond in one of three ways. A link is something 
 | **5** | incense that burns but is not consumed                | you can't lie                            | strangers bring you to dying relatives |
 | **6** | many-armed soapstone figure, posed anew every morning | you hear nearby prayers                  | the faithful weep when you near        |
 
-### the Hells (400)
+### the HELLS (400)
 
 |       | Link (10–20)         | Mark (30–40)                                            | Omen (50–60)                           |
 | :---: | -------------------- | ------------------------------------------------------- | -------------------------------------- |
@@ -395,7 +395,7 @@ You are tethered to your Power Beyond in one of three ways. A link is something 
 | **5** | ritual dagger        | weeping wound                                           | tempers and old grudges                |
 | **6** | unfulfilled contract | voice of self-loathing                                  | wine sours to vinegar in your presence |
 
-### the Weft (500)
+### the WEFT (500)
 
 |       | Link (10–20)                  | Mark (30–40)                                                | Omen (50–60)                                    |
 | :---: | ----------------------------- | ----------------------------------------------------------- | ----------------------------------------------- |
@@ -406,7 +406,7 @@ You are tethered to your Power Beyond in one of three ways. A link is something 
 | **5** | spindle that spins on its own | when you write, the words squirm before settling into place | not even your kin can say where you're from     |
 | **6** | whispering tome               | you keep tripping over the threads of reality               | notes scrawled in random places                 |
 
-### the Wild (600)
+### the WILD (600)
 
 |       | Link (10–20)            | Mark (30–40)                                                                       | Omen (50–60)                                                |
 | :---: | ----------------------- | ---------------------------------------------------------------------------------- | ----------------------------------------------------------- |
