@@ -261,6 +261,52 @@ body[data-slug="garden/index"] h1 {
 }
 
 /* ==========================================================================
+   SWORDS BEYOND ONLINE RULES
+   ========================================================================== */
+
+/* Chapter heading block — Swords Beyond Online Rules only */
+body[data-slug="rpgs/protected/sb/swords-beyond-online-rules"] {
+  h1 {
+    font-family: 'Dragonsteel', fantasy, sans-serif !important;
+    background-color: #000;
+    color: #fff !important;
+    display: block;
+    width: 100%;
+    padding: 1.25rem 1.5rem;
+    margin: 3rem 0 1.5rem;
+    font-size: 2.5rem;
+    line-height: 1.2;
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
+    font-weight: normal;
+  }
+
+  h2 {
+    margin-top:2.25rem;
+    margin-bottom:1rem;
+    font-size:1.75rem
+  }
+  h3 {
+    margin-top:1.9rem;
+    margin-bottom:1rem;
+    font-size:1.4rem
+  }
+  h4 {
+    margin-top:1.62rem;
+    margin-bottom:0.5rem;
+    font-size:1.25rem
+  }
+  h5,
+  h6 {
+    margin-top:1.5rem;
+    margin-bottom:0.25rem;
+    font-size:1.12rem
+  }
+  h6 {
+    font-size:1rem
+  }
+}
+/* ==========================================================================
    CARDS & BASES
    ========================================================================== */
 
