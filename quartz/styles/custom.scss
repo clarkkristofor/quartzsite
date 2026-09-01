@@ -473,3 +473,15 @@ body[data-slug="blog/index"] .page-listing {
     grid-template-columns: 1fr; // stack on mobile
   }
 }
+
+/* ===========================================================
+TABLES
+=============================================================*/
+.table-container > table {
+  th,
+  td {
+    font-size: 0.85rem;    // tweak to taste — try 0.8–0.9rem
+    line-height: 1rem;
+    min-width: 0px;
+  }
+}
