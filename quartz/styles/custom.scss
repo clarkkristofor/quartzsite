@@ -307,6 +307,7 @@ body[data-slug="rpgs/protected/sb/swords-beyond-online-rules"] {
   }
 
   // Kill the paragraph's own top margin when it directly follows h5/h6
+  h2 + p,
   h3 + p,
   h4 + p,
   h5 + p,
