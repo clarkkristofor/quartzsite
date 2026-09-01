@@ -283,27 +283,35 @@ body[data-slug="rpgs/protected/sb/swords-beyond-online-rules"] {
 
   h2 {
     margin-top:2.25rem;
-    margin-bottom:0.5rem;
-    font-size:1.75rem
+    margin-bottom:1rem;
+    font-size:2.25rem
   }
   h3 {
     margin-top:1.9rem;
-    margin-bottom:0.5rem;
-    font-size:1.4rem
+    margin-bottom:0.75rem;
+    font-size:1.75rem
   }
   h4 {
     margin-top:1.62rem;
-    margin-bottom:0.25rem;
-    font-size:1.25rem
+    margin-bottom:0.5rem;
+    font-size:1.4rem
   }
   h5,
   h6 {
-    margin-top:1.5rem;
+    margin-top:0.25rem;
     margin-bottom:0;
-    font-size:1.12rem
+    font-size:1.25rem
   }
   h6 {
-    font-size:1rem
+    font-size:1.12rem
+  }
+
+  // Kill the paragraph's own top margin when it directly follows h5/h6
+  h3 + p,
+  h4 + p,
+  h5 + p,
+  h6 + p {
+    margin-top: 0;
   }
 }
 /* ==========================================================================
