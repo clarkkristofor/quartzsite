@@ -64,6 +64,7 @@ Discover your hunter’s story; don’t plan it. Let it emerge from dice rolls, 
 
 ## Rolling Dice
 ### Basic Rolls
+%% conflict resolution not task resolution. who comes out on top? vs how well do you do X? sorcerer by ron edwards -> AW moves %%
 Say what your hunter does. If the action is risky, the GM may call for a roll. Roll 2d6 +STAT. 
 #### Stats
 - **BODY** when using strength, speed, toughness or nimbleness.

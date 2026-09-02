@@ -314,6 +314,17 @@ body[data-slug="rpgs/protected/sb/swords-beyond-online-rules"] {
   h6 + p {
     margin-top: 0;
   }
+
+  .toc-header h3 {
+    margin-top:0.25rem;
+    margin-bottom:0;
+    font-size:1.25rem
+  }
+
+  .toc-content li a {
+    font-size: 0.85rem;
+    line-height: 1.4rem;
+  }
 }
 /* ==========================================================================
    CARDS & BASES
