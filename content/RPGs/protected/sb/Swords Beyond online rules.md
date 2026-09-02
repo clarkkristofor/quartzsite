@@ -242,7 +242,7 @@ roll 2x, ignore 2s
 | **4** | New Gull        | died of want or violence    |
 | **5** | Blooming Shores | was lost to shadow          |
 | **6** | Widow’s Take    | was lost to shadow          |
-###### *What are hearthborn?*
+###### *Who are hearthborn?*
 Hearthborn were **once simply ash, charred firewood, hearth stones, and household items**, bearing generations of traditional Over Reach house blessings. But when their home is destroyed or their family lost, the warmth and protection can endure, born of love and yearning, wandering as **a melancholic exile looking for a new purpose**. 
 
 A hearthborn’s culture is an echo of their family’s culture (identified by your *Culture & the Beyond* result), made their own by childlike imitation.
@@ -364,7 +364,7 @@ A hearthborn’s culture is an echo of their family’s culture (identified by y
 
 
 ## Power Realm & Tether
-*d666: Rolling 100s die may introduce tension with your kin. Feel free to use your culture’s Realm and roll d66 (10s and 1s) only.*
+*d666: Rolling 100s die may introduce tension with your kin. Feel free to use your culture’s Realm and roll d66 (10s and 1s only).*
 
 ### Tethers
 You are tethered to your Power Beyond in one of three ways. A link is something you have: a physical object or an attendant being. A mark is something you are: born bodily or in your soul, though others may feel its effects. An omen is something that happens around you: the world reacting to you.
