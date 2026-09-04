@@ -40,16 +40,28 @@ Your destiny is also intertwined with a **pact** of other hunters and, of course
 # The Realms Beyond
 ## The DEAD
 **...is beyond this life.** It does not steal our beloved or cause our grief, so we do not fear it. Instead we fear the envious and the resentful who in death eschew the Dead and return to haunt us. It protects us, and we revere it, because it is the rest and reward of our ancestors who yet guide us.
+
+➜ *See also [[#Cultures of the DEAD|cultures]] and [[#the DEAD (100)|tethers]].*
 ## The DEEPS
 **...are beyond comprehension.** They hide in the dark, in dreams and nightmares, in madness and desire, in the riches buried within the earth, the leviathans buried beneath the sea, and the mysteries buried between the stars. We can only respect them and humble ourselves, lest we awaken their horrors.
+
+➜ *See also [[#Cultures of The DEEPS the DEEPS|cultures]] and [[#the DEEPS (200)|tethers]].*
 ## The HEAVENS
 **...are beyond the skies.** They are home to our gods and the source of goodness, blessing, and harmony. To the Heavens we give thanks and direct our prayers—not least, to war against demons of the Hells and to bear the departed safely to the Dead. Though there may be corners of the Heavens, adjacent to the Deeps, to which other prayers are raised.
+
+➜ *See also [[#Cultures of the HEAVENS|cultures]] and [[#the HEAVENS (300)|tethers]].*
 ## The HELLS
 **...are beyond forgiveness.** They curse the world with rage and wickedness. Their hordes bring only chaos, corruption, pestilence, and woe. Unless they are carefully bound, very carefully indeed.
+
+➜ *See also [[#Cultures of the HELLS|cultures]] and [[#the HELLS (400)|tethers]].*
 ## The WEFT
 **...is beyond explaining.** It defies logic. It deceives with illusion. It is unnatural, wondrous, and dreadful. Its Powers chafe those of the Wild and the Heavens alike and yet also banish Hells’ demons.
+
+➜ *See also [[#Cultures of the WEFT|cultures]] and [[#the WEFT (500)|tethers]].*
 ## The WILD
 **...is life beyond containing or taming.** The world is thriven by the Wild, which gives healthy life (thus defying the Hells), creates new life out of death (thus sharing some mysterious kinship with the Dead), and stirs love that makes both possible (thus echoing many songs of the Heavens). But Powers of the Wild break many things too. Boundaries, taboos, stone, and the like.
+
+➜ *See also [[#Cultures of the WILD|cultures]] and [[#the WILD (600)|tethers]].*
 
 # Playing Hunters
 ## Agenda
@@ -64,7 +76,23 @@ Discover your hunter’s story; don’t plan it. Let it emerge from dice rolls, 
 
 ## Rolling Dice
 ### Basic Rolls
-%% conflict resolution not task resolution. who comes out on top? vs how well do you do X? sorcerer by ron edwards -> AW moves %%
+%% conflict resolution not task resolution. who comes out on top? vs how well do you do X? sorcerer by ron edwards -> AW moves 
+conflicts don’t resolve, they develop and escalate
+clarifying, escalating, and resolving
+https://lumpley.games/2021/04/07/powered-by-the-apocalypse-part-6/
+vs
+https://lumpley.games/2020/03/14/powered-by-the-apocalypse-part-3/
+Apocalypse World has 8 basic arenas of conflict, not named explicitly by the text, but emergent from the basic moves’ interactions:
+
+- **Honest Negotiations**. The only basic move available to you for honest negotiation is **reading a person**. If you bring any of the other interpersonal moves to bear, you compromise the good faith of your negotiation.
+- **Commitments & Obligations**. Holding someone to their commitments isn’t bad faith, but it does create an imbalance between you. You can clarify, escalate, and resolve conflicts of commitment and obligation by **acting under fire**, **seducing or manipulating someone**, **helping or interfering with them**, **reading them**, or at the **end of the session**.
+- **Negotiation in Bad Faith**. To lie, manipulate, or use someone, you might **seduce or manipulate them** or just **read them** and make your approach accordingly.
+- **Implicit Threat of Violence**. Many, many conflicts in Apocalypse World pass through an escalatory phase of implicit threat, when it’s clear that violence is present as an influence on the situation but no one has yet invoked it explicitly. You can enter into, clarify, or escalate within this arena by **seducing or manipulating someone**, **helping or interfering with someone**, **reading a person**, or **reading the situation**.
+- **Explicit Threat of Violence**. Often – but not always! – a conflict escalates through this arena on its way to a violent resolution, or else you may hope to avoid violence by using the threat of violence to force an agreement. **Going aggro** is the obvious move for escalating into this arena of conflict. Conflicts in this arena are usually pretty clear, but **reading a person** can give you useful insights into your enemy’s will, resolve, and intentions, and **reading the situation** can give you useful tactical information.
+- **Outbreak of Violence**. Once a conflict goes to active violence, your moves are the violent moves: **act under fire**, **go aggro**, **seize by force**, and **sucker someone**, plus you can **read a situation** to help clarify your best options.
+- **Nonviolent Physical Striving**. This would include using stealth to approach or escape an enemy, outracing a rival, digging into a defensible position, preparing an inviting reception for a compound warlord you hope to win to your side, or any other physical undertaking you might try to better your position in a conflict. You can clarify and escalate conflicts in this arena by **acting under fire**, **helping or interfering with someone**, **reading a person**, or **reading the situation**.
+- **Weirdness**. As an arena of conflict, most of your effective weird abilities come from playbook moves and gear. The only basic move that directly applies is **opening your brain to the world’s psychic maelstrom**.
+%%
 Say what your hunter does. If the action is risky, the GM may call for a roll. Roll 2d6 +STAT. 
 #### Stats
 - **BODY** when using strength, speed, toughness or nimbleness.
@@ -204,8 +232,8 @@ Your death is in the hands of *[[#Magic, Favor & Fate|fate]]*.
 *Create hunters together. Fill in gaps. Connect dots. Twist, ignore, and embellish results to make it fun for everyone.*
 #### Roll...
 1. **_[[#Kin|Kin]]_** (2d6 + d66)
-2. ***[[#Culture & the Beyond|Culture & the Beyond]]*** (d66)
-3. **_[[#Power Realm & Link|Power Realm & Tether]]_** (d666)
+2. ***[[#Culture & the Beyond]]*** (d6 + mostly d666)
+3. **_[[#Power Realm & Link]]_** (d666)
 4. ***[[#Role|Role]]*** (d6): Note the stats and gain +1 in Body, Heart, Mind, or Beyond (stat max: +3). Note how you gain hope. Choose 1 ability.
 #### Write...
 1. **Belief:** What does your hunter think is true about your Power? Write a declaration starting with its name or what you call it.
@@ -328,44 +356,102 @@ A hearthborn’s culture is an echo of their family’s culture (identified by y
 | **5** | your Power’s Realm Beyond                                | is hunted  |
 | **6** | another Realm Beyond<br>*(not 1 of 6, don't roll Power)* | returned   |
 
-###### **_If they’re not in your pact, are they in your world?_**
-
 
 ## Culture & the Beyond
-*d66*
+Your kin's culture expresses their profound connection with a Realm Beyond. You may live your kin’s culture, but even if defy it, there's no denying your roots.
 
-| **d60** | Kin's Realm | Kin's Culture stem                                    |
-| :-----: | ----------- | ----------------------------------------------------- |
-| **10**  | the DEAD    | Your kin venerate ancestors…                          |
-| **20**  | the DEEPS   | Your kin’s *(blank)* interpret dreams and nightmares. |
-| **30**  | the HEAVENS | Your kin worship gods, primarily the…                 |
-| **40**  | the HELLS   | Your kin dominate demons…                             |
-| **50**  | the WEFT    | Your kin seek secret knowledge of…                    |
-| **60**  | the WILD    | Your kin honor cycles and seasons at…                 |
+Each culture is described in between 1 and 3 sentences. Roll on the tables to complete those sentences.
 
-|       | 10 the DEAD                             | 20 the DEEPS     | 30 the HEAVENS |
-| :---: | --------------------------------------- | :--------------- | :------------- |
-| **1** | by consenting to fleeting possession    | blind priests    | herald         |
-| **2** | by raising them to council undying      | delver monks     | judge          |
-| **3** | daily at private shrines                | drowned prophets | maw            |
-| **4** | with elaborate funerary shrouds         | mycologists      | mother         |
-| **5** | with offerings of blood, fruit, or vows | raving oracles   | trickster      |
-| **6** | with public death day ceremonies        | tenebrologers    | weaver         |
+|  d6   | Your kin's is a culture of...             |
+| :---: | ----------------------------------------- |
+| **1** | [[#Cultures of the DEAD\|the DEAD]]       |
+| **2** | [[#Cultures of the DEEPS\|the DEAPS]]     |
+| **3** | [[#Cultures of the HEAVENS\|the HEAVENS]] |
+| **4** | [[#Cultures of the HELLS\|the HELLS]]     |
+| **5** | [[#Cultures of the WEFT\|the WEFT]]       |
+| **6** | [[#Cultures of the WILD\|the WILD]]       |
 
-|       | 40 the HELLS                        | 50 the WEFT              | 60 the WILD                        |
-| :---: | :---------------------------------- | :----------------------- | :--------------------------------- |
-| **1** | for sport                           | alchemical transcendence | breeding grounds & migratory paths |
-| **2** | to curse enemies & punish evildoers | arcane flows & wells     | coasts, rivers, & headwaters       |
-| **3** | to enchant artefacts & monuments    | dimensional manipulation | sacred groves                      |
-| **4** | to power machinery                  | the Weftling             | sites of rot & decay               |
-| **5** | to redeem captive souls             | orphic geometries        | stone circles                      |
-| **6** | to ward off evil                    | true names               | windswept plains                   |
+##### Cultures of the DEAD
+When people die, they pass beyond to [[#The DEAD|the Dead]]. Or the living pray they do. Having lived fully, they rest as honored ancestors, protecting and guiding the living. But one whose life is full of pleasures denied, debts unsettled, purpose unmet cannot pass beyond. These remain as ghosts, tortured and torturing, resenting the living simply for being alive. A regretful ghost needs comfort; a vengeful one demands justice. Both are feared.
 
-###### **_Do you live your kin’s culture or defy it?_**
+| d666  | 100s Your kin venerate ancestors…       | 10s Your kin quiet ghosts...                                                        | 1s Your kin seek the satisfied life and the good death…                                                |
+| :---: | --------------------------------------- | ----------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------ |
+| **1** | by consenting to fleeting possession    | with second death squads                                                            | at the revels                                                                                          |
+| **2** | by raising them to council undying      | by banishing them to the grey wastes                                                | by finishing a life's work worthy of the council undying                                               |
+| **3** | daily at private shrines                | at extended waning moon vigil-feasts                                                | with daily mortuary prayers                                                                            |
+| **4** | with elaborate funerary shrouds         | by buying child debt-bearers from families too poor to refuse                       | with seasonal purge rites                                                                              |
+| **5** | with offerings of blood, fruit, or vows | by the dead's reckoning, ghost courts with authority to pass judgment on the living | through the dead-walk, sending an adolescent to wander the places of the dead until an ancestor speaks |
+| **6** | with public death day ceremonies        | through blood tithe, the younger the more valuable                                  | by vowing duty to descendants over desire before their living elders                                   |
 
+##### Cultures of [[#The DEEPS|the DEEPS]]
+It descends from curiosity. What interests you consumes you. Desire becomes hunger becomes madness. At every stage, it draws you in but the further in you go, the greater the risk of awakening, irrevocably, something horrific - around you or within. It's all fine until its not and, by then, you're not the you who can feel it.
+
+|   d6    | How deep is deep?                                                                                                                                                   |
+| :-----: | ------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **1-3** | Your kin's (curious) delve, dive, and discover.                                                                                                                     |
+|  **4**  | The (curious), who delve, dive, and discover, are your kin's leaders, wealthy, and elites. The (hungry), who interpret dreams and nightmares, are less influential. |
+|  **5**  | The (hungry), who interpret dreams and nightmares, are your kin's leaders, wealthy, and elites. The (curious), who delve, dive, and discover, are less influential. |
+|  **6**  | Your kin's (curious) still delve and dive, their (hungry) still interpret — but the (devourer) has already devoured and enslaved them both, with your whole kin.    |
+
+|  d6   | curious          | hungry          | devourer         |
+| :---: | ---------------- | --------------- | ---------------- |
+| **1** | tidecatchers     | wyrm whisperers | Drowned Prophets |
+| **2** | mycologists      | blind priests   | Knell            |
+| **3** | somnologists     | vein speakers   | Thirst           |
+| **4** | delver monks     | voidmongers     | Vastness         |
+| **5** | tenebrologers    | inundated       | Worldcoil        |
+| **6** | custos dementiae | raving oracles  | Zygote           |
+
+##### Cultures of the HEAVENS
+Many gods, and many ways to worship each. Every heavenly kin has cults to them all, though one god always leads - even the maw, heretic and reviled, or the trickster, who no one can quite place. Nothing given, everything contested. Are the [[#The HEAVENS|Heavens]] as fractious as the earth?
+
+| d666  | 100s Your kin worship all the gods, primarily the... | 10s whose leading sect, the... | 1s who...                                                           |
+| :---: | ---------------------------------------------------- | ------------------------------ | ------------------------------------------------------------------- |
+| **1** | herald                                               | ascetics                       | bar rival shrines from settlements' centers, where theirs now stand |
+| **2** | judge                                                | ecstatics                      | evangelize another hunter's kin                                     |
+| **3** | maw                                                  | folk-healers                   | hold seats in local assemblies no one recalls electing them to      |
+| **4** | mother                                               | inquest                        | own a surprising amount of land                                     |
+| **5** | trickster                                            | orthodox                       | share grain, coin, and labor generously                             |
+| **6** | weaver                                               | utopians                       | train initiates from childhood in spycraft and unarmed combat       |
+
+##### Cultures of the HELLS
+A society built around binding demons is powerful indeed. When they are carefully bound. Which is exactly where the hubris lies. Demons always go rogue; binders are always corrupted. History is full of warnings: there is an unavoidable cost. Who pays it, and how much?
+
+| d666  | 100s Your kin dominate demons...      | 10s But bindings are going wrong, and primarily... | 1s suffer...                                            |
+| :---: | ------------------------------------- | -------------------------------------------------- | ------------------------------------------------------- |
+| **1** | for sport                             | binders and their bloodlines                       | but only in rare cases, easily explained away           |
+| **2** | to curse enemies and punish evildoers | another hunter's kin                               | increasingly regularly, despite denials                 |
+| **3** | to enchant artifacts and monuments    | the land                                           | commonly enough that most everyone has a story about it |
+| **4** | to power machinery                    | common folk                                        | pervasively and with widespread indignation             |
+| **5** | to redeem captive souls               | conscripts and scapegoats                          | inescapably but with resignation                        |
+| **6** | to ward off evil                      | your kin's standing with neighbors                 | utterly and dreadfully                                  |
+
+##### Cultures of the WEFT
+Needs must. [[#The WEFT|Weft]]-kin aren't curious; they're in crisis. The saving knowledge can't be earned by study, it must be pursued beyond reason and what seems real.
+
+| d666  | 100s Your kin seek secret knowledge of… | 10s because of a... | 1s ...        |
+| :---: | :-------------------------------------- | ------------------- | ------------- |
+| **1** | alchemical transcendence                | quiet               | wasting       |
+| **2** | hidden threads and textures             | rumored             | unraveling    |
+| **3** | realms-between                          | denied              | contradiction |
+| **4** | orphic geometries                       | growing             | rupture       |
+| **5** | true names                              | tolerable           | lie           |
+| **6** | the Weftling                            | terrible            | trespass      |
+
+##### Cultures of the WILD
+Kin of the [[#The WILD||Wild]] live a different rhythm: sealing, breaking, overrunning, and sealing again. Rivers sealed in ice break free and flow; they overrun their banks in flood before the freeze comes back. Closed and conserving trees break forth in bud and blanket the forest in leaves before dropping them all again. Animals retreat to their dens, emerge and rut, and run wild. All these cycles are what constantly make and unmake your people. Until the cycles themselves are broken.
+
+| d666  | 100s The cycles are broken and your kin are stuck in... | 10s during which they lurch between... | 1s and repeatedly attempt to restore cycles and seasons at… |
+| :---: | ------------------------------------------------------- | -------------------------------------- | :---------------------------------------------------------- |
+| **1** | sealing                                                 | blossom or wilt                        | breeding grounds                                            |
+| **2** | sealing                                                 | call out or fall silent                | coasts, rivers, and headwaters                              |
+| **3** | breaking                                                | gorge or starve                        | sacred groves                                               |
+| **4** | breaking                                                | nest or abandon                        | sites of rot and decay                                      |
+| **5** | overrunning                                             | nurture or kill                        | stone circles                                               |
+| **6** | overrunning                                             | transgress or restrain                 | storm paths                                                 |
 
 ## Power Realm & Tether
-*d666: Rolling 100s die may introduce tension with your kin. Feel free to use your culture’s Realm and roll d66 (10s and 1s only).*
+*d666: Rolling 100s die may introduce tension with your kin. Feel free to use your kin's culture’s Realm and roll d66 (10s and 1s only).*
 
 ### Tethers
 You are tethered to your Power Beyond in one of three ways. A link is something you have: a physical object or an attendant being. A mark is something you are: born bodily or in your soul, though others may feel its effects. An omen is something that happens around you: the world reacting to you.
