@@ -75,41 +75,28 @@ Play like your hunter is real person living in a real world. Multifaceted, flawe
 Discover your hunter’s story; don’t plan it. Let it emerge from dice rolls, other players’ actions, your instinct for who your hunter is. Stay in the moment.
 
 ## Rolling Dice
-### Basic Rolls
-%% conflict resolution not task resolution. who comes out on top? vs how well do you do X? sorcerer by ron edwards -> AW moves 
-conflicts don’t resolve, they develop and escalate
-clarifying, escalating, and resolving
-https://lumpley.games/2021/04/07/powered-by-the-apocalypse-part-6/
-vs
-https://lumpley.games/2020/03/14/powered-by-the-apocalypse-part-3/
-Apocalypse World has 8 basic arenas of conflict, not named explicitly by the text, but emergent from the basic moves’ interactions:
-
-- **Honest Negotiations**. The only basic move available to you for honest negotiation is **reading a person**. If you bring any of the other interpersonal moves to bear, you compromise the good faith of your negotiation.
-- **Commitments & Obligations**. Holding someone to their commitments isn’t bad faith, but it does create an imbalance between you. You can clarify, escalate, and resolve conflicts of commitment and obligation by **acting under fire**, **seducing or manipulating someone**, **helping or interfering with them**, **reading them**, or at the **end of the session**.
-- **Negotiation in Bad Faith**. To lie, manipulate, or use someone, you might **seduce or manipulate them** or just **read them** and make your approach accordingly.
-- **Implicit Threat of Violence**. Many, many conflicts in Apocalypse World pass through an escalatory phase of implicit threat, when it’s clear that violence is present as an influence on the situation but no one has yet invoked it explicitly. You can enter into, clarify, or escalate within this arena by **seducing or manipulating someone**, **helping or interfering with someone**, **reading a person**, or **reading the situation**.
-- **Explicit Threat of Violence**. Often – but not always! – a conflict escalates through this arena on its way to a violent resolution, or else you may hope to avoid violence by using the threat of violence to force an agreement. **Going aggro** is the obvious move for escalating into this arena of conflict. Conflicts in this arena are usually pretty clear, but **reading a person** can give you useful insights into your enemy’s will, resolve, and intentions, and **reading the situation** can give you useful tactical information.
-- **Outbreak of Violence**. Once a conflict goes to active violence, your moves are the violent moves: **act under fire**, **go aggro**, **seize by force**, and **sucker someone**, plus you can **read a situation** to help clarify your best options.
-- **Nonviolent Physical Striving**. This would include using stealth to approach or escape an enemy, outracing a rival, digging into a defensible position, preparing an inviting reception for a compound warlord you hope to win to your side, or any other physical undertaking you might try to better your position in a conflict. You can clarify and escalate conflicts in this arena by **acting under fire**, **helping or interfering with someone**, **reading a person**, or **reading the situation**.
-- **Weirdness**. As an arena of conflict, most of your effective weird abilities come from playbook moves and gear. The only basic move that directly applies is **opening your brain to the world’s psychic maelstrom**.
-%%
-Say what your hunter does. If the action is risky, the GM may call for a roll. Roll 2d6 +STAT. 
+### Basic Moves
+#### Conflict
+**Say what your hunter wants from whom and what you do to get it.** Roll 2d6+STAT.  
+- **10+:** they give it to you
+- **9-:** they don't and the GM makes a move
+#### Reach
+**Say who or what your hunter reaches for and how.** Roll 2d6+STAT.  
+- **10+:** it opens to you. Pick one: you learn something true, something in you or them/it shifts, a bond forms or is tested, you glimpse further than you meant to
+- **9-:** it doesn't and the GM makes a move
+#### Act
+**Say what your hunter does.** Roll 2d6+STAT.  
+- **10+:** you do it
+- **9-:** you don't and the GM makes a move
 #### Stats
-- **BODY** when using strength, speed, toughness or nimbleness.
-- **HEART** when testing loyalty or using persuasion, empathy, cunning or wisdom.
-- **MIND** when using learning, analysis or perception, testing composure, or tinkering.
-- **BEYOND** when using [[#Magic, Favor & Fate|magic]] or accessing or channeling a Power Beyond this world.
-#### Outcomes
-Your action’s outcome is either **10+** _best_ or **9-** *worst*, with special cases that heighten the importance of the scene: *power* (double 6s) and *shadow* (double 1s).
-##### *Best* (10+)
-You do what you intended, and it achieves what you hoped.
-##### *Worst* (9-)
-Negative consequences, not simply failure. You may do what you intended but be undone by others’ actions, unintended consequences, or the shadow.
-##### *Power* (double 6s)
-Your Power intervenes. It's better than *best*. Clear 2 *favor*. Draw an *[[#Drawing Cards the Oracle Deck|oracle card]]*.
-##### *Shadow* (double 1s)
-The shadow gets its tenterhooks in you. It's worse than *worst*. Mark *overpowered*. Draw an *[[#Drawing Cards the Oracle Deck|oracle card]]*.
-
+- **BODY** — exercising strength, speed, toughness, nimbleness, or stamina.  
+- **HEART** — exercising loyalty, persuasion, empathy, cunning, or wisdom.  
+- **MIND** — exercising learning, analysis, perception, composure, or tinkering.  
+- **BEYOND** — using [[Swords Beyond online rules#Magic|magic]], or accessing or channeling a Power Beyond this world.
+#### Double 6s and Double 1s
+No matter how many dice you roll, two 6s or two 1s count as *Power* or *shadow* outcomes respectively. Both heighten the importance of a scene.
+- ***Power* (two 6s)** — Your Power intervenes. It's better than *best*. Clear 2 *favor*.
+- ***Shadow* (two 1s)** — The shadow gets its tenterhooks in you. Mark *overpowered*. 
 #### Influencing Outcomes
 ##### Before roll
 ###### Go for broke
@@ -132,13 +119,11 @@ Choose one below and sort out the details with the GM.
 - you deplete a resource or need more time
 - you must prove yourself, owe a debt, or answer a counterproposal
 - word travels, or you're remembered and not on your terms
-
 ##### Subtle Press-Your-Luck Dynamic
-You can roll up to 4 dice: the standard 2d6 +1 Help Die +1 Power/Condition/Complication Die.
+You can roll up to 4 dice: the standard 2d6 +1 Help Die +1 Power, Condition, or Complication (PCC) Die.
 
-No matter how many dice you roll, two 6s or two 1s count as *Power* or *shadow* outcomes respectively. As you decide whether to add a Power/Condition/Complication Die, remember the extra die is not a guaranteed +1 minimum to the result. If you already rolled one 1, then you bear a 1 in 6 risk of a worse than *worst* outcome.
+ As you decide whether to add a PCC Die, remember it's not a guaranteed +1 minimum to the result. If you already rolled one 1, then you bear a 1 in 6 risk of a worse than *worst* outcome. Alternately, if you already rolled one 6, then you might see your Power intervene.
 
-Alternately, if you already rolled one 6, then you might see your Power intervene.
 
 ### Magic
 **There are no spells. Every spell is bespoke.** For inspiration, cross your Power’s Realm Beyond with a verb from this list: banish or harm, conjure or create, control or animate, divine or descry, illude or trick, transform or mend, ward or protect. For example:
