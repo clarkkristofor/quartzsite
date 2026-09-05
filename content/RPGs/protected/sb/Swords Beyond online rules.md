@@ -89,8 +89,8 @@ Discover your hunter’s story; don’t plan it. Let it emerge from dice rolls, 
 - **BEYOND** — using [[Swords Beyond online rules#Magic|magic]], or accessing or channeling a Power Beyond this world.
 #### Double 6s and Double 1s
 No matter how many dice you roll, two 6s or two 1s count as *Power* or *shadow* outcomes respectively. Both heighten the importance of a scene.
-- ***Power* (two 6s)** — Your Power intervenes. It's better than *best*. Clear 2 *favor*.
-- ***Shadow* (two 1s)** — The shadow gets its tenterhooks in you. Mark *overpowered*. 
+- ***Power* (two 6s)** — Your Power intervenes. It's better than 10+. Clear 2 *favor*.
+- ***Shadow* (two 1s)** — The shadow gets its tenterhooks in you. It's worse than 9-. Mark *overpowered*. 
 #### Influencing Outcomes
 ##### Before roll
 ###### Go for broke
