@@ -83,11 +83,11 @@ Use the *conflict* move when your hunter wants something from someone — surren
 #### Reach
 **Say who or what your hunter reaches for and how.** Roll 2d6+STAT. **10+**, it opens to you. Pick one: you learn something true, something in you or them/it shifts, a bond forms or is tested, you glimpse further than you meant to. **9-**, it doesn't and the GM makes a move
 
-Use the *reach* move when your hunter encounters, reaches for, or connects with someone or something — a person, a memory, a Realm, a presence not yet named. Not taking, not forcing but simply offering yourself and seeing what comes back. This is the move for relating, finding, disarming, parting, changing, the moments your hunter opens themselves to what they can't control.
+Use the *reach* move when your hunter encounters, reaches for, or connects with someone or something — a person, a memory, a Realm, a presence not yet named. Not taking, not forcing but simply offering yourself and seeing what comes back, and potentially being changed by it. This is the move for relating, finding, disarming, parting, changing, the moments your hunter opens themselves to what they can't control.
 #### Act
 **Say what your hunter does.** Roll 2d6+STAT. **10+**, you do it. **9-**, you don't and the GM makes a move.
 
-Use the *act* move when your hunter attempts a task and the outcome is risky and genuinely in doubt. No one to persuade, nothing reaching back. Just you against the task when the pressure is on.
+Use the *act* move when your hunter attempts a task with real stakes and the outcome is genuinely in doubt. No one to persuade, nothing reaching back; do or do not, nothing more. Just you against the task when the pressure is on.
 #### Stats
 - **BODY** — exercising strength, speed, toughness, nimbleness, or stamina.  
 - **HEART** — exercising loyalty, persuasion, empathy, cunning, or wisdom.  
