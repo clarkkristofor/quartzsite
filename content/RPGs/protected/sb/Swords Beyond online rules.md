@@ -77,17 +77,11 @@ Discover your hunter’s story; don’t plan it. Let it emerge from dice rolls, 
 ## Rolling Dice
 ### Basic Moves
 #### Conflict
-**Say what your hunter wants from whom and what you do to get it.** Roll 2d6+STAT.  
-- **10+:** they give it to you
-- **9-:** they don't and the GM makes a move
+**Say what your hunter wants from whom and what you do to get it.** Roll 2d6+STAT. **10+**, they give it to you. **9-**, they don't and the GM makes a move.
 #### Reach
-**Say who or what your hunter reaches for and how.** Roll 2d6+STAT.  
-- **10+:** it opens to you. Pick one: you learn something true, something in you or them/it shifts, a bond forms or is tested, you glimpse further than you meant to
-- **9-:** it doesn't and the GM makes a move
+**Say who or what your hunter reaches for and how.** Roll 2d6+STAT. **10+**, it opens to you. Pick one: you learn something true, something in you or them/it shifts, a bond forms or is tested, you glimpse further than you meant to. **9-**, it doesn't and the GM makes a move
 #### Act
-**Say what your hunter does.** Roll 2d6+STAT.  
-- **10+:** you do it
-- **9-:** you don't and the GM makes a move
+**Say what your hunter does.** Roll 2d6+STAT. **10+**, you do it. **9-**, you don't and the GM makes a move.
 #### Stats
 - **BODY** — exercising strength, speed, toughness, nimbleness, or stamina.  
 - **HEART** — exercising loyalty, persuasion, empathy, cunning, or wisdom.  
@@ -760,6 +754,23 @@ Your status with a faction changes for any number of reasons, but one of the mos
 
 When you’re being hunted by one or more factions, your pact suffers +2 alarm after hunts, and every string the keeper pulls will involve the involved faction(s) coming for you. The only way to stop a faction from hunting you once they’ve started is to find a way to eliminate them, or by spending Trust to negotiate a mutual agreement to establish a new status rating
 
+# Playing as GM
+### GM Moves
+#### Turn It Back
+- **Turn their move back on them** — who they threatened threatens them, a blow's force throws them off balance, what they reach for reaches back.
+- **Give them what they wanted, but undone** — by another's action, an unintended consequence, or the shadow's touch.
+#### Call Them Out
+- **Challenge their drive or belief; pact, promise, or conviction.**
+- **Make someone they care about pay.**
+#### Apply Pressure
+- **Put them in a spot** — between two dangers, exposed, or cut off from help.
+- **Separate them from an ally or resource.**
+- **Advance a threat already in motion.**
+- **Reveal an unwelcome truth** — the creeping shadow, a debt coming due, a looming danger.
+#### Make Them Pay
+- **Offer an opportunity**, with or without a cost.
+- **Take something away** — an object, gear, a link, standing, or an opportunity.
+- **Inflict harm, or a condition**, as established by the fiction.
 
 # World Map
 
