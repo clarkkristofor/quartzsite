@@ -78,10 +78,16 @@ Discover your hunter’s story; don’t plan it. Let it emerge from dice rolls, 
 ### Basic Moves
 #### Conflict
 **Say what your hunter wants from whom and what you do to get it.** Roll 2d6+STAT. **10+**, they give it to you. **9-**, they don't and the GM makes a move.
+
+Use the *conflict* move when your hunter wants something from someone — surrender, silence, support, trust, fear, or even an item. When you act to get it — fight, plead, threaten, lie, bargain — it's time for *conflict*. Or when someone wants something from your hunter, and your hunter resists. Whenever two wills vie but only one of you can prevail.
 #### Reach
 **Say who or what your hunter reaches for and how.** Roll 2d6+STAT. **10+**, it opens to you. Pick one: you learn something true, something in you or them/it shifts, a bond forms or is tested, you glimpse further than you meant to. **9-**, it doesn't and the GM makes a move
+
+Use the *reach* move when your hunter encounters, reaches for, or connects with someone or something — a person, a memory, a Realm, a presence not yet named. Not taking, not forcing but simply offering yourself and seeing what comes back. This is the move for relating, finding, disarming, parting, changing, the moments your hunter opens themselves to what they can't control.
 #### Act
 **Say what your hunter does.** Roll 2d6+STAT. **10+**, you do it. **9-**, you don't and the GM makes a move.
+
+Use the *act* move when your hunter attempts a task and the outcome is risky and genuinely in doubt. No one to persuade, nothing reaching back. Just you against the task when the pressure is on.
 #### Stats
 - **BODY** — exercising strength, speed, toughness, nimbleness, or stamina.  
 - **HEART** — exercising loyalty, persuasion, empathy, cunning, or wisdom.  
