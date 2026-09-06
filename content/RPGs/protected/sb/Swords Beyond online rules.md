@@ -79,50 +79,57 @@ Discover your hunter’s story; don’t plan it. Let it emerge from dice rolls, 
 #### Conflict
 **Say what your hunter wants from whom and what you do to get it.** Roll 2d6+STAT. **10+**, they give it to you. **9-**, they don't and the GM makes a move.
 
-Use the *conflict* move when your hunter wants something from someone — surrender, silence, support, trust, fear, or even an item. When you act to get it — fight, plead, threaten, lie, bargain — it's time for *conflict*. Or when someone wants something from your hunter, and your hunter resists. Whenever two wills vie but only one of you can prevail.
+Use the *conflict* move when your hunter wants something from someone — surrender, silence, support, trust, fear, or even an item. When you act to get it — fight, plead, threaten, lie, bargain — it's time for *conflict*. Or when someone wants something from your hunter, and your hunter resists. Whenever wills vie but only one of you can prevail.
+
+*Examples: beseeching a river spirit to stop the flood, busking for coin from passersby, negotiating with a rival gang over turf, threatening a guard to let you pass, throwing a game of cards to ingratiate yourself to a mark.*
 #### Reach
-**Say who or what your hunter reaches for and how.** Roll 2d6+STAT. **10+**, it opens to you. Pick one: you learn something true, something in you or them/it shifts, a bond forms or is tested, you glimpse further than you meant to. **9-**, it doesn't and the GM makes a move
+**Say who or what your hunter reaches for and how.** Roll 2d6+STAT. **10+**, it opens to you. Pick one: you learn something true, something in you or them/it shifts, a bond forms or is strengthened, it opens further than expected. **9-**, it doesn't and the GM makes a move.
 
 Use the *reach* move when your hunter encounters, reaches for, or connects with someone or something — a person, a memory, a Realm, a presence not yet named. Not taking, not forcing but simply offering yourself and seeing what comes back, and potentially being changed by it. This is the move for relating, finding, disarming, parting, changing, the moments your hunter opens themselves to what they can't control.
+
+*Examples: reciting a poem to woo someone you long for, reading a letter from your long-dead mother and hoping to finally understand why she left, sitting with a dying friend and seeking closure, touching a shrine to see what it shows you.*
 #### Act
 **Say what your hunter does.** Roll 2d6+STAT. **10+**, you do it. **9-**, you don't and the GM makes a move.
 
 Use the *act* move when your hunter attempts a task with real stakes and the outcome is genuinely in doubt. No one to persuade, nothing reaching back; do or do not, nothing more. Just you against the task when the pressure is on.
-#### Stats
+
+*Examples: casting a scrying spell with your last newt's eye, climbing a wall without waking those inside, recalling an ancient rite while a demon batters at the door.*
+### Stats
 - **BODY** — exercising strength, speed, toughness, nimbleness, or stamina.  
 - **HEART** — exercising loyalty, persuasion, empathy, cunning, or wisdom.  
 - **MIND** — exercising learning, analysis, perception, composure, or tinkering.  
 - **BEYOND** — using [[Swords Beyond online rules#Magic|magic]], or accessing or channeling a Power Beyond this world.
-#### Double 6s and Double 1s
+### Double 6s and Double 1s
 No matter how many dice you roll, two 6s or two 1s count as *Power* or *shadow* outcomes respectively. Both heighten the importance of a scene.
 - ***Power* (two 6s)** — Your Power intervenes. It's better than 10+. Clear 2 *favor*.
 - ***Shadow* (two 1s)** — The shadow gets its tenterhooks in you. It's worse than 9-. Mark *overpowered*. 
-#### Influencing Outcomes
-##### Before roll
-###### Go for broke
-Take on more risk to increase your impact. Do something big, stupid, or beyond your capabilities. Expose yourself to serious trouble. A 9- will be worse but a 10+, better. Gain 1 *hope* when you do.
-###### Receive a **Help Die** or **Set Up** action
+### Influencing Outcomes
+#### Before roll
+##### Go for broke
+Take on more risk to increase your impact. Overplay your hand, open yourself recklessly, or do something big or stupid. Expose yourself to serious trouble. A 9- will be worse but a 10+, better. Gain *1 hope* when you do.
+##### Receive a **Help Die** or **Set Up** action
 See [[#Teamwork|"Teamwork"]].
 
-##### After roll
+#### After roll
 As long as you haven't already rolled *shadow*, you may mark *[[#Favor|favor]]* or a *[[#Conditions & Death|condition]]* or choose a complication to roll +1d6 to improve the result.
-###### Power Die
+##### Power Die
 Mark 2 *favor*.
-###### Condition Die
+##### Condition Die
 Mark the relevant *condition* (*exhausted* for +BODY, *overwhelmed* for +HEART, etc.).
-###### Complication Die
+##### Complication Die
 Choose one below and sort out the details with the GM.
 - what you accomplish is partial, temporary, or unstable
 - the obstacle or opponent adapts, reinforces, or outflanks you
-- you and your opponent trade blows (to body, reputation, belief, drive, etc.)
+- you and your opponent or counterpart trade something valuable (blows to body or reputation, secrets you don't want each other to know, challenges to belief or drive, etc.)
+- what opens will not close: you keep giving, or it keeps taking
 - you go off-course, blow your cover, or put yourself in harm's way
 - you deplete a resource or need more time
 - you must prove yourself, owe a debt, or answer a counterproposal
 - word travels, or you're remembered and not on your terms
-##### Subtle Press-Your-Luck Dynamic
-You can roll up to 4 dice: the standard 2d6 +1 Help Die +1 Power, Condition, or Complication (PCC) Die.
+#### Pressing your luck, not guaranteed bonus
+You can roll up to 4 dice: the standard 2d6 +1 Help Die +1 Power, Condition, or Complication Die.
 
- As you decide whether to add a PCC Die, remember it's not a guaranteed +1 minimum to the result. If you already rolled one 1, then you bear a 1 in 6 risk of a worse than *worst* outcome. Alternately, if you already rolled one 6, then you might see your Power intervene.
+ As you decide whether to add a die, remember it's not a guaranteed +1 minimum to the result. If you already rolled one 1, then you bear a 1 in 6 risk of a worse than *worst* outcome. Alternately, if you already rolled one 6, then you might see your Power intervene.
 
 
 ### Magic
@@ -135,7 +142,7 @@ You can roll up to 4 dice: the standard 2d6 +1 Help Die +1 Power, Condition, or 
 - the **Wild:** speak with animals, animate vines, summon the wind
 
 ### Favor
-_Favor_ is magic granted by your Power Beyond. After a basic, you may mark 2 *favor* to add a **Power Die** (+1d6) to the result. The GM may require _favor_ for even trying major magic. Some abilities cost _favor_ to use. When you use _favor_, mark your 9-segment favor track. Filling it triggers a *[[#Magic, Favor & Fate|fate roll]]*.
+_Favor_ is magic granted by your Power Beyond. After rolling for a basic move, you may mark 2 *favor* to add a **Power Die** (+1d6) to the result. The GM may require _favor_ for even trying major magic. Some abilities cost _favor_ to use. When you use _favor_, mark your 9-segment favor track. Filling it triggers a *[[#Magic, Favor & Fate|fate roll]]*.
 
 ### Fate Rolls
 A fate roll frames an encounter with your Power Beyond and/or the shadow. When filling your favor track, roll 2d6 +FATE and play a scene with:
@@ -157,7 +164,7 @@ Take -1 fate and mark a condition. If you can’t take -1 fate, your doom has co
 Choose players to play your Power and/or the shadow. The rest play the chorus, anonymous Powers of either the relevant Realm Beyond or the shadow. Remind everyone of your Power’s Realm and link, your belief and the pact’s conviction. Decide: who’s driving the scene, what do they want, and who do they want it from? Integrate your reward, doom, or 7-9 choice. End the scene when the driver gets what they want or definitively does not.
 
 ### Teamwork
-Teamwork is a set of actions hunters can take to benefit pact mates: _help_, _protect_, _set up_, and **anchor**. *Angry* hunters cannot lead, participate in, or benefit from teamwork, except *anchor: temper*.
+Teamwork is a set of actions hunters can take to benefit pact mates: _help_, _protect_, _set up_, and **anchor**. *Angry* hunters cannot lead or participate in teamwork *Angry* hunters cannot benefit from teamwork, except for the *anchor* move, *temper*.
 ##### Help
 Spend 1 *hope* to give another hunter a +1d6 **Help Die** on a basic roll. Helpers may suffer any consequences, depending on the outcome. Only one helper at a time. Describe how you help.
 ##### Protect
@@ -165,7 +172,7 @@ Intervene to suffer consequences instead of another hunter. Succeeds automatical
 ##### Set Up
 Perform a set up action for another hunter. If they follow through, they will do more on their own *best* result. Describe your set up. Roll if necessary.
 ##### Anchor
-Act to clear another hunter's condition.
+Connect with another hunter to clear their condition. (A specialized *reach* move.)
 
 | Condition    | Anchor Action | Stat    |
 | ------------ | ------------- | ------- |
@@ -175,9 +182,9 @@ Act to clear another hunter's condition.
 | Overshadowed | Ground        | +BEYOND |
 | Angry        | Temper        | +HEART  |
 
-Describe what you do. Make a basic roll, 2d6 +STAT.
-- **10+** They clear the condition and mark 1 hope or 1 bond, their choice.
-- **9-** They immediately do the solo action that clears the condition. You mark the same condition.
+Describe what you do. Roll, 2d6 +STAT.
+- **10+** They clear the condition and mark *1 hope* or *1 bond*, their choice.
+- **9-** They immediately do the solo action that clears the condition. You mark the condition they cleared.
 
 ## Drawing Cards
 ### the Oracle Deck
@@ -531,6 +538,7 @@ You are tethered to your Power Beyond in one of three ways. A link is something 
 
 
 # Hunter Roles
+
 ## the Shield
 **STATS**: +2 Body, +1 Heart, -1 Mind
 **GAIN HOPE VIA** force of will or brawn.
@@ -660,8 +668,8 @@ You are tethered to your Power Beyond in one of three ways. A link is something 
 ## Basic Beats
 
 **ACQUIRE AN ASSET** (2H). Describe how you gain temporary use of an item, ally/crew, mode of transport or service. You have one use of the asset, and the asset’s Quality is equal to your pact’s Trust. Give each asset 2-3 tags, usually including one benefit and one drawback.
-**QUELL ALARM** (2B). Say what your character does to lessen alarm in the people of the Over Reach. Reduce alarm by two. 
 
+**QUELL ALARM** (2B). Say what your character does to lessen alarm in the people of the Over Reach. Reduce alarm by two. 
 %% Do I want to use alarm? I do want some mechanical interaction with Lost Plenty. %%
 
 **RECOVER** (2H). When you recover, you seek treatment for your wounds. If you don’t have a connection, ally, or fellow hunter who can help, use the **acquire asset** beat to gain access to someone who can. If you opt to do it yourself, mark 1 favor per wound. Clear all wounds.
