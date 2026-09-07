@@ -68,7 +68,7 @@ Your destiny is also intertwined with a **pact** of other hunters and, of course
 ### Do what your hunter would do. 
 The game gives you **the bones** – _kin_, _culture_, _belief_, and _drive_ – and dumps them in the middle of your hunter sheet. Put flesh on those bones by acting on them, give them life by letting your hunter embody them, even struggle with them, change them.
 
-The game also gives you **the incentive**. Doing what your hunter would do will earn you _hope_ to unlock new hunter abilities and bonuses.
+The game also gives you **the incentive**. Doing what your hunter would do will earn you *hope* to unlock new hunter abilities and bonuses.
 ### Make your hunter real.
 Play like your hunter is real person living in a real world. Multifaceted, flawed, heroic, changing. All the more, given the pressure of being a hunter. Most importantly, give your hunter skin in the game, something urgent and important that’s at stake. Tangle them up in the fiction of the world.
 ### Play to find out what happens.
@@ -104,13 +104,13 @@ No matter how many dice you roll, two 6s or two 1s count as *Power* or *shadow* 
 - ***Power* (two 6s)** — Your Power intervenes. It's better than 10+. Clear 2 *favor*.
 - ***Shadow* (two 1s)** — The shadow gets its tenterhooks in you. It's worse than 9-. Mark *overpowered*. 
 ### Influencing Outcomes
-#### Before roll
+#### Before the roll
 ##### Go for broke
 Take on more risk to increase your impact. Overplay your hand, open yourself recklessly, or do something big or stupid. Expose yourself to serious trouble. A 9- will be worse but a 10+, better. Gain *1 hope* when you do.
 ##### Receive a **Help Die** or **Set Up** action
 See [[#Teamwork|"Teamwork"]].
 
-#### After roll
+#### After the roll
 As long as you haven't already rolled *shadow*, you may mark *[[#Favor|favor]]* or a *[[#Conditions & Death|condition]]* or choose a complication to roll +1d6 to improve the result.
 ##### Power Die
 Mark 2 *favor*.
@@ -515,14 +515,15 @@ You are tethered to your Power Beyond in one of three ways. A link is something 
 | **6** | three-tailed fox        | wake in cocoons                                                                    | wordless singing, harmony slipping into dissonance and back |
 
 ## Role
-|  d6   |                                                               |
-| :---: | ------------------------------------------------------------- |
-| **1** | [[Swords Beyond online rules#the Shield\|the Shield]]         |
-| **2** | [[Swords Beyond online rules#the Law\|the Law]]               |
-| **3** | [[Swords Beyond online rules#the Scourge\|the Scourge]]       |
-| **4** | [[Swords Beyond online rules#the Loreseeker\|the Loreseeker]] |
-| **5** | [[Swords Beyond online rules#the Fox\|the Fox]]               |
-| **6** | [[Swords Beyond online rules#the Zealot\|the Zealot]]         |
+|  d6   | Role                                                        | BODY | HEART | MIND | BEYOND |
+| :---: | ----------------------------------------------------------- | :--: | :---: | :--: | :----: |
+| **1** | [[Swords Beyond online rules#the Shield\|the Shield]]       |  +2  |  +1   |  -1  |   0    |
+| **2** | [[Swords Beyond online rules#the Maul\|the Maul]]           |  -1  |   0   |  0   |   +3   |
+| **3** | [[Swords Beyond online rules#the Law\|the Law]]             |  +1  |  +1   |  +1  |   -1   |
+| **4** | [[Swords Beyond online rules#the Zealot\|the Zealot]]       |  +1  |  -1   |  +2  |   0    |
+| **5** | [[Swords Beyond online rules#the Lodestone\|the Lodestone]] |  0   |  +2   |  -1  |   +1   |
+| **6** | [[Swords Beyond online rules#the Fox\|the Fox]]             |  0   |   0   |  +2  |   0    |
+Adds one additional +1 to any stat.
 
 # Making the Pact
 *Create the pact together.*
@@ -540,9 +541,11 @@ You are tethered to your Power Beyond in one of three ways. A link is something 
 # Hunter Roles
 
 ## the Shield
-**STATS**: +2 Body, +1 Heart, -1 Mind
-**GAIN HOPE VIA** force of will or brawn.
-**DRIVE PROMPT**: A past tragedy or a future hope. What keeps you moving forward?
+The Shield protects their own. The strong one, out-bullying the bullies and reliably finishing it no matter who started it. It's not a sense of duty; defying danger is your love language, in and out of a fight.
+
+Gain hope whenever you approach a challenge with strength or tenderness.
+
+Write a drive about another hunter or the pact as a whole. What would you give to protect them?
 ##### Abilities
 □ **RECKLESS**. When you rush into combat without the aid or support of your pact, you do so with increased impact.
 
@@ -558,29 +561,12 @@ You are tethered to your Power Beyond in one of three ways. A link is something 
 
 ---
 
-## the Law
-**STATS**: +2 Heart, +1 Mind, -1 Beyond
-**GAIN HOPE VIA** influence or analysis.
-**DRIVE PROMPT**: Your organization or assignment. Were you assigned here as a reward or punishment?
-##### Abilities
-□ **COASTAL CITIES INVESTIGATOR**. You have a practiced eye for examining crime scenes and sites of strange occurrences. Gain **+1** when you do. You can always find a clue when you study wounds, corpses, etc., even on a worst outcome.
+## the Maul
+The Maul is lightning in someone else's bottle. Your Power Beyond wields you. Can you retain the power while choosing your own destiny?
 
-□ **KEEN AWARENESS**. You can always **help** another hunter without marking hope as long as you can see them and you agree to **protect** them from consequences.
+Gain hope whenever you approach a challenge with borrowed power or chosen path.
 
-□ **LEAVE NO ONE BEHIND**. When you **act together** to escape, gain **+1** for yourself and **+1** to share.
-
-□ **NETWORKED**. You can ACQUIRE ASSETS or QUELL ALARM for free once per downtime. Gain **+1** when you investigate by leaning on your sources.
-
-□ **PLAUSIBLE DENIABILITY**. You may expend your **plot armor** to resist a consequence from suspicion or persuasion, or to gain **+1** to a roll at no cost when engaging in subterfuge.
-
-□ **UNDERCOVER**. When you use a disguise or other form of covert misdirection, gain increased impact on attempts to confuse or deflect suspicion. When you reveal your true identity, the resulting surprise gives you an advantage.
-
----
-
-## the Scourge
-**STATS**: +1 Mind, +2 Beyond, -1 Heart
-**GAIN HOPE VIA** eldritch wisdom or arcane power.
-**DRIVE PROMPT**: Your craft or its power. Will you give in to your dark temptations?
+Write a drive about the destiny your Power chose for you or the goal you'd choose for yourself. Can they be reconciled?
 ##### Abilities
 □ **MINOR INDISCRETIONS**. You can draw power from the shadow. Gain a **6-segment “Indiscretion” clock**. Anytime you’d mark 2 favor, you may mark 1 segment instead. When you do, roll 1d6. If the result is less than or equal to the number of marked segments, mark _overshadowed_. Already marked? Make a fate roll instead.
 
@@ -596,10 +582,54 @@ You are tethered to your Power Beyond in one of three ways. A link is something 
 
 ---
 
-## the Loreseeker
-**STATS**: +3 Mind, -1 Body
-**GAIN HOPE VIA** knowledge or insight.
-**DRIVE PROMPT**: Your research or pursuit. What tragic past mistakes can you never forget, no matter how much studying you do?
+## the Law
+The Law bears the crest, the seal, the writ. They come to balance the ledger. Many who do get off on being in charge. But you care enough about the people you serve to see how the authority you represent is letting them down. When the ones who sent you owe the greater debt, who else but you would collect it?
+
+Gain hope whenever you approach a challenge with influence or idealism.
+
+Write a drive about your organization or assignment. How do you hold the tension between what it is and what you want it to be?
+##### Abilities
+□ **COASTAL CITIES INVESTIGATOR**. You have a practiced eye for examining crime scenes and sites of strange occurrences. Gain **+1** when you do. You can always find a clue when you study wounds, corpses, etc., even on a worst outcome.
+
+□ **KEEN AWARENESS**. You can always **help** another hunter without marking hope as long as you can see them and you agree to **protect** them from consequences.
+
+□ **LEAVE NO ONE BEHIND**. When you **act together** to escape, gain **+1** for yourself and **+1** to share.
+
+□ **NETWORKED**. You can ACQUIRE ASSETS or QUELL ALARM for free once per downtime. Gain **+1** when you investigate by leaning on your sources.
+
+□ **PLAUSIBLE DENIABILITY**. You may expend your **plot armor** to resist a consequence from suspicion or persuasion, or to gain **+1** to a roll at no cost when engaging in subterfuge.
+
+□ **UNDERCOVER**. When you use a disguise or other form of covert misdirection, gain increased impact on attempts to confuse or deflect suspicion. When you reveal your true identity, the resulting surprise gives you an advantage.
+
+---
+
+## the Zealot
+The Zealot is a true believer, maybe the only one. Every hunt, every task is a small offering. Before it's asked, without ceremony, you do it for the pact. Carefully tending, so the sacrifice will be perfect.
+
+Gain hope whenever you approach a challenge with devotion or precision.
+
+Write a drive about your sect or crusade. What kind of sacrifice does it require?
+##### Abilities
+□ **SIGNATURE STYLE**. When fighting in the manner of your sect, choose one; it occurs even on a worst outcome: _you force them where you want them – you gain an extra use of armor – you can escape and they cannot follow._ You cannot choose the same option twice during a hunt.
+
+□ **ALL-CONSUMED**. You are captivated by an element of the history or lore of your sect. What is it? When you investigate or work on a LONG-TERM PROJECT about this subject, gain **+1 result level**.
+
+□ **HOLISTIC HEALER**. Once per hunt, you may treat another hunter’s **conditions**. They ignore the effects until the end of a hunt.
+
+□ **INSPIRED & INSPIRING**. If you give a rousing speech or pep talk before **acting together**, take **+1**. Additionally, you may count multiple 6s from different hunters’ rolls toward a Power outcome (double 6s).
+
+□ **MASTER MEDITATOR**. You’ve learned to control your vital functions and autonomic responses for several minutes. Expend your **plot armor** to _feign death convincingly, lie without being caught, hold your breath for an extended period of time, etc_.
+
+□ **VISIONS OF DEATH.** When you kill a monster of shadow, roll plus Beyond. On a 10+, name one person who’ll die and one who’ll live. On a 7–9, name one person who’ll die OR one person who’ll live. Not hunters; NPCs only. The GM will make your vision come true, if it’s possible. On a 6-, you foresee your own death. Mark _afraid_.
+
+---
+
+## the Lodestone
+The Lodestone is the heart of the pact and maybe the one who needs them most. To this life’s weary travelers, you’re a campfire on a cold, dark night. But you have a secret: once you gave the shadow part of yourself, and now it hunts you. Sometimes you just want the reckoning to come.
+
+Gain hope whenever you approach a challenge with warmth or courage.
+
+Write a drive about who you were before or who you could become. What does the pact have to do with it?
 ##### Abilities
 □ **ALL PART OF THE PLAN**. Expend your **plot armor** to reveal that this was the plan all along. Describe a flashback showing how you prepared, and grant **+2** when helping a teammate, even after they roll. Gain increased impact when acting on your prep.
 
@@ -616,9 +646,11 @@ You are tethered to your Power Beyond in one of three ways. A link is something 
 ---
 
 ## the Fox
-**STATS**: +2 Body, +1 Heart, -1 Mind or Beyond
-**GAIN HOPE VIA** deception or charm.
-**DRIVE PROMPT**: A long con or your redemption. Did you choose a life of crime, or was it chosen for you?
+The Fox always reads the tell and keeps their cool. That's their edge, exploiting the easy mark, the unguarded way, the chink in the armor. With one exception. The hand you won't fold. The play you won't make. The tell you can't hide. And the shadow knows it.
+
+Gain hope whenever you approach a challenge with indirection or passion.
+
+Write a drive about a vow or a guilt. Why can't you walk away from it?
 ##### Abilities
 □ **SMELL IT ON ‘EM**. You always know when someone is lying to you.
 
@@ -632,25 +664,7 @@ You are tethered to your Power Beyond in one of three ways. A link is something 
 
 □ **QUICKDRAW**. When you attack from hiding, take **+1**. Whenever there’s a question of who acts first, the answer is always you.
 
----
 
-## the Zealot
-**STATS**: +2 Mind, +1 Beyond, -1 Body
-**GAIN HOPE VIA** cooperation or control.
-**DRIVE PROMPT**: Your sect or crusade. Are you alone in your beliefs or do others walk beside you on this winding path?
-
-##### Abilities
-□ **SIGNATURE STYLE**. When fighting in the manner of your sect, choose one; it occurs even on a worst outcome: _you force them where you want them – you gain an extra use of armor – you can escape and they cannot follow._ You cannot choose the same option twice during a hunt.
-
-□ **ALL-CONSUMED**. You are captivated by an element of the history or lore of your sect. What is it? When you investigate or work on a LONG-TERM PROJECT about this subject, gain **+1 result level**.
-
-□ **HOLISTIC HEALER**. Once per hunt, you may treat another hunter’s **conditions**. They ignore the effects until the end of a hunt.
-
-□ **INSPIRED & INSPIRING**. If you give a rousing speech or pep talk before **acting together**, take **+1**. Additionally, you may count multiple 6s from different hunters’ rolls toward a Power outcome (double 6s).
-
-□ **MASTER MEDITATOR**. You’ve learned to control your vital functions and autonomic responses for several minutes. Expend your **plot armor** to _feign death convincingly, lie without being caught, hold your breath for an extended period of time, etc_.
-
-□ **VISIONS OF DEATH.** When you kill a monster of shadow, roll plus Beyond. On a 10+, name one person who’ll die and one who’ll live. On a 7–9, name one person who’ll die OR one person who’ll live. Not hunters; NPCs only. The GM will make your vision come true, if it’s possible. On a 6-, you foresee your own death. Mark _afraid_.
 
 
 # Downtime
