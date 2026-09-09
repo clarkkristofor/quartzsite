@@ -11,9 +11,9 @@ unlisted: true
 
 **a fast & loose, highly improvisational fantasy rpg**
 
-mash up of *[Bump in the Dark, revised edition](https://jexjthomas.itch.io/bump-in-the-dark),* by Jex Thomas, and *[FIST: Ultra Edition](https://claymorerpgs.itch.io/fist)*, by B. Everett Dutton, Ripley Caldwell, T.H. Cochlin, Back-Alley Coalition, Max Danle.
+inspired by *[Bump in the Dark, revised edition](https://jexjthomas.itch.io/bump-in-the-dark),* by Jex Thomas, *[FIST: Ultra Edition](https://claymorerpgs.itch.io/fist)*, by B. Everett Dutton, Ripley Caldwell, T.H. Cochlin, Back-Alley Coalition, Max Danle, and Apocalype World and Under Hollow Hills by by D.  Vincent and Meguey Baker.
 
-with additional inspiration from *[13th Age](https://pelgranepress.com/13th-age/)* by Rob Heinsoo & Jonathan Tweet, *[Maze Rats](https://questingbeast.itch.io/maze-rats)* by Ben Milton, and *[50/50](https://docs.google.com/document/d/1NLD_KhZwrKRz3sIquZDSW_Wx__7My6Kdg1Jbk6hF7Mw/edit?pli=1&tab=t.0)* by John Harper
+with additional inspiration from *[13th Age](https://pelgranepress.com/13th-age/)* by Rob Heinsoo & Jonathan Tweet, *[Maze Rats](https://questingbeast.itch.io/maze-rats)*  Ben Milton, and *[50/50](https://docs.google.com/document/d/1NLD_KhZwrKRz3sIquZDSW_Wx__7My6Kdg1Jbk6hF7Mw/edit?pli=1&tab=t.0)* by John Harper
 ### *[Downloads](https://drive.google.com/drive/folders/1rtNJpaatjz2WGgBjgilf1uSoaCo8LBJX?usp=sharing)*
 ### Campaigns
 - playtest gamma
@@ -81,13 +81,13 @@ Discover your hunter’s story; don’t plan it. Let it emerge from dice rolls, 
 
 Use the *conflict* move when your hunter wants something from someone — surrender, silence, support, trust, fear, or even an item. When you act to get it — fight, plead, threaten, lie, bargain — it's time for *conflict*. Or when someone wants something from your hunter, and your hunter resists. Whenever wills vie but only one of you can prevail.
 
-*Examples: beseeching a river spirit to stop the flood, busking for coin from passersby, negotiating with a rival gang over turf, threatening a guard to let you pass, throwing a game of cards to ingratiate yourself to a mark.*
+*Examples: beseeching a river spirit to stop flooding, busking for coin from passersby, negotiating with a rival gang over turf, threatening a guard to let you pass, throwing a game of cards to ingratiate yourself to a mark.*
 #### Reach
-**Say who or what your hunter reaches for and how.** Roll 2d6+STAT. **10+**, it opens to you. Pick one: you learn something true, something in you or them/it shifts, a bond forms or is strengthened, it opens further than expected. **9-**, it doesn't and the GM makes a move.
+**Say who or what your hunter reaches for and what you risk.** Roll 2d6+STAT. **10+**, they/it opens to you. Pick one: you learn something true, something in you or them/it shifts, a bond forms or is strengthened, they/it opens further than expected. **9-**, they/it doesn't and the GM makes a move.
 
-Use the *reach* move when your hunter encounters, reaches for, or connects with someone or something — a person, a memory, a Realm, a presence not yet named. Not taking, not forcing but simply offering yourself and seeing what comes back, and potentially being changed by it. This is the move for relating, finding, disarming, parting, changing, the moments your hunter opens themselves to what they can't control.
+Use the *reach* move when your hunter encounters, reaches for, or connects with someone or something — a person, a memory, a Realm, a presence not yet named. Not taking, not forcing but simply offering yourself and seeing what comes back, and potentially being changed by it. You always risk exposure, with stakes for your belief, drive, or conviction, relationships, emotional or psychic well-being, even (if less often) your physical person. This is the move for relating, finding, disarming, parting, changing, the moments your hunter opens themselves to what they can't control. The *anchor* move (see [[#Anchor|Teamwork]]) is a specialized form of *reach*.
 
-*Examples: reciting a poem to woo someone you long for, reading a letter from your long-dead mother and hoping to finally understand why she left, sitting with a dying friend and seeking closure, touching a shrine to see what it shows you.*
+*Examples: reciting a poem to woo someone you long for and risking rejection; reading a letter from your long-dead mother and hoping to finally understand why she left, risking discovering a truth worse than what you feared; sitting with a dying friend and seeking closure, risking overwhelming grief; touching a shrine to see what it shows you, risking psychic backlash from its malevolent spirit.*
 #### Act
 **Say what your hunter does.** Roll 2d6+STAT. **10+**, you do it. **9-**, you don't and the GM makes a move.
 
@@ -102,7 +102,7 @@ Use the *act* move when your hunter attempts a task with real stakes and the out
 ### Double 6s and Double 1s
 No matter how many dice you roll, two 6s or two 1s count as *Power* or *shadow* outcomes respectively. Both heighten the importance of a scene.
 - ***Power* (two 6s)** — Your Power intervenes. It's better than 10+. Clear 2 *favor*.
-- ***Shadow* (two 1s)** — The shadow gets its tenterhooks in you. It's worse than 9-. Mark *overpowered*. 
+- ***Shadow* (two 1s)** — The shadow gets its tenterhooks in you. It's worse than 9-. Mark *overshadowed*. The GM makes a move.
 ### Influencing Outcomes
 #### Before the roll
 ##### Go for broke
@@ -172,7 +172,7 @@ Intervene to suffer consequences instead of another hunter. Succeeds automatical
 ##### Set Up
 Perform a set up action for another hunter. If they follow through, they will do more on their own *best* result. Describe your set up. Roll if necessary.
 ##### Anchor
-Connect with another hunter to clear their condition. (A specialized *reach* move.)
+Connect with another hunter to clear their condition. A specialized *reach* move.
 
 | Condition    | Anchor Action | Stat    |
 | ------------ | ------------- | ------- |
@@ -182,11 +182,12 @@ Connect with another hunter to clear their condition. (A specialized *reach* mov
 | Overshadowed | Ground        | +BEYOND |
 | Angry        | Temper        | +HEART  |
 
-Describe what you do. Roll, 2d6 +STAT.
+Name the hunter and condition, then describe how you connect with them. Roll 2d6 +STAT.
 - **10+** They clear the condition and mark *1 hope* or *1 bond*, their choice.
 - **9-** They immediately do the solo action that clears the condition. You mark the condition they cleared.
 
 ## Drawing Cards
+%% optional? %%
 ### the Oracle Deck
 When you roll double 6s or double 1s, your Power Beyond intervenes or the shadow gets its tenterhooks in you. Something significant will change in the scene or hunt. The GM has not predetermined *what* and *how*; that's up to the whole table. Use the card you draw from the Oracle Deck to inspire you. Collaborate with the other players and the GM to interpret the meaning of the card in the context of this moment in the game.
 
@@ -547,17 +548,18 @@ Gain hope whenever you approach a challenge with strength or tenderness.
 
 Write a drive about another hunter or the pact as a whole. What would you give to protect them?
 ##### Abilities
-□ **RECKLESS**. When you rush into combat without the aid or support of your pact, you do so with increased impact.
-
-□ **BASHING HEADS**. Take **+1** to rolls against minions and mooks. When you investigate using intimidation or actual violence, take **+1** too.
-
-□ **I’M THE ONE**. **Mark 2 favor** to make enemies too scared to act against you. They may still lash out if you’ve backed them into a corner, but fighting you will never be their first option.
-
 □ **PROTECTIVE** Clear **1 favor** and gain **1 hope** when you protect someone from harm.
 
 □ **RESILIENT**. You recover from wounds more quickly. You can always take the RECOVER beat for 0 hope once per sanctuary.
 
 □ **THICK SKIN**. You’re hard to hurt. You may expend your **plot armor** to ignore a condition from an attack in combat or to gain **+1** to a roll at no cost during a fight.
+
+%% these are okay mechanics in general but the names no longer fit the role %%
+□ **RECKLESS**. When you rush into combat without the aid or support of your pact, you do so with increased impact.
+
+□ **BASHING HEADS**. Take **+1** to rolls against minions and mooks. When you investigate using intimidation or actual violence, take **+1** too.
+
+
 
 ---
 
@@ -567,18 +569,19 @@ The Maul is lightning in someone else's bottle. Your Power Beyond wields you. Ca
 Gain hope whenever you approach a challenge with borrowed power or chosen path.
 
 Write a drive about the destiny your Power chose for you or the goal you'd choose for yourself. Can they be reconciled?
-##### Abilities
-□ **MINOR INDISCRETIONS**. You can draw power from the shadow. Gain a **6-segment “Indiscretion” clock**. Anytime you’d mark 2 favor, you may mark 1 segment instead. When you do, roll 1d6. If the result is less than or equal to the number of marked segments, mark _overshadowed_. Already marked? Make a fate roll instead.
+- **Note**: Collaborate with the GM. Either you pick the destiny the Power chose or your own goal, and the GM decides the other.
 
-□ **INVOKE**. You can compel shadow, forcing a nearby entity to obey a command you give it. You are not supernaturally terrified by what you summon or compel, though your teammates might be.
+On your character sheet, replace the condition *overshadowed* with *overpowered*, to clear, act in the interests of your Power Beyond. Whenever you would be *overshadowed*, mark *overpowered* instead. Also, for double 1s, replace "***Shadow* (two 1s)** — The shadow gets its tenterhooks in you. It's worse than 9-. Mark *overshadowed*." with "***Power* **(two 1s)**  — Your Power yanks your leash. It's worse than 9-. Mark *overpowered*." 
+##### Abilities
+□ **OVERDRAW**. Mark 3 favor to channel the full capacity of your Power Beyond to  overcome an obstacle, reshape your environment, or extend your senses. Take a 10+ on *conflict*, *reach*, or *act*. The outcome is truly incredible; negotiate with the GM and other players. Afterward, mark *overpowered*.
+
+□ **CHOSEN ONE**. **Mark 2 favor** to make enemies too scared to act against you and nearby hunters. They may still lash out if you’ve backed them into a corner, but fighting you will never be their first option.
 
 □ **LINGERING SENSE.** When you touch something that belongs to someone, or is a piece of a larger whole, you can know their general location and condition.
 
-□ **PREPARED RITUAL**. Once per hunt, you may expend **plot armor** to have an already prepared ritual or spell that does one of the following: _allow for escape – reveal hidden information – create an opportunity for a teammate._
+□ **PREPARED RITUAL**. Once per hunt, you may expend **plot armor** to have an already prepared ritual or spell that does one of the following: *allow for escape – reveal hidden information – create an opportunity for a teammate.*
 
 □ **SLANTED & ENCHANTED**. When you invent or CRAFT a creation with arcane features, take **+1** to your roll. You begin with one arcane design already known.
-
-□ **SHADOW SENSE**. You’re always aware of shadow entities in your presence. Take **+1** when you investigate shadow effects.
 
 ---
 
@@ -590,6 +593,8 @@ Gain hope whenever you approach a challenge with influence or idealism.
 Write a drive about your organization or assignment. How do you hold the tension between what it is and what you want it to be?
 ##### Abilities
 □ **COASTAL CITIES INVESTIGATOR**. You have a practiced eye for examining crime scenes and sites of strange occurrences. Gain **+1** when you do. You can always find a clue when you study wounds, corpses, etc., even on a worst outcome.
+
+_By This Writ_ — invoke the seal you carry to compel compliance, even from those who owe you nothing personally. - plot armor
 
 □ **KEEN AWARENESS**. You can always **help** another hunter without marking hope as long as you can see them and you agree to **protect** them from consequences.
 
@@ -610,13 +615,13 @@ Gain hope whenever you approach a challenge with devotion or precision.
 
 Write a drive about your sect or crusade. What kind of sacrifice does it require?
 ##### Abilities
+_Given Freely_ — offer yourself into harm first, unasked, and turn that sacrifice into an edge for the pact. - teamwork? take a wound to give a teamwork die?
+
 □ **SIGNATURE STYLE**. When fighting in the manner of your sect, choose one; it occurs even on a worst outcome: _you force them where you want them – you gain an extra use of armor – you can escape and they cannot follow._ You cannot choose the same option twice during a hunt.
 
 □ **ALL-CONSUMED**. You are captivated by an element of the history or lore of your sect. What is it? When you investigate or work on a LONG-TERM PROJECT about this subject, gain **+1 result level**.
 
 □ **HOLISTIC HEALER**. Once per hunt, you may treat another hunter’s **conditions**. They ignore the effects until the end of a hunt.
-
-□ **INSPIRED & INSPIRING**. If you give a rousing speech or pep talk before **acting together**, take **+1**. Additionally, you may count multiple 6s from different hunters’ rolls toward a Power outcome (double 6s).
 
 □ **MASTER MEDITATOR**. You’ve learned to control your vital functions and autonomic responses for several minutes. Expend your **plot armor** to _feign death convincingly, lie without being caught, hold your breath for an extended period of time, etc_.
 
@@ -631,17 +636,17 @@ Gain hope whenever you approach a challenge with warmth or courage.
 
 Write a drive about who you were before or who you could become. What does the pact have to do with it?
 ##### Abilities
-□ **ALL PART OF THE PLAN**. Expend your **plot armor** to reveal that this was the plan all along. Describe a flashback showing how you prepared, and grant **+2** when helping a teammate, even after they roll. Gain increased impact when acting on your prep.
+□ **MINOR INDISCRETIONS**. You can draw power from the shadow. Gain a **6-segment “Indiscretion” clock**. Anytime you’d mark 2 favor, you may mark 1 segment instead. When you do, roll 1d6. If the result is less than or equal to the number of marked segments, mark _overshadowed_. Already marked? Make a fate roll instead.
 
-□ **HIT THE BOOKS**. During downtime, you get two ticks to distribute among any LONG-TERM PROJECT clocks that involve investigation or learning something new.
+□ **INVOKE**. You can compel shadow, forcing a nearby entity to obey a command you give it. You are not supernaturally terrified by what you summon or compel, though your teammates might be.
+
+□ **SHADOW SENSE**. You’re always aware of shadow entities in your presence. Take **+1** when you investigate shadow effects.
 
 □ **MORAL COMPASS**. When you do the right thing at a cost to yourself, mark **hope**.
 
-□ **MAPMAKER.** You can’t get lost if you can see the sky.
+□ **OLD FRIENDS**. Once per hunt, you may declare that you know somebody related to the current situation. Write them down as a **connection**.
 
-□ **PROFESSORIAL**. You have a way of explaining things to make them easy to understand to anyone. Once per hunt, when you provide meaningful advice that another hunter follows, you both clear **1 favor**.
-
-□ **TINKERER**. You can modify or CRAFT new tools or devices. Add one invention to your gear. Additionally, gain **+1** to CRAFT during downtime.
+□ **INSPIRED & INSPIRING**. If you give a rousing speech or pep talk before **acting together**, take **+1**. Additionally, you may count multiple 6s from different hunters’ rolls toward a Power outcome (double 6s).
 
 ---
 
@@ -660,12 +665,19 @@ Write a drive about a vow or a guilt. Why can't you walk away from it?
 
 □ **INVISIBLE.** Resist a consequence from detection or security measures by disappearing into the shadows for a few moments. Mark 1 favor for each additional feature: _it lasts for a few minutes rather than moments – you have become temporarily incorporeal and can pass through walls._
 
-□ **OLD FRIENDS**. Once per hunt, you may declare that you know somebody related to the current situation. Write them down as a **connection**.
-
 □ **QUICKDRAW**. When you attack from hiding, take **+1**. Whenever there’s a question of who acts first, the answer is always you.
 
+□ **TINKERER**. You can modify or CRAFT new tools or devices. Add one invention to your gear. Additionally, gain **+1** to CRAFT during downtime.
 
 
+## cut abilities
+□ **ALL PART OF THE PLAN**. Expend your **plot armor** to reveal that this was the plan all along. Describe a flashback showing how you prepared, and grant **+2** when helping a teammate, even after they roll. Gain increased impact when acting on your prep.
+
+□ **HIT THE BOOKS**. During downtime, you get two ticks to distribute among any LONG-TERM PROJECT clocks that involve investigation or learning something new.
+
+==□ **MAPMAKER.** You can’t get lost if you can see the sky.==
+
+□ **PROFESSORIAL**. You have a way of explaining things to make them easy to understand to anyone. Once per hunt, when you provide meaningful advice that another hunter follows, you both clear **1 favor**.
 
 # Downtime
 
@@ -800,6 +812,39 @@ When you’re being hunted by one or more factions, your pact suffers +2 alarm a
 - **Take something away** — an object, gear, a link, standing, or an opportunity.
 - **Inflict harm, or a condition**, as established by the fiction.
 
+## the Setting
+
+### Places
+
+**COASTAL CITIES
+1** Avarice
+**2** Corona
+**3** Opulence
+**4** Estuary
+**5** The Oasters  
+**6** Seahelm
+(old: Aváris, Coruna, Galadium, Moll Marea)
+
+**OVER REACH TOWNS 
+1** Lost Plenty 
+**2** Dunhold 
+**3** Eastborne 
+**4** New Gull 
+**5** Blooming Shores 
+**6** Widow’s Take
+
+### Factions
+
+**KNIGHTS OF THE TERN:** a roundtable of Coastal Cities knights in glittering armor bearing seabird-adorned crests, fanatical guardians of civilization and order
+
+**MARCH AUDITORS**: collect taxes, notarize contracts and marriages, and safeguard roads and shipping lanes for the March Lord, authorized after payment of lump sum
+
+**X-MONGERS**: a guild of X investors and traders in X goods, also organizes sport and sponsors charity (education, widow’s care, orphanages) across the Over Reach
+
+**BANDITS**: rob travelers, including just months ago auditors; in response, the March Lord charged them with sedition and called upon the Knights of Tern
+
 # World Map
 
 ![[Swords Beyond - blank map.png]]
+
+[^1]: 
