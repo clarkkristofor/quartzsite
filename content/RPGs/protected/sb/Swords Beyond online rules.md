@@ -10,18 +10,26 @@ unlisted: true
 ![[swords beyond - logo - online rules.png]]
 
 **a fast & loose, highly improvisational fantasy rpg**
-
-inspired by *[Bump in the Dark, revised edition](https://jexjthomas.itch.io/bump-in-the-dark),* by Jex Thomas, *[FIST: Ultra Edition](https://claymorerpgs.itch.io/fist)*, by B. Everett Dutton, Ripley Caldwell, T.H. Cochlin, Back-Alley Coalition, Max Danle, and Apocalype World and Under Hollow Hills by by D.  Vincent and Meguey Baker.
+# Front stuff
+## Table of Contents
+0. [[#Resources]]
+1. [[#A Creeping Shadow]]
+2. [[#The Realms Beyond]]
+3. [[#Playing Hunters]]
+4. [[#Making your Hunter]] and [[#Hunter Roles]]
+5. [[#Making the Pact]] and [[#the Pact]]
+6. [[#Downtime]]
+7. [[#Playing as GM]]
+8. [[#World Map]]
+## Cover
+![[swords beyond - cover - hydra.png]]
+## Inspirations
+inspired by *[Bump in the Dark, revised edition](https://jexjthomas.itch.io/bump-in-the-dark),* by Jex Thomas, *[FIST: Ultra Edition](https://claymorerpgs.itch.io/fist)*, by B. Everett Dutton, Ripley Caldwell, T.H. Cochlin, Back-Alley Coalition, Max Danle, and Apocalype World and [Under Hollow Hills](https://lumpley.games/under-hollow-hills-about-the-game/) by by D.  Vincent and Meguey Baker.
 
 with additional inspiration from *[13th Age](https://pelgranepress.com/13th-age/)* by Rob Heinsoo & Jonathan Tweet, *[Maze Rats](https://questingbeast.itch.io/maze-rats)*  Ben Milton, and *[50/50](https://docs.google.com/document/d/1NLD_KhZwrKRz3sIquZDSW_Wx__7My6Kdg1Jbk6hF7Mw/edit?pli=1&tab=t.0)* by John Harper
-### *[Downloads](https://drive.google.com/drive/folders/1rtNJpaatjz2WGgBjgilf1uSoaCo8LBJX?usp=sharing)*
-### Campaigns
-- playtest gamma
-- [[playtest beta]]
-- playtest alpha
-
-![[swords beyond - cover - hydra.png]]
-[[Swords Beyond]]
+## Resources
+- ***[Downloads](https://drive.google.com/drive/folders/1rtNJpaatjz2WGgBjgilf1uSoaCo8LBJX?usp=sharing)***
+- ***Playtests***: gamma, [[playtest beta|beta]], alpha
 # A Creeping Shadow
 In the **Over Reach**, deep in the borderlands, along the **Unbroken Wilderness**, rumors spread of sinister monsters and strange and gruesome events. At the heart of it all lies the town of **Lost Plenty**.
 
@@ -83,7 +91,7 @@ Use the *conflict* move when your hunter wants something from someone — surren
 
 *Examples: beseeching a river spirit to stop flooding, busking for coin from passersby, negotiating with a rival gang over turf, threatening a guard to let you pass, throwing a game of cards to ingratiate yourself to a mark.*
 #### Reach
-**Say who or what your hunter reaches for and what you risk.** Roll 2d6+STAT. **10+**, they/it opens to you. Pick one: you learn something true, something in you or them/it shifts, a bond forms or is strengthened, they/it opens further than expected. **9-**, they/it doesn't and the GM makes a move.
+**Say who or what your hunter reaches for and what you risk.** Roll 2d6+STAT. **10+**, they/it opens to you. Pick one: you learn something true, something in you or them/it shifts, a bond forms or is strengthened, they/it opens further than expected. **9-**, they/it doesn't open and the GM makes a move.
 
 Use the *reach* move when your hunter encounters, reaches for, or connects with someone or something — a person, a memory, a Realm, a presence not yet named. Not taking, not forcing but simply offering yourself and seeing what comes back, and potentially being changed by it. You always risk exposure, with stakes for your belief, drive, or conviction, relationships, emotional or psychic well-being, even (if less often) your physical person. This is the move for relating, finding, disarming, parting, changing, the moments your hunter opens themselves to what they can't control. The *anchor* move (see [[#Anchor|Teamwork]]) is a specialized form of *reach*.
 
