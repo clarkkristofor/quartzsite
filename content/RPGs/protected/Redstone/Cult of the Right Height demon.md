@@ -1,5 +1,5 @@
-- met at cult initiation [[Camp Redstone#6. Cult of the Right Height|new moon festival]]
-- the traveling evangelist, Frank Lloyd Height, founded the cult in Camp Redstone, then moved on
 - the demon possessed [[Bartleby Stumps]]
 - [[Milford Steel]] killed the demon
 - the demon knew [[Shivon]] 
+- we fought it at the at cult initiation [[Camp Redstone#6. Cult of the Right Height|new moon festival]]
+- the traveling evangelist, Frank Lloyd Height, converted Bart and founded the cult in Camp Redstone, then moved on
