@@ -13,14 +13,13 @@ unlisted: true
 # Front stuff
 ## Table of Contents
 0. [[#Resources]]
-1. [[#A Creeping Shadow]]
-2. [[#The Realms Beyond]]
-3. [[#Playing Hunters]]
-4. [[#Making your Hunter]] and [[#Hunter Roles]]
-5. [[#Making the Pact]] and [[#the Pact]]
-6. [[#Downtime]]
-7. [[#Playing as GM]]
-8. [[#World Map]]
+1. [[#A Creeping Shadow]] and [[#The Realms Beyond]]
+2. [[#Playing Hunters]]
+3. [[#Making your Hunter]] and [[#Hunter Roles]]
+4. [[#Making the Pact]] and [[#the Pact]]
+5. [[#Downtime]]
+6. [[#Playing as GM]]
+7. [[#World Map]]
 ## Cover
 ![[swords beyond - cover - hydra.png]]
 ## Inspirations
