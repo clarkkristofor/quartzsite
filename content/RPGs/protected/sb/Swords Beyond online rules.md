@@ -10,7 +10,6 @@ unlisted: true
 ![[swords beyond - logo - online rules.png]]
 
 **a fast & loose, highly improvisational fantasy rpg**
-# Front stuff
 ## Table of Contents
 0. [[#Resources]]
 1. [[#A Creeping Shadow]] and [[#The Realms Beyond]]
@@ -932,7 +931,6 @@ When you’re being hunted by one or more factions, your pact suffers +2 alarm a
 **4** Estuary
 **5** The Oasters  
 **6** Seahelm
-(old: Aváris, Coruna, Galadium, Moll Marea)
 
 **OVER REACH TOWNS 
 1** Lost Plenty 
