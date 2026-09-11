@@ -554,12 +554,11 @@ Write a drive about another hunter or the pact as a whole. What would you give t
 
 □ **THICK SKIN**. You’re hard to hurt. You may expend your **plot armor** to ignore a condition from an attack in combat or to gain **+1** to a roll at no cost during a fight.
 
-%% these are okay mechanics in general but the names no longer fit the role %%
-□ **RECKLESS**. When you rush into combat without the aid or support of your pact, you do so with increased impact.
+□ **TURN THE TIDE**. When you **go for broke** to attack an enemy and get a 10+, you can *steady* or *encourage* another hunter who is *overwhelmed* or *afraid* for free.
 
-□ **BASHING HEADS**. Take **+1** to rolls against minions and mooks. When you investigate using intimidation or actual violence, take **+1** too.
+□ **NOT TO BE TRIFLED WITH**: Mark 2 favor to do one of the following: *perform a feat of physical force that verges on the superhuman — fight a battle as if your scale was equal to a small gang.*
 
-
+□ **YOUR OWN**. When you make a *reach* move and reach for another hunter, pick another option from the list, no matter your roll.
 
 ---
 
@@ -571,17 +570,26 @@ Gain hope whenever you approach a challenge with borrowed power or chosen path.
 Write a drive about the destiny your Power chose for you or the goal you'd choose for yourself. Can they be reconciled?
 - **Note**: Collaborate with the GM. Either you pick the destiny the Power chose or your own goal, and the GM decides the other.
 
-On your character sheet, replace the condition *overshadowed* with *overpowered*, to clear, act in the interests of your Power Beyond. Whenever you would be *overshadowed*, mark *overpowered* instead. Also, for double 1s, replace "***Shadow* (two 1s)** — The shadow gets its tenterhooks in you. It's worse than 9-. Mark *overshadowed*." with "***Power* **(two 1s)**  — Your Power yanks your leash. It's worse than 9-. Mark *overpowered*." 
+The shadow cannot touch you.
+- On your character sheet, replace the condition *overshadowed* with *overpowered*, to clear, act in the interests of your Power Beyond. Whenever you would be *overshadowed*, mark *overpowered* instead.
+- Double 1s for the Maul mean: ***Power* **(two 1s)**  — Your Power yanks your leash. It's worse than 9-. Mark *overpowered*.
+- When you roll 9- on Fate Rolls, it means your Power, in its displeasure with you, has given you over to the shadow.
+- When you COMMUNE and suffer the "Cause Trouble" snag, it's not that the shadow seized you. It's that you act out against your Power Beyond and its Realm.
 ##### Abilities
-□ **OVERDRAW**. Mark 3 favor to channel the full capacity of your Power Beyond to  overcome an obstacle, reshape your environment, or extend your senses. Take a 10+ on *conflict*, *reach*, or *act*. The outcome is truly incredible; negotiate with the GM and other players. Afterward, mark *overpowered*.
+□ **OVERDRAW**. **Mark 3 favor** to channel the full capacity of your Power Beyond to overcome an obstacle, reshape your environment, or extend your senses. Take a 10+ on *conflict*, *reach*, or *act*. The outcome is truly incredible; negotiate with the GM and other players. Afterward, mark *overpowered*.
 
-□ **CHOSEN ONE**. **Mark 2 favor** to make enemies too scared to act against you and nearby hunters. They may still lash out if you’ve backed them into a corner, but fighting you will never be their first option.
+□ **A TERROR TO BEHOLD**. **Mark 2 favor** to make enemies too scared to act against you and nearby hunters. They may still lash out if you’ve backed them into a corner, but fighting you will never be their first option.
 
-□ **LINGERING SENSE.** When you touch something that belongs to someone, or is a piece of a larger whole, you can know their general location and condition.
+□ **GROUND THEM ALL**. When you *ground* another hunter, you can simultaneously *ground* all *overshadowed* hunters. Describe how you connect with them all. On a 9-, you are *overpowered* for each hunter you connected with.
 
-□ **PREPARED RITUAL**. Once per hunt, you may expend **plot armor** to have an already prepared ritual or spell that does one of the following: *allow for escape – reveal hidden information – create an opportunity for a teammate.*
+□ **FARSIGHT**. Mark 2 favor to remotely view a distant place or person tied to
+you in some intimate way. Mark 1 favor for each additional feature: *it lasts for a*
+*minute rather than a moment – your target can also see and hear you – you can see*
+*something familiar rather than intimate.*
 
-□ **SLANTED & ENCHANTED**. When you invent or CRAFT a creation with arcane features, take **+1** to your roll. You begin with one arcane design already known.
+□ **WARDED**: You may expend your **plot armor** to resist a shadow or Beyond consequence, or instead of marking 2 favor when acting against arcane forces (or to activate a special ability, like A Terror to Behold).
+
+□ **ENCHANTER**. When you invent or CRAFT a creation with features from your Power Beyond, take **+1** to your roll. You begin with one such design already known.
 
 ---
 
@@ -592,19 +600,17 @@ Gain hope whenever you approach a challenge with influence or idealism.
 
 Write a drive about your organization or assignment. How do you hold the tension between what it is and what you want it to be?
 ##### Abilities
-□ **COASTAL CITIES INVESTIGATOR**. You have a practiced eye for examining crime scenes and sites of strange occurrences. Gain **+1** when you do. You can always find a clue when you study wounds, corpses, etc., even on a worst outcome.
+□ **TRAINED INVESTIGATOR**. You have a practiced eye for examining crime scenes and sites of strange occurrences. Gain **+1** when you do. You can always find a clue when you study wounds, corpses, etc., even on a worst outcome.
 
-_By This Writ_ — invoke the seal you carry to compel compliance, even from those who owe you nothing personally. - plot armor
+□ **BY THIS WRIT**. You may expend your **plot armor** to invoke the seal you carry and compel compliance, even from those who owe you nothing personally.
 
-□ **KEEN AWARENESS**. You can always **help** another hunter without marking hope as long as you can see them and you agree to **protect** them from consequences.
+□ **KEEN AWARENESS**. You can always **help** another hunter without clearing hope as long as you can see them and you agree to **protect** them from consequences.
 
 □ **LEAVE NO ONE BEHIND**. When you **act together** to escape, gain **+1** for yourself and **+1** to share.
 
 □ **NETWORKED**. You can ACQUIRE ASSETS or QUELL ALARM for free once per downtime. Gain **+1** when you investigate by leaning on your sources.
 
-□ **PLAUSIBLE DENIABILITY**. You may expend your **plot armor** to resist a consequence from suspicion or persuasion, or to gain **+1** to a roll at no cost when engaging in subterfuge.
-
-□ **UNDERCOVER**. When you use a disguise or other form of covert misdirection, gain increased impact on attempts to confuse or deflect suspicion. When you reveal your true identity, the resulting surprise gives you an advantage.
+□ **DEBT FINDER**. You have a knack for sussing out who owes who what. Gain +1 when making a *reach* move to discover a person's debts and debtors when in conversation with that person or someone who knows them.
 
 ---
 
@@ -615,13 +621,14 @@ Gain hope whenever you approach a challenge with devotion or precision.
 
 Write a drive about your sect or crusade. What kind of sacrifice does it require?
 ##### Abilities
-_Given Freely_ — offer yourself into harm first, unasked, and turn that sacrifice into an edge for the pact. - teamwork? take a wound to give a teamwork die?
+□ **THE FIRST CUT**. Take a *wound* and voice a dedication to give three **Help Dice** (max one per roll) to other hunters in the current scene. This must be the first *wound* inflicted on a hunter in this scene. You may inflict it on yourself.
 
 □ **SIGNATURE STYLE**. When fighting in the manner of your sect, choose one; it occurs even on a worst outcome: _you force them where you want them – you gain an extra use of armor – you can escape and they cannot follow._ You cannot choose the same option twice during a hunt.
 
-□ **ALL-CONSUMED**. You are captivated by an element of the history or lore of your sect. What is it? When you investigate or work on a LONG-TERM PROJECT about this subject, gain **+1 result level**.
+□ **HIDDEN POWER**. Your training has awakened a power deep inside you. Choose a
+Realm ability.
 
-□ **HOLISTIC HEALER**. Once per hunt, you may treat another hunter’s **conditions**. They ignore the effects until the end of a hunt.
+□ **ALL-CONSUMED**. You are captivated by an element of the history or lore of your sect. What is it? When you investigate or work on a LONG-TERM PROJECT about this subject, gain **+1d**.
 
 □ **MASTER MEDITATOR**. You’ve learned to control your vital functions and autonomic responses for several minutes. Expend your **plot armor** to _feign death convincingly, lie without being caught, hold your breath for an extended period of time, etc_.
 
@@ -659,7 +666,7 @@ Write a drive about a vow or a guilt. Why can't you walk away from it?
 ##### Abilities
 □ **SMELL IT ON ‘EM**. You always know when someone is lying to you.
 
-□ **DEVIL’S LUCK**. You gain a second use of **plot armor** between downtimes. You may expend your plot armor to resist the consequences of violence or to gain **+1** to a roll at no cost when talking your way out of, or running away from, trouble.
+□ **SAW IT COMING**. You gain a second use of **plot armor** between downtimes. You may expend your plot armor to resist the consequences of violence or to gain **+1** to a roll at no cost when talking your way out of, or running away from, trouble.
 
 □ **FOR A GOOD CAUSE.** When you steal an item that will benefit the pact this hunt, mark **1 hope**.
 
@@ -669,16 +676,111 @@ Write a drive about a vow or a guilt. Why can't you walk away from it?
 
 □ **TINKERER**. You can modify or CRAFT new tools or devices. Add one invention to your gear. Additionally, gain **+1** to CRAFT during downtime.
 
+## Realm-based abilities
+The Realm of your Power Beyond or your kin must match that of the ability, otherwise you cannot take it.
+- **any**: Kindred Spirits, Ritual Binder, Crisis Binder,  Secret Power
+- **the Dead**: Ancient Voices, Blood Ward, Ghost Hunter, Shepherd of the Dead, Death's Ground, Vessel
+- **the Deeps**: Delver, Devour, Dread, Precognition, Dream-Sharer, Insatiable Curiosity
+- **the Heavens**: Bless, Guided, Hallow, Healer, Forgive, Revealing Light
+- **the Hells**: Curse, Devil's Bargain, Fireproof, Firestarter, Poison, Wrath
+- **the Weft**: Illusion, Levitate, Lingering Sense, Step Sideways, Telepathy, True Name
+- **the Wild**: Alpha Eye, Call of the Wild, Flourish, Shapeshift, Speak to the Land, Wild Hare
+### any
+□ **KINDRED SPIRITS**. You can always recognize people or creatures who serve your Power's Realm Beyond. They, in turn, recognize you.
 
-## cut abilities
-□ **ALL PART OF THE PLAN**. Expend your **plot armor** to reveal that this was the plan all along. Describe a flashback showing how you prepared, and grant **+2** when helping a teammate, even after they roll. Gain increased impact when acting on your prep.
+□ **RITUAL BINDER**. You know the secret arts of circle-making and contract-drafting required to summon and bind entities from Beyond long-term. Gain the downtime moves **Bind** and **Rendezvous**.
+- **Bind** (downtime, 3H): Summon and bind an entity from Beyond (see Binding Table below). Name it and describe the form you give it and its contracted or agreed upon purpose. It will act independently to achieve its purpose. 
+- **Rendezvous** (downtime, 1H): During the downtime after you bound it, roll +BEYOND. On a 10+, it completed the task to your satisfaction. Contract/agreement fulfilled, it dematerializes and returns to its Realm. On a 7-9, the task requires more time and/or other resources (GM decides). Give it what it needs and add +1 to your next rendezvous roll the next downtime (max +4). On a 6-, expect the very worst.
 
-□ **HIT THE BOOKS**. During downtime, you get two ticks to distribute among any LONG-TERM PROJECT clocks that involve investigation or learning something new.
+□ **CRISIS BINDER**. You know the secret arts of circle-making and contract-drafting required to summon and bind entities from Beyond short-term (see Binding Table below). Make a move and roll +BEYOND; which move depends on the Realm: the Hells, *conflict*; the Weft: *act*; the rest, *reach*. Only another hunter with this ability can *help* you. Mark 1 favor for each additional feature: *the binding lasts for the hunt rather than the scene – the entity can can be parted from you and not dematerialize – the entity can take a second wound before dematerializing rather than just one.
+#### Binding Table
 
-==□ **MAPMAKER.** You can’t get lost if you can see the sky.==
+| Realm       | Bound Entity                                      | Method     | Requirements                                                | Rendevous 6- Consequence                               |
+| ----------- | ------------------------------------------------- | ---------- | ----------------------------------------------------------- | ------------------------------------------------------ |
+| the Dead    | an ancestor                                       | agreement  | a willing living, sentient host for their spirit to possess | Lingers, becomes a vengeful haunting                   |
+| the Deeps   | an ancient horror or living nightmare             | agreement  | bait to lure it                                             | Devours more than intended or the binder is changed    |
+| the Heavens | an angel or heraldic being                        | agreement  | a vow or offering                                           | Judges/punishes beyond tasks, exacts an unwanted price |
+| the Hells   | a demon                                           | contract   | none                                                        | Runs amok, spreads rage, corrupts binder or others     |
+| the Weft    | a weavling                                        | construct  | some material thing(s) to animate                           | Unravels, behaves bizarrely, persists impossibly       |
+| the Wild    | a river spirit, forest guardian, wind sprite, etc | persuasion | a strong case that the task is in its self-interest         | Seals, breaks, or overruns                             |
 
-□ **PROFESSORIAL**. You have a way of explaining things to make them easy to understand to anyone. Once per hunt, when you provide meaningful advice that another hunter follows, you both clear **1 favor**.
+□ **SECRET POWER**. You’ve learned how to imbue your hands, weapons, or tools with energy from your Power Beyond's Realm, which you can channel into an attack. Deal +1 wound to enemies when you roll 10+ on *conflict*.
+### the Dead
+□ **ANCIENT VOICES**. You can attune to the whispers of the ancestors to gain
+special insight into the current situation. Get increased impact when following up
+on it.
 
+□ **BLOOD WARD**: You lock a door, chest, tomb, etc. with your own blood. When someone attempts to unlock it, defend yourself, rolling conflict +BEYOND. On a 10+, the ward holds; it’s still locked. On a 9-, take a wound, wherever you are, and the ward breaks.
+
+□ **DEATH'S GROUND**. Mark 2 favor to blight an area roughly the size of a small crypt. Plants there die at once. Anyone who enters suffers 3 wounds, and you know the instant it's triggered, wherever you are. The blight fades when triggered or at the end of the hunt.
+
+□ **GHOST HUNTER**: When tracking and quieting ghosts, take a +1. The quieting method you know is that of your kin. If your kin's culture isn't of the Dead, roll on [[#Cultures of the DEAD|the chart]].
+
+□ **SHEPHERD OF THE DEAD**. You are practiced in the art of guiding spirits to the Dead. When someone dies in your presence, *reach* +BEYOND. On a 10+, they pass gently Beyond. If you knew the person, gain +1. If they died naturally, gain +1; by violence, -1; by violence at the hands of a hunter, -2. Only another hunter with this ability can *help* you.
+
+□ **VESSEL**. You can let an ancestor briefly possess you to speak with the living. Roll *reach* +BEYOND to summon the ancestor of someone you have touched recently. On a 10+, play the scene as that ancestor. On a 9-, the GM plays a different ancestor with a grudge of their own.
+### the Deeps
+□ **DELVER.** You can either see clearly in the dark or breathe underwater. Choose one you can always do for free; mark 1 favor to do the other.
+
+□ **DEVOUR**: Mark 2 favor to command the earth or sea to swallow someone or something person-sized for the rest of the scene. For a living creature, roll *conflict* +BEYOND. Mark 1 favor for each additional person or person-sized thing.
+
+□ **DREAD**: Mark 2 favor to plunge your surroundings into unnatural darkness centered (radius 15 feet) on you for the rest of the scene. The sun becomes like the moon; the moon goes dark. A campfire becomes like a torch; a torch, like a candle. Candlelight can’t reach the candle’s base. You see normally, though all color is drained away. Mark 1 favor for each additional feature: *muffle outside sounds – double the radius – fill the darkness with visions of horror for enemies and roll* conflict *+BEYOND – the darkness lingers until dawn*
+
+□ **DREAM-SHARER**: You can share a dream with someone. You must fall asleep at night grasping something they desire, a physical object including one that symbolizes a non-tangible desire, like fame or revenge. Play out the dream as a scene with the GM and other players. Mark 1 favor for each additional feature: *disguise yourself in the dream however you like – inflict psychic wounds (via* conflict *move) which you each retain upon waking – add another sleeper to the dream – make them forget the dream upon waking.*
+
+□ **INSATIABLE CURIOSITY**. During downtime, add 3 ticks to a LONG-TERM PROJECT clock involving investigation or learning something new. Then roll +BEYOND. On a 10+, the knowledge comes cleanly. On a 9-, you learn what you sought, but your own Power Beyond exacts a price: take -1 fate.
+
+□ **PRECOGNITION**. Mark 2 favor to receive a vision about something that is about to happen in the next few moments. Mark an additional favor to stretch this vision to the next few minutes. These events may or may not come to pass, depending on your actions.
+### the Heavens
+□ **BLESS**. After another hunter rolls for a *conflict*, *reach*, or *act* move, you may grant them a Blessing Die, in addition to a power, condition, or complication die they add. If they roll two or more 1s, it does not trigger the *shadow* outcome. Mark 2 favor or owe the Heavens a favor: do a kindness to a person of Heavens choosing.
+
+□ **FORGIVE**. When someone repents and promises to amend their ways, you may bind their word to the Heavens. Mark favor equal to the weight of their sin (GM sets the cost). You know instantly if they break their word. If they do, you gain +1 per favor spent ongoing to claim what justice demands from them or their allies.
+
+□ **GUIDED.** You can’t get lost if you can see the sky.
+
+□ **HALLOW**: Mark 2 favor to sanctify a place roughly the size of a grave. No violence can be done here. Demons and undead cannot enter this place, nor can any buried here be raised undead. All in this place are comforted and calmed (anchor moves gain +1). Mark +1 favor to hallow a larger area, up to the size of a small graveyard, or +2 favor to hallow an even larger area, up to the size of a village or city neighborhood. Even if the people in this place despise you, you can find sanctuary here temporarily.
+
+□ **HEALER**. Once per hunt, you may treat another hunter’s **conditions**. They ignore the effects until the end of a hunt. 
+
+□ **REVEALING LIGHT**. Mark 2 favor to shine holy light and expose to everyone within all lies, deceit, evil intent, illusions, and hidden things within a 15 foot radius of you. Mark 1 favor for each additional feature: *double the radius – maintain light until midnight – compel the guilty to repent, roll* conflict *+BEYOND.* 
+### the Hells
+□ **CURSE**. You can curse someone with illness, strife, or misfortune. You must do something in their presence: speak the curse aloud, give them the evil eye, spit, etc. Mark 2 favor or owe the Hells a favor: commit a small wickedness at a time of Hells choosing.
+
+□ **DEVIL'S BARGAIN**. You can touch someone and grant them what they desire — love, wealth, power, esteem, revenge. Mark favor equal to how greatly you must reshape reality to grant it (GM sets the cost). They now owe the Hells, brokered by you: until repaid, you gain +1 per favor spent ongoing to claim what's owed from them or their allies.
+
+□ **FIREPROOF**. You are immune to burns, heat exhaustion, and the like. Also, mark 1 favor to clear *angry*, for yourself or another hunter you touch.
+
+□ **FIRESTARTER**. Control small flames. Make the *act* move and mark 1 favor for each additional feature: *control the heat or color of the flames – create or manipulate an*
+*inferno – extinguish a fire*.
+
+□ **POISON**. When you wound someone or prepare food or drink for them unseen, you gain leverage over them. Mark 2 favor to spend that leverage within a day: they fall unconscious, lash out in anger against someone (your choice), or disclose a secret.
+
+□ **WRATH**. When you're *angry*, you may lash out with it. When you roll *conflict* to attack, spend and clear *angry*. Inflict +2 wounds on your enemy on a 10+, or +1 wounds to yourself on a 9-, in addition to other consequences.
+### the Weft
+□ **ILLUSION**. You can create nearby a sound or an image of an object no larger than a hay bale. It persists for the duration of the scene or until you dismiss it. When it’s scrutinized, roll *conflict* +BEYOND. Mark 1 favor for each additional feature: *add smell, touch, and taste to the illusion (granting +1 when scrutinized) – let it last up to a day – make the illusion a disguise for yourself or an another hunter.*
+
+□ **LEVITATE**: Mark 2 favor to raise yourself or something roughly your weight into the air, hovering up to 15 feet above the ground for the rest of the scene. Mark 1 favor for each additional feature: *double the weight limit or add another willing person – move you/it laterally up to 15 feet – make an already levitating non-living object levitate forever.*
+
+□ **LINGERING SENSE.** When you touch something that belongs to someone, or is a piece of a larger whole, you can know their general location and condition.
+
+□ **STEP SIDEWAYS**. Mark 2 favor to step through a gap in reality to somewhere you can see or have been before, along with anything you're carrying. Mark 1 favor for each additional feature: *bring a willing person with you – step somewhere you've only heard described, not seen – you can return to your exact starting point before the scene ends.*
+
+□ **TELEPATHY**. Mark 2 favor to communicate telepathically with one person you can see. Mark 1 favor for each additional feature: *you can communicate with multiple targets – you can communicate with someone you cannot see.*
+
+□ **TRUE NAME**. Learning someone or something's true name takes real effort: investigation, bargain, or ritual, GM's call. Once you know it, you hold leverage over them. Mark 2 favor to spend that leverage and permanently unravel something about them an aspect of their nature, a bond, their resolve, some magic working on them, etc.
+### the Wild
+□ **ALPHA EYE**: You always know who really holds power in a situation, regardless of title.
+
+□ **CALL OF THE WILD**: You call a non-magical hawk, panther, wolf, or similarly-sized beast to yourself for the duration of the scene. It will obey you as if trained but retains its self-preservation instinct. If it fights at your side, roll *conflict* +1 for its attacks. If it takes 2 body wounds, it's killed. If it dies, you immediately take a "grief" wound. Retain it as incurable by RECOVER for 1 week minimum. Mark 2 favor or owe the Wild a favor: rewild a civilized place in some small but potent way.
+
+□ **FLOURISH**. Mark 2 favor to pour untamable life into a nearby place. The land heals; flora blooms and thrives regardless of season — trees, crops, weeds grow riotously. While there, you and allies gain +1 to rolls to distract or trick, as the plants play along. Mark 1 favor for each additional feature: *weaponize the vines and roots, roll conflict +BEYOND – harvest a healing fruit that heals 1 wound when eaten – the flourishing becomes permanent.*
+
+□ **SHAPESHIFT**. You can turn into an animal for several minutes. Mark *1 favor* for
+each additional feature: *the change lasts hours instead of minutes – you retain the ability to speak – you can transform only partially – you can take on the form of another human.*
+
+□ **SPEAK TO THE LAND**: You can commune with the land itself. Mark 1 favor to ask 1 question and receive 1 true response.
+
+□ **WILD HARE**: Mark 2 favor to, with a touch, put someone who is vulnerable to you in a specific emotional state (you pick) for the rest of the scene. Mark *1 favor* for each additional feature: *direct their emotion toward a target of your choosing – gain a chance to overcome their defenses if they're not vulnerable to you; roll conflict +BEYOND. On a 10+, you do.*
 # Downtime
 
 ## Hunter Arc
@@ -700,9 +802,9 @@ Write a drive about a vow or a guilt. Why can't you walk away from it?
 
 **RECOVER** (2H). When you recover, you seek treatment for your wounds. If you don’t have a connection, ally, or fellow hunter who can help, use the **acquire asset** beat to gain access to someone who can. If you opt to do it yourself, mark 1 favor per wound. Clear all wounds.
 
-**COMMUNE** (2H). Describe how your hunter communes with your Power Beyond and say who, if anyone, is with you. Roll plus fate. On a 10+, clear up to 4 favor; 7-9, clear 1 favor; 6-, suffer the first unmarked snag, then mark it:
+**COMMUNE** (2H). Describe how your hunter communes with your Power Beyond and say who, if anyone, is with you. Roll plus *fate*. On a 10+, clear up to 4 favor or take +1 fate; 7-9, clear 1 favor; 6-, suffer the first unmarked snag, then mark it:
 
-> □ **Cause Trouble**: The shadow seizes you, and you act out in Lost Plenty. How? Keeper takes a string.
+> □ **Cause Trouble**: The shadow seizes you, and you act out in Lost Plenty. How? GM takes a string.
 > 
 > □ **Mouth Off:** Brag about your hunts or talk with regular people about the supernatural. Immediately gain +2 alarm.
 > 
