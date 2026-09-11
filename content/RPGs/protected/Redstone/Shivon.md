@@ -5,6 +5,7 @@ description:
 image:
 date:
 date_finished:
+unlisted: true
 ---
 washed up [[Great Gold Wyrm]] champion
 bronze dragonic paladin with nice greatsword but unkempt plate armor

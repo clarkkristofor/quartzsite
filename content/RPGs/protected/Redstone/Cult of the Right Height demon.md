@@ -1,3 +1,7 @@
+---
+publish: true
+unlisted: true
+---
 - the demon possessed [[Bartleby Stumps]]
 - [[Milford Steel]] killed the demon
 - the demon knew [[Shivon]] 
