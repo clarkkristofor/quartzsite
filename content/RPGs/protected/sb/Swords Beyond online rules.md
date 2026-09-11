@@ -15,10 +15,9 @@ unlisted: true
 1. [[#A Creeping Shadow]] and [[#The Realms Beyond]]
 2. [[#Playing Hunters]]
 3. [[#Making your Hunter]] and [[#Hunter Roles]]
-4. [[#Making the Pact]] and [[#the Pact]]
+4. [[#Making the Pact]]
 5. [[#Downtime]]
 6. [[#Playing as GM]]
-7. [[#World Map]]
 ## Cover
 ![[swords beyond - cover - hydra.png]]
 ## Inspirations
@@ -42,6 +41,8 @@ Those who remain are proud and unwilling to see the even more ominous **shadow**
 While hunches and feelings from [[Swords Beyond online rules#The Realms Beyond|the Realms Beyond]] are common, you _know_ one of these **Powers** and it knows _you_. You call on it to do wondrous things, but it calls on you too.
 
 Your destiny is also intertwined with a **pact** of other hunters and, of course, with the people of Lost Plenty.
+
+![[Swords Beyond - blank map.png]]
 
 # The Realms Beyond
 ## The DEAD
@@ -109,20 +110,20 @@ Use the *act* move when your hunter attempts a task with real stakes and the out
 No matter how many dice you roll, two 6s or two 1s count as *Power* or *shadow* outcomes respectively. Both heighten the importance of a scene.
 - ***Power* (two 6s)** — Your Power intervenes. It's better than 10+. Clear 2 *favor*.
 - ***Shadow* (two 1s)** — The shadow gets its tenterhooks in you. It's worse than 9-. Mark *overshadowed*. The GM makes a move.
-### Influencing Outcomes
-#### Before the roll
-##### Go for broke
+## Influencing Outcomes
+### Before the roll
+#### Go for broke
 Take on more risk to increase your impact. Overplay your hand, open yourself recklessly, or do something big or stupid. Expose yourself to serious trouble. A 9- will be worse but a 10+, better. Gain *1 hope* when you do.
-##### Receive a **Help Die** or **Set Up** action
+#### Receive a **Help Die** or **Set Up** action
 See [[#Teamwork|"Teamwork"]].
 
-#### After the roll
+### After the roll
 As long as you haven't already rolled *shadow*, you may mark *[[#Favor|favor]]* or a *[[#Conditions & Death|condition]]* or choose a complication to roll +1d6 to improve the result.
-##### Power Die
+#### Power Die
 Mark 2 *favor*.
-##### Condition Die
+#### Condition Die
 Mark the relevant *condition* (*exhausted* for +BODY, *overwhelmed* for +HEART, etc.).
-##### Complication Die
+#### Complication Die
 Choose one below and sort out the details with the GM.
 - what you accomplish is partial, temporary, or unstable
 - the obstacle or opponent adapts, reinforces, or outflanks you
@@ -138,7 +139,7 @@ You can roll up to 4 dice: the standard 2d6 +1 Help Die +1 Power, Condition, or 
  As you decide whether to add a die, remember it's not a guaranteed +1 minimum to the result. If you already rolled one 1, then you bear a 1 in 6 risk of a worse than *worst* outcome. Alternately, if you already rolled one 6, then you might see your Power intervene.
 
 
-### Magic
+## Magic
 **There are no spells. Every spell is bespoke.** For inspiration, cross your Power’s Realm Beyond with a verb from this list: banish or harm, conjure or create, control or animate, divine or descry, illude or trick, transform or mend, ward or protect. For example:
 - **the** **Dead:** summon spirits, drain life, reduce chains to rust
 - **the Deeps:** control water, see in the dark, enter dreams
@@ -169,7 +170,7 @@ Take -1 fate and mark a condition. If you can’t take -1 fate, your doom has co
 #### Set the Scene
 Choose players to play your Power and/or the shadow. The rest play the chorus, anonymous Powers of either the relevant Realm Beyond or the shadow. Remind everyone of your Power’s Realm and link, your belief and the pact’s conviction. Decide: who’s driving the scene, what do they want, and who do they want it from? Integrate your reward, doom, or 7-9 choice. End the scene when the driver gets what they want or definitively does not.
 
-### Teamwork
+## Teamwork
 Teamwork is a set of actions hunters can take to benefit pact mates: _help_, _protect_, _set up_, and **anchor**. *Angry* hunters cannot lead or participate in teamwork *Angry* hunters cannot benefit from teamwork, except for the *anchor* move, *temper*.
 ##### Help
 Spend 1 *hope* to give another hunter a +1d6 **Help Die** on a basic roll. Helpers may suffer any consequences, depending on the outcome. Only one helper at a time. Describe how you help.
@@ -192,8 +193,8 @@ Name the hunter and condition, then describe how you connect with them. Roll 2d6
 - **10+** They clear the condition and mark *1 hope* or *1 bond*, their choice.
 - **9-** They immediately do the solo action that clears the condition. You mark the condition they cleared.
 
-## Drawing Cards
-%% optional? %%
+%% ## Drawing Cards
+optional? 
 ### the Oracle Deck
 When you roll double 6s or double 1s, your Power Beyond intervenes or the shadow gets its tenterhooks in you. Something significant will change in the scene or hunt. The GM has not predetermined *what* and *how*; that's up to the whole table. Use the card you draw from the Oracle Deck to inspire you. Collaborate with the other players and the GM to interpret the meaning of the card in the context of this moment in the game.
 
@@ -203,7 +204,7 @@ Always let your interpretation of the card follow the die roll. Say, for example
 
 The events or revelations the card inspires could happen in the scene. Or they could offer a glimpse of something off-screen. They could happen to anyone - the people of Lost Plenty, the March Lord, the Coastal Cities, a player's kin - friend or foe, near or far.
 
-A few good open-ended questions might help prime your creative pump. *Power (6s):* *What made the stakes so high that my Power intervened? What foreshadowed this intervention?* *Shadow (1s):* *What’s really going on in this scene or hunt? What suddenly makes terrifying sense?* Ask these and other questions that flow from the story so far. Don't be afraid of a little silence. Use the answers that most resonate or excite you all or seem most surprising and fun. Ask "*What if...*?" to test out possibilities before settling on the final interpretation.
+A few good open-ended questions might help prime your creative pump. *Power (6s):* *What made the stakes so high that my Power intervened? What foreshadowed this intervention?* *Shadow (1s):* *What’s really going on in this scene or hunt? What suddenly makes terrifying sense?* Ask these and other questions that flow from the story so far. Don't be afraid of a little silence. Use the answers that most resonate or excite you all or seem most surprising and fun. Ask "*What if...*?" to test out possibilities before settling on the final interpretation. %%
 
 ## Conditions & Death
 Conditions make hunting monsters harder. They reflect debilities with story effects. Mark conditions on your hunter sheet. To clear them, take the relevant solo action and enjoy a more interesting scene. Or another hunter could take an *[[#Anchor|anchor]]* action.
@@ -532,18 +533,6 @@ You are tethered to your Power Beyond in one of three ways. A link is something 
 | **6** | [[Swords Beyond online rules#the Fox\|the Fox]]             |  0   |   0   |  +2  |   0    |
 Adds one additional +1 to any stat.
 
-# Making the Pact
-*Create the pact together.*
-1. Choose one player to keep the pact sheet.
-2. What is your shared **conviction** about the shadow?
-3. What is the unspoken **pact** you’ve made with the people of Lost Plenty?
-4. What is the **promise**, spoken or unspoken, that you’ve made to each other?
-5. What is your **reputation** among the people of Lost Plenty?
-6. What is the **name** your pact is known by (either among you or the locals)?
-7. What **faction** has been helpful in the past? Take +1 status with them and explain how they’ve helped you out of a jam.
-8. What **faction** have you hurt or screwed over in some way? Take -1 status with them and describe what happened.
-9. What NPC **ally** knows about your sanctuary and what you’re doing in Lost Plenty? (If your ally is friendly with a faction, take +1 status; if they are unfriendly with a faction, take -1 status.)
-
 
 # Hunter Roles
 
@@ -787,6 +776,38 @@ each additional feature: *the change lasts hours instead of minutes – you reta
 □ **SPEAK TO THE LAND**: You can commune with the land itself. Mark 1 favor to ask 1 question and receive 1 true response.
 
 □ **WILD HARE**: Mark 2 favor to, with a touch, put someone who is vulnerable to you in a specific emotional state (you pick) for the rest of the scene. Mark *1 favor* for each additional feature: *direct their emotion toward a target of your choosing – gain a chance to overcome their defenses if they're not vulnerable to you; roll conflict +BEYOND. On a 10+, you do.*
+
+
+# Making the Pact
+*Create the pact together.*
+1. Choose one player to keep the pact sheet.
+2. What is your shared **conviction** about the shadow?
+3. What is the unspoken **pact** you’ve made with the people of Lost Plenty?
+4. What is the **promise**, spoken or unspoken, that you’ve made to each other?
+5. What is your **reputation** among the people of Lost Plenty?
+6. What is the **name** your pact is known by (either among you or the locals)?
+7. What **faction** has been helpful in the past? Take +1 status with them and explain how they’ve helped you out of a jam.
+8. What **faction** have you hurt or screwed over in some way? Take -1 status with them and describe what happened.
+9. What NPC **ally** knows about your sanctuary and what you’re doing in Lost Plenty? (If your ally is friendly with a faction, take +1 status; if they are unfriendly with a faction, take -1 status.)
+
+## Faction Status
+Your pact has a status with each of the relevant factions of the Over Reach. This indicates how well you are liked, hated, or, most often, how much of a threat that faction sees you as. Status is rated from -2 to +2, with zero (neutral) being the default starting status. You track your status with the relevant factions on the faction tracker.
+### Changes
+Your status with a faction changes for any number of reasons, but one of the most likely is that your actions during a hunt affected them in some way. If a faction is hurt by your actions, you take -1 status with them. If a faction is helped by your actions, you take +1 status with them. Your status may also change if you do a favor for a faction, you refuse a faction’s demands, a faction catches you investigating their operations, or you make a deal with the darkness.
+## Levels
+**+2 (Linked).** This faction will help you even if it’s not in their best interest to do so. They expect you to do the same for them.
+
+**+1 (Friendly).** This faction will help you if it doesn’t create any problems for them. They expect you to do the same.
+
+**0 (Neutral).** This faction doesn’t think about you very much, one way or the other.
+
+**-1 (Hostile).** This faction will look for opportunities to cause trouble for you or even hurt you if it doesn’t cause problems for them. They expect the same from you, and take precautions against you.
+
+**-2 (Hunted).** This faction will go out of its way to hurt you even if it’s not in their best interest to do so. They see you as a threat to their operations and take precautions against you. They want you out of the picture.
+
+When you’re being hunted by one or more factions, your pact suffers +2 alarm after hunts, and every string the keeper pulls will involve the involved faction(s) coming for you. The only way to stop a faction from hunting you once they’ve started is to find a way to eliminate them, or by spending Trust to negotiate a mutual agreement to establish a new status rating
+
+
 # Downtime
 
 ## Hunter Arc
@@ -883,25 +904,6 @@ BLOOD BROTHERS (4H). Someone you care about is in trouble – who? – and you�
 knowledge has cost you. *Take a monstrous ability and -1 fate.* [▷]
 
 
-# the Pact
-
-## Faction Status
-Your pact has a status with each of the relevant factions of the Over Reach. This indicates how well you are liked, hated, or, most often, how much of a threat that faction sees you as. Status is rated from -2 to +2, with zero (neutral) being the default starting status. You track your status with the relevant factions on the faction tracker.
-### Changes
-Your status with a faction changes for any number of reasons, but one of the most likely is that your actions during a hunt affected them in some way. If a faction is hurt by your actions, you take -1 status with them. If a faction is helped by your actions, you take +1 status with them. Your status may also change if you do a favor for a faction, you refuse a faction’s demands, a faction catches you investigating their operations, or you make a deal with the darkness.
-## Levels
-**+2 (Linked).** This faction will help you even if it’s not in their best interest to do so. They expect you to do the same for them.
-
-**+1 (Friendly).** This faction will help you if it doesn’t create any problems for them. They expect you to do the same.
-
-**0 (Neutral).** This faction doesn’t think about you very much, one way or the other.
-
-**-1 (Hostile).** This faction will look for opportunities to cause trouble for you or even hurt you if it doesn’t cause problems for them. They expect the same from you, and take precautions against you.
-
-**-2 (Hunted).** This faction will go out of its way to hurt you even if it’s not in their best interest to do so. They see you as a threat to their operations and take precautions against you. They want you out of the picture.
-
-When you’re being hunted by one or more factions, your pact suffers +2 alarm after hunts, and every string the keeper pulls will involve the involved faction(s) coming for you. The only way to stop a faction from hunting you once they’ve started is to find a way to eliminate them, or by spending Trust to negotiate a mutual agreement to establish a new status rating
-
 # Playing as GM
 ### GM Moves
 #### Turn It Back
@@ -949,9 +951,3 @@ When you’re being hunted by one or more factions, your pact suffers +2 alarm a
 **X-MONGERS**: a guild of X investors and traders in X goods, also organizes sport and sponsors charity (education, widow’s care, orphanages) across the Over Reach
 
 **BANDITS**: rob travelers, including just months ago auditors; in response, the March Lord charged them with sedition and called upon the Knights of Tern
-
-# World Map
-
-![[Swords Beyond - blank map.png]]
-
-[^1]: 
