@@ -234,7 +234,7 @@ Your death is in the hands of *[[#Magic, Favor & Fate|fate]]*.
 1. **_[[#Kin|Kin]]_** (2d6 + d66)
 2. ***[[#Culture & the Beyond]]*** (d6 + mostly d666)
 3. **_[[#Power Realm & Link]]_** (d666)
-4. ***[[#Role|Role]]*** (d6): Note the stats and gain +1 in Body, Heart, Mind, or Beyond (stat max: +3). Note how you gain hope. Choose 1 ability.
+4. ***[[#Role|Role]]*** (d6): Note the stats and gain +1 in Body, Heart, Mind, or Beyond (stat max: +3). Note how you gain hope. Choose 2 abilities.
 #### Write...
 1. **Belief:** What does your hunter think is true about your Power? Write a declaration starting with its name or what you call it.
 2. **Drive:** Why do you hunt monsters, the shadow? Now or after the pact writes its conviction, write a statement related to your role’s drive prompt starting with “I will…”.
@@ -955,7 +955,8 @@ The Over Reach is vital for the Coastal Cities, their fleets and distant conques
 - **the Weft**: petrified lightning, which temporarily powers all sorts of wonders, from lamps to weapons
 - **the Wild:** regenerating timber, prized for shipbuilding
 
-The Cities supply the Over Reach with salted pork, grain, armaments, the Garrison, and the White Wings.
+The Cities supply the Over Reach with salted pork, grain, armaments, the Garrison, the White Wings, and civilization.
+
 ### Factions
 
 #### **KNIGHTS OF THE TERN**
@@ -974,6 +975,7 @@ Coastal Cities knights in glittering armor bearing seabird-adorned crests
 **Enemies**: White Wings
 
 **Situation**: Yesterday, the March Lord received a terse communique from Ser Mashten that Ser Kartas has dispatched to the Over Reach.
+
 #### **MARCH AUDITORS**
 Over Reach tax farmers with their own private security.
 
@@ -992,6 +994,7 @@ Faction Clock:
 **Enemies**: 
 
 **Situation**: Renslew wants Loftgren's post but can't afford it, being too deeply in debt to a mine owner named, Frys. So Renslew has been courting Loftgren's Toll-Captain Venris, with more borrowed money. As gossip spreads, more than one auditor - Kolcox and Hamringer, of course - and wannabe future-auditor - Frys themselves, Balabinga, Woderise - have taken notice. Mollott, meanwhile, has their sights set on captain, having little respect for Venris.
+
 #### **WHITE WINGS**
 An order of healers.
 
