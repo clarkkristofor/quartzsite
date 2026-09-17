@@ -86,19 +86,19 @@ This game is a conversation between the players and GM, or gamemaster. Usually t
 
 The three basic moves are *conflict*, *reach*, and *act* — named with verbs describing what your hunter is doing when you make the move. Here is what they are, when they are used, and examples of when they might come up in play.
 #### Conflict
-**Say what your hunter wants from whom and what you do to get it.** Roll 2d6+STAT. **10+**, they give it to you. **9-**, they don't and the GM makes a move.
+> **Say what your hunter wants from whom and what you do to get it.** Roll 2d6+STAT. **10+**, they give it to you. **9-**, they don't and the GM makes a move.
 
 Use the *conflict* move when your hunter wants something from someone — surrender, silence, support, trust, fear, or even an item. When you act to get it — fight, plead, threaten, lie, bargain — it's time for *conflict*. Or when someone wants something from your hunter, and your hunter resists. Whenever wills vie but only one of you can prevail.
 
 *Examples: beseeching a river spirit to stop flooding, busking for coin from passersby, negotiating with a rival gang over turf, threatening a guard to let you pass, throwing a game of cards to ingratiate yourself to a mark.*
 #### Reach
-**Say who or what your hunter reaches for and what you risk.** Roll 2d6+STAT. **10+**, they/it opens to you. Pick one: you learn something true, something in you or them/it shifts, a bond forms or is strengthened, they/it opens further than expected. **9-**, they/it doesn't open and the GM makes a move.
+> **Say who or what your hunter reaches for and what you risk.** Roll 2d6+STAT. **10+**, they/it opens to you. Pick one: you learn something true, something in you or them/it shifts, a bond forms or is strengthened, they/it opens further than expected. **9-**, they/it doesn't open and the GM makes a move.
 
 Use the *reach* move when your hunter encounters, reaches for, or connects with someone or something — a person, a memory, a Realm, a presence not yet named. Not taking, not forcing but simply offering yourself and seeing what comes back, and potentially being changed by it. You always risk exposure, with stakes for your belief, drive, or conviction, relationships, emotional or psychic well-being, even (if less often) your physical person. This is the move for relating, finding, disarming, parting, changing, the moments your hunter opens themselves to what they can't control. The *anchor* move (see [[#Anchor|Teamwork]]) is a specialized form of *reach*.
 
 *Examples: reciting a poem to woo someone you long for and risking rejection; reading a letter from your long-dead mother and hoping to finally understand why she left, risking discovering a truth worse than what you feared; sitting with a dying friend and seeking closure, risking overwhelming grief; touching a shrine to see what it shows you, risking psychic backlash from its malevolent spirit.*
 #### Act
-**Say what your hunter does.** Roll 2d6+STAT. **10+**, you do it. **9-**, you don't and the GM makes a move.
+> **Say what your hunter does.** Roll 2d6+STAT. **10+**, you do it. **9-**, you don't and the GM makes a move.
 
 Use the *act* move when your hunter attempts a task with real stakes and the outcome is genuinely in doubt. No one to persuade, nothing reaching back; do or do not, nothing more. Just you against the task when the pressure is on.
 
