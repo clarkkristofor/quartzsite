@@ -242,7 +242,7 @@ Your death is in the hands of *[[#Magic, Favor & Fate|fate]]*.
 4. **Gear**: You have basics – weapons, armor, etc. Want special gear? Ask the GM.
 #### All Together...
 1. **Introduce your Hunter**. The GM will ask questions.
-2. **Sketch the [[Swords Beyond online rules#World Map|world map]]**. Note where your hunter is from, and whatever else you like.
+2. **Sketch the [[Swords Beyond online rules#World Map|world map]]**. Note on the map where your hunter's kin are from and whatever else you like. What kin are Over Reach people?
 3. **Choose [[#the X Resource]].**
 4. **[[#Making the Pact|Make the pact]]**.
 
