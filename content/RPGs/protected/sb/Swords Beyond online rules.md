@@ -260,11 +260,11 @@ roll 2x, ignore 2s
 ##### **3** Troll
 |  d66  | *from the* (10s)    | *who eat shadow and* (1s) |
 | :---: | :------------------ | :------------------------ |
-| **1** | undermurk           | a hunter’s kin            |
-| **2** | ravages             | a hunter’s kin            |
-| **3** | creeping grot       | Over Reach people         |
+| **1** | banelands           | a hunter’s kin            |
+| **2** | creeping grot       | a hunter’s kin            |
+| **3** | ravages             | Over Reach people         |
 | **4** | Unbroken Wilderness | Over Reach people         |
-| **5** | barrow wood         | Coastal Cities humans     |
+| **5** | undermurk           | Coastal Cities humans     |
 | **6** | witchwood           | Coastal Cities humans     |
 
 ##### **4** Hearthborn
