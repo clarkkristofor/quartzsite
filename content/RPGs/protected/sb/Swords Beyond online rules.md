@@ -82,7 +82,9 @@ Discover your hunter’s story; don’t plan it. Let it emerge from dice rolls, 
 
 ## Rolling Dice
 ### Basic Moves
-This game is a conversation between the players and GM, or gamemaster. Usually that conversation is natural and free-flowing. A move slows the conversation down at key moments to push the story forward in exciting and unexpected ways. A move is a small rule with a trigger and a result that help resolve conflict, forge connections, and describe what happens. When making a move, you roll two six-sided dice, or 2d6, and the move tells you how to interpret the result. 
+This game is a conversation between the players and GM, or gamemaster. Usually that conversation is natural and free-flowing. A move slows the conversation down at key moments to push the story forward.
+
+A move is a small rule with a trigger and a result. It helps resolve conflict, forge connections, and describe what happens. When making a move, you roll two six-sided dice, or 2d6, and the move tells you how to interpret the result.
 
 The three basic moves are *conflict*, *reach*, and *act* — named with verbs describing what your hunter is doing when you make the move. Here is what they are, when they are used, and examples of when they might come up in play.
 #### Conflict
@@ -90,19 +92,19 @@ The three basic moves are *conflict*, *reach*, and *act* — named with verbs de
 
 Use the *conflict* move when your hunter wants something from someone — surrender, silence, support, trust, fear, or even an item. When you act to get it — fight, plead, threaten, lie, bargain — it's time for *conflict*. Or when someone wants something from your hunter, and your hunter resists. Whenever wills vie but only one of you can prevail.
 
-*Examples: beseeching a river spirit to stop flooding, busking for coin from passersby, negotiating with a rival gang over turf, threatening a guard to let you pass, throwing a game of cards to ingratiate yourself to a mark.*
+***Examples**: beseeching a river spirit to stop flooding, busking for coin from passersby, negotiating with a rival gang over turf, threatening a guard to let you pass, throwing a game of cards to ingratiate yourself to a mark.*
 #### Reach
 > **Say who or what your hunter reaches for and what you risk.** Roll 2d6+STAT. **10+**, they/it opens to you. Pick one: you learn something true, something in you or them/it shifts, a bond forms or is strengthened, they/it opens further than expected. **9-**, they/it doesn't open and the GM makes a move.
 
 Use the *reach* move when your hunter encounters, reaches for, or connects with someone or something — a person, a memory, a Realm, a presence not yet named. Not taking, not forcing but simply offering yourself and seeing what comes back, and potentially being changed by it. You always risk exposure, with stakes for your belief, drive, or conviction, relationships, emotional or psychic well-being, even (if less often) your physical person. This is the move for relating, finding, disarming, parting, changing, the moments your hunter opens themselves to what they can't control. The *anchor* move (see [[#Anchor|Teamwork]]) is a specialized form of *reach*.
 
-*Examples: reciting a poem to woo someone you long for and risking rejection; reading a letter from your long-dead mother and hoping to finally understand why she left, risking discovering a truth worse than what you feared; sitting with a dying friend and seeking closure, risking overwhelming grief; touching a shrine to see what it shows you, risking psychic backlash from its malevolent spirit.*
+***Examples**: reciting a poem to woo someone you long for and risking rejection; reading a letter from your long-dead mother and hoping to finally understand why she left, risking discovering a truth worse than what you feared; sitting with a dying friend and seeking closure, risking overwhelming grief; touching a shrine to see what it shows you, risking psychic backlash from its malevolent spirit.*
 #### Act
 > **Say what your hunter does.** Roll 2d6+STAT. **10+**, you do it. **9-**, you don't and the GM makes a move.
 
 Use the *act* move when your hunter attempts a task with real stakes and the outcome is genuinely in doubt. No one to persuade, nothing reaching back; do or do not, nothing more. Just you against the task when the pressure is on.
 
-*Examples: casting a scrying spell with your last newt's eye, climbing a wall without waking those inside, recalling an ancient rite while a demon batters at the door.*
+***Examples**: casting a scrying spell with your last newt's eye, climbing a wall without waking those inside, recalling an ancient rite while a demon batters at the door.*
 ### Stats
 Stats are numbers, ranging from -2 to +3 that you add to dice rolls when you make moves. Your hunter has 4 core stats. Which you use depends on the situation, move and your hunter's approach.
 - **BODY** — exercising strength, speed, toughness, nimbleness, or stamina.  
@@ -117,17 +119,17 @@ No matter how many dice you roll, two 6s or two 1s count as *Power* or *shadow* 
 ### Before the roll
 #### Go for broke
 Take on more risk to increase your impact. Overplay your hand, open yourself recklessly, or do something big or stupid. Expose yourself to serious trouble. A 9- will be worse but a 10+, better. Gain *1 hope* when you do.
-#### Receive a **Help Die** or **Set Up** action
+#### Receive **Help** (+2 bonus) or **Set Up** actions
 See [[#Teamwork|"Teamwork"]].
 
 ### After the roll
-As long as you haven't already rolled *shadow*, you may mark *[[#Favor|favor]]* or a *[[#Conditions & Death|condition]]* or choose a complication to roll +1d6 to improve the result.
+As long as you haven't already rolled *shadow*, you may improve the result. Either:
+- mark the relevant *[[#Conditions & Death|condition]]* (*exhausted* for +BODY, *overwhelmed* for +HEART, etc.) for a +1 bonus, choose a [[#Complication|complication]] for a +2 bonus, or both
+- or, mark 2 *[[#Favor|favor]]* to roll a [[#Power Die|power die]] (+1d6)
 #### Power Die
-Mark 2 *favor*.
-#### Condition Die
-Mark the relevant *condition* (*exhausted* for +BODY, *overwhelmed* for +HEART, etc.).
-#### Complication Die
-Choose one below and sort out the details with the GM.
+Mark 2 *[[#Favor|favor]]* to add +1d6 to your roll. Adding a power die is not guaranteed bonus. Instead, it introduces a subtle press-your-luck dynamic. If you already rolled one 1, then you bear a 1 in 6 risk of a worse than 9- outcome. Alternately, if you already rolled one 6, then you might see your Power intervene.
+#### Complication
+Choose one below for a +2 bonus and sort out the details with the GM.
 - what you accomplish is partial, temporary, or unstable
 - the obstacle or opponent adapts, reinforces, or outflanks you
 - you and your opponent or counterpart trade something valuable (blows to body or reputation, secrets you don't want each other to know, challenges to belief or drive, etc.)
@@ -136,11 +138,6 @@ Choose one below and sort out the details with the GM.
 - you deplete a resource or need more time
 - you must prove yourself, owe a debt, or answer a counterproposal
 - word travels, or you're remembered and not on your terms
-#### Pressing your luck, not guaranteed bonus
-You can roll up to 4 dice: the standard 2d6 +1 Help Die +1 Power, Condition, or Complication Die.
-
- As you decide whether to add a die, remember it's not a guaranteed +1 minimum to the result. If you already rolled one 1, then you bear a 1 in 6 risk of a worse than *worst* outcome. Alternately, if you already rolled one 6, then you might see your Power intervene.
-
 
 ## Magic
 **There are no spells. Every spell is bespoke.** For inspiration, cross your Power’s Realm Beyond with a verb from this list: banish or harm, conjure or create, control or animate, divine or descry, illude or trick, transform or mend, ward or protect. For example:
@@ -176,7 +173,7 @@ Choose players to play your Power and/or the shadow. The rest play the chorus, a
 ## Teamwork
 Teamwork is a set of actions hunters can take to benefit pact mates: _help_, _protect_, _set up_, and **anchor**. *Angry* hunters cannot lead or participate in teamwork *Angry* hunters cannot benefit from teamwork, except for the *anchor* move, *temper*.
 ##### Help
-Spend 1 *hope* to give another hunter a +1d6 **Help Die** on a basic roll. Helpers may suffer any consequences, depending on the outcome. Only one helper at a time. Describe how you help.
+Spend 1 *hope* to give another hunter a +2 **Help** bonus on a basic roll. Helpers may suffer any consequences, depending on the outcome. Only one helper at a time. Describe how you help.
 ##### Protect
 Intervene to suffer consequences instead of another hunter. Succeeds automatically. Describe how you protect them. Mark 1 hope.
 ##### Set Up
@@ -550,7 +547,7 @@ Gain hope whenever you approach a challenge with strength or tenderness.
 
 Write a drive about another hunter or the pact as a whole. What would you give to protect them?
 ##### Abilities
-□ **PROTECTIVE** Clear **1 favor** and gain **1 hope** when you protect someone from harm.
+□ **PROTECTIVE** Clear **1 favor** and gain **+1 hope** when you protect someone from harm.
 
 □ **RESILIENT**. You recover from wounds more quickly. You can always take the RECOVER beat for 0 hope once per sanctuary.
 
