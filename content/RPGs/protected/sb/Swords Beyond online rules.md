@@ -445,7 +445,7 @@ Needs must. [[#The WEFT|Weft]]-kin aren't curious; they're in crisis. The saving
 | **6** | the Weftling                            | terrible            | trespass      |
 
 ##### Cultures of the WILD
-Kin of the [[#The WILD||Wild]] live a different rhythm: sealing, breaking, overrunning, and sealing again. Rivers sealed in ice break free and flow; they overrun their banks in flood before the freeze comes back. Closed and conserving trees break forth in bud and blanket the forest in leaves before dropping them all again. Animals retreat to their dens, emerge and rut, and run wild. All these cycles are what constantly make and unmake your people. Until the cycles themselves are broken.
+Kin of the [[#The WILD|Wild]] live a different rhythm: sealing, breaking, overrunning, and sealing again. Rivers sealed in ice break free and flow; they overrun their banks in flood before the freeze comes back. Closed and conserving trees break forth in bud and blanket the forest in leaves before dropping them all again. Animals retreat to their dens, emerge and rut, and run wild. All these cycles are what constantly make and unmake your people. Until the cycles themselves are broken.
 
 | d666  | 100s The cycles are broken and your kin are stuck in... | 10s during which they lurch between... | 1s and repeatedly attempt to restore cycles and seasons at… |
 | :---: | ------------------------------------------------------- | -------------------------------------- | :---------------------------------------------------------- |
@@ -537,6 +537,7 @@ You are tethered to your Power Beyond in one of three ways. A link is something 
 | **4** | [[Swords Beyond online rules#the Zealot\|the Zealot]]       |  +1  |  -1   |  +2  |   0    |
 | **5** | [[Swords Beyond online rules#the Lodestone\|the Lodestone]] |  0   |  +2   |  -1  |   +1   |
 | **6** | [[Swords Beyond online rules#the Fox\|the Fox]]             |  0   |   0   |  +2  |   0    |
+
 Add one additional +1 to any stat.
 
 
