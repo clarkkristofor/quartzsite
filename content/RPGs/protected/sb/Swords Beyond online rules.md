@@ -238,12 +238,14 @@ Your death is in the hands of *[[#Magic, Favor & Fate|fate]]*.
 #### Write...
 1. **Belief:** What does your hunter think is true about your Power? Write a declaration starting with its name or what you call it.
 2. **Drive:** Why do you hunt monsters, the shadow? Now or after the pact writes its conviction, write a statement related to your role’s drive prompt starting with “I will…”.
-3. **Gain two NPC connections**. ▲ Who ties you to Lost Plenty (for good or for ill)? ▼ Who pulls you away from (or is pushing you out of) Lost Plenty?
+3. **Gain two NPC connections**. 
+   ▲ Who ties you to Lost Plenty (for good or for ill)? 
+   ▼ Who pulls you away from (or is pushing you out of) Lost Plenty?
 4. **Gear**: You have basics – weapons, armor, etc. Want special gear? Ask the GM.
 #### All Together...
 1. **Introduce your Hunter**. The GM will ask questions.
-2. **Sketch the [[Swords Beyond online rules#World Map|world map]]**. Note on the map where your hunter's kin are from and whatever else you like. What kin are Over Reach people?
-3. **Choose [[#the X Resource]].**
+2. **Sketch the [[Swords Beyond online rules#World Map|world map]]**. Note on the map where your hunter's kin are from and whatever else you like. Which character's kin are Over Reach people?
+3. **Choose [[#the X Resource]].** H
 4. **[[#Making the Pact|Make the pact]]**.
 
 ## Kin
@@ -955,11 +957,12 @@ The Over Reach is vital for the Coastal Cities, their fleets and distant conques
 - **the Weft**: petrified lightning, which temporarily powers all sorts of wonders, from lamps to weapons
 - **the Wild:** regenerating timber, prized for shipbuilding
 
-Over Reach people can not afford to benefit from this resource, and the hunter's kin of the same Realm are
-
-in question think about this? Are they Over Reach people? Is there a side effect? 
+Over Reach people cannot afford to benefit from this resource. It's too valuable to the Coastal Cities to waste on them.
 
 The Cities supply the Over Reach with salted pork, grain, armaments, the Garrison, the White Wings, and civilization.
+
+%%, and the hunter's kin of the same Realm are
+in question think about this? Are they Over Reach people? Is there a side effect? %%
 
 ### Factions
 
