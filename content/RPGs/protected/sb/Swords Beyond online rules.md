@@ -30,7 +30,7 @@ with additional inspiration from *[13th Age](https://pelgranepress.com/13th-age/
 # A Creeping Shadow
 In the **Over Reach**, deep in the borderlands, along the **Unbroken Wilderness**, rumors spread of sinister monsters and strange and gruesome events. At the heart of it all lies the town of **Lost Plenty**.
 
-Once these lands made the great **Coastal Cities** wealthy, but the Over Reach’s abundance is long since spent. As if those distant Cities cared, with their noble queens and knights, glorious castles, and verdant fields and forests.
+Once these lands made the great **Coastal Cities** wealthy, but the Over Reach’s abundance is long since spent. As if those distant Cities cared, with their noble human queens and knights, glorious castles, verdant fields and forests, and expanding empire.
 
 Every year, the **March Lord** levies higher taxes on smaller yields, forcing Over Reach families to choose: face another hard, uncertain winter or leave home for a new life on the coast.
 
@@ -257,10 +257,10 @@ roll 2x, ignore 2s
 | :---: | :------------------ | :------------------------ |
 | **1** | undermurk           | a hunter’s kin            |
 | **2** | ravages             | a hunter’s kin            |
-| **3** | creeping grot       | a hunter’s kin            |
-| **4** | Unbroken Wilderness | a hunter’s kin            |
-| **5** | barrow wood         | Over Reach people         |
-| **6** | witchwood           | Over Reach people         |
+| **3** | creeping grot       | Over Reach people         |
+| **4** | Unbroken Wilderness | Over Reach people         |
+| **5** | barrow wood         | Coastal Cities humans     |
+| **6** | witchwood           | Coastal Cities humans     |
 
 ##### **4** Hearthborn
 
@@ -278,24 +278,24 @@ Hearthborn were **once simply ash, charred firewood, hearth stones, and househol
 A hearthborn’s culture is an echo of their family’s culture (identified by your *Culture & the Beyond* result), made their own by childlike imitation.
 
 ##### **5** Forged
-|  d66  | *function* (10s) | *who serve* (1s)  |
-| :---: | :--------------- | :---------------- |
-| **1** | drudgers         | a hunter’s kin    |
-| **2** | forge cogs       | a hunter’s kin    |
-| **3** | servitors        | Over Reach people |
-| **4** | miners           | Over Reach people |
-| **5** | war machines     | a god             |
-| **6** | wildbuilt        | the shadow        |
+|  d66  | *function* (10s) | *who serve* (1s)   |
+| :---: | :--------------- | :----------------- |
+| **1** | drudgers         | a hunter’s kin     |
+| **2** | forge cogs       | a hunter’s kin     |
+| **3** | servitors        | the March Lord     |
+| **4** | miners           | the March Lord     |
+| **5** | war machines     | the Coastal Cities |
+| **6** | wildbuilt        | the Coastal Cities |
 
 ##### **6** Dwarf
-|  d66  | *from the* (10s)      | *with a legacy of* (1s)                         |
-| :---: | :-------------------- | :---------------------------------------------- |
-| **1** | deepening mines       | cataclysm and exile among a hunter’s kin        |
-| **2** | glittering caves      | war-making against a hunter’s kin               |
-| **3** | iron range            | war-making against a hunter’s kin               |
-| **4** | mountainheart         | sharing artifacts of renown with a hunter’s kin |
-| **5** | undermurk             | sharing artifacts of renown with a hunter’s kin |
-| **6** | wardens of the passes | seclusion, secretly serving the shadow          |
+|  d66  | *from the* (10s)      | *with a legacy of* (1s)                             |
+| :---: | :-------------------- | :-------------------------------------------------- |
+| **1** | deepening mines       | cataclysm and exile among a hunter’s kin            |
+| **2** | glittering caves      | war-making against a hunter’s kin                   |
+| **3** | iron range            | war-making against the Coastal Cities               |
+| **4** | mountainheart         | sharing artifacts of renown with a hunter’s kin     |
+| **5** | undermurk             | sharing artifacts of renown with the Coastal Cities |
+| **6** | wardens of the passes | seclusion, secretly serving the shadow              |
 
 ##### **7** Human
 |  d66  | *from the* (10s)            | *of ___ status* (1s) |
@@ -315,7 +315,7 @@ A hearthborn’s culture is an echo of their family’s culture (identified by y
 | **3** | starwane peaks                           | golden bough        |
 | **4** | saltsea archipelago                      | moons of fate       |
 | **5** | ravages                                  | one true god        |
-| **6** | ruins the Coastal Cities were built upon | shadow              |
+| **6** | ruins the Coastal Cities were built upon | Coastal Cities      |
 
 ##### **9** Orc
 |  d66  | *from the* (10s)  | *cursed children of* (1s) |
@@ -332,20 +332,20 @@ A hearthborn’s culture is an echo of their family’s culture (identified by y
 | :---: | :--------------- | :----------------------------- |
 | **1** | banelands        | hunter’s kin’s armies          |
 | **2** | broodfire        | hunter’s kin’s armies          |
-| **3** | frozen ruins     | hunter’s kin’s armies          |
+| **3** | frozen ruins     | great dragon’s war with shadow |
 | **4** | lunar cathedrals | great dragon’s war with shadow |
-| **5** | secret eyrie     | great dragon’s war with shadow |
-| **6** | wyrmsilver       | great dragon’s war with shadow |
+| **5** | secret eyrie     | the Coastal Cities' army       |
+| **6** | wyrmsilver       | the Coastal Cities' army       |
 
 ##### **11** Ravenkin 
 |  d66  | *from the* (10s)              | *who steal from the shadow and* (1s) |
 | :---: | :---------------------------- | :----------------------------------- |
 | **1** | coastal crags                 | a hunter’s kin                       |
 | **2** | brownlands *(desert canyons)* | a hunter’s kin                       |
-| **3** | frozen ruins                  | a hunter’s kin                       |
+| **3** | frozen ruins                  | Over Reach people                    |
 | **4** | witchwood                     | Over Reach people                    |
-| **5** | eastern reach                 | Over Reach people                    |
-| **6** | Unbroken Wilderness           | Over Reach people                    |
+| **5** | eastern reach                 | the Coastal Cities                   |
+| **6** | Unbroken Wilderness           | the Coastal Cities                   |
 
 ##### **12** Outsider
 |  d66  | *from* (10s)                                             | *who* (1s) |
@@ -954,6 +954,10 @@ The Over Reach is vital for the Coastal Cities, their fleets and distant conques
 - **the Hells**: brimseep, a pitch that can waterproof and fireproof any wood, rope, or seam
 - **the Weft**: petrified lightning, which temporarily powers all sorts of wonders, from lamps to weapons
 - **the Wild:** regenerating timber, prized for shipbuilding
+
+Over Reach people can not afford to benefit from this resource, and the hunter's kin of the same Realm are
+
+in question think about this? Are they Over Reach people? Is there a side effect? 
 
 The Cities supply the Over Reach with salted pork, grain, armaments, the Garrison, the White Wings, and civilization.
 
