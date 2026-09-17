@@ -36,17 +36,16 @@ Every year, the **March Lord** levies higher taxes on smaller yields, forcing Ov
 
 Those who remain in Lost Plenty and other Over Reach towns are proud and unwilling to see the even more ominous **shadow**. It’s their survival strategy, not seeing what they’re really up against. The Coastal Cities can't see it either, but for them, it’s arrogance. They’re too rich, too righteous. Your own kin have their reasons for not seeing too. But you can’t ignore it.
 
-**You are a hunter.** You have come to Lost Plenty from your home, following the shadow's tendrils. You are here to defend Lost Plenty's people and defeat the shadow, before it's too late. You’re not alone.
+**You are a hunter.** You have come to Lost Plenty from your home, following the shadow's tendrils. You are here to defend Lost Plenty's people and defeat the shadow, before it's too late. 
 
-While hunches and feelings from [[Swords Beyond online rules#The Realms Beyond|the Realms Beyond]] are common, you *know* one of these **Powers** and it knows *you*. You call on it to do wondrous things, but it calls on you too.
-
-Your destiny is also intertwined with a **pact** of other hunters and, of course, with the people of Lost Plenty.
+You’re not alone. While hunches and feelings from [[Swords Beyond online rules#The Realms Beyond|the Realms Beyond]] are common, you *know* one of these **Powers** and it knows *you*. You call on it to do wondrous things, but it calls on you too. Your destiny is also intertwined with a **pact** of other hunters. And, of course, with the people of Lost Plenty.
 
 ![[Swords Beyond - blank map.png]]
+*1 hex = 4 days travel*
 
 # The Realms Beyond
 ## the DEAD
-**...is beyond this life.** It does not steal our beloved or cause our grief, so we do not fear it. Instead we fear the envious and the resentful who in death eschew the Dead and return to haunt us. It protects us, and we revere it, because it is the rest and reward of our ancestors who yet guide us.
+**...is beyond this life.** It does not steal our beloved or cause our grief, so we do not fear it. Instead we fear the envious and the resentful who in death shun the Dead and return to haunt us. It protects us, and we revere it, because it is the rest and reward of our ancestors who yet guide us.
 
 ➜ *See also the Dead's [[#Cultures of the DEAD|cultures]] and [[#the DEAD (100)|tethers]].*
 ## the DEEPS
@@ -73,16 +72,19 @@ Your destiny is also intertwined with a **pact** of other hunters and, of course
 # Playing Hunters
 ## Agenda
 ### Do what your hunter would do. 
-The game gives you **the bones** – _kin_, _culture_, _belief_, and _drive_ – and dumps them in the middle of your hunter sheet. Put flesh on those bones by acting on them, give them life by letting your hunter embody them, even struggle with them, change them.
+The game gives you **the bones** – _kin_, _culture_, _belief_, and _drive_ – and dumps them in the middle of your hunter sheet. Put flesh on those bones by acting on them, give them life by letting your hunter embody them, struggle with them, and – with *belief* and *drive* especially – change them.
 
-The game also gives you **the incentive**. Doing what your hunter would do will earn you *hope* to unlock new hunter abilities and bonuses.
+The game also gives you **the incentive**. Doing what your hunter would do will earn you *hope*, which you can use to unlock new hunter abilities and bonuses.
 ### Make your hunter real.
-Play like your hunter is real person living in a real world. Multifaceted, flawed, heroic, changing. All the more, given the pressure of being a hunter. Most importantly, give your hunter skin in the game, something urgent and important that’s at stake. Tangle them up in the fiction of the world.
+Play like your hunter is real person living in a real world. Multifaceted, flawed, heroic, changing. All the more, given the pressure of being a hunter. Most importantly, give your hunter skin in the game, something urgent and important that’s at stake. Tangle them up in the story of this world.
 ### Play to find out what happens.
 Discover your hunter’s story; don’t plan it. Let it emerge from dice rolls, other players’ actions, your instinct for who your hunter is. Stay in the moment.
 
 ## Rolling Dice
 ### Basic Moves
+This game is a conversation between the players and GM, or gamemaster. Usually that conversation is natural and free-flowing. A move slows the conversation down at key moments to push the story forward in exciting and unexpected ways. A move is a small rule with a trigger and a result that help resolve conflict, forge connections, and describe what happens. When making a move, you roll two six-sided dice, or 2d6, and the move tells you how to interpret the result. 
+
+The three basic moves are *conflict*, *reach*, and *act* — named with verbs describing what your hunter is doing when you make the move. Here is what they are, when they are used, and examples of when they might come up in play.
 #### Conflict
 **Say what your hunter wants from whom and what you do to get it.** Roll 2d6+STAT. **10+**, they give it to you. **9-**, they don't and the GM makes a move.
 
@@ -102,6 +104,7 @@ Use the *act* move when your hunter attempts a task with real stakes and the out
 
 *Examples: casting a scrying spell with your last newt's eye, climbing a wall without waking those inside, recalling an ancient rite while a demon batters at the door.*
 ### Stats
+Stats are numbers, ranging from -2 to +3 that you add to dice rolls when you make moves. Your hunter has 4 core stats. Which you use depends on the situation, move and your hunter's approach.
 - **BODY** — exercising strength, speed, toughness, nimbleness, or stamina.  
 - **HEART** — exercising loyalty, persuasion, empathy, cunning, or wisdom.  
 - **MIND** — exercising learning, analysis, perception, composure, or tinkering.  
@@ -245,7 +248,7 @@ Your death is in the hands of *[[#Magic, Favor & Fate|fate]]*.
 #### All Together...
 1. **Introduce your Hunter**. The GM will ask questions.
 2. **Sketch the [[Swords Beyond online rules#World Map|world map]]**. Note on the map where your hunter's kin are from and whatever else you like. Which character's kin are Over Reach people?
-3. **Choose [[#the X Resource]].** H
+3. **Choose [[#the X Resource]].**
 4. **[[#Making the Pact|Make the pact]]**.
 
 ## Kin
