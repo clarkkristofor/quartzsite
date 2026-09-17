@@ -149,7 +149,7 @@ You can roll up to 4 dice: the standard 2d6 +1 Help Die +1 Power, Condition, or 
 - **the** **Heavens:** consecrate a place, raise a divine light, discern truth
 - **the Hells:** burn with fire or heal with warmth, summon imps or banish demons
 - **the Weft:** teleport, pick locks, animate a cairn
-- the **Wild:** speak with animals, animate vines, summon the wind
+- **the Wild:** speak with animals, animate vines, summon the wind
 
 ### Favor
 _Favor_ is magic granted by your Power Beyond. After rolling for a basic move, you may mark 2 *favor* to add a **Power Die** (+1d6) to the result. The GM may require _favor_ for even trying major magic. Some abilities cost _favor_ to use. When you use _favor_, mark your 9-segment favor track. Filling it triggers a *[[#Magic, Favor & Fate|fate roll]]*.
@@ -389,8 +389,8 @@ When people die, they pass beyond to [[#The DEAD|the Dead]]. Or the living pray 
 | **5** | with offerings of blood, fruit, or vows | by the dead's reckoning, ghost courts with authority to pass judgment on the living | through the dead-walk, sending an adolescent to wander the places of the dead until an ancestor speaks |
 | **6** | with public death day ceremonies        | through blood tithe, the younger the more valuable                                  | by vowing duty to descendants over desire before their living elders                                   |
 
-##### Cultures of [[#The DEEPS|the DEEPS]]
-It descends from curiosity. What interests you consumes you. Desire becomes hunger becomes madness. At every stage, it draws you in but the further in you go, the greater the risk of awakening, irrevocably, something horrific - around you or within. It's all fine until its not and, by then, you're not the you who can feel it.
+##### Cultures of the DEEPS
+[[#the DEEPS|the Deeps]] descend from curiosity. What interests you consumes you. Desire becomes hunger becomes madness. At every stage, it draws you in but the further in you go, the greater the risk of awakening, irrevocably, something horrific - around you or within. It's all fine until its not and, by then, you're not the you who can feel it.
 
 |   d6    | How deep is deep?                                                                                                                                                   |
 | :-----: | ------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
