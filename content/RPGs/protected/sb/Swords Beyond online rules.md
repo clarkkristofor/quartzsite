@@ -28,13 +28,22 @@ with additional inspiration from *[13th Age](https://pelgranepress.com/13th-age/
 - ***[Downloads](https://drive.google.com/drive/folders/1rtNJpaatjz2WGgBjgilf1uSoaCo8LBJX?usp=sharing)***
 - ***Playtests***: gamma, [[playtest beta|beta]], alpha
 # A Creeping Shadow
-In the **Over Reach**, deep in the borderlands, along the **Unbroken Wilderness**, rumors spread of sinister monsters and strange and gruesome events. At the heart of it all lies the town of **Lost Plenty**.
+%% In the **Over Reach**, deep in the borderlands, along the **Unbroken Wilderness**, rumors spread of sinister monsters and strange and gruesome events. At the heart of it all lies the town of **Lost Plenty**.
 
 Once these lands made the great **Coastal Cities** wealthy, but the Over Reach’s abundance is long since spent. As if those distant Cities cared, with their noble human queens and knights, glorious castles, verdant fields and forests, and expanding empire.
 
 Every year, the **March Lord** levies higher taxes on smaller yields, forcing Over Reach families to choose: face another hard, uncertain winter or leave home for a new life on the coast.
 
 Those who remain in Lost Plenty and other Over Reach towns are proud and unwilling to see the even more ominous **shadow**. It’s their survival strategy, not seeing what they’re really up against. The Coastal Cities can't see it either, but for them, it’s arrogance. They’re too rich, too righteous. Your own kin have their reasons for not seeing too. But you can’t ignore it.
+
+**You are a hunter.** You have come to Lost Plenty from your home, following the shadow's tendrils. You are here to defend Lost Plenty's people and defeat the shadow, before it's too late. 
+
+You’re not alone. While hunches and feelings from [[Swords Beyond online rules#The Realms Beyond|the Realms Beyond]] are common, you *know* one of these **Powers** and it knows *you*. You call on it to do wondrous things, but it calls on you too. Your destiny is also intertwined with a **pact** of other hunters. And, of course, with the people of Lost Plenty. %%
+In the **Over Reach**, deep in the borderlands, along the **Unbroken Wilderness**, rumors spread of sinister monsters and strange and gruesome events. At the heart of it all lies the town of **Lost Plenty**.
+
+These lands make the great Coastal Cities wealthy. Those distant Cities flourish, with their noble human queens and knights, glorious castles, verdant fields and forests, and expanding empire. Meanwhile, the Realm-abundance of the Over Reach slips through its people's fingers, seized by the **March Lord** and his auditors. What's given in exchange? Salted pork, the Garrison, and *civilization*.
+
+But beneath the March Lord's nose, an ominous **shadow** creeps. One the Coastal Cities can't see because of their arrogance. They’re too rich, too righteous. The people of Lost Plenty can’t ignore it though, and neither can you.
 
 **You are a hunter.** You have come to Lost Plenty from your home, following the shadow's tendrils. You are here to defend Lost Plenty's people and defeat the shadow, before it's too late. 
 
@@ -126,8 +135,6 @@ See [[#Teamwork|"Teamwork"]].
 As long as you haven't already rolled *shadow*, you may improve the result. Either:
 - mark the relevant *[[#Conditions & Death|condition]]* (*exhausted* for +BODY, *overwhelmed* for +HEART, etc.) for a +1 bonus, choose a [[#Complication|complication]] for a +2 bonus, or both
 - or, mark 2 *[[#Favor|favor]]* to roll a [[#Power Die|power die]] (+1d6)
-#### Power Die
-Mark 2 *[[#Favor|favor]]* to add +1d6 to your roll. Adding a power die is not guaranteed bonus. Instead, it introduces a subtle press-your-luck dynamic. If you already rolled one 1, then you bear a 1 in 6 risk of a worse than 9- outcome. Alternately, if you already rolled one 6, then you might see your Power intervene.
 #### Complication
 Choose one below for a +2 bonus and sort out the details with the GM.
 - what you accomplish is partial, temporary, or unstable
@@ -138,6 +145,8 @@ Choose one below for a +2 bonus and sort out the details with the GM.
 - you deplete a resource or need more time
 - you must prove yourself, owe a debt, or answer a counterproposal
 - word travels, or you're remembered and not on your terms
+#### Power Die
+Mark 2 *[[#Favor|favor]]* to add +1d6 to your roll. Adding a power die is not guaranteed bonus. Instead, it introduces a subtle press-your-luck dynamic. If you already rolled one 1, then you bear a 1 in 6 risk of a worse than 9- outcome. Alternately, if you already rolled one 6, then you might see your Power intervene.
 
 ## Magic
 **There are no spells. Every spell is bespoke.** For inspiration, cross your Power’s Realm Beyond with a verb from this list: banish or harm, conjure or create, control or animate, divine or descry, illude or trick, transform or mend, ward or protect. For example:
@@ -173,11 +182,11 @@ Choose players to play your Power and/or the shadow. The rest play the chorus, a
 ## Teamwork
 Teamwork is a set of actions hunters can take to benefit pact mates: _help_, _protect_, _set up_, and **anchor**. *Angry* hunters cannot lead or participate in teamwork *Angry* hunters cannot benefit from teamwork, except for the *anchor* move, *temper*.
 ##### Help
-Spend 1 *hope* to give another hunter a +2 **Help** bonus on a basic roll. Helpers may suffer any consequences, depending on the outcome. Only one helper at a time. Describe how you help.
+Spend 1 *hope* and describe how you help to give another hunter a +2 bonus on a basic roll. Helpers may suffer any consequences, depending on the outcome. Only one helper at a time.
 ##### Protect
 Intervene to suffer consequences instead of another hunter. Succeeds automatically. Describe how you protect them. Mark 1 hope.
 ##### Set Up
-Perform a set up action for another hunter. If they follow through, they will do more on their own *best* result. Describe your set up. Roll if necessary.
+Perform a set up action for another hunter. If they follow through, they will do more on their 10+ result. Describe your set up. Roll if necessary.
 ##### Anchor
 Connect with another hunter to clear their condition. A specialized *reach* move.
 
@@ -949,7 +958,7 @@ knowledge has cost you. *Take a monstrous ability and -1 fate.* [▷]
 **6** Widow’s Take
 
 ### the X Resource
-The Over Reach is vital for the Coastal Cities, their fleets and distant conquests. What resource does the Over Reach supply to the Coastal Cities? Choose one from a hunter's kin's culture's Realm.
+The Over Reach is vital for the Coastal Cities, their fleets and distant conquests. What resource does the Over Reach supply to the Coastal Cities? Choose one from a hunter's kin's culture's Realm. It was that kin who first conquered this place carving it from the Unbroken Wilderness.
 
 - **the Dead**: grave peat, whose smoke can eternally cure meat, grain, leather, etc
 - **the Deeps**: void iron, once smelted it holds an edge no ordinary steel can match; or, dark spoor, a potent and mysterious fertilizer
@@ -967,8 +976,31 @@ in question think about this? Are they Over Reach people? Is there a side effect
 
 ### Factions
 
+#### **THE MARCH LORD**
+his own court, personal loyalists, private agenda
+
+Tier II
+
+Faction Clock:
+
+**Turf**: On paper, the whole Over Reach. In fact, the stronghold and the court.
+
+**NPCs**: the March Lord himself, plus court figures: a seneschal/steward, a spymaster, a rival or favorite heir, maybe a Cities-appointed watcher keeping him loyal.
+
+**Assets**: March Auditor and Monger tribute and fealty, a loyal personal guard, marriage/alliance ties, maybe blackmail leverage over other factions' NPCs
+
+**Quirks**: 
+
+**Allies**: The March Auditors. The Over Reach Garrison. The Mongers. Nominally, the Knights of Tern.
+
+**Enemies**: The Way of the Prince, The Seed, The Exiles.
+
+**Situation**: his private problem right now, separate from any other faction's
+
 #### **KNIGHTS OF THE TERN**
 Coastal Cities knights in glittering armor bearing seabird-adorned crests
+
+Tier V in Cities, I in Over Reach when Ser Kartas arrives
 
 **Turf**: Each of the Coastal Cities, especially the Ternhold in Avarice.
 
@@ -976,7 +1008,7 @@ Coastal Cities knights in glittering armor bearing seabird-adorned crests
 
 **Assets**: Dozens of highly professional, well-equipped lances: a knight, a squire, 2 men-at-arms, a crossbowman, and a chaplain-confessor.
 
-**Quirks**: The Knights of Tern are fanatical guardians of civilization and order. This means, the Coastal Cities. To them, the Over Reach is not civilization and is thus not worth guarding. Rarely one or two knights and their retinue go to the Over Reach, always with a deeply ideological mission to purge corruption. They are zealous, disruptive, and disdain the place and its people.
+**Quirks**: The Knights of Tern are fanatical guardians of civilization and order. Of the Coastal Cities, specifically. To them, the Over Reach is not civilization and is thus not worth guarding. Rarely one or two knights and their retinue go to the Over Reach, always with a deeply ideological mission to purge corruption. They are zealous, disruptive, and disdain the place and its people.
 
 **Allies**:
 
@@ -987,7 +1019,7 @@ Coastal Cities knights in glittering armor bearing seabird-adorned crests
 #### **MARCH AUDITORS**
 Over Reach tax farmers with their own private security.
 
-Tier
+Tier III
 
 Faction Clock:
 
@@ -1006,6 +1038,8 @@ Faction Clock:
 #### **WHITE WINGS**
 An order of healers.
 
+Tier II
+
 **Turf**: A Physic College and Palliatium in each of the Coastal Cities; first among them, in the Oasters. Small monasteries even in the Over Reach.
 
 **NPCs**: **Pallister Olmaz** (leader of Lost Plenty monastery, *quiet, empathetic, sophisticated*). **Healer Quetza** (*eager, capable, outgoing*). **Herbalist Abiling** (*masterful, innovative, fearless*). **Evangelist Fex** (*exacting, secretive, noble family*). **Scribe Golaffson** (longest tenured at Lost Plenty monastery, *elderly, patient, shrewd*). **Infirmarian**. **Lay staff** (locals; cook, guard, water children, unsworn novices)
@@ -1021,7 +1055,7 @@ An order of healers.
 #### **OVER REACH GARRISON**
 A military force protecting the Over Reach from threats from the Unbroken Wilderness.
 
-Tier
+Tier IV
 
 Faction Clock:
 
@@ -1033,13 +1067,75 @@ Faction Clock:
 
 **Allies**: The March Lord, Knights of Tern
 
-**Enemies**: 
+**Enemies**: The Seed and their monsters. The Way of the Prince. Both of which are called, simply, "bandits."
 
 **Situation**: With news of an inbound Knight of Tern, Farker has unevenly but with real petulance demanded results from Bronzehill: arrests for disloyalty and monster-kills trophies. Bova is unmoved but Nurnish is binging before his inevitable knight-forced purge.
 
-#### **X-MONGERS**
-A guild of X investors and traders in X goods, also organizes sport and sponsors charity (education, widow’s care, orphanages) across the Over Reach.
+#### **THE MONGERS**
+Collaborator-profiteers masking as a guild for the X resource. They also organize sport and sponsors charity (education, widow’s care, orphanages) across the Over Reach.
 
+#### **THE WAY OF THE PRINCE**
+Throw off Cities rule and reestablish the rule of the first conquerors, the kin who carved the Over Reach from the Unbroken Wilderness.
 
+Tier II
 
-%% **BANDITS**: rob travelers, including just months ago auditors; in response, the March Lord charged them with sedition and called upon the Knights of Tern %%
+Faction Clock:
+
+**Turf**:
+
+**NPCs**: 
+
+**Quirks**: Old aristocracy. Theocratic or cult vibes.
+
+**Allies**: 
+
+**Enemies**: The March Lord, Knights of Tern
+
+**Situation**:
+
+#### **THE SEED**
+Unmake the Over Reach and reclaim this land for the wilderness.
+
+Tier III
+
+Faction Clock:
+
+**Turf**:
+
+**NPCs**: (leader, *young, idealistic, Beyond-sensitive*). (second, *practical, ruthless, utterly mundane*)
+
+**Quirks**: Few actual memories of that time.
+
+**Allies**: 
+
+**Enemies**: The March Lord, Knights of Tern
+
+**Situation**:
+
+%% (which they don't call Unbroken but something else). %%
+#### **THE EXILES**
+Over Reach people and "gone Reach" Cities folk who found common cause, not fighting for supremacy but seeking a new way.
+
+Tier II
+
+Faction Clock:
+
+**Turf**:
+
+**NPCs**: 
+
+**Quirks**: The Exiles undersells itself on purpose, but they are true revolutionaries. 
+
+**Allies**: 
+
+**Enemies**: The March Lord, Knights of Tern
+
+**Situation**:
+
+%%
+Citizenry: The ordinary citizens of a district can be represented by a faction, if you want to track status with them in the game. The GM will set their Tier according
+to the wealth and power of the citizens in that district (Whitecrown might be Tier V, The Docks Tier II, Charhollow Tier 0).
+
+who feeds the shadow?
+"bandits" is the March Lord's label for the most aggressive of the three
+A marriage? Must marry well or lose control/status. %%
