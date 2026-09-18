@@ -976,7 +976,96 @@ in question think about this? Are they Over Reach people? Is there a side effect
 
 ### Factions
 
-#### **THE MARCH LORD**
+#### **THE EXILES**
+Over Reach people and "gone Reach" Cities folk who found common cause, not fighting for supremacy but seeking a new way.
+
+**Tier II**
+
+Faction Clock:
+
+**Turf**:
+
+**NPCs**: 
+
+**Quirks**: The Exiles undersells itself on purpose, but they are true revolutionaries. 
+
+**Allies**: 
+
+**Enemies**: March Lord, Knights of Tern
+
+**Situation**:
+
+#### **THE GARRISON**
+A military force protecting the Over Reach from threats from the Unbroken Wilderness.
+
+**Tier IV**
+
+**Faction Clock**
+- 4: arrest 100 bandits and take 30 monster-kill trophies
+
+**Turf**: The whole Over Reach.
+
+**NPCs**
+- **Commander Bova** (leader, *grizzled, prudent, family man*). 
+- **Sub-Commander Nurnish** (second, *young, bright, addicted*).
+- **Captain Farker** (Lost Plenty outpost leader, *coasting, vain, reactive*). 
+- **Auxiliary-Captain Bronzehill** (Lost Plenty outpost, *conscientious, divided, moody*).
+
+**Quirks**: The heart of the Over Reach Garrison are officers and soldiers native to and trained in the Coastal Cities, called Blues for their blue uniforms. But well over two-thirds of the garrison are Over Reach locals, called auxiliaries or simply Browns. Most major Over Reach towns host small outposts. The Garrison command and main battalions are stationed in the March Lord's stronghold and at Fort Victory, which was won in the war and long-since converted to Cities use in the occupation.
+
+**Allies**: March Lord, Knights of Tern
+
+**Enemies**: The Seed. The Way of the Prince. Both of which they call, simply, "bandits and monsters."
+
+**Situation**: With news of an inbound Knight of Tern, Farker has unevenly but with real petulance demanded results from Bronzehill: bandit arrests for disloyalty and monster-kill trophies. Bova is unmoved but Nurnish is binging before his inevitable knight-forced purge.
+
+#### **KNIGHTS OF THE TERN**
+Coastal Cities knights in glittering armor bearing seabird-adorned crests
+
+Tier V in Cities, I in Over Reach when Ser Kartas arrives
+
+**Turf**: Each of the Coastal Cities, especially the Ternhold in Avarice.
+
+**NPCs**
+- **Ser Kartas, Tern Errant** (lance leader, *haughty, sharp-witted, unmarried*)
+- **Alyse** (sworn archer, *capable, loyal, indebted*)
+- **Ser Mashten, Warden of the Tern** (leader of hold on western approaches, *good-humored, confident, careless*)
+
+**Assets**: Dozens of highly professional, well-equipped lances: a knight, a squire, 2 men-at-arms, a crossbowman, and a chaplain-confessor.
+
+**Quirks**: The Knights of Tern are fanatical guardians of civilization and order. Of the Coastal Cities, specifically. To them, the Over Reach is not civilization and is thus not worth guarding. Rarely one or two knights and their retinue go to the Over Reach, always with a deeply ideological mission to purge corruption. They are zealous, disruptive, and disdain the place and its people.
+
+**Allies**:
+
+**Enemies**: White Wings
+
+**Situation**: Yesterday, the March Lord received a terse communique from Ser Mashten that Ser Kartas has dispatched to the Over Reach.
+
+#### **MARCH AUDITORS**
+Over Reach tax farmers with their own private security.
+
+**Tier III**
+
+Faction Clock:
+
+**Turf**: The whole Over Reach.
+
+**NPCs**
+- **Auditor Renslew** (overpaid for Lost Plenty office, *desperate, charming, showy*)
+- **Tolltaker Lofgren** (lost Plenty to Dunhold road, *comfortable, predictable, indifferent*)
+- **Notary Davies** (*tall, cunning, ambitious*)
+- **Tollguard Mollott** (*stocky, gruff, gambler*)
+- **Toll-Captain Venris** (*handsome, precise, resentful)*
+
+**Quirks**: March Auditors are the definition of corruption. They collect taxes, notarize contracts and marriages, and safeguard roads and shipping lanes for the March Lord. Semi-independent, they buy and own specific offices or routes, competing with each other for the most lucrative posts.
+
+**Allies**: The March Lord
+
+**Enemies**: 
+
+**Situation**: Renslew wants Loftgren's post but can't afford it, being too deeply in debt to a mine owner named, Frys. So Renslew has been courting Loftgren's Toll-Captain Venris, with more borrowed money. As gossip spreads, more than one auditor - Kolcox and Hamringer, of course - and wannabe future-auditor - Frys themselves, Balabinga, Woderise - have taken notice. Mollott, meanwhile, has their sights set on captain, having little respect for Venris.
+
+#### **MARCH LORD**
 his own court, personal loyalists, private agenda
 
 Tier II
@@ -997,101 +1086,8 @@ Faction Clock:
 
 **Situation**: his private problem right now, separate from any other faction's
 
-#### **KNIGHTS OF THE TERN**
-Coastal Cities knights in glittering armor bearing seabird-adorned crests
-
-Tier V in Cities, I in Over Reach when Ser Kartas arrives
-
-**Turf**: Each of the Coastal Cities, especially the Ternhold in Avarice.
-
-**NPCs**: **Ser Kartas, Tern Errant** (lance leader, *haughty, sharp-witted, unmarried*). **Alyse** (sworn archer, *capable, loyal, indebted*). **Ser Mashten, Warden of the Tern** (leader of hold on western approaches, *good-humored, confident, careless*)
-
-**Assets**: Dozens of highly professional, well-equipped lances: a knight, a squire, 2 men-at-arms, a crossbowman, and a chaplain-confessor.
-
-**Quirks**: The Knights of Tern are fanatical guardians of civilization and order. Of the Coastal Cities, specifically. To them, the Over Reach is not civilization and is thus not worth guarding. Rarely one or two knights and their retinue go to the Over Reach, always with a deeply ideological mission to purge corruption. They are zealous, disruptive, and disdain the place and its people.
-
-**Allies**:
-
-**Enemies**: White Wings
-
-**Situation**: Yesterday, the March Lord received a terse communique from Ser Mashten that Ser Kartas has dispatched to the Over Reach.
-
-#### **MARCH AUDITORS**
-Over Reach tax farmers with their own private security.
-
-Tier III
-
-Faction Clock:
-
-**Turf**: The whole Over Reach.
-
-**NPCs**: **Auditor Renslew** (overpaid for Lost Plenty office, *desperate, charming, showy*). **Tolltaker Lofgren** (lost Plenty to Dunhold road, *comfortable, predictable, indifferent*). **Notary Davies** (*tall, cunning, ambitious*). **Tollguard Mollott** (*stocky, gruff, gambler*). **Toll-Captain Venris** (*handsome, precise, resentful)*.
-
-**Quirks**: March Auditors are the definition of corruption. They collect taxes, notarize contracts and marriages, and safeguard roads and shipping lanes for the March Lord. Semi-independent, they buy and own specific offices or routes, competing with each other for the most lucrative posts.
-
-**Allies**: The March Lord
-
-**Enemies**: 
-
-**Situation**: Renslew wants Loftgren's post but can't afford it, being too deeply in debt to a mine owner named, Frys. So Renslew has been courting Loftgren's Toll-Captain Venris, with more borrowed money. As gossip spreads, more than one auditor - Kolcox and Hamringer, of course - and wannabe future-auditor - Frys themselves, Balabinga, Woderise - have taken notice. Mollott, meanwhile, has their sights set on captain, having little respect for Venris.
-
-#### **WHITE WINGS**
-An order of healers.
-
-Tier II
-
-**Turf**: A Physic College and Palliatium in each of the Coastal Cities; first among them, in the Oasters. Small monasteries even in the Over Reach.
-
-**NPCs**: **Pallister Olmaz** (leader of Lost Plenty monastery, *quiet, empathetic, sophisticated*). **Healer Quetza** (*eager, capable, outgoing*). **Herbalist Abiling** (*masterful, innovative, fearless*). **Evangelist Fex** (*exacting, secretive, noble family*). **Scribe Golaffson** (longest tenured at Lost Plenty monastery, *elderly, patient, shrewd*). **Infirmarian**. **Lay staff** (locals; cook, guard, water children, unsworn novices)
-
-**Quirks**: Highly trained in the Coastal Cities as they are, White Wings can be condescending and compassionate in equal measure.
-
-**Allies**:
-
-**Enemies**: Knights of Tern
-
-**Situation**: Pallister Olmaz has gone Reach, since first encountering Lost Plenty people killed and injured by shadow. And Cities-true Evangelist Fex suspects as much, turning their evangelizing failures into a hunger for proof that they plan to turn over to distant cousin, Ser Kartas, Knight of Tern. Herbalist Abiling seeks protection to go deeper into the Unbroken Wilderness, driven as much by curiosity as concern for the recent spike in maladies that have strained White Wings supplies.
-
-#### **OVER REACH GARRISON**
-A military force protecting the Over Reach from threats from the Unbroken Wilderness.
-
-Tier IV
-
-Faction Clock:
-
-**Turf**: The whole Over Reach.
-
-**NPCs**: **Commander Bova** (leader, *grizzled, prudent, family man*). **Sub-Commander Nurnish** (second, *young, bright, addicted*). **Captain Farker** (Lost Plenty outpost leader, *coasting, vain, reactive*). **Auxiliary-Captain Bronzehill** (Lost Plenty outpost, *conscientious, divided, moody*).
-
-**Quirks**: The heart of the Over Reach Garrison are officers and soldiers native to and trained in the Coastal Cities, called Blues for their blue uniforms. But well over two-thirds of the garrison are Over Reach locals, called auxiliaries or simply Browns. Most major Over Reach towns host small outposts. The Garrison command and main battalions are stationed in the March Lord's stronghold and at Fort Victory, which was won in the war and long-since converted to Cities use in the occupation.
-
-**Allies**: The March Lord, Knights of Tern
-
-**Enemies**: The Seed and their monsters. The Way of the Prince. Both of which are called, simply, "bandits."
-
-**Situation**: With news of an inbound Knight of Tern, Farker has unevenly but with real petulance demanded results from Bronzehill: arrests for disloyalty and monster-kills trophies. Bova is unmoved but Nurnish is binging before his inevitable knight-forced purge.
-
 #### **THE MONGERS**
 Collaborator-profiteers masking as a guild for the X resource. They also organize sport and sponsors charity (education, widow’s care, orphanages) across the Over Reach.
-
-#### **THE WAY OF THE PRINCE**
-Throw off Cities rule and reestablish the rule of the first conquerors, the kin who carved the Over Reach from the Unbroken Wilderness.
-
-Tier II
-
-Faction Clock:
-
-**Turf**:
-
-**NPCs**: 
-
-**Quirks**: Old aristocracy. Theocratic or cult vibes.
-
-**Allies**: 
-
-**Enemies**: The March Lord, Knights of Tern
-
-**Situation**:
 
 #### **THE SEED**
 Unmake the Over Reach and reclaim this land for the wilderness.
@@ -1112,9 +1108,27 @@ Faction Clock:
 
 **Situation**:
 
-%% (which they don't call Unbroken but something else). %%
-#### **THE EXILES**
-Over Reach people and "gone Reach" Cities folk who found common cause, not fighting for supremacy but seeking a new way.
+#### **TENDERS (or GETTERS)**
+The Over Reach laborers who tend and gather the X resource.
+
+Tier III
+
+Faction Clock:
+
+**Turf**:
+
+**NPCs**: 
+
+**Quirks**: 
+
+**Allies**: 
+
+**Enemies**: The March Lord, Knights of Tern
+
+**Situation**:
+
+#### **THE WAY OF THE PRINCE**
+Throw off Cities rule and reestablish the rule of the first conquerors, the kin who carved the Over Reach from the Unbroken Wilderness.
 
 Tier II
 
@@ -1124,18 +1138,40 @@ Faction Clock:
 
 **NPCs**: 
 
-**Quirks**: The Exiles undersells itself on purpose, but they are true revolutionaries. 
+**Quirks**: Old aristocracy. Theocratic or cult vibes.
 
 **Allies**: 
 
 **Enemies**: The March Lord, Knights of Tern
 
 **Situation**:
+%% (which they don't call Unbroken but something else). %%
+
+#### **WHITE WINGS**
+An order of healers.
+
+Tier III
+
+**Turf**: A Physic College and Palliatium in each of the Coastal Cities; first among them, in the Oasters. Small monasteries even in the Over Reach.
+
+**NPCs**
+- **Pallister Olmaz** (leader of Lost Plenty monastery, *quiet, empathetic, sophisticated*)
+- **Healer Quetza** (*eager, capable, outgoing*)
+- **Herbalist Abiling** (*masterful, innovative, fearless*)
+- **Evangelist Fex** (*exacting, secretive, noble family*)
+- **Scribe Golaffson** (longest tenured at Lost Plenty monastery, *elderly, patient, shrewd*)
+- **Infirmarian**
+- **Lay staff** (locals; cook, guard, water children, unsworn novices)
+
+**Quirks**: Highly trained in the Coastal Cities as they are, White Wings can be condescending and compassionate in equal measure.
+
+**Allies**:
+
+**Enemies**: Knights of Tern
+
+**Situation**: Pallister Olmaz has gone Reach, since first encountering Lost Plenty people killed and injured by shadow. And Cities-true Evangelist Fex suspects as much, turning their evangelizing failures into a hunger for proof that they plan to turn over to distant cousin, Ser Kartas, Knight of Tern. Herbalist Abiling seeks protection to go deeper into the Unbroken Wilderness, driven as much by curiosity as concern for the recent spike in maladies that have strained White Wings supplies.
+
 
 %%
-Citizenry: The ordinary citizens of a district can be represented by a faction, if you want to track status with them in the game. The GM will set their Tier according
-to the wealth and power of the citizens in that district (Whitecrown might be Tier V, The Docks Tier II, Charhollow Tier 0).
-
 who feeds the shadow?
-"bandits" is the March Lord's label for the most aggressive of the three
 A marriage? Must marry well or lose control/status. %%
