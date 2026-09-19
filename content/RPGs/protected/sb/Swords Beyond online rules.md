@@ -1020,9 +1020,13 @@ A military force protecting the Over Reach from threats from the Unbroken Wilder
 **Situation**: With news of an inbound Knight of Tern, Farker has unevenly but with real petulance demanded results from Bronzehill: bandit arrests for disloyalty and monster-kill trophies. Bova is unmoved but Nurnish is binging before his inevitable knight-forced purge.
 
 #### **KNIGHTS OF THE TERN**
-Coastal Cities knights in glittering armor bearing seabird-adorned crests
+Coastal Cities knights in glittering armor bearing seabird-adorned crests.
 
 Tier V in Cities, I in Over Reach when Ser Kartas arrives
+
+**Faction Clock**
+- 4: arrive at the March Lord's stronghold 
+- 8: purge the corrupt and disloyal from the Cities" service in the Over Reach
 
 **Turf**: Each of the Coastal Cities, especially the Ternhold in Avarice.
 
@@ -1035,9 +1039,9 @@ Tier V in Cities, I in Over Reach when Ser Kartas arrives
 
 **Quirks**: The Knights of Tern are fanatical guardians of civilization and order. Of the Coastal Cities, specifically. To them, the Over Reach is not civilization and is thus not worth guarding. Rarely one or two knights and their retinue go to the Over Reach, always with a deeply ideological mission to purge corruption. They are zealous, disruptive, and disdain the place and its people.
 
-**Allies**:
+**Allies**: Nominally, March Lord, March Auditors, the Garrison, the White Wings
 
-**Enemies**: White Wings
+**Enemies**: Many within those same allied factions. Also, The Way of the Prince, The Seed, The Exiles, if the Knights cared to know they existed.
 
 **Situation**: Yesterday, the March Lord received a terse communique from Ser Mashten that Ser Kartas has dispatched to the Over Reach.
 
@@ -1057,7 +1061,7 @@ Faction Clock:
 - **Tollguard Mollott** (*stocky, gruff, gambler*)
 - **Toll-Captain Venris** (*handsome, precise, resentful)*
 
-**Quirks**: March Auditors are the definition of corruption. They collect taxes, notarize contracts and marriages, and safeguard roads and shipping lanes for the March Lord. Semi-independent, they buy and own specific offices or routes, competing with each other for the most lucrative posts.
+**Quirks**: March Auditors are the definition of corruption. They collect taxes, notarize contracts and marriages, and safeguard roads for the March Lord. Semi-independent, they buy and own specific offices or routes, competing with each other for the most lucrative posts.
 
 **Allies**: The March Lord
 
@@ -1080,33 +1084,39 @@ Faction Clock:
 
 **Quirks**: 
 
-**Allies**: The March Auditors. The Over Reach Garrison. The Mongers. Nominally, the Knights of Tern.
+**Allies**: The March Auditors. The Over Reach Garrison. The Mongers. 
 
 **Enemies**: The Way of the Prince, The Seed, The Exiles.
 
-**Situation**: his private problem right now, separate from any other faction's
+**Situation**: Nominally, the Knights of Tern are allies of the March Lord, and vice versa. But the nearer the Knights' lances are to the Over Reach, the less true this is.
+
+his private problem right now, separate from any other faction's
 
 #### **THE MONGERS**
 Collaborator-profiteers masking as a guild for the X resource. They also organize sport and sponsors charity (education, widow’s care, orphanages) across the Over Reach.
 
 #### **THE SEED**
-Unmake the Over Reach and reclaim this land for the wilderness.
+An insurgency that aims to unmake the Over Reach and reclaim this land for the wilderness.
 
 Tier III
 
-Faction Clock:
+Faction Clock
+- 4: return Captain Farker to the soil
+- 4: recruit Auxiliary-Captain Bronzehill
+- 6: unmake the Lost Plenty Garrison house
+- 12: unmake Fort Victory
 
-**Turf**:
+**Turf**: The Unbroken Wilderness, which they call simply, the wilderness.
 
-**NPCs**: (leader, *young, idealistic, Beyond-sensitive*). (second, *practical, ruthless, utterly mundane*)
+**NPCs**
+- the Taproot (leader, *young, idealistic, Beyond-sensitive*)
+- the Thorn (second, *practical, ruthless, utterly mundane*)
+- the Snag (handlers, *trustworthy, weary, exacting* or *trustworthy, warm, unassuming* or *trustworthy, cold, methodical* or *trustworthy, anxious, brittle*)
+- Lost Plenty cell members #1 through #6
 
-**Quirks**: Few actual memories of that time.
+**Quirks**: The Seed has infiltrated the Over Reach. Each operative knows only a small cell of other operatives. Each identifies themselves only by codenames - Bramble, Thistle, Fern, Hazel, Alder, Sorrel, Rowan, Briar, Moss, Clover, Ash, Yarrow - which they may change (or not) each mission. All wear identical, blank wooden masks.
 
-**Allies**: 
-
-**Enemies**: The March Lord, Knights of Tern
-
-**Situation**:
+**Situation**: Someone talked. Farker's men found a cache two days before it moved, and only four people knew the place. The Thorn wants the whole Lost Plenty cell purged and cultivated anew rather than trust a single mask that might be lying. The Taproot refuses. These six are the only foothold the Seed has in Lost Plenty. Burning them on suspicion serves the Garrison and The Way of the Prince (which wants this land as badly as the Seed does, under a crown instead of a forest canopy) as well as any real informant would. To target Bronzehill for recruitment is either exactly the kind of opening the Seed needs, or exactly the kind of opening either rival would engineer to see how deep they could get.
 
 #### **TENDERS (or GETTERS)**
 The Over Reach laborers who tend and gather the X resource.
@@ -1128,7 +1138,7 @@ Faction Clock:
 **Situation**:
 
 #### **THE WAY OF THE PRINCE**
-Throw off Cities rule and reestablish the rule of the first conquerors, the kin who carved the Over Reach from the Unbroken Wilderness.
+A sect devoted to throwing off Cities rule and reestablishing the princely line.
 
 Tier II
 
@@ -1138,7 +1148,8 @@ Faction Clock:
 
 **NPCs**: 
 
-**Quirks**: Old aristocracy. Theocratic or cult vibes.
+**Quirks**: There are factions within this faction. First, of course, is the old aristocracy, those who ruled after their kin first carved the Over Reach from the Unbroken Wilderness. 
+Theocratic or cult vibes. the rule of the first conquerors, the kin who 
 
 **Allies**: 
 
@@ -1171,6 +1182,19 @@ Tier III
 
 **Situation**: Pallister Olmaz has gone Reach, since first encountering Lost Plenty people killed and injured by shadow. And Cities-true Evangelist Fex suspects as much, turning their evangelizing failures into a hunger for proof that they plan to turn over to distant cousin, Ser Kartas, Knight of Tern. Herbalist Abiling seeks protection to go deeper into the Unbroken Wilderness, driven as much by curiosity as concern for the recent spike in maladies that have strained White Wings supplies.
 
+Keen Umbehr
+Volle
+Hadifa
+Kamara
+Rafika
+Lors
+Ambert
+Poliphon
+Cortino
+Guyon
+Jux
+Elling
+Osgrina
 
 %%
 who feeds the shadow?
