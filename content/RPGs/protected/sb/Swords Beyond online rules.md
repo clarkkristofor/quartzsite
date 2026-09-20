@@ -1101,24 +1101,27 @@ An insurgency that aims to unmake the Over Reach and reclaim this land for the w
 Tier III
 
 Faction Clock
-- 4: return Captain Farker to the soil
 - 4: recruit Auxiliary-Captain Bronzehill
+- 4: return Captain Farker to the soil
 - 6: unmake the Lost Plenty Garrison house
 - 12: unmake Fort Victory
 
-**Turf**: The Unbroken Wilderness, which they call simply, the wilderness.
+**Turf**: The Unbroken Wilderness, which they simply call the wilderness.
 
 **NPCs**
 - the Taproot (leader, *young, idealistic, Beyond-sensitive*)
 - the Thorn (second, *practical, ruthless, utterly mundane*)
 - the Snag (handlers, *trustworthy, weary, exacting* or *trustworthy, warm, unassuming* or *trustworthy, cold, methodical* or *trustworthy, anxious, brittle*)
-- Lost Plenty cell members #1 through #6
+- 6 Lost Plenty rooted
 
-**Quirks**: The Seed has infiltrated the Over Reach. Each operative knows only a small cell of other operatives. Each identifies themselves only by codenames - Bramble, Thistle, Fern, Hazel, Alder, Sorrel, Rowan, Briar, Moss, Clover, Ash, Yarrow - which they may change (or not) each mission. All wear identical, blank wooden masks.
+**Quirks**: The Seed has infiltrated the Over Reach. Each operative is one of the rooted, knowing only a small cell of others. Each identifies themselves only by codenames - Bramble, Thistle, Fern, Hazel, Alder, Sorrel, Rowan, Briar, Moss, Clover, Ash, Yarrow - which may change (or not) each mission. All wear identical, blank wooden masks.
 
-**Situation**: Someone talked. Farker's men found a cache two days before it moved, and only four people knew the place. The Thorn wants the whole Lost Plenty cell purged and cultivated anew rather than trust a single mask that might be lying. The Taproot refuses. These six are the only foothold the Seed has in Lost Plenty. Burning them on suspicion serves the Garrison and The Way of the Prince (which wants this land as badly as the Seed does, under a crown instead of a forest canopy) as well as any real informant would. To target Bronzehill for recruitment is either exactly the kind of opening the Seed needs, or exactly the kind of opening either rival would engineer to see how deep they could get.
+**Relationships**: Both the Garrison and the Way of the Prince are enemies. Both want this land as badly as the Seed does, under their own crown instead of a forest canopy.
 
-#### **TENDERS (or GETTERS)**
+**Situation**: Someone talked. Farker's men raided a root-cache two days before it moved. The Thorn wants the whole Lost Plenty cell purged and cultivated anew before they approach Bronzehill. The Taproot refuses. Better to watch and wait than to tear out six good roots for one bad. Yes, recruiting Bronzehill could spread the rot, but it might also be exactly the opening the Seed needs. Let the mission proceed. All will be revealed when the Snag evaluates Bronzehill.
+
+
+#### **TENDERS**
 The Over Reach laborers who tend and gather the X resource.
 
 Tier III
@@ -1156,7 +1159,6 @@ Theocratic or cult vibes. the rule of the first conquerors, the kin who
 **Enemies**: The March Lord, Knights of Tern
 
 **Situation**:
-%% (which they don't call Unbroken but something else). %%
 
 #### **WHITE WINGS**
 An order of healers.
@@ -1195,6 +1197,9 @@ Guyon
 Jux
 Elling
 Osgrina
+Mangham
+Wantagh
+I'm
 
 %%
 who feeds the shadow?
