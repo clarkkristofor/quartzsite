@@ -958,7 +958,7 @@ knowledge has cost you. *Take a monstrous ability and -1 fate.* [▷]
 **6** Widow’s Take
 
 ### the X Resource
-The Over Reach is vital for the Coastal Cities, their fleets and distant conquests. What resource does the Over Reach supply to the Coastal Cities? Choose one from a hunter's kin's culture's Realm. It was that kin who first conquered this place carving it from the Unbroken Wilderness.
+The Over Reach is vital for the Coastal Cities, their fleets and distant conquests. What resource does the Over Reach supply to the Coastal Cities? Choose one from a hunter's kin's culture's Realm. It was that kin who first conquered this place carving it from the Unbroken Wilderness, a part or a fringe of which forms the Way of the Prince.
 
 - **the Dead**: grave peat, whose smoke can eternally cure meat, grain, leather, etc
 - **the Deeps**: void iron, once smelted it holds an edge no ordinary steel can match; or, dark spoor, a potent and mysterious fertilizer
@@ -996,12 +996,12 @@ Faction Clock:
 **Situation**:
 
 #### **THE GARRISON**
-A military force protecting the Over Reach from threats from the Unbroken Wilderness.
+A military force protecting the Over Reach from insurgency and threats from the Unbroken Wilderness.
 
 **Tier IV**
 
 **Faction Clock**
-- 4: arrest 100 bandits and take 30 monster-kill trophies
+- 4: arrest 100 brigands and take 30 monster-kill trophies
 
 **Turf**: The whole Over Reach.
 
@@ -1013,11 +1013,9 @@ A military force protecting the Over Reach from threats from the Unbroken Wilder
 
 **Quirks**: The heart of the Over Reach Garrison are officers and soldiers native to and trained in the Coastal Cities, called Blues for their blue uniforms. But well over two-thirds of the garrison are Over Reach locals, called auxiliaries or simply Browns. Most major Over Reach towns host small outposts. The Garrison command and main battalions are stationed in the March Lord's stronghold and at Fort Victory, which was won in the war and long-since converted to Cities use in the occupation.
 
-**Allies**: March Lord, Knights of Tern
+**Relationships**: The Garrison's fight against the Way of the Prince is a warped reflection of the war that won the Over Reach for the Coastal Cities. Then, Commander Bova was but a minor, landless invader, and the Way was yet to be born of the defenders' defeat. For decades after, Bova used the Way to justify higher requisitions, increased deployments. But crushed rebellion after crushed rebellion transformed the Way, spiritualizing its struggle. Now the Garrison fights to hold this land, and the Way fights for something no garrison can hold. In his reports to the Cities, Bova does not distinguish the Way from the Seed from bandits from shadow, calling them all, simply, "brigands and monsters."
 
-**Enemies**: The Seed. The Way of the Prince. Both of which they call, simply, "bandits and monsters."
-
-**Situation**: With news of an inbound Knight of Tern, Farker has unevenly but with real petulance demanded results from Bronzehill: bandit arrests for disloyalty and monster-kill trophies. Bova is unmoved but Nurnish is binging before his inevitable knight-forced purge.
+**Situation**: With news of an inbound Knight of Tern, Farker has unevenly but with real petulance demanded results from Bronzehill: brigand arrests for disloyalty and monster-kill trophies. Bova is unmoved but Nurnish is binging before his inevitable knight-forced purge.
 
 #### **KNIGHTS OF THE TERN**
 Coastal Cities knights in glittering armor bearing seabird-adorned crests.
@@ -1026,22 +1024,21 @@ Tier V in Cities, I in Over Reach when Ser Kartas arrives
 
 **Faction Clock**
 - 4: arrive at the March Lord's stronghold 
-- 8: purge the corrupt and disloyal from the Cities" service in the Over Reach
+- 8: purge the corrupt and disloyal from the Cities' service in the Over Reach
 
 **Turf**: Each of the Coastal Cities, especially the Ternhold in Avarice.
 
 **NPCs**
 - **Ser Kartas, Tern Errant** (lance leader, *haughty, sharp-witted, unmarried*)
 - **Alyse** (sworn archer, *capable, loyal, indebted*)
+- rest of lance: name, etc.
 - **Ser Mashten, Warden of the Tern** (leader of hold on western approaches, *good-humored, confident, careless*)
 
 **Assets**: Dozens of highly professional, well-equipped lances: a knight, a squire, 2 men-at-arms, a crossbowman, and a chaplain-confessor.
 
 **Quirks**: The Knights of Tern are fanatical guardians of civilization and order. Of the Coastal Cities, specifically. To them, the Over Reach is not civilization and is thus not worth guarding. Rarely one or two knights and their retinue go to the Over Reach, always with a deeply ideological mission to purge corruption. They are zealous, disruptive, and disdain the place and its people.
 
-**Allies**: Nominally, March Lord, March Auditors, the Garrison, the White Wings
-
-**Enemies**: Many within those same allied factions. Also, The Way of the Prince, The Seed, The Exiles, if the Knights cared to know they existed.
+**Relationships**: Nominally, the Knights of Tern are allies of the March Lord, March Auditors, the Garrison, the White Wings. But many within those same factions count the Knights as a serious threat, if not an outright enemy. The Knights would also count the Way of the Prince, the Seed, and the Exiles as enemies of the Cities, if they they were not far below the Knight's notice.
 
 **Situation**: Yesterday, the March Lord received a terse communique from Ser Mashten that Ser Kartas has dispatched to the Over Reach.
 
@@ -1063,11 +1060,9 @@ Faction Clock:
 
 **Quirks**: March Auditors are the definition of corruption. They collect taxes, notarize contracts and marriages, and safeguard roads for the March Lord. Semi-independent, they buy and own specific offices or routes, competing with each other for the most lucrative posts.
 
-**Allies**: The March Lord
+**Relationships:** Auditors buy their offices from the March Lord and owe him revenues, but March Lords come and go. Each sells dear and bleeds them before retiring to the Cities. Every successor sets new prices. The Auditors' private security could threaten the March Lord, if they ever stopped competing with each other. And if they did, the Garrison's Commander, who does not invite power plays, would surely stand behind the March Lord.
 
-**Enemies**: 
-
-**Situation**: Renslew wants Loftgren's post but can't afford it, being too deeply in debt to a mine owner named, Frys. So Renslew has been courting Loftgren's Toll-Captain Venris, with more borrowed money. As gossip spreads, more than one auditor - Kolcox and Hamringer, of course - and wannabe future-auditor - Frys themselves, Balabinga, Woderise - have taken notice. Mollott, meanwhile, has their sights set on captain, having little respect for Venris.
+**Situation**: Renslew wants Lofgren's post but can't afford it, being too deeply in debt to a mine owner named, Frys. So Renslew has been courting Lofgren's Toll-Captain Venris, with more borrowed money. As gossip spreads, more than one auditor - Kolcox and Hamringer, of course - and wannabe future-auditor - Frys themselves, Balabinga, Woderise - have taken notice. Mollott, meanwhile, has their sights set on captain, having little respect for Venris.
 
 #### **MARCH LORD**
 his own court, personal loyalists, private agenda
@@ -1084,9 +1079,7 @@ Faction Clock:
 
 **Quirks**: 
 
-**Allies**: The March Auditors. The Over Reach Garrison. The Mongers. 
-
-**Enemies**: The Way of the Prince, The Seed, The Exiles.
+**Relationships:** The March Lord has the Cities' ear and, should that not be enough to bring the Garrison's Commander to heel, taxes. Higher taxes mean more insurgents. But the Commander has seen enough March Lords to know when to imprison a greedy auditor siphoning off the March Lord's profits. And the March Auditors are no match for the March Lord and the Garrison both.
 
 **Situation**: Nominally, the Knights of Tern are allies of the March Lord, and vice versa. But the nearer the Knights' lances are to the Over Reach, the less true this is.
 
@@ -1152,7 +1145,8 @@ Faction Clock:
 **NPCs**: 
 
 **Quirks**: There are factions within this faction. First, of course, is the old aristocracy, those who ruled after their kin first carved the Over Reach from the Unbroken Wilderness. 
-Theocratic or cult vibes. the rule of the first conquerors, the kin who 
+
+The Way's believers, now dispossessed
 
 **Allies**: 
 
