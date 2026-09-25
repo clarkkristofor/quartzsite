@@ -93,9 +93,9 @@ Discover your hunter’s story; don’t plan it. Let it emerge from dice rolls, 
 ### Basic Moves
 This game is a conversation between the players and GM, or gamemaster. Usually that conversation is natural and free-flowing. A move slows the conversation down at key moments to push the story forward.
 
-A move is a small rule with a trigger and a result. It helps resolve conflict, forge connections, and describe what happens. When making a move, you roll two six-sided dice, or 2d6, and the move tells you how to interpret the result.
+A move is a small rule with a trigger and a result. It helps resolve conflict, forge connections, and describe what happens. When making a move, you roll two six-sided dice, or 2d6, and the move tells you how to interpret the result. Which STAT you add depends on your approach to the challenge.
 
-The three basic moves are *conflict*, *reach*, and *act* — named with verbs describing what your hunter is doing when you make the move. Here is what they are, when they are used, and examples of when they might come up in play.
+The three basic moves are *conflict*, *reach*, and *act* — named with verbs describing what your hunter is doing when you make the move. Here is what they are, when they are used, and examples of when they might come up in play. 
 #### Conflict
 > **Say what your hunter wants from whom and what you do to get it.** Roll 2d6+STAT. **10+**, they give it to you. **9-**, they don't and the GM makes a move.
 
@@ -105,7 +105,7 @@ Use the *conflict* move when your hunter wants something from someone — surren
 #### Reach
 > **Say who or what your hunter reaches for and what you risk.** Roll 2d6+STAT. **10+**, they/it opens to you. Pick one: you learn something true, something in you or them/it shifts, a bond forms or is strengthened, they/it opens further than expected. **9-**, they/it doesn't open and the GM makes a move.
 
-Use the *reach* move when your hunter encounters, reaches for, or connects with someone or something — a person, a memory, a Realm, a presence not yet named. Not taking, not forcing but simply offering yourself and seeing what comes back, and potentially being changed by it. You always risk exposure, with stakes for your belief, drive, or conviction, relationships, emotional or psychic well-being, even (if less often) your physical person. This is the move for relating, finding, disarming, parting, changing, the moments your hunter opens themselves to what they can't control. The *anchor* move (see [[#Anchor|Teamwork]]) is a specialized form of *reach*.
+Use the *reach* move when your hunter encounters, reaches for, or connects with someone or something — a person, a memory, a Realm, a presence not yet named. Not taking, not forcing but simply offering yourself and seeing what comes back, and potentially being changed by it. You always risk exposure, with stakes for your belief, drive, or conviction, relationships, emotional or psychic well-being, even (if less often) your physical person. This is the move for relating, finding, disarming, parting, changing; the moments your hunter opens themselves to what they can't control. The *anchor* move (see [[#Anchor|Teamwork]]) is a specialized form of *reach*.
 
 ***Examples**: reciting a poem to woo someone you long for and risking rejection; reading a letter from your long-dead mother and hoping to finally understand why she left, risking discovering a truth worse than what you feared; sitting with a dying friend and seeking closure, risking overwhelming grief; touching a shrine to see what it shows you, risking psychic backlash from its malevolent spirit.*
 #### Act
@@ -180,9 +180,9 @@ Take -1 fate and mark a condition. If you can’t take -1 fate, your doom has co
 Choose players to play your Power and/or the shadow. The rest play the chorus, anonymous Powers of either the relevant Realm Beyond or the shadow. Remind everyone of your Power’s Realm and link, your belief and the pact’s conviction. Decide: who’s driving the scene, what do they want, and who do they want it from? Integrate your reward, doom, or 7-9 choice. End the scene when the driver gets what they want or definitively does not.
 
 ## Teamwork
-Teamwork is a set of actions hunters can take to benefit pact mates: _help_, _protect_, _set up_, and **anchor**. *Angry* hunters cannot lead or participate in teamwork *Angry* hunters cannot benefit from teamwork, except for the *anchor* move, *temper*.
+Teamwork is a set of actions hunters can take to benefit pact mates: _help_, _protect_, _set up_, and **anchor**. *Angry* hunters cannot benefit from teamwork, except for the *anchor* move, *temper*.
 ##### Help
-Spend 1 *hope* and describe how you help to give another hunter a +2 bonus on a basic roll. Helpers may suffer any consequences, depending on the outcome. Only one helper at a time.
+Spend 1 *hope* and describe how you help to give another hunter a +2 bonus on a basic move. You may suffer any consequences, depending on the outcome. Only one helper at a time.
 ##### Protect
 Intervene to suffer consequences instead of another hunter. Succeeds automatically. Describe how you protect them. Mark 1 hope.
 ##### Set Up
@@ -243,7 +243,7 @@ Your death is in the hands of *[[#Magic, Favor & Fate|fate]]*.
 1. **_[[#Kin|Kin]]_** (2d6 + d66)
 2. ***[[#Culture & the Beyond]]*** (d6 + mostly d666)
 3. **_[[#Power Realm & Link]]_** (d666)
-4. ***[[#Role|Role]]*** (d6): Note the stats and gain +1 in Body, Heart, Mind, or Beyond (stat max: +3). Note how you gain hope. Choose 2 abilities.
+4. ***[[#Role|Role]]*** (d6): Note the stats and gain +1 in Body, Heart, Mind, or Beyond (stat max: +3). Note how you gain hope. Choose 2 abilities total from your role abilities or the [[#Realm-based abilities]].
 #### Write...
 1. **Belief:** What does your hunter think is true about your Power? Write a declaration starting with its name or what you call it.
 2. **Drive:** Why do you hunt monsters, the shadow? Now or after the pact writes its conviction, write a statement related to your role’s drive prompt starting with “I will…”.
@@ -377,7 +377,7 @@ Each culture is described in 1 to 3 sentences. Roll on the tables to complete th
 |  d6   | Your kin's is a culture of...             |
 | :---: | ----------------------------------------- |
 | **1** | [[#Cultures of the DEAD\|the DEAD]]       |
-| **2** | [[#Cultures of the DEEPS\|the DEAPS]]     |
+| **2** | [[#Cultures of the DEEPS\|the DEEPS]]     |
 | **3** | [[#Cultures of the HEAVENS\|the HEAVENS]] |
 | **4** | [[#Cultures of the HELLS\|the HELLS]]     |
 | **5** | [[#Cultures of the WEFT\|the WEFT]]       |
@@ -802,7 +802,8 @@ each additional feature: *the change lasts hours instead of minutes – you reta
 6. What is the **name** your pact is known by (either among you or the locals)?
 7. What **faction** has been helpful in the past? Take +1 status with them and explain how they’ve helped you out of a jam.
 8. What **faction** have you hurt or screwed over in some way? Take -1 status with them and describe what happened.
-9. What NPC **ally** knows about your sanctuary and what you’re doing in Lost Plenty? (If your ally is friendly with a faction, take +1 status; if they are unfriendly with a faction, take -1 status.)
+9. Where have you found **sanctuary** in Lost Plenty, your home and headquarters?
+10. What NPC **ally** knows about your sanctuary and what you’re doing in Lost Plenty? (If your ally is friendly with a faction, take +1 status; if they are unfriendly with a faction, take -1 status.)
 
 ## Faction Status
 Your pact has a status with each of the relevant factions of the Over Reach. This indicates how well you are liked, hated, or, most often, how much of a threat that faction sees you as. Status is rated from -2 to +2, with zero (neutral) being the default starting status. You track your status with the relevant factions on the faction tracker.
@@ -937,7 +938,7 @@ knowledge has cost you. *Take a monstrous ability and -1 fate.* [▷]
 - **Inflict harm, or a condition**, as established by the fiction.
 
 
-## the Setting
+# the Setting
 
 ### Places
 
@@ -989,9 +990,7 @@ Faction Clock:
 
 **Quirks**: The Exiles undersells itself on purpose, but they are true revolutionaries. 
 
-**Allies**: 
-
-**Enemies**: March Lord, Knights of Tern
+**Relationships**: 
 
 **Situation**:
 
@@ -1060,12 +1059,12 @@ Faction Clock:
 
 **Quirks**: March Auditors are the definition of corruption. They collect taxes, notarize contracts and marriages, and safeguard roads for the March Lord. Semi-independent, they buy and own specific offices or routes, competing with each other for the most lucrative posts.
 
-**Relationships:** Auditors buy their offices from the March Lord and owe him revenues, but March Lords come and go. Each sells dear and bleeds them before retiring to the Cities. Every successor sets new prices. The Auditors' private security could threaten the March Lord, if they ever stopped competing with each other. And if they did, the Garrison's Commander, who does not invite power plays, would surely stand behind the March Lord.
+**Relationships:** Auditors buy their offices from the March Lord and owe him revenues, but March Lords come and go. Each sells dear and bleeds them before retiring to the Cities, and every successor sets new prices. The Auditors' private security could threaten the March Lord, if they ever stopped competing with each other. And if they did, the Garrison's Commander, who does not invite power plays, would surely stand behind the March Lord.
 
 **Situation**: Renslew wants Lofgren's post but can't afford it, being too deeply in debt to a mine owner named, Frys. So Renslew has been courting Lofgren's Toll-Captain Venris, with more borrowed money. As gossip spreads, more than one auditor - Kolcox and Hamringer, of course - and wannabe future-auditor - Frys themselves, Balabinga, Woderise - have taken notice. Mollott, meanwhile, has their sights set on captain, having little respect for Venris.
 
 #### **MARCH LORD**
-his own court, personal loyalists, private agenda
+The ruler of the Over Reach, appointed by the Coastal Cities, charged with keeping the X resource flowing.
 
 Tier II
 
@@ -1073,20 +1072,20 @@ Faction Clock:
 
 **Turf**: On paper, the whole Over Reach. In fact, the stronghold and the court.
 
-**NPCs**: the March Lord himself, plus court figures: a seneschal/steward, a spymaster, a rival or favorite heir, maybe a Cities-appointed watcher keeping him loyal.
+**NPCs**: the March Lord themselves, plus court figures: a seneschal/steward, a spymaster, a rival or favorite heir, maybe a Cities-appointed watcher keeping them loyal.
 
 **Assets**: March Auditor and Monger tribute and fealty, a loyal personal guard, marriage/alliance ties, maybe blackmail leverage over other factions' NPCs
 
-**Quirks**: 
+**Quirks**: Lord's Court, personal loyalists, private guards
 
-**Relationships:** The March Lord has the Cities' ear and, should that not be enough to bring the Garrison's Commander to heel, taxes. Higher taxes mean more insurgents. But the Commander has seen enough March Lords to know when to imprison a greedy auditor siphoning off the March Lord's profits. And the March Auditors are no match for the March Lord and the Garrison both.
+**Relationships:** The March Lord has the Cities' ear and, should that not be enough to bring the Garrison's Commander to heel, taxes. Higher taxes mean more insurgents. But the Commander has seen enough March Lords to know when to imprison a greedy auditor siphoning off the March Lord's profits. And the March Auditors are no match for the March Lord and the Garrison both. Nominally, the Knights of Tern are allies of the March Lord, and vice versa. But the nearer the Knights' lances are to the Over Reach, the less true this is.
 
-**Situation**: Nominally, the Knights of Tern are allies of the March Lord, and vice versa. But the nearer the Knights' lances are to the Over Reach, the less true this is.
+**Situation**: This March Lord will soon end her long, lucrative tenure and retire to the Cities. But before she does she wants to secure the appointment for her eldest daughter.
 
-his private problem right now, separate from any other faction's
+her private problem right now, separate from any other faction's
 
 #### **THE MONGERS**
-Collaborator-profiteers masking as a guild for the X resource. They also organize sport and sponsors charity (education, widow’s care, orphanages) across the Over Reach.
+Collaborator-profiteers masking as a guild for the X resource. They also organize sport and sponsor charity (education, widow’s care, orphanages) across the Over Reach.
 
 #### **THE SEED**
 An insurgency that aims to unmake the Over Reach and reclaim this land for the wilderness.
@@ -1134,7 +1133,7 @@ Faction Clock:
 **Situation**:
 
 #### **THE WAY OF THE PRINCE**
-A sect devoted to throwing off Cities rule and reestablishing the princely line.
+A sect of the Over Reach's first conquerors devoted to throwing off Cities rule and reestablishing the princely line.
 
 Tier II
 
@@ -1155,7 +1154,7 @@ The Way's believers, now dispossessed
 **Situation**:
 
 #### **WHITE WINGS**
-An order of healers.
+An order of Coastal Cities healers.
 
 Tier III
 
