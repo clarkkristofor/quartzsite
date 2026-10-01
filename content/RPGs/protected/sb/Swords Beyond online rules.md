@@ -549,6 +549,11 @@ Add one additional +1 to any stat.
 
 # Hunter Roles
 
+%% Shadow-sign, like myths from Mystic Bastionland.
+name, omens (escalating 1-6), cast (3 npcs), two d6 tables
+
+this takes place of drive and connections.
+%%
 ## the Shield
 The Shield protects their own. The strong one, out-bullying the bullies and reliably finishing it no matter who started it. It's not a sense of duty; defying danger is your love language, in and out of a fight.
 
@@ -580,7 +585,7 @@ Write a drive about the destiny your Power chose for you or the goal you'd choos
 
 The shadow cannot touch you.
 - On your character sheet, replace the condition *overshadowed* with *overpowered*, to clear, act in the interests of your Power Beyond. Whenever you would be *overshadowed*, mark *overpowered* instead.
-- Double 1s for the Maul mean: ***Power* **(two 1s)**  — Your Power yanks your leash. It's worse than 9-. Mark *overpowered*.
+- Double 1s for the Maul mean: ***Power* (two 1s)**  — Your Power yanks your leash. It's worse than 9-. Mark *overpowered*.
 - When you roll 9- on Fate Rolls, it means your Power, in its displeasure with you, has given you over to the shadow.
 - When you COMMUNE and suffer the "Cause Trouble" snag, it's not that the shadow seized you. It's that you act out against your Power Beyond and its Realm.
 ##### Abilities
@@ -1177,6 +1182,7 @@ Tier III
 
 **Situation**: Pallister Olmaz has gone Reach, since first encountering Lost Plenty people killed and injured by shadow. And Cities-true Evangelist Fex suspects as much, turning their evangelizing failures into a hunger for proof that they plan to turn over to distant cousin, Ser Kartas, Knight of Tern. Herbalist Abiling seeks protection to go deeper into the Unbroken Wilderness, driven as much by curiosity as concern for the recent spike in maladies that have strained White Wings supplies.
 
+%%
 Keen Umbehr
 Volle
 Hadifa
@@ -1194,6 +1200,6 @@ Mangham
 Wantagh
 I'm
 
-%%
+
 who feeds the shadow?
 A marriage? Must marry well or lose control/status. %%

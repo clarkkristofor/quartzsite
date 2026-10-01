@@ -1,0 +1,8 @@
+- Apothecary Diary
+- Bound conscious podcast
+- Faith and Public Life video series 
+- Amy van Dyke and ELCA person good with building insurance etc
+- ELCA abuse prevention, email Bishop
+- ELCA tax letter, keep it, file it 
+- Purpose and Interdependence, structure of church, synods, in Iowa: do we need 3 synods? 4 pastors having conversations toward resolution at synod assemblies. On way to appointment of taskforce. 
+- 
