@@ -1,5 +1,7 @@
 
-Vortigern, Vortimer and Utherfive themes which a game could utilize to encourage queer play: fluidity and transition, roles and reversals, erasure and coding, absurdity, and collective character ownership.
+Vortigern, Vortimer and Uther
+
+five themes which a game could utilize to encourage queer play: fluidity and transition, roles and reversals, erasure and coding, absurdity, and collective character ownership.
 
 game mechanics like safety tools, modified health tracks (such as Conditions from _Masks_, and Ruin from _Apocalypse Keys_), and a resource-based relationship model (such as Strings from _Monsterhearts_) as methods for encouraging queer play
 

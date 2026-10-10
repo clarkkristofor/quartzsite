@@ -1036,7 +1036,7 @@ Tier V in Cities, I in Over Reach when Ser Kartas arrives
 - **Ser Kartas, Tern Errant** (lance leader, *haughty, sharp-witted, unmarried*)
 - **Alyse** (sworn archer, *capable, loyal, indebted*)
 - rest of lance: name, etc.
-- **Ser Mashten, Warden of the Tern** (leader of hold on western approaches, *good-humored, confident, careless*)
+- **Ser Mashten, Warden of the Tern** (leader of hold on eastern approaches, *good-humored, confident, careless*)
 
 **Assets**: Dozens of highly professional, well-equipped lances: a knight, a squire, 2 men-at-arms, a crossbowman, and a chaplain-confessor.
 

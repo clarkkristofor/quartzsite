@@ -35,7 +35,7 @@ I arrive from Bosnia; family from U.S. May 28, lands on May 29 at 11:30am. Stay 
     - [ ] Jun 7: Bath Spa → London Paddington (everyone)
 ### Timeline
 - May 28. Clark arrives (London or Brussels).
-- May 29 – June 10. [Airbnb](https://www.airbnb.com/rooms/2607475?adults=3&check_in=2027-05-29&check_out=2027-06-03&children=1&search_mode=regular_search&source_impression_id=p3_67411a93-6283-4e40-8894-0980fa6122eb_96f49d41-cab7-452f-b179-4eb1e64f29dd_0_2607475_2&previous_page_section_name=1000&federated_search_id=67411a93-6283-4e40-8894-0980fa6122eb&guests=1) near Simla House, Kipling Estate, London SE1 3RN, United Kingdom, for nearly the whole London stay. Check out the morning of June 10. $2,660, not yet paid.
+- May 29 – June 10. [Airbnb](https://www.airbnb.com/rooms/2607475?adults=3&check_in=2027-05-29&check_out=2027-06-03&children=1&search_mode=regular_search&source_impression_id=p3_67411a93-6283-4e40-8894-0980fa6122eb_96f49d41-cab7-452f-b179-4eb1e64f29dd_0_2607475_2&previous_page_section_name=1000&federated_search_id=67411a93-6283-4e40-8894-0980fa6122eb&guests=1) near Simla House, Kipling Estate, London SE1 3RN, United Kingdom, for nearly the whole London stay. Check out the morning of June 10. $2,660, not yet paid. Royal Albert Hall concert, $202.98 paid, plus
 - June 3. Oxford day trip, everyone. Then son and I go on to Birmingham; wife and daughter return to the London flat.
 - June 4-6. Son and I at [UK Games Expo](https://www.ukgamesexpo.co.uk/) (9am Fri - 7pm Sun, June 4-6, 2027), staying in Birmingham through Sunday night. Wife and daughter in London.
 - June 7. Bath day trip: everyone meets in Bath for the [Roman Baths](https://www.visitbath.co.uk/things-to-do/the-roman-baths-p2588863), then back to London together.
@@ -141,12 +141,11 @@ The Airbnb sits in one of the best-connected, most walkable parts of London.
 - **Getting there:** Meet them at Heathrow.
     - **Transit (about 50–60 min):** Elizabeth line to **Bond Street**, change to the Jubilee line to **London Bridge**, then walk 10 minutes to the Airbnb.
     - **Door-to-door fallback:** Uber or a black cab (roughly £60–100) if everyone is wiped out.
-- Check in mid-afternoon and rest.
-- **Optional early-evening stroll:**
-    - Take the Jubilee line from London Bridge to **Green Park** (3 stops).
-    - Walk through Green Park to [Buckingham Palace](https://www.rct.uk/visit/buckingham-palace), then along St James's Park to **Westminster** for [Big Ben](https://www.parliament.uk/visiting/).
-    - Jubilee line home from Westminster.
-- Easy dinner, early bed.
+- Check in mid-afternoon and rest (see claude)
+- 430p head west. Possibly by taxi if tired.
+- 5:15-6:45p Dinner: Marks & Spencer (M&S) is a British chain with high-quality grab-and-go food. Eat in Hyde Park?
+- 7p Royal Albert Hall: Film Music Live: Saturday 29 May 2027 7:30PM, Arena C Row 26 Seats 12, 13, 14, 15
+- London sunset on May 29 is around 8:55 pm, and it stays light well past that, with twilight lasting until roughly 9:45. Sunrise is very early, about 4:50 am.
 
 ### Sun May 30 — Platform 9¾, Angel brunch, Arsenal v Brighton
 

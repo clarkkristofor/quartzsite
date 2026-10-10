@@ -6,11 +6,46 @@ date: 2026-04-09
 Game: 13th Age, 2e
 GM: Sean
 ---
+## 9. Derro Road
+Tim the bug mentioned the Magician, his creator, who can open portals to other worlds and who lives in a floating keep.
+
+Must build bridges or smooth route in places.
+
+Lorn used Dwarf King benefit to open door to enter derro road. Just inside, a guard house was empty, the scene of a beastly attack. We found the logbook of entrants to derro road, key ring, and a partial map of derro road.
+
+This is the territory of the Shard Clan, saner than most derro. Vek Vek, son of chielf Zim Zim, and 12 other soldiers were scouting for beast. Fight: destroyed stalker and its mate and egg sacs. 
 ## 8. Quest for the Post Office
-our post office principles:
-- everyone may send and receive mail for a fee
-- high value parcels will be handled appropriately
+our post office principles
+- every resident may send and receive mail for a fee
+- high value parcels will be handled appropriately (extra security)
 - the office will be free of iconic influence, neutral
+
+rates
+- 1 silver per letter
+- 1 gold per 5 lbs
+
+factions to convince
+- **Rake**
+- **Adonian**: wants to keep other party engaged & employed
+- **Puck, Fox & Hound**
+- **Boof & Boofette, goblins at Holes**: skeptical that it's for all, want collection site at Holes
+- **Fred Boulder, Mining Guild**: need payroll delivery, mining claims transport
+- **Bartleby DK**
+
+**quest:** take the first load to High Dock
+- proof of concept and preparing way
+- ~50 miles to High Dock, via derro underground passage along Giant Walk
+- Maximillian (derro) will help negotiate, Tim also coming
+- Ollie, the Honey Tongued Priest, will stay in High Dock to manage that end
+- Dart at Livery rented horses, wagon for 20gp
+- 1 silver per letter x (200 individuals + 40 from Adonian + 200 from Mining Guild) = 46.1 gold
+
+what's this?
+- Kenneth & Edward
+- Blacksmith shop (Adonian owned)
+- Navis, half elf — Tavern Low Dock pick up
+- (ton of ore) + mail + personally sealed payroll in High Dock 
+
 ## 7. Demon Killer
 [[Milford Steel]] killed the [[Cult of the Right Height demon]] and got a magical tattoo. [[Mouse Bones]] used his icon connection with the [[Great Gold Wyrm]] to cleanse the sacrificial circle. He also received a magic item.
 
@@ -29,8 +64,9 @@ Leader [[Bartleby Stumps]] and the 45 members (including 9 other fully mutilated
 ## 5. Ambush defeated
 We killed everyone, except one wizard (who defected to us) and Fred Boulder (who was revealed as a [[High Druid]] shapechanger). The real Boulder is tied up in an [[Clan Ironsong]] cellar. The shapechanger does not want mines cleared or the camp expanded and wants Redstone people to fight among themselves. 
 
-Also, [[Lucius]] gave Lorn this message, suggesting [[Adanian]] is actually a green dragon (the Green?):
+Also, [[Lucius]] gave Lorn a message, suggesting [[Adanian]] is actually a green dragon (the Green?):
 ![[PXL_20260821_153417518~2.jpg]]
+
 ## 4. Calm before the betrayal
 - full heal up with incremental (Lorn: HP)
 - wild-built not new
