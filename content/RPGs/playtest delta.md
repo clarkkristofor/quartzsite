@@ -7,7 +7,9 @@ GM: me
 ---
 *[[Swords Beyond online rules]]*
 # session notes
-![[PXL_20261009_224350033 1.jpg]]
+
+## 1-2. how do you solve a problem like Fex?
+![[PXL_20261009_224350033.jpg]]
 
 Met Berlin, a reaper friend of Birko's, in Tenders Hall. Berlin was sitting next to an off-duty custos dementiae, surrounded by tenders. Berlin was curious, eager to know how his grandmother is and what she has revealed.
 
@@ -18,7 +20,7 @@ Met Fex in office at monastery. He tried to convert Phnarrgh.
 Discussed options with Tower guy.
 # hunters
 
-### Phnarrgh the Shield
+## Phnarrgh the Shield
 **A western highlands orc.** 
 - **Orcs** are cursed children of humans.
 - They dominate demons to ward off evil. But bindings are going wrong and primarily their standing with neighbors suffers but only in rare cases, easily explained away.
@@ -26,7 +28,7 @@ Power Beyond is from **the Heavens**: rowdy kids go quiet (omen).
 - **Drive**: Close Hells so Heavens may fully open.
 - **Belief**: the Heavens are the path to freeing orcs from the curse.
 
-### Truffle the Lodestone
+## Truffle the Lodestone
 **An unshackled human.** He's a pariah in family of shipping magnates in Coastal Cities, who sent him to harsh orc boarding school in Over Reach. He completed term but remains.
 - The tidecatchers, who delve, dive, and discover, are **humans**' leaders, wealthy, and elites.
 - The wyrm whisperers, who interpret dreams and nightmares, are less influential.
@@ -34,7 +36,7 @@ Power Beyond is from **the Heavens**: a blessed loaf (link).
 - **Drive**: Bringing Cities and Over Reach together will defeat the shadow.
 - **Belief**: The Heavens are the key to bringing the Cities and Over Reach together.
 
-### Birko the Maul
+## Birko the Maul
 A warg steppes orc.
 - The Over Reach is the warg steppes.
 - The custos dementiae, who delve, dive, and discover, are **warg steppes orcs**' leaders, wealthy, and elites.
