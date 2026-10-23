@@ -1,4 +1,9 @@
-# $884: Total server project cost
+# $1,161: Total server project cost
+## 2026 total: $145
+### 10/10/26: $145
+$37 SANDISK 64GB Extreme microSD Card
+$88 APC BE600M1 UPS Battery Backup & Surge Protector
+$20 one month Claude
 
 ## 2025 total: $302
 

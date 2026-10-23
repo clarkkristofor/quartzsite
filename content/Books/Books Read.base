@@ -23,7 +23,7 @@ views:
       - link
     sort:
       - property: date_finished
-        direction: DESC
+        direction: ASC
     columnSize:
       note.title: 260
       note.author: 196

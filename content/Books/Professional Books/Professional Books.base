@@ -1,0 +1,39 @@
+filters:
+  and:
+    - note.type == "book"
+    - file.folder.endsWith("Professional Books")
+views:
+  - type: table
+    name: All books
+    order:
+      - file.name
+      - author
+      - translator
+      - editor
+      - year
+      - category
+      - tags
+      - description
+    sort:
+      - property: author
+        direction: ASC
+  - type: table
+    name: By category
+    groupBy:
+      property: category
+      direction: ASC
+    order:
+      - file.name
+      - author
+      - year
+      - tags
+  - type: table
+    name: Needs check
+    filters:
+      and:
+        - note.needs_check == true
+    order:
+      - file.name
+      - author
+      - year
+      - publisher

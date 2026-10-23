@@ -8,6 +8,21 @@ GM: me
 *[[Swords Beyond online rules]]*
 # session notes
 
+## 3. baby demon daddy
+Before agreeing to lure Fex into a trap, Tower Guy needed to be convinced that these goody two shoes had what it takes to murder Fex. So Birko invoked dread, darkening everything. But suddenly the great demon he owed burst from the fire and lunged for him. Phnarrgh knocked Birko away and got grabbed instead. Then Truffle locked eyes with the demon and they came to an understanding: if Truffle forced Birko to let the demon impregnate him, the demon would make Fex go away forever. Truffle agreed. And the demon dropped Phnarrgh.
+
+Just then, Phnarrgh saw that Tower Guy was about to run and sound the alarm. Phnarrgh wanted to stop him. But as soon as he laid hands on Tower Guy, Phnarrgh suffered from the same summoning sickness that has begun, now and then, to overcome his people. He turned grotesque and foul-smelling, collapsing to the ground. Tower Guy fled, disgusted, as well as determined to return with help.
+
+When approached by Truffle, Birko relented. Don't call it consent. The deed was done.
+
+Tower Guy returned with four companions, all wearing plain wooden masks, ready to fight. Birko took advantage of Tower Guy's confusion and past traumas. He convinced Tower Guy that everything had always been fine, and Tower Guy had suffered some kind of flashback or vision. Troubled, Tower Guy retreated to his tower.
+
+The masked figures began leaving, but Phnarrgh waylaid one, who called themselves Rowan. They were of The Seed, Rowan said. Their aim was undoing the Over Reach and returning the land to the wilderness.
+
+Within days, news spread that Fex was missing.
+
+DOWNTIME.
+
 ## 1-2. how do you solve a problem like Fex?
 ![[PXL_20261009_224350033.jpg]]
 
@@ -37,7 +52,7 @@ Power Beyond is from **the Heavens**: a blessed loaf (link).
 - **Belief**: The Heavens are the key to bringing the Cities and Over Reach together.
 
 ## Birko the Maul
-A warg steppes orc.
+**A warg steppes orc.**
 - The Over Reach is the warg steppes.
 - The custos dementiae, who delve, dive, and discover, are **warg steppes orcs**' leaders, wealthy, and elites.
 Power Beyond is from **the Hells**: unfulfilled contract with a demon (tether).

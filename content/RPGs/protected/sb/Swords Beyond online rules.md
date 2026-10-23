@@ -561,7 +561,7 @@ Gain hope whenever you approach a challenge with strength or tenderness.
 
 Write a drive about another hunter or the pact as a whole. What would you give to protect them?
 ##### Abilities
-□ **PROTECTIVE** Clear **1 favor** and gain **+1 hope** when you protect someone from harm.
+□ **PROTECTIVE** Clear **1 favor** and mark **+1 hope** when you protect someone from harm.
 
 □ **RESILIENT**. You recover from wounds more quickly. You can always take the RECOVER beat for 0 hope once per sanctuary.
 
@@ -705,10 +705,10 @@ The Realm of your Power Beyond or your kin must match that of the ability, other
 - **Bind** (downtime, 3H): Summon and bind an entity from Beyond (see Binding Table below). Name it and describe the form you give it and its contracted or agreed upon purpose. It will act independently to achieve its purpose. 
 - **Rendezvous** (downtime, 1H): During the downtime after you bound it, roll +BEYOND. On a 10+, it completed the task to your satisfaction. Contract/agreement fulfilled, it dematerializes and returns to its Realm. On a 7-9, the task requires more time and/or other resources (GM decides). Give it what it needs and add +1 to your next rendezvous roll the next downtime (max +4). On a 6-, expect the very worst.
 
-□ **CRISIS BINDER**. You know the secret arts of circle-making and contract-drafting required to summon and bind entities from Beyond short-term (see Binding Table below). Make a move and roll +BEYOND; which move depends on the Realm: the Hells, *conflict*; the Weft: *act*; the rest, *reach*. Only another hunter with this ability can *help* you. Mark 1 favor for each additional feature: *the binding lasts for the hunt rather than the scene – the entity can can be parted from you and not dematerialize – the entity can take a second wound before dematerializing rather than just one.
+□ **CRISIS BINDER**. You know the secret arts of circle-making and contract-drafting required to summon and bind entities from Beyond short-term (see Binding Table below). Make a move and roll +BEYOND; which move depends on the Realm: the Hells, *conflict*; the Weft: *act*; the rest, *reach*. Only another hunter with this ability can *help* you. Mark 1 favor for each additional feature: *the binding lasts for the hunt rather than the scene – the entity can be parted from you and not dematerialize – the entity can take a second wound before dematerializing rather than just one.
 #### Binding Table
 
-| Realm       | Bound Entity                                      | Method     | Requirements                                                | Rendevous 6- Consequence                               |
+| Realm       | Bound Entity                                      | Method     | Requirements                                                | Rendezvous 6- Consequence                              |
 | ----------- | ------------------------------------------------- | ---------- | ----------------------------------------------------------- | ------------------------------------------------------ |
 | the Dead    | an ancestor                                       | agreement  | a willing living, sentient host for their spirit to possess | Lingers, becomes a vengeful haunting                   |
 | the Deeps   | an ancient horror or living nightmare             | agreement  | bait to lure it                                             | Devours more than intended or the binder is changed    |
@@ -770,7 +770,7 @@ on it.
 
 □ **WRATH**. When you're *angry*, you may lash out with it. When you roll *conflict* to attack, spend and clear *angry*. Inflict +2 wounds on your enemy on a 10+, or +1 wounds to yourself on a 9-, in addition to other consequences.
 ### the Weft
-□ **ILLUSION**. You can create nearby a sound or an image of an object no larger than a hay bale. It persists for the duration of the scene or until you dismiss it. When it’s scrutinized, roll *conflict* +BEYOND. Mark 1 favor for each additional feature: *add smell, touch, and taste to the illusion (granting +1 when scrutinized) – let it last up to a day – make the illusion a disguise for yourself or an another hunter.*
+□ **ILLUSION**. You can create nearby a sound or an image of an object no larger than a hay bale. It persists for the duration of the scene or until you dismiss it. When it’s scrutinized, roll *conflict* +BEYOND. Mark 1 favor for each additional feature: *add smell, touch, and taste to the illusion (granting +1 when scrutinized) – let it last up to a day – make the illusion a disguise for yourself or another hunter.*
 
 □ **LEVITATE**: Mark 2 favor to raise yourself or something roughly your weight into the air, hovering up to 15 feet above the ground for the rest of the scene. Mark 1 favor for each additional feature: *double the weight limit or add another willing person – move you/it laterally up to 15 feet – make an already levitating non-living object levitate forever.*
 
@@ -780,7 +780,7 @@ on it.
 
 □ **TELEPATHY**. Mark 2 favor to communicate telepathically with one person you can see. Mark 1 favor for each additional feature: *you can communicate with multiple targets – you can communicate with someone you cannot see.*
 
-□ **TRUE NAME**. Learning someone or something's true name takes real effort: investigation, bargain, or ritual, GM's call. Once you know it, you hold leverage over them. Mark 2 favor to spend that leverage and permanently unravel something about them an aspect of their nature, a bond, their resolve, some magic working on them, etc.
+□ **TRUE NAME**. Learning someone or something's true name takes real effort: investigation, bargain, or ritual, GM's call. Once you know it, you hold leverage over them. Mark 2 favor to spend that leverage and permanently unravel something about them: an aspect of their nature, a bond, their resolve, some magic working on them, etc.
 ### the Wild
 □ **ALPHA EYE**: You always know who really holds power in a situation, regardless of title.
 
@@ -897,25 +897,25 @@ When you’re being hunted by one or more factions, your pact suffers +2 alarm a
 
 **KILL IT WITH FIRE** (4H). You’re off on your own when you come face to face with something horrible (what is it?) and you’re forced to deal with it on your own. Say which hunter found you and what they saw that terrified them. *Take a monstrous ability and -1 fate.* [▷]
 
+##### Maul
+**ACCIDENTAL INCANTATION** (3H). You’re certain you said the words correctly. All the proper components were there. The blade tasted blood. What went wrong, and who was there to see it? *Mark a condition (your choice) and take a new ability from your playbook.* [▷]
+
+**THE DESCENT** (4H). You succumb to the shadow, which you’ve worked so hard to harness and control. Describe what this looks like. *Take a monstrous ability and -1 fate.* [▷]
+
 ##### Law
 **THE BLACK DOSSIER** (3H). A contact provides you with highly classified information. The kind of information people get killed over. *Describe what it is (be as vague or specific as you’d like), gain -1 status with a relevant faction, and take a new ability from your playbook.* [▷]
 
 **DEAL WITH THE DEVIL** (4H). Everything comes at a cost. Tell a story about a deal that required you to make a great sacrifice. What did you sacrifice, and was it worth? *Take a monstrous ability and -1 fate.* [▷]
 
-##### Scourge
-**ACCIDENTAL INCANTATION** (3H). You’re certain you said the words correctly. All the proper components were there. The blade tasted blood. What went wrong, and who was there to see it? *Mark a condition (your choice) and take a new ability from your playbook.* [▷]
-
-**THE DESCENT** (4H). You succumb to the shadow, which you’ve worked so hard to harness and control. Describe what this looks like. *Take a monstrous ability and -1 fate.* [▷]
-
-##### Loreseeker
+##### Lodestone
 **FAVORS DUE** (3H). You’re called away on business. What excuse do you tell the other hunters, and why can’t they ever know the truth about what you’re doing? *Write a belief that pertains to this and then take a new ability from your playbook.* [▷]
 
 **THE THING WHICH COULD NOT BE PUT BACK** (4H). You always tell others not to mess with that which they don’t understand, and yet here you are. Of course, it’s hard for you to admit that there are things you don’t understand. *Take a monstrous ability and -1 fate.*  [▷]
 
 ##### Fox 
-BORN TO RUN (3H). Something you thought you’d outrun is making itself a problem in the resent. What is it? Who do you confide in? Describe dealing with things. *Permanently lose one of your connections and take a new ability from your playbook.* [▷]
+BORN TO RUN (3H). Something you thought you’d outrun is making itself a problem in the present. What is it? Who do you confide in? Describe dealing with things. *Permanently lose one of your connections and take a new ability from your playbook.* [▷]
 
-BLOOD BROTHERS (4H). Someone you care about is in trouble – who? – and you’ve made a deal to save them. How does it backfire, and what is the curse that’s been placed on you? Take a monstrous ability. *Take a monstrous ability and -1 fate.* [▷]
+BLOOD BROTHERS (4H). Someone you care about is in trouble – who? – and you’ve made a deal to save them. How does it backfire, and what is the curse that’s been placed on you? *Take a monstrous ability and -1 fate.* [▷]
 
 ##### Zealot
 **ANCIENT EVIL** (3H). Your training has been pushing you to the limits with no sign of relenting. How have they pushed you too hard, and what is your breaking point? You are exhausted until you confront your leader. *Take a new ability from your playbook.* [▷]
@@ -1198,7 +1198,8 @@ Elling
 Osgrina
 Mangham
 Wantagh
-I'm
+Fiala
+Hargis
 
 
 who feeds the shadow?

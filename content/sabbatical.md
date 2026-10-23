@@ -9,7 +9,8 @@ date_finished:
 # Overview
 
 ## Eternal Great Beginning
-May 22-26 in Kozarac, Bosnia (but waiting on confirmation of dates)
+May 22-26 in Kozarac, Bosnia 
+$700
 https://nomadicacademy.org/kozarac-egb/
 solo
 text: [As You Like It](https://www.folger.edu/explore/shakespeares-works/as-you-like-it/read/)
@@ -20,11 +21,11 @@ The EuroCity _Croatia_ leaves Zagreb at 07:25 and arrives in Vienna at 14:07, cr
 - **Fri May 28:** Arrive in Brussels mid-morning and in London by early afternoon, the day before the family lands. Maybe stay a night in Brussels instead of London?
 
 ## UK: London, etc
-I arrive from Bosnia; family from U.S. May 28, lands on May 29 at 11:30am. Stay in UK for 10-14 days, flying home 6/11 at the latest. (Flight for 3, Moline-London: $3,900 only $400 more than from O'Hare.)
+I arrive from Bosnia; family from U.S. May 28 staying at same Airbnb we'll stay at for nearly all our time in London, lands on May 29 at 11:30am. Stay in UK for 10-14 days, flying home 6/11 at the latest. (Flight for 3, Moline-London: $3,900 only $400 more than from O'Hare.)
 
 ### To-Do
 - [x] Extend stay at SE1 Airbnb. Extended to check out Jun 10 (the night of Jun 10 was already booked by someone else). **May 29 – Jun 10: $2,660.**
-- [ ] Pay the SE1 Airbnb ($2,660, not yet paid).
+- [ ] Pay the SE1 Airbnb ($2,871.48, not yet paid).
 - [x] Book lodging for the night of Jun 10: [Premier Inn London Paddington (Paddington Station)](https://www.premierinn.com/gb/en/hotels/england/greater-london/london/london-paddington-paddington-station.html), 40 Eastbourne Terrace, W2 6LG. Family room, sleeps all 4, early check-in at 11am. **$250 total, paid.**
 - [ ] Book advance train tickets, since that makes a big difference on UK fares:
     - [ ] Jun 3: London Paddington → Oxford (everyone)
@@ -34,8 +35,8 @@ I arrive from Bosnia; family from U.S. May 28, lands on May 29 at 11:30am. Stay 
     - [ ] Jun 7: London Paddington → Bath Spa (wife and daughter)
     - [ ] Jun 7: Bath Spa → London Paddington (everyone)
 ### Timeline
-- May 28. Clark arrives (London or Brussels).
-- May 29 – June 10. [Airbnb](https://www.airbnb.com/rooms/2607475?adults=3&check_in=2027-05-29&check_out=2027-06-03&children=1&search_mode=regular_search&source_impression_id=p3_67411a93-6283-4e40-8894-0980fa6122eb_96f49d41-cab7-452f-b179-4eb1e64f29dd_0_2607475_2&previous_page_section_name=1000&federated_search_id=67411a93-6283-4e40-8894-0980fa6122eb&guests=1) near Simla House, Kipling Estate, London SE1 3RN, United Kingdom, for nearly the whole London stay. Check out the morning of June 10. $2,660, not yet paid. Royal Albert Hall concert, $202.98 paid, plus
+- May 28. Clark arrives in London.
+- May 28 – June 10. [Airbnb](https://www.airbnb.com/rooms/2607475?adults=3&check_in=2027-05-29&check_out=2027-06-03&children=1&search_mode=regular_search&source_impression_id=p3_67411a93-6283-4e40-8894-0980fa6122eb_96f49d41-cab7-452f-b179-4eb1e64f29dd_0_2607475_2&previous_page_section_name=1000&federated_search_id=67411a93-6283-4e40-8894-0980fa6122eb&guests=1) near Simla House, Kipling Estate, London SE1 3RN, United Kingdom, for nearly the whole London stay. Check out the morning of June 10. $2,871.48, not yet paid, except 220.89. Royal Albert Hall concert, $205.02 paid, plus 2.03
 - June 3. Oxford day trip, everyone. Then son and I go on to Birmingham; wife and daughter return to the London flat.
 - June 4-6. Son and I at [UK Games Expo](https://www.ukgamesexpo.co.uk/) (9am Fri - 7pm Sun, June 4-6, 2027), staying in Birmingham through Sunday night. Wife and daughter in London.
 - June 7. Bath day trip: everyone meets in Bath for the [Roman Baths](https://www.visitbath.co.uk/things-to-do/the-roman-baths-p2588863), then back to London together.
