@@ -1,17 +1,18 @@
 ---
-title: "Holden Prayer Around the Cross"
-author: "Susan Briehl; Tom Witt"
+title: Holden Prayer Around the Cross
+author: Susan Briehl; Tom Witt
 publisher: ""
 published: 2009
 pages: 139
 isbn: "9780806696812"
 categories:
-  - "Crosses"
-image: ""
-tags: [book]
+  - Crosses
+image: https://ms.augsburgfortress.org/images/productsh/9780806696812h.jpg
+tags:
+  - book
 publish: true
 ---
-
+![cover|250](https://ms.augsburgfortress.org/images/productsh/9780806696812h.jpg)
 # Holden Prayer Around the Cross
 
 > [!summary]- Description

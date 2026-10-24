@@ -1,18 +1,19 @@
 ---
-title: "David's Truth"
-author: "Walter Brueggemann"
-publisher: "Augsburg Fortress Publishing"
+title: David's Truth
+author: Walter Brueggemann
+publisher: Augsburg Fortress Publishing
 published: 1985
 pages: 136
 isbn: ""
 categories:
-  - "Religion"
-image: "https://books.google.com/books/content?id=jLjYAAAAMAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api&fife=w800"
-tags: [book]
+  - Religion
+image: https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1391743999i/271914.jpg
+tags:
+  - book
 publish: true
 ---
 
-![cover|250](https://books.google.com/books/content?id=jLjYAAAAMAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api&fife=w800)
+![cover|250](https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1391743999i/271914.jpg)
 
 # David's Truth
 

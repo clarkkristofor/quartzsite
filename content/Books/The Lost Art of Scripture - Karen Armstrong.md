@@ -1,15 +1,17 @@
 ---
-title: "The Lost Art of Scripture"
-author: "Karen Armstrong"
-publisher: "Anchor"
+title: The Lost Art of Scripture
+author: Karen Armstrong
+publisher: Anchor
 published: 2019
 pages: 667
 isbn: "9780451494870"
 categories:
-  - "Religion"
-image: "https://books.google.com/books/content?id=i0mHDwAAQBAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api&fife=w800"
-tags: [book]
+  - Religion
+image: https://books.google.com/books/content?id=i0mHDwAAQBAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api&fife=w800
+tags:
+  - book
 publish: true
+date_finished: 2024-03-18
 ---
 
 ![cover|250](https://books.google.com/books/content?id=i0mHDwAAQBAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api&fife=w800)

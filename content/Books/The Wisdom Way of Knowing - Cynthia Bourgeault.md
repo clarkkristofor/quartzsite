@@ -1,22 +1,21 @@
 ---
-title: "The Wisdom Way of Knowing"
-author: "Cynthia Bourgeault"
-publisher: "Jossey-Bass"
+title: The Wisdom Way of Knowing
+author: Cynthia Bourgeault
+publisher: Jossey-Bass
 published: 2003
-pages: 
+pages:
 isbn: "9780787968960"
 categories:
-  - "Religion"
-image: ""
-tags: [book]
+  - Religion
+image: https://m.media-amazon.com/images/I/81hIzjwAx3L._SL1500_.jpg
+tags:
+  - book
 publish: true
 ---
-
+![cover|250](https://m.media-amazon.com/images/I/81hIzjwAx3L._SL1500_.jpg)
 # The Wisdom Way of Knowing
 
 > [!summary]- Description
 > "Drawing on resources as diverse as Sufism, Benedictine Monasticism, the Gurdjieff Work, and the string theory of modern physics, Cynthia Bourgeault has crafted her own unique vision of the Wisdom way in this very accessible book, nicely balanced between concept and practice." —Gerald May, senior fellow, Shalem Institute, and author, Addiction and Grace and Will and Spirit "The spiritual wisdom and practical suggestions in this lively and beautiful book will be helpful to many who find themselves setting out on the interior journey." —Bruno Barnhart, a Camaldolese monk and author, Second Simplicity: The Inner Shape of Christianity "Cynthia Bourgeault's book is a valuable contribution to the much-needed reawakening of spiritual practice within a Christian context. Her sincerity, good sense, metaphysical depth, and broad experience make her a source to be trusted." —Kabir Helminski, Sufi Shaikh, the Threshold Society
 
-> [!note] Catalog note
-> Added from two-shelf list
 

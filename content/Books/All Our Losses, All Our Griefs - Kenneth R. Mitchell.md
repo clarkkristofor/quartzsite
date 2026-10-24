@@ -19,6 +19,4 @@ publish: true
 > [!summary]- Description
 > Grief as a lifelong human experience is the scope of this absorbing book. Kenneth Mitchell and Herbert Anderson explore the multiple dimensions of the problem, including the origins and dynamics of grief, loss throughout life, caring for those who grieve, and the theology of grieving. This examination is enriched by vivid illustrations and case histories of individuals whose experiences the authors have shared.
 
-> [!note] Catalog note
-> Reconstructed from shifted scan — verify
 
