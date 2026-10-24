@@ -1,6 +1,6 @@
 # Home Server To-Do
 
-**Created:** 2026-09-22 · **Updated:** 2026-10-20 (added Resilience #2 replace archived Watchtower and #4 update notifications on the Acer (DIUN); renumbered — backup failure alert now #3, UPS #5, new device #6, weekly report #7). 2026-10-19: resource monitoring done — Beszel on all four servers with alerts to #alerts and SMART on the HP, see [[Changelog]]; weekly home health report agent split out as its own task; Resilience reordered by importance: VLAN, backup failure alert, UPS alert, new device alert, weekly health report — the three alerts moved from home automation #4–#6, the report from #11). 2026-10-17: renamed from Homelab Resilience Tasks; added home automation project list, reordered, with decisions and HA auto-updates added; merged side projects into it; plan changed so Beszel alerts will go to Rocket.Chat #alerts (Beszel not set up yet); monitoring alerts moved to Rocket.Chat #alerts — done, see [[Changelog]]; daily TV summary set up. Earlier today: washer-done notifications — done, see [[Changelog]]; Rocket.Chat and Uptime Kuma moved to the Acer — done, see [[Changelog]]; NVMe upgrade dropped — Pi 5 stays on SD with write-heavy services moved off it; no NUC or media/photo server.
+**Created:** 2026-09-22 · **Updated:** 2026-10-23 (added home automation #19: custom Google TV home screen; added the GMKtec NucBox 3 to spares; added home automation #15–#18: family YouTube feed, sermon transcription, price-drop watcher, kids' savings bot). 2026-10-20 (added Resilience #2 replace archived Watchtower and #4 update notifications on the Acer (DIUN); renumbered — backup failure alert now #3, UPS #5, new device #6, weekly report #7). 2026-10-19: resource monitoring done — Beszel on all four servers with alerts to #alerts and SMART on the HP, see [[Changelog]]; weekly home health report agent split out as its own task; Resilience reordered by importance: VLAN, backup failure alert, UPS alert, new device alert, weekly health report — the three alerts moved from home automation #4–#6, the report from #11). 2026-10-17: renamed from Homelab Resilience Tasks; added home automation project list, reordered, with decisions and HA auto-updates added; merged side projects into it; plan changed so Beszel alerts will go to Rocket.Chat #alerts (Beszel not set up yet); monitoring alerts moved to Rocket.Chat #alerts — done, see [[Changelog]]; daily TV summary set up. Earlier today: washer-done notifications — done, see [[Changelog]]; Rocket.Chat and Uptime Kuma moved to the Acer — done, see [[Changelog]]; NVMe upgrade dropped — Pi 5 stays on SD with write-heavy services moved off it; no NUC or media/photo server.
 
 **Follow-up ~2026-10-22:** if Rocket.Chat and Uptime Kuma on the Acer are still fine: in the Pi 5's Portainer remove the stopped rocketchat stack + its volumes and the uptime-kuma stack (container already gone) + volume `uptime-kuma_uptime-kuma`; delete `~/rocketchat-migrate.archive.gz` and `~/uptime-kuma-data.tar.gz` on the Pi and the Acer.
 
@@ -110,18 +110,23 @@ Read-only: no tools that can change anything.
 
 Ranked by interest and usefulness. Difficulty is challenge + time, 0–10. #4–#6 (UPS, backup failure, new device alerts) and #11 (weekly health report) moved to Resilience (2026-10-19).
 
-| #      | Project                                                                 | Difficulty |
-| ------ | ----------------------------------------------------------------------- | ---------- |
-| ~~1~~  | ~~Plain-language HA command bot~~                                       | 5/10       |
-| ~~2~~  | ~~Daily TV watching summary~~                                           | 2/10       |
-| ~~3~~  | ~~Move monitoring alerts to Rocket.Chat (Discord backup for the Acer)~~ | 2/10       |
-| 7      | HA auto-updates with 7-day wait                                         | 3/10       |
-| 8      | Laundry "did you move it?" nag with reply                               | 5/10       |
-| 9      | Trash/recycling night reminder (yes/no re-nag)                          | 3/10       |
-| 10     | Weekly chore rotation (kids reply "done")                               | 5/10       |
-| 12     | Kid tutor instructions for Ollama                                       | 3/10       |
-| 13     | Ollama chat bot in Rocket.Chat                                          | 6/10       |
-| 14     | Morning weather briefing                                                | 3/10       |
+| #     | Project                                                                 | Difficulty |
+| ----- | ----------------------------------------------------------------------- | ---------- |
+| ~~1~~ | ~~Plain-language HA command bot~~                                       | 5/10       |
+| ~~2~~ | ~~Daily TV watching summary~~                                           | 2/10       |
+| ~~3~~ | ~~Move monitoring alerts to Rocket.Chat (Discord backup for the Acer)~~ | 2/10       |
+| 7     | HA auto-updates with 7-day wait                                         | 3/10       |
+| 8     | Laundry "did you move it?" nag with reply                               | 5/10       |
+| 9     | Trash/recycling night reminder (yes/no re-nag)                          | 3/10       |
+| 10    | Weekly chore rotation (kids reply "done")                               | 5/10       |
+| 12    | Kid tutor instructions for Ollama                                       | 3/10       |
+| 13    | Ollama chat bot in Rocket.Chat                                          | 6/10       |
+| 14    | Morning weather briefing                                                | 3/10       |
+| 15    | Family YouTube feed (second my-feed playlist)                           | 2/10       |
+| 16    | Sermon transcription (Whisper on the HP)                                | 4/10       |
+| 17    | Price-drop watcher → Rocket.Chat                                        | 4/10       |
+| 18    | Kids' savings bot (spend/save/share) in Rocket.Chat                     | 6/10       |
+| 19    | Custom Google TV home screen (dongle)                                   | 5/10       |
 
 **Decisions (2026-10-17):**
 - One task list for everything; resilience tasks stay on top, home automation projects follow.
@@ -137,6 +142,11 @@ Ranked by interest and usefulness. Difficulty is challenge + time, 0–10. #4–
 3. **Monitoring → Rocket.Chat** — **Status (2026-10-17): done and tested** — see [[Changelog]]; routing in [[Home Server and Network]] → Monitoring. "Something off the Acer watching the Acer" is already covered by Healthchecks.io (Acer/Gatus down) and Gatus (Rocket.Chat down). New alerts (Resilience #2–#6, Beszel, HA auto-updates) post to #alerts — give each its own incoming webhook posting as user `alerts`. **Uptime Kuma/Gatus overlap trimmed (2026-10-17, done and tested):** Uptime Kuma is the main monitor; Gatus only watches Uptime Kuma, Rocket.Chat and the Healthchecks.io heartbeat.
 7. **HA auto-updates** — add-ons use their own "Auto update" toggle. For Core, OS and HACS: when an update appears, skip it (clears the orange dot) and record the date; after 7 days, clear the skip, back up, install. A newer version mid-wait restarts its 7 days. Post "queued" and "installed/failed" to #alerts. Run on a Saturday morning, not before Sunday services. Still skim release notes for breaking changes (GE Home, Matter, Ollama).
 12. **Kid tutor instructions** — only matters once #13 exists; tune for both kids' ages.
+15. **Family YouTube feed** (added 2026-10-23) — split my-feed into two playlists, Clark's and a family one (Wyrmwood Vlogs and whatever the kids watch); separate rules in `config.yaml`, same hourly GitHub Actions run.
+16. **Sermon transcription** (added 2026-10-23) — Whisper on the HP's RTX 2060 turns sermon recordings into text notes in Obsidian, building a searchable archive of past sermons. Decide: where recordings come from, and which Whisper model fits the 2060's 8 GB alongside Ollama.
+17. **Price-drop watcher** (added 2026-10-23) — watchlist for more than games: games via IsThereAnyDeal's official API, Amazon via camelcamelcamel alerts, other stores only where their terms allow it (no ToS-breaking scraping). Price drops post to Rocket.Chat.
+18. **Kids' savings bot** (added 2026-10-23) — kids DM a Rocket.Chat bot (e.g., "spent 4.50 spend candy", "balance"); a small script on the Acer updates their existing Google Sheet register (spend / save / share) via the official Sheets API and replies with the new balance. Monthly job adds allowance, split across the three categories, and posts it. Extras: undo last entry, gift/birthday deposits, warn before a category goes negative, optional copy or approval to Clark. Start with a strict message format; plain language via `qwen3:8b` later (confirm before saving). Open questions: sheet layout (tab per kid or one register), allowance amounts/split/day, whether kids can log deposits.
+19. **Custom Google TV home screen** (added 2026-10-23) — on the Google TV dongle (not the TCL's Roku side), use developer mode + ADB from a computer on the Wi-Fi (no rooting) to turn off ads/bloat and set a custom home screen; projects to start from: cleanyourtv, tv-detox (disable, don't delete — reversible). Home screen shows: time and date, next Arsenal game, chore reminders, weather, today's TV time (from the daily TV summary), and the YouTube playlists (my-feed + family feed, #15). Custom screensaver (e.g., family photos). On-screen alerts over whatever's playing via HA's official "Notifications for Android TV / Fire TV" integration + its companion app on the dongle (washer done, power out, etc.). Google TV updates can re-enable the stock home screen — re-run the script (optionally on a schedule from the Acer). Separately: on the TCL, Roku → Settings → Privacy → Smart TV Experience → uncheck "Use info from TV inputs" (stops HDMI viewing tracking).
 
 ## Hardware side projects
 
@@ -145,6 +155,6 @@ Ranked by interest and usefulness. Difficulty is challenge + time, 0–10. #4–
 
 ---
 
-**Spares (not servers):** Pi Zero W v1.1 (with its ReSpeaker HAT) and the HP Spectre laptop. Decided 2026-10-14 to stay at four servers (HA Pi, Pi 5, Acer, Windows).
+**Spares (not servers):** Pi Zero W v1.1 (with its ReSpeaker HAT), the HP Spectre laptop, and a GMKtec NucBox 3 (KB3: Celeron J4125, 8 GB DDR4 in 1 slot, M.2 SATA SSD, fanless; no AVX, so no MongoDB 7/Rocket.Chat; suits signage or a retro-games box — added 2026-10-23; considering swapping it, with a ~$100 donation, for Zion's NUC10i3FNB to replace the Acer as the watcher, leaning plain Linux with no RAM upgrade). Decided 2026-10-14 to stay at four servers (HA Pi, Pi 5, Acer, Windows).
 
 **Decided against (2026-10-14):** Pi 5 NVMe upgrade (moving write-heavy services to the Acer handles SD wear and the restic backup covers an SD failure); buying a used NUC; Jellyfin/Immich/Frigate.

@@ -1,6 +1,6 @@
 ---
 publish: true
-image: https://superclark.net/files/swords-beyond---island-lost-plenty.png
+image: https://cdn.posteritati.com/posters/000/000/073/109/rosemarys-baby-md-web.jpg
 date: 2026-09-24
 Game: Swords Beyond
 GM: me
