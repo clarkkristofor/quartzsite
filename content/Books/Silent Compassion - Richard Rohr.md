@@ -1,0 +1,24 @@
+---
+title: "Silent Compassion"
+author: "Richard Rohr"
+publisher: "Franciscan Media"
+published: 2023
+pages: 72
+isbn: "9781632534149"
+categories:
+  - "Religion"
+image: "https://books.google.com/books/content?id=IqXKEAAAQBAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api&fife=w800"
+tags: [book]
+publish: true
+---
+
+![cover|250](https://books.google.com/books/content?id=IqXKEAAAQBAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api&fife=w800)
+
+# Silent Compassion
+
+> [!summary]- Description
+> “At the heart of this offering is an invitation to be still. Such stillness, however, is not a barren field, devoid of substance. It is a silence replete with beauty. It is what Buddhism refers to as sunyata, the boundlessness that characterizes the truth of existence.” —Mirabai Starr, from the foreword In Silent Compassion: Finding God in Contemplation, Richard Rohr focuses on finding God in the depths of silence. Divine silence is more than the absence of noise; it has a life of its own. We are invited into its living presence to find the wholeness of being and peace it brings. This book will inspire you and show that the peace of contemplation is not something just for monks, mystics, and those divorced from the worries of the world, but rather for all people who can quiet their own mind to listen in the silence. What’s more, this silence can absorb paradoxes, contradictions, and the challenges of life, ultimately connecting us with the great chain of being. While different faiths use different languages and different words, silence can become a common place for all to experience God. In May 2013, the Festival of Faiths conference in Louisville, Kentucky, featured His Holiness the Dalai Lama in an event called “Sacred Silence: Pathway to Compassion.” Richard Rohr was selected as the Christian presence among a small group of “world renowned experts on contemplative practice and compassion.” Others represented Buddhism, Hinduism, Islam, and Judaism. Silent Compassion curates the Franciscan friar’s talks from that event as well as interviews that place his thoughts in the context of his larger work as founder of the Center for Action and Contemplation. This is an updated and expanded edition of Rohr’s original presentation on the subject.
+
+> [!note] Catalog note
+> Added from two-shelf list
+
