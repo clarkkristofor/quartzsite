@@ -1,7 +1,7 @@
 ---
 title: The AGI Chronicles
 author:
-  - "[[Kevin Roose]]"
+  - Kevin Roose
 publisher: Farrar, Straus and Giroux
 published: 2026
 pages: 269
