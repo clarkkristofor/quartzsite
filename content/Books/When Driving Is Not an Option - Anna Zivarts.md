@@ -17,5 +17,5 @@ isbn13: 9781642833157
 isbn10: 1642833150
 localCoverImage: Files/BookCovers/When Driving Is Not an Option - Anna Zivarts.jpg
 publish: true
-date_finished: 2027-11-20
+date_finished:
 ---
