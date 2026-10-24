@@ -1,18 +1,20 @@
 ---
-title: "Living Lutheran"
-author: "Dave Daubert"
-publisher: "Augsburg Books"
+title: Living Lutheran
+author: Dave Daubert
+publisher: Augsburg Books
 published: 2007
 pages: 104
 isbn: "9781451405842"
 categories:
-  - "Religion"
-image: "https://books.google.com/books/content?id=4YZfkaruPZcC&printsec=frontcover&img=1&zoom=1&source=gbs_api&fife=w800"
-tags: [book, needs-review]
+  - Religion
+image: https://ms.augsburgfortress.org/images/productsh/0806653345h.jpg
+tags:
+  - book
+  - needs-review
 publish: true
 ---
 
-![cover|250](https://books.google.com/books/content?id=4YZfkaruPZcC&printsec=frontcover&img=1&zoom=1&source=gbs_api&fife=w800)
+![cover|250](https://ms.augsburgfortress.org/images/productsh/0806653345h.jpg)
 
 # Living Lutheran
 
