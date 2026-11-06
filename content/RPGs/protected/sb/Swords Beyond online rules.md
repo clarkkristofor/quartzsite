@@ -11,14 +11,14 @@ unlisted: true
 
 **a fast & loose PbtA fantasy rpg**
 # Front Matter
-## Table of Contents
-0. [[#Resources]]
-1. [[#A Creeping Shadow]] and [[#The Realms Beyond]]
-2. [[#Playing Hunters]]
-3. [[#Making your Hunter]] and [[#Hunter Roles]]
-4. [[#Making the Pact]]
-5. [[#Downtime]]
-6. [[#Playing as GM]]
+## Quick Links
+Also note the red Table of Contents toggle in the lower right.
+0. [[#Resources]]: ***[Downloads](https://drive.google.com/drive/folders/1rtNJpaatjz2WGgBjgilf1uSoaCo8LBJX?usp=sharing)*** and [[playtest delta|current playtest]]
+1. [[#The Realms Beyond|Realms]]: [[#the DEAD]], [[#the DEEPS]], [[#the HEAVENS]], [[#the HELLS]], [[#the WEFT]], [[#the WILD]]
+2. [[#Hunter Roles]]: [[#the Shield]], [[#the Maul]], [[#the Law]], [[#the Zealot]], [[#the Lodestone]], [[#the Fox]]
+3. [[#Realm-based abilities]]
+4. [[#Downtime]]
+5. [[#Connections]], [[#Factions]] and [[#the X Resource]]
 
 ![[swords beyond - cover - hydra.png]]
 ## Inspirations
