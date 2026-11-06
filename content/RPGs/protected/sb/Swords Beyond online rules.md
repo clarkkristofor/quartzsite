@@ -108,8 +108,8 @@ Conditions make hunting monsters harder. They reflect debilities with story effe
 | Condition    | Debility                   | Solo Action                                               |
 | ------------ | -------------------------- | --------------------------------------------------------- |
 | Exhausted    | -2 STRIKE / ENDURE         | *ignore the demands of a situation to steal some respite* |
-| Overwhelmed  | -2 RIG / TEND              | *act in the interests of a rival NPC*                     |
-| Afraid       | -2 CUNNING / EMPATHY       | *flee, leaving something important behind*                |
+| Afraid       | -2 RIG / TEND              | *act in the interests of a rival NPC*                     |
+| Overwhelmed  | -2 CUNNING / EMPATHY       | *flee, leaving something important behind*                |
 | Overshadowed | -2 BEYOND / GROUNDED       | *act in the interests of the shadow*                      |
 | Angry        | no [[#Teamwork\|teamwork]] | *take a rash action others cannot ignore*                 |
 
