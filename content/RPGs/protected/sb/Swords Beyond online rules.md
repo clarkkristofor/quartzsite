@@ -129,7 +129,7 @@ A move is a small rule with a trigger and a result. It helps resolve conflict, f
 ### Conflict
 > **Say what your hunter wants from whom and what you do to get it.** Roll 2d6+STAT. **10+**, they give it to you. **9-**, they don't and the GM makes a move.
 > 
-> *Complications:* trade wounds · prove yourself, owe a debt, or answer a counterproposal · they adapt, reinforce, or outflank you · word travels, or you're remembered and not on your terms.
+> *Complications:* trade wounds – prove yourself, owe a debt, or answer a counterproposal – they adapt, reinforce, or outflank you – word travels, or you're remembered and not on your terms.
 
 Use the *conflict* move when your hunter wants something from someone — surrender, silence, support, trust, fear, or even an item. When you act to get it — fight, plead, threaten, lie, bargain — it's time for *conflict*. Or when someone wants something from your hunter, and your hunter resists. Whenever wills vie but only one of you can prevail.
 
@@ -137,7 +137,7 @@ Use the *conflict* move when your hunter wants something from someone — surren
 ### Reach
 > **Say who or what your hunter reaches for and what you risk.** Roll 2d6+STAT. **10+**, they or it opens to you. Pick one: learn something true, something in you or them/it shifts, or a bond forms or is strengthened. **9-**, they or it remains closed and the GM makes a move.
 > 
-> *Complications:* the connection is unfinished, and what you risked remains threatened · divulge a secret · your belief changes: rewrite it · what opens will not close.
+> *Complications:* the connection is unfinished, and what you risked remains threatened – divulge a secret – your belief changes: rewrite it – what opens will not close.
 
 Use the *reach* move when your hunter encounters, reaches for, or connects with someone or something — a person, a memory, a Realm, a presence not yet named. Not taking, not forcing but simply offering yourself and seeing what comes back, and potentially being changed by it. You always risk exposure, with stakes for your belief, drive, or conviction, relationships, emotional or psychic well-being, even (if less often) your physical person. This is the move for relating, finding, disarming, parting, changing; the moments your hunter opens themselves to what they can't control. The *anchor* move (see [[#Anchor|Teamwork]]) is a specialized form of *reach*.
 
@@ -145,12 +145,11 @@ Use the *reach* move when your hunter encounters, reaches for, or connects with 
 ### Act
 > **Say what your hunter does.** Roll 2d6+STAT. **10+**, you do it. **9-**, you don't and the GM makes a move.
 > 
-> *Complications:* what you do is partial, temporary, or unstable · deplete a resource or need more time · go off-course, blow your cover, or put yourself in harm’s way · something or someone else pays.
+> *Complications:* what you do is partial, temporary, or unstable – deplete a resource or need more time – go off-course, blow your cover, or put yourself in harm’s way – something or someone else pays.
 
 Use the *act* move when your hunter attempts a task with real stakes and the outcome is genuinely in doubt. No one to persuade, nothing reaching back; do or do not, nothing more. Just you against the task when the pressure is on.
 
 ***Examples**: casting a scrying spell with your last newt's eye, climbing a wall without waking those inside, recalling an ancient rite while a demon batters at the door.*
-
 ## Teamwork Moves
 Teamwork moves benefit pact mates. *Angry* hunters cannot lead, participate in, or benefit from teamwork, except to have *angry* cleared by *anchor*.
 ### Help
@@ -158,7 +157,7 @@ Describe how you help to give another hunter +2 on a basic move. On a 9−, you 
 ### Protect
 Describe how you intervene to suffer consequences, other than conditions, instead of another hunter.
 ### Anchor  
-**Say which of another hunter’s conditions you clear and how.** Roll 2d6+STAT. **10+**, they clear it. **9−**, you mark the condition they have and they take the condition’s solo action, clearing it.
+**Say which of another hunter’s conditions you clear and how.** Roll 2d6+STAT. **10+**, they clear it. **9−**, you mark the condition you tried to clear and they take the condition’s solo action, clearing it for themselves.
 
 For example:
 
@@ -188,7 +187,7 @@ When you fill your favor track, roll 2d6+FATE and play a scene with:
 #### Set the Scene
 Choose players to play your Power and/or the shadow. They will affirm or contradict, give a charge or grant a gift. The rest play the chorus, anonymous Powers of either the relevant Realm Beyond or the shadow. Remind everyone of your Power’s Realm and tether, your belief, drive, and the pact’s conviction. End the scene when the hunter takes a charge or a gift.
 ### Wield Your Gift
-**When you use a shadow gift,** it succeeds. Then roll 2d6 + conditions marked. **10+:** Mark 2 *favor* and *overshadowed*. **7–9:** Mark 1 *favor*. **6−:** Mark 1 *hope*.
+**When you use a shadow gift**, it succeeds. Then roll 2d6 + conditions marked. **10+**, mark 2 *favor* and *overshadowed*. **7–9**, mark 1 *favor*. **6−**, mark 1 *hope*.
 Double 1s: Power. Double 6s: shadow.
 ### Receive Your Reward
 Choose, then say whether your hunter retires, ascends Beyond, or something else.
@@ -740,9 +739,7 @@ The Realm of your Power Beyond or your kin must match that of the ability, other
 
 □ **SECRET POWER**. You’ve learned how to imbue your hands, weapons, or tools with energy from your Power Beyond's Realm, which you can channel into an attack. Deal +1 wound to enemies when you roll 10+ on *conflict*.
 ### the Dead
-□ **ANCIENT VOICES**. You can attune to the whispers of the ancestors to gain
-special insight into the current situation. Get increased impact when following up
-on it.
+□ **ANCIENT VOICES**. You can attune to the whispers of the ancestors to gain special insight into the current situation. Get increased impact when following up on it.
 
 □ **BLOOD WARD**: You lock a door, chest, tomb, etc. with your own blood. When someone attempts to unlock it, defend yourself, rolling conflict +BEYOND. On a 10+, the ward holds; it’s still locked. On a 9-, take a wound, wherever you are, and the ward breaks.
 
@@ -945,19 +942,19 @@ knowledge has cost you. *Take a monstrous ability and -1 fate.* [▷]
 
 
 # Playing as GM
-### GM Moves
-#### Turn It Back
+## GM Moves
+### Turn It Back
 - **Turn their move back on them** — who they threatened threatens them, a blow's force throws them off balance, what they reach for reaches back.
 - **Give them what they wanted, but undone** — by another's action, an unintended consequence, or the shadow's touch.
-#### Call Them Out
+### Call Them Out
 - **Challenge their drive or belief; pact, promise, or conviction.**
 - **Make someone they care about pay.**
-#### Apply Pressure
+### Apply Pressure
 - **Put them in a spot** — between two dangers, exposed, or cut off from help.
 - **Separate them from an ally or resource.**
 - **Advance a threat already in motion.**
 - **Reveal an unwelcome truth** — the creeping shadow, a debt coming due, a looming danger.
-#### Make Them Pay
+### Make Them Pay
 - **Offer an opportunity**, with or without a cost.
 - **Take something away** — an object, gear, a link, standing, or an opportunity.
 - **Inflict harm, or a condition**, as established by the fiction.
