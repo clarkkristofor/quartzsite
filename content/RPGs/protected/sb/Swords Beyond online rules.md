@@ -9,8 +9,8 @@ unlisted: true
 ---
 ![[swords beyond - logo - online rules.png]]
 
-**a fast & loose, improvisational fantasy rpg**
-# Frontmatter
+**a fast & loose PbtA fantasy rpg**
+# Front Matter
 ## Table of Contents
 0. [[#Resources]]
 1. [[#A Creeping Shadow]] and [[#The Realms Beyond]]
@@ -961,7 +961,7 @@ knowledge has cost you. *Take a monstrous ability and -1 fate.* [▷]
 - **Inflict harm, or a condition**, as established by the fiction.
 
 
-# the Setting
+# The Setting
 
 ## Places
 
