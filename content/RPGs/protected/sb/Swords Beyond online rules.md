@@ -101,7 +101,7 @@ Which stat you use depends on the situation, the move, and your hunter's approac
 - **the Weft:** teleport, pick locks, animate a cairn
 - **the Wild:** speak with animals, animate vines, summon the wind
 ## Favor
-_Favor_ is magic granted by your Power Beyond. After rolling for a basic move, you may mark 2 *favor* to add a **Power Die** (+1d6) to the result. The GM may require *favor* for even trying major magic. Some abilities cost _favor_ to use. When you use *favor*, mark your 9-segment favor track. Filling it triggers the *[[#Meet Your Fate]]* move.
+_Favor_ is magic granted by your Power Beyond. After rolling for a basic move, you may mark 2 *favor* to add a **Power Die** (+1d6) to the result. The GM may require *favor* for even trying major magic. Some abilities cost _favor_ to use. When you use *favor*, mark your 9-segment favor track. Filling it triggers the *[[#Meet Your Fate|meet your fate]]* move.
 ## Conditions & Death
 Conditions make hunting monsters harder. They reflect debilities with story effects. Mark conditions on your hunter sheet. To clear them, take the relevant solo action and enjoy a more interesting scene. Or another hunter could take make an *[[#Anchor|anchor]]* move.
 
@@ -965,25 +965,25 @@ knowledge has cost you. *Take a monstrous ability and -1 fate.* [▷]
 
 # the Setting
 
-### Places
+## Places
 
-**COASTAL CITIES
-1** Avarice
+**COASTAL CITIES**
+**1** Avarice
 **2** Corona
 **3** Opulence
 **4** Estuary
-**5** The Oasters  
+**5** The Oasters
 **6** Seahelm
 
-**OVER REACH TOWNS 
-1** Lost Plenty 
+**OVER REACH TOWNS**
+**1** Lost Plenty 
 **2** Dunhold 
 **3** Eastborne 
 **4** New Gull 
 **5** Blooming Shores 
 **6** Widow’s Take
 
-### the X Resource
+## the X Resource
 The Over Reach is vital for the Coastal Cities, their fleets and distant conquests. What resource does the Over Reach supply to the Coastal Cities? Choose one from a hunter's kin's culture's Realm. It was that kin who first conquered this place carving it from the Unbroken Wilderness, a part or a fringe of which forms the Way of the Prince.
 
 - **the Dead**: grave peat, whose smoke can eternally cure meat, grain, leather, etc
@@ -1000,7 +1000,7 @@ The Cities supply the Over Reach with salted pork, grain, armaments, the Garriso
 %%, and the hunter's kin of the same Realm are
 in question think about this? Are they Over Reach people? Is there a side effect? %%
 
-### Connections
+## Connections
 
 **SHIELD:** a barkeep, a retired boxer, a herder and stitch, a fugitive demon, a mine pump worker, a book peddler
 
@@ -1016,9 +1016,9 @@ in question think about this? Are they Over Reach people? Is there a side effect
 
 **ANY:** a farmer and village elder, an elemental spirit, a mayor, an orphanage marm, a seller of iron wares | a retired hunter, a fraud, a druid, a grave keeper, a troubadour, a young Coastal Cities noble | an enchanted doll, a mine owner, a carpenter, a miller, a wyvern slayer, a loremaster | a tinker, a summoner, a harpy, a stable hand, a launderer, a weaver
 
-### Factions
+## Factions
 
-#### **THE EXILES**
+### **THE EXILES**
 Over Reach people and "gone Reach" Cities folk who found common cause, not fighting for supremacy but seeking a new way.
 
 **Tier II**
@@ -1035,7 +1035,7 @@ Faction Clock:
 
 **Situation**:
 
-#### **THE GARRISON**
+### **THE GARRISON**
 A military force protecting the Over Reach from insurgency and threats from the Unbroken Wilderness.
 
 **Tier IV**
@@ -1057,7 +1057,7 @@ A military force protecting the Over Reach from insurgency and threats from the 
 
 **Situation**: With news of an inbound Knight of Tern, Farker has unevenly but with real petulance demanded results from Bronzehill: brigand arrests for disloyalty and monster-kill trophies. Bova is unmoved but Nurnish is binging before his inevitable knight-forced purge.
 
-#### **KNIGHTS OF THE TERN**
+### **KNIGHTS OF THE TERN**
 Coastal Cities knights in glittering armor bearing seabird-adorned crests.
 
 Tier V in Cities, I in Over Reach when Ser Kartas arrives
@@ -1082,7 +1082,7 @@ Tier V in Cities, I in Over Reach when Ser Kartas arrives
 
 **Situation**: Yesterday, the March Lord received a terse communique from Ser Mashten that Ser Kartas has dispatched to the Over Reach.
 
-#### **MARCH AUDITORS**
+### **MARCH AUDITORS**
 Over Reach tax farmers with their own private security.
 
 **Tier III**
@@ -1104,7 +1104,7 @@ Faction Clock:
 
 **Situation**: Renslew wants Lofgren's post but can't afford it, being too deeply in debt to a mine owner named, Frys. So Renslew has been courting Lofgren's Toll-Captain Venris, with more borrowed money. As gossip spreads, more than one auditor - Kolcox and Hamringer, of course - and wannabe future-auditor - Frys themselves, Balabinga, Woderise - have taken notice. Mollott, meanwhile, has their sights set on captain, having little respect for Venris.
 
-#### **MARCH LORD**
+### **MARCH LORD**
 The ruler of the Over Reach, appointed by the Coastal Cities, charged with keeping the X resource flowing.
 
 Tier II
@@ -1125,10 +1125,10 @@ Faction Clock:
 
 her private problem right now, separate from any other faction's
 
-#### **THE MONGERS**
+### **THE MONGERS**
 Collaborator-profiteers masking as a guild for the X resource. They also organize sport and sponsor charity (education, widow’s care, orphanages) across the Over Reach.
 
-#### **THE SEED**
+### **THE SEED**
 An insurgency that aims to unmake the Over Reach and reclaim this land for the wilderness.
 
 Tier III
@@ -1153,8 +1153,7 @@ Faction Clock
 
 **Situation**: Someone talked. Farker's men raided a root-cache two days before it moved. The Thorn wants the whole Lost Plenty cell purged and cultivated anew before they approach Bronzehill. The Taproot refuses. Better to watch and wait than to tear out six good roots for one bad. Yes, recruiting Bronzehill could spread the rot, but it might also be exactly the opening the Seed needs. Let the mission proceed. All will be revealed when the Snag evaluates Bronzehill.
 
-
-#### **TENDERS**
+### **TENDERS**
 The Over Reach laborers who tend and gather the X resource.
 
 Tier III
@@ -1173,7 +1172,7 @@ Faction Clock:
 
 **Situation**:
 
-#### **THE WAY OF THE PRINCE**
+### **THE WAY OF THE PRINCE**
 A sect of the Over Reach's first conquerors devoted to throwing off Cities rule and reestablishing the princely line.
 
 Tier II
@@ -1194,7 +1193,7 @@ The Way's believers, now dispossessed
 
 **Situation**:
 
-#### **WHITE WINGS**
+### **WHITE WINGS**
 An order of Coastal Cities healers.
 
 Tier III
