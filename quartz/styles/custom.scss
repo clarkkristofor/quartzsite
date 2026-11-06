@@ -580,3 +580,9 @@ MOBILE FIX
     }
   }
 }*/
+
+@media all and (max-width: 800px) {
+  body[data-slug="rpgs/protected/sb/swords-beyond-online-rules"] h1 a[role="anchor"] {
+    display: none;
+  }
+}
