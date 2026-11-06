@@ -102,20 +102,20 @@ Which stat you use depends on the situation, the move, and your hunter's approac
 - **the Weft:** teleport, pick locks, animate a cairn
 - **the Wild:** speak with animals, animate vines, summon the wind
 ## Favor
-_Favor_ is magic granted by your Power Beyond. After rolling for a basic move, you may mark 2 *favor* to add a **Power Die** (+1d6) to the result. The GM may require *favor* for even trying major magic. Some abilities cost _favor_ to use. When you use *favor*, mark your 9-segment favor track. Filling it triggers the *[[#Meet Your Fate|meet your fate]]* move.
+_Favor_ is magic granted by your Power Beyond. After rolling for a basic move, you may mark 2 *favor* to add a **[[#Power Die]]** (+1d6) to the result. The GM may require *favor* for even trying major magic. Some abilities cost _favor_ to use. When you use *favor*, mark your 9-segment favor track. Filling it triggers the *[[#Meet Your Fate|meet your fate]]* move.
 ## Conditions & Death
 Conditions make hunting monsters harder. They reflect debilities with story effects. Mark conditions on your hunter sheet. To clear them, take the relevant solo action and enjoy a more interesting scene. Or another hunter could take make an *[[#Anchor|anchor]]* move.
 
 | Condition    | Debility                   | Solo Action                                               |
 | ------------ | -------------------------- | --------------------------------------------------------- |
-| Exhausted    | -2 STRIKE / ENDURE         | *ignore the demands of a situation to steal some respite* |
+| Weary        | -2 STRIKE / ENDURE         | *ignore the demands of a situation to steal some respite* |
 | Afraid       | -2 RIG / TEND              | *act in the interests of a rival NPC*                     |
 | Overwhelmed  | -2 CUNNING / EMPATHY       | *flee, leaving something important behind*                |
 | Overshadowed | -2 BEYOND / GROUNDED       | *act in the interests of the shadow*                      |
 | Angry        | no [[#Teamwork\|teamwork]] | *take a rash action others cannot ignore*                 |
 
 Conditions cascade. If you must mark a condition you've already marked, mark the next.
-- Exhausted → Afraid → Overwhelmed → Overshadowed
+- Weary → Afraid → Overwhelmed → Overshadowed
 - Angry → Overshadowed
 
 If you must mark *overshadowed* a second time, *act in the interest of the shadow* without clearing *overshadowed*.
@@ -123,10 +123,16 @@ If you must mark *overshadowed* a second time, *act in the interest of the shado
 Wounds are freeform conditions reflecting serious physical harm. You can mark **armor** instead of a wound. Healing (mundane or magical) will stabilize you temporarily, allowing you to ignore the wound’s effects for the current scene. To clear a wound, take the *recover* beat in sanctuary.
 
 Your death is in the hands of *[[#Fate Moves|fate]]*.
-## Basic Moves
+## Rolling Dice
 This game is a conversation between the players and GM, or gamemaster. Usually that conversation is natural and free-flowing. A move slows the conversation down at key moments to push the story forward.
 
 A move is a small rule with a trigger and a result. It helps resolve conflict, forge connections, and describe what happens. When making a move, you roll two six-sided dice, or 2d6, and the move tells you how to interpret the result. Which STAT you add depends on your approach to the challenge.
+### Double 6s and Double 1s
+No matter how many dice you roll, two 6s or two 1s count as *Power* or *shadow* outcomes respectively. Both heighten the importance of a scene.
+- ***Power* (two 6s)** — Your Power intervenes. It's better than the best outcome. Clear 2 *favor*.
+- ***Shadow* (two 1s)** — The shadow gets its tenterhooks in you. It's worse than the worst outcome. Mark *overshadowed*. The GM makes a move.
+## Basic Moves
+
 ### Conflict
 > **Say what your hunter wants from whom and what you do to get it.** Roll 2d6+STAT. **10+**, they give it to you. **9-**, they don't and the GM makes a move.
 > 
@@ -151,6 +157,20 @@ Use the *reach* move when your hunter encounters, reaches for, or connects with 
 Use the *act* move when your hunter attempts a task with real stakes and the outcome is genuinely in doubt. No one to persuade, nothing reaching back; do or do not, nothing more. Just you against the task when the pressure is on.
 
 ***Examples**: casting a scrying spell with your last newt's eye, climbing a wall without waking those inside, recalling an ancient rite while a demon batters at the door.*
+## Influencing Outcomes
+You can only influence basic moves.
+### Before rolling
+#### Go for broke
+Take on more risk to increase your impact. Overplay your hand, open yourself recklessly, or do something big or stupid. Expose yourself to serious trouble. A 9- will be worse but a 10+, better. Gain *1 hope* when you do.
+#### Receive *help*
++2 bonus, see [[#Teamwork Moves|Teamwork]].
+### After rolling
+#### Improvements
+As long as you haven't already rolled *shadow*, you may improve the result. Either:
+- mark the relevant *condition* for a +1 bonus, choose a complication for a +2 bonus, or both
+- or, mark 2 *favor* to roll a power die (+1d6)
+#### Power Die
+Mark 2 *favor* to add +1d6 to your roll. Adding a power die is not guaranteed bonus. Instead, it introduces a subtle press-your-luck dynamic. If you already rolled one 1, then you bear a 1 in 6 risk of a worse than 9- outcome. Alternately, if you already rolled one 6, then you might see your Power intervene.
 ## Teamwork Moves
 Teamwork moves benefit pact mates. *Angry* hunters cannot lead, participate in, or benefit from teamwork, except to have *angry* cleared by *anchor*.
 ### Help
@@ -158,13 +178,13 @@ Describe how you help to give another hunter +2 on a basic move. On a 9−, you 
 ### Protect
 Describe how you intervene to suffer consequences, other than conditions, instead of another hunter.
 ### Anchor  
-**Say which of another hunter’s conditions you clear and how.** Roll 2d6+STAT. **10+**, they clear it. **9−**, you mark the condition you tried to clear and they take the condition’s solo action, clearing it for themselves.
+**Say which of another hunter's conditions you try to clear and how.** Roll 2d6+STAT. **7+**, if they open up to you, they clear it. **10+**, also pick one: clear a condition yourself, mark 1 *bond*, or the next time one of you helps the other this scene, take +1. **6-**, you hit a nerve. Mark the condition you tried to clear. They take its solo action, clearing it themselves.
 
 For example:
 
 | Condition    | Stat     | Question                                         |
 | ------------ | -------- | ------------------------------------------------ |
-| exhausted    | tend     | Can you offer what they need?                    |
+| weary        | tend     | Can you offer what they need?                    |
 | afraid       | cunning  | Can you make a plan to get them out?             |
 | overwhelmed  | empathy  | Can you encourage them to breathe?               |
 | angry        | empathy  | Can you see beneath their anger?                 |
@@ -198,22 +218,6 @@ Choose, then say whether your hunter retires, ascends Beyond, or something else.
 Choose:
 - **Sacrifice yourself.** Each hunter gets +2 to their next roll. Say whether your hunter dies, is broken, or something else.
 - **Embrace the shadow.** It’s satisfied… for now. All other hunters may take +1 fate. Your hunter is in the GM’s hands.
-## Double 6s and Double 1s
-No matter how many dice you roll, two 6s or two 1s count as *Power* or *shadow* outcomes respectively. Both heighten the importance of a scene.
-- ***Power* (two 6s)** — Your Power intervenes. It's better than 10+. Clear 2 *favor*.
-- ***Shadow* (two 1s)** — The shadow gets its tenterhooks in you. It's worse than 9-. Mark *overshadowed*. The GM makes a move.
-## Influencing Outcomes
-### Before rolling
-#### Go for broke
-Take on more risk to increase your impact. Overplay your hand, open yourself recklessly, or do something big or stupid. Expose yourself to serious trouble. A 9- will be worse but a 10+, better. Gain *1 hope* when you do.
-#### Receive *help* (+2 bonus)
-
-### After rolling
-As long as you haven't already rolled *shadow*, you may improve the result. Either:
-- mark the relevant *condition* for a +1 bonus, choose a complication for a +2 bonus, or both
-- or, mark 2 *favor* to roll a power die (+1d6)
-#### Power Die
-Mark 2 *favor* to add +1d6 to your roll. Adding a power die is not guaranteed bonus. Instead, it introduces a subtle press-your-luck dynamic. If you already rolled one 1, then you bear a 1 in 6 risk of a worse than 9- outcome. Alternately, if you already rolled one 6, then you might see your Power intervene.
 
 # Making your Hunter
 ## Overview
@@ -936,7 +940,7 @@ BORN TO RUN (3H). Something you thought you’d outrun is making itself a proble
 BLOOD BROTHERS (4H). Someone you care about is in trouble – who? – and you’ve made a deal to save them. How does it backfire, and what is the curse that’s been placed on you? *Take a monstrous ability and -1 fate.* [▷]
 
 ##### Zealot
-**ANCIENT EVIL** (3H). Your training has been pushing you to the limits with no sign of relenting. How have they pushed you too hard, and what is your breaking point? You are exhausted until you confront your leader. *Take a new ability from your playbook.* [▷]
+**ANCIENT EVIL** (3H). Your training has been pushing you to the limits with no sign of relenting. How have they pushed you too hard, and what is your breaking point? You are weary until you confront your leader. *Take a new ability from your playbook.* [▷]
 
 **NEW SCARS** (4H). Your sect has a fabled enemy or rival and they’ve been training you how to hunt it down. Who or what is it, and how have you come to better understand it? Say what this
 knowledge has cost you. *Take a monstrous ability and -1 fate.* [▷]
