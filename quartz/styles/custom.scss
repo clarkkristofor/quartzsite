@@ -554,11 +554,12 @@ TABLES
 
 /* ===========================================================
 MOBILE FIX
-=============================================================*/
+=============================================================
 @media all and (max-width: 800px) {
   .sidebar.left {
     flex-wrap: wrap;
     row-gap: 1.5rem;
+    padding-bottom: 2rem;   // space after the last element
 
     .toc,
     .backlinks {
@@ -567,4 +568,4 @@ MOBILE FIX
       min-width: 0;
     }
   }
-}
+}*/
