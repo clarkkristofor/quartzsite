@@ -72,7 +72,7 @@ plugins:
     enabled: true
     order: 50
     options:
-      maxDepth: 4
+      maxDepth: 2
     layout:
       position: left
       priority: 60
