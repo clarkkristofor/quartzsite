@@ -280,7 +280,7 @@ body[data-slug="rpgs/protected/sb/swords-beyond-online-rules"] {
     box-sizing: border-box;                     // keeps padding inside the 100% width
     padding: 1.25rem 1.5rem;
     margin: 3rem 0 1.5rem;
-    font-size: clamp(1.75rem, 9vw, 3.5rem);     // shrinks on narrow screens
+    font-size: clamp(1.75rem, 12vw, 3.5rem);     // shrinks on narrow screens
     overflow-wrap: break-word;                  // safety net for long words
     line-height: 1.2;
     text-transform: uppercase;
