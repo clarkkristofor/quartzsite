@@ -349,6 +349,12 @@ plugins:
       name: BookLibrary
     enabled: true
     layout: { position: afterBody, priority: 25 }
+
+  - source:
+      repo: https://github.com/clarkkristofor/quartz-components.git
+      name: MobileSidebarToggle
+    enabled: true
+    layout: { position: afterBody, priority: 25 }
 layout:
   groups:
     toolbar:
