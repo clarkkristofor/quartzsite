@@ -13,6 +13,7 @@ unlisted: true
 # Front Matter
 ## Quick Links
 Also note the red Table of Contents toggle in the lower right.
+
 0. [[#Resources]]: ***[Downloads](https://drive.google.com/drive/folders/1rtNJpaatjz2WGgBjgilf1uSoaCo8LBJX?usp=sharing)*** and [[playtest delta|current playtest]]
 1. [[#The Realms Beyond|Realms]]: [[#the DEAD]], [[#the DEEPS]], [[#the HEAVENS]], [[#the HELLS]], [[#the WEFT]], [[#the WILD]]
 2. [[#Hunter Roles]]: [[#the Shield]], [[#the Maul]], [[#the Law]], [[#the Zealot]], [[#the Lodestone]], [[#the Fox]]
