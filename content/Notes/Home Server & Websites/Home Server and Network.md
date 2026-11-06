@@ -9,12 +9,12 @@ My home server:
 Related notes: [[Backup & Restore]] · [[Changelog]] · [[Home Server Tasks]] (to-do list) · [[Websites]] · [[Server project costs]]
 
 ## Current Status
-**Last Updated:** 2026-10-19
+**Last Updated:** 2026-10-31
 ### Active Services
-- Windows Server: 10 services
+- Windows Server: 9 services
 - Raspberry Pi 5: 12 services
 - Home Assistant Pi 5: 3 services
-- Acer laptop (watcher): 10 services
+- Acer laptop (watcher): 11 services
 - Total: 35 services running
 
 ---
@@ -37,7 +37,7 @@ My small home network runs on a Flint 2 router. There is only one network, broad
 | `hp` | A | `192.168.8.180` (Windows server; replaced `winserver`, which pointed at the old `.138`) |
 | `router` | A | `192.168.8.1` (admin page refuses this name — see above) |
 | `adguard`, `dns` | CNAME | `pi5` |
-| `adguard2`, `beszel`, `chat`, `gatus`, `uptime` | CNAME | `acer` — Beszel at `http://beszel.osnet.home:8090` (added 2026-10-19) |
+| `adguard2`, `beszel`, `chat`, `gatus`, `n8n`, `uptime` | CNAME | `acer` — Beszel at `http://beszel.osnet.home:8090` (added 2026-10-19); n8n at `http://n8n.osnet.home:5678` (added 2026-10-31) |
 | `ai` | CNAME | `hp` — Open WebUI at `http://ai.osnet.home:3000` (added 2026-10-17) |
 
 - IPv6 records use each machine's stable address on the `fdcb:b9c8:acf1:0::/64` prefix. Don't use `fe80::` (link-local), `temporary` addresses, the router's DHCPv6 `/128` leases (e.g. `::1fa`, `::3f5`), or the second `fd4a:595a:fd35:85e0::` prefix (being retired; source unknown).
@@ -82,7 +82,7 @@ HP ENVY Desktop TE01-1022
 - 64 GB RAM
 - Intel UHD Graphics 630
 - ZOTAC NVIDIA GeForce RTX 2060 8GB GDDR6 Graphics Card - ‎ZT-T20610E-10M
-- 475 GB NVMe SSD (C:, SK hynix BC511; ~88% full after 2026-10-19 cleanup — removed Gemma model, unused Docker images, Windows SDK, NVIDIA Nsight tools), 1 TB Toshiba DT01ACA100 HDD, plus 2 [4TB HDDs](https://www.bestbuy.com/site/wd-blue-4tb-internal-sata-hard-drive-for-desktops/9026007.p?skuId=9026007) (WD40EZAX) mirrored as E: for backup of the 1 TB Toshiba HDD. All four drives' SMART health is in Beszel
+- 475 GB NVMe SSD (C:, SK hynix BC511; ~74% used / ~124 GB free after 2026-10-30 cleanup — compacted Docker's disk 72.2 → 13.8 GB, removed unused apps), 1 TB Toshiba DT01ACA100 HDD, plus 2 [4TB HDDs](https://www.bestbuy.com/site/wd-blue-4tb-internal-sata-hard-drive-for-desktops/9026007.p?skuId=9026007) (WD40EZAX) mirrored as E: for backup of the 1 TB Toshiba HDD. All four drives' SMART health is in Beszel
 - [500W L05757-800](https://www.amazon.com/LXun-L05757-800-Compatible-DPS-500AB-32-795-0003UR/dp/B0BRPPZCWC) power supply
 - Intel Wi-Fi 6E AX210 160MHz card (dedicated PCIe; `Wi-Fi 2`, MAC `F4:A4:75:85:DE:96`). Built-in Realtek RTL8821CE (`Wi-Fi`, MAC `74:12:B3:AD:9F:7D`) disabled 2026-10-16
 - **Wi-Fi only** (no Ethernet run available). AX210 Preferred Band set to "Prefer 5GHz band" — it had been joining `OSnet_5g` on 2.4 GHz (~300 Mbps); now 5 GHz, ~2,100 Mbps receive. Router 5 GHz is on channel 60 (DFS): radar detection can force a channel change and brief drops — if Uptime Kuma shows short Windows outages, move the Flint 2 to a non-DFS channel (36–48 or 149–165)
@@ -90,6 +90,10 @@ HP ENVY Desktop TE01-1022
 - Both Wi-Fi network profiles set to **Private** (were Public, which blocked the OpenSSH firewall rule)
 - OpenSSH Server enabled (auto-start). Key login: laptop's `id_ed25519.pub` in `C:\ProgramData\ssh\administrators_authorized_keys` (admin account). SSH opens straight into PowerShell (`DefaultShell` registry value under `HKLM:\SOFTWARE\OpenSSH`)
 - SMB shares: `pi-backups` (used by the Pi 5 **and** the Acer, user `pibackup`) and `ha-backups` (HA, user `habackup`). `pi-backups` had a 1-user limit, which blocked a second client with `NT_STATUS_REQUEST_NOT_ACCEPTED` / Linux `mount error(5)`; set to unlimited 2026-10-15 (`Set-SmbShare -Name pi-backups -ConcurrentUserLimit 0`).
+- **When C: hits 85%+ (Beszel alert):**
+  1. Prune Docker (unused images, build cache), then compact its disk file — pruning alone doesn't shrink it. Quit Docker Desktop → admin PowerShell: `wsl --shutdown` → `diskpart`, then at the `DISKPART>` prompt: `select vdisk file="C:\Users\clark\AppData\Local\Docker\wsl\disk\docker_data.vhdx"`, `attach vdisk readonly`, `compact vdisk`, `detach vdisk`, `exit` → start Docker Desktop and check containers in Portainer. Open WebUI, SearXNG, RustDesk and Portainer are down ~10 min. If "file in use", run `wsl --shutdown` again.
+  2. Big Ollama models: Ollama keeps all models in one folder, so either delete rarely used ones (e.g. qwen3.6 — re-pull when needed) or move the whole folder to the 1 TB Toshiba HDD (`OLLAMA_MODELS`). On the HDD, qwen3:8b's first load after idle/reboot takes ~30 sec longer; replies are the same speed once loaded.
+- **SSD upgrade (not needed as of 2026-10-30):** the TE01-1022 has no second M.2 slot for storage (the other M.2 is Wi-Fi only). Options: clone to a 1–2 TB NVMe replacing the boot SSD, or an NVMe-to-PCIe x1 adapter card (~1/4 speed, storage only; check the RTX 2060's cooler doesn't block the slot).
 ### Raspberry Pi 5
 - 8 GB RAM, new SD card (rebuilt 2026-10-11; old card kept as fallback for now)
 - Hostname `raspberrypi`, user `ckos` (uid 1000)
@@ -116,7 +120,7 @@ Acer Aspire E5-576G — backup DNS + monitoring (Gatus, Uptime Kuma) + Rocket.Ch
 - Battery is weak — check periodically for swelling; remove it if it bulges
 - Docker Engine from Docker's Ubuntu repo (`noble`); compose stacks in `~/docker/<service>/`
 - systemd-resolved stub listener disabled (`/etc/systemd/resolved.conf.d/adguard.conf`) so AdGuard can use port 53
-- ufw firewall: allowed 53, 3000/tcp (AdGuard), 8080/tcp (Gatus), 3002/tcp (Rocket.Chat), 3001/tcp (Uptime Kuma), 8090/tcp (Beszel hub)
+- ufw firewall: allowed 53, 3000/tcp (AdGuard), 8080/tcp (Gatus), 3002/tcp (Rocket.Chat), 3001/tcp (Uptime Kuma), 8090/tcp (Beszel hub), 5678/tcp from 192.168.8.0/24 only (n8n)
 - Windows share `//192.168.8.180/pi-backups` mounted at `/mnt/backups` (fstab, cifs, `vers=3.0`, nofail + automount; creds `/root/.smbcredentials-pibackup`, same as the Pi 5). If the `cifs` module isn't loaded the mount fails with "No such device" — `sudo modprobe cifs`
 - Secrets in `.env` files (chmod 600); values containing `$` must be single-quoted
 - Kept over the HP Spectre (2026-10-14): 4 cores / 8 threads vs. the HP's 2 / 4, built-in Ethernet, already set up. If it needs more RAM, the E5-576G usually takes an extra DDR4 SO-DIMM (check slots).
@@ -135,19 +139,18 @@ Staying at four servers. A fifth box only for a specific new workload (e.g., Jel
 | Docker                | Windows        |                                              |                          | baremetal         | 2024-11-19                            |
 | Minecraft server      | Windows        | - 25565                                      |                          | baremetal         | 2025-01-02                            |
 | Ollama                | Windows        | - 11434 (LAN, since 2026-10-17)              |                          | baremetal         | 2026-07-03                            |
-| Open WebUI            | Windows        | - 3000                                       | ai.superclark.net        | Docker            | 2026-07-03                            |
+| Open WebUI            | Windows        | - 3000                                       | ai.superclark.net (Access) | Docker            | 2026-07-03                            |
 | searxng               | Windows        | - 8085                                       |                          | Docker            | 2026-07-03                            |
 | RustDesk Server       | Windows        | see Notes                                    |                          | Docker            | 2024-11-19                            |
 | Portainer             | Windows        | - 9443 (Web UI)<br>- 8000 (Web UI)           |                          | Docker            | 2024-11-19                            |
 | Watchtower            | Windows        |                                              |                          | Docker            | 2026-07-03                            |
-| cloudflared           | Windows        |                                              | ai.superclark.net only   |                   |                                       |
 | Docker                | Raspberry Pi 5 |                                              |                          | baremetal         | 2024-11-29                            |
-| Portainer             | Raspberry Pi 5 | - 9443 (Web UI)<br>- 8000 (Web UI)           | portainer.superclark.net | Docker            | 2024-11-29                            |
-| KOreader sync         | Raspberry Pi 5 | - 3003 (host) → 3000                         |                          | Docker            | 2026-04-13                            |
+| Portainer             | Raspberry Pi 5 | - 9443 (Web UI)<br>- 8000 (Web UI)           | portainer.superclark.net (Access) | Docker            | 2024-11-29                            |
+| KOreader sync         | Raspberry Pi 5 | - 3003 (host) → 3000                         | sync.superclark.net      | Docker            | 2026-04-13                            |
 | Calibre-web           | Raspberry Pi 5 | - 8083                                       | books.superclark.net     | Docker            | 2026-04-13                            |
 | Technitium            | Raspberry Pi 5 | - 5380 (Web UI)                              |                          | Docker            | 2025-04-04                            |
 | cloudflared           | Raspberry Pi 5 |                                              |                          | Docker            | 2024-12-13                            |
-| changedetector.io     | Raspberry Pi 5 | - 5000 (Web UI)                              | changes.superclark.net   | Docker            | 2024-12-18                            |
+| changedetector.io     | Raspberry Pi 5 | - 5000 (Web UI)                              | changes.superclark.net (Access) | Docker            | 2024-12-18                            |
 | Watchtower            | Raspberry Pi 5 |                                              |                          | Docker            | 2024-12-22                            |
 | Adguard Home          | Raspberry Pi 5 | - 53 (DNS)<br>- adguard.osnet.home (Web UI)  |                          | Docker            | 2026-09-22                            |
 | Pi backup (restic)    | Raspberry Pi 5 |                                              |                          | baremetal (cron)  | 2026-09-22                            |
@@ -160,8 +163,9 @@ Staying at four servers. A fifth box only for a specific new workload (e.g., Jel
 | Gatus                 | Acer laptop    | - 8080 (Web UI)                              |                          | Docker            | 2026-10-13                            |
 | Rocket.Chat + MongoDB | Acer laptop    | - 3002 (host) → 3000 (MongoDB not published) | chat.superclark.net      | Docker            | 2026-10-15 (on Pi 5 since 2026-01-20) |
 | Acer backup (restic)  | Acer laptop    |                                              |                          | baremetal (cron)  | 2026-10-15                            |
-| Uptime Kuma           | Acer laptop    | - 3001 (Web UI)                              | uptime.superclark.net    | Docker            | 2026-10-15 (on Pi 5 since 2024-12-04) |
+| Uptime Kuma           | Acer laptop    | - 3001 (Web UI)                              | — (removed 2026-10-26)   | Docker            | 2026-10-15 (on Pi 5 since 2024-12-04) |
 | Beszel hub + agent    | Acer laptop    | - 8090 (Web UI; agents connect here)         |                          | Docker            | 2026-10-19                            |
+| n8n                   | Acer laptop    | - 5678 (Web UI + webhooks; LAN only)         | feeds.superclark.net (path `^/webhook/kottke$` only) | Docker            | 2026-10-31                            |
 | Beszel agent          | Raspberry Pi 5 | - 45876                                      |                          | Docker (Portainer stack `beszel-agent`) | 2026-10-19                |
 | Beszel agent          | Home Assistant | - 45876                                      |                          | HA app (community) | 2026-10-19                           |
 | Beszel agent          | Windows        | - 45876                                      |                          | baremetal (NSSM service) | 2026-10-19                     |
@@ -170,10 +174,31 @@ Staying at four servers. A fifth box only for a specific new workload (e.g., Jel
 ### Notes
 - All dates are in America/Chicago timezone
 - RustDesk Server consists of two Docker containers (hbbr ports: 21119, 21117 and hbbs 21115, 21116, 21118)
-- Cloudflare Tunnels run through cloudflared on the Pi 5, except `ai.superclark.net`, which has its own cloudflared on the HP (corrected 2026-10-17; possibly move it to the Pi 5). Routes are in Cloudflare Zero Trust → Networks → Tunnels → *Published application routes*. `chat.superclark.net` → `http://192.168.8.198:3002` and `uptime.superclark.net` → `http://192.168.8.198:3001` (Acer), so these public pages still depend on the Pi 5's cloudflared; other Pi 5 routes use container names (e.g. was `http://rocketchat:3000`)
+- All Cloudflare Tunnel routes run through cloudflared on the Pi 5 (tunnel `pi5`). The HP's own cloudflared (Windows service, tunnel `windows server`, stuck on 2026.6.1) was uninstalled and its tunnel deleted 2026-10-26, and `ai.superclark.net` moved to the Pi 5's tunnel → `http://192.168.8.180:3000`. Routes are in Cloudflare Zero Trust → Networks → Tunnels → *Published application routes*. `chat.superclark.net` → `http://192.168.8.198:3002` (Acer) and `ai.superclark.net` → `http://192.168.8.180:3000` (HP), so these still depend on the Pi 5's cloudflared (`uptime.superclark.net` route removed 2026-10-26); other Pi 5 routes use container names (e.g. was `http://rocketchat:3000`)
 - Rocket.Chat (Acer): compose stack in `~/docker/rocketchat/` — `registry.rocket.chat/rocketchat/rocket.chat:8.9.0` (pinned; no major.minor tags exist) + `mongo:7.0` (container `rc-mongodb`, replica set `rs0`, data in `./data/db`). Site URL `https://chat.superclark.net`. No Watchtower on the Acer — upgrade manually
 - Uptime Kuma (Acer): compose stack in `~/docker/uptime-kuma/` — `louislam/uptime-kuma:1.23.17` (pinned), data in `./data` (SQLite `kuma.db`), no docker.sock mount. Old Pi volume `uptime-kuma_uptime-kuma` kept as rollback
+- n8n (Acer, added 2026-10-31): compose stack in `~/docker/n8n/` — `docker.n8n.io/n8nio/n8n:2.45.7` (pinned; upgrade manually: change the tag, `docker compose pull && docker compose up -d`), data in `./data` (SQLite, owned by uid 1000), settings in `.env` (chmod 600). **`N8N_ENCRYPTION_KEY` is in the password manager** — n8n encrypts saved credentials with it, so a restore is useless without it. Owner login in password manager. LAN only, except one Cloudflare route (`feeds.superclark.net`, path `^/webhook/kottke$`, HTTP → `192.168.8.198:5678`; any other path gets the tunnel's blank 404, so the editor isn't public); `WEBHOOK_URL` `http://192.168.8.198:5678/`, so Rocket.Chat outgoing webhooks can call `http://192.168.8.198:5678/webhook/…` locally. Automation engine for non-HA projects (see [[Home Server Tasks]])
+- n8n workflow **Kottke feed splitter** (2026-10-31, published): Webhook (GET `kottke`, responds via Respond to Webhook) → RSS Read `https://feeds.kottke.org/main` → If (title matches the broad politics regex OR `contentSnippet` matches the short strong-terms regex, both with `\b…\b`, Ignore Case; Always Output Data on) → Edit Fields *Tag politics* / *Tag other* (`pile`, Include Other Input Fields) → Merge (Append) → Code (keeps the pile named by `?feed=`, default `other`; builds RSS 2.0) → Respond to Webhook (Text, `Content-Type: application/rss+xml; charset=utf-8`). Feedbin subscribes to `https://feeds.superclark.net/webhook/kottke` (non-politics only; original Kottke feed unsubscribed); `?feed=politics` shows what's filtered out. Test URL (`/webhook-test/kottke`) works once per Listen click; edits need re-publishing
 - Backups for all servers: see [[Backup & Restore]]
+
+### Public hostnames & Cloudflare Access (reviewed 2026-10-26)
+Rule of thumb: admin pages only I open in a browser go behind Cloudflare Access; anything apps or family connect to stays open behind its own login (Access's sign-in page breaks apps and e-readers); anything that doesn't need to be public gets no route.
+
+| Hostname | Goes to | Protection |
+| --- | --- | --- |
+| portainer.superclark.net | Pi 5 Portainer (9443) | Cloudflare Access |
+| changes.superclark.net | Pi 5 changedetection.io (5000) | Cloudflare Access |
+| chat.superclark.net | Acer Rocket.Chat (3002) | Open — phone apps; Rocket.Chat login (turn on 2FA) |
+| books.superclark.net | Pi 5 Calibre-Web (8083) | Open — e-readers; Calibre-Web login (anonymous browsing off, no default admin account) |
+| sync.superclark.net | Pi 5 KOReader Sync (3003) | Open — e-readers; close registration once devices are set up |
+| ai.superclark.net | HP Open WebUI (`192.168.8.180:3000`) via the Pi 5's tunnel (since 2026-10-26) | Cloudflare Access (added 2026-10-26) |
+| feeds.superclark.net | Acer n8n (`192.168.8.198:5678`), path `^/webhook/kottke$` only (added 2026-10-31) | Open — Feedbin fetches it; only the Kottke feed webhook is exposed |
+| ~~uptime.superclark.net~~ | Acer Uptime Kuma | Route deleted 2026-10-26 — use `http://192.168.8.198:3001` at home |
+| ~~cloud.superclark.net~~ | HP `192.168.8.180:8080` | Route deleted 2026-10-26 |
+
+- **Access setup:** Zero Trust → **Access controls → Policies**: reusable policy **"Clark only"** (Allow, Include → Emails → my address, 24 h session). **Access controls → Applications**: one self-hosted app per protected hostname (Destinations → public hostname, no path), "Clark only" policy attached. Login method: One-time PIN (under **Integrations → Identity providers**; on by default). Reuse "Clark only" for any new admin-only hostname.
+- **Optional, not done:** WAF custom rule (Security → WAF) blocking non-US traffic to `books`, `sync`, `chat` — apps keep working; skip if anyone needs access while abroad.
+- cloudflared on the Pi 5 (the only connector now) confirmed at **2026.10.4** on 2026-10-26 (`docker logs cloudflared | grep -i version`). Connector versions for all tunnels: Zero Trust → Networks → Tunnels → tunnel → Connectors.
 
 ## Power / UPS
 - **UPS:** APC Back-UPS ES 600M1 (BE600M1), 330W — powers modem, router, Pi 5, HA Pi, Acer laptop charger (~5% load and ~2.4 hr runtime measured before the laptop was added; recheck)
@@ -210,12 +235,14 @@ Push URLs: Pi 5 backup script (`KUMA=` in `/root/pi-backup.sh`) and HA `secrets.
 | NUT server                    | Pi 5    | TCP Port          | `192.168.8.161:3493`                                    | NUT daemon only, not USB link                                                                        |
 | Public - Books                | Public  | HTTP(s)           | `https://books.superclark.net`                          | Cert expiry on                                                                                       |
 | Public - Chat                 | Public  | HTTP(s)           | `https://chat.superclark.net`                           | Cert expiry on                                                                                       |
-| Public - Changes              | Public  | HTTP(s)           | `https://changes.superclark.net`                        | Cert expiry on                                                                                       |
-| Public - Portainer (Pi)       | Public  | HTTP(s)           | `https://portainer.superclark.net`                      | Cert expiry on                                                                                       |
-| Public - Uptime               | Public  | HTTP(s)           | `https://uptime.superclark.net`                         | Cert expiry on                                                                                       |
-| Public - AI                   | Public  | HTTP(s)           | `https://ai.superclark.net`                             | HP's own cloudflared → Open WebUI (port 3000)                                                        |
+| Public - Changes              | Public  | HTTP(s)           | `https://changes.superclark.net`                        | Cert expiry on. Behind Cloudflare Access since 2026-10-26 — now only shows the login page is up      |
+| Public - Portainer (Pi)       | Public  | HTTP(s)           | `https://portainer.superclark.net`                      | Cert expiry on. Behind Cloudflare Access since 2026-10-26 — now only shows the login page is up      |
+| Public - Uptime               | Public  | HTTP(s)           | `https://uptime.superclark.net`                         | **Route deleted 2026-10-26 — delete this monitor** (it will go red)                                  |
+| Public - AI                   | Public  | HTTP(s)           | `https://ai.superclark.net`                             | Pi 5's cloudflared → HP Open WebUI (port 3000) since 2026-10-26; behind Access — only shows login page is up |
+| Public - Feeds                | Public  | HTTP(s)           | `https://feeds.superclark.net/webhook/kottke`           | Added 2026-10-31 — n8n Kottke feed via the Pi 5's cloudflared                                        |
 | Local - Portainer (Win)       | —       | HTTP(s)           | `https://hp.osnet.home:9443`                            | Ignore TLS (self-signed)                                                                             |
 | Beszel hub                    | Acer    | HTTP(s)           | `http://192.168.8.198:8090`                             | Added 2026-10-19. New group `Acer` for the Acer's monitors                                           |
+| n8n                           | Acer    | HTTP(s)           | `http://192.168.8.198:5678/healthz`                     | Added 2026-10-31                                                                                     |
 | Internet                      | Network | Ping              | `1.1.1.1`                                               | Retries 3. Discord – fallback only                                                                   |
 | Router                        | Network | Ping              | `192.168.8.1`                                           | Discord – fallback only                                                                              |
 | Pi 5 nightly backup           | —       | Push              | from `/root/pi-backup.sh`                               | 25 hr window                                                                                         |
@@ -231,7 +258,7 @@ Tracks disk, RAM, CPU, temperature, GPU and drive health (SMART) on all four ser
 - **HP agent:** native Windows agent as an NSSM service (`beszel-agent`), installed with the hub's Binary → Windows command. Can't be pinned — don't upgrade it ahead of the hub. `EXTRA_FILESYSTEMS=E:` (set with `nssm set beszel-agent AppEnvironmentExtra +EXTRA_FILESYSTEMS=E:`, then `nssm restart beszel-agent`). Bundled smartctl reads SMART for all four drives (NVMe, Toshiba, both WDs). Logs in `C:\ProgramData\beszel-agent\logs`. GPU (RTX 2060) shows automatically
 - Agents connect out to the hub (WebSocket on 8090), so only the Acer needed a firewall port
 - **Notifications:** Settings → Notifications, one generic webhook to the local Rocket.Chat URL: `generic://192.168.8.198:3002/hooks/…?template=json&messagekey=text&disabletls=yes` (Beszel's Rocket.Chat type is HTTPS-only). The "Beszel" incoming webhook has a script that adds the alert title (server + problem) in bold, since Rocket.Chat ignores the `title` field
-- **Alerts (All systems):** disk 85%, memory 90%, temperature 80 °C, each for 10 min; Status alerts off (Uptime Kuma covers up/down). **HP:** disk 90% and temperature 85 °C (C: runs ~88% full; idles ~71 °C). **Acer:** battery alert (charge only drops if its power is cut). SMART failures alert automatically
+- **Alerts (All systems):** disk 85%, memory 90%, temperature 80 °C, each for 10 min; Status alerts off (Uptime Kuma covers up/down). **HP:** temperature 85 °C (idles ~71 °C); disk back to 85% like the others (was 90% until 2026-10-30). **Acer:** battery alert (charge only drops if its power is cut). SMART failures alert automatically
 - Backed up with the rest of `~/docker` by the Acer's nightly restic; the script stops `beszel` alongside `uptime-kuma` during the run
 
 ### Home Assistant alerts (phone, via mobile app)
@@ -239,8 +266,12 @@ Tracks disk, RAM, CPU, temperature, GPU and drive health (SMART) on all four ser
 - **Power restored:** Status data → `OL CHRG`
 - **HA backup push:** automation on *Last successful automatic backup* change → `rest_command.uptime_kuma_ha_backup` (defined in `/homeassistant/configuration.yaml`)
 - **Washer done → Rocket.Chat #clamsusa:** automation on `sensor.washer_state` → `Finished` → `rest_command.rocketchat_notify` (webhook URL in `secrets.yaml` as `rocketchat_washer_webhook`). Washer comes from the GE Home (SmartHQ) HACS integration `ha_gehome` (GE cloud login — keep updated via HACS)
-- **Daily TV summary → #house (9:00 PM):** automation "Daily TV summary → #house" → `rest_command.rocketchat_house`. Sums two History Stats helpers (Settings → Helpers, today since midnight): `sensor.living_room_living_room_tv_tv_today_living_room` (`media_player.basement_tv_2`, Android TV Remote, state `on`) and `sensor.den_den_tv_tv_today_den` (`media_player.den_tv`, Cast). `media_player.basement_tv` (Cast) is the same Living Room set — not counted. No Roku in HA yet. Per-app line for Living Room: template helper `sensor.living_room_tv_app` (maps `media_player.basement_tv_2`'s `app_id` to Disney+ / YouTube / YouTube TV / Peacock / Netflix / Other, or `off`) → History Stats helpers `sensor.tv_app_today_disney`, `_youtube`, `_youtube_tv`, `_peacock`, `_netflix`; Other = Living Room total minus those. To track a new app, add it to the template's map and add a History Stats helper. All 7 TV History Stats helpers use state class `total_increasing` (set 2026-10-17), so HA keeps long-term statistics indefinitely (detailed history is purged after ~10 days by default). Graphs: **TV Time** dashboard (sidebar, `/tv-time`) — today so far, daily 7/30 days, weekly 12 weeks, monthly 12 months, Living Room by app; bars use the "change" statistic and fill in from 2026-10-17 on.
+- **TV time tracking:** two History Stats helpers (Settings → Helpers, today since midnight): `sensor.living_room_living_room_tv_tv_today_living_room` (`media_player.basement_tv_2`, Android TV Remote, state `on`) and `sensor.den_den_tv_tv_today_den` (`media_player.den_tv`, Cast). `media_player.basement_tv` (Cast) is the same Living Room set — not counted. No Roku in HA yet. Per-app (Living Room only): template helper `sensor.living_room_tv_app` (maps `media_player.basement_tv_2`'s `app_id` to Disney+ / YouTube / YouTube TV / Peacock / Netflix / HBO Max (`com.wbd.stream`) / Paramount+ (`com.cbs.ott`) / Other, or `off`) → History Stats helpers `sensor.tv_app_today_disney`, `_youtube`, `_youtube_tv`, `_peacock`, `_netflix`, `_hbo_max`, `_paramount` (HBO Max and Paramount+ added 2026-10-30). `sensor.tv_app_today_other` (template) = Living Room total minus the seven apps. `sensor.living_room_tv_app_id` (template, added 2026-10-30) shows the raw `app_id` — use its History to spot apps worth tracking. To track a new app: find its `app_id` (Developer tools → States), add it to the template's map, add a History Stats helper (start `{{ today_at() }}`, end `{{ now() }}`, state class `total_increasing`), and add it to the Other sensor, both dashboard donuts and the 11:59 PM automation. All TV History Stats helpers use state class `total_increasing`, so HA keeps long-term statistics indefinitely (detailed history is purged after ~10 days). **TV Time** dashboard (sidebar, `/tv-time`): "Today so far" and "Living Room — daily average by app (30 days)" are ApexCharts donuts (HACS `apexcharts-card`; segment labels hidden below 25°, legend off on Today so far); plus daily 7/30 days, weekly 12 weeks, monthly 12 months, Living Room by app.
+- **Save TV summary (11:59 PM):** automation "Save TV summary for morning post" writes the day's household total, per-TV and per-app line (only apps used) to text helper `input_text.tv_yesterday` (max 255 chars). Replaced the 9:00 PM "Daily TV summary → #house" post on 2026-10-30, so the summary covers the full day.
+- **Good morning → #house (5:55 AM daily):** automation "Good morning → #house" → `weather.get_forecasts` from `weather.nws` (NWS integration, station KDVN, set up 2026-10-30; replaced Met.no `weather.forecast_home`) — twice-daily forecast for today's condition, high, chance of precipitation and wind, plus the next night's low; hourly forecast for a "Most likely X–Y" rain window (hours 6 AM–9 PM at ≥40%). HA's NWS integration has no text forecast (`detailed_description` isn't returned), so the line is built from the numbers + `calendar.get_events` (today, `calendar.olson_smiths`) + `input_text.tv_yesterday` → `rest_command.rocketchat_house`. Chores (computed in the template, no calendar): trash/recycling rotation counted in Wed–Tue weeks from 2026-10-28 (even weeks @amos trash / @susannah recycling, odd weeks swapped) shown Sun, Mon, Tue; laundry Sat (wash/dry) and Sun (fold). To swap the rotation, change the start date in the template. Kids are @mentioned so they get a notification.
+- **Google Calendar:** official HA Google Calendar integration (read-only), set up 2026-10-30 with Clark's own Google Cloud project "Home Assistant" (OAuth app "HA calendar", published to production so the login doesn't expire every 7 days; client type TVs and Limited Input devices; client ID/secret in password manager). Calendar used: `calendar.olson_smiths`.
 - **House bot (#house → HA):** Rocket.Chat outgoing webhook on #house → HA webhook automation "House bot - Rocket.Chat" → Ollama agent (`conversation.ollama_conversation`, `qwen3:8b`) → reply via `rest_command.rocketchat_house` (incoming webhook as user `house`; URL in `secrets.yaml` as `rocketchat_house_webhook`). Webhook ID and token live only in the automation and Rocket.Chat. Keep #house **unencrypted** (E2E sends blank text to webhooks) and the outgoing webhook's **Retry Failed URLs off** (otherwise duplicate replies). Only exposed entities can be controlled (Settings → Voice assistants → Expose).
+- **HA updates → #alerts (since 2026-10-30):** Core and OS updates wait 7 days. "HA update queued (7-day wait)" skips a new update and dates it in `input_datetime.core_update_queued` / `os_update_queued`; "HA update install (Saturday)" installs ones 7+ days old (Core 7:00, OS 7:30, `backup.create_automatic` first); "HA back up after Saturday update" reports versions after the restart. Posts via `rest_command.rocketchat_updates` (incoming webhook "HA Updates" as `alerts`; URL in `secrets.yaml` as `rocketchat_updates_webhook`, must be `http://`). HACS and add-ons update by hand.
 
 ### Gatus (Acer laptop, port 8080) — watches the monitoring; alerts to Rocket.Chat #alerts + Discord #gatus
 Since 2026-10-17 Gatus only watches Uptime Kuma, Rocket.Chat and sends the Healthchecks.io heartbeat; everything else moved to Uptime Kuma (both ran on the Acer and duplicated each other). If the laptop itself goes down, Healthchecks.io reports it. Config in `~/docker/gatus/config/config.yaml` (earlier versions kept as `config.yaml.bak` — full list with routing — and `config.yaml.bak2`); `DISCORD_WEBHOOK`, `HC_PING_URL` and `ROCKETCHAT_WEBHOOK` in `~/docker/gatus/.env` (loaded via `env_file`). Two alert types: `slack` → Rocket.Chat #alerts (Gatus has no Rocket.Chat type; Rocket.Chat accepts Slack's format) and `discord`. After changing `.env`, run `docker compose up -d --force-recreate` — a plain restart doesn't reload it. "Provider wasn't configured properly" in the logs = the webhook variable is empty. Alerts after 3 failures, resolves after 2 successes. **HTTP checks need `[CONNECTED] == true`** as well as `[STATUS] < 400` — when nothing answers, the status is 0, which passes `< 400` on its own (this hid outages until 2026-10-17).

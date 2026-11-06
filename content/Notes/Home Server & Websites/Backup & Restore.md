@@ -26,7 +26,7 @@ Back to [[Home Server and Network]]
 - **Script:** `/root/acer-backup.sh` — log at `/var/log/acer-backup.log`
 - **Destination:** same `pi-backups` share, separate repo → `E:\pi-backups\acer-restic`, mounted on the Acer at `/mnt/backups` (fstab, nofail + automount)
 - **Backs up:** `/home/clark/docker` (minus `rocketchat/data`, the live MongoDB files), `/home/clark/backups`, `/root/acer-backup.sh`, `/etc/fstab`
-- **Consistency:** stops uptime-kuma and beszel during the restic run (clean SQLite copies; beszel added 2026-10-19, previous script at `/root/acer-backup.sh.bak`)
+- **Consistency:** stops uptime-kuma, beszel and n8n during the restic run (clean SQLite copies; beszel added 2026-10-19, n8n 2026-10-31; previous script at `/root/acer-backup.sh.bak`)
 - **Rocket.Chat:** nightly `mongodump` from `rc-mongodb` to `/home/clark/backups/rocketchat/rocketchat.archive.gz`; a failed dump marks the run failed
 - **Retention:** 7 daily, 4 weekly, 6 monthly
 - **Safety:** script aborts if the share isn't mounted as cifs
@@ -39,7 +39,7 @@ Back to [[Home Server and Network]]
 2. Restore the password from password manager into `/root/.restic-password`
 3. `restic -r /mnt/backups/acer-restic restore latest --target /`
 4. Re-apply host settings by hand: ufw rules, systemd-resolved stub listener off, Ethernet only / Wi-Fi off (see [[Home Server and Network]])
-5. Start AdGuard, adguardhome-sync, Gatus, Uptime Kuma, Beszel stacks
+5. Start AdGuard, adguardhome-sync, Gatus, Uptime Kuma, Beszel, n8n stacks (n8n's `.env` must have the original `N8N_ENCRYPTION_KEY` — from the password manager — or saved credentials won't decrypt)
 6. Rocket.Chat: `docker compose up -d mongodb`, wait for healthy, `docker compose exec -T mongodb mongorestore --archive --gzip --drop < ~/backups/rocketchat/rocketchat.archive.gz`, then `docker compose up -d rocketchat`
 7. Restore root crontab line; run the script once and confirm Healthchecks.io goes green
 
