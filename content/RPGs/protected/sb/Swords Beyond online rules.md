@@ -9,7 +9,8 @@ unlisted: true
 ---
 ![[swords beyond - logo - online rules.png]]
 
-**a fast & loose, highly improvisational fantasy rpg**
+**a fast & loose, improvisational fantasy rpg**
+# Frontmatter
 ## Table of Contents
 0. [[#Resources]]
 1. [[#A Creeping Shadow]] and [[#The Realms Beyond]]
@@ -18,10 +19,10 @@ unlisted: true
 4. [[#Making the Pact]]
 5. [[#Downtime]]
 6. [[#Playing as GM]]
-## Cover
+
 ![[swords beyond - cover - hydra.png]]
 ## Inspirations
-inspired by *[Bump in the Dark, revised edition](https://jexjthomas.itch.io/bump-in-the-dark),* by Jex Thomas, and [Apocalypse World](https://lumpley.games/apocalypseworld/) and [Under Hollow Hills](https://lumpley.games/under-hollow-hills-about-the-game/) by by D. Vincent and Meguey Baker, and Masks by Brendan Conway.
+inspired by *[Bump in the Dark, revised edition](https://jexjthomas.itch.io/bump-in-the-dark),* by Jex Thomas, and *[Apocalypse World](https://lumpley.games/apocalypseworld/)* and *[Under Hollow Hills](https://lumpley.games/under-hollow-hills-about-the-game/)* by by D. Vincent and Meguey Baker, and Masks by Brendan Conway.
 
 with additional inspiration from *[13th Age](https://pelgranepress.com/13th-age/)* by Rob Heinsoo & Jonathan Tweet, *[Maze Rats](https://questingbeast.itch.io/maze-rats)*  Ben Milton, *[FIST: Ultra Edition](https://claymorerpgs.itch.io/fist)*, by B. Everett Dutton, Ripley Caldwell, T.H. Cochlin, Back-Alley Coalition, Max Danle, and *[50/50](https://docs.google.com/document/d/1NLD_KhZwrKRz3sIquZDSW_Wx__7My6Kdg1Jbk6hF7Mw/edit?pli=1&tab=t.0)* by John Harper
 ## Resources
