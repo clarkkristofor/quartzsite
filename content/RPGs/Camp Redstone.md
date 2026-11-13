@@ -6,6 +6,24 @@ date: 2026-04-09
 Game: 13th Age, 2e
 GM: Sean
 ---
+## 11. At Least We Paid for the Funerals
+We have weeks to spend in High Dock, waiting for payroll, etc.
+
+Sleazy tiefling real estate mogul, Balthazar, offered us the perfect post office building for an exorbitant 20 gold per month. He'd reduce the rate in exchange for knowing who is sending mail to whom. We declined. We have principles.
+
+Asking around about Balthazar, we learned he was deeply indebted to Fredo the Tank, an ogre race track owner. We sabotaged a race so Balthazar would lose, going even deeper in debt. The urchin won, netting Mousebones and Milf 440 gold. Many jockeys died, so we could buy the post office building for 440 gold. We gave another 35 to Fredo to pay for funerals. We promised to stay friends.
+
+We concluded our weeks in High Dock. But as we left, Stonebeard, the [[#5. Ambush defeated|shapechanger]], attacked us with dire wolves and bugs. He's not well, and does not represent the [[High Druid]], as he claims.
+
+(Fight next session. Incremental advance awarded.)
+## 10. High Dock
+Zim Zim wants connections on the surface and trade relations. Also sugar beets and bees. He did not know about the war. He trusts us. Vek Vek wants sugar, honey, and flour, providing gems as payment.
+
+High Dock is two days from the derro road exit.
+
+We found smoking remains of a settler caravan. We did not pursue.
+
+Orcs attack!
 ## 9. Derro Road
 Tim the bug mentioned the Magician, his creator, who can open portals to other worlds and who lives in a floating keep.
 
@@ -13,7 +31,7 @@ Must build bridges or smooth route in places.
 
 Lorn used Dwarf King benefit to open door to enter derro road. Just inside, a guard house was empty, the scene of a beastly attack. We found the logbook of entrants to derro road, key ring, and a partial map of derro road.
 
-This is the territory of the Shard Clan, saner than most derro. Vek Vek, son of chielf Zim Zim, and 12 other soldiers were scouting for beast. Fight: destroyed stalker and its mate and egg sacs. 
+This is the territory of the Shard Clan, saner than most derro. Vek Vek, son of chief Zim Zim, and 12 other soldiers were scouting for beast. Fight: destroyed stalker and its mate and egg sacs. 
 ## 8. Quest for the Post Office
 our post office principles
 - every resident may send and receive mail for a fee

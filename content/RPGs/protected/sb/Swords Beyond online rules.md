@@ -7,8 +7,7 @@ date: 2026-07-31
 password:
 unlisted: true
 ---
-![[swords beyond - logo - online rules.png]]
-
+![[swords beyond - logo - online rules.png|center]]
 **a fast & loose PbtA fantasy rpg**
 # Front Matter
 ## Quick Links
@@ -110,14 +109,16 @@ Conditions make hunting monsters harder. They reflect debilities with story effe
 | Condition    | Debility                   | Solo Action                                               |
 | ------------ | -------------------------- | --------------------------------------------------------- |
 | Weary        | -2 STRIKE / ENDURE         | *ignore the demands of a situation to steal some respite* |
-| Afraid       | -2 RIG / TEND              | *act in the interests of a rival NPC*                     |
-| Overwhelmed  | -2 CUNNING / EMPATHY       | *flee, leaving something important behind*                |
+| Afraid       | -2 RIG / TEND              | *flee, leaving something important behind*                |
+| Overwhelmed  | -2 CUNNING / EMPATHY       | *act in the interests of a rival NPC*                     |
 | Overshadowed | -2 BEYOND / GROUNDED       | *act in the interests of the shadow*                      |
 | Angry        | no [[#Teamwork\|teamwork]] | *take a rash action others cannot ignore*                 |
 
 Conditions cascade. If you must mark a condition you've already marked, mark the next.
 - Weary → Afraid → Overwhelmed → Overshadowed
 - Angry → Overshadowed
+
+If you must mark a condition you've already marked, mark overshadowed.
 
 If you must mark *overshadowed* a second time, *act in the interest of the shadow* without clearing *overshadowed*.
 

@@ -9,7 +9,7 @@ My home server:
 Related notes: [[Backup & Restore]] · [[Changelog]] · [[Home Server Tasks]] (to-do list) · [[Websites]] · [[Server project costs]]
 
 ## Current Status
-**Last Updated:** 2026-10-31
+**Last Updated:** 2026-11-11
 ### Active Services
 - Windows Server: 9 services
 - Raspberry Pi 5: 12 services
@@ -130,6 +130,7 @@ Staying at four servers. A fifth box only for a specific new workload (e.g., Jel
 - **HP Spectre 14" laptop** — cold spare / test box. Intel Core i7-7500U (2 cores / 4 threads, Kaby Lake, ~2016), 16 GB RAM (soldered), Intel UHD 620 (Quick Sync), 1080p screen (cracked), Windows. Likely no built-in Ethernet.
 - **Pi Zero 2 W** — assigned to the dryer-done detector (32 GB SD card, ReSpeaker HAT). See [[Home Server Tasks]].
 - **Pi Zero W v1.1** — spare (with ReSpeaker HAT).
+- **GMKtec NucBox 3** (KB3) — spare. Celeron J4125, 8 GB DDR4 (1 slot), M.2 SATA SSD, fanless; no AVX, so no MongoDB 7/Rocket.Chat; suits signage or a retro-games box. Considering swapping it, with a ~$100 donation, for Zion's NUC10i3FNB to replace the Acer as the watcher (leaning plain Linux, no RAM upgrade).
 
 ## Services Overview
 
@@ -143,7 +144,6 @@ Staying at four servers. A fifth box only for a specific new workload (e.g., Jel
 | searxng               | Windows        | - 8085                                       |                          | Docker            | 2026-07-03                            |
 | RustDesk Server       | Windows        | see Notes                                    |                          | Docker            | 2024-11-19                            |
 | Portainer             | Windows        | - 9443 (Web UI)<br>- 8000 (Web UI)           |                          | Docker            | 2024-11-19                            |
-| Watchtower            | Windows        |                                              |                          | Docker            | 2026-07-03                            |
 | Docker                | Raspberry Pi 5 |                                              |                          | baremetal         | 2024-11-29                            |
 | Portainer             | Raspberry Pi 5 | - 9443 (Web UI)<br>- 8000 (Web UI)           | portainer.superclark.net (Access) | Docker            | 2024-11-29                            |
 | KOreader sync         | Raspberry Pi 5 | - 3003 (host) → 3000                         | sync.superclark.net      | Docker            | 2026-04-13                            |
@@ -151,7 +151,7 @@ Staying at four servers. A fifth box only for a specific new workload (e.g., Jel
 | Technitium            | Raspberry Pi 5 | - 5380 (Web UI)                              |                          | Docker            | 2025-04-04                            |
 | cloudflared           | Raspberry Pi 5 |                                              |                          | Docker            | 2024-12-13                            |
 | changedetector.io     | Raspberry Pi 5 | - 5000 (Web UI)                              | changes.superclark.net (Access) | Docker            | 2024-12-18                            |
-| Watchtower            | Raspberry Pi 5 |                                              |                          | Docker            | 2024-12-22                            |
+| Watchtower (`nickfedor/watchtower:latest`) | Raspberry Pi 5 |                                              |                          | Docker            | 2024-12-22                            |
 | Adguard Home          | Raspberry Pi 5 | - 53 (DNS)<br>- adguard.osnet.home (Web UI)  |                          | Docker            | 2026-09-22                            |
 | Pi backup (restic)    | Raspberry Pi 5 |                                              |                          | baremetal (cron)  | 2026-09-22                            |
 | NUT server            | Raspberry Pi 5 | - 3493                                       |                          | baremetal (apt)   | 2026-10-11                            |
@@ -166,6 +166,7 @@ Staying at four servers. A fifth box only for a specific new workload (e.g., Jel
 | Uptime Kuma           | Acer laptop    | - 3001 (Web UI)                              | — (removed 2026-10-26)   | Docker            | 2026-10-15 (on Pi 5 since 2024-12-04) |
 | Beszel hub + agent    | Acer laptop    | - 8090 (Web UI; agents connect here)         |                          | Docker            | 2026-10-19                            |
 | n8n                   | Acer laptop    | - 5678 (Web UI + webhooks; LAN only)         | feeds.superclark.net (path `^/webhook/kottke$` only) | Docker            | 2026-10-31                            |
+| DIUN (update notifications) | Acer laptop | none                                    |                          | Docker            | 2026-11-09                            |
 | Beszel agent          | Raspberry Pi 5 | - 45876                                      |                          | Docker (Portainer stack `beszel-agent`) | 2026-10-19                |
 | Beszel agent          | Home Assistant | - 45876                                      |                          | HA app (community) | 2026-10-19                           |
 | Beszel agent          | Windows        | - 45876                                      |                          | baremetal (NSSM service) | 2026-10-19                     |
@@ -176,8 +177,9 @@ Staying at four servers. A fifth box only for a specific new workload (e.g., Jel
 - RustDesk Server consists of two Docker containers (hbbr ports: 21119, 21117 and hbbs 21115, 21116, 21118)
 - All Cloudflare Tunnel routes run through cloudflared on the Pi 5 (tunnel `pi5`). The HP's own cloudflared (Windows service, tunnel `windows server`, stuck on 2026.6.1) was uninstalled and its tunnel deleted 2026-10-26, and `ai.superclark.net` moved to the Pi 5's tunnel → `http://192.168.8.180:3000`. Routes are in Cloudflare Zero Trust → Networks → Tunnels → *Published application routes*. `chat.superclark.net` → `http://192.168.8.198:3002` (Acer) and `ai.superclark.net` → `http://192.168.8.180:3000` (HP), so these still depend on the Pi 5's cloudflared (`uptime.superclark.net` route removed 2026-10-26); other Pi 5 routes use container names (e.g. was `http://rocketchat:3000`)
 - Rocket.Chat (Acer): compose stack in `~/docker/rocketchat/` — `registry.rocket.chat/rocketchat/rocket.chat:8.9.0` (pinned; no major.minor tags exist) + `mongo:7.0` (container `rc-mongodb`, replica set `rs0`, data in `./data/db`). Site URL `https://chat.superclark.net`. No Watchtower on the Acer — upgrade manually
-- Uptime Kuma (Acer): compose stack in `~/docker/uptime-kuma/` — `louislam/uptime-kuma:1.23.17` (pinned), data in `./data` (SQLite `kuma.db`), no docker.sock mount. Old Pi volume `uptime-kuma_uptime-kuma` kept as rollback
-- n8n (Acer, added 2026-10-31): compose stack in `~/docker/n8n/` — `docker.n8n.io/n8nio/n8n:2.45.7` (pinned; upgrade manually: change the tag, `docker compose pull && docker compose up -d`), data in `./data` (SQLite, owned by uid 1000), settings in `.env` (chmod 600). **`N8N_ENCRYPTION_KEY` is in the password manager** — n8n encrypts saved credentials with it, so a restore is useless without it. Owner login in password manager. LAN only, except one Cloudflare route (`feeds.superclark.net`, path `^/webhook/kottke$`, HTTP → `192.168.8.198:5678`; any other path gets the tunnel's blank 404, so the editor isn't public); `WEBHOOK_URL` `http://192.168.8.198:5678/`, so Rocket.Chat outgoing webhooks can call `http://192.168.8.198:5678/webhook/…` locally. Automation engine for non-HA projects (see [[Home Server Tasks]])
+- Uptime Kuma (Acer): compose stack in `~/docker/uptime-kuma/` — `louislam/uptime-kuma:1.23.17` (pinned), data in `./data` (SQLite `kuma.db`), no docker.sock mount. (Old Pi stack and volume removed 2026-11-09)
+- n8n (Acer, added 2026-10-31): compose stack in `~/docker/n8n/` — `docker.n8n.io/n8nio/n8n:2.48.1` (pinned; upgraded from 2.45.7 on 2026-11-11; upgrade manually: change the tag, `docker compose pull && docker compose up -d`), data in `./data` (SQLite, owned by uid 1000), settings in `.env` (chmod 600). **`N8N_ENCRYPTION_KEY` is in the password manager** — n8n encrypts saved credentials with it, so a restore is useless without it. Owner login in password manager. LAN only, except one Cloudflare route (`feeds.superclark.net`, path `^/webhook/kottke$`, HTTP → `192.168.8.198:5678`; any other path gets the tunnel's blank 404, so the editor isn't public); `WEBHOOK_URL` `http://192.168.8.198:5678/`, so Rocket.Chat outgoing webhooks can call `http://192.168.8.198:5678/webhook/…` locally. Automation engine for non-HA projects (see [[Home Server Tasks]])
+- DIUN (Acer, added 2026-11-09): compose stack in `~/docker/diun/` — `crazymax/diun:4.33.1` (pinned), `hostname: acer`, data in `./data`, docker.sock read-only. Notifies only; never updates anything. Checks daily at 8 AM, 2 workers (registry rate limits). Watches every Acer container for newer version tags (top 5 by semver, tags like `1.2.3` / `v1.2.3` only); first scan silent. `rc-mongodb` excluded with label `diun.enable=false` — Mongo upgrades follow Rocket.Chat's supported versions. Posts to #alerts via Slack-format incoming webhook "DIUN" (local URL in `.env`, chmod 600). Test: `docker compose exec diun diun notif test`. Upgrades stay manual: wait ~7 days, back up, change the tag, `docker compose pull && docker compose up -d`.
 - n8n workflow **Kottke feed splitter** (2026-10-31, published): Webhook (GET `kottke`, responds via Respond to Webhook) → RSS Read `https://feeds.kottke.org/main` → If (title matches the broad politics regex OR `contentSnippet` matches the short strong-terms regex, both with `\b…\b`, Ignore Case; Always Output Data on) → Edit Fields *Tag politics* / *Tag other* (`pile`, Include Other Input Fields) → Merge (Append) → Code (keeps the pile named by `?feed=`, default `other`; builds RSS 2.0) → Respond to Webhook (Text, `Content-Type: application/rss+xml; charset=utf-8`). Feedbin subscribes to `https://feeds.superclark.net/webhook/kottke` (non-politics only; original Kottke feed unsubscribed); `?feed=politics` shows what's filtered out. Test URL (`/webhook-test/kottke`) works once per Listen click; edits need re-publishing
 - Backups for all servers: see [[Backup & Restore]]
 
@@ -216,7 +218,7 @@ Rule of thumb: admin pages only I open in a browser go behind Cloudflare Access;
 ## Monitoring
 
 ### Where alerts go (since 2026-10-17)
-- **Rocket.Chat #alerts** — read-only channel for server alerts. Posts come from bot user `alerts` (bot role, **moderator** in #alerts — needed to post in a read-only channel). One incoming webhook per source: "Uptime Kuma", "Gatus" and "Beszel" (others to come). Senders use the **local** URL `http://192.168.8.198:3002/hooks/…`, not chat.superclark.net (that goes through cloudflared on the Pi 5, so a Pi 5 outage would block its own alert). Webhook URLs live only in Uptime Kuma, `~/docker/gatus/.env` and Beszel's notification settings.
+- **Rocket.Chat #alerts** — read-only channel for server alerts. Posts come from bot user `alerts` (bot role, **moderator** in #alerts — needed to post in a read-only channel). One incoming webhook per source: "Uptime Kuma", "Gatus", "Beszel" and "DIUN" (others to come). Senders use the **local** URL `http://192.168.8.198:3002/hooks/…`, not chat.superclark.net (that goes through cloudflared on the Pi 5, so a Pi 5 outage would block its own alert). Webhook URLs live only in Uptime Kuma, `~/docker/gatus/.env` and Beszel's notification settings.
 - **Discord** — kept only for things that would stop a Rocket.Chat message reaching you: Rocket.Chat down, Router down, Internet down, Pi 5 down (both), and Healthchecks.io (whole Acer down).
 - Gotchas: don't set a channel in a sender (Rocket.Chat rejects it: "overriding destination channel is disabled"); `error-not-allowed` means `alerts` isn't a member/moderator of #alerts.
 

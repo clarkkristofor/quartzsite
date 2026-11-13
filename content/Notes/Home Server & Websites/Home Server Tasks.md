@@ -1,16 +1,14 @@
 # Home Server To-Do
 
-**Created:** 2026-09-22 · **Updated:** 2026-10-31 (#20 RSS feed splitter done in n8n — politics filtered out of Kottke, see [[Changelog]]; n8n installed on the Acer as the automation engine for non-HA projects — see Decisions). 2026-10-30 (#7 HA auto-updates set up for Core and OS — waiting for the first real queue/install; HACS and add-ons stay manual; #9/#10 chore reminders added to the morning post — no reply/re-nag yet; #2 TV summary: HBO Max and Paramount+ tracked, moved into the new 5:55 AM good-morning post; #14 morning briefing done — weather, calendar, yesterday's TV time). 2026-10-24 (added home automation #20: RSS feed splitter). 2026-10-23 (added home automation #19: custom Google TV home screen; added the GMKtec NucBox 3 to spares; added home automation #15–#18: family YouTube feed, sermon transcription, price-drop watcher, kids' savings bot). 2026-10-20 (added Resilience #2 replace archived Watchtower and #4 update notifications on the Acer (DIUN); renumbered — backup failure alert now #3, UPS #5, new device #6, weekly report #7). 2026-10-19: resource monitoring done — Beszel on all four servers with alerts to #alerts and SMART on the HP, see [[Changelog]]; weekly home health report agent split out as its own task; Resilience reordered by importance: VLAN, backup failure alert, UPS alert, new device alert, weekly health report — the three alerts moved from home automation #4–#6, the report from #11). 2026-10-17: renamed from Homelab Resilience Tasks; added home automation project list, reordered, with decisions and HA auto-updates added; merged side projects into it; plan changed so Beszel alerts will go to Rocket.Chat #alerts (Beszel not set up yet); monitoring alerts moved to Rocket.Chat #alerts — done, see [[Changelog]]; daily TV summary set up. Earlier today: washer-done notifications — done, see [[Changelog]]; Rocket.Chat and Uptime Kuma moved to the Acer — done, see [[Changelog]]; NVMe upgrade dropped — Pi 5 stays on SD with write-heavy services moved off it; no NUC or media/photo server.
+**Updated:** 2026-11-09 (time estimates revised; UPS alert to Rocket.Chat dropped) · Current setup: [[Home Server and Network]] · Finished work and history: [[Changelog]]
 
-**Follow-up ~2026-10-22:** if Rocket.Chat and Uptime Kuma on the Acer are still fine: in the Pi 5's Portainer remove the stopped rocketchat stack + its volumes and the uptime-kuma stack (container already gone) + volume `uptime-kuma_uptime-kuma`; delete `~/rocketchat-migrate.archive.gz` and `~/uptime-kuma-data.tar.gz` on the Pi and the Acer.
-
-Open tasks for the home server setup (Windows Server + Raspberry Pi 5 + Home Assistant Pi + Acer laptop). Resilience tasks first, then home automation projects. Current setup: [[Home Server and Network]]. Finished work goes in [[Changelog]].
+Open tasks for the home server setup (Windows Server + Raspberry Pi 5 + Home Assistant Pi + Acer laptop). Resilience first, then home automation projects.
 
 ---
 
 # Resilience
 
-In order of importance.
+In order of importance. New alerts post to #alerts, each through its own incoming webhook posting as `alerts`.
 
 ## 1. VLAN for IoT/Smart Home Devices
 
@@ -25,22 +23,9 @@ In order of importance.
 
 ---
 
-## 2. Replace archived Watchtower (Pi 5 + HP)
+## 2. Backup failure alert (Backblaze)
 
-**Deadline:** none set | **Cost:** $0 | **Time:** ~15 min | **Difficulty:** 1/10
-
-**Why it matters:** `containrrr/watchtower` was archived 2025-12-17; its last release (1.7.1, 2023) gets no security patches, and Watchtower has Docker socket access. `nickfedor/watchtower` is the maintained fork and a drop-in replacement.
-
-**Steps:**
-1. Pi 5 (Portainer) and HP: change the image to `nickfedor/watchtower`; keep current settings.
-2. Optional: post its update notices to #alerts through its own incoming webhook as `alerts` (local URL).
-3. Confirm it starts and logs a check; pinned images (e.g., the Pi's Beszel agent) stay untouched. Update [[Home Server and Network]] (Watchtower rows).
-
----
-
-## 3. Backup failure alert (Backblaze)
-
-**Deadline:** none set | **Cost:** $0 | **Time:** ~1-2 hours | **Difficulty:** 3/10 (was home automation #5)
+**Deadline:** none set | **Cost:** $0 | **Time:** ~45-60 min | **Difficulty:** 3/10
 
 **Why it matters:** The Pi 5, HA and Acer backups already alert on failure (Uptime Kuma push monitors, Healthchecks.io). Backblaze on the HP — the HP's one critical service and the only off-site copy — isn't watched by anything. If it quietly stopped, nothing would say so.
 
@@ -51,35 +36,9 @@ In order of importance.
 
 ---
 
-## 4. Update notifications on the Acer (DIUN)
+## 3. New device on network alert
 
-**Deadline:** none set | **Cost:** $0 | **Time:** ~45 min | **Difficulty:** 3/10
-
-**Why it matters:** The Acer runs the alerting stack (Uptime Kuma, Gatus, Beszel, Rocket.Chat), so no auto-updates there — a bad overnight update could silence alerts. Its images are pinned to versions, which Watchtower's monitor-only mode can't see past; DIUN watches for newer version tags and only notifies.
-
-**Steps:**
-1. DIUN compose stack in `~/docker/diun/`, watching the Acer's containers for newer version tags.
-2. Its own incoming webhook as `alerts` → #alerts (local URL; Slack format like Gatus if needed).
-3. Test with an image known to be behind. Upgrades stay manual (~7-day wait, back up first, like the HA auto-update rule). Add DIUN to [[Home Server and Network]] (services table, Acer ufw if it needs a port) and the Acer backup.
-
----
-
-## 5. UPS/power outage alert
-
-**Deadline:** none set | **Cost:** $0 | **Time:** ~30-60 min | **Difficulty:** 2/10 (was home automation #4)
-
-**Why it matters:** HA already sends on-battery / power-restored alerts to Clark's phone. Posting them to Rocket.Chat lets the rest of the family see them too.
-
-**Steps:**
-1. From the Pi 5's NUT server via HA's NUT integration (sensors already in use): on battery / power restored.
-2. New incoming webhook "UPS" posting as `alerts` → #alerts; add a `rest_command` and call it from the existing HA alert automations (keep the phone alerts).
-3. Test (unplug the UPS briefly).
-
----
-
-## 6. New device on network alert
-
-**Deadline:** none set | **Cost:** $0 | **Time:** ~1-2 hours | **Difficulty:** 4/10 (was home automation #6)
+**Deadline:** none set | **Cost:** $0 | **Time:** ~1-2 hours | **Difficulty:** 4/10
 
 **Why it matters:** Flags anything unknown joining the network. Pairs with the VLAN (#1) — catches a device that lands on the wrong network.
 
@@ -90,67 +49,55 @@ In order of importance.
 
 ---
 
-## 7. Weekly home health report agent
+## 4. Weekly home health report agent
 
-**Deadline:** none set | **Cost:** $0 | **Time:** ~2-3 hours setup (then ~1 min per weekly run, unattended)
+**Deadline:** none set | **Cost:** $0 | **Time:** ~1.5-2 hours setup (then ~1 min per weekly run, unattended)
 
 **Why it matters:** Beszel, Uptime Kuma and the backup checks only speak up when something crosses a line. A weekly plain-English summary in #house shows slow trends (disk creeping up, short outages, a backup that keeps nearly failing) without opening three dashboards.
 
 **Steps:**
-1. Script on the Acer gathers read-only data: Beszel (disk, RAM, temps, SMART, the week's alerts), Uptime Kuma (uptime, outages), backups (Healthchecks.io + Uptime Kuma push monitors). (~45 min)
+1. Script on the Acer gathers read-only data: Beszel (disk, RAM, temps, SMART, the week's alerts), Uptime Kuma (uptime, outages), backups (Healthchecks.io + Uptime Kuma push monitors). (~30 min)
 2. Send it to Ollama on the HP for a short summary — try `qwen3:8b` or `qwen3.6` (already installed) before pulling `qwen3:14b` (C: is tight); tune the instructions. (~30 min)
-3. New incoming webhook to Rocket.Chat #house; weekly timer (e.g., Sunday afternoon, after services). (~15 min)
+3. New incoming webhook to Rocket.Chat #house; weekly timer (e.g., Sunday afternoon, after services). (~10 min)
 4. Test against reality; if the HP is off, post the raw numbers without the AI summary. (~30 min)
 
 Read-only: no tools that can change anything.
 
 ---
 
+---
+
 # Home automation projects
 
-Ranked by interest and usefulness. Difficulty is challenge + time, 0–10. #4–#6 (UPS, backup failure, new device alerts) and #11 (weekly health report) moved to Resilience (2026-10-19).
+Ranked by interest and usefulness. Difficulty is challenge + time, 0–10.
 
-| #      | Project                                                        | Difficulty |
-| ------ | -------------------------------------------------------------- | ---------- |
-| 7      | HA auto-updates with 7-day wait — set up, awaiting first run   | 3/10       |
-| 16     | Sermon transcription (Whisper on the HP)                       | 4/10       |
-| 17     | Price-drop watcher → Rocket.Chat                               | 4/10       |
-| 18     | Kids' savings bot (spend/save/share) in Rocket.Chat            | 6/10       |
-| ~~20~~ | ~~RSS feed splitter — done 2026-10-31 (n8n)~~                  | ~~3/10~~   |
-| 13     | Ollama chat bot in Rocket.Chat                                 | 6/10       |
+| #   | Project                                                      | Difficulty |
+| --- | ------------------------------------------------------------ | ---------- |
+| 7   | HA auto-updates with 7-day wait — set up, awaiting first run | 3/10       |
+| 16  | Sermon transcription (Whisper on the HP)                     | 4/10       |
+| 17  | Price-drop watcher → Rocket.Chat                             | 4/10       |
+| 18  | Kids' savings bot (spend/save/share) in Rocket.Chat          | 6/10       |
+| 13  | Ollama chat bot in Rocket.Chat                               | 6/10       |
 
-
-**Decisions (2026-10-17):**
-- One task list for everything; resilience tasks stay on top, home automation projects follow.
-- HA command bot and TV summary go first.
-- Monitoring moves to Rocket.Chat (#3) before any new alerts (now Resilience #3, #5, #6), so no alert gets built in Discord and moved later.
-- Reply-based reminders (laundry, trash, chores) come after the alerts and auto-updates.
-- HA auto-updates wait 7 days rather than skipping ".0" releases — works for Core, OS and HACS with one rule; prudence and quality of life are worth the bump from 2/10 to 3/10. (2026-10-30: narrowed to Core and OS only; HACS and add-ons stay manual.)
-- Dropped: dice roller / RPG bot.
-- (2026-10-31) n8n is installed on the Acer (`http://n8n.osnet.home:5678`). Build non-HA projects in it: #20 RSS feed splitter (first), #17 price-drop watcher, #18 kids' savings bot (built-in Google Sheets node), #13 Ollama chat bot, #16 sermon transcription (orchestration; Whisper still on the HP) and Resilience #7 weekly health report; possibly the checking side of Resilience #3 and #6. Projects tied to HA devices (#5, #7–#10) stay in HA; #15 stays in GitHub Actions.
+**Where to build:** non-HA projects in n8n on the Acer (`http://n8n.osnet.home:5678`) — #13, #16 (orchestration; Whisper on the HP), #17, #18, Resilience #4, possibly the checking side of Resilience #2 and #3. Projects tied to HA devices stay in HA.
 
 **Notes:**
-1. **HA command bot** — Rocket.Chat outgoing webhook on its own channel → HA Assist with the Ollama integration → reply via `rest_command.rocketchat_notify`. Model: `qwen3:8b` (decided 2026-10-17 — fits in the 2060's 8 GB, tool calling; turn thinking off). Ollama reachable on the LAN (done 2026-10-17). Expose only a limited set of entities; built-in Assist handles simple commands if the HP is off. Its reply path is what #8, #9 and #10 need. **Status (2026-10-17): working** — see [[Changelog]]. Whole family (kids included) added to #house; ~40 entities exposed, aliases added as problems come up. Left: fallback to built-in Assist when the HP is off.
-2. **Daily TV summary** — **Status (2026-10-17): set up** — posts household total + per-TV time to #house at 9:00 PM. History Stats helpers (today since midnight): Living Room TV via Android TV Remote state `on`; Den TV via Cast (`on/idle/playing/paused/buffering`). Basement TV (Cast) is the same set as Living Room, so not counted twice. Left: Roku isn't in HA yet (skipped for now); check the first few nights' totals look right. **Per-app breakdown added (2026-10-17):** Living Room only (from Android TV Remote's app attribute) — Disney+, YouTube, YouTube TV, Peacock, Netflix, plus Other (home screen, screensaver, new apps). Counts the open app, not whether it's playing. Den stays a single total. **Update (2026-10-30):** HBO Max and Paramount+ added; Other and raw app ID sensors added; dashboard "Today so far" and a 30-day daily average are ApexCharts donuts. The 9 PM post is replaced: at 11:59 PM the summary is saved to `input_text.tv_yesterday` and included in the 5:55 AM good-morning post (#14).
-9./10. **Trash/recycling and chore reminders** — **Status (2026-10-30): reminders done (in the 5:55 AM post, #14); no reply/re-nag yet.** Rotation is computed in HA from the date (no calendar): weeks run Wed–Tue (pickup Tuesday), counted from Wed 2026-10-28 — even weeks @amos trash / @susannah recycling, odd weeks swapped. Trash/recycling line Sun and Mon ("out by Tuesday morning") and Tue ("last chance"); laundry Sat (wash and dry) and Sun (fold), both kids. Decided: no Google calendar for chores; no Monday evening nudge for now. Left: reply "done" / re-nag.
-14. **Morning briefing** — **Status (2026-10-30): done** — 5:55 AM daily post to #house: weather (NWS `weather.nws` since 2026-10-30: condition, high, precipitation %, wind, rain window, tonight's low), today's events from Google Calendar (`calendar.olson_smiths`), chores (Sat–Tue, see #9/#10), yesterday's TV time.
-3. **Monitoring → Rocket.Chat** — **Status (2026-10-17): done and tested** — see [[Changelog]]; routing in [[Home Server and Network]] → Monitoring. "Something off the Acer watching the Acer" is already covered by Healthchecks.io (Acer/Gatus down) and Gatus (Rocket.Chat down). New alerts (Resilience #2–#6, Beszel, HA auto-updates) post to #alerts — give each its own incoming webhook posting as user `alerts`. **Uptime Kuma/Gatus overlap trimmed (2026-10-17, done and tested):** Uptime Kuma is the main monitor; Gatus only watches Uptime Kuma, Rocket.Chat and the Healthchecks.io heartbeat.
-7. **HA auto-updates** — **Status (2026-10-30): set up for Core and OS; waiting for the first real run.** HACS and add-ons stay manual. Three automations: "HA update queued (7-day wait)" skips a new Core/OS update (clears the orange dot), sets `input_datetime.core_update_queued` / `os_update_queued` to today and posts "queued" to #alerts; a newer version mid-wait restarts its 7 days. "HA update install (Saturday)" — Core 7:00 AM, OS 7:30 AM — if 7+ days have passed: posts "backing up, then installing", runs `backup.create_automatic`, clears the skip, installs; a "may have failed" post means the install didn't restart HA. "HA back up after Saturday update" posts the running Core/OS versions after an HA restart on Saturdays 7–9 AM. All post via `rest_command.rocketchat_updates` (incoming webhook "HA Updates" as `alerts`; URL in `secrets.yaml` as `rocketchat_updates_webhook`, local http). Pending at setup (Core 2026.10.4, OS 18.4) queued by hand 2026-10-30 → due Sat Nov 7. Left: confirm a real "queued" post (2026.11.0, ~Nov 4) and the first Saturday install, then mark done. Still skim release notes for breaking changes (GE Home, Matter, Ollama).
-12. **Kid tutor instructions** — only matters once #13 exists; tune for both kids' ages.
-15. **Family YouTube feed** (added 2026-10-23) — split my-feed into two playlists, Clark's and a family one (Wyrmwood Vlogs and whatever the kids watch); separate rules in `config.yaml`, same hourly GitHub Actions run.
-16. **Sermon transcription** (added 2026-10-23) — Whisper on the HP's RTX 2060 turns sermon recordings into text notes in Obsidian, building a searchable archive of past sermons. Decide: where recordings come from, and which Whisper model fits the 2060's 8 GB alongside Ollama.
-17. **Price-drop watcher** (added 2026-10-23) — watchlist for more than games: games via IsThereAnyDeal's official API, Amazon via camelcamelcamel alerts, other stores only where their terms allow it (no ToS-breaking scraping). Price drops post to Rocket.Chat.
-18. **Kids' savings bot** (added 2026-10-23) — kids DM a Rocket.Chat bot (e.g., "spent 4.50 spend candy", "balance"); a small script on the Acer updates their existing Google Sheet register (spend / save / share) via the official Sheets API and replies with the new balance. Monthly job adds allowance, split across the three categories, and posts it. Extras: undo last entry, gift/birthday deposits, warn before a category goes negative, optional copy or approval to Clark. Start with a strict message format; plain language via `qwen3:8b` later (confirm before saving). Open questions: sheet layout (tab per kid or one register), allowance amounts/split/day, whether kids can log deposits.
-19. **Custom Google TV home screen** (added 2026-10-23) — on the Google TV dongle (not the TCL's Roku side), use developer mode + ADB from a computer on the Wi-Fi (no rooting) to turn off ads/bloat and set a custom home screen; projects to start from: cleanyourtv, tv-detox (disable, don't delete — reversible). Home screen shows: time and date, next Arsenal game, chore reminders, weather, today's TV time (from the daily TV summary), and the YouTube playlists (my-feed + family feed, #15). Custom screensaver (e.g., family photos). On-screen alerts over whatever's playing via HA's official "Notifications for Android TV / Fire TV" integration + its companion app on the dongle (washer done, power out, etc.). Google TV updates can re-enable the stock home screen — re-run the script (optionally on a schedule from the Acer). Separately: on the TCL, Roku → Settings → Privacy → Smart TV Experience → uncheck "Use info from TV inputs" (stops HDMI viewing tracking).
-20. **RSS feed splitter** (added 2026-10-24) — **Status (2026-10-31): done** as the n8n workflow "Kottke feed splitter", served at `https://feeds.superclark.net/webhook/kottke` (Cloudflare route limited to that path). Decided to filter politics out rather than divert it to its own tag. Details in [[Home Server and Network]] → n8n. Later: swap the keyword lists for an Ollama yes/no question ("Is this primarily about politics or government?"); the same workflow could split other feeds.
+- **7. HA auto-updates** — Core and OS only (HACS and add-ons manual); details in [[Changelog]] 2026-10-30. Left: confirm a real "queued" post and the first Saturday install, then mark done. Still skim release notes for breaking changes (GE Home, Matter, Ollama).
+- **16. Sermon transcription** — Whisper on the HP's RTX 2060 turns sermon recordings into Obsidian notes (searchable archive). Decide: where recordings come from, and which Whisper model fits the 2060's 8 GB alongside Ollama.
+- **17. Price-drop watcher** — games via IsThereAnyDeal's official API, Amazon via camelcamelcamel alerts, other stores only where their terms allow (no ToS-breaking scraping). Posts to Rocket.Chat.
+- **18. Kids' savings bot** — kids DM a bot ("spent 4.50 spend candy", "balance"); it updates their Google Sheet register (spend / save / share) via the Sheets API and replies with the new balance. Monthly job adds allowance across the three categories. Extras: undo, gift deposits, negative-balance warning, optional copy to Clark. Strict message format first; plain language via `qwen3:8b` later. Open: sheet layout, allowance amounts/split/day, whether kids can log deposits.
+
+**Parked (off the ranked list):**
+- HA command bot: fall back to built-in Assist when the HP is off.
+- TV summary: add the Roku (not in HA yet).
+- Chores: reply "done" / re-nag (#9/#10); laundry "did you move it?" nag (#8).
+- #15 Family YouTube feed — second my-feed playlist (Wyrmwood Vlogs + kids' channels), same GitHub Actions run.
+- #19 Custom Google TV home screen — Projectivy Launcher installed; full custom dashboard judged not worth it. Still possible: debloat via ADB (cleanyourtv / tv-detox, disable not delete), HA "Notifications for Android TV" on-screen alerts. On the TCL: Roku → Settings → Privacy → Smart TV Experience → uncheck "Use info from TV inputs".
+- #20 RSS feed splitter (done): later, swap the keyword lists for an Ollama yes/no politics check.
 
 ## Hardware side projects
 
-- **Dryer-done detector** — Pi Zero 2 W (32 GB SD card) + ReSpeaker HAT near the dryer; detects the end-of-cycle buzzer → HA notification (same Rocket.Chat webhook and `rest_command.rocketchat_notify` as the washer). Chosen over the Zero W v1.1: 4 cores for audio detection, and it runs standard 64-bit Pi OS (many current images and audio libraries dropped the Zero W's ARMv6). Once it works, enable Pi OS's read-only overlay to cut SD wear and make it safe to unplug.
-- **Air-quality sensor** — XIAO ESP32-S3 (from the ReSpeaker XVF3800 board) + Sensirion SCD41 (CO₂/temp/humidity) on ESPHome → HA alerts for high CO₂.
+- **Dryer-done detector** — Pi Zero 2 W + ReSpeaker HAT near the dryer; detects the end-of-cycle buzzer → `rest_command.rocketchat_notify`. Once working, enable Pi OS's read-only overlay.
+- **Air-quality sensor** — XIAO ESP32-S3 + Sensirion SCD41 (CO₂/temp/humidity) on ESPHome → HA alerts for high CO₂.
 
----
-
-**Spares (not servers):** Pi Zero W v1.1 (with its ReSpeaker HAT), the HP Spectre laptop, and a GMKtec NucBox 3 (KB3: Celeron J4125, 8 GB DDR4 in 1 slot, M.2 SATA SSD, fanless; no AVX, so no MongoDB 7/Rocket.Chat; suits signage or a retro-games box — added 2026-10-23; considering swapping it, with a ~$100 donation, for Zion's NUC10i3FNB to replace the Acer as the watcher, leaning plain Linux with no RAM upgrade). Decided 2026-10-14 to stay at four servers (HA Pi, Pi 5, Acer, Windows).
-
-**Decided against (2026-10-14):** Pi 5 NVMe upgrade (moving write-heavy services to the Acer handles SD wear and the restic backup covers an SD failure); buying a used NUC; Jellyfin/Immich/Frigate.
+**Decided against:** Pi 5 NVMe upgrade, a used NUC, Jellyfin/Immich/Frigate (2026-10-14); dice roller / RPG bot (2026-10-17); UPS/power outage alerts to Rocket.Chat — Clark's phone alerts are enough (2026-11-09). Staying at four servers.
