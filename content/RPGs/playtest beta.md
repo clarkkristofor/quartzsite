@@ -4,6 +4,7 @@ image: https://superclark.net/files/swords-beyond---island-lost-plenty.png
 date: 2026-06-25
 Game: Swords Beyond
 GM: me
+date_finished: 2026-09-20
 ---
 *[[Swords Beyond online rules]]*
 # session notes

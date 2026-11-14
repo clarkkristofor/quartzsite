@@ -9,7 +9,7 @@ My home server:
 Related notes: [[Backup & Restore]] · [[Changelog]] · [[Home Server Tasks]] (to-do list) · [[Websites]] · [[Server project costs]]
 
 ## Current Status
-**Last Updated:** 2026-11-11
+**Last Updated:** 2026-11-13
 ### Active Services
 - Windows Server: 9 services
 - Raspberry Pi 5: 12 services
@@ -41,6 +41,16 @@ My small home network runs on a Flint 2 router. There is only one network, broad
 | `ai` | CNAME | `hp` — Open WebUI at `http://ai.osnet.home:3000` (added 2026-10-17) |
 
 - IPv6 records use each machine's stable address on the `fdcb:b9c8:acf1:0::/64` prefix. Don't use `fe80::` (link-local), `temporary` addresses, the router's DHCPv6 `/128` leases (e.g. `::1fa`, `::3f5`), or the second `fd4a:595a:fd35:85e0::` prefix (being retired; source unknown).
+
+**Tailscale (remote access; set up 2026-11-13):**
+- Account signs in with **GitHub** (clarkkristofor@github)
+- Tailnet devices: `gl-mt6000` (Flint 2), `clarks-server`, `clarks-yoga`, `pixel-9`. Key expiry disabled on all four
+- **Flint 2** (Tailscale IP `100.116.227.72`): Advertise LAN Subnets on (approved), Run Exit Node on (approved), IP Masquerading off. The only exit node — the exit node on `clarks-server` was turned off 2026-11-13
+- Tailscale on the Flint 2 is bundled with the GL.iNet firmware and updates only with firmware. The admin console's "Update" button fails with "tailscale executable not found in expected place" — expected. Decided 2026-11-13 not to use the community update script
+- **DNS** (admin console → DNS): custom nameservers `192.168.8.161` (Pi 5 AdGuard) and `192.168.8.198` (Acer AdGuard), not restricted to a domain, "Use with exit node" on; Override DNS servers on. Away from home, devices get ad-blocking and `osnet.home` names. Tested from the Pixel on cellular: `uptime.osnet.home:3001` loaded
+- Pixel: Android Private DNS must stay Off or Automatic, or Tailscale DNS is bypassed
+- If home internet is down while away, DNS fails on Tailscale devices — turn Tailscale off on the phone
+- **Rule of thumb:** admin pages only I use are reached through Tailscale, with no public hostname. Cloudflare routes are only for things family or apps connect to
 
 **Power:** Modem, router, Pi 5, Home Assistant Pi, and the Acer laptop are on an APC UPS (see Power / UPS below).
 ## Devices Overview
@@ -140,17 +150,17 @@ Staying at four servers. A fifth box only for a specific new workload (e.g., Jel
 | Docker                | Windows        |                                              |                          | baremetal         | 2024-11-19                            |
 | Minecraft server      | Windows        | - 25565                                      |                          | baremetal         | 2025-01-02                            |
 | Ollama                | Windows        | - 11434 (LAN, since 2026-10-17)              |                          | baremetal         | 2026-07-03                            |
-| Open WebUI            | Windows        | - 3000                                       | ai.superclark.net (Access) | Docker            | 2026-07-03                            |
+| Open WebUI            | Windows        | - 3000                                       | — (Tailscale only since 2026-11-13) | Docker            | 2026-07-03                            |
 | searxng               | Windows        | - 8085                                       |                          | Docker            | 2026-07-03                            |
 | RustDesk Server       | Windows        | see Notes                                    |                          | Docker            | 2024-11-19                            |
 | Portainer             | Windows        | - 9443 (Web UI)<br>- 8000 (Web UI)           |                          | Docker            | 2024-11-19                            |
 | Docker                | Raspberry Pi 5 |                                              |                          | baremetal         | 2024-11-29                            |
-| Portainer             | Raspberry Pi 5 | - 9443 (Web UI)<br>- 8000 (Web UI)           | portainer.superclark.net (Access) | Docker            | 2024-11-29                            |
+| Portainer             | Raspberry Pi 5 | - 9443 (Web UI)<br>- 8000 (Web UI)           | — (Tailscale only since 2026-11-13) | Docker            | 2024-11-29                            |
 | KOreader sync         | Raspberry Pi 5 | - 3003 (host) → 3000                         | sync.superclark.net      | Docker            | 2026-04-13                            |
 | Calibre-web           | Raspberry Pi 5 | - 8083                                       | books.superclark.net     | Docker            | 2026-04-13                            |
 | Technitium            | Raspberry Pi 5 | - 5380 (Web UI)                              |                          | Docker            | 2025-04-04                            |
 | cloudflared           | Raspberry Pi 5 |                                              |                          | Docker            | 2024-12-13                            |
-| changedetector.io     | Raspberry Pi 5 | - 5000 (Web UI)                              | changes.superclark.net (Access) | Docker            | 2024-12-18                            |
+| changedetector.io     | Raspberry Pi 5 | - 5000 (Web UI)                              | — (Tailscale only since 2026-11-13) | Docker            | 2024-12-18                            |
 | Watchtower (`nickfedor/watchtower:latest`) | Raspberry Pi 5 |                                              |                          | Docker            | 2024-12-22                            |
 | Adguard Home          | Raspberry Pi 5 | - 53 (DNS)<br>- adguard.osnet.home (Web UI)  |                          | Docker            | 2026-09-22                            |
 | Pi backup (restic)    | Raspberry Pi 5 |                                              |                          | baremetal (cron)  | 2026-09-22                            |
@@ -175,30 +185,32 @@ Staying at four servers. A fifth box only for a specific new workload (e.g., Jel
 ### Notes
 - All dates are in America/Chicago timezone
 - RustDesk Server consists of two Docker containers (hbbr ports: 21119, 21117 and hbbs 21115, 21116, 21118)
-- All Cloudflare Tunnel routes run through cloudflared on the Pi 5 (tunnel `pi5`). The HP's own cloudflared (Windows service, tunnel `windows server`, stuck on 2026.6.1) was uninstalled and its tunnel deleted 2026-10-26, and `ai.superclark.net` moved to the Pi 5's tunnel → `http://192.168.8.180:3000`. Routes are in Cloudflare Zero Trust → Networks → Tunnels → *Published application routes*. `chat.superclark.net` → `http://192.168.8.198:3002` (Acer) and `ai.superclark.net` → `http://192.168.8.180:3000` (HP), so these still depend on the Pi 5's cloudflared (`uptime.superclark.net` route removed 2026-10-26); other Pi 5 routes use container names (e.g. was `http://rocketchat:3000`)
+- All Cloudflare Tunnel routes run through cloudflared on the Pi 5 (tunnel `pi5`). The HP's own cloudflared (Windows service, tunnel `windows server`, stuck on 2026.6.1) was uninstalled and its tunnel deleted 2026-10-26. Routes are in Cloudflare Zero Trust → Networks → Tunnels → *Published application routes*. `chat.superclark.net` → `http://192.168.8.198:3002` (Acer) and `feeds.superclark.net` → `http://192.168.8.198:5678` (Acer), so these still depend on the Pi 5's cloudflared (`uptime.superclark.net` route removed 2026-10-26, `ai.superclark.net` 2026-11-13); other Pi 5 routes use container names (e.g. was `http://rocketchat:3000`)
 - Rocket.Chat (Acer): compose stack in `~/docker/rocketchat/` — `registry.rocket.chat/rocketchat/rocket.chat:8.9.0` (pinned; no major.minor tags exist) + `mongo:7.0` (container `rc-mongodb`, replica set `rs0`, data in `./data/db`). Site URL `https://chat.superclark.net`. No Watchtower on the Acer — upgrade manually
 - Uptime Kuma (Acer): compose stack in `~/docker/uptime-kuma/` — `louislam/uptime-kuma:1.23.17` (pinned), data in `./data` (SQLite `kuma.db`), no docker.sock mount. (Old Pi stack and volume removed 2026-11-09)
 - n8n (Acer, added 2026-10-31): compose stack in `~/docker/n8n/` — `docker.n8n.io/n8nio/n8n:2.48.1` (pinned; upgraded from 2.45.7 on 2026-11-11; upgrade manually: change the tag, `docker compose pull && docker compose up -d`), data in `./data` (SQLite, owned by uid 1000), settings in `.env` (chmod 600). **`N8N_ENCRYPTION_KEY` is in the password manager** — n8n encrypts saved credentials with it, so a restore is useless without it. Owner login in password manager. LAN only, except one Cloudflare route (`feeds.superclark.net`, path `^/webhook/kottke$`, HTTP → `192.168.8.198:5678`; any other path gets the tunnel's blank 404, so the editor isn't public); `WEBHOOK_URL` `http://192.168.8.198:5678/`, so Rocket.Chat outgoing webhooks can call `http://192.168.8.198:5678/webhook/…` locally. Automation engine for non-HA projects (see [[Home Server Tasks]])
 - DIUN (Acer, added 2026-11-09): compose stack in `~/docker/diun/` — `crazymax/diun:4.33.1` (pinned), `hostname: acer`, data in `./data`, docker.sock read-only. Notifies only; never updates anything. Checks daily at 8 AM, 2 workers (registry rate limits). Watches every Acer container for newer version tags (top 5 by semver, tags like `1.2.3` / `v1.2.3` only); first scan silent. `rc-mongodb` excluded with label `diun.enable=false` — Mongo upgrades follow Rocket.Chat's supported versions. Posts to #alerts via Slack-format incoming webhook "DIUN" (local URL in `.env`, chmod 600). Test: `docker compose exec diun diun notif test`. Upgrades stay manual: wait ~7 days, back up, change the tag, `docker compose pull && docker compose up -d`.
 - n8n workflow **Kottke feed splitter** (2026-10-31, published): Webhook (GET `kottke`, responds via Respond to Webhook) → RSS Read `https://feeds.kottke.org/main` → If (title matches the broad politics regex OR `contentSnippet` matches the short strong-terms regex, both with `\b…\b`, Ignore Case; Always Output Data on) → Edit Fields *Tag politics* / *Tag other* (`pile`, Include Other Input Fields) → Merge (Append) → Code (keeps the pile named by `?feed=`, default `other`; builds RSS 2.0) → Respond to Webhook (Text, `Content-Type: application/rss+xml; charset=utf-8`). Feedbin subscribes to `https://feeds.superclark.net/webhook/kottke` (non-politics only; original Kottke feed unsubscribed); `?feed=politics` shows what's filtered out. Test URL (`/webhook-test/kottke`) works once per Listen click; edits need re-publishing
+- changedetection.io (Pi 5) notifications (2026-11-13): Rocket.Chat incoming webhook **"changedetection"** (Post to Channel = my DM, Post as `alerts`, alias `changedetection`, no script). In changedetection → Settings → Notifications, Apprise URL `rocket://192.168.8.198:3002/?mode=webhook&webhook=ID/TOKEN` (local URL; never add a channel or `@user` — Rocket.Chat rejects overrides). Title `{{watch_title}} change`, body `{{watch_url}} had a change.` / `---` / `{{diff_added|truncate(800)}}` / `---` (`diff_added` also includes `(changed)` lines) — the full diff exceeded Rocket.Chat's 5,000-character limit (`error-message-size-exceeded`; Apprise misreports it as "Channel/RoomId is wrong format")
+- changedetection.io watch **Flint 2 firmware (stable)** (2026-11-13): watches GL.iNet's firmware API `https://firmware-api.gl-inet.com/cloud-api/model/info?model=mt6000` (the dl.gl-inet.com page is drawn by JavaScript, so the plain fetcher sees nothing there). Basic HTTP fetcher, checked daily. Filter `jq:[.info[] | select(.stage=="RELEASE")][0] | {version, release_time}` keeps only the newest stable release (skips TESTING/SNAPSHOT), so it alerts only on a new stable firmware — which is also how Tailscale on the Flint 2 gets updated. Baseline 4.11.0 (2026-09-28). Fallback filter: `json:$.info[?(@.stage=='RELEASE')].version`. Adding or changing a filter triggers one alert as the saved snapshot changes
 - Backups for all servers: see [[Backup & Restore]]
 
-### Public hostnames & Cloudflare Access (reviewed 2026-10-26)
-Rule of thumb: admin pages only I open in a browser go behind Cloudflare Access; anything apps or family connect to stays open behind its own login (Access's sign-in page breaks apps and e-readers); anything that doesn't need to be public gets no route.
+### Public hostnames (reviewed 2026-11-13)
+Rule of thumb (since 2026-11-13, replaces the Cloudflare Access rule): admin pages only I use are reached through Tailscale, with no public hostname. Cloudflare routes are only for things family or apps connect to, open behind their own logins. Remaining public hostnames: `chat`, `books`, `sync`, `feeds`.
 
 | Hostname | Goes to | Protection |
 | --- | --- | --- |
-| portainer.superclark.net | Pi 5 Portainer (9443) | Cloudflare Access |
-| changes.superclark.net | Pi 5 changedetection.io (5000) | Cloudflare Access |
+| ~~portainer.superclark.net~~ | Pi 5 Portainer (9443) | Removed 2026-11-13 — use `https://pi5.osnet.home:9443` via Tailscale (self-signed cert warning expected) |
+| ~~changes.superclark.net~~ | Pi 5 changedetection.io (5000) | Removed 2026-11-13 — use `http://pi5.osnet.home:5000` via Tailscale |
 | chat.superclark.net | Acer Rocket.Chat (3002) | Open — phone apps; Rocket.Chat login (turn on 2FA) |
 | books.superclark.net | Pi 5 Calibre-Web (8083) | Open — e-readers; Calibre-Web login (anonymous browsing off, no default admin account) |
 | sync.superclark.net | Pi 5 KOReader Sync (3003) | Open — e-readers; close registration once devices are set up |
-| ai.superclark.net | HP Open WebUI (`192.168.8.180:3000`) via the Pi 5's tunnel (since 2026-10-26) | Cloudflare Access (added 2026-10-26) |
+| ~~ai.superclark.net~~ | HP Open WebUI (`192.168.8.180:3000`) | Removed 2026-11-13 — use `http://ai.osnet.home:3000` via Tailscale |
 | feeds.superclark.net | Acer n8n (`192.168.8.198:5678`), path `^/webhook/kottke$` only (added 2026-10-31) | Open — Feedbin fetches it; only the Kottke feed webhook is exposed |
 | ~~uptime.superclark.net~~ | Acer Uptime Kuma | Route deleted 2026-10-26 — use `http://192.168.8.198:3001` at home |
 | ~~cloud.superclark.net~~ | HP `192.168.8.180:8080` | Route deleted 2026-10-26 |
 
-- **Access setup:** Zero Trust → **Access controls → Policies**: reusable policy **"Clark only"** (Allow, Include → Emails → my address, 24 h session). **Access controls → Applications**: one self-hosted app per protected hostname (Destinations → public hostname, no path), "Clark only" policy attached. Login method: One-time PIN (under **Integrations → Identity providers**; on by default). Reuse "Clark only" for any new admin-only hostname.
+- **Cloudflare Access:** no Access apps remain (removed 2026-11-13 with their hostnames). The "Clark only" policy was kept for future use. Original setup: Zero Trust → **Access controls → Policies**: reusable policy **"Clark only"** (Allow, Include → Emails → my address, 24 h session). **Access controls → Applications**: one self-hosted app per protected hostname (Destinations → public hostname, no path), "Clark only" policy attached. Login method: One-time PIN (under **Integrations → Identity providers**; on by default). Prefer Tailscale over a new Access app for admin-only pages.
 - **Optional, not done:** WAF custom rule (Security → WAF) blocking non-US traffic to `books`, `sync`, `chat` — apps keep working; skip if anyone needs access while abroad.
 - cloudflared on the Pi 5 (the only connector now) confirmed at **2026.10.4** on 2026-10-26 (`docker logs cloudflared | grep -i version`). Connector versions for all tunnels: Zero Trust → Networks → Tunnels → tunnel → Connectors.
 
@@ -237,11 +249,9 @@ Push URLs: Pi 5 backup script (`KUMA=` in `/root/pi-backup.sh`) and HA `secrets.
 | NUT server                    | Pi 5    | TCP Port          | `192.168.8.161:3493`                                    | NUT daemon only, not USB link                                                                        |
 | Public - Books                | Public  | HTTP(s)           | `https://books.superclark.net`                          | Cert expiry on                                                                                       |
 | Public - Chat                 | Public  | HTTP(s)           | `https://chat.superclark.net`                           | Cert expiry on                                                                                       |
-| Public - Changes              | Public  | HTTP(s)           | `https://changes.superclark.net`                        | Cert expiry on. Behind Cloudflare Access since 2026-10-26 — now only shows the login page is up      |
-| Public - Portainer (Pi)       | Public  | HTTP(s)           | `https://portainer.superclark.net`                      | Cert expiry on. Behind Cloudflare Access since 2026-10-26 — now only shows the login page is up      |
-| Public - Uptime               | Public  | HTTP(s)           | `https://uptime.superclark.net`                         | **Route deleted 2026-10-26 — delete this monitor** (it will go red)                                  |
-| Public - AI                   | Public  | HTTP(s)           | `https://ai.superclark.net`                             | Pi 5's cloudflared → HP Open WebUI (port 3000) since 2026-10-26; behind Access — only shows login page is up |
 | Public - Feeds                | Public  | HTTP(s)           | `https://feeds.superclark.net/webhook/kottke`           | Added 2026-10-31 — n8n Kottke feed via the Pi 5's cloudflared                                        |
+| Local - Portainer (Pi)        | Pi 5    | HTTP(s)           | `https://192.168.8.161:9443/`                           | Ignore TLS (self-signed)                                                                             |
+| changedetection.io            | Pi 5    | HTTP(s)           | `http://192.168.8.161:5000`                             | Added 2026-11-13 (replaces Public - Changes)                                                         |
 | Local - Portainer (Win)       | —       | HTTP(s)           | `https://hp.osnet.home:9443`                            | Ignore TLS (self-signed)                                                                             |
 | Beszel hub                    | Acer    | HTTP(s)           | `http://192.168.8.198:8090`                             | Added 2026-10-19. New group `Acer` for the Acer's monitors                                           |
 | n8n                           | Acer    | HTTP(s)           | `http://192.168.8.198:5678/healthz`                     | Added 2026-10-31                                                                                     |
