@@ -11,7 +11,7 @@ image: https://books.google.com/books/content?id=sZ6ODQAAQBAJ&printsec=frontcove
 tags:
   - book
 publish: true
-date_finished: 2026-03-03
+date_finished: 2027-03-03
 ---
 
 ![cover|250](https://books.google.com/books/content?id=sZ6ODQAAQBAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api&fife=w800)
