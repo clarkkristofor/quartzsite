@@ -1,4 +1,4 @@
-[[Christmas 2025]] [[Christmas 2024|'24]] [[Christmas 2023|'23]] [[Christmas 2022|'22]][[Christmas 2021|'21]]
+[[Christmas 2026]] [[Christmas 2025|'25]] [[Christmas 2024|'24]] [[Christmas 2023|'23]] [[Christmas 2022|'22]] [[Christmas 2021|'21]]
 [[Special 2024]]
 
 ### clothes

@@ -33,7 +33,7 @@ Lore and learning are cut as a stat.
 - **BODY** — exercising strength, speed, toughness, nimbleness, or stamina.  
 - **HEART** — exercising loyalty, persuasion, empathy, cunning, or wisdom.  
 - **MIND** — exercising learning, analysis, perception, composure, or tinkering.  
-- **BEYOND** — using [[Swords Beyond online rules#Magic|magic]], or accessing or channeling a Power Beyond this world.
+- **BEYOND** — using [[Swords Beyond core rules#Magic|magic]], or accessing or channeling a Power Beyond this world.
 
 
 #### Complication
@@ -82,4 +82,4 @@ Those who remain in Lost Plenty and other Over Reach towns are proud and unwilli
 
 **You are a hunter.** You have come to Lost Plenty from your home, following the shadow's tendrils. You are here to defend Lost Plenty's people and defeat the shadow, before it's too late. 
 
-You’re not alone. While hunches and feelings from [[Swords Beyond online rules#The Realms Beyond|the Realms Beyond]] are common, you *know* one of these **Powers** and it knows *you*. You call on it to do wondrous things, but it calls on you too. Your destiny is also intertwined with a **pact** of other hunters. And, of course, with the people of Lost Plenty. %%
+You’re not alone. While hunches and feelings from [[Swords Beyond core rules#The Realms Beyond|the Realms Beyond]] are common, you *know* one of these **Powers** and it knows *you*. You call on it to do wondrous things, but it calls on you too. Your destiny is also intertwined with a **pact** of other hunters. And, of course, with the people of Lost Plenty. %%

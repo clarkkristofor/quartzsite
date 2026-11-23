@@ -1,6 +1,6 @@
 # Home Server To-Do
 
-**Updated:** 2026-11-09 (time estimates revised; UPS alert to Rocket.Chat dropped) · Current setup: [[Home Server and Network]] · Finished work and history: [[Changelog]]
+**Updated:** 2026-11-23 (Uptime Kuma 2.x done; n8n 3.x is now #5) · Current setup: [[Home Server and Network]] · Finished work and history: [[Changelog]]
 
 Open tasks for the home server setup (Windows Server + Raspberry Pi 5 + Home Assistant Pi + Acer laptop). Resilience first, then home automation projects.
 
@@ -65,6 +65,21 @@ Read-only: no tools that can change anything.
 
 ---
 
+## 5. n8n 2.48.1 → 3.x (Acer)
+
+**Deadline:** none set | **Cost:** $0 | **Time:** ~45 min | **Difficulty:** 4/10
+
+**Why it matters:** DIUN shows 3.3.0 available (2026-11-19). Major version — read the 3.0 breaking changes before upgrading.
+
+**Wait until:** 3.x is marked stable (expected early December 2026) **and** a first patch release is out (3.x.1+), as with Rocket.Chat. As of 2026-11-23, 3.x was early access/beta and stable was 2.48.7. The upgrade is one-way — no going back to 2.x without the backup. Skipping small 2.x bumps until then (decided 2026-11-23), unless one fixes a security issue.
+
+**Steps:**
+1. Run Settings → Migration Report (read-only; already in 2.48.1) — move to the newest 2.x first if it asks. Read the 3.0 breaking-changes notes; check they don't hit the Kottke workflow's nodes (Webhook, RSS Read, If, Edit Fields, Merge, Code, Respond to Webhook). Known to check: If node "Always Output Data" now adds an empty item only when every output is empty (Kottke's If has it on); Code node task timeout drops 300 → 60 sec.
+2. Back up `data` + `.env` (as on 2026-11-11), change the pinned tag, pull and start.
+3. Test `https://feeds.superclark.net/webhook/kottke` and `?feed=politics`; check the Uptime Kuma "n8n" and "Public - Feeds" monitors.
+
+**Not yet:** Rocket.Chat 9.0.0 — staying on 8.9.0 LTS until 9.0.1+ (see [[Changelog]] 2026-11-11).
+
 ---
 
 # Home automation projects
@@ -74,30 +89,27 @@ Ranked by interest and usefulness. Difficulty is challenge + time, 0–10.
 | #   | Project                                                      | Difficulty |
 | --- | ------------------------------------------------------------ | ---------- |
 | 7   | HA auto-updates with 7-day wait — set up, awaiting first run | 3/10       |
-| 16  | Sermon transcription (Whisper on the HP)                     | 4/10       |
-| 17  | Price-drop watcher → Rocket.Chat                             | 4/10       |
-| 18  | Kids' savings bot (spend/save/share) in Rocket.Chat          | 6/10       |
-| 13  | Ollama chat bot in Rocket.Chat                               | 6/10       |
+| 21  | AI Diplomacy — play against local LLMs on the HP             | 3-4/10     |
+| 22  | AdGuard privacy report → Rocket.Chat (weekly)                | 3-4/10     |
+| 23  | Smart Feedbin filter — daily top 10 by interest (Ollama)     | 5/10       |
 
-**Where to build:** non-HA projects in n8n on the Acer (`http://n8n.osnet.home:5678`) — #13, #16 (orchestration; Whisper on the HP), #17, #18, Resilience #4, possibly the checking side of Resilience #2 and #3. Projects tied to HA devices stay in HA.
+
+**Where to build:** non-HA projects in n8n on the Acer (`http://n8n.osnet.home:5678`) — #22, #23 (scoring on the HP), Resilience #4, possibly the checking side of Resilience #2 and #3. Projects tied to HA devices stay in HA.
 
 **Notes:**
 - **7. HA auto-updates** — Core and OS only (HACS and add-ons manual); details in [[Changelog]] 2026-10-30. Left: confirm a real "queued" post and the first Saturday install, then mark done. Still skim release notes for breaking changes (GE Home, Matter, Ollama).
-- **16. Sermon transcription** — Whisper on the HP's RTX 2060 turns sermon recordings into Obsidian notes (searchable archive). Decide: where recordings come from, and which Whisper model fits the 2060's 8 GB alongside Ollama.
-- **17. Price-drop watcher** — games via IsThereAnyDeal's official API, Amazon via camelcamelcamel alerts, other stores only where their terms allow (no ToS-breaking scraping). Posts to Rocket.Chat.
-- **18. Kids' savings bot** — kids DM a bot ("spent 4.50 spend candy", "balance"); it updates their Google Sheet register (spend / save / share) via the Sheets API and replies with the new balance. Monthly job adds allowance across the three categories. Extras: undo, gift deposits, negative-balance warning, optional copy to Clark. Strict message format first; plain language via `qwen3:8b` later. Open: sheet layout, allowance amounts/split/day, whether kids can log deposits.
+- **21. AI Diplomacy** — Clark plays one power against AI powers running on the HP (Ollama), slow play-by-mail pace.
+  - **Start with DiploMind** (github.com/jansona/DiploMind, AGPL-3.0; Python 3.11+, FastAPI, uv; current work on the `dot/cloud-rebuild` branch). Already has human + AI seats, a web board (3D with 2D fallback, mobile layout, lobby), legal-orders-only order entry, and negotiation rounds (up to 3 staged messages per round, public/private channels, "ready" to end early). Early one-person project (2 stars); its AIs still make illegal orders and false claims; default opponent is a non-LLM heuristic for testing.
+  - **Steps:** (1) run DiploMind on the HP with the mock config to try the board; (2) connect Ollama (needs its own setup) and play a short game vs `qwen3:8b` / a 14B — time a full phase; (3) if the AIs are fun, add: optional "are you sure?" hints (toggle), post-game reveal of each AI's private reasoning, one phase per evening (AIs work overnight) with optional Rocket.Chat pings. If the AIs are weak, compare Good Start Labs' AI Diplomacy agents (github.com/goodstartlabs/ai_diplomacy) or mix in a cloud model.
+  - **Order entry wishes** (check DiploMind against these): legal-only choices per unit, warning for units with no order (they hold), map arrows previewing moves, plain-English confirmation screen (Submit / Edit), optional hints for legal-but-likely-wrong orders.
+  - **Idea source:** github.com/igposner/diplomacy-v2 (DeepSeek only, 2-minute real-time phases) — borrow its promise tracking (AIs state commitments with orders, scored kept / broken each phase; good for the "who stabbed me" reveal) and message limits (no flooding, no near-duplicates).
+  - **Hosted services tried (2026-11-21):** diplomacy.kevinandpauline.com — very rough; AIs stalled for over an hour, reload gave an Azure 404; dropped. olamarena.com/arena/diplomacy — one human seat, AIs fill the rest, model names shown, ends winter 1907; sign-up failed ("email rate limit exceeded" — their side), retry later.
 
-**Parked (off the ranked list):**
-- HA command bot: fall back to built-in Assist when the HP is off.
-- TV summary: add the Roku (not in HA yet).
-- Chores: reply "done" / re-nag (#9/#10); laundry "did you move it?" nag (#8).
-- #15 Family YouTube feed — second my-feed playlist (Wyrmwood Vlogs + kids' channels), same GitHub Actions run.
-- #19 Custom Google TV home screen — Projectivy Launcher installed; full custom dashboard judged not worth it. Still possible: debloat via ADB (cleanyourtv / tv-detox, disable not delete), HA "Notifications for Android TV" on-screen alerts. On the TCL: Roku → Settings → Privacy → Smart TV Experience → uncheck "Use info from TV inputs".
-- #20 RSS feed splitter (done): later, swap the keyword lists for an Ollama yes/no politics check.
+- **22. AdGuard privacy report** — weekly post to Clark (Rocket.Chat): which devices made the most DNS lookups, top blocked and tracking domains per device, new domains a device started contacting (e.g., "the TV contacted 40 tracking domains"). Data from AdGuard Home's query log and stats (Pi 5 main, Acer backup); built in n8n on the Acer; optional plain-English summary via `qwen3:8b`. Pairs with Resilience #1 (IoT VLAN) — shows which devices most need isolating, and later whether the VLAN changed anything. Read-only.
+- **23. Smart Feedbin filter** — the LLM scores each day's new Feedbin articles against Clark's interests and produces a daily "top 10" (filtered RSS feed, like the Kottke splitter, or starred items in Feedbin). Built in n8n on the Acer; scoring by Ollama on the HP (`qwen3:8b` first). Use Feedbin's official API only. Open: write an interests list, decide feed vs. stars, what happens when the HP is off (skip the day or pass everything through).
 
 ## Hardware side projects
 
-- **Dryer-done detector** — Pi Zero 2 W + ReSpeaker HAT near the dryer; detects the end-of-cycle buzzer → `rest_command.rocketchat_notify`. Once working, enable Pi OS's read-only overlay.
 - **Air-quality sensor** — XIAO ESP32-S3 + Sensirion SCD41 (CO₂/temp/humidity) on ESPHome → HA alerts for high CO₂.
 
 **Decided against:** Pi 5 NVMe upgrade, a used NUC, Jellyfin/Immich/Frigate (2026-10-14); dice roller / RPG bot (2026-10-17); UPS/power outage alerts to Rocket.Chat — Clark's phone alerts are enough (2026-11-09). Staying at four servers.

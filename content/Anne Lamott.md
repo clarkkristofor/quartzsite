@@ -1,0 +1,1 @@
+Not try harder. Resist less.

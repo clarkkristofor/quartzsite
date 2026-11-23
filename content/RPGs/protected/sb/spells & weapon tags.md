@@ -13,7 +13,7 @@ the Dead
 - ancestral
 - haunted
 - necrotic
-- ritual: Shatters to protect you from a 6- [[Swords Beyond online rules#Fate Rolls|fate roll]] once. Disintegrates afterward.
+- ritual: Shatters to protect you from a 6- [[Swords Beyond core rules#Fate Rolls|fate roll]] once. Disintegrates afterward.
 - spectral
 the Deeps
 - bounteous

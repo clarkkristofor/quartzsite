@@ -5,7 +5,7 @@ date: 2026-09-24
 Game: Swords Beyond
 GM: me
 ---
-*[[Swords Beyond online rules]]*
+*[[Swords Beyond core rules]]*
 # session notes
 
 ## 3. baby demon daddy

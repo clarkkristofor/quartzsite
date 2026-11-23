@@ -8,7 +8,8 @@ password:
 unlisted: true
 ---
 ![[swords beyond - logo - online rules.png|center]]
-**a fast & loose PbtA fantasy rpg**
+**a fantasy rpg about hunting monsters and sparing people, even the ones who act like monsters**
+https://creators.spotify.com/pod/show/daydreaming-about-dragons/episodes/Daydreaming-about-Dragons-E70S2---Table-Technique-Making-World-HistoryLore-Relevant--Inspiration-Goat-My-Neighbor-Totoro-and-Kikis-Delivery-Service-eo5rg9
 # Front Matter
 ## Quick Links
 Also note the red Table of Contents toggle in the lower right.
@@ -25,6 +26,8 @@ Also note the red Table of Contents toggle in the lower right.
 inspired by *[Bump in the Dark, revised edition](https://jexjthomas.itch.io/bump-in-the-dark),* by Jex Thomas, and *[Apocalypse World](https://lumpley.games/apocalypseworld/)* and *[Under Hollow Hills](https://lumpley.games/under-hollow-hills-about-the-game/)* by by D. Vincent and Meguey Baker, and Masks by Brendan Conway.
 
 with additional inspiration from *[13th Age](https://pelgranepress.com/13th-age/)* by Rob Heinsoo & Jonathan Tweet, *[Maze Rats](https://questingbeast.itch.io/maze-rats)*  Ben Milton, *[FIST: Ultra Edition](https://claymorerpgs.itch.io/fist)*, by B. Everett Dutton, Ripley Caldwell, T.H. Cochlin, Back-Alley Coalition, Max Danle, and *[50/50](https://docs.google.com/document/d/1NLD_KhZwrKRz3sIquZDSW_Wx__7My6Kdg1Jbk6hF7Mw/edit?pli=1&tab=t.0)* by John Harper
+
+==add Rapscallion==
 ## Resources
 - ***[Downloads](https://drive.google.com/drive/folders/1rtNJpaatjz2WGgBjgilf1uSoaCo8LBJX?usp=sharing)***
 - ***Playtests***: [[playtest delta|delta]], gamma, [[playtest beta|beta]], alpha
@@ -37,7 +40,7 @@ But beneath the March Lord's nose, an ominous **shadow** creeps. One the Coastal
 
 **You are a hunter.** You have come to Lost Plenty from your home, following the shadow's tendrils. You are here to defend Lost Plenty's people and defeat the shadow, before it's too late. 
 
-You’re not alone. While hunches and feelings from [[Swords Beyond online rules#The Realms Beyond|the Realms Beyond]] are common, you *know* one of these **Powers** and it knows *you*. You call on it to do wondrous things, but it calls on you too. Your destiny is also intertwined with a **pact** of other hunters. And, of course, with the people of Lost Plenty.
+You’re not alone. While hunches and feelings from [[Swords Beyond core rules#The Realms Beyond|the Realms Beyond]] are common, you *know* one of these **Powers** and it knows *you*. You call on it to do wondrous things, but it calls on you too. Your destiny is also intertwined with a **pact** of other hunters. And, of course, with the people of Lost Plenty.
 
 ![[Swords Beyond - blank map.png]]
 *1 hex = 4 days travel*
@@ -46,37 +49,49 @@ You’re not alone. While hunches and feelings from [[Swords Beyond online rules
 ## the DEAD
 **...is beyond this life.** It does not steal our beloved or cause our grief, so we do not fear it. Instead we fear the envious and the resentful who in death shun the Dead and return to haunt us. It protects us, and we revere it, because it is the rest and reward of our ancestors who yet guide us.
 
+Powers of the Dead give hunters the grace of guidance.
+
 ➜ *See also the Dead's [[#Cultures of the DEAD|cultures]] and [[#the DEAD (100)|tethers]].*
 ## the DEEPS
 **...are beyond comprehension.** They hide in the dark, in dreams and nightmares, in madness and desire, in the riches buried within the earth, the leviathans buried beneath the sea, and the mysteries buried between the stars. We can only respect them and humble ourselves, lest we awaken their horrors.
+
+Powers of the Deeps give hunters the grace of curiosity.
 
 ➜ *See also the Deeps' [[#Cultures of The DEEPS the DEEPS|cultures]] and [[#the DEEPS (200)|tethers]].*
 ## the HEAVENS
 **...are beyond the skies.** They are home to our gods and the source of goodness, blessing, and harmony. To the Heavens we give thanks and direct our prayers—not least, to war against demons of the Hells and to bear the departed safely to the Dead. Though there may be corners of the Heavens, adjacent to the Deeps, to which other prayers are raised.
 
+Powers of the Heavens give hunters the grace of forgiveness.
+
 ➜ *See also the Heavens' [[#Cultures of the HEAVENS|cultures]] and [[#the HEAVENS (300)|tethers]].*
 ## the HELLS
-**...are beyond forgiveness.** They curse the world with rage and wickedness. Their hordes bring only chaos, corruption, pestilence, and woe. Unless they are carefully bound, very carefully indeed.
+**...are beyond forgiveness.** They are the prison where rage and wickedness are held to account. What escapes the Keepers brings only chaos, corruption, pestilence, and woe. Unless it is carefully bound, very carefully indeed.
+
+Powers of the Geeks give hunters the grace of justice.
 
 ➜ *See also the Hells' [[#Cultures of the HELLS|cultures]] and [[#the HELLS (400)|tethers]].*
 ## the WEFT
-**...is beyond explaining.** It defies logic. It deceives with illusion. It is unnatural, wondrous, and dreadful. Its Powers chafe those of the Wild and the Heavens alike and yet also banish Hells’ demons.
+**...is beyond explaining.** It defies logic. It deceives with illusion. It is unnatural, wondrous, and dreadful. Its Powers chafe those of the Wild and the Heavens alike and yet also banish demons.
+
+Powers of the Dead give hunters the grace of possibility.
 
 ➜ *See also the Weft's [[#Cultures of the WEFT|cultures]] and [[#the WEFT (500)|tethers]].*
 ## the WILD
-**...is life beyond containing or taming.** The world is thriven by the Wild, which gives healthy life (thus defying the Hells), creates new life out of death (thus sharing some mysterious kinship with the Dead), and stirs love that makes both possible (thus echoing many songs of the Heavens). But Powers of the Wild break many things too. Boundaries, taboos, stone, and the like.
+**...is life beyond containing or taming.** The world is thriven by the Wild, which gives healthy life (thus defying demons), creates new life out of death (thus sharing some mysterious kinship with the Dead), and stirs love that makes both possible (thus echoing many songs of the Heavens). But Powers of the Wild break many things too. Boundaries, taboos, stone, and the like.
+
+Powers of the Dead give hunters the grace of life.
 
 ➜ *See also the Wild's [[#Cultures of the WILD|cultures]] and [[#the WILD (600)|tethers]].*
 
 # Playing Hunters
 ## Agenda
-**Do what your hunter would do.** The game gives you **the bones** – _kin_, _culture_, _belief_, and _drive_ – and dumps them in the middle of your hunter sheet. Put flesh on those bones by acting on them, give them life by letting your hunter embody them, struggle with them, and – with *belief* and *drive* especially – change them.
+**A Power of the Realms Beyond favors your hunter.** That favor came first and freely. It’s a calling, not a loan. You answer it by hunting monsters of shadow and sparing people, even the ones who act like monsters. You also keep faith with your fellow hunters. But the shadow is always close, offering relief from what that costs. Everything it offers is a debt.
 
-The game also gives you **the incentive**. Doing what your hunter would do will earn you *hope*, which you can use to unlock new hunter abilities and bonuses.
+**Earn hope.** Struggling to live up to your calling earns you hope, whether you succeed or fall short. Spend it to unlock new abilities and bonuses.
 
-**Make your hunter real.** Play like your hunter is real person living in a real world. Multifaceted, flawed, heroic, changing. All the more, given the pressure of being a hunter. Most importantly, give your hunter skin in the game, something urgent and important that’s at stake. Tangle them up in the story of this world.
+**Give your hunter skin in the game.** Tangle them up in the story of this world. Give the shadow a target or a source: someone or something your hunter cares about and fights for, to protect or to redeem.
 
-**Play to find out what happens.** Discover your hunter’s story; don’t plan it. Let it emerge from dice rolls, other players’ actions, your instinct for who your hunter is. Stay in the moment.
+**Play to find out what happens.** Discover your hunter’s story; don’t plan it. 
 ## Stats
 Stats are numbers, ranging from -2 to +3 that you add to dice rolls when you make moves. Your hunter has 8 core stats in 4 related and opposed pairs. 
 - **STRIKE vs. ENDURE:** give force vs. take it.
@@ -94,15 +109,28 @@ Which stat you use depends on the situation, the move, and your hunter's approac
 - **BEYOND:** using magic, or accessing or channeling a Power Beyond this world.
 - **GROUNDED:** attending to the mundane world. Noticing, tracking, keeping your footing, knowing how ordinary things work.
 ## Magic
-**There are no spells. Every spell is bespoke.** For inspiration, cross your Power’s Realm Beyond with a verb from this list: banish or harm, conjure or create, control or animate, divine or descry, illude or trick, transform or mend, ward or protect. For example:
-- **the** **Dead:** summon spirits, drain life, reduce chains to rust
-- **the Deeps:** control water, see in the dark, enter dreams
-- **the** **Heavens:** consecrate a place, raise a divine light, discern truth
-- **the Hells:** burn with fire or heal with warmth, summon imps or banish demons
-- **the Weft:** teleport, pick locks, animate a cairn
-- **the Wild:** speak with animals, animate vines, summon the wind
+**Magic is a grace of your Power Beyond. There are no spells. Every spell is bespoke.** For inspiration, cross your Power’s Realm Beyond with a verb from this list: banish or harm, conjure or create, control or animate, divine or descry, illude or trick, transform or mend, ward or protect. For example:
+- **the** **Dead:** summon spirits, hear a dead person’s last words, quiet a ghost, reduce chains to rust
+- **the Deeps:** see in the dark, enter dreams, find what’s buried, control water
+- **the** **Heavens:** consecrate a place, discern truth, lift a guilt, raise a divine light
+- **the Hells:** banish demons, bind someone to their word, mark the guilty, burn with fire
+- **the Weft:** teleport, pick locks, animate a cairn, call lightning
+- **the Wild:** speak with animals, animate vines, wake a seed in winter, summon the wind
 ## Favor
-_Favor_ is magic granted by your Power Beyond. After rolling for a basic move, you may mark 2 *favor* to add a **[[#Power Die]]** (+1d6) to the result. The GM may require *favor* for even trying major magic. Some abilities cost _favor_ to use. When you use *favor*, mark your 9-segment favor track. Filling it triggers the *[[#Meet Your Fate|meet your fate]]* move.
+**Favor** is your Power’s help, given before you ask or earned it. You call on favor for a Power Die after a roll, for major magic, and for some abilities. Each time, mark your 9-segment favor track. When it’s full, your Power comes to say what it was for: *[[#Meet Your Fate|meet your fate]]*.
+
+## Bonds
+Bonds represent the strength you can share with - or sap from - the people you have relationships with. The more significant the relationship, whether positive or negative, the more strength you can share with them, or sap. Spend a bond to trigger any bond move, except protect which refreshes a bond.
+
+The people you have bonds with will be other hunters and NPCs. You can have up to three bonds with someone: one for a relationship, two for a deep connection, three for the most significant people in your life. 
+
+Your bond with hunters is separate from their bond with you. You might have two bonds with one pact mate, and they might have none with you, because relationships are sometimes asymmetrical, not mutual.
+
+When you spend a bond, you don't lose it for good. Just for the hunt. During downtime, bonds refresh back to their maximum. So always have the maximum marked on your hunter sheet, along with how many you spent.
+
+Your hunter will start with bonds with certain people and will gain bonds, both with those starting relationship and with others you connect with during hunts. When you gain a bond with a new person, note their name, the max bond, and a descriptive tag.
+
+Tags can be anything - a bit of their background, skillsets, weaknesses, etc. - but here are some basic examples: comrade, creditor, debtor, family (be specific), kith, kin, lover, mentor, apprentice, rival, nemesis. NPC tags are not permanent, but can change when the story suggests it. You can also spend a bond to add or remove an NPC tag.
 ## Conditions & Death
 Conditions make hunting monsters harder. They reflect debilities with story effects. Mark conditions on your hunter sheet. To clear them, take the relevant solo action and enjoy a more interesting scene. Or another hunter could take make an *[[#Anchor|anchor]]* move.
 
@@ -114,13 +142,12 @@ Conditions make hunting monsters harder. They reflect debilities with story effe
 | Overshadowed | -2 BEYOND / GROUNDED       | *act in the interests of the shadow*                      |
 | Angry        | no [[#Teamwork\|teamwork]] | *take a rash action others cannot ignore*                 |
 
-Conditions cascade. If you must mark a condition you've already marked, mark the next.
+%%Conditions cascade. If you must mark a condition you've already marked, mark the next.
 - Weary → Afraid → Overwhelmed → Overshadowed
 - Angry → Overshadowed
 
-If you must mark a condition you've already marked, mark overshadowed.
-
-If you must mark *overshadowed* a second time, *act in the interest of the shadow* without clearing *overshadowed*.
+%%
+If you must mark a condition you've already marked, mark overshadowed. If you must mark *overshadowed* a second time, *act in the interest of the shadow* without clearing *overshadowed*.
 
 Wounds are freeform conditions reflecting serious physical harm. You can mark **armor** instead of a wound. Healing (mundane or magical) will stabilize you temporarily, allowing you to ignore the wound’s effects for the current scene. To clear a wound, take the *recover* beat in sanctuary.
 
@@ -136,62 +163,57 @@ No matter how many dice you roll, two 6s or two 1s count as *Power* or *shadow* 
 ## Basic Moves
 
 ### Conflict
-> **Say what your hunter wants from whom and what you do to get it.** Roll 2d6+STAT. **10+**, they give it to you. **9-**, they don't and the GM makes a move.
+> **Say what your hunter wants from whom (or what) and what you do to get it.** Roll 2d6+STAT. **10+**, you get it. **9-**, you don't and the GM makes a move.
 > 
-> *Complications:* trade wounds – prove yourself, owe a debt, or answer a counterproposal – they adapt, reinforce, or outflank you – word travels, or you're remembered and not on your terms.
+> *Complications:* trade wounds – owe a debt – word travels – someone dies.
 
 Use the *conflict* move when your hunter wants something from someone — surrender, silence, support, trust, fear, or even an item. When you act to get it — fight, plead, threaten, lie, bargain — it's time for *conflict*. Or when someone wants something from your hunter, and your hunter resists. Whenever wills vie but only one of you can prevail.
 
 ***Examples***: beseeching a river spirit to stop flooding, busking for coin from passersby, negotiating with a rival gang over turf, threatening a guard to let you pass, throwing a game of cards to ingratiate yourself to a mark.
 ### Reach
-> **Say who or what your hunter reaches for and what you risk.** Roll 2d6+STAT. **10+**, they or it opens to you. Pick one: learn something true, something in you or them/it shifts, or a bond forms or is strengthened. **9-**, they or it remains closed and the GM makes a move.
+> **Say who (or what) your hunter reaches for and what you risk.** Roll 2d6+STAT. **10+**, they (or it) opens to you. Pick one: learn something true, something in you or them (or it) shifts, or a *bond* forms, grows, or renews (gain or refresh a bond with them). **9-**, they (or it) remains closed and the GM makes a move.
 > 
 > *Complications:* the connection is unfinished, and what you risked remains threatened – divulge a secret – your belief changes: rewrite it – what opens will not close.
 
-Use the *reach* move when your hunter encounters, reaches for, or connects with someone or something — a person, a memory, a Realm, a presence not yet named. Not taking, not forcing but simply offering yourself and seeing what comes back, and potentially being changed by it. You always risk exposure, with stakes for your belief, drive, or conviction, relationships, emotional or psychic well-being, even (if less often) your physical person. This is the move for relating, finding, disarming, parting, changing; the moments your hunter opens themselves to what they can't control. The *anchor* move (see [[#Anchor|Teamwork]]) is a specialized form of *reach*.
+Use the *reach* move when your hunter encounters, reaches for, or connects with someone or something — a person, a memory, a Realm, a presence not yet named. Not taking, not forcing but simply offering yourself and seeing what comes back, and potentially being changed by it. You always risk exposure, with stakes for your belief, drive, or conviction, relationships, emotional or psychic well-being, even (if less often) your physical person. This is the move for relating, finding, disarming, parting, changing; the moments your hunter opens themselves to what they can't control.
 
 ***Examples**: reciting a poem to woo someone you long for and risking rejection; reading a letter from your long-dead mother and hoping to finally understand why she left, risking discovering a truth worse than what you feared; sitting with a dying friend and seeking closure, risking overwhelming grief; touching a shrine to see what it shows you, risking psychic backlash from its malevolent spirit.*
 ### Act
 > **Say what your hunter does.** Roll 2d6+STAT. **10+**, you do it. **9-**, you don't and the GM makes a move.
 > 
-> *Complications:* what you do is partial, temporary, or unstable – deplete a resource or need more time – go off-course, blow your cover, or put yourself in harm’s way – something or someone else pays.
+> *Complications:* it won’t hold – deplete a resource – put yourself in harm’s way – someone else pays.
 
 Use the *act* move when your hunter attempts a task with real stakes and the outcome is genuinely in doubt. No one to persuade, nothing reaching back; do or do not, nothing more. Just you against the task when the pressure is on.
 
 ***Examples**: casting a scrying spell with your last newt's eye, climbing a wall without waking those inside, recalling an ancient rite while a demon batters at the door.*
 ## Influencing Outcomes
-You can only influence basic moves.
+
 ### Before rolling
 #### Go for broke
-Take on more risk to increase your impact. Overplay your hand, open yourself recklessly, or do something big or stupid. Expose yourself to serious trouble. A 9- will be worse but a 10+, better. Gain *1 hope* when you do.
+Take on more risk to increase your impact. Overplay your hand, open yourself recklessly, or do something big or stupid. Expose yourself to serious trouble. A 9- will be worse but a 10+, better. Gain *1 hope* when you do. 
 #### Receive *help*
 +2 bonus, see [[#Teamwork Moves|Teamwork]].
 ### After rolling
 #### Improvements
-As long as you haven't already rolled *shadow*, you may improve the result. Either:
+As long as you haven't already rolled *shadow*, you may improve the result of a basic move to reach a 10. Either:
 - mark the relevant *condition* for a +1 bonus, choose a complication for a +2 bonus, or both
 - or, mark 2 *favor* to roll a power die (+1d6)
-#### Power Die
-Mark 2 *favor* to add +1d6 to your roll. Adding a power die is not guaranteed bonus. Instead, it introduces a subtle press-your-luck dynamic. If you already rolled one 1, then you bear a 1 in 6 risk of a worse than 9- outcome. Alternately, if you already rolled one 6, then you might see your Power intervene.
-## Teamwork Moves
-Teamwork moves benefit pact mates. *Angry* hunters cannot lead, participate in, or benefit from teamwork, except to have *angry* cleared by *anchor*.
-### Help
-Describe how you help to give another hunter +2 on a basic move. On a 9−, you share the consequences. Only one helper at a time.
+
+The Power Die is a gamble: a second 1 brings the _shadow_, and a second 6 brings your _Power_.
+
+## Bond Moves
+Bond moves are triggered by spending bonds, with one exception. *Reach*, a basic move not listed here, can form or strengthen a bond. *Angry* hunters cannot make bond moves, except to *hinder* or *undermine*, and they cannot receive *help*, *protect*, or *anchor*, except to have *angry* cleared by *anchor*.
+### Help (or Hinder)
+**Spend a bond with a hunter and describe how you help (or hinder) them.** They take +2 (or -2) on a basic move. When you help (not hinder), on a 9−, you share the consequences. Only one helper (or hinderer) at a time.
+
+Or, spend a bond with a hunter and take +1 on your roll against them.
 ### Protect
-Describe how you intervene to suffer consequences, other than conditions, instead of another hunter.
-### Anchor  
-**Say which of another hunter's conditions you try to clear and how.** Roll 2d6+STAT. **7+**, if they open up to you, they clear it. **10+**, also pick one: clear a condition yourself, mark 1 *bond*, or the next time one of you helps the other this scene, take +1. **6-**, you hit a nerve. Mark the condition you tried to clear. They take its solo action, clearing it themselves.
+Intervene to suffer consequences, other than conditions, instead of another hunter. Describe how. The protected hunter may refresh 1 *bond* with you.
+### Anchor (or Provoke)
+**Spend a bond with a hunter and describe how you anchor (or provoke) them.** Clear one of their marked conditions. (Or hit a nerve with one of their marked conditions. They take the condition's solo action but do not clear it.)
+### Inspire (or Undermine) an NPC
+Spend a bond with an NPC either to ensure they do excellently, or to foil their plans. This applies to the next thing they try to do.
 
-For example:
-
-| Condition    | Stat     | Question                                         |
-| ------------ | -------- | ------------------------------------------------ |
-| weary        | tend     | Can you offer what they need?                    |
-| afraid       | cunning  | Can you make a plan to get them out?             |
-| overwhelmed  | empathy  | Can you encourage them to breathe?               |
-| angry        | empathy  | Can you see beneath their anger?                 |
-| overshadowed | beyond   | Can you find them in the dark and pull them out? |
-| overshadowed | grounded | Can you reroot them in this world?               |
 ## Fate Moves
 As you call upon your Power, your Power will call on you. When your favor track fills, it will come to you and the lurking shadow may too. Your Power guides you; the shadow gives gifts. Will your life as a hunter end in reward or doom?
 
@@ -231,15 +253,15 @@ Choose:
 4. ***[[#Stats]]*** (d6x4)
 5. ***[[#Role|Role]]***: Choose a role. Note how you gain hope. Choose or roll 2 abilities total from your role abilities or the [[#Realm-based abilities]].
 #### Write...
-1. **Belief:** What does your hunter think is true about your Power? Write a declaration starting with its name or what you call it.
-2. **Drive:** Why do you hunt monsters, the shadow? Now or after the pact writes its conviction, write a statement related to your role’s drive prompt starting with “I will…”.
+1. **Drive:** What will it take to defeat the shadow? Write a statement related to your role’s drive prompt starting with “I will…”
+2. **Belief:** How will your Power help you do it? Write a declaration starting with its name, what you call it, or its Realm.
 3. **Gain two NPC connections**. 
    ▲ Who ties you to Lost Plenty (for good or for ill)? 
    ▼ Who pulls you away from (or is pushing you out of) Lost Plenty?
 4. **Gear**: You have basics – weapons, armor, etc. Want special gear? Ask the GM.
 #### All Together...
 1. **Introduce your Hunter**. The GM will ask questions.
-2. **Sketch the [[Swords Beyond online rules#World Map|world map]]**. Note on the map where your hunter's kin are from and whatever else you like. Which character's kin are Over Reach people?
+2. **Sketch the [[Swords Beyond core rules#World Map|world map]]**. Note on the map where your hunter's kin are from and whatever else you like. Which character's kin are Over Reach people?
 3. **Choose [[#the X Resource]].**
 4. **[[#Making the Pact|Make the pact]]**.
 
@@ -382,7 +404,7 @@ When people die, they pass beyond to [[#The DEAD|the Dead]]. Or the living pray 
 | **6** | with public death day ceremonies        | through blood tithe, the younger the more valuable                                  | by vowing duty to descendants over desire before their living elders                                   |
 
 ##### Cultures of the DEEPS
-[[#the DEEPS|the Deeps]] descend from curiosity. What interests you consumes you. Desire becomes hunger becomes madness. At every stage, it draws you in but the further in you go, the greater the risk of awakening, irrevocably, something horrific - around you or within. It's all fine until its not and, by then, you're not the you who can feel it.
+[[#the DEEPS|The Deeps]] descend from curiosity. What interests you consumes you. Desire becomes hunger becomes madness. At every stage, it draws you in but the further in you go, the greater the risk of awakening, irrevocably, something horrific - around you or within. It's all fine until its not and, by then, you're not the you who can feel it.
 
 |   d6    | How deep is deep?                                                                                                                                                   |
 | :-----: | ------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -413,16 +435,16 @@ Many gods, and many ways to worship each. Every heavenly kin has cults to them a
 | **6** | weaver                                               | utopians                       | ==🟠train initiates from childhood in spycraft and unarmed combat==  |
 
 ##### Cultures of the HELLS
-A society built around binding demons is powerful indeed. When they are carefully bound. Which is exactly where the hubris lies. Demons always go rogue; binders are always corrupted. History is full of warnings: there is an unavoidable cost. Who pays it, and how much?
+A wrong births a demon. A demon wrongs the wrongdoer. One becomes two becomes four becomes a plague. But a society of binders who practice the Keepers' arts can truly do justice. Humble, careful binders. For history is full of warnings: hubris has an unavoidable cost. Who pays it, and how much?
 
-| d666  | 100s Your kin dominate demons...      | 10s But bindings are going wrong, and primarily... | 1s suffer...                                            |
-| :---: | ------------------------------------- | -------------------------------------------------- | ------------------------------------------------------- |
-| **1** | for sport                             | binders and their bloodlines                       | but only in rare cases, easily explained away           |
-| **2** | to curse enemies and punish evildoers | another hunter's kin                               | increasingly regularly, despite denials                 |
-| **3** | to enchant artifacts and monuments    | the land                                           | commonly enough that most everyone has a story about it |
-| **4** | to power machinery                    | common folk                                        | pervasively and with widespread indignation             |
-| **5** | to redeem captive souls               | conscripts and scapegoats                          | inescapably but with resignation                        |
-| **6** | to ward off evil                      | your kin's standing with neighbors                 | utterly and dreadfully                                  |
+| d666  | 100s Your kin...                                      | 10s But demons are breaking free, and harming primarily... | 1s ...                                                  |
+| :---: | ----------------------------------------------------- | ---------------------------------------------------------- | ------------------------------------------------------- |
+| **1** | banish demons to redeem captive souls                 | binders and their bloodlines                               | but only in rare cases, easily explained away           |
+| **2** | bind demons to ward off evil                          | another hunter's kin                                       | increasingly regularly, despite denials                 |
+| **3** | bind demons to enchant artifacts and monuments        | the land                                                   | commonly enough that most everyone has a story about it |
+| **4** | contract with demons to power machinery               | common folk                                                | pervasively and with widespread indignation             |
+| **5** | dominate demons to curse enemies and punish evildoers | conscripts and scapegoats                                  | inescapably but with resignation                        |
+| **6** | dominate demons for sport and spite, or so they think | your kin's standing with neighbors                         | utterly and dreadfully                                  |
 
 ##### Cultures of the WEFT
 Needs must. [[#The WEFT|Weft]]-kin aren't curious; they're in crisis. The saving knowledge can't be earned by study, it must be pursued beyond reason and what seems real.
@@ -552,28 +574,28 @@ Choose a role. Your hunter's strengths will suggest one, but you can defy the na
 
 | Role                                                        |      High Stats      |
 | ----------------------------------------------------------- | :------------------: |
-| [[Swords Beyond online rules#the Shield\|the Shield]]       |   endure and tend    |
-| [[Swords Beyond online rules#the Maul\|the Maul]]           |  beyond and strike   |
-| [[Swords Beyond online rules#the Law\|the Law]]             | grounded and empathy |
-| [[Swords Beyond online rules#the Zealot\|the Zealot]]       |   strike and tend    |
-| [[Swords Beyond online rules#the Lodestone\|the Lodestone]] |  empathy and endure  |
-| [[Swords Beyond online rules#the Fox\|the Fox]]             |   cunning and rig    |
+| [[Swords Beyond core rules#the Shield\|the Shield]]       |   endure and tend    |
+| [[Swords Beyond core rules#the Maul\|the Maul]]           |  beyond and strike   |
+| [[Swords Beyond core rules#the Law\|the Law]]             | grounded and empathy |
+| [[Swords Beyond core rules#the Zealot\|the Zealot]]       |   strike and tend    |
+| [[Swords Beyond core rules#the Lodestone\|the Lodestone]] |  empathy and endure  |
+| [[Swords Beyond core rules#the Fox\|the Fox]]             |   cunning and rig    |
 | the Hound                                                   | grounded and cunning |
 | the Hex                                                     |    rig and beyond    |
 
 %%  ## Role
 |  d6   | Role                                                        | BODY | HEART | MIND | BEYOND |
 | :---: | ----------------------------------------------------------- | :--: | :---: | :--: | :----: |
-| **1** | [[Swords Beyond online rules#the Shield\|the Shield]]       |  +2  |  +1   |  -1  |   0    |
-| **2** | [[Swords Beyond online rules#the Maul\|the Maul]]           |  -1  |   0   |  0   |   +3   |
-| **3** | [[Swords Beyond online rules#the Law\|the Law]]             |  +1  |  +1   |  +1  |   -1   |
-| **4** | [[Swords Beyond online rules#the Zealot\|the Zealot]]       |  +1  |  -1   |  +2  |   0    |
-| **5** | [[Swords Beyond online rules#the Lodestone\|the Lodestone]] |  0   |  +2   |  -1  |   +1   |
-| **6** | [[Swords Beyond online rules#the Fox\|the Fox]]             |  0   |   0   |  +2  |   0    |
+| **1** | [[Swords Beyond core rules#the Shield\|the Shield]]       |  +2  |  +1   |  -1  |   0    |
+| **2** | [[Swords Beyond core rules#the Maul\|the Maul]]           |  -1  |   0   |  0   |   +3   |
+| **3** | [[Swords Beyond core rules#the Law\|the Law]]             |  +1  |  +1   |  +1  |   -1   |
+| **4** | [[Swords Beyond core rules#the Zealot\|the Zealot]]       |  +1  |  -1   |  +2  |   0    |
+| **5** | [[Swords Beyond core rules#the Lodestone\|the Lodestone]] |  0   |  +2   |  -1  |   +1   |
+| **6** | [[Swords Beyond core rules#the Fox\|the Fox]]             |  0   |   0   |  +2  |   0    |
 
 Add one additional +1 to any stat. %% 
 
-
+## Drive and Belief
 # Hunter Roles
 
 %% Shadow-sign, like myths from Mystic Bastionland.
@@ -581,12 +603,14 @@ name, omens (escalating 1-6), cast (3 npcs), two d6 tables
 
 this takes place of drive and connections.
 %%
+
+==Add: **Starting bonds.** 2 with one hunter, 1 with another, 1 each with your ▲ and ▼ NPCs. Let the role say who gets the 2.==
 ## the Shield
 The Shield protects their own. The strong one, out-bullying the bullies and reliably finishing it no matter who started it. It's not a sense of duty; defying danger is your love language, in and out of a fight.
 
 Gain hope whenever you approach a challenge with strength or tenderness.
 
-Write a drive about another hunter or the pact as a whole. What would you give to protect them?
+Write a drive about another hunter or the pact as a whole. Why is their survival vital to defeating the shadow?
 ##### Abilities
 □ **PROTECTIVE** Clear **1 favor** and mark **+1 hope** when you protect someone from harm.
 
@@ -638,7 +662,7 @@ The Law bears the crest, the seal, the writ. They come to balance the ledger. Ma
 
 Gain hope whenever you approach a challenge with influence or idealism.
 
-Write a drive about your organization or assignment. How do you hold the tension between what it is and what you want it to be?
+Write a drive about your organization or assignment. What debt to the people of the Over Reach must it pay before the shadow can be defeated?
 ##### Abilities
 □ **TRAINED INVESTIGATOR**. You have a practiced eye for examining crime scenes and sites of strange occurrences. Gain **+1** when you do. You can always find a clue when you study wounds, corpses, etc., even on a worst outcome.
 
@@ -681,7 +705,7 @@ The Lodestone is the heart of the pact and maybe the one who needs them most. To
 
 Gain hope whenever you approach a challenge with warmth or courage.
 
-Write a drive about who you were before or who you could become. What does the pact have to do with it?
+Write a drive about what you gave to the shadow or why the shadow wants more. What will it take to make yourself whole again and stop the shadow from devouring you whole?
 ##### Abilities
 □ **MINOR INDISCRETIONS**. You can draw power from the shadow. Gain a **6-segment “Indiscretion” clock**. Anytime you’d mark 2 favor, you may mark 1 segment instead. When you do, roll 1d6. If the result is less than or equal to the number of marked segments, mark _overshadowed_. Already marked? Make a fate roll instead.
 
@@ -702,7 +726,7 @@ The Fox always reads the tell and keeps their cool. That's their edge, exploitin
 
 Gain hope whenever you approach a challenge with indirection or passion.
 
-Write a drive about a vow or a guilt. Why can't you walk away from it?
+Write a drive about a vow or a guilt. Why can’t you walk away from it, even to defeat the shadow?
 ##### Abilities
 □ **SMELL IT ON ‘EM**. You always know when someone is lying to you.
 
@@ -853,6 +877,7 @@ When you’re being hunted by one or more factions, your pact suffers +2 alarm a
 
 
 # Downtime
+These are from *Bump in the Dark*. I'm considering replacing them with downtime moves a la *Rapscallion*.
 
 ## Hunter Arc
 
@@ -883,7 +908,7 @@ When you’re being hunted by one or more factions, your pact suffers +2 alarm a
 > 
 > □ **Despair**: Communing no longer provides any relief. Start a 6-segment LONG-TERM PROJECT to find a new way. You cannot COMMUNE until it’s complete. When it is, you must change either your **belief** to reflect what you learned about your Power or your **drive** to reflect what you learned about yourself.
 
-**WORK ON LONG-TERM PROJECT** (2H). When you work on a long-term project, describe what your hunter does to advance the project clock. Make a [[Swords Beyond online rules#FORTUNE ROLLS|fortune roll]] using a relevant stat and mark segments according to the results: 6- is one, 7-9 two, 10+ three, and double 6s is four.
+**WORK ON LONG-TERM PROJECT** (2H). When you work on a long-term project, describe what your hunter does to advance the project clock. Make a [[Swords Beyond core rules#FORTUNE ROLLS|fortune roll]] using a relevant stat and mark segments according to the results: 6- is one, 7-9 two, 10+ three, and double 6s is four.
 
 > A long-term project can cover a wide variety of activities, like doing research into a magic ritual, investigating a side mystery, earning someone’s trust, courting a new connection, changing your character’s solace, crafting or building new equipment, and so on.
 > 
@@ -965,8 +990,55 @@ knowledge has cost you. *Take a monstrous ability and -1 fate.* [▷]
 - **Offer an opportunity**, with or without a cost.
 - **Take something away** — an object, gear, a link, standing, or an opportunity.
 - **Inflict harm, or a condition**, as established by the fiction.
+- **Kill someone.**
 
+## Example NPC Tags
 
+Some example NPC tags from *Rapscallion* (needs editing for *Swords Beyond*) include:
+
+**Aids (something):** if you do (something) with their help, take +1. (This won’t stack in the fiction; a whole gang of lackeys helping you get into a scrap won’t give you a +15, for instance. See the description of groups, below, for a better idea of how to handle lots of lackeys.)
+
+**Baggage:** they’ve got connections, and not the good kind. A lackey with baggage may have a big bounty on their head, or an old flame that just happens to be your crew’s mortal enemy—a relationship that really complicates things.
+
+**Bound:** they must follow orders from those they are bound to. This is usually magical: such as with new djinn, created homunculi, or cursed zombies.
+
+**Connected:** they’ve got powerful friends in a faction, Fates’ choice. If you get in their way, there will likely be lots of trouble for you down the road; if you help them out, they may fetch you the ear of some important people.
+
+**Enamored:** they do what their object of affection says, and become very unreasonable when their love gets involved.
+
+**Enraptured:** they can’t take their eyes off of something. This is usually magical. Perhaps they’ve been pulled in by a siren’s call or a cursed jewel.
+
+**Ephemeral:** mundane weapons do not work on them. Usually, this means they’re a ghost or some type of spirit. Some djinn are ephemeral as well.
+
+**Inspired:** they do even difficult tasks with excellence and aplomb. Your inspired enemies might give you penalties to rolls against them, and your inspired allies may be able to aid moves they otherwise couldn’t.
+
+**Legend:** they’re a powerful foe—so powerful that you can’t affect them with your current abilities, even with your basic moves. Think of legend NPCs as big baddies and bosses. The only way to render a legend vulnerable is by learning their achilles heel: a secret weakness that allows you to fight or parley on even footing with legends, as if they were just regular threats.
+
+**Loyal:** they follow orders, even in suicidal danger or incredibly uneven odds. If your lackeys aren’t loyal, they might refuse your orders or mutiny upon sign of insurmountable trouble.
+
+**Rattled:** they’ve lost focus and will slip up at the worst moment. This tag applies to physical situations; you might take +1 when getting into a scrap with them.
+
+**Savage:** they do +1 wounds.
+
+**Scholarly (something):** they’re literate (unusual on the high seas) and know a lot about (something).
+
+**Shaken:** you’ve gotten under their skin. This tag applies to emotional situations; you might take +1 to parley with them or hoodwink them.
+
+**Shapeshifter:** they can change their form.
+
+**Skilled (something):** they possess a specialty skill: cooking, alchemy, shipwright, navigating, etc. When using this skill, the NPC can be expected to perform their job well.
+
+**Strange:** they have weird latent powers that can be used for good or ill; they can also be used to perform rituals.
+
+**Stunned:** they see stars and can’t do anything except stagger and blink. This is often a very temporary tag.
+
+**Tough-x:** they ignore x-harm of any damage dealt to them.
+
+**Undead:** they’re no longer living and can’t be killed by conventional means; once brought down, they slowly assemble themselves again and keep attacking.
+
+**Weak:** they’re useless in combat; you don’t need to roll to get into a scrap with them, because it’s not a fair fight.
+
+**Wild:** they won’t follow anyone’s orders; they might even be thinking of mutiny.
 # The Setting
 
 ## Places
@@ -1243,4 +1315,33 @@ Hargis
 
 who feeds the shadow?
 A marriage? Must marry well or lose control/status. 
+
+
+ Embody your _kin_, _culture_, _belief_, and _drive_. Struggle with them. Change your *belief* and *drive*.
+
+**Do what your hunter would do.** The game gives you **the bones** – _kin_, _culture_, _belief_, and _drive_ – and dumps them in the middle of your hunter sheet. Put flesh on those bones by acting on them, give them life by letting your hunter embody them, struggle with them, and – with *belief* and *drive* especially – change them. The game also gives you **the incentive**. Doing what your hunter would do will earn you *hope*, which you can use to unlock new hunter abilities and bonuses.
+
+**Make your hunter real.** Play like your hunter is a real person living in a real world. Multifaceted, flawed, heroic, changing. All the more, given the pressure of being a hunter. Most importantly,
+
+### Anchor
+**Spend a bond with a hunter and say which of their conditions you try to clear and how.** Roll 2d6+STAT. **7+**, if they open up to you, they clear it. **10+**, also pick one: clear a condition yourself, one of you refreshes 1 *bond* with the other, or the next time one of you helps the other this scene, take +1. **6-**, you hit a nerve. Mark the condition you tried to clear. They take its solo action, clearing it themselves.
+
+For example:
+
+| Condition    | Stat     | Question                                         |
+| ------------ | -------- | ------------------------------------------------ |
+| weary        | tend     | Can you offer what they need?                    |
+| afraid       | cunning  | Can you make a plan to get them out?             |
+| overwhelmed  | empathy  | Can you encourage them to breathe?               |
+| angry        | empathy  | Can you see beneath their anger?                 |
+| overshadowed | beyond   | Can you find them in the dark and pull them out? |
+| overshadowed | grounded | Can you reroot them in this world?               |
+
+### Anchor
+**Spend a bond with a hunter and say which of their conditions you try to clear and how.** Roll 2d6+STAT. **7+**, if they open up to you, they clear it. **10+**, also pick one: clear a condition yourself, one of you refreshes 1 *bond* with the other, or the next time one of you helps the other this scene, take +1. **6-**, you hit a nerve. Mark the condition you tried to clear. They take its solo action, clearing it themselves.
+
+### Provoke
+Spend a bond with a hunter and say which of their marked conditions you try to trigger and how. (Maybe a roll, like Anchor. Though maybe Anchor shouldn't have a roll.) They take the condition's solo action but do not clear it.
+
+Adding a power die is not guaranteed bonus. Instead, it introduces a subtle press-your-luck dynamic. If you already rolled one 1, then you bear a 1 in 6 risk of a worse than 9- outcome. Alternately, if you already rolled one 6, then you might see your Power intervene.
 %%

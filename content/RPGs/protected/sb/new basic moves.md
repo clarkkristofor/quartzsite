@@ -24,7 +24,7 @@ Use the *act* move when your hunter attempts a task with real stakes and the out
 - **BODY** — exercising strength, speed, toughness, nimbleness, or stamina.  
 - **HEART** — exercising loyalty, persuasion, empathy, cunning, or wisdom.  
 - **MIND** — exercising learning, analysis, perception, composure, or tinkering.  
-- **BEYOND** — using [[Swords Beyond online rules#Magic|magic]], or accessing or channeling a Power Beyond this world.
+- **BEYOND** — using [[Swords Beyond core rules#Magic|magic]], or accessing or channeling a Power Beyond this world.
 ### Double 6s and Double 1s
 No matter how many dice you roll, two 6s or two 1s count as *Power* or *shadow* outcomes respectively. Both heighten the importance of a scene.
 - ***Power* (two 6s)** — Your Power intervenes. It's better than 10+. Clear 2 *favor*.

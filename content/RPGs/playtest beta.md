@@ -6,7 +6,7 @@ Game: Swords Beyond
 GM: me
 date_finished: 2026-09-20
 ---
-*[[Swords Beyond online rules]]*
+*[[Swords Beyond core rules]]*
 # session notes
 ## 3. well of shadow
 Marwen found Donny the ravages elf and his three-tailed fox demon buddy in the lighthouse. Despite theological disputes about demon society in the Hells and uses of demons in this world, they managed to:
