@@ -9,7 +9,7 @@ unlisted: true
 ---
 ![[swords beyond - logo - online rules.png|center]]
 **a fantasy rpg about hunting monsters and sparing people, even the ones who act like monsters**
-https://creators.spotify.com/pod/show/daydreaming-about-dragons/episodes/Daydreaming-about-Dragons-E70S2---Table-Technique-Making-World-HistoryLore-Relevant--Inspiration-Goat-My-Neighbor-Totoro-and-Kikis-Delivery-Service-eo5rg9
+
 # Front Matter
 ## Quick Links
 Also note the red Table of Contents toggle in the lower right.
@@ -23,11 +23,10 @@ Also note the red Table of Contents toggle in the lower right.
 
 ![[swords beyond - cover - hydra.png]]
 ## Inspirations
-inspired by *[Bump in the Dark, revised edition](https://jexjthomas.itch.io/bump-in-the-dark),* by Jex Thomas, and *[Apocalypse World](https://lumpley.games/apocalypseworld/)* and *[Under Hollow Hills](https://lumpley.games/under-hollow-hills-about-the-game/)* by by D. Vincent and Meguey Baker, and Masks by Brendan Conway.
+inspired by *[Bump in the Dark, revised edition](https://jexjthomas.itch.io/bump-in-the-dark),* by Jex Thomas, and *[Apocalypse World](https://lumpley.games/apocalypseworld/)* and *[Under Hollow Hills](https://lumpley.games/under-hollow-hills-about-the-game/)* by by D. Vincent and Meguey Baker, *[Masks](https://magpiegames.com/collections/masks)* by Brendan Conway, and *[Rapscallion](https://magpiegames.com/collections/rapscallion)* by Whistler.
 
 with additional inspiration from *[13th Age](https://pelgranepress.com/13th-age/)* by Rob Heinsoo & Jonathan Tweet, *[Maze Rats](https://questingbeast.itch.io/maze-rats)*  Ben Milton, *[FIST: Ultra Edition](https://claymorerpgs.itch.io/fist)*, by B. Everett Dutton, Ripley Caldwell, T.H. Cochlin, Back-Alley Coalition, Max Danle, and *[50/50](https://docs.google.com/document/d/1NLD_KhZwrKRz3sIquZDSW_Wx__7My6Kdg1Jbk6hF7Mw/edit?pli=1&tab=t.0)* by John Harper
 
-==add Rapscallion==
 ## Resources
 - ***[Downloads](https://drive.google.com/drive/folders/1rtNJpaatjz2WGgBjgilf1uSoaCo8LBJX?usp=sharing)***
 - ***Playtests***: [[playtest delta|delta]], gamma, [[playtest beta|beta]], alpha
@@ -134,24 +133,26 @@ Tags can be anything - a bit of their background, skillsets, weaknesses, etc. - 
 ## Conditions & Death
 Conditions make hunting monsters harder. They reflect debilities with story effects. Mark conditions on your hunter sheet. To clear them, take the relevant solo action and enjoy a more interesting scene. Or another hunter could take make an *[[#Anchor|anchor]]* move.
 
-| Condition    | Debility                   | Solo Action                                               |
-| ------------ | -------------------------- | --------------------------------------------------------- |
-| Weary        | -2 STRIKE / ENDURE         | *ignore the demands of a situation to steal some respite* |
-| Afraid       | -2 RIG / TEND              | *flee, leaving something important behind*                |
-| Overwhelmed  | -2 CUNNING / EMPATHY       | *act in the interests of a rival NPC*                     |
-| Overshadowed | -2 BEYOND / GROUNDED       | *act in the interests of the shadow*                      |
-| Angry        | no [[#Teamwork\|teamwork]] | *take a rash action others cannot ignore*                 |
+| Condition    | Debility             | Solo Action                                               |
+| ------------ | -------------------- | --------------------------------------------------------- |
+| Weary        | -2 STRIKE / ENDURE   | *ignore the demands of a situation to steal some respite* |
+| Afraid       | -2 RIG / TEND        | *flee, leaving something important behind*                |
+| Overwhelmed  | -2 CUNNING / EMPATHY | *act in the interests of a rival NPC*                     |
+| Overshadowed | -2 BEYOND / GROUNDED | *act in the interests of the shadow*                      |
+| Angry        | no [[#Bond Moves]]   | *take a rash action others cannot ignore*                 |
 
-%%Conditions cascade. If you must mark a condition you've already marked, mark the next.
-- Weary → Afraid → Overwhelmed → Overshadowed
-- Angry → Overshadowed
-
-%%
-If you must mark a condition you've already marked, mark overshadowed. If you must mark *overshadowed* a second time, *act in the interest of the shadow* without clearing *overshadowed*.
+%%If you must mark a condition you've already marked, mark *overshadowed*. If you must mark *overshadowed* a second time, *act in the interest of the shadow* without clearing *overshadowed*.%%
 
 Wounds are freeform conditions reflecting serious physical harm. You can mark **armor** instead of a wound. Healing (mundane or magical) will stabilize you temporarily, allowing you to ignore the wound’s effects for the current scene. To clear a wound, take the *recover* beat in sanctuary.
 
 Your death is in the hands of *[[#Fate Moves|fate]]*.
+## Killing People
+Killing people feeds the shadow. When your hunter causes a death, a new shadow monster begins to hunt you. Until it's destroyed or sated, your hunter can't take downtime, and neither can any hunter who stands with you.  
+
+To be rid of it, either:
+- Face it and destroy it.
+- Give it part of yourself. Take -1 fate, or, if you can't, *face your doom*.
+
 ## Rolling Dice
 This game is a conversation between the players and GM, or gamemaster. Usually that conversation is natural and free-flowing. A move slows the conversation down at key moments to push the story forward.
 
@@ -192,11 +193,11 @@ Use the *act* move when your hunter attempts a task with real stakes and the out
 #### Go for broke
 Take on more risk to increase your impact. Overplay your hand, open yourself recklessly, or do something big or stupid. Expose yourself to serious trouble. A 9- will be worse but a 10+, better. Gain *1 hope* when you do. 
 #### Receive *help*
-+2 bonus, see [[#Teamwork Moves|Teamwork]].
++2 bonus, see [[#Bond Moves]].
 ### After rolling
 #### Improvements
 As long as you haven't already rolled *shadow*, you may improve the result of a basic move to reach a 10. Either:
-- mark the relevant *condition* for a +1 bonus, choose a complication for a +2 bonus, or both
+- mark a *condition* for a +1 bonus, choose a complication for a +2 bonus, or both
 - or, mark 2 *favor* to roll a power die (+1d6)
 
 The Power Die is a gamble: a second 1 brings the _shadow_, and a second 6 brings your _Power_.
@@ -206,9 +207,9 @@ Bond moves are triggered by spending bonds, with one exception. *Reach*, a basic
 ### Help (or Hinder)
 **Spend a bond with a hunter and describe how you help (or hinder) them.** They take +2 (or -2) on a basic move. When you help (not hinder), on a 9−, you share the consequences. Only one helper (or hinderer) at a time.
 
-Or, spend a bond with a hunter and take +1 on your roll against them.
+Alternatively, spend a bond with a hunter and take +2 on your roll against them.
 ### Protect
-Intervene to suffer consequences, other than conditions, instead of another hunter. Describe how. The protected hunter may refresh 1 *bond* with you.
+Intervene to suffer consequences, other than conditions, instead of another hunter. Describe how. The protected hunter may refresh 1 bond with you.
 ### Anchor (or Provoke)
 **Spend a bond with a hunter and describe how you anchor (or provoke) them.** Clear one of their marked conditions. (Or hit a nerve with one of their marked conditions. They take the condition's solo action but do not clear it.)
 ### Inspire (or Undermine) an NPC

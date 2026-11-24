@@ -16,6 +16,7 @@ previewLink: http://books.google.com/books?id=J0tIAgAAQBAJ&printsec=frontcover&d
 isbn13: 9780316229302
 isbn10: 031622930X
 localCoverImage: Files/BookCovers/The Fifth Season - N K Jemisin.jpg
-date_finished: 2016-01-07
+date_finished: 2027-01-07
 publish: true
 ---
+first read 1/7/2106

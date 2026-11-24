@@ -17,6 +17,7 @@ In order of importance. New alerts post to #alerts, each through its own incomin
 **Why it matters:** Currently one flat network — smart bulbs, switches, and cameras share the same broadcast domain as servers and personal devices. If any IoT device is compromised, it has direct network access to everything else.
 
 **Steps:**
+0. Take a Wi-Fi snapshot: list devices, band and signal (router admin → Clients) — shows which devices are 2.4 GHz-only (the IoT network must offer 2.4 GHz), which have weak signal, and the HP's own signal/link speed.
 1. Enable IoT WIFI for smart home devices (bulbs, switches, cameras, smart TVs).
 2. Set firewall rules so IoT VLAN can reach the internet + AdGuard DNS, but not the main network (servers, personal devices).
 3. Migrate devices to the new SSID one at a time, testing as you go (some smart home hubs need same-network access — check before moving).
@@ -92,6 +93,7 @@ Ranked by interest and usefulness. Difficulty is challenge + time, 0–10.
 | 21  | AI Diplomacy — play against local LLMs on the HP             | 3-4/10     |
 | 22  | AdGuard privacy report → Rocket.Chat (weekly)                | 3-4/10     |
 | 23  | Smart Feedbin filter — daily top 10 by interest (Ollama)     | 5/10       |
+| 24  | Dec 7 check: superclark.net HSTS → 6 months; DMARC reports   | 1/10       |
 
 
 **Where to build:** non-HA projects in n8n on the Acer (`http://n8n.osnet.home:5678`) — #22, #23 (scoring on the HP), Resilience #4, possibly the checking side of Resilience #2 and #3. Projects tied to HA devices stay in HA.
@@ -108,8 +110,10 @@ Ranked by interest and usefulness. Difficulty is challenge + time, 0–10.
 - **22. AdGuard privacy report** — weekly post to Clark (Rocket.Chat): which devices made the most DNS lookups, top blocked and tracking domains per device, new domains a device started contacting (e.g., "the TV contacted 40 tracking domains"). Data from AdGuard Home's query log and stats (Pi 5 main, Acer backup); built in n8n on the Acer; optional plain-English summary via `qwen3:8b`. Pairs with Resilience #1 (IoT VLAN) — shows which devices most need isolating, and later whether the VLAN changed anything. Read-only.
 - **23. Smart Feedbin filter** — the LLM scores each day's new Feedbin articles against Clark's interests and produces a daily "top 10" (filtered RSS feed, like the Kottke splitter, or starred items in Feedbin). Built in n8n on the Acer; scoring by Ollama on the HP (`qwen3:8b` first). Use Feedbin's official API only. Open: write an interests list, decide feed vs. stars, what happens when the HP is off (skip the day or pass everything through).
 
+- **24. Dec 7 check** — (1) if nothing broke since 2026-11-23, Cloudflare → SSL/TLS → Edge Certificates → HSTS → Max Age 6 months or more (Include subdomains and Preload stay off); rescan in the MDN HTTP Observatory, expect about a B. (2) Email → DMARC Management for superclark.net: every top sending source should be Proton (or another service you use) and passing; anything else sending as the domain is spoofing. Forward-only domains will show little or no data — that's expected. See [[Changelog]] 2026-11-23.
+
 ## Hardware side projects
 
 - **Air-quality sensor** — XIAO ESP32-S3 + Sensirion SCD41 (CO₂/temp/humidity) on ESPHome → HA alerts for high CO₂.
 
-**Decided against:** Pi 5 NVMe upgrade, a used NUC, Jellyfin/Immich/Frigate (2026-10-14); dice roller / RPG bot (2026-10-17); UPS/power outage alerts to Rocket.Chat — Clark's phone alerts are enough (2026-11-09). Staying at four servers.
+**Decided against:** Pi 5 NVMe upgrade, a used NUC, Jellyfin/Immich/Frigate (2026-10-14); dice roller / RPG bot (2026-10-17); UPS/power outage alerts to Rocket.Chat — Clark's phone alerts are enough (2026-11-09). Content Security Policy for superclark.net — low risk for a static site, partial credit at best with Quartz's inline scripts, upkeep at each Quartz update (2026-11-23). Staying at four servers.
