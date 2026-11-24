@@ -8,6 +8,7 @@ password:
 unlisted: true
 ---
 ![[swords beyond - logo - online rules.png|center]]
+
 **a fantasy rpg about hunting monsters and sparing people, even the ones who act like monsters**
 
 # Front Matter
